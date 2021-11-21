@@ -1,0 +1,88 @@
+political_decisions = {
+	
+	lunch_masovian_uprising = {
+		picture = masovia_uprising
+		potential = {
+			tag = CPL
+			NOT = { has_country_flag = lunched_masovian_uprising }
+			is_vassal = yes
+		}
+		allow = {
+			war = no
+			OR = {
+				year = 1840
+				BEL = { exists = yes }
+				NOT = { BOH = { brigades_compare = 1 } }
+			}
+		}
+		effect = {
+			overlord = { release_vassal = CPL country_event = 102500 }
+			add_country_modifier = {
+				name = polish_uprising_mobilization
+				duration = 2700
+			}
+			set_country_flag = lunched_masovian_uprising
+		}
+	}
+	
+	call_to_arms_in_poland = {
+		picture = masovia_uprising
+		potential = {
+			tag = CPL
+			has_country_flag = lunched_masovian_uprising
+			NOT = { has_country_flag = call_to_arms_in_poland }
+			war_with = BOH
+		}
+		allow = {
+			war_with = BOH
+			BOH = {
+				any_owned_province = {
+					controlled_by = THIS
+				}
+			}
+		}
+		effect = {
+			BOH = {
+				random_list = {
+					50 = { country_event = 102501 }
+					50 = { }
+				}
+				random_list = {
+					50 = { country_event = 102502 }
+					50 = { }
+				}
+				random_list = {
+					50 = { country_event = 102504 }
+					50 = { }
+				}
+				random_list = {
+					25 = { country_event = 102505 }
+					75 = { }
+				}
+			}
+			set_country_flag = call_to_arms_in_poland
+		}
+	}
+	
+	reforms_prince_drucki_libecki = {
+		picture = drucki_lubecki
+		potential = {
+			NOT = { year = 1846 }
+			OR = {
+				tag = CPL
+				tag = POL
+			}
+			NOT = { has_country_flag = reforms_prince_drucki_libecki }
+		}
+		allow = {
+			economic_policy = interventionism
+			stock_exchange = 1
+		}
+		effect = {
+			add_country_modifier = {
+				name = drucki_lubecki_reforms
+				duration = 7300
+			}
+		}
+	}
+}

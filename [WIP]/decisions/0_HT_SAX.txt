@@ -1,0 +1,72 @@
+political_decisions = {
+	
+	destroy_belgica = {
+		potential = {
+			is_culture_group = continental_west_germanic
+			BEL = { exists = yes }
+			neighbour = BEL
+		}
+		allow = {
+			is_our_vassal = BEL
+		}
+		effect = {
+			BEL = { country_event = 182103 }
+		}
+	}
+	
+	legalise_the_urburschenschaft_corps = {
+		picture = urburschenschaft
+		potential = {
+			tag = SAX
+			NOT = { has_country_flag = legalise_the_urburschenschaft_corps }
+		}
+		allow = {
+			OR = {
+				AND = {
+					upper_house = {
+						ideology = liberal
+						value = 0.3
+					}
+					average_consciousness = 3
+				}	
+				AND = {
+					ruling_party_ideology = liberal
+					average_consciousness = 4
+				}
+				average_militancy = 4
+			}
+		}
+		effect = {
+			set_country_flag = legalise_the_urburschenschaft_corps
+			any_pop = {
+				limit = {
+					OR = {
+					pop_majority_ideology = liberal
+					pop_majority_ideology = anarcho_liberal
+					}
+				}
+				couciousness = -3
+			}
+		}
+	}
+	
+	appoint_hecker = {
+		picture = hecker
+		potential = {
+			tag = SAX
+			NOT = { has_country_flag = appointed_hecker }
+			year = 1846
+		}
+		allow = {
+			war = no
+		}
+		effect = {
+			prestige = 15
+			set_country_flag = appointed_hecker
+			add_country_modifier = {
+				name = fredrich_hecker
+				duration = 7300
+			}
+		}
+	}
+}

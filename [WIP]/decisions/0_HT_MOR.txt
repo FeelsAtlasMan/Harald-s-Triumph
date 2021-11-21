@@ -1,0 +1,133 @@
+political_decisions = {
+    #Expansion
+	#Centralizing
+	centralize_the_empire = {
+		potential = {
+			tag = MOR
+			has_country_flag = waqt_almetaab
+		}
+		
+		allow = {
+			ANU = { all_core = { owned_by = THIS } }
+			TMB = { vassal_of = THIS }
+		}
+		effect = {
+			any_country = {
+				limit = {
+					vassal_of = THIS
+				}
+				annex_to = THIS
+			}	
+			prestige = 20
+			set_country_flag = centralized_morocco
+			remove_country_flag = waqt_almetaab
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	#Restoring order in Africa
+	regain_control_over_the_goldfields = {
+		potential = {
+			tag = MOR
+			has_country_flag = centralized_morocco
+			NOT = { has_country_flag = lost_timbuktu }
+		}
+		
+		allow = {
+			all_core = { owned_by = THIS }
+			OR = {
+			   NOT = { 1803 = { owned_by = TOO } }
+			   NOT = { 1803 = { owned_by = TOU } }
+			}
+			civilized = yes
+		}
+		effect = {
+			TOO_1791 = { add_core = THIS }
+			FRA_1801 = { add_core = THIS }
+			FRA_1783 = { add_core = THIS }
+			FRA_1878 = { add_core = THIS }
+			FRA_1883 = { add_core = THIS }
+			FRA_1798 = { add_core = THIS }
+			FRA_1901 = { add_core = THIS }
+			3404 = { add_core = THIS }
+			1778 = { add_core = THIS }
+			1881 = { add_core = THIS }
+			1882 = { add_core = THIS }
+			1905 = { add_core = THIS }
+			badboy = 20
+		}
+		ai_will_do = {
+		    factor = 1
+			modifier = {
+			     factor = 0
+				 badboy = 0.75
+			}
+		}
+	}
+	
+	#Push further into Iberia
+	push_further_into_iberia = {
+		potential = {
+			tag = MOR
+			has_country_flag = centralized_morocco
+			OR = {
+			   NOT = { has_country_flag = fighting_algaravians }
+			   NOT = { has_country_flag = leave_andalusia_alone }
+			}
+		}
+		
+		allow = {
+			all_core = { owned_by = THIS }
+			civilized = yes
+		}
+		effect = {
+			SPA_503 = { add_core = THIS }
+			SPA_487 = { add_core = THIS }
+			486 = { add_core = THIS }
+			485 = { add_core = THIS }
+			483 = { add_core = THIS }
+			495 = { add_core = THIS }
+			497 = { add_core = THIS }
+			badboy = 20
+		}
+		ai_will_do = {
+		    factor = 1
+			modifier = {
+			     factor = 0
+				 badboy = 0.75
+			}
+		}
+	}
+	
+	#Decision about the Colonies would be here
+	
+	
+	#Fulani Invasion of Timbuktu
+	fulani_invasion_tmb = {
+		potential = {
+			tag = TOO
+			NOT = { has_country_flag = timbuktu_invasion_too }
+		}
+		
+		allow = {
+			all_core = { owned_by = THIS }
+			SEG = { exists = NO }
+		}
+		effect = {
+			set_country_flag = timbuktu_invasion_too
+			badboy = 5
+			add_country_modifier = {
+	               name = fulani_jihad
+	               duration = 10950
+            }
+			MOR = { country_event = 323005 }
+		}
+		ai_will_do = {
+		    factor = 1
+			modifier = {
+			     factor = 0
+				 badboy = 0.75
+			}
+		}
+	}
+}

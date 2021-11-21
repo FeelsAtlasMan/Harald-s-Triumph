@@ -1,0 +1,223 @@
+WUL = {
+	value = 175
+	level = 3
+	influence_value = 25
+}
+THU = {
+	value = 175		
+	level = 3		
+	influence_value = 25
+}
+LUX = {
+	value = 200		
+	level = 5		
+	influence_value = 100
+}
+BRB = {
+	value = -100
+	level = 3
+}
+PLB = {
+	value = 125		
+	level = 5		
+	influence_value = 50
+}
+PRU = {
+	value = 125		
+	level = 5		
+	influence_value = 50
+}
+SMG = {
+	value = 125		
+	level = 5		
+	influence_value = 50
+}
+GLM = {
+	value = 125		
+	level = 5		
+	influence_value = 50
+}
+UKR = {
+	value = 125		
+	level = 4		
+	influence_value = 50
+}
+MNK = {
+	value = 125		
+	level = 4		
+	influence_value = 50
+}
+CUR = {
+	value = 125		
+	level = 4		
+	influence_value = 50
+}
+
+army = {
+	name = "1. Army"
+	location = 625
+	regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 560
+	}
+	
+	regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 629
+	}
+	
+	regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 560
+	}
+	
+	regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 626
+	}
+	
+	regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 631
+	}
+	
+	regiment = {
+		name= "Dragoons"
+		type = dragoon
+		home = 625
+	}
+	
+	regiment = {
+		name= "Cuirassier"
+		type = cuirassier
+		home = 683
+	}
+	
+	regiment = {
+		name= "Artillery"
+		type = artillery
+		home = 625
+	}
+	
+	regiment = {
+		name= "Artillery"
+		type = artillery
+		home = 687
+	}
+}
+
+army = {
+	name = "2. Army"
+	location = 703
+	regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 703
+	}
+	
+	regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 685
+	}
+	
+	regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 701
+	}
+	
+	regiment = {
+		name= "Dragoons"
+		type = dragoon
+		home = 684
+	}
+	
+	regiment = {
+		name= "Cuirassier"
+		type = cuirassier
+		home = 684
+	}
+	
+	regiment = {
+		name= "Artillery"
+		type = artillery
+		home = 682
+	}
+	
+	regiment = {
+		name= "Artillery"
+		type = artillery
+		home = 682
+	}
+}
+
+army = {
+	name = "2. Army"
+	location = 706
+	regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 706
+	}
+	
+	regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 693
+	}
+	
+	regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 693
+	}
+	
+	regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 700
+	}
+	
+	regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 699
+	}
+	
+	regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 699
+	}
+	
+	regiment = {
+		name= "Polish Hussars"
+		type = hussar
+		home = 682
+	}
+	
+	regiment = {
+		name= "Polish Hussars"
+		type = hussar
+		home = 705
+	}
+	
+	regiment = {
+		name= "Polish Hussars"
+		type = hussar
+		home = 714
+	}
+	
+	regiment = {
+		name= "Artillery"
+		type = artillery
+		home = 558
+	}
+}
+

@@ -1,0 +1,28 @@
+country_event = {
+	id = 800006
+	title = "Leadership in the Confederation lost"
+	desc = "We lost the leading role in German Confederation to $FROMCOUNTRY$!"
+	picture = hre_prince
+	is_triggered_only = yes
+	
+	option = {
+		name = "What a humiliation!"
+		FROM = {
+			country_event = 800007
+		}
+		clr_country_flag = leader_of_german_conf
+	}
+}
+country_event = {
+	id = 800007
+	title = "New Leader in the German Confederation"
+	desc = "We are the new Leader in the German Confederation"
+	major = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = "Amazing!"
+		set_country_flag = leader_of_german_conf
+		prestige = 20
+	}
+}

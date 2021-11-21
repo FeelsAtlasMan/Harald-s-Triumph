@@ -1,0 +1,98 @@
+political_decisions = {
+	
+	estabish_the_irish_republican_brotherhood = {
+		picture = ireland
+		potential = {
+			primary_culture = irish
+			NOT = {
+				has_global_flag = estabished_the_irish_republican_brotherhood
+			}
+			NOT = { exists = IRE }
+		}
+		allow = {
+			OR = {
+				ai = no
+				AND = {
+				part_of_sphere = yes
+				NOT = { in_sphere = NRD }
+				}
+			}
+			OR = {
+				AND = {
+					tag = SLN
+					relation = {
+						who = ULS
+						value = 100
+					}
+					relation = {
+						who = MNS
+						value = 100
+					}
+				}
+				AND = {
+					tag = ULS
+					relation = {
+						who = SLN
+						value = 100
+					}
+					relation = {
+						who = MNS
+						value = 100
+					}
+				}
+				AND = {
+					tag = MNS
+					relation = {
+						who = ULS
+						value = 100
+					}
+					relation = {
+						who = SLN
+						value = 100
+					}
+				}
+			}
+		}
+		effect = {
+			set_global_flag = estabished_the_irish_republican_brotherhood
+			SLN = { country_event = 181501 }
+			ULS = { country_event = 181501 }
+			MNS = { country_event = 181501 }
+			set_country_flag = brotherhood_leader
+		}
+		
+	}
+	
+	the_warlord_uprising = {
+		picture = ireland
+		potential = {
+			has_global_flag = estabished_the_irish_republican_brotherhood
+			primary_culture = irish
+			NOT = { exists = IRE }
+			has_country_flag = brotherhood_leader
+			NOT = { has_country_flag = go_on_home }
+		}
+		allow = {
+			war = no
+			is_vassal = yes
+		}
+		effect = {
+			any_country = {
+				limit = {
+					has_country_flag = irish_uprising_support
+				}
+				annex_to = THIS
+			}
+			LIR = {
+				annex_to = THIS
+			}
+			change_tag = IRE
+			government = hms_government
+			political_reform = wealth_voting
+			NRD = {
+				country_event = 181503
+			}
+			set_country_flag = go_on_home
+		}
+	}
+}

@@ -1,0 +1,601 @@
+#########################################################
+#														#
+#      			  Tatar Events (and raiding) 		    #
+#														#
+#########################################################
+
+#Raiding
+country_event = {
+        id = 666420
+        title = "EVTNAME666420"
+        desc = "EVTDESC666420"
+        picture = "assault_on_russian_lands"
+        
+        trigger = {
+                 has_country_flag = steppe_nation
+				 NOT = { civilized = yes }
+    }
+
+	    mean_time_to_happen = {
+		months = 6
+	}
+
+    option = {
+		name = "EVT666420OPTA"
+	    country_event = 666421
+		ai_chance = { factor = 90 }
+		clr_country_flag = recently_raided
+	}
+
+	option = {
+		name = "EVT666421OPTB"
+		ai_chance = { factor = 10 }
+		clr_country_flag = recently_raided
+	}
+}
+
+
+#Raiding results
+country_event = {
+    id = 666421
+    itle = "EVTNAME666421"
+    desc = "EVTDESC666421"
+	picture = "abd_al_qadir"
+       
+    is_triggered_only = yes
+
+    option = {
+		name = "EVT666421OPTA"
+        ammunition = 10
+        small_arms = 10
+        artillery = 25
+        canned_food = 10
+        wine = 10
+        luxury_clothes = 5
+		clothes = 40
+        machine_parts = 5
+        grain = 100
+        wool = 50
+		treasury = 5000
+		random_neighbor_province = {
+		reduce_pop = 1
+		}
+		set_country_flag = recently_raided
+	}
+
+}
+
+#Kazan has fallen
+country_event = {
+        id = 666432
+        title = "EVTNAME666432"
+        desc = "EVTDESC666432"
+        picture = "ambush_army"
+        
+		fire_only_once = yes
+        trigger = {
+                NOT = {
+				exists = KZN
+				}
+				tag = CRI
+    }
+
+	    mean_time_to_happen = {
+		months = 3
+	}
+
+    option = {
+		name = "EVT666432OPTA"
+		AKH = { country_event = 666433 }
+		SIB = { country_event = 666434 }
+		NOG = { country_event = 666435 }
+		set_country_flag = kazan_fallen
+	}
+
+	option = {
+		name = "EVT666432OPTB"
+		prestige = 10
+		set_country_flag = kazan_fallen
+	}
+}
+
+#Kazan has fallen, Astrakhan request
+country_event = {
+        id = 666433
+        title = "EVTNAME666433"
+        desc = "EVTDESC666433"
+        picture = "ambush_army"
+        
+		is_triggered_only = yes
+
+	    mean_time_to_happen = {
+		months = 3
+	}
+
+    option = {
+		name = "EVT666433OPTA"
+		CRI = { country_event = 666436 }
+		set_country_flag = diplomatic_unification
+		create_alliance = CRI
+		relation = {
+	         who = CRI
+	         value = 200
+             }
+	    ai_chance = { factor = 30 }
+	}
+
+	option = {
+		name = "EVT666433OPTB"
+		CRI = { country_event = 666437 }
+		prestige = 10
+		ai_chance = { factor = 70 }
+	}
+}
+
+#Astrakhan accepts
+country_event = {
+        id = 666436
+        title = "EVTNAME666436"
+        desc = "EVTDESC666436"
+        picture = "ambush_army"
+        
+		is_triggered_only = yes
+
+	    mean_time_to_happen = {
+		months = 3
+	}
+
+    option = {
+		name = "EVT666436OPTA"
+		prestige = 5
+		set_country_flag = diplomatic_unification
+		set_country_flag = AKH_accepts
+	}
+}
+
+#Astrakhan rejects
+country_event = {
+        id = 666437
+        title = "EVTNAME666437"
+        desc = "EVTDESC666437"
+        picture = "ambush_army"
+        
+		is_triggered_only = yes
+
+	    mean_time_to_happen = {
+		months = 3
+	}
+
+    option = {
+		name = "EVT666437OPTA"
+		set_country_flag = aggressive_unification
+		casus_belli = {
+	          target = AKH
+	          type = make_puppet
+	          months = 4
+              }
+	    badboy = 5
+		relation = {
+	        who = AKH
+	        value = -100
+                 }
+	    ai_chance = { factor = 30 }
+	}
+	
+	option = {
+		name = "EVT666437OPTA"
+		prestige = -5
+		relation = {
+	        who = AKH
+	        value = -100
+                 }
+	    ai_chance = { factor = 70 }
+	}
+}
+
+#Kazan has fallen, Nogay request
+country_event = {
+        id = 666434
+        title = "EVTNAME666434"
+        desc = "EVTDESC666434"
+        picture = "ambush_army"
+        
+		is_triggered_only = yes
+
+	    mean_time_to_happen = {
+		months = 3
+	}
+
+    option = {
+		name = "EVT666434OPTA"
+		CRI = { country_event = 666438 }
+		set_country_flag = diplomatic_unification
+		create_alliance = CRI
+		relation = {
+	         who = CRI
+	         value = 200
+             }
+	    ai_chance = { factor = 40 }
+	}
+
+	option = {
+		name = "EVT666434OPTB"
+		CRI = { country_event = 666439 }
+		prestige = 10
+		ai_chance = { factor = 60 }
+	}
+}
+
+#Nogay accepts
+country_event = {
+        id = 666438
+        title = "EVTNAME666438"
+        desc = "EVTDESC666438"
+        picture = "ambush_army"
+        
+		is_triggered_only = yes
+
+	    mean_time_to_happen = {
+		months = 3
+	}
+
+    option = {
+		name = "EVT666438OPTA"
+		prestige = 5
+		set_country_flag = diplomatic_unification
+		set_country_flag = NOG_accepts
+	}
+}
+
+#Nogay rejects
+country_event = {
+        id = 666439
+        title = "EVTNAME666439"
+        desc = "EVTDESC666439"
+        picture = "ambush_army"
+        
+		is_triggered_only = yes
+
+	    mean_time_to_happen = {
+		months = 3
+	}
+
+    option = {
+		name = "EVT666439OPTA"
+		set_country_flag = aggressive_unification
+		relation = {
+	        who = NOG
+	        value = -100
+                 }
+		badboy = 2
+		ai_chance = { factor = 30 }
+	}
+	
+	option = {
+		name = "EVT666438OPTA"
+		prestige = -5
+		relation = {
+	        who = NOG
+	        value = -100
+                 }
+		ai_chance = { factor = 70 }
+	}
+}
+
+#Kazan has fallen, Qashliq request
+country_event = {
+        id = 666435
+        title = "EVTNAME666435"
+        desc = "EVTDESC666435"
+        picture = "ambush_army"
+        
+		is_triggered_only = yes
+
+	    mean_time_to_happen = {
+		months = 3
+	}
+
+    option = {
+		name = "EVT666435OPTA"
+		CRI = { country_event = 666440 }
+		set_country_flag = diplomatic_unification
+		create_alliance = CRI
+		relation = {
+	         who = CRI
+	         value = 200
+             }
+	    ai_chance = { factor = 90 }
+	}
+
+	option = {
+		name = "EVT666435OPTB"
+		prestige = 10
+		CRI = { country_event = 666441 }
+		ai_chance = { factor = 10 }
+	}
+}
+
+#Qashliq accepts
+country_event = {
+        id = 666440
+        title = "EVTNAME666440"
+        desc = "EVTDESC666440"
+        picture = "ambush_army"
+        
+		is_triggered_only = yes
+
+	    mean_time_to_happen = {
+		months = 3
+	}
+
+    option = {
+		name = "EVT666440OPTA"
+		prestige = 5
+		set_country_flag = diplomatic_unification
+		set_country_flag = SIB_accepts
+	}
+}
+
+#Qashliq rejects
+country_event = {
+        id = 666441
+        title = "EVTNAME666441"
+        desc = "EVTDESC666441"
+        picture = "ambush_army"
+        
+		is_triggered_only = yes
+
+	    mean_time_to_happen = {
+		months = 3
+	}
+
+    option = {
+		name = "EVT666441OPTA"
+		set_country_flag = aggressive_unification
+		relation = {
+	        who = SIB
+	        value = -100
+                 }
+	    badboy = 2
+		ai_chance = { factor = 30 }
+	}
+	
+	option = {
+		name = "EVT666441OPTA"
+		prestige = -5
+		relation = {
+	        who = SIB
+	        value = -100
+                 }
+		ai_chance = { factor = 70 }
+	}
+}
+
+#Ufa asks for support
+country_event = {
+        id = 666442
+        title = "EVTNAME666442"
+        desc = "EVTDESC666442"
+        picture = "ambush_army"
+        
+		is_triggered_only = yes
+
+    option = {
+		name = "EVT666442OPTA"
+		war = {
+	             target = MUS
+	             attacker_goal = { casus_belli = humiliate }
+				 defender_goal = { casus_belli = status_quo }
+	             call_ally = yes
+              }
+	    war = {
+	             target = MSS
+	             attacker_goal = { casus_belli = humiliate }
+				 defender_goal = { casus_belli = status_quo }
+	             call_ally = yes
+              }
+	    ai_chance = { factor = 90 }
+	}
+	
+	option = {
+		name = "EVT666442OPTB"
+		prestige = -10
+		set_country_flag = rejecting_help
+		ai_chance = { factor = 10 }
+	}
+}
+
+#Avenge Kazan
+country_event = {
+        id = 666443
+        title = "EVTNAME666443"
+        desc = "EVTDESC666443"
+        picture = "ambush_army"
+        
+		is_triggered_only = yes
+
+    option = {
+		name = "EVT666443OPTA"
+	    war = {
+	             target = MSS
+	             attacker_goal = { casus_belli = acquire_all_cores country = TAR }
+				 defender_goal = { casus_belli = status_quo }
+	             call_ally = yes
+              }
+	}
+}
+
+#Chinese-Tatar Treaty 1 (good offer)
+country_event = {
+        id = 666444
+        title = "EVTNAME666444"
+        desc = "EVTDESC666444"
+        picture = "eternal_treaty"
+        
+		is_triggered_only = yes
+		
+		major = yes
+
+	option = {
+		name = "EVT666444OPTA"
+	    alliance_with = SHN
+		1554 = { secede_province = TAR }
+		1082 = { secede_province = TAR }
+		1083 = { secede_province = TAR }
+		2617 = { secede_province = TAR }
+		1084 = { secede_province = TAR }
+		1086 = { secede_province = TAR }
+		1087 = { secede_province = TAR }
+		prestige = 60
+		ai_chance = { factor = 95 }
+	}
+	
+    option = {
+		name = "EVT666444OPTB"
+	    war = {
+	             target = SHN
+	             attacker_goal = { casus_belli = demand_concession_casus_belli state_province_id = 1082 }
+				 attacker_goal = { casus_belli = demand_concession_casus_belli state_province_id = 1086 }
+				 attacker_goal = { casus_belli = demand_concession_casus_belli state_province_id = 1479 }
+				 attacker_goal = { casus_belli = demand_concession_casus_belli state_province_id = 1552 }
+				 defender_goal = { casus_belli = acquire_state state_province_id = 1072 }
+	             call_ally = no
+              }
+	    ai_chance = { factor = 5 }
+	}
+}
+
+#Chinese-Tatar Treaty 2 (neutral offer)
+country_event = {
+        id = 666446
+        title = "EVTNAME666446"
+        desc = "EVTDESC666446"
+        picture = "eternal_treaty"
+        
+		is_triggered_only = yes
+		
+		major = yes
+
+	option = {
+		name = "EVT666446OPTA"
+	    alliance_with = SHN
+		2617 = { secede_province = TAR }
+		1084 = { secede_province = TAR }
+		1083 = { secede_province = TAR }
+		1082 = { secede_province = TAR }
+		prestige = 10
+		ai_chance = { factor = 55 }
+	}
+	
+    option = {
+		name = "EVT666446OPTB"
+	    war = {
+	             target = SHN
+	             attacker_goal = { casus_belli = demand_concession_casus_belli state_province_id = 1082 }
+				 attacker_goal = { casus_belli = demand_concession_casus_belli state_province_id = 1086 }
+				 attacker_goal = { casus_belli = demand_concession_casus_belli state_province_id = 1479 }
+				 attacker_goal = { casus_belli = demand_concession_casus_belli state_province_id = 1552 }
+				 defender_goal = { casus_belli = acquire_state state_province_id = 1072 }
+	             call_ally = no
+              }
+	    ai_chance = { factor = 45 }
+	}
+}
+
+#Chinese-Tatar Treaty 3 (insulting offer)
+country_event = {
+        id = 666447
+        title = "EVTNAME666447"
+        desc = "EVTDESC666447"
+        picture = "eternal_treaty"
+        
+		is_triggered_only = yes
+		
+		major = yes
+
+	option = {
+		name = "EVT666447OPTA"
+	    alliance_with = SHN
+		2617 = { secede_province = TAR }
+		1084 = { secede_province = TAR }
+		prestige = -20
+		ai_chance = { factor = 25 }
+	}
+	
+    option = {
+		name = "EVT666447OPTB"
+	    war = {
+	             target = SHN
+	             attacker_goal = { casus_belli = demand_concession_casus_belli state_province_id = 1082 }
+				 attacker_goal = { casus_belli = demand_concession_casus_belli state_province_id = 1086 }
+				 attacker_goal = { casus_belli = demand_concession_casus_belli state_province_id = 1479 }
+				 attacker_goal = { casus_belli = demand_concession_casus_belli state_province_id = 1552 }
+				 attacker_goal = { casus_belli = treaty_port_casus_belli TAG = SHN }
+				 defender_goal = { casus_belli = acquire_state state_province_id = 1072 }
+	             call_ally = no
+              }
+	    ai_chance = { factor = 75 }
+	}
+}
+
+#The union is sundered
+country_event = {
+        id = 666445
+        title = "EVTNAME666445"
+        desc = "EVTDESC666445"
+        picture = "ambush_army"
+        
+		fire_only_once = yes
+		
+		trigger = {
+                    tag = TAR
+                    has_recently_lost_war = yes
+					OR = {
+					  AND = {
+					   truce_with = MUS
+					   NOT = { has_recently_lost_war = MUS }
+		              }
+					  AND = {
+					   truce_with = MSS
+					   NOT = { has_recently_lost_war = MSS }
+					  }
+					  has_country_flag = rejecting_help
+					}
+        }
+
+
+    option = {
+		name = "EVT666445OPTA"
+	    prestige = -20
+		change_tag = CRI
+		release_vassal = NOG
+		release_vassal = AKH
+		release_vassal = SIB
+		set_country_flag = kipchak_end
+	}
+}
+
+#Yedisan breaks away
+country_event = {
+        id = 666448
+        title = "EVTNAME666448"
+        desc = "EVTDESC666448"
+        
+		fire_only_once = yes
+		
+		trigger = {
+                    tag = CRI
+                    has_recently_lost_war = yes
+					RUS_955 = { NOT = { owned_by = this } }
+        }
+
+
+    option = {
+		name = "EVT666448OPTA"
+	    prestige = -5
+		release = YDN
+		release_vassal = CIR
+	}
+}
+
+

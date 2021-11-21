@@ -1,0 +1,200 @@
+political_decisions = {
+
+	einn_konungr_einn_kountry = {
+		picture = harald
+		potential = {
+			OR = {
+				tag = NRD
+				tag = ENG
+			}
+			centralization = confederalism
+		}
+		allow = {
+			war = no
+			invention = constitutionalism
+			has_country_modifier = nordic_monetary_union
+			OR = {
+				AND = {
+					ruling_party_ideology = liberal
+					NOT = { vote_franschise = none_voting }
+					NOT = { vote_franschise = landed_voting }
+					NOT = { vote_franschise = wealth_weighted_voting }
+				}
+				nationalism_n_imperialism = 1
+				government = democracy
+			}
+			WHA = {
+				vassal_of = THIS
+			}
+			LIR = {
+				vassal_of = THIS
+			}
+		}
+		effect = {
+			political_reform = federalism
+			WHA = { all_core = { add_core = THIS } }
+			inherit = WHA
+			LIR = {
+				inherit = SLN
+				inherit = ULS
+				inherit = MNS
+			}
+			prestige = 20
+			add_accepted_culture = norwegian
+			add_accepted_culture = danish
+			any_pop = {
+				limit = {
+					culture = englisk
+				}
+				counciousness = -2
+			}
+			random_country = {
+				limit = {
+					tag = NOR
+					vassal_of = THIS
+					exists = yes
+				}
+				annex_to = THIS
+			}
+			random_country = {
+				limit = {
+					tag = DEN
+					vassal_of = THIS
+					exists = yes
+				}
+				annex_to = THIS
+			}
+		}
+	}
+
+	protect_frisia = {
+		picture = flag_frisia
+		potential = {
+			FRI = {
+				exists = yes
+				in_sphere = THIS
+			}
+			OR = {
+			tag = ENG
+			tag = NRD
+			}
+			NOT = { has_country_flag = frisia_annexed }
+		}
+		allow = {
+			invention = expansionism
+			war = no
+			FRI = { in_sphere = THIS }
+			relation = {
+				who = FRI
+				value = 160
+			}
+		}
+		effect = {
+			relation = {
+				who = SAX
+				value = -150
+			}
+			FRI = {
+				all_core = {
+					add_core = THIS
+				}
+				annex_to = THIS
+			}
+			badboy = 7.5
+			set_country_flag = frisia_annexed
+		}
+	}
+
+	create_the_nordic_monetary_union = {
+		picture = SCA_customs_union
+		potential = {
+			OR = {
+				tag = ENG
+				tag = NRD
+			}
+			NOT = { has_country_modifier = nordic_monetary_union }
+		}
+		allow = {
+			war = no
+			business_banks = 1
+		}
+		effect = {
+			add_country_modifier = {
+				name = nordic_monetary_union
+				duration = -1
+			}
+			any_pop = {
+				limit = {
+					OR = {
+						has_pop_culture = englisk
+						has_pop_culture = danish
+						has_pop_culture = norwegian
+					}
+				}
+				consciousness = -1
+			}
+		}
+	}
+
+	the_matter_of_anglosaxons = {
+		picture = anglo_saxons
+		potential = {
+			OR = {
+				tag = ENG
+				tag = NRD
+			}
+			NOT = { has_country_flag = the_matter_of_anglosaxons }
+		}
+		allow = {
+			war = no
+			invention = biased_multiculturalism
+		}
+		effect = {
+			prestige = 5
+			country_event = 120800
+			set_country_flag = the_matter_of_anglosaxons
+		}
+	}
+	
+	north_sea_protectorate = {
+		picture = north_sea_protectorate
+		potential = {
+			tag = NRD
+			NOT = { has_country_flag = north_sea_protectorate }
+		}
+		allow = {
+			is_greater_power = yes
+			FRI = {
+				all_core = {
+					owned_by = THIS
+				}
+			}
+			NOT = { centralization = confederalism }
+			war_policy = jingoism
+		}
+		effect = {
+			NET = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			OLD = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			FLA = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			HOL = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			add_core = 531
+			set_country_flag = north_sea_protectorate
+		}
+	}
+}

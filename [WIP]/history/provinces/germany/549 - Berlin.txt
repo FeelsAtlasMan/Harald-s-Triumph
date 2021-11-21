@@ -1,0 +1,23 @@
+owner = PLB
+controller = PLB
+add_core = PLB
+add_core = CZH
+trade_goods = fruit
+life_rating = 35
+railroad = 1
+fort = 1
+state_building = {
+	level = 1
+	building = fabric_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = ammunition_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = small_arms_factory
+	upgrade = yes
+}

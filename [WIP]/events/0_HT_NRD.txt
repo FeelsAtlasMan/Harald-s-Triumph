@@ -1,0 +1,561 @@
+country_event = {
+	id = 120800
+	title = "The Anglo-Saxon Question"
+	desc = "EVTDESC120800"
+	picture = "revolution"
+	is_triggered_only = yes
+	
+	option = {
+		name = "Attempt to integrate them"
+		set_variable = {
+			name = anglo_saxon_integration
+			value = 1
+		}
+	}
+	
+	option = {
+		name = "Continue to persecute them"
+		any_owned = {
+			limit = {
+				OR = {
+				pop_majority_culture = british
+				is_core = MRC
+				}
+			}
+			add_province_modifier = {
+				name = anglo_saxon_integration
+				duration = 2700
+			}
+		}
+		change_variable = {
+			name = anglo_saxon_revolt
+			value = 2
+		}
+	}
+}
+country_event = {
+	id = 120801
+	title = "The Act of Preservence"
+	desc = "EVTDESC120800"
+	picture = "revolution"
+	fire_only_once = yes
+	
+	trigger = {
+		OR = {
+			tag = NRD
+			tag = ENG
+		}
+		check_variable = {
+			name = anglo_saxon_integration
+			value = 6
+		}
+		war = no
+	}
+	
+	option = {
+		name = "May we coexist in peace"
+		add_accepted_culture = british
+		any_pop = {
+			limit = {
+				culture = british
+			}
+			militancy = -3
+		}
+	}
+}
+country_event = {
+	id = 120802
+	title = "Anglo-Saxon Revolution"
+	desc = "EVTDESC120802"
+	picture = "revolution"
+	fire_only_once = yes
+	
+	trigger = {
+		OR = {
+			tag = NRD
+			tag = ENG
+		}
+		check_variable = {
+			name = anglo_saxon_revolt
+			value = 6
+		}
+		war = no
+		any_owned_province = {
+			OR = {
+			is_core = WSX
+			is_core = ESX
+			is_core = SUX
+			}
+		}
+	}
+	
+	option = {
+		name = "We'll subdue them like always"
+		release = WSX
+		WSX = {
+			add_country_modifier = {
+				name = fanatic_army
+				duration = 2700
+			}
+		}
+		war = {
+			target = WSX
+			attacker_goal = { casus_belli = conquest }
+			defender_goal = { casus_belli = status_quo }
+			call_ally = no
+		}
+		random_list = {
+			50 = {
+				release = SUX
+				SUX = {
+					add_country_modifier = {
+						name = fanatic_army
+						duration = 2700
+					}
+				}
+				war = {
+					target = SUX
+					attacker_goal = { casus_belli = conquest }
+					defender_goal = { casus_belli = status_quo }
+					call_ally = no
+				}
+			}
+			50 = {
+			}
+		}
+		random_list = {
+			50 = {
+				release = ESX
+				ESX = {
+					add_country_modifier = {
+						name = fanatic_army
+						duration = 2700
+					}
+				}
+				war = {
+					target = ESX
+					attacker_goal = { casus_belli = conquest }
+					defender_goal = { casus_belli = status_quo }
+					call_ally = no
+				}
+			}
+			50 = {
+			}
+		}
+		random_list = {
+			50 = {
+				any_owned = {
+					limit = {
+						is_core = MRC
+						pop_majority_culture = british
+					}
+					secede_province = MRC
+				}
+				MRC = {
+					add_country_modifier = {
+						name = fanatic_army
+						duration = 2700
+					}
+				}
+				war = {
+					target = MRC
+					attacker_goal = { casus_belli = conquest }
+					defender_goal = { casus_belli = acquire_all_cores country = MRC }
+					call_ally = no
+				}
+			}
+			50 = {
+			}
+		}
+		random_list = {
+			50 = {
+				release = KNT
+				KNT = {
+					add_country_modifier = {
+						name = fanatic_army
+						duration = 2700
+					}
+				}
+				war = {
+					target = KNT
+					attacker_goal = { casus_belli = conquest }
+					defender_goal = { casus_belli = status_quo }
+					call_ally = no
+				}
+			}
+			50 = {
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 120803
+	title = "The Matter of Australia"
+	desc = "EVTDESC120803"
+	picture = "cyprus_convention"
+	trigger = {
+		war = no
+		tag = ABB
+		OR ={
+			ABB = { ai = yes }
+			NRD = { ai = yes }
+		}
+		OR = {
+		   #1405 = { owned_by = ABB }
+		   AND = { 
+		      ABB = { has_country_flag = abb_western_administration }
+			  ABB = { has_country_flag = abb_western_advisors }
+		   }
+		   AND = { 
+		      ABB = { has_country_flag = abb_mamluk_administration }
+			  ABB = { has_country_flag = abb_mamluk_advisors }
+		   }
+		   AND = { 
+		      ABB = { has_country_flag = abb_western_administration }
+			  ABB = { has_country_flag = abb_mamluk_advisors }
+		   }
+		   AND = { 
+		      ABB = { has_country_flag = abb_mamluk_administration }
+			  ABB = { has_country_flag = abb_western_advisors }
+		   }
+	   }
+	}
+	
+	mean_time_to_happen = { months = 10 }
+	fire_only_once = yes
+
+	option = {
+		name = "We will push our claims!"
+		NRD = { country_event = 120804 }
+		badboy = 5
+		ai_chance = {
+			factor = 13
+			modifier = {
+				factor = 0
+				AND = {
+				    ABB = { has_country_flag = abb_mamluk_administration }
+			        ABB = { has_country_flag = abb_mamluk_advisors }
+				}
+			}
+			modifier = {
+				factor = 1
+				AND = {
+				    ABB = { has_country_flag = abb_western_administration }
+			        ABB = { has_country_flag = abb_western_advisors }
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "We'll give up our claims on the Northern Coast!"
+		NRD = { country_event = 120805 }
+		ai_chance = {
+			factor = 53
+			modifier = {
+				factor = 0.1
+				AND = {
+				    ABB = { has_country_flag = abb_mamluk_administration }
+			        ABB = { has_country_flag = abb_mamluk_advisors }
+				}
+			}
+			modifier = {
+				factor = 0.9
+				AND = {
+				    ABB = { has_country_flag = abb_western_administration }
+			        ABB = { has_country_flag = abb_western_advisors }
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "We have no interest in Australia."
+		NRD = { country_event = 120806 }
+		set_country_flag = sold_australia
+		ai_chance = {
+			factor = 23
+			modifier = {
+				factor = 0.9
+				AND = {
+				    ABB = { has_country_flag = abb_mamluk_administration }
+			        ABB = { has_country_flag = abb_mamluk_advisors }
+				}
+			}
+			modifier = {
+				factor = 0.1
+				AND = {
+				    ABB = { has_country_flag = abb_western_administration }
+			        ABB = { has_country_flag = abb_western_advisors }
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 120804
+	title = "The Abbasid Demand"
+	desc = "EVTDESC120804"
+	picture = "cyprus_convention"
+	is_triggered_only = yes
+
+	option = {
+		name = "Let them have their worthless deserts!"
+		ABB = { country_event = 120807 } #Treaty of Alexandria
+		2603 = { remove_core = AST }
+		2506 = { remove_core = AST }
+		2505 = { remove_core = AST }
+		badboy = -2
+		ai_chance = { factor = 20 }
+	}
+	
+	option = {
+		name = "We'll put them into their place!"
+		ABB = { country_event = 120808 } #War Threat
+		badboy = 2
+		ai_chance = { factor = 80 }
+	}
+}
+
+country_event = {
+	id = 120805
+	title = "The Abbasid Proposal"
+	desc = "EVTDESC120805"
+	picture = "cyprus_convention"
+	is_triggered_only = yes
+
+	option = {
+		name = "This seems like a fair deal"
+		ABB = { country_event = 120807 } #Treaty of Alexandria
+		2603 = { remove_core = NAL }
+		2506 = { remove_core = NAL }
+		2505 = { remove_core = NAL }
+		ai_chance = { factor = 100 }
+	}
+	
+	option = {
+		name = "We demand the entire continent!"
+		ABB = { country_event = 120808 } #War Threat
+		badboy = 10
+		ai_chance = { factor = 0 }
+	}
+}
+
+country_event = {
+	id = 120806
+	title = "The Abbasid offer to sell Australia"
+	desc = "EVTDESC120806"
+	picture = "cyprus_convention"
+	is_triggered_only = yes
+
+	option = {
+		name = "A fine deal!"
+		ABB = { treasury = 100000 }
+		NAL = { all_core = { add_core = AST } }
+		NAL = { all_core = { remove_core = NAL } }
+		any_core = {
+		        limit = { 
+					  is_core = AST
+			    }
+			    secede_province = NRD
+		}
+		ai_chance = { factor = 100 }
+	}
+	
+	option = {
+		name = "They'll give it to us for free!"
+		ABB = { country_event = 120808 } #War Threat
+		badboy = 10
+		ai_chance = { factor =  0 }
+	}
+}
+
+country_event = {
+	id = 120807
+	title = "The Treaty of Alexandria of $YEAR$"
+	desc = "EVTDESC120807"
+	is_triggered_only = yes
+
+	major = yes
+	
+	option = {
+		name = "The issue of Australia is finally settled!"
+		ABB = { prestige = 30 }
+		ABB = { set_country_flag = abb_australia }
+		NRD = { prestige = 30 }
+		NAL = { all_core = { secede_province = ABB } }
+		AST = { all_core = { secede_province = ABB } } 
+		any_owned = { limit = { is_core = AST } secede_province = NRD }
+	}
+}
+
+country_event = {
+	id = 120808
+	title = "The Anglo-Norse threaten to escalate the situation!"
+	desc = "EVTDESC120808"
+	picture = "cyprus_convention"
+	is_triggered_only = yes
+
+	option = {
+		name = "We have to give in."
+		ABB = { prestige = -30 }
+		NRD = { prestige = 30 }
+		NAL = { all_core = { add_core = AST } }
+		NAL = { all_core = { remove_core = NAL } }
+		AST = { all_core = { secede_province = NRD } }
+		AST = { all_core = { secede_province = ABB } } 
+		any_owned = { limit = { is_core = AST } secede_province = NRD }
+		ai_chance = { factor = 70 }
+	}
+	
+	option = {
+		name = "To war!"
+		NRD = { 
+		    war = {
+	             target = ABB
+	             attacker_goal = { casus_belli = cut_down_to_size_ottoman country = ABB }
+	             defender_goal = { casus_belli = cut_down_to_size_ottoman country = NRD }
+	             call_ally = no
+            }
+		}
+		ai_chance = { factor = 30 }
+	}
+}
+
+#Lost Australia Abbasids
+country_event = {
+	id = 120809
+	title = "The war is lost."
+	desc = "EVTDESC120809"
+	picture = "australia2nd"
+	
+	major = yes
+	
+	trigger = {
+	       war = no
+		   has_recently_lost_war = yes
+		   has_country_flag = lost_australian_war
+	}
+
+	mean_time_to_happen = { months = 1 }
+	
+	fire_only_once = yes
+	
+	option = {
+		name = "Embarrassing..."
+		NAL = { all_core = { add_core = AST } }
+		NAL = { all_core = { remove_core = NAL } }
+		AST = { all_core = { secede_province = ABB } } 
+		any_owned = { limit = { is_core = AST } secede_province = NRD }
+		prestige = -20
+		set_country_flag = lost_australia
+	}
+}
+
+#Lost Australia NRD
+country_event = {
+	id = 120810
+	title = "The war is lost."
+	desc = "EVTDESC120810"
+	picture = "australia2nd"
+	
+	major = yes
+	
+	trigger = {
+	       war = no
+		   has_recently_lost_war = yes
+		   has_country_flag = lost_australian_war
+	}
+
+	mean_time_to_happen = { months = 1 }
+	
+	fire_only_once = yes
+	
+	option = {
+		name = "Embarrassing..."
+		AST = { all_core = { add_core = NAL } }
+		AST = { all_core = { remove_core = AST } }
+		NAL = { all_core = { secede_province = NRD } } 
+		any_owned = { limit = { is_core = NAL } secede_province = ABB } 
+		prestige = -20
+		ABB = { set_country_flag = abb_australia }
+	}
+}
+
+country_event = {
+	id = 120811
+	title = "The Nordic Monetary Union"
+	desc = "EVTDESC120811"
+	picture = "revolution"
+	fire_only_once = yes
+
+	trigger = {
+		NRD = {
+			has_country_modifier = nordic_monetary_union
+		}
+		tag = SWE
+		OR = {
+			relation = {
+				who = NRD
+				value = 25
+			}
+			alliance_with = NRD
+			in_sphere = NRD
+		}
+		NOT = { war_with = NRD }
+	}
+
+	option = {
+		name = "We'll gladly join the union!"
+		add_country_modifier = {
+			name = nordic_monetary_union
+			duration = -1
+		}
+		relation = {
+			who = NRD
+			value = 100
+		}
+		prestige = 15
+	}
+
+	option = {
+		name = "Everything but the Anglo-Norse scum!"
+		prestige = 5
+		relation = {
+			who = NRD
+			value = -100
+		}
+	}
+}
+country_event = {
+	id = 120812
+	title = "800 Ar ver standa!"
+	desc = "EVTDESC120812"
+	picture = "revolution"
+	fire_only_once = yes
+
+	trigger = {
+		exists = NRD
+		tag = NRD
+		year = 1866
+	}
+
+	option = {
+		name = "Superb history lesson!"
+		prestige = 25
+		any_pop = {
+			limit = {
+				culture = englisk
+			}
+			militancy = -3
+		}
+		any_pop = {
+			limit = {
+				culture = british
+			}
+			conciousness = 3
+		}
+	}
+}

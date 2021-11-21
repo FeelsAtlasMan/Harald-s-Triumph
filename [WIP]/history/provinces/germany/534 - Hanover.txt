@@ -1,0 +1,17 @@
+owner = SAX
+controller = SAX
+add_core = SAX
+add_core = GER
+trade_goods = fruit
+life_rating = 35
+terrain = hanover
+state_building = {
+	level = 1
+	building = canned_food_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = liquor_distillery
+        upgrade = yes
+}

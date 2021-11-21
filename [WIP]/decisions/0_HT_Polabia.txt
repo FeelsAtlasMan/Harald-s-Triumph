@@ -1,0 +1,105 @@
+political_decisions = {
+	
+	embrace_industrialisation = {
+		picture = mining_union_upper_katanga
+		potential = {
+			tag = PLB
+			NOT = { has_country_flag = polabian_tech_school }
+		}
+		allow = {
+			positivism = 1
+			early_railroad = 1
+			industry_score = 25			
+		}
+		effect = {
+			set_country_flag = polabian_tech_school
+			tech_school = polabian_tech_school
+			capital = 546
+			546 = {
+				naval_base = 1
+				fort = 1
+				railroad = 1
+			}
+			politica_reform = unitary
+			add_country_modifier = {
+				name = successful_industrialist
+				duration = 3600
+			}
+			ai_will_do = { factor = 1 }
+		}
+	}
+	
+	bend_the_knee = {
+		picture = vassal_submission
+		potential = {
+			tag = PLB
+			NOT = { has_country_flag = bend_the_knee }
+		}
+		allow = {
+			OR = {
+				relation = {
+					who = SAX
+					value = 100
+				}
+				year = 1850
+				war_with = BOH
+			}
+		}
+		effect = {
+			set_country_flag = bend_the_knee
+			random_country = {
+				limit = {
+					tag = THIS
+					part_of_sphere = yes
+					sphere_owner = {
+						NOT = { tag = SAX }
+					}
+				}
+				sphere_owner = {
+					diplomatic_influence = {
+						who = THIS
+						value = -200
+					}
+					relation = {
+						who = THIS
+						value = -150
+					}
+				}
+			}
+			SAX = {
+				country_event = 178000
+			}
+			ai_will_do = { factor = 1 }
+		}
+	}
+	
+	greater_polabia = {
+		picture = greater_polabia
+		potential = {
+			tag = PLB
+			NOT = {
+				has_country_flag = greater_polabia
+			}
+		}
+		allow = {
+			all_core = {
+				owned_by = THIS
+			}
+			OR = {
+				is_greater_power = yes
+				NOT = { has_country_flag = HRE_country }
+			}
+			is_vassal = no
+			war_policy = jingoism
+		}
+		effect = {
+			PRU = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			set_country_flag = greater_polabia
+			badboy = 5
+		}
+	}
+}

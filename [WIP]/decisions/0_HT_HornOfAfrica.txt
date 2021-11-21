@@ -1,0 +1,450 @@
+political_decisions = {
+    become_negusa_nagast = {
+		picture = become_negusa_nagast
+		potential = {
+			OR = {
+				tag = GON
+				tag = SHW
+				tag = MDB
+				tag = AGW
+				tag = INY
+				tag = MLO
+			}
+			ETH = { exists = no }
+			NOT = { has_country_flag = tewodros_rules }
+		}
+		
+		allow = {
+			war = no
+			owns = 1852
+			OR = {
+				GON = { exists = no }
+				tag = GON
+			}
+			OR = {
+				SHW = { exists = no }
+				tag = SHW
+			}
+			OR = {
+				MDB = { exists = no }
+				tag = MDB
+			}
+			OR = {
+				AGW = { exists = no }
+				tag = AGW
+			}
+			OR = {
+				INY = { exists = no }
+				tag = INY
+			}
+			OR = {
+				MLO = { exists = no }
+				tag = MLO
+			}
+			ETH = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						empty = yes
+						province_id = 1848
+						province_id = 1849
+						province_id = 1850
+						owner = { NOT = { primary_culture = amhara } }
+					}
+				}
+			}
+		}
+		
+		effect = {
+			clr_country_flag = claimed_negusa_nagast
+			set_global_flag = is_negusa_nagast
+			GON = { all_core = { remove_core = GON } }
+			SHW = { all_core = { remove_core = SHW } }
+			TIG = { all_core = { remove_core = TIG } }
+			AGW = { all_core = { remove_core = AGW } }
+			INY = { all_core = { remove_core = INY } }
+			MLO = { all_core = { remove_core = MLO } }
+			add_accepted_culture = amhara
+			add_accepted_culture = tigrinya
+			add_accepted_culture = tigray
+			add_accepted_culture = agaw
+			add_accepted_culture = silte
+			add_accepted_culture = sidama
+			add_accepted_culture = oromo
+			add_accepted_culture = harari
+			ETH_1848 = { add_core = TIG }
+			change_tag = ETH
+			add_country_modifier = { name = disunited_country duration = 3650 }
+			any_country = {
+				limit = {
+					any_owned_province = { is_core = ETH }
+					civilized = no
+					NOT = { tag = THIS }
+				}
+				relation = { who = THIS value = -400 }
+				leave_alliance = THIS
+			}
+			any_pop = { limit = { OR = { is_primary_culture = yes is_accepted_culture = yes } } militancy = -4 }
+		}
+		
+		ai_will_do = { factor = 1 }
+	}
+	
+	conquest_of_the_south = {
+		picture = conquest_of_the_south
+		potential = {
+		    OR = {
+			    tag = ETH
+				tag = ADL
+				tag = JWE
+			}
+			exists = yes
+			NOT = { has_country_flag = conquest_of_the_south }
+			1864 = { empty = yes }
+			1866 = { empty = yes }
+			1867 = { empty = yes }
+		}
+		
+		allow = {
+			war = no
+			owns = 1866
+			owns = 3426
+			owns = 3427
+			OR = {
+				land_reform = yes_land_reform
+				admin_reform = yes_admin_reform
+				AND = {
+					foreign_weapons = yes_foreign_weapons
+					foreign_officers = yes_foreign_officers
+				}
+				civilization_progress = 0.4
+				civilized = yes
+				year = 1885
+			}
+		}
+		
+		effect = {
+			set_country_flag = conquest_of_the_south
+			years_of_research = 1
+			1864 = { add_core = ETH secede_province = ETH any_pop = { literacy = -0.99 } life_rating = 21 }
+			3428 = { add_core = ETH secede_province = ETH any_pop = { literacy = -0.99 } life_rating = 21 }
+		}
+		
+		ai_will_do = { factor = 1 }
+	}
+	
+	build_addis_ababa = {
+		picture = addis_ababa_building
+		potential = {
+			tag = ETH
+			owns = 1859
+			NOT = { has_country_flag = addis_ababa_built }
+			year = 1880
+		}
+		
+		allow = {
+			war = no
+			OR = {
+				civilized = yes
+				civilization_progress = 0.5
+				year = 1886
+			}
+			owns = 1859
+		}
+		
+		effect = {
+			set_country_flag = addis_ababa_built
+			prestige = 5
+			years_of_research = 1
+			1859 = {
+				change_province_name = "Addis Ababa"
+				life_rating = 5
+				add_province_modifier = {
+	                        name = baby_boom_assimilation
+	                        duration = 1400
+                            }
+			}
+			capital = 1859
+			GON = { all_core = { remove_core = GON } }
+			SHW = { all_core = { remove_core = SHW } }
+			TIG = { all_core = { remove_core = TIG } }
+			ETH_1848 = { add_core = TIG }
+		}
+		
+		ai_will_do = { factor = 1 }
+	}
+	
+	unite_somalia = {
+	picture = unite_somalia
+		potential = {
+			primary_culture = somali
+			NOT = { has_global_flag = somalia_united }
+		}
+
+		allow = {
+			war = no
+			1868 = { owned_by = THIS }
+			1869 = { owned_by = THIS }
+			1871 = { owned_by = THIS }
+			1872 = { owned_by = THIS }
+			1873 = { owned_by = THIS }
+			1874 = { owned_by = THIS }
+			3426 = { owned_by = THIS }
+			3427 = { owned_by = THIS }
+		}
+
+		effect = {
+			set_global_flag = somalia_united
+			prestige = 5
+			all_core = { add_core = SOM }
+			HBY = { all_core = { remove_core = HBY } }
+			GEL = { all_core = { remove_core = GEL } }
+			MAJ = { all_core = { remove_core = MAJ } }
+			WRL = { all_core = { remove_core = WRL } }
+			RRI = { all_core = { remove_core = WRL } }
+			OGD = { all_core = { remove_core = WRL } }
+			1875 = { add_core = SOM }
+			1865 = { add_core = SOM }
+			1867 = { add_core = SOM }
+			2031 = { add_core = SOM }
+			change_tag = SOM
+			any_pop = { militancy = -4 }			
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	jewish_ethiopia = {
+	#picture = unite_somalia
+		potential = {
+			tag = SMN
+			JWE = { exists = no }
+		}
+
+		allow = {
+			war = no
+			owns = 1852
+			OR = {
+				GON = { exists = no }
+				tag = GON
+			}
+			OR = {
+				SHW = { exists = no }
+				tag = SHW
+			}
+			OR = {
+				MDB = { exists = no }
+				tag = MDB
+			}
+			OR = {
+				AGW = { exists = no }
+				tag = AGW
+			}
+			OR = {
+				INY = { exists = no }
+				tag = INY
+			}
+			OR = {
+				MLO = { exists = no }
+				tag = MLO
+			}
+			ETH = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						empty = yes
+						province_id = 1848
+						province_id = 1849
+						province_id = 1850
+						owner = { NOT = { primary_culture = amhara } }
+					}
+				}
+			}
+		}
+		
+		effect = {
+			clr_country_flag = claimed_negusa_nagast
+			set_global_flag = is_negusa_nagast
+			GON = { all_core = { remove_core = GON } }
+			SHW = { all_core = { remove_core = SHW } }
+			TIG = { all_core = { remove_core = TIG } }
+			AGW = { all_core = { remove_core = AGW } }
+			INY = { all_core = { remove_core = INY } }
+			MLO = { all_core = { remove_core = MLO } }
+			add_accepted_culture = amhara
+			add_accepted_culture = tigrinya
+			add_accepted_culture = tigray
+			add_accepted_culture = agaw
+			add_accepted_culture = silte
+			add_accepted_culture = sidama
+			add_accepted_culture = oromo
+			add_accepted_culture = harari
+			ETH = { all_core = { add_core = THIS } }
+			ETH_1848 = { add_core = TIG }
+			change_tag = JWE
+			any_country = {
+				limit = {
+					any_owned_province = { is_core = ETH }
+					civilized = no
+					NOT = { tag = ABB }
+					NOT = { tag = THIS }
+				}
+				relation = { who = THIS value = -400 }
+				leave_alliance = THIS
+			}
+			any_pop = { limit = { OR = { is_primary_culture = yes is_accepted_culture = yes } } militancy = -4 }
+		}
+		
+		ai_will_do = { factor = 1 }
+	}
+	
+	build_new_jerusalem = {
+		picture = addis_ababa_building
+		potential = {
+			tag = JWE
+			owns = 1859
+			NOT = { has_country_flag = addis_ababa_built }
+			year = 1880
+		}
+		
+		allow = {
+			war = no
+			OR = {
+				civilized = yes
+				civilization_progress = 0.5
+				year = 1886
+			}
+			owns = 1859
+		}
+		
+		effect = {
+			set_country_flag = addis_ababa_built
+			prestige = 5
+			years_of_research = 1
+			1859 = {
+				change_province_name = "Adisi Iyerusalemi"
+				life_rating = 5
+				add_province_modifier = {
+	                        name = baby_boom_assimilation
+	                        duration = 1400
+                            }
+			}
+			capital = 1859
+			GON = { all_core = { remove_core = GON } }
+			SHW = { all_core = { remove_core = SHW } }
+			TIG = { all_core = { remove_core = TIG } }
+			ETH_1848 = { add_core = TIG }
+		}
+		
+		ai_will_do = { factor = 1 }
+	}
+	
+	cushite_state = {
+	picture = unite_somalia
+		potential = {
+			tag = SOM
+			nationalism_n_imperialism = 1
+			NOT = { has_country_flag = pan_cushitic_state }
+		}
+
+		allow = {
+			war = no
+			SOM = { all_core = { owned_by = THIS } }
+			OR = {
+			   is_secondary_power = yes
+			   is_greater_power = yes
+			}
+		}
+
+		effect = {
+			set_country_flag = pan_cushitic_state
+			prestige = 50
+			AWS = { all_core = { add_core = SOM } }
+			ETH_1859 = { add_core = SOM }
+			ETH_1865 = { add_core = SOM }
+			ETH_1862 = { add_core = SOM }
+			2025 = { add_core = SOM }
+			2025 = { secede_province = THIS }
+			2025 = { life_rating = 25 }
+			3439 = { add_core = SOM }
+			3439 = { secede_province = THIS }
+			3439 = { life_rating = 25 }
+			2027 = { add_core = SOM }
+			2024 = { add_core = SOM }
+			2033 = { add_core = SOM }
+			2032 = { add_core = SOM }
+			2030 = { add_core = SOM }
+			2029 = { add_core = SOM }	
+            2047 = { add_core = SOM }			
+			add_accepted_culture = iraqw
+			add_accepted_culture = cushitic
+			add_accepted_culture = afar
+			add_accepted_culture = harari
+			add_accepted_culture = rendille
+            add_accepted_culture = oromo
+            add_accepted_culture = sidama	
+            add_accepted_culture = beja
+            add_accepted_culture = agaw			
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	reestablish_the_adal_sultanate = {
+	picture = adal_sultanate
+		potential = {
+		    OR = {
+			   primary_culture = somali
+			   primary_culture = afar
+			   }
+			NOT = { has_country_flag = syriac_country }
+		}
+
+		allow = {
+			war = no
+			1874 = { owned_by = THIS }
+			1875 = { owned_by = THIS }
+			1865 = { owned_by = THIS }
+			ETH_1853 = { owned_by = THIS }
+			SHW = { all_core = { owned_by = THIS } }
+		}
+
+		effect = {
+			prestige = 20
+			all_core = { add_core = ADL }
+			SHW = { all_core = { add_core = THIS } }
+			SHW = { all_core = { remove_core = SHW } }
+			3426 = { add_core = THIS }
+			3427 = { add_core = THIS }
+			1867 = { add_core = THIS }
+			1865 = { add_core = THIS }
+			SOM_1872 = { add_core = THIS }
+			change_tag = ADL
+			add_accepted_culture = afar
+			add_accepted_culture = somali
+			add_accepted_culture = harari
+			add_accepted_culture = oromo
+			add_accepted_culture = tigray
+			add_accepted_culture = tigrinya
+			add_accepted_culture = amhara
+			add_accepted_culture = yemeni_arabic
+			any_pop = { 
+			     limit = {
+				      OR = {
+				        religion = sunni
+					    religion = shiite
+					  }
+				 }
+			     militancy = -6 
+			}			
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

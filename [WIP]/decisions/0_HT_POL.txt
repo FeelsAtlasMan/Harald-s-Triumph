@@ -1,0 +1,41 @@
+political_decisions = {
+	
+	krzywoustys_legacy = {
+		potential = {
+			tag = POL
+			NOT = { has_country_flag = big_poland }
+		}
+		allow = {
+			is_greater_power = yes
+			war_policy = jingoism
+			all_core = {
+				owned_by = THIS
+			}
+			SLS = {
+				all_core = {
+					owned_by = THIS
+				}
+			}
+		}
+		effect = {
+			badboy = 10
+			SLS = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			PML = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			681 = { add_core = THIS }
+			696 = { add_core = THIS }
+			PZN = { all_core = { limit = { owned_by = THIS } remove_core = PZN } }
+			CPL = { all_core = { limit = { owned_by = THIS } remove_core = CPL } }
+			KRA = { all_core = { limit = { owned_by = THIS } remove_core = KRA } }
+			BOH = { all_core = { limit = { is_core = THIS NOT = { is_core = SLS } } remove_core = BOH } }
+			set_country_flag = big_poland
+		}
+	}
+}

@@ -1,0 +1,277 @@
+#Hispanola Region (516000) #see Dominican Republic.txt for balance of region
+#Ruled by Haiti 1836
+#Port au Prince (312000/78000 POPS)
+2213 = {
+	aristocrats = {
+		culture = french
+		religion = catholic
+		size = 825
+	}
+	
+	officers = {
+		culture = french
+		religion = catholic
+		size = 150
+	}
+
+	clergymen = {
+		culture = french
+		religion = catholic
+		size = 175
+	}
+
+	artisans = {
+		culture = french
+		religion = catholic
+		size = 9050
+	}
+
+	soldiers = {
+		culture = french
+		religion = catholic
+		size = 1100
+	}
+	
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 15000
+	}
+	
+	aristocrats = {
+		culture = maghrebi
+		religion = sunni
+		size = 100
+	}
+	
+	clergymen = {
+		culture = maghrebi
+		religion = sunni
+		size = 175
+	}
+
+	artisans = {
+		culture = maghrebi
+		religion = sunni
+		size = 2300
+	}
+
+	soldiers = {
+		culture = maghrebi
+		religion = sunni
+		size = 1100
+	}
+	
+	farmers = {
+		culture = maghrebi
+		religion = sunni
+		size = 10000
+	}
+	
+	aristocrats = {
+		culture = kreol
+		religion = catholic
+		size = 125
+	}
+
+	clergymen = {
+		culture = kreol
+		religion = catholic
+		size = 75
+	}
+
+	artisans = {
+		culture = kreol
+		religion = catholic
+		size = 7050
+	}
+
+	soldiers = {
+		culture = kreol
+		religion = catholic
+		size = 1100
+	}
+
+	farmers = {
+		culture = kreol
+		religion = catholic
+		size = 11000
+	}
+	
+	clergymen = {
+		culture = taino
+		religion = catholic
+		size = 75
+	}
+
+	artisans = {
+		culture = taino
+		religion = catholic
+		size = 950
+	}
+
+	soldiers = {
+		culture = taino
+		religion = catholic
+		size = 100
+	}
+	
+	farmers = {
+		culture = taino
+		religion = catholic
+		size = 9000
+	}
+	
+	clergymen = {
+		culture = siboney
+		religion = catholic
+		size = 75
+	}
+
+	artisans = {
+		culture = siboney
+		religion = catholic
+		size = 750
+	}
+
+	soldiers = {
+		culture = siboney
+		religion = catholic
+		size = 100
+	}
+	
+	farmers = {
+		culture = siboney
+		religion = catholic
+		size = 10000
+	}
+	
+	artisans = {
+		culture = north_german
+		religion = protestant
+		size = 1050
+	}
+}
+#Cap Haitien (204000/51000 POPS)
+2215 = {
+	aristocrats = {
+		culture = north_german
+		religion = protestant
+		size = 550
+	}
+
+	clergymen = {
+		culture = north_german
+		religion = protestant
+		size = 1075
+	}
+
+	artisans = {
+		culture = north_german
+		religion = protestant
+		size = 6550
+	}
+	
+	artisans = {
+		culture = french
+		religion = catholic
+		size = 2550
+	}
+	
+	artisans = {
+		culture = maghrebi
+		religion = sunni
+		size = 1550
+	}
+
+	soldiers = {
+		culture = north_german
+		religion = protestant
+		size = 2200
+	}
+	
+	farmers = {
+		culture = north_german
+		religion = protestant
+		size = 30000
+	}
+	
+	clergymen = {
+		culture = french
+		religion = catholic
+		size = 175
+	}
+
+	artisans = {
+	    culture = french
+		religion = catholic
+		size = 550
+	}
+	
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 7500
+	}
+	
+	clergymen = {
+		culture = siboney
+		religion = protestant
+		size = 75
+	}
+
+	artisans = {
+	   culture = siboney
+		religion = protestant
+		size = 250
+	}
+	
+	farmers = {
+		culture = siboney
+		religion = protestant
+		size = 10825
+	}
+	
+	clergymen = {
+		culture = taino
+		religion = protestant
+		size = 25
+	}
+
+	artisans = {
+	   culture = taino
+		religion = protestant
+		size = 150
+	}
+	
+	farmers = {
+		culture = taino
+		religion = protestant
+		size = 3000
+	}
+	
+	farmers = {
+		culture = macoris
+		religion = protestant
+		size = 1000
+	}
+	
+	clergymen = {
+		culture = kreol
+		religion = protestant
+		size = 105
+	}
+
+	artisans = {
+	   culture = kreol
+		religion = protestant
+		size = 500
+	}
+	
+	farmers = {
+		culture = kreol
+		religion = protestant
+		size = 10000
+	}
+
+}

@@ -1,0 +1,94 @@
+AGC = {
+	value = -400
+}
+OMA = {
+	value = 400
+}
+QNG = {
+	value = 125
+}
+ASH = {
+	value = 50
+}
+BEN = {
+	value = 50
+}
+ZUL = {
+	value = 50
+}
+DAH = {
+	value = 40
+}
+OYO = {
+	value = 35
+}
+ARO = {
+	value = 50
+}
+CLA = {
+	value = 50
+}
+WRI = {
+	value = 40
+}
+KON = {
+	value = 25
+}
+LOA = {
+	value = 75
+}
+BSQ = {
+	value = -100
+}
+CAT = {
+	value = -35
+}
+ATR = {
+	value = -135
+}
+MOR = {
+	value = -200
+}
+CST = {
+	value = -120
+}
+
+
+army = {
+	name = "Ejército Toledano"
+	location = 487
+	regiment = {
+		name= "1o de Infantería"
+		type = infantry
+		home = 487
+	}
+	
+	regiment = {
+		name= "2o de Infantería"
+		type = infantry
+		home = 487
+	}
+	
+	regiment = {
+		name= "1o de Dragones"
+		type = dragoon
+		home = 489
+	}
+	
+	regiment = {
+		name= "1o de Artillería"
+		type = artillery
+		home = 482
+	}
+}
+
+leader = {
+	name = "Fernando Jiménez"
+	picture = european_general_55
+	type = land
+	date = 1825.8.20
+	background = aristocrat
+	personality = soldierly
+	prestige = 0.1
+	}
+

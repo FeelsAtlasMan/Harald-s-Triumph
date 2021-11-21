@@ -1,0 +1,269 @@
+country_event = {
+	id = 181600
+	title = "The Lombard Leauge Created!"
+	desc = "EVTDESC181600"
+	is_triggered_only = yes
+	major = yes
+
+	option = {
+		name = "Avanti!"
+		set_country_flag = league_leader
+		prestige = 25
+	}
+}
+country_event = {
+	id = 181601
+	title = "EVTNAME181601"
+	desc = "EVTDESC181601"
+	is_triggered_only = yes
+	picture = italian_parliment
+	
+	option = {
+		name = "Great!"
+		prestige = 5
+	}
+}
+country_event = {
+	id = 181602
+	title = "The Crown of Piedmont"
+	desc = "EVTDESC181602"
+	is_triggered_only = yes
+	picture = piemont
+	
+	option = {
+		name = "We will ask the Pope for his blessing"
+		random_country = { limit = { tag = PAP exists = yes } country_event = 181604 }
+	}
+	
+	option = {
+		name = "Times of Charlamagne are long gone."
+		relation = {
+			who = PAP
+			value = -100
+		}
+		#random_country = { limit = { tag = PAP exists = yes } country_event = }
+	}
+}
+country_event = {
+	id = 181603
+	title = "The Crown of Tuscany"
+	desc = "EVTDESC181603"
+	is_triggered_only = yes
+	picture = tuscany
+	
+	option = {
+		name = "We will ask the Pope for his blessing"
+		random_country = { limit = { tag = PAP exists = yes } country_event = 181604 }
+	}
+	
+	option = {
+		name = "Times of Charlamagne are long gone."
+		relation = {
+			who = PAP
+			value = -100
+		}
+		#random_country = { limit = { tag = PAP exists = yes } country_event = }
+	}
+}
+country_event = {
+	id = 181604
+	title = "EVTNAME181604" #Pope decideds
+	desc = "EVTDESC181604"
+	is_triggered_only = yes
+	picture = christian_religion
+	
+	option = {
+		name = "He shall recieve it"
+		FROM = { country_event = 181605 }
+		prestige = 15
+	}
+	
+	option = {
+		name = "He's a bloodstained conqueror!"
+		FROM = {
+			relation = {
+				who = THIS
+				value = -100
+			}
+			country_event = 181606
+		}
+	}
+}
+country_event = {
+	id = 181605
+	title = "EVTNAME181605" #Pope says yes
+	desc = "EVTDESC181605"
+	is_triggered_only = yes
+	picture = christian_religion
+	
+	option = {
+		name = "Great!"
+		remove_country_modifier = illigitimate_crown
+		prestige = 15
+	}
+}
+country_event = {
+	id = 181606
+	title = "EVTNAME181606" #Pope Trolls your dummy thick nation
+	desc = "EVTDESC181606"
+	is_triggered_only = yes
+	picture = christian_religion
+	
+	option = {
+		name = "Then I'll conquer him too!"
+		prestige = -10
+		any_pop = {
+			militancy = 3
+		}
+	}
+}
+country_event = {
+	id = 181607
+	title = "Royal Marriage Offer" #Naples ask France to fuck
+	desc = "EVTDESC181607"
+	is_triggered_only = yes
+	picture = treaty_of_deez
+	
+	option = {
+		name = "We will accept."
+		diplomatic_influence = {
+			who = SIC
+			value = 125
+		}
+		FROM = {
+			prestige = 30
+		}
+	}
+	option = {
+		name = "We will not accept."
+		FROM = {
+			prestige = -15
+			relation = {
+				who = THIS
+				value = -50
+			}
+		}
+		diplomatic_influence = {
+			who = SIC
+			value = -50
+		}
+	}
+}
+country_event = {
+	id = 181608
+	title = "Papal Request"
+	desc = "EVTDESC181608"
+	is_triggered_only = yes
+	picture = christian_religion
+	
+	option = {
+		name = "We shall accomodate their needs"
+		PAP = {
+			create_vassal = MLT
+			money = -50000
+		}
+		money = 50000
+	}
+
+	option = {
+		name = "We shall accomodate their needs"
+		PAP = {
+			prestige = 15
+			add_casus_belli = {
+				target = SYC
+				type = release_puppet
+				months = 12
+			}
+			relation = {
+				who = SYC
+				value = -100
+			}
+		}
+	}
+}
+country_event = {
+	id = 181609
+	title = "Golden Bulla of $YEAR$"
+	desc = "EVTDESC181609"
+	is_triggered_only = yes
+	picture = pope
+	
+	option = {
+		name = "We will strive to unite Italy"
+		set_country_flag = kingdom_of_god_enabled
+		any_country = {
+			limit = {
+				has_country_flag = lombard_leauge_member
+			}
+			relation = {
+				who = PAP
+				value = -100
+			}
+		}
+		badboy = 2
+		prestige = 15
+	}
+	
+	option = {
+		name = "We will not resist the Lombard League"
+		set_country_flag = bitch_ass_pope
+		prestige = -15
+	}
+}
+
+country_event = {
+	id = 181610
+	title = "City of Brindisi"
+	desc = "EVTDESC181610"
+	is_triggered_only = yes
+	picture = brindisi
+	
+	option = {
+		name = "We will accept their offer"
+		FROM = {
+			money = 50000
+			758 = { secede_province = THIS remove_core = ANC add_core = THIS }
+		}
+		money = -50000
+	}
+	
+	option = {
+		name = "The price is too high"
+		prestige = -5
+	}
+}
+
+
+country_event = {
+	id = 181611
+	title = "Island of Corsica"
+	desc = "EVTDESC181611"
+	is_triggered_only = yes
+	picture = corsica
+	
+	option = {
+		name = "We will accept their offer"
+		FROM = {
+			money = 50000
+			473 = { secede_province = THIS remove_core = GEN add_core = THIS }
+		}
+		money = -50000
+	}
+	
+	option = {
+		name = "The price is too high"
+		prestige = -5
+	}
+}
+country_event = {
+	id = 181612
+	title = "$FROMCOUNTRY$ Joins the Lombard League"
+	desc = "New member joined the Leauge"
+	is_triggered_only = yes
+	picture = italian_parliment
+	
+	option = {
+		name = "Great!"
+		prestige = 5
+	}
+}

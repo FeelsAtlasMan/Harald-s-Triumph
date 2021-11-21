@@ -1,0 +1,15 @@
+army = {
+	name = "Armee van Leck"
+	location = 395
+	regiment = {
+		name= "1. Infantrie van Leck"
+		type = infantry
+		home = 395
+	}
+	regiment = {
+		name= "2. Infantrie van Leck"
+		type = infantry
+		home = 395
+	}
+}
+

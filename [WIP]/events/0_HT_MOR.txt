@@ -1,0 +1,296 @@
+#Civil War events
+
+#Information on current status
+country_event = {
+	id = 323000
+	title = "Waqt Al-Meta'ab"
+	desc = "EVTDESC323000"
+	picture = "siege_of_herat"
+	fire_only_once = yes
+	
+	trigger = {
+		tag = MOR
+	}
+	
+	option = {
+		name = "An uncertain future..."
+		set_country_flag = waqt_almetaab
+	}
+}
+
+#Rebellion of Abu Said (Algeria Proper) - Only if Timbuktu is lost
+country_event = {
+	id = 323001
+	title = "Abu Said storms Tilimsan!"
+	desc = "EVTDESC323001"
+	picture = "abu_said_revolt"
+	fire_only_once = yes
+	
+	trigger = {
+		OR = {
+		   NOT = { ANU = { vassal_of = THIS } }
+		   war_with = ANU
+		}
+		NOT = { has_country_flag = centralized_morocco }
+		tag = MOR
+	}
+	
+	option = {
+	    name = "We have to restore our authority!"
+		ZYD = { change_tag = ALD }
+		release_vassal = ALD
+		MOR = {
+		   war = {
+	           target = ALD
+	           attacker_goal = { casus_belli = conquest }
+	           defender_goal = { casus_belli = status_quo }
+	           call_ally = no
+           }
+		}
+		BBB = { country_event = 323002 }
+		set_country_flag = abu_saids_revolt
+		ai_chance = {
+			factor = 99
+		}
+	}
+	
+	option = {
+	    name = "Let them go"
+		ZYD = { release = ALD }
+		ALD = { all_core = { remove_core = MOR } }
+		release_vassal = ALD
+		BBB = { country_event = 323002 }
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+country_event = {
+	id = 323002
+	title = "Abu Saids Rebellion"
+	desc = "EVTDESC323002"
+	picture = "abu_said_revolt"
+	
+	is_triggered_only = yes
+	
+	option = {
+	    name = "We join his cause!"
+		ALD = { inherit = THIS }
+		BBB = { all_core = { add_core = ALD } }
+		ai_chance = {
+			factor = 80
+		}
+	}
+	
+	option = {
+	    name = "We remain loyal to the Sultan"
+		MOR = { inherit = THIS }
+		ai_chance = {
+			factor = 20
+			modifier = {
+				factor = 0
+				NOT = { MOR = { war_with = ALD } }
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 323003
+	title = "Losing control over M'zab"
+	desc = "EVTDESC323003"
+	#picture = "abu_said_revolt"
+	fire_only_once = yes
+	
+	trigger = {
+		OR = {
+		   NOT = { ZYD = { vassal_of = THIS } }
+		   war_with = ALD
+		}
+		tag = MOR
+	}
+	
+	option = {
+	    name = "We have to restore our authority!"
+		release_vassal = MZB
+		MOR = {
+		   war = {
+	           target = MZB
+	           attacker_goal = { casus_belli = conquest }
+	           defender_goal = { casus_belli = status_quo }
+	           call_ally = no
+           }
+		}
+		ai_chance = {
+			factor = 10
+		}
+	}
+	
+	option = {
+	    name = "We dont have a choice"
+		release_vassal = MZB
+		MZB = { all_core = { remove_core = MOR } }
+		ai_chance = {
+			factor = 90
+		}
+	}
+}
+
+#Alawite Revolt
+country_event = {
+	id = 323004
+	title = "Unrest in the Tafilalt"
+	desc = "EVTDESC323004"
+	picture = "alawite_rebellion"
+	fire_only_once = yes
+	
+	trigger = {
+	    tag = MOR
+		ALD = { is_independant = yes }
+		ALD = { war = no }
+		ANU = { is_independant = yes }
+		ANU = { war = no }
+		NOT = { has_country_flag = centralized_morocco }
+	}
+	
+	option = {
+	    name = "Put them into their place!"
+		release_vassal = MTF
+		MOR = {
+		   war = {
+	           target = MTF
+	           attacker_goal = { casus_belli = civil_war }
+	           defender_goal = { casus_belli = civil_war }
+	           call_ally = no
+           }
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+	
+	option = {
+	    name = "We'll lead the rebellion!"
+		release_vassal = MTF
+		change_tag_no_core_switch = MTF
+		MOR = {
+		   war = {
+	           target = MTF
+	           attacker_goal = { casus_belli = civil_war }
+	           defender_goal = { casus_belli = civil_war }
+	           call_ally = no
+           }
+		}
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+#Fulani Invasion of Timbuktu
+country_event = {
+	id = 323005
+	title = "The Fulani Invasion of Timbuktu"
+	desc = "EVTDESC323005"
+	picture = "alawite_rebellion"
+	
+	is_triggered_only = yes
+	
+	option = {
+	    name = "They'll kneel before us!"
+		TOO = {
+		   war = {
+	           target = MOR
+	           attacker_goal = { casus_belli = cut_down_to_size }
+	           defender_goal = { casus_belli = cut_down_to_size }
+	           call_ally = no
+           }
+		}
+		ai_chance = {
+			factor = 80
+		}
+	}
+	
+	option = {
+	    name = "We'll give up Timbuktu"
+		TOO = { inherit = TMB }
+		TMB = { all_core = { add_core = TOO } }
+		TMB = { all_core = { remove_core = MOR remove_core = TMB } }
+		ai_chance = {
+			factor = 20
+		}
+	}
+}
+
+#The Fulanis defeated us...
+country_event = {
+	id = 323006
+	title = "The Fulani defeated us..."
+	desc = "EVTDESC323006"
+	picture = "alawite_rebellion"
+	
+	trigger = {
+	    tag = MOR
+		has_recently_lost_war = yes
+		has_country_flag = got_cut_down
+		truce_with = TOO		   
+	}
+	
+	option = {
+	    name = "A sad day for our nation..."
+		release_vassal = TMB
+		TOO = { inherit = TMB }
+		TMB = { all_core = { add_core = TOO } }
+		TMB = { all_core = { remove_core = MOR } }
+		TMB = { all_core = { remove_core = TMB } }
+		clr_country_flag = got_cut_down
+		set_country_flag = lost_timbuktu
+	}
+}
+
+#The Fall of Timbuktu
+country_event = {
+	id = 323007
+	title = "The Fall of Timbuktu"
+	desc = "EVTDESC323007"
+	picture = "alawite_rebellion"
+	
+	trigger = {
+	    1803 = { controlled_by = TOO }
+		TOO = { war_with = MOR }
+		tag = MOR
+	}
+	
+	major = yes
+	
+	option = {
+	    name = "The Sahel is lost..."
+		end_war = TOO
+		TOO = { inherit = TMB }
+		TMB = { all_core = { remove_core = MOR } }
+		TMB = { all_core = { remove_core = TMB } }
+		TMB = { all_core = { add_core = TOO } }
+		prestige = -20
+		ai_chance = {
+			factor = 80
+		}
+	}
+	
+	option = {
+	    name = "We wont give up!"
+		end_war = TOO
+		TOO = { inherit = TMB }
+		TMB = { all_core = { add_core = TOO } }
+		war = {
+	           target = TOO
+	           attacker_goal = { casus_belli = acquire_all_cores }
+	           defender_goal = { casus_belli = humiliate }
+	           call_ally = no
+           }
+		set_country_flag = lost_timbuktu
+		ai_chance = {
+			factor = 20
+		}
+	}
+}

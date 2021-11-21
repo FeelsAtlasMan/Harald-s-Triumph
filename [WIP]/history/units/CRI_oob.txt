@@ -1,0 +1,254 @@
+#Relations
+
+UKR = { 
+	value = -150
+	truce_until = "1838.1.12"
+}
+
+RYA = { 
+	value = -150
+}
+
+AKH = { 
+	value = 50
+}
+
+BYZ = { 
+	value = -150
+	truce_until = "1840.1.12"
+}
+
+leader = {
+	name = "Makhmut Faysi"
+	date = 1820.1.1
+	type = land
+	personality = steadfast
+	background = adventurer
+	prestige = 0.2
+}
+
+leader = {
+	name = "Rustam Faysi"
+	date = 1820.1.1
+	type = land
+	personality = perverse
+	background = adventurer
+	prestige = 0.2
+}
+
+leader = {
+	name = "Baqi Yanbayev"
+	date = 1820.1.1
+	type = land
+	personality = perverse
+	background = aristocrat
+	prestige = 0.2
+}
+
+leader = {
+	name = "Chingiz Beg"
+	date = 1820.1.1
+	type = land
+	personality = steadfast
+	background = adventurer
+	prestige = 0.2
+}
+
+leader = {
+	name = "Asaf Tinchurin"
+	date = 1820.1.1
+	type = land
+	personality = skilled
+	background = generals_aide
+	prestige = 0.2
+}
+
+army = {
+	name = "Dniester Tribes"
+	location = 969
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+		home = 676
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+		home = 969
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+		home = 969
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+		home = 969
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+		home = 678
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+		home = 678
+	}
+	regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 678
+	}
+}
+
+army = {
+	name = "Dnieper Tribes"
+	location = 970
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+		home = 970
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+		home = 971
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+		home = 971
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+		home = 972
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+		home = 972
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+		home = 968
+	}
+	regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 968
+	}
+}
+
+army = {
+	name = "1.Raiders of the Faysi"
+	location = 972
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+		home = 969
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+		home = 676
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+		home = 676
+	}
+}
+
+army = {
+	name = "2.Raiders of the Faysi"
+	location = 978
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+		home = 978
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+		home = 978
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+		home = 978
+	}
+}
+
+
+army = {
+	name = "Don Tribes"
+	location = 979
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+		home = 979
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+		home = 979
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+		home = 980
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+		home = 980
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+		home = 980
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+		home = 1047
+	}
+	regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 980
+	}
+}
+
+army = {
+	name = "Army of the Khan"
+	location = 964
+	regiment = {
+		name= "Guard"
+		type = guard
+		home = 964
+	}
+	regiment = {
+		name= "Guard"
+		type = guard
+		home = 964
+	}
+	regiment = {
+		name= "Guard"
+		type = guard
+		home = 967
+	}
+	regiment = {
+		name= "Artillery"
+		type = artillery
+		home = 967
+	}
+}
+
+
+
+

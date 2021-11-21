@@ -1,0 +1,756 @@
+political_decisions = {
+    tatar_union_diplo = {
+	 picture = batu_khan
+	 potential = {
+				 is_culture_group = kipchak
+				 CRI = { has_country_flag = diplomatic_unification }
+				 NOT = {
+					exists = TAR
+				    }
+				 tag = CRI
+			  } 
+	allow = {
+				war = no
+				has_country_flag = NOG_accepts
+				has_country_flag = AKH_accepts
+			    has_country_flag = SIB_accepts
+				}
+               	
+   	effect = {
+		create_vassal = AKH
+		create_vassal = NOG
+        create_vassal = SIB	
+        change_tag = TAR
+        add_accepted_culture = crimean_tatar
+		add_accepted_culture = astrakhan_tatar
+		add_accepted_culture = bulgar_tatar		
+		add_accepted_culture = siberian_tatar
+		add_accepted_culture = nogay_tatar
+	}
+   ai_will_do = {
+			factor = 1
+		}
+  }
+  
+  
+  tatar_union_mil = {
+	 picture = batu_khan
+	 potential = {
+				is_culture_group = kipchak
+				NOT = {
+					exists = TAR
+				    }
+				tag = CRI
+		} 
+	allow = {
+				war = no
+				AND = {
+					 is_our_vassal = NOG
+					 is_our_vassal = AKH
+					 is_our_vassal = SIB
+					}   
+			}
+   	effect = {
+        change_tag = TAR
+        add_accepted_culture = crimean_tatar
+		add_accepted_culture = astrakhan_tatar
+		add_accepted_culture = bulgar_tatar		
+		add_accepted_culture = siberian_tatar
+		add_accepted_culture = nogay_tatar
+	}
+	ai_will_do = {
+			factor = 1
+		}
+  }
+  
+  tatar_formation = {
+			picture = batu_khan
+			potential = {
+				is_culture_group = kipchak
+                NOT = { tag = CRI }				
+				NOT = {
+					exists = TAR
+				}
+			}
+		
+			allow = {
+				NOT = { war = yes }
+				civilized = yes
+				NOG = {
+					all_core = {
+						OR = {
+							owned_by = THIS
+							owner = {
+								in_sphere = THIS
+							}
+						}
+					}
+				}
+				KZN = {
+					all_core = {
+						OR = {
+							owned_by = THIS
+							owner = {
+								in_sphere = THIS
+							}
+						}
+					}
+				}
+				CRI = {
+					all_core = {
+						OR = {
+							owned_by = THIS
+							owner = {
+								in_sphere = THIS
+							}
+						}
+					}
+				}
+				AKH = {
+					all_core = {
+						OR = {
+							owned_by = THIS
+							owner = {
+								in_sphere = THIS
+							}
+						}
+					}
+				}
+				SIB = {
+					all_core = {
+						OR = {
+							owned_by = THIS
+							owner = {
+								in_sphere = THIS
+							}
+						}
+					}
+				}
+			}
+			effect = {
+				prestige = 20
+				change_tag = TAR
+				add_accepted_culture = crimean_tatar
+		        add_accepted_culture = astrakhan_tatar
+		        add_accepted_culture = bulgar_tatar		
+                add_accepted_culture = siberian_tatar
+		        add_accepted_culture = nogay_tatar
+				set_country_flag = tar_not_cri
+				any_country = {
+					limit = {
+						is_culture_group = kipchak
+						in_sphere = THIS
+					}
+					country_event = 11101
+				}
+			}
+			ai_will_do = {
+				factor = 1
+			}
+	}
+	vassalize_nogay_rej = {
+	 potential = {
+	            has_country_flag = kazan_fallen
+				NOT = { has_country_flag = NOG_accepts }
+				NOT = { has_country_flag = NOG_vassal }
+				NOT = {
+					exists = TAR
+				    }
+				tag = CRI
+		} 
+	allow = {
+				war = no
+				is_our_vassal = AKH
+			}
+   	effect = {
+        casus_belli = {
+	          target = NOG
+	          type = make_puppet
+	          months = 4
+              }
+	    badboy = 4
+		set_country_flag = NOG_vassal
+	}
+  }
+  vassalize_nogay_acc = {
+	 potential = {
+	            has_country_flag = kazan_fallen
+				has_country_flag = NOG_accepts
+				NOT = { has_country_flag = AKH_accepts }
+				NOT = { has_country_flag = NOG_vassal }
+				NOT = {
+					exists = TAR
+				    }
+				tag = CRI
+		} 
+	allow = {
+				war = no
+				is_our_vassal = AKH 
+			}
+   	effect = {
+        create_vassal = NOG
+	    badboy = 1
+		set_country_flag = NOG_vassal
+	}
+  }
+  vassalize_sib_rej = {
+	 potential = {
+	            has_country_flag = kazan_fallen
+				NOT = { has_country_flag = SIB_vassal }
+				NOT = { has_country_flag = SIB_accepts }
+				NOT = {
+					exists = TAR
+				    }
+				tag = CRI
+		} 
+	allow = {
+				war = no
+				is_our_vassal = NOG
+			}
+   	effect = {
+        casus_belli = {
+	          target = SIB
+	          type = make_puppet
+	          months = 4
+              }
+	    badboy = 4
+		set_country_flag = SIB_vassal
+	}
+  }
+  vassalize_sib_acc = {
+	 potential = {
+	            has_country_flag = kazan_fallen
+				has_country_flag = SIB_accepts
+				NOT = { has_country_flag = SIB_vassal }
+				NOT = {
+					exists = TAR
+				    }
+				tag = CRI
+		} 
+	allow = {
+				war = no
+				is_our_vassal = NOG 
+			}
+   	effect = {
+        create_vassal = SIB
+	    badboy = 1
+		set_country_flag = SIB_vassal
+	}
+  }
+  vassalize_akh_acc = {
+	 potential = {
+	            has_country_flag = kazan_fallen
+				has_country_flag = AKH_accepts
+				NOT = { has_country_flag = AKH_vassal }
+				NOT = {
+					exists = TAR
+				    }
+				tag = CRI
+		} 
+	allow = {
+				war = no
+				alliance_with = AKH
+			}
+   	effect = {
+        create_vassal = AKH
+	    badboy = 1
+		set_country_flag = AKH_vassal
+	}
+  }
+  
+ask_kipchak = {
+	 potential = {
+			   exists = TAR
+			   tag = BSK
+			   NOT = { has_country_flag = called_tar }
+			   has_country_flag = bashkir_rebellion
+		} 
+	allow = {
+				war = yes
+			}
+   	effect = {
+        TAR = { country_event = 666442 }
+		set_country_flag = called_tar
+		clr_country_flag = bashkir_rebellion
+	}
+	
+	ai_will_do = {
+			factor = 1
+		}
+		
+  }
+  
+bashkortostan_joins_kipchaks = {
+	 potential = {
+			   exists = TAR
+			   tag = BSK
+			   NOT = { has_country_flag = bashkir_rebellion }
+		} 
+	allow = {
+				war = no
+			}
+   	effect = {
+        TAR = { inherit = BSK }
+		TAR = { set_country_flag = bsk_vassal }
+	}
+	
+	ai_will_do = {
+			factor = 1
+		}
+		
+  }
+  
+ 
+  
+  avenge_kazan = {
+     picture = avenge_kazan
+	 potential = {
+				NOT = { has_country_flag = tar_not_cri }
+				NOT = { has_country_flag = musc_invasion }
+				OR = {
+				   has_country_flag = bsk_vassal
+				   MSS = { has_country_flag = skobelev_succeds }
+				   MUS = { has_country_flag = skobelev_put_down }
+			    }
+				tag = TAR
+		} 
+	allow = {
+				war = no
+				prestige = 15
+				AND = {
+				    foreign_training = foreign_training_two
+					foreign_weapons = foreign_weapons_two
+				}
+			}
+   	effect = {
+        country_event = 666443
+        badboy = 5	
+        set_country_flag = musc_invasion		
+	}
+	
+	ai_will_do = {
+			factor = 1
+		}
+		
+  }
+  
+  centralize_the_khanate = {
+     picture = avenge_kazan
+	 potential = {
+				has_country_flag = musc_invasion
+				tag = TAR
+				NOT = {
+				    has_country_flag = united_khanate
+				}
+		} 
+	allow = {
+				war = no
+				owns = 1030
+			}
+   	effect = {
+        inherit = AKH
+        inherit = BSK
+        inherit = SIB
+        inherit = NOG
+        1035 = { secede_province = TAR }
+        1031 = { secede_province = TAR }	
+        set_country_flag = united_khanate		
+	}
+	
+	ai_will_do = {
+			factor = 1
+		}
+		
+  }
+  
+  subdue_yugra = {
+     picture = siberia
+	 potential = {
+				NOT = {
+				      exists = NOG
+					  exists = AKH
+					  exists = SIB
+					  has_country_flag = yugra_conquest	
+				}
+				tag = TAR
+		} 
+		
+	allow = {
+				war = no
+				civilized = yes
+				TAR = {
+					all_core = {
+					   owned_by = THIS
+					}
+				}
+			}
+			
+   	effect = {
+        TAR = { 
+		    casus_belli = {
+	                target = KHN
+	                type = establish_protectorate_casus_belli
+	                months = 10
+                  }
+				}
+        TAR = { 
+		    casus_belli = {
+	                target = SHR
+	                type = establish_protectorate_casus_belli
+	                months = 10
+                  }
+				}
+        TAR = { 
+		    casus_belli = {
+	                target = SLK
+	                type = establish_protectorate_casus_belli
+	                months = 10
+                  }
+				}
+        badboy = 15	
+        set_country_flag = yugra_conquest		
+	}
+	
+	ai_will_do = {
+			factor = 1
+		}
+		
+  }
+  
+  subdue_the_sayan_uriankhai = {
+     picture = siberia
+	 potential = {
+				NOT = {
+				      exists = KHN
+					  exists = SLK
+					  exists = SHR
+					  has_country_flag = uriankhai_conquest
+				}
+				tag = TAR
+				has_country_flag = yugra_conquest
+		} 
+	allow = {
+				war = no
+				state_n_government = 1
+			}
+   	effect = {
+        TAR = { 
+		    casus_belli = {
+	                target = SYN
+	                type = establish_protectorate_casus_belli
+	                months = 10
+                  }
+				}
+        badboy = 5		
+        set_country_flag = uriankhai_conquest		
+	}
+	
+	ai_will_do = {
+			factor = 1
+		}
+  }
+  
+  annex_altai_uriankhai = {
+     picture = uriankhai_colony
+	 potential = {
+				NOT = {
+				      exists = SYN
+				}
+				exists = ALT
+				tag = TAR
+				has_country_flag = uriankhai_conquest
+		} 
+	allow = {
+				war = no
+				ALT = { in_sphere = TAR }
+			}
+   	effect = {
+        inherit = ALT	
+        set_country_flag = tuva_conflict		
+	}
+	
+	ai_will_do = {
+			factor = 1
+		}
+  }
+  
+  vassalize_buryatia = {
+     picture = uriankhai_colony
+	 potential = {
+				NOT = {
+				      exists = ALT
+				}
+				BRY = { is_vassal = no }
+				tag = TAR
+				OIR = { has_country_flag = northern_collapse }
+				NOT = { has_country_flag = buryatia_vassal }
+		} 
+	allow = {
+				war = no
+				BRY = { in_sphere = TAR }
+			}
+   	effect = {
+        create_vassal = BRY	
+        set_country_flag = buryatia_vassal		
+	}
+	
+	ai_will_do = {
+			factor = 1
+		}
+  }
+  
+  further_siberian_expansion = {
+     picture = siberia
+	 potential = {
+				tag = TAR
+				NOT = { exists = ALT }
+				TAR = { is_our_vassal = BRY }
+				NOT = { has_country_flag = YAK_vassal }
+		} 
+	allow = {
+				war = no
+			    2656 = { owned_by = TAR }
+				2694 = { owned_by = TAR }
+				2675 = { owned_by = TAR }
+				2655 = { owned_by = TAR }
+				invention = manifest_destiny
+			}
+   	effect = {
+        TAR = { 
+		    casus_belli = {
+	                target = YAK
+	                type = make_puppet
+	                months = 10
+                  }
+				}
+        set_country_flag = YAK_vassal	
+        badboy = 5		
+	}
+	
+	ai_will_do = {
+			factor = 1
+		}
+  }
+  
+  conquest_of_the_north = {
+     picture = siberia
+	 potential = {
+				tag = TAR
+				has_country_flag = siberian_expansion_end
+				NOT = { has_country_flag = claimed_north }
+		} 
+	allow = {
+				war = no
+			    romanticism = yes
+				invention = manifest_destiny
+			}
+   	effect = {
+        TAR = { 
+		    casus_belli = {
+	                target = TYM
+	                type = establish_protectorate_casus_belli
+	                months = 10
+                  }
+				}
+		TAR = { 
+		    casus_belli = {
+	                target = YML
+	                type = establish_protectorate_casus_belli
+	                months = 10
+                  }
+				}
+        set_country_flag = claimed_north	
+        badboy = 3		
+	}
+	
+	ai_will_do = {
+			factor = 1
+		}
+  }
+  
+  the_pacific = {
+     picture = siberia
+	 potential = {
+				tag = TAR
+				NOT = { exists = ALT }
+				has_country_flag = YAK_vassal
+				YAK = { exists = yes }
+		} 
+	allow = {
+				war = no
+			    TAR = { is_our_vassal = YAK }
+			}
+   	effect = {
+        2641 = { secede_province = TAR } 
+		1072 = { secede_province = TAR } 
+		2639 = { secede_province = TAR } 
+		2618 = { secede_province = TAR } 
+		2638 = { secede_province = TAR } 
+		1073 = { secede_province = TAR } 
+		2663 = { secede_province = TAR } 
+		2616 = { secede_province = TAR } 
+		2633 = { secede_province = TAR } 
+		1074 = { secede_province = TAR }
+		2634 = { secede_province = TAR } 
+		2637 = { secede_province = TAR } 
+		2622 = { secede_province = TAR }
+		2641 = { life_rating = 5 } 
+		2637 = { life_rating = 5 }
+		2634 = { life_rating = 5 }
+		2622 = { life_rating = 5 }
+		1072 = { life_rating = 15 } 
+		2639 = { life_rating = 10 } 
+		2618 = { life_rating = 10 } 
+		2638 = { life_rating = 10 } 
+		1073 = { life_rating = 10 } 
+		2663 = { life_rating = 10 } 
+		2616 = { life_rating = 10 } 
+		2633 = { life_rating = 10 } 
+		1074 = { life_rating = 15 }
+		inherit = YAK
+		inherit = BRY
+        badboy = 8	
+        set_country_flag = siberian_expansion_end		
+	}
+	
+	ai_will_do = {
+			factor = 1
+		}
+  }
+  
+  the_daurs = {
+     picture = outer_manchuria_map
+	 potential = {
+				tag = TAR
+				NOT = { exists = YAK }
+				NOT = { exists = BRY }
+				has_country_flag = siberian_expansion_end	
+				NOT = { has_country_flag = annexed_daur }
+		} 
+	allow = {
+				war = no
+			    NNI = { in_sphere = TAR }
+			}
+   	effect = {
+		inherit = NNI
+        badboy = 3	
+        set_country_flag = annexed_daur			
+	}
+	
+	ai_will_do = {
+			factor = 1
+		}
+  }
+  
+  the_manchu = {
+     picture = outer_manchuria_map
+	 potential = {
+				tag = TAR
+				NOT = { exists = NNI }
+				has_country_flag = siberian_expansion_end	
+		} 
+	allow = {
+				war = no
+			    SHN = { MCK = { is_our_vassal = yes } }
+			}
+   	effect = {
+		SHN = { inherit = MCK }
+		SHN = { country_event = 656003 }
+        badboy = 3					
+	}
+	
+	ai_will_do = {
+			factor = 1
+		}
+  }
+  
+  claim_the_northern_caucasus = {
+     picture = unite_caucasus
+	 potential = {
+				tag = TAR
+				has_country_flag = siberian_expansion_end
+                NOT = { has_country_flag = claimed_nc }				
+		} 
+	allow = {
+				war = no
+			    is_greater_power = yes
+				prestige = 20
+				OR = {
+				  war_policy = jingoism
+				  war_policy = pro_military
+				}
+			}
+   	effect = {
+		inherit = CIR
+		1056 = { add_core = TAR }
+		3320 = { add_core = TAR }
+		3317 = { add_core = TAR }
+		1103 = { add_core = TAR }
+		TIM_1055 = { add_core = TAR }
+		RUS_1052 = { add_core = TAR }
+		set_country_flag = claimed_nc
+        badboy = 10					
+	}
+	
+	ai_will_do = {
+			factor = 1
+		}
+  }
+  
+  claim_qasim = {
+     picture = great_rus
+	 potential = {
+				tag = TAR
+				has_country_flag = siberian_expansion_end	
+				NOT = { has_country_flag = claimed_qasim }
+		} 
+	allow = {
+				war = no
+			    is_greater_power = yes
+				prestige = 40
+				OR = {
+				  war_policy = jingoism
+				}
+			}
+   	effect = {
+		inherit = CIR
+		3326 = { add_core = TAR }
+		3328 = { add_core = TAR }
+		3329 = { add_core = TAR }
+		3360 = { add_core = TAR }
+		set_country_flag = claimed_qasim
+        badboy = 6					
+	}
+	
+	ai_will_do = {
+			factor = 1
+		}
+  }
+  
+  recreate_bulghar_khanate = {
+     picture = great_rus
+	 potential = {
+				tag = CHV
+				BGH = { exists = no }
+		} 
+	allow = {
+				war = no
+				OR = {
+			    is_secondary_power = yes
+				is_greater_power = yes
+				}
+				prestige = 10
+				RUS_1020 = { owned_by = THIS }
+				RUS_1030 = { owned_by = THIS }
+				nationalism_and_imperialism = 1
+			}
+   	effect = {
+		    change_tag = BGH	
+            prestige = 50			
+	}
+	
+	ai_will_do = {
+			factor = 1
+		}
+  }
+}

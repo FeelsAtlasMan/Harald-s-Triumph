@@ -1,0 +1,223 @@
+political_decisions = {
+
+	de_jure_polebia = {
+		picture = greater_polabia
+		potential = {
+			tag = GER
+			exists = yes
+			NOT = { has_country_flag = de_jure_polebia }
+			PLB = { has_country_flag = HRE_country }
+		}
+		allow = {
+			is_greater_power = yes
+			war_policy = jingoism
+		}
+		effect = {
+			badboy = 10
+			PLB = {
+				all_core = {
+					add_core = THIS 
+				}
+			}
+			set_country_flag = de_jure_polebia
+		}
+	}
+	
+	de_jure_osterreich = {
+		picture = osterreich
+		potential = {
+			is_culture_group = continental_west_germanic
+			NOT = { has_country_flag = de_jure_osterreich_created }
+			OR = {
+			any_owned_province = {
+				is_core = CMN
+			}
+			any_neighbor_province = {
+				is_core = CMN
+			}
+			}
+		}
+		allow = {
+			CMN = {
+				all_core = {
+					owned_by = THIS
+				}
+			}
+		}
+		effect = {
+			prestige = 15
+			relation = {
+				who = HUN
+				value = -60
+			}
+			CMN = {
+				all_core = {
+					add_core = THIS
+					add_core = AUS
+				}
+			}
+			619 = { change_province_name = "Vienna" }
+			set_country_flag = de_jure_osterreich_created
+		}
+	}
+	
+	expand_ossterreich = {
+		picture = osterreich
+		potential = {
+			is_culture_group = continental_west_germanic
+			has_country_flag = de_jure_osterreich_created
+			NOT = { has_country_flag = expanded_ossterreich }
+			OR = {
+			any_owned_province = {
+				is_core = SLO
+			}
+			any_neighbor_province = {
+				is_core = SLO
+			}
+			}
+		}
+		allow = {
+			SLO = {
+				all_core = {
+					owned_by = THIS
+				}
+			}
+		}
+		effect = {
+			prestige = 15
+			relation = {
+				who = HUN
+				value = -60
+			}
+			SLO = {
+				all_core = {
+					add_core = THIS
+					add_core = AUS
+				}
+			}
+			set_country_flag = expanded_ossterreich
+		}
+	}
+	
+	compose_new_german_constitution = {
+		picture = achean_parliment
+		potential = {
+			has_country_flag = leader_of_german_conf
+			GER = { exists = no }
+			NOT = { has_global_flag = composed_new_german_constitution }
+		}
+		allow = {
+			ideological_thought = 1
+			is_greater_power = yes
+			OR = {
+				GER = {
+					all_core = {
+						OR = {
+							owned_by = THIS
+							owner = {
+								OR = {
+									vassal_of = THIS
+									in_sphere = THIS
+								}
+							}
+							AND = {
+								NOT = {
+									culture = north_german
+								}
+								THIS = { primary_culture = north_german }
+							}
+							AND = {
+								NOT = {
+									culture = swiss_german
+								}
+								THIS = { primary_culture = swiss_german }
+							}
+							AND = {
+								NOT = {
+									culture = south_german
+								}
+								THIS = { primary_culture = south_german }
+							}
+						}
+					}
+				}
+				AND = {
+					ai = yes
+					year = 1841
+				}
+			}
+		}
+		effect = {
+			set_global_flag = composed_new_german_constitution
+			any_country = {
+				limit = {
+					OR = {
+					AND = {
+					primary_culture = north_german
+					THIS = { primary_culture = north_german }
+					}
+					AND = {
+					primary_culture = swiss_german
+					THIS = { primary_culture = swiss_german }
+					}
+					AND = {
+					primary_culture = south_german
+					THIS = { primary_culture = south_german }
+					}		
+					}
+					in_sphere = THIS
+				}
+				all_core = {
+					add_core = THIS
+				}
+				annex_to = THIS
+			}
+			prestige = 25
+		}
+	}
+	
+	form_germany = {
+		picture = german_unification
+		news = yes
+		news_desc_long = "form_germany_NEWS_LONG"
+		news_desc_medium = "form_germany_NEWS_MEDIUM"
+		news_desc_short = "form_germany_NEWS_SHORT"
+		potential = {
+			NOT = { exists = GER }
+			OR = {
+			is_culture_group = continental_west_germanic
+			has_country_flag = leader_of_german_conf
+			}
+		}
+		allow = {
+			state_n_government = 1
+			has_global_flag = composed_new_german_constitution
+			has_country_flag = leader_of_german_conf
+			GER = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			all_core = {
+				add_core = GER
+				remove_core = THIS
+			}
+			change_tag = GER
+			any_country = {
+				limit = {
+					is_culture_group = continental_west_germanic
+					in_sphere = THIS
+				}
+				country_event = { id=11101 days=0 }
+			}
+			capital = 576
+		}
+	}
+}

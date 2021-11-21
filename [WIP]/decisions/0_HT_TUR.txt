@@ -1,0 +1,42 @@
+political_decisions = {
+	
+	restore_the_ottoman_dynasty = {
+		picture = restore_ottomans
+		potential = {
+			tag = TUR
+			NOT = { has_country_flag = restored_the_ottoman_dynasty }
+		}
+		allow = {
+			#ai = no
+			is_vassal = no
+		}
+		effect = {
+			government = absolute_monarchy
+			religion = sunni
+			TUR_873 = {
+				add_core = THIS
+			}
+			TUR_876 = {
+				add_core = THIS
+			}
+			TUR_878 = {
+				add_core = THIS
+			}
+			TUR_3339 = {
+				add_core = THIS
+			}
+			TUR_880 = {
+				add_core = THIS
+			}
+			TUR_882 = {
+				add_core = THIS
+			}
+			TUR_889 = {
+				add_core = THIS
+			}
+			prestige = 25
+			set_country_flag = restored_the_ottoman_dynasty
+		}
+		ai_will_do = { factor = 1 }
+	}
+}

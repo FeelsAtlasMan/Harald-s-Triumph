@@ -1,0 +1,64 @@
+political_decisions = {
+
+	reform_the_oblast_sytem = {
+		picture = RTH_map
+		potential = {
+			tag = RTH
+			is_our_vassal = MNK
+			is_our_vassal = GLM
+			exists = MNK
+			exists = GLM
+		}
+		allow = {
+			war = no
+			MNK = {
+				in_sphere = THIS
+			}
+			GLM = {
+				in_sphere = THIS
+			}
+		}
+		effect = {
+			inherit = MNK
+			inherit = GLM
+			prestige = 15
+			any_pop = {
+				militancy = 3
+			}
+		}
+	}
+	
+	claim_kieaven_legacy = {
+		picture = st_micheal
+		potential = {
+			tag = RTH
+			NOT = { has_country_flag = claimed_kieaven_legacy }
+		}
+		allow = {
+			war = no
+			invention = expansionism
+			is_greater_power = yes
+			all_core = {
+				owned_by = THIS
+			}
+		}
+		effect = {
+			set_country_flag = claimed_kieaven_legacy
+			SMK = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			add_core = 1006
+			add_core = 1007
+			add_core = 3355
+			add_core = 3358
+			add_core = 3357
+			add_core = 1018
+			add_core = 977
+			add_core = 1017
+			badboy = 15
+			add_accepted_culture = novgorodian
+		}
+	}
+}

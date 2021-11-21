@@ -1,0 +1,32 @@
+country_event = {
+    id = 60160
+    title = "EVTNAME60160"
+    desc = "EVTDESC60160"
+    picture = "Unite"
+    
+    trigger = {
+        exists = yes
+        NOT = { has_country_flag = game_setup_freestuff }
+    }
+    
+    mean_time_to_happen = {
+        days = 1
+    }
+    
+    option = {
+        name = "Free stuff?"
+        set_country_flag = game_setup_freestuff
+        treasury = 10000
+        leadership = 100
+        ammunition = 100
+        small_arms = 100
+        artillery = 25
+        canned_food = 100
+        grain = 200
+        wine = 100
+        luxury_clothes = 25
+        machine_parts = 500
+        clipper_convoy = 50
+        wool = 50
+	}
+}

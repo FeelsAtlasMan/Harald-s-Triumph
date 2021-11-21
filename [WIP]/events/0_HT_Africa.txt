@@ -1,0 +1,248 @@
+country_event = {
+	id = 964562
+	title = "The Sultanate of Utetera"
+	desc = "EVTDESC964562"
+	picture = "utetera_sultanate"
+	fire_only_once = yes
+	
+	trigger = {
+		OR = {
+			AND = {
+			   owns = 2048
+			   year = 1860
+			   tag = SWA
+			}
+			AND = {
+			   owns = 2048
+			   year = 1870
+			}
+		}
+	}
+	
+	option = {
+		name = "His endeavors seem prosperous!"
+        1989 = { 
+		secede_province = THIS
+		}
+		1990 = { 
+		secede_province = THIS
+		}
+		1991 = { 
+		secede_province = THIS
+		}
+		release = UTT
+		create_vassal = UTT
+		ai_chance = { factor = 100 }
+	}
+	
+	option = {
+		name = "Onwards to Utetera!"
+		1989 = { 
+		secede_province = THIS
+		}
+		1990 = { 
+		secede_province = THIS
+		}
+		1991 = { 
+		secede_province = THIS
+		}
+		release = UTT
+		create_vassal = UTT
+		change_tag_no_core_switch = UTT
+		ai_chance = { factor = 0 }
+	}
+}
+
+country_event = {
+	id = 964563
+	title = "The Bemba War"
+	desc = "EVTDESC964563"
+	picture = "Shilluk_village2"
+	fire_only_once = yes
+	
+	trigger = {
+			tag = UTT
+			is_vassal = yes
+	}
+	
+	 mean_time_to_happen = {
+		months = 8
+	    }
+	
+	option = {
+		name = "We shall build our own empire!"
+		overlord = { country_event = 964565 }
+		overlord = { release_vassal = UTT }
+        war = {
+	        target = BBM
+	        attacker_goal = { casus_belli = conquest }
+	        defender_goal = { casus_belli = status_quo }
+	        call_ally = no
+        }
+		prestige = 5
+		military_reform = foreign_officers
+		ai_chance = { factor = 100 }
+	}
+	
+	option = {
+		name = "We shouldn't act against the Sultans wishes."
+		prestige = -25
+		ai_chance = { factor = 10 }
+	}
+}
+
+#country_event = {
+#	id = 964564
+#	title = "Annexetion of the southern regions"
+#	desc = "EVTDESC964564"
+#	fire_only_once = yes
+#	
+#	trigger = {
+#			tag = UTT
+#			KZB = { exists = no }
+#			war = no
+#	}
+#	immediate = {
+#	    }
+#	
+#	option = {
+#		name = "It's only natural"
+#		war = no
+#       790 = { 
+#		secede_province = THIS
+#		}
+#		790 = { 
+#		life_rating = 25
+#		}
+#		2012 = { 
+#		secede_province = THIS
+#		}
+#		2012 = { 
+#		life_rating = 25
+#		}
+#		prestige = 5
+#		ai_chance = { factor = 100 }
+#	}
+#}
+
+country_event = {
+	id = 964565
+	title = "Muuzaji Mkubwa acts against the Sultan!"
+	desc = "EVTDESC964565"
+	picture = "yao_slave"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "We need to restore our authority!"
+        war = {
+	        target = UTT
+	        attacker_goal = { casus_belli = conquest }
+	        defender_goal = { casus_belli = status_quo }
+	        call_ally = no
+        }
+		ai_chance = { factor = 80 }
+	}
+	
+	option = {
+		name = "He shall rot in his jungle!"
+		prestige = -25
+		ai_chance = { factor = 20 }
+	}
+}
+
+country_event = {
+	id = 964566
+	title = "Fall Out with Rumaliza!"
+	desc = "EVTDESC964566"
+	picture = "arab_revolt"
+	
+	trigger = {
+			UTT = { war_with = BBM }
+	}
+	
+	fire_only_once = yes
+	
+	immediate = {
+	    }
+	
+	option = {
+		name = "Let him crawl back to Tanganyika!"
+        2046 = { secede_province = THIS }
+		2046 = { life_rating = 25 }
+		2046 = { add_core = UJJ }
+		release = UJJ
+		2048 = { owner = { create_vassal = UJJ } }
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 964567
+	title = "Zubayr's Ambition!"
+	desc = "EVTDESC964567"
+	picture = "arab_revolt"
+	
+	trigger = {
+		2081 = { owned_by = ZBY }
+		tag = ZBY 
+	}
+	
+	mean_time_to_happen = { months = 40 }
+	
+	fire_only_once = yes
+	
+	option = {
+		name = "Our destiny"
+        war = {
+	        target = WDD
+	        attacker_goal = { casus_belli = humiliate }
+	        defender_goal = { casus_belli = status_quo }
+	        call_ally = yes
+        }
+		inherit = DKT
+		DKT = { all_core = { add_core = THIS } }
+        add_country_modifier = { name = rally_tribesmen duration = 365 }
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 964568
+	title = "Waddai has fallen!"
+	desc = "EVTDESC964568"
+	picture = "abd_al_qadir_uprising"
+	
+	trigger = {
+		WDD = { has_country_flag = humiliate_succ }
+		WDD = { has_recently_lost_war = yes }
+		tag = ZBY
+	}
+	
+	mean_time_to_happen = { months = 1 }
+	
+	fire_only_once = yes
+	
+	option = {
+		name = "Amazing!"
+		prestige = 20
+		
+        inherit = WDD
+        WDD = { all_core = { add_core = THIS } }
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = sus
+	title = "You have been ejected"
+	desc = "Why did you kidnap Big Chungus???"
+	picture = "amogus"
+	is_triggered_only = yes
+
+	option = {
+		name = "..."
+        add_country_modifier = sussy
+		ai_chance = { factor = 100 }
+	}
+}

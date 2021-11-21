@@ -1,0 +1,499 @@
+#########################################################
+#														#
+#       Events for Iberia								#
+#														#
+#########################################################
+
+# Unrest in Andalusia, kicks off event chain
+country_event = { 
+	id = 410000
+	title = "EVTNAME410000"
+	desc = "EVTDESC410000"
+	picture = "andalusia_start"
+	
+	trigger = { 
+		tag = ANU
+		exists = yes
+		war = no
+	}
+	
+	fire_only_once = yes	
+	
+	mean_time_to_happen = { 
+		months = 12
+		modifier = {
+			factor = 0.5
+			any_owned_province = {
+				culture = algaravian
+				average_militancy = 5
+			}
+		}	
+	}
+	
+	option = { 
+		name = "EVTOPTA410000"
+		MOR = { country_event = 410001 }
+		set_global_flag = andalusian_unrest	
+        ai_chance = {
+            factor = 100
+        }		
+	}	
+}
+
+# Morocco is notified of the coming trouble
+country_event = {
+	id = 410001
+	title = "EVTNAME410001"
+	desc = "EVTDESC410001"
+	picture = "pasha_tiger"
+
+	is_triggered_only = yes 
+	
+	option = {
+		name = "EVTOPTA410001"
+		any_pop = {
+			limit = {
+				culture = algaravian
+			}
+			militancy = 4
+			consciousness = 3 
+		}  
+        ai_chance = {
+            factor = 100
+        }
+	}
+	
+}
+
+
+# The Andalusian Revolution
+country_event = { 
+	id = 410002
+	title = "EVTNAME410002"
+	desc = "EVTDESC410002"
+	picture = "la_merce"
+	
+	trigger = { 
+		tag = MOR
+		exists = yes
+		year = 1850
+		war = no
+		has_global_flag = andalusian_unrest
+		ANU = { 
+			exists = yes
+			civilised = no
+		}
+	}
+	
+	fire_only_once = yes	
+	
+	mean_time_to_happen = { 
+		months = 48
+		modifier = {
+			factor = 0.8
+			has_global_flag = ANU_arms_purchase_tier_1
+		}
+		modifier = {
+			factor = 0.7
+			war_exhaustion = 50
+		}
+		modifier = {
+			factor = 0.6
+			has_recently_lost_war = yes
+		}
+		modifier = {
+			factor = 0.6
+			has_global_flag = ANU_arms_purchase_tier_2
+		}		
+		modifier = {
+			factor = 0.6
+			ANU = {
+				any_owned_province = {
+					culture = algaravian
+					average_militancy = 5
+				}
+			}
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { owns = 502 } #Illes Balears
+		}
+		modifier = {
+			factor = 0.5
+			has_global_flag = ANU_arms_purchase_tier_3
+		}
+		modifier = {
+			factor = 0.4
+			has_global_flag = ANU_arms_purchase_tier_4
+		}		
+	}
+	
+	option = { 
+		name = "EVTOPTA410002"
+		set_country_flag = fighting_algaravians
+		any_country = {
+			any_owned = {
+				limit = {
+					is_core = ANU
+				}
+				secede_province = ANU
+			}
+		}
+		any_owned = {
+			limit = {
+				is_core = ANU
+			}
+			secede_province = ANU
+		}		
+		release_vassal = ANU
+		ANU = {
+			government = absolute_monarchy
+			capital = 513
+			define_general = {
+				name = "Abd al-Malik ibn Hisham"
+				personality = aggressive
+				background = natural_born_leader
+			}
+			define_general = {
+				name = "Iskandar al-Wujdi"
+				personality = diplomatic
+				background = drillmaster
+			}
+			define_general = {
+				name = "Zafir al-Misurati"
+				personality = brash
+				background = nationalist
+			}
+			ANU = { country_event = 410003 }				
+		}
+		war = {
+			target = ANU
+			attacker_goal = { casus_belli = civil_war }
+			defender_goal = { casus_belli = status_quo }
+		}		
+		ai_chance = { factor = 90 }
+	}
+
+	option = { 
+		name = "EVTOPTB410002"
+		prestige = -15
+		badboy = -5
+		set_country_flag = leave_andalusia_alone
+		any_country = {
+			any_owned = {
+				limit = {
+					is_core = ANU
+				}
+				remove_core = MOR
+			}
+		}
+		any_owned = {
+			limit = {
+				is_core = ANU
+			}
+			remove_core = MOR
+		}		
+		release = ANU
+		ANU = { government = absolute_monarchy }		
+        ai_chance = {
+            factor = 10
+        }		
+	}	
+}
+
+# Notify Andalusian player of war
+country_event = {
+	id = 410003
+	title = "EVTNAME410003"
+	desc = "EVTDESC410003"
+	picture = "in_alhambra"
+
+	is_triggered_only = yes 
+	
+	option = {
+		name = "EVTOPTA410003"
+		add_country_modifier = {
+			name = algaravian_revolution
+			duration = 1500
+		} 
+        ai_chance = {
+            factor = 100
+        }
+	}
+	
+}
+
+# Andalusia wins the Revolution
+country_event = {
+	id = 410004
+	title = "EVTNAME410004"
+	desc = "EVTDESC410004"
+	picture = "warriors_alhambra"
+
+	trigger = { 
+		tag = ANU
+		exists = yes
+		war = no
+		AND = {
+			has_global_flag = andalusian_unrest
+			truce_with = MOR
+		}
+	}
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen = { 
+		months = 1	
+	}	
+	
+	option = {
+		name = "EVTOPTA410004"
+		set_global_flag = algaravian_revolution_finished
+		clr_global_flag = andalusian_unrest
+		clr_global_flag = ANU_arms_purchase_tier_1
+		clr_global_flag = ANU_arms_purchase_tier_2
+		clr_global_flag = ANU_arms_purchase_tier_3
+		clr_global_flag = ANU_arms_purchase_tier_4
+		any_owned = {
+			limit = {
+				is_core = ANU
+			}
+			remove_core = MOR
+		}		
+        ai_chance = {
+            factor = 100
+        }
+	}
+	
+}
+
+# Morocco wins the Revolution
+country_event = {
+	id = 410005
+	title = "EVTNAME410005"
+	desc = "EVTDESC410005"
+	picture = "after_prayers"
+
+	trigger = { 
+		tag = MOR
+		exists = yes
+		war = no
+		has_global_flag = andalusian_unrest
+		has_country_flag = fighting_algaravians
+		ANU = { exists = no }
+	}
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen = { 
+		months = 1	
+	}	
+	
+	option = {
+		name = "EVTOPTA410005"
+		set_global_flag = algaravian_revolution_finished
+		clr_global_flag = andalusian_unrest
+		clr_global_flag = ANU_arms_purchase_tier_1
+		clr_global_flag = ANU_arms_purchase_tier_2
+		clr_global_flag = ANU_arms_purchase_tier_3
+		clr_global_flag = ANU_arms_purchase_tier_4
+		any_owned = {
+			limit = {
+				is_core = ANU
+			}
+			remove_core = ANU
+		}
+		any_country = {
+			any_owned = {
+				limit = {
+					is_core = ANU
+				}
+				remove_core = ANU
+			}
+		}		
+        ai_chance = {
+            factor = 100
+        }
+	}
+	
+}
+
+#Andalusian revolution ends - Iberian Congress begins
+
+country_event = { 
+	id = 410006
+	title = "EVTNAME410006"
+	desc = "EVTDESC410006"
+	picture = "pronunciamiento"	
+
+	trigger = { 
+		OR = {
+			tag = ATR
+			tag = BSQ			
+			tag = CAT
+			tag = CST
+			tag = POR			
+		}
+		OR = { 
+			has_global_flag = algaravian_revolution_finished
+			MOR = { has_country_flag =  leave_andalusia_alone }
+		}
+		war = no		
+	}
+	
+	fire_only_once = yes	
+	
+	mean_time_to_happen = {
+		months = 6
+		modifier = {
+			factor = 0.1
+			ai = no
+		}		
+		modifier = {
+			factor = 0.3
+			rank = 8
+		}
+		modifier = {
+			factor = 0.5
+			rank = 16
+		}		
+	}
+
+	immediate = { 
+		prestige = 25
+	}	
+	
+	option = { 
+		name = "EVTOPTA410006" #Unify Iberia
+		set_global_flag = iberia_unified
+		change_tag = IBR
+		any_country = {
+			limit = {
+				OR = {
+					tag = ATR
+					tag = BSQ			
+					tag = CAT
+					tag = CST
+					tag = POR			
+				}
+				NOT = {
+					tag = THIS
+				}
+			}
+			annex_to = THIS
+		}		
+		any_country = {
+			any_owned = {
+				limit = {
+					is_core = ANU
+				}
+				add_core = IBR
+			}
+		}
+		any_owned = {
+			limit = {
+				is_core = ANU
+			}
+			add_core = IBR
+		}
+        ai_chance = {
+            factor = 0
+        }		
+	}
+	
+	option = { 
+		name = "EVTOPTB410006" #Partition Andalusia
+		set_global_flag = partition_andalusia
+		502 = { add_core = CAT }
+		765 = { add_core = CAT }
+		766 = { add_core = CAT }	
+		SPA_513 = {	add_core = CAT }		
+		SPA_484 = {	add_core = CST }		
+		SPA_512 = {	add_core = CST }		
+		POR_521 = {	add_core = POR }		
+		POR_525 = {	add_core = POR }
+		relation = { who = ATR value = -150 }
+		relation = { who = BSQ value = -150 }	
+        ai_chance = {
+            factor = 40
+        }			
+	}
+
+	option = { 
+		name = "EVTOPTC410006" #Failure of the Congress
+		set_global_flag = iberian_failure
+		prestige = -50
+        ai_chance = {
+            factor = 60
+        }		
+	}		
+	
+}
+
+country_event = { #Iberians sell muzzle loaded rifles to the Algaravians
+	id = 410007
+	title = "EVTNAME410007"
+	desc = "EVTDESC410007"
+	picture = "springfield1861"
+
+	is_triggered_only = yes 
+	
+	option = {
+		name = "EVTOPTA410007"
+		activate_technology = muzzle_loaded_rifles
+        ai_chance = {
+            factor = 100	
+        }
+	}	
+}
+
+country_event = { #Iberians sell breech loaded rifles to the Algaravians
+	id = 410008
+	title = "EVTNAME410008"
+	desc = "EVTDESC410008"
+	picture = "snider_enfield"
+
+	is_triggered_only = yes 
+	
+	option = {
+		name = "EVTOPTA410008"
+		activate_technology = breech_loaded_rifles
+        ai_chance = {
+            factor = 100	
+        }
+	}	
+}
+
+country_event = { #Iberians sell muzzle loaded artillery to the Algaravians
+	id = 410009
+	title = "EVTNAME410009"
+	desc = "EVTDESC410009"
+	picture = "9pr8cwt"
+
+	is_triggered_only = yes 
+	
+	option = {
+		name = "EVTOPTA410009"
+		activate_technology = iron_muzzle_loaded_artillery
+        ai_chance = {
+            factor = 100	
+        }
+	}	
+}
+
+country_event = { #Iberians sell breech loaded artillery to the Algaravians
+	id = 410010
+	title = "EVTNAME410010"
+	desc = "EVTDESC410010"
+	picture = "bl5inch"
+
+	is_triggered_only = yes 
+	
+	option = {
+		name = "EVTOPTA410010"
+		activate_technology = iron_breech_loaded_artillery
+        ai_chance = {
+            factor = 100	
+        }
+	}	
+}

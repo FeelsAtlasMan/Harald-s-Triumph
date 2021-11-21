@@ -1,0 +1,199 @@
+country_event = {
+	id = 123600
+	title = "The Dzukija Uprising"
+	desc = "EVTDESC123600"
+	picture = "lithuanian_uprising"
+	fire_only_once = yes
+	
+	trigger = {
+		RUS_707 = { owned_by = THIS owner = { NOT = { primary_culture = lithuanian } } }
+		OR = {
+			year = 1851
+			AND = {
+				year = 1849
+				war_exhaustion = 25
+			}
+		}
+		any_owned_province = {
+			is_core = LIH
+		}
+		LIH = { exists = no }
+	}
+	
+	option = {
+		name = "It's time to put an end to the unrest!"
+		any_owned = {
+			limit = {
+				is_core = LIH
+			}
+			secede_province = LIH
+		}
+		any_owned = {
+			limit = {
+				is_core = SMG
+			}
+			secede_province = SMG
+		}
+		LIH = {
+			government = presidential_dictatorship
+			vote_franschise = none_voting
+		}
+		SMG = {
+			create_alliance = LIH
+			create_vassal = LIH
+			add_country_modifier = {
+				name = fanatic_army
+				duration = 3600
+			}
+		}
+		random_owned = {
+            limit = {
+                owner = {
+                    NOT = {
+                        national_provinces_occupied = .25
+                        any_greater_power = { war_with = THIS }
+                    }
+                }
+            }
+            owner = {
+                prestige = 20
+                war = {
+                    target = SMG
+                    attacker_goal = {
+                        casus_belli = annex_core_country country = LIH
+                    }
+					defender_goal = {
+                        casus_belli = status_quo
+                    }
+                }
+            }
+        }
+		set_global_flag = LIT_uprising
+	}
+	
+	option = {
+		name = "Let them go."
+		any_owned = {
+			limit = {
+				is_core = SMG
+			}
+			secede_province = SMG
+		}
+		any_owned = {
+			limit = {
+				is_core = LIH
+			}
+			secede_province = SMG
+		}
+		SMG = {
+			create_alliance = LTH
+			create_vassal = LIH
+		}
+		LIH = {
+			government = presidential_dictatorship
+			vote_franschise = none_voting
+		}
+		set_global_flag = LIT_uprising
+		prestige = -25
+	}
+}
+country_event = {
+	id = 123601
+	title = "Dzukija Uprising Spreads"
+	desc = "EVTDESC123600"
+	picture = "lithuanian_uprising"
+	is_triggered_only = yes
+	
+	option = {
+		name = "It's time to put an end to the unrest!"
+		any_owned = {
+			limit = {
+				is_core = LIH
+			}
+			secede_province = LIH
+		}
+		any_owned = {
+			limit = {
+				is_core = SMG
+			}
+			secede_province = SMG
+		}
+		LIH = {
+			government = presidential_dictatorship
+			vote_franschise = none_voting
+			add_country_modifier = {
+				name = fanatic_army
+				duration = 3600
+			}
+		}
+		random_owned = {
+            limit = {
+                owner = {
+                    NOT = {
+                        national_provinces_occupied = .25
+                        any_greater_power = { war_with = THIS }
+                    }
+                }
+            }
+            owner = {
+                prestige = 20
+                war = {
+                    target = SMG
+                    attacker_goal = {
+                        casus_belli = annex_core_country country = LIH
+                    }
+					defender_goal = {
+                        casus_belli = status_quo
+                    }
+                }
+            }
+        }
+		set_global_flag = LIT_uprising
+	}
+	
+	option = {
+		name = "Let them go."
+		any_owned = {
+			limit = {
+				is_core = SMG
+			}
+			secede_province = SMG
+		}
+		any_owned = {
+			limit = {
+				is_core = LIH
+			}
+			secede_province = SMG
+		}
+		LIH = {
+			government = presidential_dictatorship
+			vote_franschise = none_voting
+		}
+		set_global_flag = LIT_uprising
+		prestige = -25
+	}
+}
+country_event = {
+	id = 123603
+	title = "Sajungos judejimas"
+	desc = "EVTDESC123603"
+	picture = "lithuanian_uprising"
+	fire_only_once = yes
+	
+	trigger = {
+		tag = SMG
+		exists = yes
+	}
+	
+	mean_time_to_happen = {
+		months = 3
+	}
+	
+	option = {
+		name = "Persiusti!"
+		add_country_modifier = {
+			name = sajungos_judejimas
+			duration = -1
+		}
+	}
+}

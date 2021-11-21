@@ -1,0 +1,24 @@
+name = "Oirat Invasion of Kazakhstan"
+
+1836.1.1 = {
+	add_attacker = OIR
+	add_defender = KML
+	
+	# actor
+	# receiver
+	# casus_belli - cb type
+	# country - 3rd party
+	# state_province_id - target state capital
+	war_goal = {
+		casus_belli = conquest
+		actor = OIR
+		receiver = KML
+	}
+	
+	war_goal = {
+		casus_belli = status_quo
+		actor = KML
+		receiver = OIR
+	}
+
+}

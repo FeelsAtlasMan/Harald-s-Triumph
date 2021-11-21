@@ -1,0 +1,117 @@
+country_event = {
+	id = 179200
+	title = "Brabant Revolution"
+	desc = "EVTDESC179200"
+	major = yes
+	fire_only_once = yes
+	
+	trigger = {
+		tag = BRB
+		year = 1841
+		exists = yes
+	}
+	
+	mean_time_to_happen = {
+		months = 3
+	}
+	
+	option = {
+		name = "Break the chains!"
+		set_global_flag = brabant_rev
+		clr_country_flag = everywhere_genocide_only
+		clr_country_flag = non_colonial_genocide_only
+		clr_country_flag = colonial_genocide_only
+		clr_country_flag = preparations_to_kill
+		remove_country_modifier = preparations_to_kill
+		clr_country_flag = communist_gov
+		clr_country_flag = absolute_monarchy_gov
+		clr_country_flag = semi_constitutional_monarchy_gov
+		clr_country_flag = constitutional_monarchy_gov
+		set_country_flag = democracy_gov
+		clr_country_flag = presidential_dictatorship_gov
+		clr_country_flag = fascist_gov
+		clr_country_flag = anarcho_liberal_gov
+		remove_country_modifier = fight_the_power
+		political_reform = wealth_voting
+		political_reform = state_equal_weight
+		government = bourgeois_dictatorship
+		political_reform = gerrymandering
+		ruling_party_ideology = anarcho_liberal
+		election = yes
+		random_owned = { limit = { owner = { border_policy = closed_borders } } owner = { political_reform = open_borders } }
+		random_owned = { limit = { owner = { centralization = totalitarianism } } owner = { political_reform = unitary } }
+		random_owned = { limit = { owner = { part_of_sphere = yes } } owner = { sphere_owner = { diplomatic_influence = { value = -200 who = THIS } } } }
+		any_country = { limit = { government = absolute_monarchy } leave_alliance = THIS relation = { value = -100 who = THIS } }
+		add_country_modifier = {
+			name = fanatic_army
+			duration = 3600
+		}
+	}
+}
+country_event = {
+	id = 179201
+	title = "Revolution in Brabant"
+	desc = "EVTDESC179201"
+	allow_multiple_instances = yes
+	
+	trigger = {
+		has_global_flag = brabant_rev
+		BRB = { government = bourgeois_dictatorship }
+		OR = {
+			tag = LUX
+			tag = LIG
+			tag = LBG
+			tag = WLL
+		}
+		NOT = { government = bourgeois_dictatorship }
+		NOT = { has_country_flag = pussy_backed_off }
+		NOT = { has_country_flag = chad_intervention }
+	}
+	
+	mean_time_to_happen = {
+		months = 3
+	}
+	
+	option = {
+		name = "We need to contain them!"
+		prestige = 20
+        war = {
+			target = BRB
+			attacker_goal = {
+				casus_belli = install_monarchy_make_puppet
+			}
+			defender_goal = {
+				casus_belli = annex_core_country
+			}
+		}
+		military_access = LUX
+		military_access = LIG
+		military_access = LBG
+		military_access = WLL
+		set_country_flag = chad_intervention
+		ai_chance = {
+			factor = 95
+		}
+	}
+	
+	option = {
+		name = "Let's back off for now"
+		set_country_flag = pussy_backed_off
+		ai_chance = {
+			factor = 5
+			modifier = {
+				factor = 2
+				any_greater_power = { war_with = THIS }
+			}
+			modifier = {
+				factor = 2
+				national_provinces_occupied = 0.25
+			}
+			modifier = {
+				factor = 0
+				war = no
+				NOT = { revolt_percentage = 0.25 }
+			}
+		}
+	}
+}

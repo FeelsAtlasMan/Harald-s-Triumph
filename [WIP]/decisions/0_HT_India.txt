@@ -1,0 +1,60 @@
+political_decisions = {
+	unite_deccan = {
+		potential = {
+			OR = { 
+			   tag = HYD
+			   tag = VDB
+			   tag = NAG
+			}
+			DCC = { exists = no }
+		}
+		
+		allow = {
+		    OR = {
+			   VDB = { vassal_of = THIS }
+			   VDB = { all_core = { owned_by = THIS } }
+               }
+			OR = {
+			   NAG = { vassal_of = THIS }
+			   NAG = { all_core = { owned_by = THIS } }
+               }
+			OR = {
+			   HYD = { vassal_of = THIS }
+			   HYD = { all_core = { owned_by = THIS } }
+               }
+			war = no
+		}
+		effect = {
+			any_country = {
+				limit = {
+                                   OR = { 
+			             tag = HYD
+			             tag = VDB
+			             tag = NAG
+			            }
+				}
+				annex_to = THIS
+			}
+			VDB = {
+			    all_core = {
+				    add_core = DCC
+				    remove_core = VDB
+			        }	
+            }		
+            NAG = {
+			    all_core = {
+				    add_core = DCC
+				    remove_core = NAG
+			        }	
+            }
+            HYD = {
+			    all_core = {
+				    add_core = DCC
+				    remove_core = HYD
+			        }	
+            }			
+			change_tag = DCC
+			prestige = 40
+		}	
+	}
+}

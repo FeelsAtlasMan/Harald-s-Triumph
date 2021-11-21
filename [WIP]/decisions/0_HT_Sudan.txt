@@ -1,0 +1,38 @@
+political_decisions = {
+    #Eastern Sudan
+	topple_the_funj = {
+	    picture = egypt
+	    potential = {
+			SNR = { exists = yes }
+			OR = {
+			   tag = SHL
+			   tag = TQL
+		    }
+			NOT = { has_country_flag = invaded_sennar }
+		}
+
+		allow = {
+			war = no
+			OR = {
+			   SNR = { war_with = ABB }
+			   #SNR = { war_with = MAM }
+			   #SNR = { war_with = EGY }
+		    }
+		}
+
+		effect = {
+			SNR = { all_core = { add_core = THIS } }
+			war = {
+	                target = SNR
+	                attacker_goal = { casus_belli = conquest }
+	                call_ally = no
+                }
+			add_accepted_culture = sudanese
+            prestige = 10			
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

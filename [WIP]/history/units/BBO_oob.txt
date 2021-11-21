@@ -1,0 +1,26 @@
+leader = {
+	name = "Ban Stjepan"
+	type = land
+	date="1836.1.1"
+	personality = openminded
+	background = gifted_administrator
+}
+
+army = {
+	name = "Army of the Banate of Bosnia"
+	location = 783
+	regiment = {
+		name= "1st Bosnian Infantry"
+		type = infantry
+		home = 783
+	}
+
+	regiment = {
+		name= "2nd Bosnian Infantry"
+		type = infantry
+		home = 783
+	}
+
+
+}
+

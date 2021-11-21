@@ -1,0 +1,468 @@
+political_decisions = {
+	unite_the_chaco = {
+		potential = {
+		    OR = {
+			   tag = CCH
+			   tag = ABP
+			   tag = PRG
+			}
+			NOT = { has_country_flag = united_the_chaco }
+		}
+		
+		allow = {
+			CCH = { all_core = { owned_by = THIS } }
+			ABP = { all_core = { owned_by = THIS } }
+			PRG = { all_core = { owned_by = THIS } }
+			war = no
+		}
+		effect = {
+			CCH = { all_core = { add_core = THIS } }
+			ABP = { all_core = { add_core = THIS } }
+			PRG = { all_core = { add_core = THIS } }
+			add_accepted_culture = comechingon
+			add_accepted_culture = sanaviron
+			add_accepted_culture = abipon
+			add_accepted_culture = wichi
+			add_accepted_culture = tonocote
+			add_accepted_culture = vilela
+			add_accepted_culture = lule
+			add_accepted_culture = mbaya
+			add_accepted_culture = chane_terena
+			add_accepted_culture = nivacle
+			add_accepted_culture = toba
+			add_accepted_culture = payagua
+			add_accepted_culture = lengua
+			add_accepted_culture = guarani
+			set_country_flag = united_the_chaco 
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	#al-Humr
+	#A Era for al-Humr
+	new_era_humr = {
+	    picture = ever_victorious
+		potential = {
+		    tag = PNB
+			NOT = { has_country_flag = new_era_for_humr }
+		}
+		
+		allow = {
+			SBA = { exists = no }
+			BRZ = { exists = no }
+			BAH = { exists = no }
+			war = no
+		}
+		
+		effect = {
+			SBA = { all_core = { add_core = THIS } }
+		    SBA = { all_core = { remove_core = SBA } }
+			BRZ = { all_core = { add_core = THIS } }
+		    BRZ = { all_core = { remove_core = BRZ } }
+			BAH = { all_core = { add_core = THIS } }
+		    BAH = { all_core = { remove_core = BAH } }
+			militancy = -8
+			war_exhaustion = -100
+			economic_reform = yes_land_reform
+			economic_reform = yes_admin_reform
+			country_event = 690001
+			set_country_flag = new_era_for_humr 
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	#Pacify the Cerrado Tribes
+	pacify_the_cerrado_tribes = {
+		potential = {
+		    tag = PNB
+			has_country_flag = new_era_for_humr 
+			NOT = { has_country_flag = pacified_the_cerrado }
+		}
+		
+		allow = {
+			civilized = yes
+			war = no
+		}
+		
+		effect = {
+			TPB = { all_core = { add_core = THIS } }
+			 war = {
+	            target = TPB
+	            attacker_goal = { casus_belli = conquest }
+	            defender_goal = { casus_belli = status_quo }
+	            call_ally = no
+            }
+			country_event = 690002 
+			2458 = { add_core = THIS }
+			2458 = { secede_province = THIS }
+			2438 = { add_core = THIS }
+			2438 = { secede_province = THIS }
+			2437 = { add_core = THIS }
+			2437 = { secede_province = THIS }
+			2427 = { add_core = THIS }
+			2427 = { secede_province = THIS }
+			2433 = { add_core = THIS }
+			2433 = { secede_province = THIS }
+			2430 = { add_core = THIS }
+			2430 = { secede_province = THIS }
+			3472 = { add_core = THIS }
+			3472 = { secede_province = THIS }
+			3471 = { add_core = THIS }
+			3471 = { secede_province = THIS }
+			3469 = { add_core = THIS }
+			3469 = { secede_province = THIS }
+			3468 = { add_core = THIS }
+			3468 = { secede_province = THIS }
+			3467 = { add_core = THIS }
+			3467 = { secede_province = THIS }
+			set_country_flag = pacified_the_cerrado
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	#Construct Forts in the Cerrado
+	control_inner_cerrado = {
+	    picture = cerrado_forts
+		potential = {
+		    tag = PNB
+			has_country_flag = cerrado_guerilla_war 
+			NOT = { has_country_flag = built_forts_cerrado }
+		}
+		
+		allow = {
+			TPB = { all_core = { owned_by = THIS } }
+			war = no
+		}
+		
+		effect = {
+			2444 = { fort = 1 }
+			2444 = { 
+			    any_pop = { 
+				    limit = { 
+					    type = soldiers
+						has_pop_religion = animist
+					} 
+					reduce_pop = 0.30
+			    } 
+			}
+			2450 = { 
+			    any_pop = { 
+				    limit = { 
+					    type = soldiers
+						has_pop_culture = brazili
+					} 
+					move_pop = 2444
+			    } 
+			}
+			2445 = { fort = 1 }
+			2445 = { 
+			    any_pop = { 
+				    limit = { 
+					    type = soldiers
+						has_pop_religion = animist
+					} 
+					reduce_pop = 0.30
+			    } 
+			}
+			2448 = { 
+			    any_pop = { 
+				    limit = { 
+					    type = soldiers
+						has_pop_culture = brazili
+					} 
+					move_pop = 2445
+			    } 
+			}
+			2453 = { fort = 1 }
+			2453 = { 
+			    any_pop = { 
+				    limit = { 
+					    type = soldiers
+						has_pop_religion = animist
+					} 
+					reduce_pop = 0.30
+			    } 
+			}
+			2443 = { 
+			    any_pop = { 
+				    limit = { 
+					    type = soldiers
+						has_pop_culture = brazili
+					} 
+					move_pop = 2453
+			    } 
+			}
+			2456 = { fort = 1 }
+			2456 = { 
+			    any_pop = { 
+				    limit = { 
+					    type = soldiers
+						has_pop_religion = animist
+					} 
+					reduce_pop = 0.30
+			    } 
+			}
+			2457 = { 
+			    any_pop = { 
+				    limit = { 
+					    type = soldiers
+						has_pop_culture = brazili
+					} 
+					move_pop = 2456
+			    } 
+			}
+			set_country_flag = built_forts_cerrado
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	#Push further into the Cerrado
+	push_into_outer_cerrado = {
+		potential = {
+		    tag = PNB
+			has_country_flag = inner_cerrado_pacified 
+			NOT = { has_country_flag = outer_cerrado_pacified }
+		}
+		
+		allow = {
+			OR = {
+			   civilized = yes
+			   military_reform = yes_military_constructions
+			}
+			war = no
+		}
+		
+		effect = {
+			2420 = { add_core = THIS }
+			2420 = { secede_province = THIS }
+			2419 = { add_core = THIS }
+			2419 = { secede_province = THIS }
+			2425 = { add_core = THIS }
+			2425 = { secede_province = THIS }
+			set_country_flag = outer_cerrado_pacified
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	#A New Capital
+	a_new_capital_humr = {
+	    #picture = ever_victorious
+		potential = {
+		    tag = PNB
+			has_country_flag = new_era_for_humr 
+			has_country_flag = inner_cerrado_pacified
+			NOT = { capital = 2446 }
+		}
+		
+		allow = {
+			civilized = yes
+			government = democracy
+			TPB = { exists = no }
+			war = no
+		}
+		
+		effect = {
+			capital = 2446
+			2446 = { life_rating = 5 }
+			2446 = { change_province_name = "Madinat al-Sha'b" }
+			2446 = {
+			    add_province_modifier = {
+	                name = population_resettlement
+	                duration = 365
+				}
+            }
+			add_country_modifier = {
+	                name = land_of_opportunity
+	                duration = 3650
+                }
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	#Subsidise the Agricultural Sector
+	subsidise_farms = {
+	    #picture = cerrado_forts
+		potential = {
+		    tag = PNB
+			capital = 2446
+			NOT = { has_country_flag = subsidised_farms }
+		}
+		
+		allow = {
+			experimental_railroad = 1
+			basic_chemistry = 1
+			mechanized_mining = 1
+			war = no
+		}
+		
+		effect = {
+		    2344 = { trade_goods = cotton }
+			2344 = { add_province_modifier = { name = hemp_production duration = 36500 } }
+			2344 = { add_province_modifier = { name = rise_of_agriculture duration = 365 } }
+			2345 = { trade_goods = coal }
+			2345 = { add_province_modifier = { name = charcoal_production duration = 36500 } } #flips to Cotton (Hemp)
+		    2346 = { trade_goods = fruit }
+			2346 = { add_province_modifier = { name = rise_of_agriculture duration = 365 } }
+		    2347 = { trade_goods = grain }
+			2347 = { add_province_modifier = { name = rise_of_agriculture duration = 365 } }
+			2348 = { trade_goods = coal }
+			2348 = { add_province_modifier = { name = charcoal_production duration = 36500 } } #flips to Cotton (Hemp)
+			2349 = { trade_goods = coal }
+			2349 = { add_province_modifier = { name = charcoal_production duration = 36500 } } #flips to Cotton (Hemp)
+			2351 = { trade_goods = coal }
+			2351 = { add_province_modifier = { name = charcoal_production duration = 36500 } } #flips to Cotton (Hemp)
+			2352 = { trade_goods = coal }
+			2352 = { add_province_modifier = { name = charcoal_production duration = 36500 } } #flips to Cotton (Hemp)
+			2359 = { trade_goods = coal }
+			2359 = { add_province_modifier = { name = charcoal_production duration = 36500 } } #flips to Cotton (Hemp)
+			2360 = { trade_goods = coal }
+			2360 = { add_province_modifier = { name = charcoal_production duration = 36500 } } #flips to Cotton (Hemp)
+			2424 = { trade_goods = tobacco }
+			2424 = { add_province_modifier = { name = rise_of_agriculture duration = 365 } }
+			2426 = { trade_goods = tobacco }
+			2426 = { add_province_modifier = { name = rise_of_agriculture duration = 365 } }
+			2440 = { trade_goods = coal }
+			2440 = { add_province_modifier = { name = charcoal_production duration = 36500 } } #flips to Precious Metals (Diamonds)
+			2441 = { trade_goods = coal }
+			2441 = { add_province_modifier = { name = charcoal_production duration = 36500 } } #flips to Iron
+			2442 = { trade_goods = coal }
+			2442 = { add_province_modifier = { name = charcoal_production duration = 36500 } } #flips to Precious Metals (Gold)
+			2443 = { trade_goods = coal }
+			2443 = { add_province_modifier = { name = charcoal_production duration = 36500 } } #flips to Precious Metals (Diamonds)
+			2444 = { trade_goods = coal }
+			2444 = { add_province_modifier = { name = charcoal_production duration = 36500 } } #flips to Cattle
+			2445 = { trade_goods = coal }
+			2445 = { add_province_modifier = { name = charcoal_production duration = 36500 } } #flips to Cattle
+			2446 = { trade_goods = coal }
+			2446 = { add_province_modifier = { name = charcoal_production duration = 36500 } } #flips to Grain
+			2452 = { trade_goods = coal }
+			2452 = { add_province_modifier = { name = charcoal_production duration = 36500 } } #flips to Cattle
+			2453 = { trade_goods = coal }
+			2453 = { add_province_modifier = { name = charcoal_production duration = 36500 } } #flips to Grain
+			2456 = { trade_goods = coal }
+			2456 = { add_province_modifier = { name = charcoal_production duration = 36500 } } #flips to Grain
+		    2463 = { trade_goods = grain }
+			2463 = { add_province_modifier = { name = rise_of_agriculture duration = 365 } }
+			2464 = { trade_goods = grain }
+			2464 = { add_province_modifier = { name = rise_of_agriculture duration = 365 } }
+			2465 = { trade_goods = fruit }
+			2465 = { add_province_modifier = { name = rise_of_agriculture duration = 365 } }
+			3467 = { trade_goods = cotton }
+			3467 = { add_province_modifier = { name = rise_of_agriculture duration = 365 } }
+			3468 = { trade_goods = cotton }
+			3468 = { add_province_modifier = { name = rise_of_agriculture duration = 365 } }
+			set_country_flag = subsidised_farms
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	#Propose a union between Tufunawa and Humr 1
+	unite_abralmuhit_peaceful = {
+	    picture = unite_abralmuhit
+		potential = {
+		    civilized = yes
+			tag = PNB
+			NOT = { has_country_flag = annexed_guy }
+		}
+		
+		allow = {
+		    AND = {
+				tag = PNB
+			    PNB = { is_sphere_leader_of = GUY }
+				GUY = { all_core = { owned_by = GUY } }
+			}
+			war = no
+		}
+		
+		effect = {
+			GUY = { country_event = 690010 }
+			set_country_flag = annexed_guy
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	#Propose a union between Tufunawa and Humr 2
+	unite_abralmuhit_war = {
+	    picture = unite_abralmuhit
+		potential = {
+		    civilized = yes
+			tag = PNB
+			NOT = { has_country_flag = annexed_guy }
+		}
+		
+		allow = {
+			AND = {
+			    tag = PNB
+				GUY = { all_core = { owned_by = PNB } }
+			}
+			war = no
+		}
+		
+		effect = {
+			add_accepted_culture = amazuni
+			set_country_flag = annexed_guy
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	#Initiate the Amassuna Conference
+	amassuna_conference = {
+	    picture = amazonas_gaming
+	    potential = {
+		    tag = PNB
+			GUY = { all_core = { owned_by = PNB } }
+			NOT = { has_country_flag = intiated_ac }
+		}
+		
+		allow = {
+		    OR = {
+			  AND = {
+			    state_n_government = 1
+			    inorganic_chemistry = 1
+			  }
+			  year = 1870
+			}
+			war = no
+		}
+		
+		effect = {
+			INC = { country_event = 690011 }
+			CLM = { country_event = 690011 }
+			set_country_flag = intiated_ac
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	#Incan Claims in the Amassuna
+	inca_amassuna_claims = {
+	    picture = amazonas_gaming
+	    potential = {
+		    tag = INC
+			OR = {
+			    has_country_flag = cucked_out_of_ac
+				has_country_flag = rejected_ac
+		    }
+			NOT = { has_country_flag = inca_amassuna_claims_proc }
+		}
+		
+		allow = {
+			war = no
+		}
+		
+		effect = {
+			2417 = { add_core = INC }
+			3480 = { add_core = INC }
+			2407 = { add_core = INC }
+			2401 = { add_core = INC }
+			2263 = { add_core = INC }
+			2235 = { add_core = INC }
+			2289 = { add_core = INC }
+			2549 = { add_core = INC }
+			2404 = { add_core = INC }
+			2405 = { add_core = INC }
+			secede_province = 2407
+			set_country_flag = inca_amassuna_claims_proc
+		}
+		ai_will_do = { factor = 1 }
+	}
+}

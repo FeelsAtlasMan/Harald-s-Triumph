@@ -1,0 +1,132 @@
+political_decisions = {
+
+supply_algaravians_1 = { ## Decision for Iberian nations to sell army tech to Granada
+		picture = minie
+		potential = { 
+			OR = {
+				tag = ATR
+				tag = BSQ			
+				tag = CAT
+				tag = CST
+				tag = POR			
+			}
+			neighbour = ANU
+			has_global_flag = andalusian_unrest
+			ANU = { 
+				exists = yes
+				NOT = { muzzle_loaded_rifles = 1}
+			}			
+			NOT = { has_global_flag = ANU_arms_purchase_tier_1 }
+		}
+		
+		allow = { 
+			war = no
+			muzzle_loaded_rifles = 1
+		}
+	
+		effect = {
+			set_global_flag = ANU_arms_purchase_tier_1	
+			ANU = { country_event = 410007 }			
+			treasury = 10000
+		}
+	
+	}
+	
+	supply_algaravians_2 = { ## Decision for Iberian nations to sell army tech to Granada
+		picture = snider_enfield
+		potential = { 
+			OR = {
+				tag = ATR
+				tag = BSQ			
+				tag = CAT
+				tag = CST
+				tag = POR			
+			}
+			neighbour = ANU
+			has_global_flag = andalusian_unrest
+			ANU = { 
+				exists = yes
+				muzzle_loaded_rifles = 1				
+				NOT = { breech_loaded_rifles = 1}
+			}			
+			NOT = { has_global_flag = ANU_arms_purchase_tier_2 }
+		}
+		
+		allow = { 
+			war = no
+			breech_loaded_rifles = 1
+		}
+	
+		effect = {
+			set_global_flag = ANU_arms_purchase_tier_2	
+			ANU = { country_event = 410008 }			
+			treasury = 10000
+		}
+	
+	}
+
+	supply_algaravians_3 = { ## Decision for Iberian nations to sell army tech to Granada
+		picture = 7_pounder
+		potential = { 
+			OR = {
+				tag = ATR
+				tag = BSQ			
+				tag = CAT
+				tag = CST
+				tag = POR			
+			}
+			neighbour = ANU
+			has_global_flag = andalusian_unrest
+			ANU = { 
+				exists = yes
+				NOT = { iron_muzzle_loaded_artillery = 1}
+			}			
+			NOT = { has_global_flag = ANU_arms_purchase_tier_3 }
+		}
+		
+		allow = { 
+			war = no
+			iron_muzzle_loaded_artillery = 1
+		}
+	
+		effect = {
+			set_global_flag = ANU_arms_purchase_tier_3	
+			ANU = { country_event = 410009 }			
+			treasury = 10000
+		}
+	
+	}
+
+	supply_algaravians_4 = { ## Decision for Iberian nations to sell army tech to Granada
+		picture = bl5inch
+		potential = { 
+			OR = {
+				tag = ATR
+				tag = BSQ			
+				tag = CAT
+				tag = CST
+				tag = POR			
+			}
+			neighbour = ANU
+			has_global_flag = andalusian_unrest
+			ANU = { 
+				exists = yes
+				NOT = { iron_breech_loaded_artillery = 1}
+				iron_muzzle_loaded_artillery = 1				
+			}			
+			NOT = { has_global_flag = ANU_arms_purchase_tier_4 }
+		}
+		
+		allow = { 
+			war = no
+			iron_breech_loaded_artillery = 1
+		}
+	
+		effect = {
+			set_global_flag = ANU_arms_purchase_tier_4	
+			ANU = { country_event = 410010 }			
+			treasury = 10000
+		}
+	
+	}	
+}

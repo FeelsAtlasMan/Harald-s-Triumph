@@ -1,0 +1,586 @@
+political_decisions = {
+    #Swahili Coast
+	unite_the_swahili_coast = {
+	    picture = swahili_coast
+	    potential = {
+			SWA = { exists = no }
+			has_country_flag = swahili_country
+			NOT = { tag = PER }
+		}
+
+		allow = {
+			war = no
+			SWA = {
+		       all_core = {
+			            OR = {
+						   owned_by = THIS
+						   owner = {
+						   vassal_of = THIS
+						   }
+						}
+					}
+				}
+		}
+
+		effect = {
+			change_tag = SWA
+			prestige = 20
+			2121 = { add_core = SWA }
+			2123 = { add_core = SWA }
+			2124 = { add_core = SWA }
+			add_accepted_culture = swahili_arabic
+            any_country = {
+					limit = {
+						OR = {
+						   primary_culture = swahili
+						   primary_culture = shirazi
+						}
+						vassal_of = THIS
+					}
+					country_event = 11101
+				}					
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	a_new_capital_swa = {
+	    picture = foundation_of_dar_es_salaam
+	    potential = {
+			tag = SWA
+			NOT = { has_country_flag = built_dar_es_salaam }
+		}
+
+		allow = {
+			war = no
+			SWA = { all_core = { owned_by = THIS } }
+			money = 20000
+		}
+
+		effect = {
+		    2036 = { change_province_name = "Dar Al-Salam" }
+			capital = 2036
+			2036 = { life_rating = 5 }
+			2036 = { add_province_modifier = { name = baby_boom_assimilation duration = 1400 } }
+			set_country_flag =  built_dar_es_salaam 
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	push_into_the_interior = {
+	    picture = map_africa
+	    potential = {
+			tag = SWA
+			NOT = { has_country_flag = pushed_into_the_interior }
+		}
+
+		allow = {
+			war = no
+			SWA = { all_core = { owned_by = THIS } }
+			OR = {
+			    civilized = yes
+				civilization_progress = 0.5
+				land_reform = land_reform_two
+				year = 1855
+			}
+			
+		}
+
+		effect = {
+			2058 = { secede_province = THIS }
+			2058 = { add_core = THIS }
+			2058 = { life_rating = 25 }
+			2065 = { secede_province = THIS }
+			2065 = { add_core = THIS }
+			2065 = { life_rating = 25 }
+			2581 = { secede_province = THIS }
+			2581 = { add_core = THIS }
+			2581 = { life_rating = 25 }
+			2064 = { secede_province = THIS }
+			2064 = { add_core = THIS }
+			2064 = { life_rating = 25 }
+			2041 = { secede_province = THIS }
+			2041 = { add_core = THIS }
+			2041 = { life_rating = 25 }
+			2040 = { secede_province = THIS }
+			2040 = { add_core = THIS }
+			2040 = { life_rating = 25 }
+			2042 = { secede_province = THIS }
+			2042 = { add_core = THIS }
+			2042 = { life_rating = 25 }
+			2045 = { secede_province = THIS }
+			2045 = { add_core = THIS }
+			2045 = { life_rating = 25 }
+			2032 = { secede_province = THIS }
+			2032 = { add_core = THIS }
+			2032 = { life_rating = 25 }
+			3439 = { secede_province = THIS }
+			3439 = { add_core = THIS }
+			3439 = { life_rating = 25 }
+			set_country_flag =  pushed_into_the_interior 
+			badboy = 5
+		}
+
+		ai_will_do = {
+		    factor = 1
+			modifier = {
+			     factor = 0
+				 badboy = 0.75
+			}
+		}
+	}
+	
+	annex_tanganyika = {
+	    picture = map_africa
+	    potential = {
+			tag = SWA
+			has_country_flag = pushed_into_the_interior
+			OR = {
+			   UTT = { all_core = { owned_by = THIS } }
+			   AND = {
+			       UTT = { vassal_of = THIS }
+				   UJJ = { vassal_of = THIS }
+			   }
+			}
+			NOT = { has_country_flag = annexed_tanganyika }
+		}
+
+		allow = {
+			war = no
+			SWA = { all_core = { owned_by = THIS } }
+			year = 1880
+		}
+
+		effect = {
+			3440 = { secede_province = THIS }
+			3440 = { add_core = THIS }
+			3440 = { life_rating = 25 }
+			2067 = { secede_province = THIS }
+			2067 = { add_core = THIS }
+			2067 = { life_rating = 25 }
+			2044 = { secede_province = THIS }
+			2044 = { add_core = THIS }
+			2044 = { life_rating = 25 }
+			2047 = { secede_province = THIS }
+			2047 = { add_core = THIS }
+			2047 = { life_rating = 25 }
+			2027 = { secede_province = THIS }
+			2027 = { add_core = THIS }
+			2027 = { life_rating = 25 }
+			2028 = { secede_province = THIS }
+			2028 = { add_core = THIS }
+			2028 = { life_rating = 25 }
+			2026 = { secede_province = THIS }
+			2026 = { add_core = THIS }
+			2026 = { life_rating = 25 }
+			2025 = { secede_province = THIS }
+			2025 = { add_core = THIS }
+			2025 = { life_rating = 25 }
+			2031 = { secede_province = THIS }
+			2031 = { add_core = THIS }
+			2031 = { life_rating = 25 }
+			3444 = { add_core = THIS }
+			3444 = { life_rating = 25 }
+			3444 = { secede_province = THIS }
+			3445 = { add_core = THIS }
+			3445 = { life_rating = 25 }
+			3445 = { secede_province = THIS }
+			3436 = { add_core = THIS }
+			2054 = { add_core = THIS }
+			2066 = { add_core = THIS }
+			2018 = { add_core = THIS }
+			2024 = { add_core = THIS }
+			BBM = { all_core = { add_core = THIS } }
+			NYM = { all_core = { add_core = THIS } }
+			inherit = UJJ
+			inherit = UTT
+			UJJ = { all_core = { add_core = THIS } }
+			UTT = { all_core = { add_core = THIS } }
+			BEL_2043 = { add_core = THIS }
+			set_country_flag =  annexed_tanganyika 
+			badboy = 20
+		}
+
+		ai_will_do = {
+		    factor = 1
+			modifier = {
+			     factor = 0
+				 badboy = 0.75
+			}
+		}
+	}
+	
+	claim_madagascar_swa = {
+	    picture = swahili_coast
+	    potential = {
+			tag = SWA
+			has_country_flag = pushed_into_the_interior
+			NOT = { has_country_flag =  claimed_madagascar_swa }
+		}
+
+		allow = {
+			war = no
+			SWA = { all_core = { owned_by = THIS } }
+			OR = {
+			    civilized = yes
+				civilization_progress = 0.8
+				year = 1870
+			}
+			
+		}
+
+		effect = {
+			MAD = { all_core = { add_core = THIS } }
+			set_country_flag =  claimed_madagascar_swa 
+			badboy = 10
+		}
+
+		ai_will_do = {
+		    factor = 1
+			modifier = {
+			     factor = 0
+				 badboy = 0.75
+			}
+		}
+	}
+	
+	establish_schools_swa = {
+	    picture = tanzania_shop
+	    potential = {
+			tag = SWA
+			has_country_flag = claimed_madagascar_swa
+			NOT = { has_country_flag = established_schools_swa }
+		}
+
+		allow = {
+			war = no
+			SWA = { all_core = { owned_by = THIS } }
+			money = 100000
+		}
+
+		effect = {
+			remove_accepted_culture = somali
+			remove_accepted_culture = yao
+			remove_accepted_culture = malagasy
+			remove_accepted_culture = comorian
+			remove_accepted_culture = makua
+			treasury = -100000
+			add_country_modifier = {
+	                      name = french_cultural_unity
+	                      duration = 7300
+            }
+			social_reform = acceptable_schools
+			set_country_flag =  established_schools_swa 
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	yao_expansion = {
+	    picture = map_africa
+	    potential = {
+			tag = ZOU
+			NOT = { has_country_flag = yao_expansion_happend }
+		}
+
+		allow = {
+			war = no
+			ZOU = { all_core = { owned_by = THIS } }
+			foreign_weapons = yes_foreign_weapons
+		}
+
+		effect = {
+			war = {
+	            target = MLW
+	            attacker_goal = { casus_belli = conquest }
+	            defender_goal = { casus_belli = status_quo }
+	            call_ally = no
+            }
+			set_country_flag =  yao_expansion_happend 
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	#Great Lakes
+	legacy_of_chwezi = {
+	    picture = map_africa
+	    potential = {
+			is_culture_group = bantu_j_group
+			NOT = { has_country_flag = claimed_chwezi_legacy }
+		}
+
+		allow = {
+			war = no
+			BRD = { any_core = { owned_by = THIS } }
+			RWA = { any_core = { owned_by = THIS } }
+			KGW = { any_core = { owned_by = THIS } }
+			NKL = { any_core = { owned_by = THIS } }
+			BUG = { any_core = { owned_by = THIS } }
+			ITS = { any_core = { owned_by = THIS } }
+		}
+
+		effect = {
+            BEL_2043 = { add_core = THIS }
+			2021 = { add_core = THIS }
+			2023 = { add_core = THIS }
+			add_accepted_culture = konzo
+			add_accepted_culture = shi_havu
+			add_accepted_culture = nkore
+			add_accepted_culture = baganda
+			add_accepted_culture = nyoro
+			add_accepted_culture = tooro
+			add_accepted_culture = soga
+			add_accepted_culture = haya
+			add_accepted_culture = zinza
+			add_accepted_culture = nyambo
+			add_accepted_culture = suguti
+			add_accepted_culture = luhya
+			add_accepted_culture = logooli_kuria
+			add_accepted_culture = ruanda
+			add_accepted_culture = sumbwa
+			set_country_flag = claimed_chwezi_legacy
+		}
+
+		ai_will_do = {
+		    factor = 1
+		}
+	}
+	
+	#Lunda
+	#Reform the traditional system
+	reform_lunda_administration = {
+	    picture = hausa_expansion3
+	    potential = {
+			tag = LUN
+			NOT = { has_country_flag = reformed_lunda }
+		}
+
+		allow = {
+			war = no
+			LBA = { vassal_of = THIS }
+			KZB = { vassal_of = THIS }
+			civilization_progress = 0.1
+		}
+
+		effect = {
+            inherit = LBA
+			inherit = KZB
+			years_of_research = 0.5
+			set_country_flag = reformed_lunda
+			add_accepted_culture = songe
+			add_accepted_culture = hemba
+		}
+
+		ai_will_do = {
+		    factor = 1
+		}
+	}
+	
+	#Defeat the Chokwe
+	reform_lunda_administration = {
+	    picture = hausa_expansion4
+	    potential = {
+			tag = LUN
+			NOT = { has_country_flag = chokwe_war }
+			has_country_flag = reformed_lunda
+		}
+
+		allow = {
+			war = no
+			LUN = { all_core = { owned_by = THIS } }
+		}
+
+		effect = {
+            CKW = { all_core = { add_core = THIS } }
+			set_country_flag = chokwe_war
+		}
+
+		ai_will_do = {
+		    factor = 1
+		}
+	}
+	
+	#Zaire (Kongo, Loango, Ndongo)
+	#Unite Zaire
+	unite_zaire = {
+	    picture = zaire_map
+	    potential = {
+			OR = {
+			   tag = KON
+			   tag = LOA
+			   tag = NDG
+			}
+			NOT = { has_global_flag = united_zaire }
+		}
+
+		allow = {
+			KON = { all_core = { owned_by = THIS } }
+			NDG = { all_core = { owned_by = THIS } }
+			LOA = { all_core = { owned_by = THIS } }
+			OR = {
+			   MTB = { all_core = { owned_by = THIS } }
+			   MTB = { vassal_of = THIS }
+			}
+		}
+
+		effect = {
+            KON = { all_core = { add_core = THIS } }
+			NDG = { all_core = { add_core = THIS } }
+			LOA = { all_core = { add_core = THIS } }
+			MTB = { all_core = { add_core = THIS } }
+			inherit = MTB
+			set_global_flag = united_zaire
+			add_accepted_culture = kimbundu
+			primary_culture = kongo
+		}
+
+		ai_will_do = {
+		    factor = 1
+		}
+	}
+	
+	#Establish closer ties with the rest of the muslim world/Send the young to study abroad
+	closer_ties_with_muslim_world = {
+	    picture = tanzania_shop
+	    potential = {
+			OR = {
+			   tag = KON
+			   tag = LOA
+			   tag = NDG
+			}
+			NOT = { has_country_flag = united_zaire }
+			has_global_flag = united_zaire
+		}
+
+		allow = {
+			OR = {
+			   relation = { who = MOR value = 150 }
+			   relation = { who = ABB value = 150 }
+			   relation = { who = MML value = 150 }
+			   relation = { who = TIM value = 150 }
+			   relation = { who = PER value = 150 }
+			}
+			NOT = {
+                 has_country_modifier = uncivilized_isolationism
+            }			
+		}
+
+		effect = {
+            economic_reform = yes_education_reform
+			economic_reform = yes_western_science
+			years_of_research = 2.5
+			add_country_modifier = {
+	                      name = missionary_activity
+	                      duration = 3650
+            }
+			capital_scope = { 
+			      add_country_modifier = {
+	                      name = foreign_trading_post
+	                      duration = 365
+                  }
+			}
+			set_country_flag = united_zaire
+		}
+
+		ai_will_do = {
+		    factor = 1
+		}
+	}
+	
+	#Defeat the Chokwe
+	reform_lunda_administration = {
+	    picture = hausa_expansion4
+	    potential = {
+			tag = LUN
+			NOT = { has_country_flag = chokwe_war }
+			has_country_flag = reformed_lunda
+		}
+
+		allow = {
+			war = no
+			LUN = { all_core = { owned_by = THIS } }
+		}
+
+		effect = {
+            CKW = { all_core = { add_core = THIS } }
+			set_country_flag = chokwe_war
+		}
+
+		ai_will_do = {
+		    factor = 1
+		}
+	}
+
+	#Meme Shit
+	invade_iran_swa = {
+	    picture = restore_iran
+	    potential = {
+			tag = SWA
+			is_greater_power = yes
+			has_country_flag = pushed_into_the_interior
+			OR = {
+			   YZD = { exists = yes }
+			   FRS = { exists = yes }
+			   AZB = { exists = yes }
+			   KHR = { exists = yes }
+			   AJM = { exists = yes }
+			}
+			PER = { exists = no }
+			PER_1142 = { owned_by = THIS }
+			NOT = { has_country_flag = invaded_iran_swa }
+		}
+
+		allow = {
+			war = no
+			SWA = { all_core = { owned_by = THIS } }
+			nationalism_n_imperialism = 1	
+		}
+
+		effect = {
+			PER = { all_core = { add_core = SWA } }
+			set_country_flag =  invaded_iran_swa 
+			infamy = 25
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	restore_iran_swa = {
+	    picture = restore_iran
+	    potential = {
+			tag = SWA
+			is_greater_power = yes
+			has_country_flag = invaded_iran_swa
+			PER = { exists = no }
+		}
+
+		allow = {
+			war = no
+			SWA = { all_core = { owned_by = THIS } }
+		}
+
+		effect = {
+			change_tag = PER
+			add_accepted_culture = persian
+			PER = { all_core = { remove_core = SWA } }
+			set_country_flag =  invaded_iran_swa 
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+}

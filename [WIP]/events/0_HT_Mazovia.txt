@@ -1,0 +1,154 @@
+country_event = {
+	id = 102500
+	title = "Mazovian Uprising"
+	desc = "EVTDESC102500"
+	picture = "polish_uprising_aus"
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+		name = "We will march down to Varsava!"
+		prestige = 20
+		war = {
+			target = CPL
+			attacker_goal = {
+				casus_belli = annex_core_country
+			}
+			defender_goal = {
+				casus_belli = status_quo
+			}
+		}
+    }
+}
+country_event = {
+	id = 102501
+	title = "Wielkopolska rises against us!"
+	desc = "EVTDESC102501"
+	picture = "polish_uprising_aus"
+	is_triggered_only = yes
+	
+	option = {
+		name = "Then we'll conquer them too!"
+		prestige = 20
+		any_owned = {
+			limit = {
+				is_core = PZN
+			}
+			secede_province = PZN
+		}
+		PZN = {
+			add_country_modifier = {
+				name = polish_uprising_mobilization
+				duration = 2700
+			}
+		}
+		war = {
+			target = PZN
+			attacker_goal = {
+				casus_belli = annex_core_country
+			}
+			defender_goal = {
+				casus_belli = status_quo
+			}
+		}
+    }
+}
+country_event = {
+	id = 102502
+	title = "Pomerania rises against us!"
+	desc = "EVTDESC102502"
+	picture = "polish_uprising_aus"
+	is_triggered_only = yes
+	
+	option = {
+		name = "Then we'll conquer them too!"
+		prestige = 20
+		any_owned = {
+			limit = {
+				is_core = PML
+			}
+			secede_province = PML
+		}
+		PML = {
+			add_country_modifier = {
+				name = polish_uprising_mobilization
+				duration = 2700
+			}
+		}
+		war = {
+			target = PML
+			attacker_goal = {
+				casus_belli = annex_core_country
+			}
+			defender_goal = {
+				casus_belli = status_quo
+			}
+		}
+    }
+}
+country_event = {
+	id = 102504
+	title = "Malopolska rises against us!"
+	desc = "EVTDESC102504"
+	picture = "polish_uprising_aus"
+	is_triggered_only = yes
+	
+	option = {
+		name = "Then we'll conquer them too!"
+		prestige = 20
+		any_owned = {
+			limit = {
+				is_core = KRA
+			}
+			secede_province = KRA
+		}
+		KRA = {
+			add_country_modifier = {
+				name = polish_uprising_mobilization
+				duration = 2700
+			}
+		}
+		war = {
+			target = KRA
+			attacker_goal = {
+				casus_belli = annex_core_country
+			}
+			defender_goal = {
+				casus_belli = status_quo
+			}
+		}
+    }
+}
+country_event = {
+	id = 102505
+	title = "Silesia rises against us!"
+	desc = "EVTDESC102504"
+	picture = "polish_uprising_aus"
+	is_triggered_only = yes
+	
+	option = {
+		name = "Then we'll conquer them too!"
+		prestige = 20
+		any_owned = {
+			limit = {
+				is_core = SLS
+			}
+			secede_province = SLS
+		}
+		SLS = {
+			add_country_modifier = {
+				name = polish_uprising_mobilization
+				duration = 2700
+			}
+		}
+		war = {
+			target = SLS
+			attacker_goal = {
+				casus_belli = annex_core_country
+			}
+			defender_goal = {
+				casus_belli = status_quo
+			}
+		}
+    }
+}

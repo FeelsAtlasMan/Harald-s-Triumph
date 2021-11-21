@@ -1,0 +1,22 @@
+country_event = {
+	id = 130801
+	title = "Ascention of Doubravka I"
+	desc = "EVTDESC130801"
+	fire_only_once = yes
+	major = yes
+	
+	trigger = {
+		tag = BOH
+		year = 1840
+	}
+	
+	mean_time_to_happen = {
+		months = 6
+	}
+	
+	option = {
+		name = "Long live the Queen!"
+		prestige = 15
+		release_vassal = LUX
+	}
+}

@@ -1,0 +1,149 @@
+
+political_decisions = {
+	#conquest_of_red_water = {
+	#	picture = doha_city
+	#	potential = {
+	#		OR = {
+	#			owns = 1196
+	#			owns = 1204
+	#			owns = 1206
+	#			owns = 686
+	#		}	
+	#		1205 = { empty = yes }
+	#		NOT = { has_country_flag = red_water_conquered }
+	#	}
+	#	
+	#	allow = {
+	#		civilized = yes
+	#		nationalism_n_imperialism = 1
+	#		owns = 1196
+	#		owns = 1204
+	#		owns = 1206
+	#		owns = 686		
+	#	}
+	#	
+	#	effect = {
+	#		set_country_flag = red_water_conquered
+	#		prestige = 5
+	#		1205 = { secede_province = THIS }
+	#	}
+	#
+	#	ai_will_do = { factor = 1 }
+	#}
+
+	rename_artois_NET = {
+		picture = NET_claim_artois
+		potential = {
+		   OR = {
+			primary_culture = north_german
+            primary_culture = south_german
+            primary_culture = swiss_german
+			primary_culture = dutch
+			}
+			owns = 399 #Lille
+			owns = 400 #Dunkirk
+			owns = 401 #Arras
+			owns = 393 #Tournai
+			owns = 388 #Brugge
+			owns = 389 #Gent
+			NOT = { has_global_flag = dutch_artois }
+		}
+		
+		allow = {
+			is_greater_power = yes
+			nationalism_n_imperialism = 1
+		}
+		
+		effect = {
+			prestige = 5
+			399 = { change_province_name = "Ryssel" }
+			393 = { change_province_name = "Dornick" }
+			401 = { change_province_name = "Atrecht" }
+			388 = { change_province_name = "Brügge " }
+			389 = { change_province_name = "Gent" }
+			400 = {
+				change_province_name = "Dünkirchen"
+				state_scope = {	change_region_name = "Westflandern"	}
+			}
+			set_global_flag = dutch_artois
+		}
+			
+		ai_will_do = { factor = 1 }
+	}
+
+	rename_artois_FRA = {
+		picture = FRA_rename_artois
+		potential = {
+			primary_culture = french
+			owns = 399 #Lille
+			owns = 400 #Dunkirk
+			owns = 401 #Arras
+			owns = 393 #Tournai
+			owns = 388 #Brugge
+			owns = 389 #Gent
+			has_global_flag = dutch_artois
+		}
+		
+		allow = {
+			is_greater_power = yes
+			nationalism_n_imperialism = 1
+		}
+		
+		effect = {
+			prestige = 5
+			set_global_flag = french_artois
+			399 = { change_province_name = "Lille" }
+			393 = { change_province_name = "Tournai" }
+			401 = { change_province_name = "Arras" }
+			388 = { change_province_name = "Bruges" }
+			389 = { change_province_name = "Gand" }
+			400 = {
+				change_province_name = "Dunkerque"
+				state_scope = {	change_region_name = "Flamande"	}
+			}
+			clr_global_flag = dutch_artois
+		}
+			
+		ai_will_do = { factor = 1 }
+	}
+
+	build_neuschwanstein = {
+		picture = neuschwanstein
+		potential = {
+			year = 1886
+			OR = { 
+				AND = { 
+					tag = BAV
+					has_country_flag = swan_king
+				}
+				AND = {
+					NOT = { tag = BAV }
+					owns = 592 #Augsburg
+					is_culture_group = continental_western_germanic
+				}
+			}
+			OR = {
+				government = absolute_monarchy
+				government = prussian_constitutionalism
+				government = hms_government
+			}
+			NOT = { has_global_flag = neuschwanstein_built }
+		}
+		
+		allow = {
+			OR = { 
+				is_greater_power = yes
+				is_secondary_power = yes
+			}
+			romanticism = 1
+		}
+		
+		effect = {
+			treasury = -30000 #It costed 6.2 million marks but I have no idea how that translates into game money.
+			prestige = 15
+			set_global_flag = neuschwanstein_built
+		}
+			
+		ai_will_do = { factor = 1 }
+	}
+}

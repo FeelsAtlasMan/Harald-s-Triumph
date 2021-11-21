@@ -1,0 +1,450 @@
+political_decisions = {
+
+	propose_zapadoslavia = {
+		picture = create_zapadoslavia
+		potential = {
+			is_culture_group = western_slavic
+			NOT = { has_global_flag = proposed_zapadoslavia }
+		}
+		allow = {
+			is_greater_power = yes
+			state_n_government = 1
+		}
+		effect = {
+			set_global_flag = proposed_zapadoslavia
+			prestige = 20
+		}
+	}
+	become_zapadoslavia = {
+		picture = create_zapadoslavia
+		potential = {
+			is_culture_group = western_slavic
+			has_global_flag = proposed_zapadoslavia
+			WSF = { exists = no }
+		}
+		allow = {
+			POL = { all_core = { OR = { owned_by = THIS owner = { in_sphere = THIS } } } }
+			BOH = { all_core = { OR = { owned_by = THIS owner = { in_sphere = THIS } } } }
+			SLV = { all_core = { OR = { owned_by = THIS owner = { in_sphere = THIS } } } }
+			PLB = { all_core = { OR = { owned_by = THIS owner = { in_sphere = THIS } } } }
+			nationalism_n_imperialism = 1
+			is_greater_power = yes
+		}
+		effect = {
+			all_core = {
+				add_core = WSF
+				remove_core = THIS
+			}
+			POL = { all_core = { add_core = WSF } }
+			BOH = { all_core = { add_core = WSF } }
+			SLV = { all_core = { add_core = WSF } }
+			PLB = { all_core = { add_core = WSF } }
+			any_country = {
+				limit = {
+					is_culture_group = western_slavic
+				}
+				annex_to = THIS
+			}
+			change_tag = WSF
+			add_accepted_culture = czech
+			add_accepted_culture = slovak
+			add_accepted_culture = polish
+			add_accepted_culture = sorbian
+			add_accepted_culture = veleti
+			add_accepted_culture = kashubian
+			prestige = 60
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	unite_ireland = {
+		picture = ireland
+		potential = {
+			primary_culture = irish
+			IRE = { exists = no }
+		}
+		allow = {
+			IRE = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+			is_vassal = no
+		}
+		effect = {
+			all_core = {
+				add_core = IRE
+			}
+			change_tag = IRE
+			prestige = 20
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	form_belgica = {
+		picture = map_belgica
+		potential = {
+			OR = {
+				tag = FLA
+				tag = WLL
+				tag = LUX
+				tag = BRB
+				tag = LIG
+				tag = LBG
+			}
+			NOT = { BEL = { exists = yes } }
+		}
+		allow = {
+			392 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						in_sphere = THIS
+					}
+				}
+			}
+			387 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						in_sphere = THIS
+					}
+				}
+			}
+			395 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						in_sphere = THIS
+					}
+				}
+			}
+			381 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						in_sphere = THIS
+					}
+				}
+			}
+			397 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						in_sphere = THIS
+					}
+				}
+			}
+		}
+		effect = {
+			all_core = {
+				add_core = BEL
+				remove_core = THIS
+			}
+			change_tag = BEL
+			FLA = { all_core = { add_core = THIS } }
+			WLL = { all_core = { add_core = THIS } }
+			LUX = { all_core = { add_core = THIS } }
+			LIG = { all_core = { add_core = THIS } }
+			BRB = { all_core = { add_core = THIS } }
+			LBG = { all_core = { add_core = THIS } }
+			NET = { all_core = { add_core = THIS } }
+		}
+		ai_will_do = { factor = 1 }
+	}
+	reunite_imeretia = {
+	    picture = "georgia"
+		potential = {
+		    OR = {
+			  tag = MIG
+			  tag = IMR
+			  tag = SVA
+			  tag = GRI
+			}
+			GEO = { exists = no }
+			NOT = { has_country_flag = IMR_united }
+		}
+		allow = {
+			IMR = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+			is_vassal = no
+		}
+		effect = {
+			change_tag = IMR
+			set_country_flag = IMR_united
+			prestige = 10
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	restore_georgia = {
+	    picture = "georgia"
+		potential = {
+			OR = {
+			   tag = KRT
+			   tag = KKH
+			   AND = {
+			      tag = IMR
+			      has_country_flag = IMR_united
+			   }
+			}
+			GEO = { exists = no }
+		}
+		allow = {
+			GEO = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+			is_vassal = no
+		}
+		effect = {
+			change_tag = GEO
+			prestige = 30
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	unite_ango_saxons = {
+		potential = {
+			NOT = { ENL = { exists = yes } }
+			OR = {
+				tag = WSX
+				tag = SUX
+				tag = ESX
+				tag = KNT
+				tag = MRC
+			}
+		}
+		allow = {
+			owns = 300
+			owns = 294
+			owns = 284
+			owns = 298
+		}
+		effect = {
+			all_core = {
+				add_core = ENL
+				remove_core = THIS
+			}
+			change_tag = ENL
+			WES = { all_core = { add_core = THIS } }
+			SUX = { all_core = { add_core = THIS } }
+			ESX = { all_core = { add_core = THIS } }
+			KNT = { all_core = { add_core = THIS } }
+			MRC = { all_core = { add_core = THIS } }
+			prestige = 25
+			add_accepted_culture = polish
+			add_accepted_culture = czech
+			add_accepted_culture = kashubian
+			add_accepted_culture = slovak
+			add_accepted_culture = sorbian
+			add_accepted_culture = silesian
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	become_jorvik = {
+		potential = {
+			NOT = { ENG = { exists = yes } }
+			tag = NRD
+			NOT = {
+				any_owned_province = { is_core = NOR }
+				any_owned_province = { is_core = DEN }
+			}
+		}
+		
+		allow = {
+			exists = yes
+			DEN = { exists = yes }
+			NOR = { exists = yes }
+		}
+		effect = {
+			DEN = {
+				all_core = {
+					remove_core = THIS
+				}
+			}
+			NOR = {
+				all_core = {
+					remove_core = THIS
+				}
+			}
+			all_core = {
+				add_core = ENG
+				remove_core = THIS
+			}
+			change_tag = ENG
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	restore_poland = {
+		picture = become_poland
+		potential = {
+			primary_culture = polish
+			NOT = { POL = { exists = yes } }
+			NOT = { tag = WSF }
+		}
+		allow = {
+			war = no
+			is_vassal = no
+			706 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						OR = {
+							vassal_of = THIS
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+			703 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						OR = {
+							vassal_of = THIS
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+			699 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						OR = {
+							vassal_of = THIS
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			any_country = {
+				limit = {
+					primary_culture = polish
+					OR = {
+						vassal_of = THIS
+						in_sphere = THIS
+					}
+				}
+				annex_to = THIS
+			}
+			all_core = {
+				add_core = POL
+				remove_core = THIS
+			}
+			change_tag = POL
+		}
+	}
+	
+	restore_lotharingia = {
+		picture = form_lotharingia
+		potential = {
+			tag = LOR
+			SGF = { exists = no }
+		}
+		allow = {
+			is_greater_power = yes
+			LOR = { all_core = { owned_by = THIS } }
+			BEL_394 = { owned_by = THIS }
+			LUX_397 = { owned_by = THIS }
+			NET_385 = { owned_by = THIS }
+			NET_379 = { owned_by = THIS }
+			NET_375 = { owned_by = THIS }
+			NET_382 = { owned_by = THIS }
+			PRU_575 = { owned_by = THIS }
+			FRA_409 = { owned_by = THIS }
+			FRA_432 = { owned_by = THIS }
+			SWI_606 = { owned_by = THIS }
+			SWI_607 = { owned_by = THIS }
+			BEL_387 = { owned_by = THIS }
+		}
+		effect = {
+			LOR = { all_core = { add_core = SGF remove_core = THIS } }
+			BEL_394 = { add_core = SGF }
+			LUX_397 = { add_core = SGF }
+			NET_385 = { add_core = SGF }
+			NET_379 = { add_core = SGF }
+			NET_375 = { add_core = SGF }
+			NET_382 = { add_core = SGF }
+			PRU_575 = { add_core = SGF }
+			FRA_409 = { add_core = SGF }
+			FRA_432 = { add_core = SGF }
+			SWI_606 = { add_core = SGF }
+			SWI_607 = { add_core = SGF }
+			BEL_387 = { add_core = SGF }
+			change_tag = SGF
+		}
+	}
+	
+	form_hispania = {
+		picture = create_iberia
+		potential = {
+			is_culture_group = iberian
+			NOT = { exists = IBR }
+		}
+		allow = {
+			is_greater_power = yes
+			ATR = {
+				all_core = {
+					owned_by = THIS
+				}
+			}
+			CAT = {
+				all_core = {
+					owned_by = THIS
+				}
+			}
+			POR = {
+				all_core = {
+					owned_by = THIS
+				}
+			}
+			BSQ = {
+				all_core = {
+					owned_by = THIS
+				}
+			}
+			CST = {
+				all_core = {
+					owned_by = THIS
+				}
+			}
+		}
+		effect = {
+			ATR = { all_core = { add_core = THIS } }
+			CAT = { all_core = { add_core = THIS } }
+			POR = { all_core = { add_core = THIS } }
+			BSQ = { all_core = { add_core = THIS } }
+			CST = { all_core = { add_core = THIS } }
+			all_core = {
+				add_core = IBR
+				remove_core = THIS
+			}
+			change_tag = IBR
+		}
+	}
+}

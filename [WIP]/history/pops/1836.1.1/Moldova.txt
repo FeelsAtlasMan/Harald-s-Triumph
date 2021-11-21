@@ -1,0 +1,222 @@
+#Bessarabia Region (652000) #see Ukraine.txt for balance of Region  
+#Turkish + Orthodox = Gaugaz
+#Chisinau (332000/83000 POPS)  
+676 = {
+	farmers = {
+		culture = gypsy
+		religion = orthodox
+		size = 400
+	}
+	
+	aristocrats = {
+		culture = ukrainian
+		religion = orthodox
+		size = 1400  
+	}
+
+	bureaucrats = {
+		culture = ukrainian
+		religion = orthodox
+		size = 225 
+	}
+
+	officers = {
+		culture = ukrainian
+		religion = orthodox
+		size = 175 
+	}
+
+	clergymen = {
+		culture = ukrainian
+		religion = orthodox
+		size = 700 
+	}
+
+	artisans = {
+		culture = ukrainian
+		religion = orthodox
+		size = 2000
+	}
+
+	soldiers = {
+		culture = ukrainian
+		religion = orthodox
+		size = 750
+	}
+
+	farmers = {
+		culture = ukrainian
+		religion = orthodox
+		size = 13000 
+	}
+	
+	soldiers = {
+		culture = crimean_tatar
+		religion = sunni
+		size = 7750
+	}
+
+	farmers = {
+		culture = crimean_tatar
+		religion = sunni
+		size = 6750 
+	}
+	
+	slaves = {
+		culture = ukrainian
+		religion = orthodox
+		size = 10000 
+	}
+
+	clergymen = {
+		culture = ashkenazi
+		religion = jewish
+		size = 75     
+	}
+
+	artisans = {
+		culture = ashkenazi
+		religion = jewish
+		size = 1600   
+	}
+
+	soldiers = {
+		culture = ashkenazi
+		religion = jewish
+		size = 75
+	}
+
+	farmers = {
+		culture = ashkenazi
+		religion = jewish
+		size = 6250    
+	}
+
+	clergymen = {
+		culture = turkish #gagauz
+		religion = orthodox
+		size = 75  
+	}
+
+	artisans = {
+		culture = turkish
+		religion = orthodox
+		size = 250 
+	}
+
+	soldiers = {
+		culture = turkish
+		religion = orthodox
+		size = 50
+	}
+
+	farmers = {
+		culture = turkish
+		religion = orthodox
+		size = 4625  
+	}
+	
+	clergymen = {
+		culture = hungarian
+		religion = catholic
+		size = 75    
+	}
+
+	artisans = {
+		culture = hungarian
+		religion = catholic
+		size = 1400  
+	}
+
+	soldiers = {
+		culture = hungarian
+		religion = catholic
+		size = 75
+	}
+
+	farmers = {
+		culture = hungarian
+		religion = catholic
+		size = 1050     
+	}
+	
+	aristocrats = {
+		culture = hungarian
+		religion = catholic
+		size = 800 
+	}
+}
+#Balti (320000/80000 POPS)  
+677 = {
+	farmers = {
+		culture = gypsy
+		religion = orthodox
+		size = 400
+	}
+	
+	aristocrats = {
+		culture = ukrainian
+		religion = orthodox
+		size = 1300 
+	}
+
+	clergymen = {
+		culture = ukrainian
+		religion = orthodox
+		size = 700  
+	}
+
+	artisans = {
+		culture = ukrainian
+		religion = orthodox
+		size = 3600 
+	}
+
+	soldiers = {
+		culture = ukrainian
+		religion = orthodox
+		size = 725
+	}
+
+	farmers = {
+		culture = ukrainian
+		religion = orthodox
+		size = 40000
+	}
+	
+	farmers = {
+		culture = crimean_tatar
+		religion = sunni
+		size = 5675
+	}
+	
+	serfs = {
+		culture = pecenak
+		religion = orthodox
+		size = 20000
+	}
+
+	clergymen = {
+		culture = ashkenazi
+		religion = jewish
+		size = 75     
+	}
+
+	artisans = {
+		culture = ashkenazi
+		religion = jewish
+		size = 1800   
+	}
+
+	soldiers = {
+		culture = ashkenazi
+		religion = jewish
+		size = 75
+	}
+
+	farmers = {
+		culture = ashkenazi
+		religion = jewish
+		size = 7050   
+	}
+}

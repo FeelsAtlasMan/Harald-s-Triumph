@@ -1,0 +1,83 @@
+political_decisions = {
+	
+	build_the_prauge_vistula_railway = {
+		picture = warsaw_vienna_railway
+		potential = {
+			tag = BOH
+			FRI = { exists = yes }
+			NOT = { has_country_flag = built_the_prauge_vistula_railway }
+		}
+		allow = {
+			war = no
+			OR = {
+				owns = 3334
+				3334 = { owner = { vassal_of = THIS } }
+			}
+			OR = {
+				owns = 703
+				703 = { owner = { vassal_of = THIS } }
+			}
+			OR = {
+				owns = 706
+				706 = { owner = { vassal_of = THIS } }
+			}
+			OR = {
+				owns = 690
+				690 = { owner = { vassal_of = THIS } }
+			}
+			iron_railroad = 1
+			money = 50000
+		}
+		effect = {
+			treasury = -50000
+			625 = { railroad = 1 }
+			3334 = { railroad = 1 }
+			631 = { railroad = 1 }
+			3335 = { railroad = 1 }
+			689 = { railroad = 1 }
+			2584 = { railroad = 1 }
+			703 = { railroad = 1 }
+			716 = { railroad = 1 }
+			713 = { railroad = 1 }
+			706 = { railroad = 1 }
+			708 = { railroad = 1 }
+			694 = { railroad = 1 }
+			691 = { railroad = 1 }
+			690 = { railroad = 1 }
+			set_country_flag = built_the_prauge_vistula_railway
+		}
+	}
+	
+	incorporate_poland = {
+		picture = bohemia_poland
+		potential = {
+			tag = BOH
+			FRI = { exists = yes }
+			NOT = { has_country_flag = incorporated_poland }
+		}
+		allow = {
+			is_greater_power = yes
+			war = no
+			POL = { exists = no }
+			CPL = { exists = no }
+			KRA = { exists = no }
+			PZN = { exists = no }
+			SLS = { exists = no }
+		}
+		effect = {
+			prestige = 25
+			any_pop = {
+				limit = {
+					culture = polish
+				}
+				militancy = 5
+			}
+			POL = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			set_country_flag = incorporated_poland
+		}
+	}
+}

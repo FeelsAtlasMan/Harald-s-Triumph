@@ -1,0 +1,22 @@
+owner = NRD
+controller = NRD
+add_core = NRD
+add_core = ENG
+trade_goods = coal
+life_rating = 35
+terrain = newcastle
+state_building = {
+	level = 4
+	building = fabric_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = glass_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = liquor_distillery
+	upgrade = yes
+}

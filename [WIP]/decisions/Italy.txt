@@ -1,0 +1,164 @@
+political_decisions = {
+	build_vittoriano = {
+		potential = {
+			tag = ITA
+			government = absolute_monarchy
+			NOT = {
+				has_country_flag = vittoriano_built
+			}
+		}
+		
+		allow = {
+			realism = 1
+		}
+		
+		effect = {
+			prestige = 5
+			any_pop = {
+				militancy = -1
+			}
+			set_country_flag = vittoriano_built
+		}
+	}
+	the_case_of_edgardo_mortara = {
+		potential = {
+			tag = PAP
+			government = theocracy
+			NOT = {
+				has_country_flag = edgardo_mortara
+			}
+			#year = 1858
+			owns = 741
+		}
+		allow = {
+			idealism = 1
+		}
+		effect = {
+			prestige = 15
+			badboy = 1
+			any_greater_power = {
+				relation = {
+					value = -20
+					who = THIS
+				}
+			}
+			set_country_flag = edgardo_mortara
+		}
+	}
+	
+	the_first_vatican_council = {
+		potential = {
+			tag = PAP
+			government = theocracy
+			NOT = {
+				has_country_flag = first_vatican_council_held
+			}
+		}
+		
+		allow = {
+			empiricism = 1
+		}
+		
+		effect = {
+			prestige = 10
+			badboy = 1
+			any_country = {
+				limit = {
+					religion = catholic
+				}
+				relation = {
+					who = THIS
+					value = 10
+				}
+			}
+			set_country_flag = first_vatican_council_held
+		}
+	}
+	
+	law_of_guarantees = {
+		potential = {
+			tag = ITA
+			NOT = {
+				capital = 749
+			}
+		}
+		
+		allow = {
+			owns = 749
+		}
+		
+		effect = {
+			capital = 749
+			prestige = 5
+			badboy = -2
+		}
+	}
+	
+	italia_irredenta = {
+		potential = {
+			tag = ITA
+			NOT = {
+				has_country_flag = italia_ulterior
+			}
+		}
+		
+		allow = {
+			OR = {
+				invention = national_fraternity
+				is_greater_power = yes
+			}
+		}
+		
+		effect = {
+			set_country_flag = italia_ulterior
+			729 = {
+				add_core = ITA
+			}
+			730 = {
+				add_core = ITA
+			}
+			731 = {
+				add_core = ITA
+			}
+			732 = {
+				add_core = ITA
+			}
+			733 = {
+				add_core = ITA
+			}
+			734 = {
+				add_core = ITA
+			}
+			735 = {
+				add_core = ITA
+			}
+			736 = {
+				add_core = ITA
+			}
+			737 = {
+				add_core = ITA
+			}
+			769 = {
+				add_core = ITA
+			}
+			770 = {
+				add_core = ITA
+			}
+			778 = {
+				add_core = ITA
+			}
+			780 = {
+				add_core = ITA
+			}
+			781 = {
+				add_core = ITA
+			}
+			782 = {
+				add_core = ITA
+			}
+			2582 = {
+				add_core = ITA
+			}
+		}
+	}
+}

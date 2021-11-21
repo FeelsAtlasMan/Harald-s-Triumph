@@ -1,0 +1,536 @@
+political_decisions = {
+	
+	reform_lombard_leauge = {
+		picture = lombard_league
+		potential = {
+			OR = {
+				primary_culture = north_italian
+				primary_culture = venetian
+			}
+			NOT = { has_global_flag = reformed_lombard_leauge }
+		}
+		allow = {
+			OR = {
+				is_greater_power = yes
+				is_secondary_power = yes
+			}
+			part_of_sphere = no
+			invention = constitutionalism
+			any_neighbor_country = {
+				is_culture_group = italian
+				part_of_sphere = yes
+			}
+			war = no
+		}
+		effect = {
+			set_global_flag = reformed_lombard_leauge
+			prestige = 30
+			country_event = 181600
+		}
+	}
+	
+	join_lombard_leauge = {
+		picture = lombard_league
+		potential = {
+			OR = {
+				primary_culture = north_italian
+				primary_culture = venetian
+			}
+			has_global_flag = reformed_lombard_leauge
+			NOT = { has_country_flag = lombard_leauge_member }
+		}
+		allow = {
+			OR = {
+				part_of_sphere = no
+				sphere_owner = {
+					has_country_flag = league_leader
+				}
+			}
+			war = no
+		}
+		effect = {
+			set_country_flag = lombard_leauge_member
+			random_country = {
+				limit = {
+					exists = yes
+					has_country_flag = league_leader
+				}
+				country_event = 181612
+			}
+			prestige = 15
+		}
+	}
+	
+	form_piedmont = {
+		potential = {
+			primary_culture = north_italian
+			capital_scope = {
+				OR = {
+					region = SAR_720
+					region = SAR_466
+				}
+			}
+			NOT = { tag = GEN }
+			NOT = { tag = ITA }
+			NOT = { exists = PIE }
+		}
+		allow = {
+			owns = 720
+			owns = 723
+			num_of_cities = 5
+		}
+		effect = {
+			all_core = {
+				add_core = PIE
+				remove_core = THIS
+			}
+			change_tag = PIE
+			SAR_720 = { add_core = THIS }
+			SAR_466 = { add_core = THIS }
+			prestige = 25
+			government = absolute_monarchy
+			prestige = 15
+			any_pop = {
+				militancy = 3
+			}
+			add_country_modifier = {
+				name = illigitimate_crown
+				duration = 1825
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						exists = PAP
+					}
+				}
+				owner = {
+					country_event = 181603
+				}
+			}
+		}
+	}
+	
+	form_tuscany = {
+		picture = form_tuscany
+		potential = {
+			primary_culture = tuscan
+			OR = {
+				tag = TUS
+				tag = LUC
+				tag = SNA
+			}
+			NOT = { tag = ITA }
+			NOT = { exists = TSC }
+		}
+		allow = {
+			OR = {
+				owns = 746
+				owns = 748
+			}
+			owns = 744
+		}
+		effect = {
+			all_core = {
+				add_core = TSC
+				remove_core = THIS
+			}
+			change_tag = TSC
+			TUS_744 = {
+				add_core = TSC
+			}
+			government = absolute_monarchy
+			prestige = 25
+			any_pop = {
+				militancy = 3
+			}
+			add_country_modifier = {
+				name = illigitimate_crown
+				duration = 1825
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						exists = PAP
+					}
+				}
+				owner = {
+					country_event = 181603
+				}
+			}
+		}
+	}
+	
+	milanese_newspaper = {
+		picture = milan_press
+		potential = {
+			NOT = { has_country_flag = milanese_newspaper }
+			tag = SWI
+		}
+		allow = {
+			OR = {
+				ruling_party_ideology = liberal
+				press_rights = free_press
+				upper_house = {
+					ideology = liberal
+					value = 0.3
+				}
+			}
+		}
+		effect = {
+			set_country_flag = milanese_newspaper
+			political_reform = free_press
+			prestige = 5
+			any_pop = {
+				limit = {
+					location = { is_colonial = no }
+				}
+				ideology = {
+					value = liberal
+					factor = 0.05
+				}
+				militancy = -3
+			}
+		}
+	}
+	
+	riorganizzazione = {
+		picture = venetian_ambition
+		potential = {
+			tag = VEN
+			NOT = { has_country_flag = riorganizzazione_done }
+		}
+		allow = {
+			war = no
+			ideological_thought = 1
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					owner = {
+						vote_franschise = wealth_voting
+					}
+				}
+				owner = {
+					political_reform = universal_voting
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						vote_franschise = universal_weighted_voting
+					}
+				}
+				owner = {
+					political_reform = universal_voting
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						vote_franschise = no_voting
+					}
+				}
+				owner = {
+					political_reform = wealth_voting
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						vote_franschise = landed_voting
+					}
+				}
+				owner = {
+					political_reform = universal_weighted_voting
+				}
+			}
+			add_country_modifier = {
+				name = new_constitution
+				duration = 3650
+			}
+			war_exhaustion = -5
+			badboy = -8
+			any_pop = {
+				consciousness = -3
+				militancy = -3
+				dominant_issue = {
+					value = jingoism
+					factor = 0.05
+				}
+			}
+			add_core = 769
+			add_core = 778
+			add_core = 774
+			add_core = 782
+			casus_belli = {
+				target = ANC
+				type = annex_core_country
+				months = 60
+			}
+		}
+	}
+	
+	SIC_last_royal_marriage = {
+		picture = treaty_signing
+		potential = {
+			tag = SIC
+			NOT = { has_country_flag = royal_marriage }
+		}
+		allow = {
+			prestige = 25
+			relation = {
+				who = FRA
+				value = 50
+			}
+		}
+		effect = {
+			set_country_flag = royal_marriage
+			FRA = { country_event = 181607 }
+		}
+	}
+	
+	restore_naples = {
+		picture = map_south_italy
+		potential = {
+			tag = SIC
+			NOT = { has_country_flag = restored_naples }
+		}
+		allow = {
+			OR = {
+				state_n_government = 1
+				is_greater_power = yes
+			}	
+		}
+		effect = {
+			set_country_flag = restored_naples
+			SYC = {
+				all_core = {
+					limit = {
+						owned_by = SYC
+					}
+					add_core = THIS
+				}
+			}
+			random_list = {
+				34 = { badboy = 10 }
+				33 = { badboy = 7.5 }
+				33 = { badboy = 5 }
+			}
+		}
+	}
+	
+	restore_sicily = {
+		picture = map_south_italy
+		potential = {
+			tag = SYC
+			NOT = { has_country_flag = restored_sicily }
+		}
+		allow = {
+			OR = {
+				state_n_government = 1
+				is_greater_power = yes
+			}	
+		}
+		effect = {
+			set_country_flag = restored_sicily
+			SIC = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			random_list = {
+				34 = { badboy = 10 }
+				33 = { badboy = 7.5 }
+				33 = { badboy = 5 }
+			}
+			inherit = MLT
+		}
+	}
+	
+	protect_knights_hospitaller = {
+		potential = {
+			OR = {
+			tag = PAP
+			tag = GOD
+			}
+			NOT = { has_country_flag = protect_knights_hospitaller }
+			MLT = { vassal_of = SYC }
+			exists = MLT
+		}
+		allow = {
+			money = 50000
+			relation = {
+				who = SYC
+				value = 50
+			}
+		}
+		effect = {
+			set_country_flag = protect_knights_hospitaller
+			SYC = { country_event = 181608 }
+		}
+	}
+	
+	restore_charlamagne_realm = {
+		picture = map_papal_states
+		potential = {
+			tag = PAP
+			NOT = { has_country_flag = restored_charlamagne_realm }
+		}
+		allow = {
+			OR = {
+				AND = {
+					has_country_flag = gregorian_reforms
+					ruling_party_ideology = reactionary
+				}
+				AND = {
+					owns = 752
+					owns = 743
+					owns = 741
+					owns = 742
+				}
+			}
+		}
+		effect = {
+			set_country_flag = restored_charlamagne_realm
+			random_list = {
+				34 = { badboy = 10 }
+				33 = { badboy = 7.5 }
+				33 = { badboy = 5 }
+			}
+			add_core = 752
+			add_core = 743
+			add_core = 741
+			add_core = 742
+		}
+	}
+	
+	gregorian_golden_bulla = {
+		picture = papal_reform
+		potential = {
+			tag = PAP
+			NOT = { has_country_flag = gregorian_reforms }
+		}
+		allow = {
+			NOT = { year = 1846 }
+			OR = {
+				has_global_flag = reformed_lombard_leauge
+				AND = {
+					ruling_party_ideology = reactionary
+					state_n_government = 1
+				}
+				badboy = 0.7
+			}
+		}
+		effect = {
+			set_country_flag = gregorian_reforms
+			country_event = 181609
+		}
+	}
+	
+	form_kindom_of_god = {
+		picture = kingdom_of_god
+		potential = {
+			tag = PAP
+			has_country_flag = kingdom_of_god_enabled
+			NOT = { exists = GOD }
+			NOT = { exists = ITA }
+		}
+		allow = {
+			ITA = {
+				all_core = {
+					owned_by = THIS
+				}
+			}
+		}
+		effect = {
+			ITA = {
+				all_core = {
+					add_core = GOD
+					remove_core = THIS
+					remove_core = ITA 
+				}
+			}
+			change_tag = GOD
+		}
+	}
+	
+	surrender_to_lom = {
+		picture = lombard_league
+		potential = {
+			exists = LOM
+			tag = PAP
+			exists = yes
+		}
+		allow = {
+			war = no
+		}
+		effect = {
+			all_core = {
+				remove_core = THIS
+			}
+			annex_to = LOM
+		}
+	}
+	sell_brindisi_ANC = {
+		picture = brindisi
+		potential = {
+			tag = ANC
+			owns = 758
+			NOT = { has_country_flag = sold_brindisi }
+		}
+		allow = {
+			war = no
+			OR = {
+				average_consciousness = 3
+				AND = {
+					ai = yes
+					year = 1842
+				}
+			}
+		}
+		effect = {
+			SIC = { country_event = 181610 }
+			
+		}
+	}
+	
+	sell_corsica_GEN = {
+		picture = genoa
+		potential = {
+			tag = GEN
+			NOT = {
+				owns = 473
+			}
+			NOT = { has_country_flag = sold_corsica }
+		}
+		allow = {
+			NOT = { owns = 473 }
+			war = no
+		}
+		effect = {
+			467 = { owner = { country_event = 181611 } }
+		}
+	}
+	
+	restore_kingdom_of_africa = {
+		picture = tunisia
+		potential = {
+			tag = SYC
+			NOT = { has_country_flag = restored_kingdom_of_africa }
+		}
+		allow = {
+			all_core = {
+				owned_by = THIS
+			}
+			owns = 1725
+		}
+		effect = {
+			TUN_1726 = {
+				add_core = THIS
+			}
+			add_core = 1708
+			add_core = 1709
+			add_core = 1710
+		}
+	}
+}

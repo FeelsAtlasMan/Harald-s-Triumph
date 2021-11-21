@@ -1,0 +1,914 @@
+political_decisions = {
+		form_russia = {
+			picture = great_rus
+			potential = {
+				OR = {
+				   primary_culture = novgorodian
+				   primary_culture = russian
+				}
+                NOT = { has_country_flag = cossack_nation }
+				NOT = {
+					exists = RUS
+				}
+			}
+		
+			allow = {
+				war = no
+				prestige = 40
+				RUS = {
+					all_core = {
+						OR = {
+							owned_by = THIS
+							owner = {
+								in_sphere = THIS
+							}
+						}
+					}
+				}
+				nationalism_n_imperialism = 1
+			}
+		
+			effect = {
+				prestige = 20
+				change_tag = RUS
+				add_accepted_culture = russian
+				add_accepted_culture = ukrainian
+				add_accepted_culture = novgorodian
+				any_country = {
+					limit = {
+						is_culture_group = east_slavic
+						in_sphere = THIS
+					}
+					country_event = 11101
+				}
+			}
+			ai_will_do = {
+				factor = 1
+			}
+	}
+
+#End Tatar Raids
+    end_kazan = {
+	 picture = end_kazan
+	 potential = {
+				tag = MUS
+                has_country_flag = triumvirate			
+				NOT = {
+					exists = RUS
+				    }
+				NOT = {
+					exists = RTH
+				    }
+                NOT = { has_country_flag = sent_general_skobelev }	
+                }				
+	allow = {
+				war = no
+				prestige = 7
+				KZN = { has_country_flag = recently_raided }
+      }
+					
+   	effect = {
+				war = {
+	                target = KZN
+	                attacker_goal = { casus_belli = conquest }
+	                call_ally = no
+                }	
+				define_general = {
+	               name = Skobelev
+	               personality = implacable
+	               background = natural_born_leader
+                }
+				prestige = 10
+                set_country_flag = sent_general_skobelev				
+	}
+	ai_will_do = {
+			factor = 1
+		}
+}
+
+#Assert Dominance over Perm
+    dom_perm = {
+	 picture = great_rus
+	 potential = {
+				tag = MSS
+                has_country_flag = skobelev_succeds	
+                NOT = { has_country_flag = ura_vassal }				
+				URA = { exists = yes }
+                }				
+	allow = {
+				war = no
+				prestige = 10
+				OR = {
+				  is_secondary_power = yes
+				  is_greater_power = yes
+				}
+				OR = {
+				  URA = { in_sphere = THIS }
+				  AND = {
+				      military_score = 30
+					  alliance_with = URA
+					  relation = { who = URA value = 150 }
+				  }
+				}
+      }
+					
+   	effect = {
+				create_vassal = URA
+				badboy = 2
+				prestige = 10
+                set_country_flag = ura_vassal				
+	}
+	ai_will_do = {
+			factor = 1
+		}
+}
+
+#Assert Dominance over Cossacks
+    con_cossacks = {
+	 picture = hetmanate
+	 potential = {
+				tag = MSS
+                has_country_flag = ura_vassal
+				NOT = { has_country_flag = don_vassal }
+                NOT = { exists = DON }				
+                }				
+	allow = {
+				war = no
+				prestige = 5
+				is_greater_power = yes
+				CHC = { in_sphere = THIS }
+				KRC = { in_sphere = THIS }
+				RYA = { in_sphere = THIS }
+      }
+					
+   	effect = {
+				DON = { inherit = CHC }
+				MSS = { inherit = RYA }
+				DON = { inherit = KRC }
+				create_vassal = DON
+	 			diplomatic_influence = {
+	                         who = DON
+	                         value = 5
+                }
+				badboy = 2
+				prestige = 10
+                set_country_flag = don_vassal				
+	}
+	ai_will_do = {
+			factor = 1
+		}
+}
+
+#Proclaim the Tsardom of Russia
+    proclaim_tsardom = {
+	 picture = great_rus
+	 potential = {
+				tag = MSS
+                has_country_flag = don_vassal
+				NOT = { has_country_flag = tsardom_rus }
+                NOT = { exists = RUS }				
+                }				
+	allow = {
+				war = no
+				prestige = 5
+				is_greater_power = yes
+                is_our_vassal = DON
+				is_our_vassal = URA
+				SMK = { in_sphere = THIS }
+				nationalism_n_imperialism = 1
+      }
+					
+   	effect = {
+				inherit = URA
+				inherit = SMK
+				prestige = 10
+                set_country_flag = tsardom_rus				
+	}
+	ai_will_do = {
+			factor = 1
+		}
+}
+
+#Push back the Tatars
+    crimea_push = {
+	 picture = crimea
+	 potential = {
+	            OR = {
+				   AND = {
+				      tag = RTH
+					  RTH = { all_core = { owned_by = THIS }}
+				      }
+				   AND = {
+				      tag = RUS
+					  has_country_flag = claimed_volga
+					  URA = { exists = no }
+				      }
+				   }  								
+				NOT = { has_country_flag = claimed_crimea }
+                }				
+	allow = {
+				war = no
+				is_greater_power = yes
+      }
+					
+   	effect = {
+				add_core = 978
+                add_core = 980
+                add_core = 974
+				add_core = 975
+				add_core = 976
+                add_core = 979
+                add_core = 1047
+				add_core = 1048
+				add_core = 3348
+                add_core = 971
+                add_core = 972
+				add_core = 970
+				badboy = 6
+				set_country_flag = claimed_crimea
+	}
+	ai_will_do = {
+			factor = 1
+		}
+}
+
+#Claim Lower Volga
+    claim_lower_volga = {
+	 picture = hetmanate
+	 potential = {
+				OR = {
+				   tag = RUS
+				   AND = {
+				      tag = RTH
+					  has_country_flag = claimed_crimea
+				      }
+				   }  								
+				NOT = { has_country_flag = claimed_volga }
+                }				
+	allow = {
+				war = no
+			    is_greater_power = yes
+      }
+					
+   	effect = {
+				AKH = { all_core = { add_core = THIS }}
+				badboy = 5
+				set_country_flag = claimed_volga
+	}
+	ai_will_do = {
+			factor = 1
+		}
+}
+
+#Control the Caucasus (Ruthenia)
+    claim_northern_caucasus_rth = {
+	 picture = unite_caucasus
+	 potential = {
+				tag = RTH
+				has_country_flag = claimed_crimea
+				has_country_flag = claimed_volga 								
+				NOT = { has_country_flag = claimed_noc }
+                }				
+	allow = {
+				war = no
+			    is_greater_power = yes
+				OR = {
+				  war_policy = jingoism
+				  war_policy = pro_military
+				}
+				1052 = { NOT = { owned_by = TIM } }
+			}
+   	effect = {
+		3351 = { add_core = RTH }
+		1054 = { add_core = RTH }
+		1057 = { add_core = RTH }
+		3319 = { add_core = RTH }
+		1052 = { add_core = RTH }
+		ALN = { country_event = 700000 }
+		set_country_flag = claimed_noc
+        badboy = 10					
+	}
+	
+	ai_will_do = {
+			factor = 1
+		}
+}
+
+#Control the Caucasus (Russia)
+    claim_northern_caucasus_rus = {
+	 picture = unite_caucasus
+	 potential = {
+				tag = RUS
+				has_country_flag = claimed_volga 								
+				NOT = { has_country_flag = claimed_noc }
+                }				
+	allow = {
+				war = no
+			    is_greater_power = yes
+				OR = {
+				  war_policy = jingoism
+				  war_policy = pro_military
+				}
+				1052 = { NOT = { owned_by = TIM } }
+			}
+   	effect = {
+		3351 = { add_core = RUS }
+		1054 = { add_core = RUS }
+		1057 = { add_core = RUS }
+		3319 = { add_core = RUS }
+		1052 = { add_core = RUS }
+		ALN = { country_event = 700001 }
+		set_country_flag = claimed_noc
+        badboy = 10					
+	}
+	
+	ai_will_do = {
+			factor = 1
+		}
+}
+
+#Subdue Yugra
+subdue_yugra_rus = {
+     picture = siberia
+	 potential = {
+				OR = {
+				   AND = { 
+				      has_country_flag = claimed_noc
+					  tag = RUS
+				   }
+				   AND = { 
+				      has_country_flag = claimed_noc
+					  tag = RTH
+				   }
+				}
+				NOT = { has_country_flag = yugra_conquest }
+		} 
+		
+	allow = {
+				war = no
+				civilized = yes
+				THIS = {
+					all_core = {
+					   owned_by = THIS
+					}
+				}
+			}
+			
+   	effect = {
+        KHN = { all_core = { add_core = THIS }}
+        SIB = { all_core = { add_core = THIS }}
+        badboy = 10
+        set_country_flag = yugra_conquest		
+	}
+	
+	ai_will_do = {
+			factor = 1
+		}
+		
+  }
+  
+#Subdue the Selkups and Shors
+  subdue_the_selkups = {
+     picture = siberia
+	 potential = {
+				NOT = {
+				      exists = KHN
+					  exists = SIB
+					  has_country_flag = slk_conquest
+				}
+				OR = {
+				   tag = RUS
+				   tag = RTH
+				}
+				has_country_flag = yugra_conquest
+		} 
+	allow = {
+				war = no
+				state_n_government = 1
+			}
+   	effect = {
+        SLK = { all_core = { add_core = THIS }}
+		SHR = { all_core = { add_core = THIS }}
+        badboy = 5		
+        set_country_flag = slk_conquest		
+	}
+	
+	ai_will_do = {
+			factor = 1
+		}
+  }
+  
+#Subdue Sayan
+  subdue_the_sayans_rus = {
+     picture = siberia
+	 potential = {
+				NOT = {
+				      exists = SLK
+					  exists = SHR
+					  has_country_flag = uriankhai_conquest
+				}
+				OR = {
+				   tag = RUS
+				   tag = RTH
+				}
+				has_country_flag = slk_conquest
+		} 
+	allow = {
+				war = no
+				state_n_government = 1
+			}
+   	effect = {
+        SYN = { all_core = { add_core = THIS }}
+        badboy = 2	
+        set_country_flag = uriankhai_conquest		
+	}
+	
+	ai_will_do = {
+			factor = 1
+		}
+  }
+
+#Annex Altai
+  annex_altai_uriankhai_rus = {
+     picture = uriankhai_colony
+	 potential = {
+				NOT = {
+				      exists = SYN
+				}
+				exists = ALT
+				OR = {
+				   tag = RUS
+				   tag = RTH
+				}
+				has_country_flag = uriankhai_conquest
+		} 
+	allow = {
+				war = no
+				ALT = { in_sphere = THIS }
+			}
+   	effect = {
+        inherit = ALT
+        ALT = { all_core = { add_core = THIS }}		
+        set_country_flag = tuva_conflict		
+	}
+	
+	ai_will_do = {
+			factor = 1
+		}
+  }
+  
+#Vassalize Buryatia
+  vassalize_buryatia_rus = {
+     picture = uriankhai_colony
+	 potential = {
+				NOT = {
+				      exists = ALT
+				}
+				BRY = { is_vassal = no }
+				OR = {
+				   tag = RUS
+				   tag = RTH
+				}
+				OIR = { has_country_flag = northern_collapse }
+				NOT = { has_country_flag = buryatia_vassal }
+		} 
+	allow = {
+				war = no
+				BRY = { in_sphere = THIS }
+			}
+   	effect = {
+        create_vassal = BRY	
+        set_country_flag = buryatia_vassal		
+	}
+	
+	ai_will_do = {
+			factor = 1
+		}
+  }
+  
+#Further Siberian Expansion
+  further_siberian_expansion_rus = {
+     picture = siberia
+	 potential = {
+				OR = {
+				   tag = RUS
+				   tag = RTH
+				}
+				NOT = { exists = ALT }
+				THIS = { is_our_vassal = BRY }
+				NOT = { has_country_flag = YAK_vassal }
+		} 
+	allow = {
+				war = no
+			    2656 = { owned_by = THIS }
+				2694 = { owned_by = THIS }
+				2675 = { owned_by = THIS }
+				2655 = { owned_by = THIS }
+				invention = manifest_destiny
+			}
+   	effect = {
+        THIS = { 
+		    casus_belli = {
+	                target = YAK
+	                type = make_puppet
+	                months = 10
+                  }
+				}
+        set_country_flag = YAK_vassal	
+        badboy = 5		
+	}
+	
+	ai_will_do = {
+			factor = 1
+		}
+  }
+  
+#Conquest of Northern Siberia
+  conquest_of_the_north_rus = {
+     picture = siberia
+	 potential = {
+				OR = {
+				   tag = RUS
+				   tag = RTH
+				}
+				has_country_flag = siberian_expansion_end
+				NOT = { has_country_flag = claimed_north }
+		} 
+	allow = {
+				war = no
+			    romanticism = yes
+				invention = manifest_destiny
+			}
+   	effect = {
+        TYM = { all_core = { add_core = THIS }}	
+		YML = { all_core = { add_core = THIS }}	
+		NNT = { all_core = { add_core = THIS }}	
+        set_country_flag = claimed_north	
+        badboy = 5		
+	}
+	
+	ai_will_do = {
+			factor = 1
+		}
+  }
+  
+#The Pacific
+  the_pacific_rus = {
+     picture = siberia
+	 potential = {
+				OR = {
+				   tag = RUS
+				   tag = RTH
+				}
+				NOT = { exists = ALT }
+				has_country_flag = YAK_vassal
+				YAK = { exists = yes }
+		} 
+	allow = {
+				war = no
+				OR = {
+				   RUS = { is_our_vassal = YAK }
+				   RTH = { is_our_vassal = YAK }
+				}
+			}
+   	effect = {
+        2641 = { secede_province = THIS } 
+		1072 = { secede_province = THIS } 
+		2639 = { secede_province = THIS } 
+		2618 = { secede_province = THIS } 
+		2638 = { secede_province = THIS } 
+		1073 = { secede_province = THIS } 
+		2663 = { secede_province = THIS } 
+		2616 = { secede_province = THIS } 
+		2633 = { secede_province = THIS } 
+		1074 = { secede_province = THIS }
+		2634 = { secede_province = THIS } 
+		2637 = { secede_province = THIS } 
+		2622 = { secede_province = THIS }
+		2641 = { life_rating = 5 } 
+		2637 = { life_rating = 5 }
+		2634 = { life_rating = 5 }
+		2622 = { life_rating = 5 }
+		1072 = { life_rating = 15 } 
+		2639 = { life_rating = 10 } 
+		2618 = { life_rating = 10 } 
+		2638 = { life_rating = 10 } 
+		1073 = { life_rating = 10 } 
+		2663 = { life_rating = 10 } 
+		2616 = { life_rating = 10 } 
+		2633 = { life_rating = 10 } 
+		1074 = { life_rating = 15 }
+		inherit = YAK
+		inherit = BRY
+        badboy = 8	
+        set_country_flag = siberian_expansion_end		
+	}
+	
+	ai_will_do = {
+			factor = 1
+		}
+  }
+  
+#Annex the Dagurs
+  the_daurs_rus = {
+     picture = outer_manchuria_map
+	 potential = {
+				OR = {
+				   tag = RUS
+				   tag = RTH
+				}
+				NOT = { exists = YAK }
+				NOT = { exists = BRY }
+				has_country_flag = siberian_expansion_end	
+				NOT = { has_country_flag = annexed_daur }
+		} 
+	allow = {
+				war = no
+			    NNI = { in_sphere = THIS }
+			}
+   	effect = {
+		inherit = NNI
+        badboy = 3	
+        set_country_flag = annexed_daur		
+	}
+	
+	ai_will_do = {
+			factor = 1
+		}
+  }
+  
+#Manchu Conflict Russia
+  the_manchu_russia = {
+     picture = outer_manchuria_map
+	 potential = {
+				tag = RUS
+				NOT = { exists = NNI }
+				has_country_flag = siberian_expansion_end	
+		} 
+	allow = {
+				war = no
+			    SHN = { MCK = { is_our_vassal = yes } }
+			}
+   	effect = {
+		SHN = { inherit = MCK }
+		SHN = { country_event = 656004 }
+        badboy = 3					
+	}
+	
+	ai_will_do = {
+			factor = 1
+		}
+  }
+  
+#Manchu Conflict Ruthenia
+  the_manchu_ruthenia = {
+     picture = outer_manchuria_map
+	 potential = {
+				tag = RTH
+				NOT = { exists = NNI }
+				has_country_flag = siberian_expansion_end	
+		} 
+	allow = {
+				war = no
+			    SHN = { MCK = { is_our_vassal = yes } }
+			}
+   	effect = {
+		SHN = { inherit = MCK }
+		SHN = { country_event = 656005 }
+        badboy = 3					
+	}
+	
+	ai_will_do = {
+			factor = 1
+		}
+  }
+
+#Subdue Kiev (Cossacks)
+    claim_kiev = {
+	 picture = great_rus 
+	 potential = {
+				tag = DON				
+				NOT = { has_country_flag = annex_kiev }
+				is_vassal = no
+                }				
+	allow = {
+				war = no
+			    is_greater_power = yes
+				OR = {
+				  war_policy = jingoism
+				  war_policy = pro_military
+				}
+				DON = { all_core = { owned_by = THIS } }
+			}
+   	effect = {
+		RUS_954 = { add_core = DON }
+		RUS_958 = { add_core = DON }
+		RUS_959 = { add_core = DON }
+		937 = { add_core = DON }
+		940 = { add_core = DON }
+		941 = { add_core = DON }
+		942 = { add_core = DON }
+		set_country_flag = annex_kiev
+        badboy = 18					
+	}
+	
+	ai_will_do = {
+			factor = 1
+		}
+}
+
+#Unite Ruthenia
+    unite_ruthenia = {
+	 picture = great_rus 
+	 potential = {
+	           OR = {
+			      AND = {
+				    tag = DON				
+				    NOT = { has_country_flag = claimed_crimea }
+				    has_country_flag = annex_kiev
+				    }
+				  primary_culture = ukrainian
+				  }
+			   AND = { 
+			      RTH = { exists = no }
+				  RUS = { exists = no }
+			      }
+                }				
+	allow = {
+				war = no
+				is_greater_power = yes
+				OR = {
+				 is_our_vassal = SMK
+				 SMK = {
+					all_core = {
+						  OR = {
+							owned_by = THIS
+							owner = {
+								in_sphere = THIS
+							    }
+						    }
+					  }
+				   }
+				}
+				
+				OR = {
+				 is_our_vassal = MNK
+				 MNK = {
+					all_core = {
+						  OR = {
+							owned_by = THIS
+							owner = {
+								in_sphere = THIS
+							    }
+						    }
+					  }
+				   }
+				}
+				
+				OR = {
+				 is_our_vassal = GLM
+				 GLM = {
+					all_core = {
+						  OR = {
+							owned_by = THIS
+							owner = {
+								in_sphere = THIS
+							    }
+						    }
+					  }
+				   }
+				}
+				
+				OR = {
+				 is_our_vassal = UKR
+				 UKR = {
+					all_core = {
+						  OR = {
+							owned_by = THIS
+							owner = {
+								in_sphere = THIS
+							    }
+						    }
+					  }
+				   }
+				}
+				nationalism_n_imperialism = 1
+			}
+   	effect = {
+		        prestige = 50
+	            change_tag = RTH
+				add_accepted_culture = novgorodian
+				add_accepted_culture = rusyn
+				add_accepted_culture = russian
+				any_country = {
+					limit = {
+						is_culture_group = east_slavic
+						in_sphere = THIS
+					}
+					country_event = 11101
+				}
+				RUS = { all_core = { add_core = RTH remove_core = RUS }}
+			}
+	
+	ai_will_do = {
+			factor = 1
+		}
+}
+
+#Formation of the Hetmanate
+		unite_the_cossacks = {
+			picture = hetmanate
+			potential = {
+				is_culture_group = east_slavic
+                has_country_flag = cossack_nation 				
+				
+				NOT = {
+					exists = DON
+				}
+			}
+		
+			allow = {
+				NOT = { war = yes }
+				prestige = 25
+				OR = {
+				 is_our_vassal = KRC
+				 KRC = {
+					all_core = {
+						OR = {
+							owned_by = THIS
+							owner = {
+								in_sphere = THIS
+							}
+						}
+					}
+				  }
+				}
+				
+				OR = {
+				 is_our_vassal = RYA
+				 RYA = {
+					all_core = {
+						OR = {
+							owned_by = THIS
+							owner = {
+								in_sphere = THIS
+							}
+						}
+					}
+				  }
+				}
+				
+				OR = {
+				 is_our_vassal = CHC
+				 CHC = {
+					all_core = {
+						OR = {
+							owned_by = THIS
+							owner = {
+								in_sphere = THIS
+							}
+						}
+					}
+				  }
+				}
+				owns = 978
+				owns = 979
+				owns = 3330
+			}
+		
+			effect = {
+				prestige = 20
+				change_tag = DON
+				add_accepted_culture = ukrainian
+				add_accepted_culture = russian
+				CHC = {
+				    AND = {
+					    inherit = CHC
+					    all_core = {
+					       add_core = THIS
+					       } 
+					}
+				}
+				KRC = {
+				    AND = {
+					    inherit = KRC
+					    all_core = {
+					       add_core = THIS
+					       } 
+					}
+				}
+				RYA = {
+				    AND = {
+					    inherit = RYA
+					    all_core = {
+					       add_core = THIS
+					       } 
+					}
+				}
+			}
+			ai_will_do = {
+				factor = 1
+			}
+}
+
+}	

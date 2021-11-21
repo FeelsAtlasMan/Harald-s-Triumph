@@ -1,0 +1,53 @@
+political_decisions = {
+	lunch_the_serb_uprising = {
+		potential = {
+			OR = {
+				government = colonial_company
+				year = 1848
+			}
+			tag = SER
+			NOT = { has_country_flag = lunched_the_serb_uprising }
+			vassal_of = HUN
+		}
+		allow = {
+			war = no
+		}
+		effect = {
+			add_country_modifier = {
+				name = fanatic_army
+				duration = 2700
+			}
+			HUN = {
+				any_owned_province = {
+					limit = {
+						is_core = SER
+					}
+					secede_province = SER
+				}
+				release_vassal = SER
+				release_vassal = BBO
+				diplomatinc_influence = {
+					who = SER
+					value = -200
+				}
+				war = {
+					target = SER
+					attacker_goal = { casus_belli = annex_core_country }
+					defender_goal = { casus_belli = status_quo }
+					call_ally = no
+				}
+				war = {
+					target = BBO
+					attacker_goal = { casus_belli = annex_core_country }
+					defender_goal = { casus_belli = status_quo }
+					call_ally = no
+				}
+			}
+			government = absolute_monarchy
+			BBO = { government = absolute_monarchy }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

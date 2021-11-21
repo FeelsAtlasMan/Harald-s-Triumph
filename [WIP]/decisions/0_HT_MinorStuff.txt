@@ -1,0 +1,38 @@
+political_decisions = {
+	
+	reform_the_gov = {
+		picture = hundred_days_reform
+		potential = {
+		    OR = {
+			  government = tribal_confederation
+			  #government = khanate
+			}
+		}
+		allow = {
+            OR = {
+              any_neighbor_country = {
+				      NOT = { government = tribal_confederation }
+					  #NOT = { government = khanate }
+			  }
+			  part_of_sphere = yes
+		      land_reform = land_reform_two
+			}
+		}
+		effect = {
+			government = absolute_monarchy
+			add_country_modifier = {
+                    name = sedentarization
+	                duration = 720			
+			}
+			militancy = 3
+			prestige = 5
+			any_pop = {
+			        limit = {
+					   has_pop_type = soldier				   
+					}
+			  militancy = 6
+			}
+		}
+		ai_will_do = { factor = 1 }
+	}
+}

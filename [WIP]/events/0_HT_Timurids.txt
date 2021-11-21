@@ -1,0 +1,148 @@
+#########################################################
+#														#
+#      		  Timurid Events 9900-9929  		        #
+#														#
+#########################################################
+#Timurid Setup Event
+country_event = {
+    id = 9900
+    title = "The State of the Timurid Empire"
+    desc = "EVTDESC9900"
+	picture = "timurid_start"
+        
+    trigger = {
+	       tag = TIM
+	}
+	
+	fire_only_once = yes
+
+    option = {
+		set_country_flag = timurid_setup
+	}
+}
+
+
+#Shiite Refugees
+country_event = {
+    id = 9902
+    title = "EVTNAME9902"
+    desc = "EVTDESC9902"
+	picture = "kazan_refugees"
+        
+    is_triggered_only = yes
+
+    option = {
+		name = "EVT9902OPTA"
+        1032 = { 
+		     any_pop = { 
+			      limit = {
+				        religion = shiite
+				  }
+		    reduce_pop = 0.9
+			move_pop = 1123 #Zanjan
+			}
+		}
+		1123 = {
+	          add_province_modifier = {
+		      name = kazan_refugees
+		      duration = 856
+	        }
+	    }
+		1033 = { 
+		     any_pop = { 
+			      limit = {
+				        religion = shiite
+				  }
+		    reduce_pop = 0.95
+			move_pop = 3319 #Tarki
+			}
+		}
+		3319 = {
+	          add_province_modifier = {
+		      name = kazan_refugees
+		      duration = 856
+	        }
+	    }
+		1034 = { 
+		     any_pop = { 
+			      limit = {
+				        religion = shiite
+				  }
+		    reduce_pop = 0.95
+			move_pop = 1112 #Ardabil
+			}
+		}
+		1112 = {
+	          add_province_modifier = {
+		      name = kazan_refugees
+		      duration = 856
+	        }
+	    }
+		1030 = { 
+		     any_pop = { 
+			      limit = {
+				        religion = shiite
+				  }
+		    reduce_pop = 0.9
+			move_pop = 1124 #Qazvin
+			}
+		}
+	   1124 = {
+	          add_province_modifier = {
+		      name = kazan_refugees
+		      duration = 856
+	        }
+	    }
+	}
+}
+
+#Shiite Refugees (Candar)
+country_event = {
+    id = 9903
+    title = "EVTNAME9903"
+    desc = "EVTDESC9903"
+	picture = "kazan_refugees"
+        
+    is_triggered_only = yes
+
+    option = {
+		name = "EVT9903OPTA"
+        1042 = { 
+		     any_pop = { 
+			      limit = {
+				        religion = shiite
+				  }
+		    reduce_pop = 0.98
+			move_pop = 883 #Sinope
+			}
+		}
+		883 = {
+	          add_province_modifier = {
+		      name = kazan_refugees
+		      duration = 856
+	        }
+	    }
+	}
+}
+
+#Setup for Timurid centralisation
+country_event = {
+    id = 39900
+    title = "EVTNAME39900"
+    desc = "EVTDESC39900"
+	#picture = "kazan_refugees"
+        
+    fire_only_once = yes
+    trigger = {
+                tag = MUG	
+                NOT = { war_with = TIM }
+                has_recently_lost_war = yes		
+                truce_with = TIM				
+        }
+
+    option = {
+		name = "EVT9903OPTA"
+        prestige = -10
+		set_country_flag = lost_punjab
+	}
+}

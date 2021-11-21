@@ -1,0 +1,443 @@
+country_event = {
+	id = 1789000
+	title = "Renovation of the Paris University"
+	desc = "EVTDESC178900"
+	picture = "lithuanian_uprising"
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA178900"
+		prestige = -20
+		any_pop = {
+			limit = {
+				pop_majority_ideology = liberal
+			}
+			consciousness = -1
+		}
+		ai_chance = { factor = 0 }
+	}
+	
+	option = {
+		name = "EVTOPTB178900"
+		change_variable = {
+			which = revolution_progress_FRA
+			value = 1
+		}
+		ai_chance = { factor = 1 }
+	}
+	
+	option = {
+		name = "EVTOPTC178900"
+		change_variable = {
+			which = revolution_progress_FRA
+			value = 2
+		}
+		prestige = -5
+		ai_chance = { factor = 0 }
+	}
+}
+country_event = {
+	id = 178901
+	title = "Mass Ludite protests"
+	desc = "EVTDESC178901"
+	picture = "lithuanian_uprising"
+	fire_only_once = yes
+	
+	trigger = {
+		tag = FRA
+		year = 1840
+		war = no
+		industrial_score = 15
+		OR = {
+			government = absolute_monarchy
+			government = prussian_constitutionalism
+			government = hms_government
+		}
+		NOT = { has_global_flag = french_rev }
+		has_country_flag = paris_renovated
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+		modifier = {
+			factor = 0.75
+			industrial_score = 30
+		}
+		modifier = {
+			factor = 0.5
+			industrial_score = 20
+		}
+	}
+	
+	option = {
+		name = "Halt industry development"
+		prestige = -10
+		add_country_modifier = {
+			name = luddite
+			duration = 3600
+		}
+		ai_chance = { factor = 0 }
+	}
+	
+	option = {
+		name = "That's ridiculous!"
+		change_variable = {
+			which = revolution_progress_FRA
+			value = 1
+		}
+		ai_chance = { factor = 1 }
+	}
+}
+country_event = {
+	id = 178903
+	title = "The matter of Belgica"
+	desc = "EVTDESC178903"
+	picture = "lithuanian_uprising"
+	fire_only_once = yes
+	
+	trigger = {
+		tag = FRA
+		has_global_flag = brabant_rev
+		BEL = { exists = yes government = democracy }
+		NOT = { war_with = BEL }
+		NOT = { truce_with = BEL }
+		OR = {
+			government = absolute_monarchy
+			government = prussian_constitutionalism
+			government = hms_government
+		}
+		NOT = { has_global_flag = french_rev }
+		has_country_flag = paris_renovated
+	}
+	
+	mean_time_to_happen = {
+		months = 5
+		modifier = {
+			factor = 0.9
+			any_greater_power = {
+				war_with = BEL
+			}
+		}
+	}
+	
+	option = {
+		name = "Recognise the republic"
+		relation = {
+			who = BEL
+			value = 50
+		}
+		prestige = 5
+		any_pop = {
+			limit = {
+				pop_majority_ideology = liberal
+			}
+			consciousness = -1
+		}
+		change_variable = {
+			which = revolution_progress_FRA
+			value = 1
+		}
+		ai_chance = { factor = 0 }
+	}
+	
+	option = {
+		name = "Ally and support the republic"
+		relation = {
+			who = BEL
+			value = 150
+		}
+		BEL = { country_event = 178904 }
+		any_pop = {
+			limit = {
+				pop_majority_ideology = liberal
+			}
+			consciousness = -1
+		}
+		prestige = 15
+		change_variable = {
+			which = revolution_progress_FRA
+			value = 1
+		}
+		ai_chance = { factor = 1 }
+	}
+	
+	option = {
+		name = "French intrests lay elsewhere"
+		any_pop = {
+			limit = {
+				pop_majority_ideology = liberal
+			}
+			consciousness = 1
+		}
+		change_variable = {
+			which = revolution_progress_FRA
+			value = 2
+		}
+		ai_chance = { factor = 0 }
+	}
+}
+country_event = {
+	id = 178904
+	title = "Help from France"
+	desc = "EVTDESC178905"
+	picture = "lithuanian_uprising"
+	is_triggered_only = yes
+	
+	option = {
+		name = "Thank god!"
+		create_alliance = FRA
+		small_arms = 300
+		regular_clothes = 300
+		canned_food = 300
+		war_exhaustion = -5
+	}
+}
+
+country_event = {
+	id = 178905
+	title = "The Eight rules of trade and the people"
+	desc = "EVTDESC178905"
+	picture = "lithuanian_uprising"
+	fire_only_once = yes
+	
+	trigger = {
+		tag = FRA
+		has_country_modifier = huit_regles_du_commerce
+		year = 1854
+		OR = {
+			government = absolute_monarchy
+			government = prussian_constitutionalism
+			government = hms_government
+		}
+		NOT = { has_global_flag = french_rev }
+		has_country_flag = paris_renovated
+	}
+	
+	option = {
+		name = "Repel the act"
+		remove_country_modifier = huit_regles_du_commerce
+		prestige = -20
+		any_pop = {
+			limit = {
+				OR = {
+					pop_majority_ideology = liberal
+					pop_majority_ideology = conservative
+				}
+			}
+			militancy = -2
+			consciousness = -1
+		}
+		change_variable = {
+			which = revolution_progress_FRA
+			value = -1
+		}
+		ai_chance = { factor = 0 }
+	}
+	
+	option = {
+		name = "Over my dead body!"
+		any_pop = {
+			limit = {
+				OR = {
+					pop_majority_ideology = liberal
+					pop_majority_ideology = conservative
+				}
+			}
+			militancy = 4
+		}
+		change_variable = {
+			which = revolution_progress_FRA
+			value = 1
+		}
+		ai_chance = { factor = 1 }
+	}
+}
+
+country_event = {
+	id = 178906
+	title = "Strange guests"
+	desc = "EVTDESC178906"
+	picture = "lithuanian_uprising"
+	fire_only_once = yes
+	
+	trigger = {
+		tag = FRA
+		year = 1856
+		OR = {
+			government = absolute_monarchy
+			government = prussian_constitutionalism
+			government = hms_government
+		}
+		NOT = { has_global_flag = french_rev }
+		has_country_flag = paris_renovated
+	}
+	
+	option = {
+		name = "IT'S THE BLOODY REVOLUTIONARIES! RUN!"
+		random_list = {
+			40 = { country_event = 178908 }
+			30 = { country_event = 178907 }
+			30 = { country_event = 178909 }
+		}
+		ai_chance = { factor = 1 }
+	}
+	
+	option = {
+		name = "Call in the guards, just in case"
+		random_list = {
+			20 = { country_event = 178907 }
+			50 = { country_event = 178909 }
+			30 = { country_event = 178910 }
+		}
+		ai_chance = { factor = 0 }
+	}
+	
+	option = {
+		name = "I'm sure it's nothing"
+		random_list = {
+			40 = {	country_event = 178910 }
+			40 = { 	country_event = 178911 }
+			20 = { 	country_event = 178907 }
+		}
+		ai_chance = { factor = 0 }
+	}
+}
+country_event = {
+	id = 178907
+	title = "Versailles Incident" #failed Liberal Coup
+	desc = "EVTDESC178905"
+	picture = "lithuanian_uprising"
+	major = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = "Told you so!"
+		prestige = -5
+		change_variable = {
+			which = revolution_progress_FRA
+			value = -2
+		}
+	}
+}
+country_event = {
+	id = 178908
+	title = "Versailles Incident" #King Jumps out of the window and lands in a fauntain
+	desc = "EVTDESC178905"
+	picture = "lithuanian_uprising"
+	major = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = "Oh god, oh fu-"
+		prestige = -15
+		change_variable = {
+			which = revolution_progress_FRA
+			value = 2
+		}
+	}
+}
+country_event = {
+	id = 178909
+	title = "Versailles Incident" #Diplomats insulted
+	desc = "EVTDESC178905"
+	picture = "lithuanian_uprising"
+	is_triggered_only = yes
+	
+	option = {
+		name = "At least they weren't liberals"
+		prestige = -5
+		change_variable = {
+			which = revolution_progress_FRA
+			value = 1
+		}
+	}
+}
+country_event = {
+	id = 178910
+	title = "Diplomat visit" #everything is fine
+	desc = "EVTDESC178905"
+	picture = "lithuanian_uprising"
+	is_triggered_only = yes
+	
+	option = {
+		name = "A meaningfull disscussion"
+		prestige = 5
+		random_country = {
+			limit = {
+				is_greater_power = yes
+			}
+			relation = {
+				value = 5
+				who = THIS
+			}
+		}
+	}
+}
+country_event = {
+	id = 178911
+	title = "Versailles Incident" #Liberalas force the king to move to Paris
+	desc = "EVTDESC178905"
+	picture = "lithuanian_uprising"
+	major = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = "I hate the plebs"
+		prestige = -15
+		change_variable = {
+			which = revolution_progress_FRA
+			value = 1
+		}
+	}
+}
+
+country_event = {
+	id = 178912
+	title = "French Revolution of $YEAR$"
+	desc = "EVTDESC178912"
+	picture = "lithuanian_uprising"
+	major = yes
+	fire_only_once = yes
+	
+	trigger = {
+		tag = FRA
+		NOT = { government = democracy }
+		check_variable = {
+			which = "revolution_progress_FRA"
+			value = 5
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "Viva la Revolution!"
+		set_global_flag = french_rev
+		clr_country_flag = everywhere_genocide_only
+		clr_country_flag = non_colonial_genocide_only
+		clr_country_flag = colonial_genocide_only
+		clr_country_flag = preparations_to_kill
+		remove_country_modifier = preparations_to_kill
+		clr_country_flag = communist_gov
+		clr_country_flag = absolute_monarchy_gov
+		clr_country_flag = semi_constitutional_monarchy_gov
+		clr_country_flag = constitutional_monarchy_gov
+		set_country_flag = democracy_gov
+		clr_country_flag = presidential_dictatorship_gov
+		clr_country_flag = fascist_gov
+		clr_country_flag = anarcho_liberal_gov
+		remove_country_modifier = fight_the_power
+		political_reform = wealth_voting
+		political_reform = state_equal_weight
+		government = democracy
+		political_reform = gerrymandering
+		ruling_party_ideology = liberal
+		election = yes
+		random_owned = { limit = { owner = { border_policy = closed_borders } } owner = { political_reform = open_borders } }
+		random_owned = { limit = { owner = { centralization = totalitarianism } } owner = { political_reform = unitary } }
+		random_owned = { limit = { owner = { part_of_sphere = yes } } owner = { sphere_owner = { diplomatic_influence = { value = -200 who = THIS } } } }
+		any_country = { limit = { government = absolute_monarchy } leave_alliance = THIS relation = { value = -100 who = THIS } }
+	}
+}

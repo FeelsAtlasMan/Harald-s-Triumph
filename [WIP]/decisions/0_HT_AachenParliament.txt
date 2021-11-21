@@ -1,0 +1,33 @@
+political_decisions = {
+	war_of_the_alps = {
+		picture = "balkan_war"
+		potential = {
+			tag = BRG
+			WUR = {
+				war_with = BRG
+			}
+			NOT = { has_country_flag = called_for_intervention }
+		}
+			
+		allow = {
+			war = yes
+			NOT = {
+			controls = 605
+			}
+		}
+		
+		effect = {
+			prestige = -5
+			random_country = {
+				limit = { 
+					tag = AAC 
+				}
+				country_event = 666001
+			}
+			set_country_flag = called_for_intervention
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

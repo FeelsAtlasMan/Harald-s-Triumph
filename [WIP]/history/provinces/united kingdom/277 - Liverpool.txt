@@ -1,0 +1,14 @@
+owner = NRD
+controller = NRD
+add_core = NRD
+add_core = ENG
+trade_goods = fish
+life_rating = 35
+terrain = liverpool
+railroad = 1
+state_building = {
+	level = 5
+	building = fabric_factory
+	upgrade = yes
+}
+

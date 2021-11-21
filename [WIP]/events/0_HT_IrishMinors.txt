@@ -1,0 +1,52 @@
+country_event = {
+	id = 181501
+	title = "The Irish Republican Brotherhood"
+	desc = "EVTDESC181501"
+	is_triggered_only = yes
+	
+	option = {
+		name = "Go on home Northeners!"
+		any_pop = {
+			militancy = -3
+		}
+		set_country_flag = irish_uprising_support
+	}
+}
+country_event = {
+	id = 181502
+	title = "The Irish Republican Army"
+	desc = "EVTDESC181502"
+	fire_only_once = yes
+	
+	trigger = {
+		exists = yes
+		has_country_flag = irish_uprising_support
+		military_spending = 1
+	}
+	
+	option = {
+		name = "Our day will come!"
+		canned_food = 300
+		ammunition = 300
+		small_arms = 300
+		artillery = 50
+		machine_parts = 20
+	}
+}
+country_event = {
+	id = 181503
+	title = "The Irish Uprising!"
+	desc = "EVTDESC181503"
+	major = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = "Don't these farmers have potatos to grow?"
+		war = {
+			target = IRE
+			attacker_goal = { casus_belli = annex_core_country }
+			defender_goal = { casus_belli = become_independent }
+			call_ally = no
+		}
+	}
+}

@@ -1,0 +1,221 @@
+country_event = {
+	id = 182100
+	title = "Belgica secedes from the confederacy!"
+	desc = "EVTDESC182100"
+	picture = "polish_uprising_aus"
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+		name = "Para bellum!"
+		random_owned = {
+			limit = {
+				owner = {
+					BEL = { is_greater_power = yes }
+				}
+			}
+			owner = {
+				war = {
+					target = BEL
+					attacker_goal = { casus_belli = humiliate }
+					defender_goal = { casus_belli = humiliate }
+					call_ally = no
+				}
+			}
+		}	
+		random_owned = {
+			limit = {
+				owner = {
+					BEL = { is_greater_power = no }
+				}
+			}
+			owner = {
+				war = {
+					target = BEL
+					attacker_goal = { casus_belli = make_puppet }
+					defender_goal = { casus_belli = humiliate }
+					call_ally = no
+				}
+			}
+		}
+		set_global_flag = war_for_belgica
+	}
+	
+	option = {
+		name = "Back off"
+		prestige = -60
+		BEL = { country_event = 182101 }
+	}
+}
+country_event = {
+	id = 182101
+	title = "Saxony backs off!"
+	desc = "EVTDESC182101"
+	picture = "polish_uprising_aus"
+	is_triggered_only = yes
+	
+	option = {
+		name = "Great!"
+		all_core = {
+			limit = {
+				owned_by = THIS
+			}
+			remove_core = GER
+		}
+		clr_country_flag = HRE_country
+		prestige = 25
+	}
+}
+country_event = {
+	id = 182102
+	title = "The won is war!"
+	desc = "EVTDESC182102"
+	picture = "polish_uprising_aus"
+	fire_only_once = yes
+	
+	trigger = {
+		tag = BEL
+		has_global_flag = war_for_belgica 
+		has_recently_lost_war = no
+		war = no
+		truce_with = SAX
+		NOT = { has_country_flag = bel_lost }
+	}
+	
+	option = {
+		all_core = {
+			limit = {
+				owned_by = THIS
+			}
+			remove_core = GER
+		}
+		clr_country_flag = HRE_country
+		set_country_flag = bel_wins
+		prestige = 25
+	}
+}
+
+country_event = {
+	id = 182103
+	title = "The war is lost!"
+	desc = "EVTDESC182103"
+	picture = "polish_uprising_aus"
+	is_triggered_only = yes
+	
+	option = {
+		name = "This is a tragedy"
+		BEL = { all_core = { remove_core = THIS } }
+		prestige = -25
+		release = LIG
+		release = LBG
+		release = LUX
+		release = WLL
+		3291 = { add_core = BRB }
+		387 = { add_core = BRB }
+		390 = { add_core = BRB }
+		380 = { add_core = BRB }
+		379 = { add_core = BRB }
+		change_tag = BRB
+		FROM = {
+			diplomatice_influence = {
+				who = THIS
+				value = 400
+			}
+			diplomatice_influence = {
+				who = LIG
+				value = 400
+			}
+			diplomatice_influence = {
+				who = LBG
+				value = 400
+			}
+			diplomatice_influence = {
+				who = LUX
+				value = 400
+			}
+			diplomatice_influence = {
+				who = WLL
+				value = 400
+			}
+		}
+		set_country_flag = bel_lost
+	}
+}
+country_event = {
+	id = 182104
+	title = "Belgica invites us to their union"
+	desc = "EVTDESC182104"
+	picture = "polish_uprising_aus"
+	is_triggered_only = yes
+	
+	option = {
+		name = "Sure!"
+		BEL = { inherit = THIS }
+		ai_chance = { factor = 1 }
+	}
+	
+	option = {
+		name = "God no, to hell with Belgican scum"
+		BEL = { prestige = -5 }
+		ai_chance = { factor = 0 }
+	}
+}
+
+country_event = {
+	id = 182105
+	title = "Flemish people and Belgica"
+	desc = "EVTDESC182105"
+	picture = "polish_uprising_aus"
+	fire_only_once = yes
+	
+	trigger = {
+		tag = BEL
+		war = no
+		FRA = { any_owned_province = { is_core = FLA } }
+		alliance_with = FRA
+		relation = {
+			who = FRA
+			value = 150
+		}
+		government = democracy
+		NOT = { has_country_flag = HRE_country }
+		government = democracy
+	}
+	
+	option = {
+		name = "Let's approach the french!"
+		FRA = { country_event = 182106 }
+	}
+}
+
+country_event = {
+	id = 182106
+	title = "Flemish people and Belgica"
+	desc = "EVTDESC182106"
+	picture = "polish_uprising_aus"
+	is_triggered_only = yes
+	
+	option = {
+		name = "Sure!"
+		FLA = {
+			all_core = { limit = { owned_by = THIS } remove_core = THIS secede_province = BEL }
+		}
+		prestige = -5
+		relation = {
+			who = BEL
+			value = 100
+		}
+		ai_chance = { factor = 1 }
+	}
+	
+	option = {
+		name = "God no, to hell with Belgican scum"
+		BEL = { prestige = -5 }
+		prestige = 5
+		relation = {
+			who = BEL
+			value = -100
+		}
+		ai_chance = { factor = 0 }
+	}
+}

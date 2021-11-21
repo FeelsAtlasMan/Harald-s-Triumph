@@ -1,0 +1,51 @@
+political_decisions = {
+	
+	leave_the_german_confederation = {
+		picture = map_germany
+		potential = {
+			tag = BEL
+			NOT = { has_country_flag = left_german_con }
+		}
+		allow = {
+			war = no
+			has_recently_lost_war = no
+			has_country_flag = HRE_country
+			OR = {
+				is_greater_power = yes
+				AND = {
+					part_of_sphere = yes
+					NOT = { in_sphere = SAX }
+				}
+			}
+			#prestige = 60
+			any_greater_power = {
+				alliance_with = THIS
+				NOT = { tag = SAX } 
+			}
+		}
+		effect = {
+			set_country_flag = left_german_con
+			SAX = { country_event = 182100 }
+		}
+	}
+	
+	invite_frisia = {
+		picture = flag_frisia
+		potential = {
+			tag = BEL
+			FRI = { exists = yes }
+			NOT = { has_country_flag = invited_frisia }
+		}
+		allow = {
+			war = no
+			is_greater_power = yes
+			NOT = { has_country_flag = HRE_country }
+			FRI = { in_sphere = THIS }
+			NET = { all_core = { owned_by = THIS } }
+		}
+		effect = {
+			FRI = { country_event = 182104 }
+			set_country_flag = invited_frisia
+		}
+	}
+}
