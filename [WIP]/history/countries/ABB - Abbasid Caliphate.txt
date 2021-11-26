@@ -58,7 +58,6 @@ upper_house = {
 	communist = 0
 }
 
-decision = EGY_1836_setup
 decision = LEB_1836_setup
 
 govt_flag = {
@@ -75,7 +74,7 @@ nonstate_consciousness = 0
 
 oob = "ABB_oob.txt"
 
-Unciv Reforms
+#Unciv Reforms
 monetary_reform = yes_monetary_reform #Currency
 #monetary_reform = monetary_reform_two
 research_reform = yes_education_reform #Universities 
