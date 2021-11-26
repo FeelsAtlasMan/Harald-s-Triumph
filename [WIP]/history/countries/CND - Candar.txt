@@ -1,5 +1,6 @@
 capital = 883
-primary_culture = turkish
+primary_culture = zaza
+culture = kurmanji
 religion = shiite
 government = colonial_company
 plurality = 2.0
@@ -58,12 +59,12 @@ colonial_policy = no_colonies
 #industrial_construction = industrial_construction_two
 
 foreign_training = yes_foreign_training #Training Methods
-foreign_training = foreign_training_two
+#foreign_training = foreign_training_two
 foreign_weapons = yes_foreign_weapons #Foreign Weapons
 #foreign_weapons = foreign_weapons_two
 #military_constructions = yes_military_constructions #Fortification
 #military_constructions = military_constructions_two
-foreign_officers = yes_foreign_officers #Officier Training
+#foreign_officers = yes_foreign_officers #Officier Training
 #foreign_officers = foreign_officers_two
 #army_schools = yes_army_schools #Army Training
 #army_schools = army_schools_two
@@ -102,10 +103,10 @@ foreign_officers = yes_foreign_officers #Officier Training
 #interchangeable_parts = 1
 
 flintlock_rifles = 1 #Foreign Weapons
-muzzle_loaded_rifles = 1
+#muzzle_loaded_rifles = 1
 #post_napoleonic_thought = 1 #Fortification
 #strategic_mobility = 1
-military_staff_system = 1 #Officier Training
+#military_staff_system = 1 #Officier Training
 #military_plans = 1
 #army_command_principle = 1 #Army Training
 #army_professionalism = 1
@@ -121,7 +122,7 @@ military_staff_system = 1 #Officier Training
 #bronze_muzzle_loaded_artillery = 1 #Artillery
 #iron_muzzle_loaded_artillery = 1
 
-ruling_party = TUR_conservative
+ruling_party = "Mirdesani"
 upper_house = {
 	fascist = 0
 	liberal = 12

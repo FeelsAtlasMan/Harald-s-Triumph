@@ -1,5 +1,7 @@
 capital = 924
-primary_culture = kurdish
+primary_culture = sorani
+culture = gorani
+culture = kurmanji
 religion = sunni
 government = colonial_company
 plurality = 0
@@ -47,6 +49,9 @@ upper_house = {
 	socialist = 0
 	communist = 0
 }
+
+foreign_weapons = yes_foreign_weapons
+flintlock_rifles = 1
 
 set_country_flag = sunni_country
 

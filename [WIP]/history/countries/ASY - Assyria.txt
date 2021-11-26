@@ -4,7 +4,7 @@ religion = coptic
 government = colonial_company
 plurality = 0.0
 nationalvalue = nv_tradition
-literacy = 0.06
+literacy = 0.02
 
 # Political reforms
 slavery = no_slavery
@@ -36,7 +36,10 @@ border_policy = open_borders
 centralization = unitary
 colonial_policy = no_colonies 
 
-set_country_flag = catholic_country
+set_country_flag = coptic_country
+
+foreign_weapons = yes_foreign_weapons
+flintlock_rifles = 1
 
 ruling_party = ARM_conservative
 last_election = 1834.1.1
@@ -49,5 +52,3 @@ upper_house = {
 	socialist = 0
 	communist = 0
 }
-
-schools = unciv_tech_school

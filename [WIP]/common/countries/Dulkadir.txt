@@ -3,7 +3,7 @@ colonial_company = { 50 20 180 }
 graphical_culture = OttomanGC
 
 party = {
-	name = "TUR_reactionary"
+	name = "Hezb-i Ruhanilar"
 	start_date = 1830.1.1
 	end_date = 2000.1.1
 
@@ -18,7 +18,7 @@ party = {
 }
 
 party = {
-	name = "TUR_conservative"
+	name = "Beylerbey-i Dulkadir"
 	start_date = 1830.1.1
 	end_date = 2000.1.1
 
@@ -33,8 +33,8 @@ party = {
 }
 
 party = {
-	name = "TUR_liberal"
-	start_date = 1856.1.1
+	name = "Qarblilar"
+	start_date = 1830.1.1
 	end_date = 2000.1.1
 
 	ideology = liberal
@@ -48,7 +48,7 @@ party = {
 }
 
 party = {
-	name = "TUR_socialist"
+	name = "Hezb-i Sosialist-i Demokratik"
 	start_date = 1874.1.1
 	end_date = 2000.1.1
 
@@ -57,58 +57,43 @@ party = {
 	social_policy = welfare_state
 	economic_policy = state_capitalism
 	trade_policy = protectionism
-	religious_policy = pluralism
-	citizenship_policy = full_citizenship
-	war_policy = pro_military
-}
-
-party = {
-	name = "TUR_communist"
-	start_date = 1848.1.1
-	end_date = 2000.1.1
-
-	ideology = communist
-
-	social_policy = populist_welfare
-	economic_policy = planned_economy
-	trade_policy = protectionism
-	religious_policy = pro_atheism
-	citizenship_policy = residency
-	war_policy = pro_military
-}
-
-party = {
-	name = "TUR_liberal_2"
-	start_date = 1830.1.1
-	end_date = 2000.1.1
-
-	ideology = liberal
-
-	social_policy = no_position_set
-	economic_policy = interventionism
-	trade_policy = free_trade
-	religious_policy = secularized
-	citizenship_policy = full_citizenship
-	war_policy = pacifism
-}
-
-party = {
-	name = "TUR_socialist_2"
-	start_date = 1848.1.1
-	end_date = 2000.1.1
-
-	ideology = socialist
-
-	social_policy = welfare_state
-	economic_policy = state_capitalism
-	trade_policy = free_trade
-	religious_policy = secularized
+	religious_policy = secularized 
 	citizenship_policy = full_citizenship
 	war_policy = anti_military
 }
 
 party = {
-	name = "TUR_anarcho_liberal"
+	name = "Hezb-i Sosyalistlar"
+	start_date = 1848.1.1
+	end_date = 2000.1.1
+
+	ideology = communist
+
+	social_policy = welfare_state
+	economic_policy = planned_economy
+	trade_policy = protectionism
+	religious_policy = pro_atheism
+	citizenship_policy = full_citizenship
+	war_policy = pro_military
+}
+
+party = {
+	name = "Islam Halk Hareketi"
+	start_date = 1885.1.1
+	end_date = 2000.1.1
+
+	ideology = religious_communist
+
+	social_policy = welfare_state
+	economic_policy = planned_economy
+	trade_policy = free_trade
+	religious_policy = pluralism
+	citizenship_policy = full_citizenship
+	war_policy = anti_military
+}
+
+party = {
+	name = "Radikal Demokratlar"
 	start_date = 1830.1.1
 	end_date = 2000.1.1
 
@@ -123,7 +108,7 @@ party = {
 }
 
 party = {
-	name = "TUR_fascist"
+	name = "Turancilar Birlighi"
 	start_date = 1900.1.1
 	end_date = 2000.1.1
 

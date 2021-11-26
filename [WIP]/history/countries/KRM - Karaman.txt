@@ -1,7 +1,7 @@
 capital = 873
 primary_culture = turkish
-religion = sunni
-government = colonial_company
+religion = shiite
+government = absolute_monarchy
 plurality = 1.0
 nationalvalue = nv_tradition
 literacy = 0.03
@@ -102,7 +102,7 @@ foreign_officers = yes_foreign_officers #Officier Training
 #interchangeable_parts = 1
 
 flintlock_rifles = 1 #Foreign Weapons
-muzzle_loaded_rifles = 1
+#muzzle_loaded_rifles = 1
 #post_napoleonic_thought = 1 #Fortification
 #strategic_mobility = 1
 military_staff_system = 1 #Officier Training
@@ -121,7 +121,7 @@ military_staff_system = 1 #Officier Training
 #bronze_muzzle_loaded_artillery = 1 #Artillery
 #iron_muzzle_loaded_artillery = 1
 
-ruling_party = TUR_conservative
+ruling_party = "Hanedan-i Beghdili"
 upper_house = {
 	fascist = 0
 	liberal = 12
@@ -132,8 +132,7 @@ upper_house = {
 	communist = 0
 }
 
-set_country_flag = sunni_country
-set_country_flag = turkish_unciv
+set_country_flag = shiite_country
 
 govt_flag = {
 	government = absolute_monarchy

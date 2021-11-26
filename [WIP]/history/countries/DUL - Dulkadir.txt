@@ -62,7 +62,7 @@ foreign_weapons = yes_foreign_weapons #Foreign Weapons
 #foreign_weapons = foreign_weapons_two
 #military_constructions = yes_military_constructions #Fortification
 #military_constructions = military_constructions_two
-foreign_officers = yes_foreign_officers #Officier Training
+#foreign_officers = yes_foreign_officers #Officier Training
 #foreign_officers = foreign_officers_two
 #army_schools = yes_army_schools #Army Training
 #army_schools = army_schools_two
@@ -101,10 +101,10 @@ foreign_officers = yes_foreign_officers #Officier Training
 #interchangeable_parts = 1
 
 flintlock_rifles = 1 #Foreign Weapons
-muzzle_loaded_rifles = 1
+#muzzle_loaded_rifles = 1
 #post_napoleonic_thought = 1 #Fortification
 #strategic_mobility = 1
-military_staff_system = 1 #Officier Training
+#military_staff_system = 1 #Officier Training
 #military_plans = 1
 #army_command_principle = 1 #Army Training
 #army_professionalism = 1
@@ -120,7 +120,7 @@ military_staff_system = 1 #Officier Training
 #bronze_muzzle_loaded_artillery = 1 #Artillery
 #iron_muzzle_loaded_artillery = 1
 
-ruling_party = TUR_conservative
+ruling_party = "Beylerbey-i Dulkadir"
 upper_house = {
 	fascist = 0
 	liberal = 12
@@ -131,8 +131,7 @@ upper_house = {
 	communist = 0
 }
 
-set_country_flag = sunni_country
-set_country_flag = turkish_unciv
+set_country_flag = shiite_country
 
 govt_flag = {
 	government = absolute_monarchy

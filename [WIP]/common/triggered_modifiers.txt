@@ -494,8 +494,7 @@ small_but_efficient = {
 			NOT = { 
 				is_culture_group = south_slavic
 				is_culture_group = pan_romanian
-				is_culture_group = hellenic
-				is_culture_group = neo_aramaeic
+				is_culture_group = levantine
 			}
 			NOT = { num_of_cities = 4 }
 		}
@@ -561,7 +560,7 @@ landlocked_nation = {
 			primary_culture = swiss_german
 			primary_culture = siebenburger
 			primary_culture = dutch
-			is_culture_group = western_slavic
+			is_culture_group = polish_culture_group
 		}
 	}
 
@@ -581,7 +580,7 @@ landlocked_nation_import = {
 			primary_culture = swiss_german
 			primary_culture = siebenburger
 			primary_culture = dutch
-			is_culture_group = western_slavic
+			is_culture_group = polish_culture_group
 		}
 	}
 	import_cost = 0.5
@@ -890,7 +889,7 @@ free_state = {
 			government = colonial_company
 			government = dominion
 		}
-		is_culture_group = continental_west_germanic
+		is_culture_group = germanic
 		OR = {
 			vassal_of = GER
 			vassal_of = GCF
@@ -1009,8 +1008,10 @@ mamluk_advisors = {
 loosing_mamluk_support = {
     trigger = {
 		civilized = no
-		has_country_flag = abb_mamluk_advisors
-		has_country_flag = abb_western_administration
+		AND = {
+		    has_country_flag = abb_mamluk_advisors
+			has_country_flag = abb_western_administration
+	    }
 		NOT = {
 		   set_country_flag = dethrowned_mamluks
 		}
