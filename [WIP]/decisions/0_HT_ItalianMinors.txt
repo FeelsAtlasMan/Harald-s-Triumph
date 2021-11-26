@@ -89,7 +89,6 @@ political_decisions = {
 			SAR_466 = { add_core = THIS }
 			prestige = 25
 			government = absolute_monarchy
-			prestige = 15
 			any_pop = {
 				militancy = 3
 			}
@@ -227,7 +226,7 @@ political_decisions = {
 			random_owned = {
 				limit = {
 					owner = {
-						vote_franschise = no_voting
+						vote_franschise = none_voting
 					}
 				}
 				owner = {
