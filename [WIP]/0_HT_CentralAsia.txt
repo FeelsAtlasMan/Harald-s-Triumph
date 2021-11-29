@@ -1,0 +1,307 @@
+#########################################################
+#														#
+#      			  central asia   					    #
+#														#
+#########################################################
+
+#Kazakh Migration
+country_event = {
+        id = 9904
+        title = "EVTNAME9904"
+        desc = "EVTDESC9904"
+        picture = "kazan_refugees"
+        
+        fire_only_once = yes
+        trigger = {
+                    tag = OIR
+                    NOT = { exists = KML }
+        }
+	
+    option = {
+		name = "EVT9904OPTA"
+	    1184 = { 
+		secede_province = OIR
+		add_core = KML
+		}
+		2611 = { 
+		secede_province = OIR
+		add_core = KML
+		}
+		1181 = { 
+		secede_province = OIR
+		add_core = KML
+		}
+		2612 = { 
+		secede_province = OIR
+		add_core = KML
+		}
+		1190 = { 
+		any_pop = {
+		       limit = {
+		         has_pop_culture = kirgiz
+		       }
+		       move_pop = 1184
+		   }
+		remove_core = KML
+		}
+		1186 = { 
+		any_pop = {
+		       limit = {
+		         has_pop_culture = kirgiz
+		       }
+		       move_pop = 2611
+		    }
+		remove_core = KML
+		}
+		1188 = { 
+		any_pop = {
+		        limit = {
+		          has_pop_culture = kirgiz
+		        }
+		        move_pop = 1181
+		    }
+		remove_core = KML
+		}
+		release = KML
+		1187 = { 
+		secede_province = OIR
+		}
+		ai_chance = { factor = 100 }
+	}
+}
+
+#The Tuva Conflict (TAR)
+country_event = {
+        id = 9905
+        title = "EVTNAME9905"
+        desc = "EVTDESC9905"
+        picture = "russo_turkish"
+        
+		fire_only_once = yes
+		
+		trigger = {
+                    tag = OIR
+                    NOT = { exists = ALT }
+		            TAR = { has_country_flag = tuva_conflict }
+        }
+
+    option = {
+		name = "EVT9905OPTA"
+	    war = {
+	             target = TAR
+	             attacker_goal = { casus_belli = place_in_the_sun state_province_id = 1469 }
+				 defender_goal = { casus_belli = status_quo }
+	             call_ally = no
+              }
+	   ai_chance = { factor = 95 }
+	}
+	
+	option = {
+		name = "EVT9905OPTB"
+	    set_country_flag = tuva_lost
+		prestige = -10
+		relation = {
+	         who = TAR
+	         value = -100
+             }
+	    ai_chance = { factor = 5 }
+	}
+}
+
+#The Tuva Conflict (RUS)
+country_event = {
+        id = 9906
+        title = "EVTNAME9906"
+        desc = "EVTDESC9906"
+        picture = "russo_turkish"
+        
+		fire_only_once = yes
+		
+		trigger = {
+                    tag = OIR
+                    NOT = { exists = ALT }
+		            RUS = { has_country_flag = tuva_conflict }
+        }
+
+    option = {
+		name = "EVT9906OPTA"
+	    war = {
+	             target = RUS
+	             attacker_goal = { casus_belli = place_in_the_sun state_province_id = 1469 }
+				 defender_goal = { casus_belli = status_quo }
+	             call_ally = no
+              }
+	   ai_chance = { factor = 95 }
+	}
+	
+	option = {
+		name = "EVT9906OPTB"
+	    set_country_flag = tuva_lost
+		prestige = -10
+		relation = {
+	         who = RUS
+	         value = -100
+             }
+	    ai_chance = { factor = 5 }
+	}
+}
+
+#The Tuva Conflict (RTH)
+country_event = {
+        id = 9910
+        title = "EVTNAME9910"
+        desc = "EVTDESC9910"
+        picture = "russo_turkish"
+        
+		fire_only_once = yes
+		
+		trigger = {
+                    tag = OIR
+                    NOT = { exists = ALT }
+		            RTH = { has_country_flag = tuva_conflict }
+        }
+
+    option = {
+		name = "EVT9906OPTA"
+	    war = {
+	             target = RTH
+	             attacker_goal = { casus_belli = place_in_the_sun state_province_id = 1469 }
+				 defender_goal = { casus_belli = status_quo }
+	             call_ally = no
+              }
+	   ai_chance = { factor = 95 }
+	}
+	
+	option = {
+		name = "EVT9906OPTB"
+	    set_country_flag = tuva_lost
+		prestige = -10
+		relation = {
+	         who = RTH
+	         value = -100
+             }
+	    ai_chance = { factor = 5 }
+	}
+}
+
+#The loss of the northern tributaries
+country_event = {
+        id = 9907
+        title = "EVTNAME9907"
+        desc = "EVTDESC9907"
+        picture = "graveyard_of_empires"
+        
+		fire_only_once = yes
+		
+		trigger = {
+                    tag = OIR
+					OR = {
+					   AND = {
+                        has_recently_lost_war = yes
+		                truce_with = TAR
+						TAR = { has_country_flag = tuva_conflict }
+						}
+					   AND = {
+                        has_recently_lost_war = yes
+		                truce_with = RUS
+						RUS = { has_country_flag = tuva_conflict }
+						}
+					   AND = {
+                        has_recently_lost_war = yes
+		                truce_with = RTH
+						RTH = { has_country_flag = tuva_conflict }
+						}
+					}
+        }
+
+    option = {
+		name = "EVT9907OPTA"
+	    release_vassal = BRY
+		release_vassal = NNI
+        set_country_flag = northern_collapse
+		TAR = { clr_country_flag = tuva_conflict }
+		RUS = { clr_country_flag = tuva_conflict }
+	    ai_chance = { factor = 100 }
+	}
+}
+
+#The loss of Inner Mongolia
+country_event = {
+        id = 9908
+        title = "EVTNAME9908"
+        desc = "EVTDESC9908"
+        picture = "graveyard_of_empires"
+        
+		fire_only_once = yes
+		
+		trigger = {
+                    tag = OIR
+					OR = {
+					   AND = {
+                        has_recently_lost_war = yes
+		                truce_with = SHN
+						has_country_flag = northern_collapse
+						}
+                        AND = {
+                        NOT = { owns = 1532 }
+		                has_country_flag = tuva_lost
+						}
+					}
+        }
+
+    option = {
+		name = "EVT9908OPTA"
+	    release = MGL
+		release_vassal = UYG
+		release_vassal = XBI
+		set_country_flag = total_collapse
+	    ai_chance = { factor = 100 }
+	}
+	
+	option = {
+		name = "EVT9908OPTB"
+	    release = MGL
+		release_vassal = UYG
+		release_vassal = XBI
+		set_country_flag = total_collapse
+		change_tag_no_core_switch = MGL
+	    ai_chance = { factor = 0 }
+	}
+}
+
+#Oirat Civil War
+country_event = {
+        id = 9909
+        title = "EVTNAME9909"
+        desc = "EVTDESC9909"
+        picture = "graveyard_of_empires"
+        
+		fire_only_once = yes
+		
+		trigger = {
+                    tag = OIR
+					MGL = { exists = yes }
+					OIR = { has_country_flag = total_collapse }
+					
+        }
+		
+		mean_time_to_happen = {
+		months = 1
+	}
+
+    option = {
+		name = "EVT9909OPTA"
+	    war = {
+	        target = MGL
+	        attacker_goal = { casus_belli = conquest }
+	        defender_goal = { casus_belli = conquest }
+	        call_ally = no
+        }
+	}
+	
+}
+
+
+
+
+
