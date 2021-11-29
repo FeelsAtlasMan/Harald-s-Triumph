@@ -2034,7 +2034,7 @@ free_peoples = {
 			FROM = { tag = TPG }
 			FROM = { tag = POL }
 			FROM = { tag = CPL }
-			FROM = { tag = QNG }
+			# FROM = { tag = QNG }
 			FROM = { tag = CHI }
 			FROM = { tag = CSA }
 			FROM = { tag = USA }
@@ -7763,7 +7763,8 @@ tourkistan_acquire_state = {
 				is_core = IRV
 				is_core = AKK					
            }
-	}
+        }
+    }
 	
 	po_demand_state = yes
 	
