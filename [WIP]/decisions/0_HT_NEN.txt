@@ -1,0 +1,58 @@
+political_decisions = {
+
+	eastern_cession = {
+		potential = {
+			tag = NEN
+			NOT = {
+				has_global_flag = eastern_cession_enacted
+			}
+		}
+		
+		allow = {
+			ideological_thought = 1
+			NTC = { 
+				vassal_of = THIS
+				ai = yes    
+			}
+			TSR = { 
+				vassal_of = THIS
+				ai = yes    
+			}
+		}
+		
+		effect = {
+			inherit = NTC
+			inherit = TSR
+			any_pop = {
+				limit = {
+					OR = {
+						has_pop_culture = tuscarora_nottoway
+						has_pop_culture = nanticocke	
+						has_pop_culture = iroquios
+						}
+					location = {
+						OR = {
+							province_id = 219
+							province_id = 60
+						}
+					}
+				}
+				reduce_pop = 0.50
+				consciousness = 1
+				move_pop = 217
+			}
+
+			219 = {
+				remove_core = NTC
+			}
+			60 = {
+				remove_core = TSR
+			}
+			set_global_flag = eastern_cession_enacted
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}	
