@@ -39,7 +39,7 @@ conscription = no_draft
 debt_law = peonage
 penal_system = capital_punishment
 child_labor = child_labor_legal
-citizens_rights = none_voting
+citizens_rights = primary_culture_only
 border_policy = open_borders
 centralization = regionalism
 colonial_policy = exploitation
@@ -78,6 +78,4 @@ upper_house = {
 	socialist = 0
 	communist = 0
 }
-
-foreign_weapons = yes_foreign_weapons
 flintlock_rifles = 1

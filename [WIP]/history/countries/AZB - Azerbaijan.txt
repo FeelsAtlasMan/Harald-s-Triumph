@@ -1,6 +1,6 @@
 capital = 1108
 primary_culture = persian
-culture = tatic
+culture = takic
 religion = sunni
 government = colonial_company
 plurality = 15.0
@@ -36,7 +36,7 @@ conscription = no_draft
 debt_law = peonage
 penal_system = capital_punishment
 child_labor = child_labor_legal
-citizens_rights = none_voting
+citizens_rights = culture_voting_only
 border_policy = open_borders
 centralization = regionalism
 colonial_policy = exploitation
@@ -55,7 +55,7 @@ upper_house = {
 monetary_reform = yes_monetary_reform #Currency
 #monetary_reform = monetary_reform_two
 research_reform = yes_education_reform #Universities 
-research_reform = education_reform_two
+#research_reform = education_reform_two
 #firearms_production = yes_firearms_production #Steam Power
 #firearms_production = firearms_production_two
 land_reform = yes_land_reform #Land 
@@ -74,7 +74,7 @@ admin_reform = yes_admin_reform #Legislative
 #industrial_construction = industrial_construction_two
 
 foreign_training = yes_foreign_training #Training Methods
-foreign_training = foreign_training_two
+#foreign_training = foreign_training_two
 foreign_weapons = yes_foreign_weapons #Foreign Weapons
 #foreign_weapons = foreign_weapons_two
 military_constructions = yes_military_constructions #Fortification
@@ -92,7 +92,7 @@ army_schools = yes_army_schools #Army Training
 #western_shipyards = yes_western_shipyards #Shipyards
 #western_shipyards = western_shipyards_two
 foreign_artillery = yes_foreign_artillery #Artillery
-foreign_artillery = foreign_artillery_two
+#foreign_artillery = foreign_artillery_two
 
 #Unciv Technologies
 

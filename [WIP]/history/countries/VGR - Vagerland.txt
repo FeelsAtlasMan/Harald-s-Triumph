@@ -8,7 +8,7 @@ religion = protestant
 government = democracy
 plurality = 25
 nationalvalue = nv_liberty
-literacy = 0,34
+literacy = 0.34
 civilized = yes 
 prestige = 15
 schools = traditional_academic
@@ -28,7 +28,7 @@ liberal = 33
 anarcho_liberal = 0
 }
 slavery = no_slavery
-vote_franschise = population_equal_weight
+vote_franschise = wealth_weighted_voting
 upper_house_composition = proportional_representation
 voting_system = first_past_the_post
 public_meetings = yes_meeting
@@ -42,6 +42,15 @@ unemployment_subsidies = good_subsidies
 pensions = good_pensions
 health_care = good_health_care
 school_reforms = good_schools
+#New Reforms
+conscription = no_draft
+debt_law = peonage
+penal_system = capital_punishment
+child_labor = child_labor_legal
+citizens_rights = none_voting
+border_policy = open_borders
+centralization = regionalism
+colonial_policy = exploitation
 
 
 #========================= T E C H N O L O G I E S =========================
