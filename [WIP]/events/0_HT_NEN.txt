@@ -1,0 +1,43 @@
+#########################################################
+#														#
+#      			   Batavia Events						#
+#														#
+#########################################################
+
+#Batavia Introduction
+country_event = { 
+	id = 606001
+	title = "The Batavian Republic"
+	desc = "EVTDESC606001" 
+	picture = "batavian_republic"
+
+	trigger = {
+		tag = NEN
+	}
+	
+	fire_only_once = yes 
+	
+	mean_time_to_happen = { 
+	days = 1 
+	}
+	
+	option = { 
+	name = "Interesting, tell me more."
+	country_event = { id = 606002 days = 1 }	
+	}
+}
+
+country_event = { 
+	id = 606002
+	title = "The Batavian Republic"
+	desc = "EVTDESC606002" 
+	picture = "batavian_independence"
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes 
+	
+	option = { 
+	name = "Liberty will reign in Batavia!"
+	}
+}
