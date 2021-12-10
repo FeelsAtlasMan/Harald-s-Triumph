@@ -37,27 +37,17 @@ border_policy = open_borders
 centralization = unitary
 colonial_policy = no_colonies 
 
-#New Reforms
-conscription = mandatory_service
-debt_law = serfdom
-penal_system = capital_punishment
-child_labor = child_labor_legal
-citizens_rights = none_voting
-border_policy = open_borders
-centralization = regionalism
-colonial_policy = no_colonies
-
 #Unciv Reforms
 monetary_reform = yes_monetary_reform #Currency
 #monetary_reform = monetary_reform_two
 research_reform = yes_education_reform #Universities 
-research_reform = education_reform_two
+#research_reform = education_reform_two
 #firearms_production = yes_firearms_production #Steam Power
 #firearms_production = firearms_production_two
 land_reform = yes_land_reform #Land 
-land_reform = land_reform_two
+#land_reform = land_reform_two
 admin_reform = yes_admin_reform #Legislative
-admin_reform = admin_reform_two
+#admin_reform = admin_reform_two
 #finance_reform = yes_finance_reform #Finance
 #finance_reform = finance_reform_two
 #education_reform = yes_western_science #Basic Education
@@ -70,7 +60,7 @@ admin_reform = admin_reform_two
 #industrial_construction = industrial_construction_two
 
 foreign_training = yes_foreign_training #Training Methods
-foreign_training = foreign_training_two
+#foreign_training = foreign_training_two
 foreign_weapons = yes_foreign_weapons #Foreign Weapons
 #foreign_weapons = foreign_weapons_two
 military_constructions = yes_military_constructions #Fortification
@@ -88,7 +78,7 @@ army_schools = yes_army_schools #Army Training
 #western_shipyards = yes_western_shipyards #Shipyards
 #western_shipyards = western_shipyards_two
 foreign_artillery = yes_foreign_artillery #Artillery
-foreign_artillery = foreign_artillery_two
+#foreign_artillery = foreign_artillery_two
 
 #Unciv Technologies
 early_classical_theory_and_critique = 1 #Currency

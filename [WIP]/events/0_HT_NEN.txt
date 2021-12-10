@@ -1,0 +1,100 @@
+#########################################################
+#														#
+#      			   Lozania Events						#
+#														#
+#########################################################
+
+#Lozania Introduction
+country_event = { 
+	id = 606001
+	title = "The Lozania Colony"
+	desc = "EVTDESC606001" 
+	picture = "NEN_colonialism"
+
+	trigger = {
+		tag = NEN
+	}
+	
+	fire_only_once = yes 
+	
+	mean_time_to_happen = { 
+	days = 1 
+	}
+	
+	option = {
+	name = "How horrific."
+	country_event = { id = 606002 days = 1 }	
+	}
+}
+
+country_event = { 
+	id = 606002
+	title = "The German Revolution in Lozania"
+	desc = "EVTDESC606002" 
+	picture = "NEN_republic"
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes 
+	
+	option = {
+	name = "Interesting, tell me more."
+	country_event = { id = 606003 days = 1 }	
+	}
+}
+
+country_event = { 
+	id = 606003
+	title = "The Lozanian War of Independence"
+	desc = "EVTDESC606003" 
+	picture = "NEN_independence"
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes 
+	
+	option = { 
+	name = "Liberty will reign in Lozania!"
+	}
+}
+
+# Should we expell the natives?
+country_event = {
+	id = 606004
+	title = "The Tuscarora and Nanitoke"
+	desc = "EVTDESC606004" 
+	picture = "NEN_eastern_cession"
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = "Forcibly relocate them West."
+		any_pop = {
+				limit = {
+					OR = {
+						has_pop_culture = tuscarora_nottoway
+						has_pop_culture = nanticocke	
+						has_pop_culture = iroquios
+						}
+					location = {
+						OR = {
+							province_id = 219
+							province_id = 60
+						}
+					}
+				}
+				reduce_pop = 0.75
+				consciousness = 1
+				move_pop = 217
+			}
+		change_variable = {
+		   which = native_anger
+		   value = 1
+	    }
+	}
+	
+	option = { 
+		name = "Allow them to live under Lozanian law."
+		any_pop = { limit = { pop_type = aristocrats } militancy = 1 }
+	}
+}

@@ -28,6 +28,16 @@ press_rights=censored_press
 trade_unions=state_controlled
 political_parties=harassment
 
+#New Reforms
+conscription = no_draft
+debt_law = peonage
+penal_system = capital_punishment
+child_labor = child_labor_legal
+citizens_rights = primary_culture_only
+border_policy = open_borders
+centralization = regionalism
+colonial_policy = exploitation
+
 ruling_party = ITA_reactionary
 upper_house = 
 {
@@ -63,10 +73,7 @@ military_staff_system = 1
 no_standard = 1
 post_napoleonic_thought = 1
 post_nelsonian_thought = 1
-practical_steam_engine = 1
 private_banks = 1
-publishing_industry = 1
 romanticism = 1
-water_wheel_power = 1
 prestige=0
 oob = "NAP_OOB.txt"

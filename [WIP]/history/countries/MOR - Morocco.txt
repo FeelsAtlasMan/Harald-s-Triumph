@@ -77,7 +77,7 @@ army_schools = yes_army_schools #Army Training
 foreign_navies = yes_foreign_navies #Foreign Ships
 #foreign_navies = foreign_navies_two
 naval_schools = yes_naval_schools #Naval Training
-naval_schools = naval_schools_two
+#naval_schools = naval_schools_two
 western_shipyards = yes_western_shipyards #Shipyards
 #western_shipyards = western_shipyards_two
 foreign_artillery = yes_foreign_artillery #Artillery
@@ -146,7 +146,6 @@ govt_flag = {
 
 # Technologies
 military_staff_system = 1
-flintlock_rifles = 1
 
 # Inventions
 
@@ -164,7 +163,7 @@ oob = "MOR_oob.txt"
 	foreign_weapons = yes_foreign_weapons
 	army_schools = yes_army_schools
 	finance_reform = finance_reform_two
-	education_reform = yes_education_reform
+	education_reform = yes_western_science
 
 	# Technologies
 	military_staff_system = 1

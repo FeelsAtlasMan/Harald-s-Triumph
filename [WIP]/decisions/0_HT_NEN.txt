@@ -1,0 +1,42 @@
+political_decisions = {
+
+	eastern_cession = {
+		potential = {
+			tag = NEN
+			NOT = {
+				has_global_flag = eastern_cession_enacted
+			}
+		}
+		
+		allow = {
+			ideological_thought = 1
+			NTC = { 
+				vassal_of = THIS
+				ai = yes    
+			}
+			TSR = { 
+				vassal_of = THIS
+				ai = yes    
+			}
+		}
+		
+		effect = {
+			inherit = NTC
+			inherit = TSR
+			219 = {
+				remove_core = NTC
+				add_core = NEN
+			}
+			60 = {
+				remove_core = TSR
+				add_core = NEN
+			}
+			set_variable = { which = native_anger value = 1 }
+			set_global_flag = eastern_cession_enacted
+			country_event = { id = 606004 days = 10 }	
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

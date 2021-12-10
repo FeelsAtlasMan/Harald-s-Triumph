@@ -8,7 +8,7 @@ religion = orthodox
 government = absolute_monarchy
 plurality = 10
 nationalvalue = nv_liberty
-literacy = 0,5
+literacy = "0.5"
 civilized = yes 
 prestige = 1
 schools = traditional_academic
@@ -42,6 +42,14 @@ unemployment_subsidies = no_subsidies
 pensions = no_pensions
 health_care = no_health_care
 school_reforms = no_schools
+conscription = two_year_draft
+debt_law = serfdom
+penal_system = capital_punishment
+child_labor = child_labor_legal
+citizens_rights = primary_culture_only
+border_policy = open_borders
+centralization = unitary
+colonial_policy = no_colonies 
 
 
 #========================= T E C H N O L O G I E S =========================
