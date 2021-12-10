@@ -260,7 +260,6 @@ country_event = {
 						scaled_consciousness = { factor = 4 issue = pacifism }
 					}
 				}
-				any_country = { limit = { is_greater_power = yes } relation = { who = USA value = -100 } }
 			}
 			treasury = -100000
 		}

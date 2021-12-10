@@ -366,11 +366,9 @@ political_decisions = {
 		}
 		
 		allow = {
-		    AND = {
-				tag = PNB
-			    PNB = { is_sphere_leader_of = GUY }
-				GUY = { all_core = { owned_by = GUY } }
-			}
+			tag = PNB
+			PNB = { is_sphere_leader_of = GUY }
+			GUY = { all_core = { owned_by = GUY } }
 			war = no
 		}
 		
@@ -391,10 +389,8 @@ political_decisions = {
 		}
 		
 		allow = {
-			AND = {
-			    tag = PNB
-				GUY = { all_core = { owned_by = PNB } }
-			}
+			tag = PNB
+			GUY = { all_core = { owned_by = PNB } }
 			war = no
 		}
 		
