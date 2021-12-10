@@ -57,13 +57,11 @@ country_event = {
 					militancy = -1
 				}
 		}
-		relation = { who = USA value = 25 }
 		ai_chance = { factor = 90 }
 	}
 	
 	option = {
 		name = "EVTOPTB38500" 
-		relation = { who = USA value = -25 }
 		any_owned = {
 			limit = { continent = oceania }
 				any_pop = {

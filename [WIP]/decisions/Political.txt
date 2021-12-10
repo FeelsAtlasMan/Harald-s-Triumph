@@ -1793,12 +1793,10 @@ political_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0 
-				NOT = { tag = USA }
 				NOT = { tag = AST }
 				NOT = { tag = NZL }
 				NOT = { tag = CAN }
 			}
-			modifier = { factor = 0 tag = USA NOT = { total_pops = 26500000 year = 1910 } }
 			modifier = { factor = 0 tag = AST NOT = { total_pops = 1000000 } }
 			modifier = { factor = 0 tag = NZL NOT = { total_pops = 353000 } }
 			modifier = { factor = 0 tag = CAN NOT = { total_pops = 2250000 } }

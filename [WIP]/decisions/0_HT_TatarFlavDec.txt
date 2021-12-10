@@ -317,10 +317,8 @@ bashkortostan_joins_kipchaks = {
 	allow = {
 				war = no
 				prestige = 15
-				AND = {
-				    foreign_training = foreign_training_two
-					foreign_weapons = foreign_weapons_two
-				}
+				foreign_training = foreign_training_two
+                foreign_weapons = foreign_weapons_two
 			}
    	effect = {
         country_event = 666443

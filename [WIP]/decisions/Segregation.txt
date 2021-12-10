@@ -239,10 +239,6 @@ political_decisions = {
 			modifier = {
 				factor = 0
 				NOT = { year = 1915 }
-				OR = {
-					tag = USA
-					tag = CAN
-				}
 			}
 		}
 	}
@@ -279,24 +275,8 @@ political_decisions = {
 			}
 			OR = {
 				AND	= {
-					pop_majority_culture = yankee
-					primary_culture = yankee
-				}
-				AND	= {
-					pop_majority_culture = dixie
-					primary_culture = dixie
-				}
-				AND	= {
 					pop_majority_culture = australian
 					primary_culture = australian
-				}
-				AND	= {
-					pop_majority_culture = anglo_canadian
-					primary_culture = anglo_canadian
-				}
-				AND	= {
-					pop_majority_culture = french_canadian
-					primary_culture = french_canadian
 				}
 				AND	= {
 					pop_majority_culture = mexican
@@ -391,24 +371,8 @@ political_decisions = {
 			}
 			OR = {
 				AND	= {
-					pop_majority_culture = yankee
-					primary_culture = yankee
-				}
-				AND	= {
-					pop_majority_culture = dixie
-					primary_culture = dixie
-				}
-				AND	= {
 					pop_majority_culture = australian
 					primary_culture = australian
-				}
-				AND	= {
-					pop_majority_culture = anglo_canadian
-					primary_culture = anglo_canadian
-				}
-				AND	= {
-					pop_majority_culture = french_canadian
-					primary_culture = french_canadian
 				}
 				AND	= {
 					pop_majority_culture = mexican

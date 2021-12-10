@@ -19,34 +19,6 @@ political_decisions = {
 		}
 	}	
 
-	viet_remove_sphere = {
-		picture = "reichstag"
-		potential = { 
-			ai = yes
-			OR = {
-				tag = DAI
-				tag = CHK
-				tag = CAM
-				tag = LUA
-				tag = PGG
-				tag = NIA
-			}
-			civilized = no
-		}
-		
-		allow = {
-			USA = {
-				ai = yes
-				is_sphere_leader_of = THIS
-			}
-			OR = {
-				FRA = { exists = yes ai = yes }
-			}
-		}
-		
-		effect = { USA = { diplomatic_influence = { who = THIS value = -400 } } }
-	}
-
 	japan_ai_dye = {
 		picture = "reichstag"
 		potential = { 
@@ -700,7 +672,6 @@ political_decisions = {
 						has_pop_religion = catholic 
 						OR = { 
 							has_pop_culture = cajun
-							has_pop_culture = texan
 						}
 						NOT = { type = craftsmen }
 						location = { is_overseas = no }

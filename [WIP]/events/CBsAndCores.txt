@@ -2008,13 +2008,6 @@ province_event = {
 			is_primary_culture = yes
 			is_accepted_culture = yes
 		}
-		OR = {
-			has_province_modifier = national_assimilation_acceptance
-			AND = {
-				is_core = USA
-				owner = { NOT = { tag = USA } }
-			}
-		}
 		NOT = { has_province_modifier = nationalist_agitation }
 		controlled_by = THIS
 		owned_by = THIS

@@ -222,178 +222,6 @@ political_decisions = {
 	}
 	
 ###Setup Decisions
-	literacy_SPA = {
-		potential = {
-			tag = SPA
-			always = no
-		}
-		
-		allow = {
-			tag = SPA
-		}
-		
-		effect = {
-			any_pop = { limit = { has_pop_culture = filipino } literacy = -0.04 }
-			any_pop = { limit = { has_pop_culture = caribeno } literacy = -0.02 }
-			any_pop = { limit = { OR = { has_pop_culture = basque has_pop_culture = catalan } } literacy = 0.03 }
-			
-			any_owned = {
-				limit = {
-					OR = {
-						province_id = 511
-						province_id = 509
-						province_id = 490
-						province_id = 499
-						province_id = 495
-					}
-				}
-			any_pop = { literacy = -0.02 }
-			}
-			
-			any_owned = {
-				limit = {
-					OR = {
-						province_id = 2136
-						province_id = 514
-						province_id = 505
-						province_id = 508
-					}
-				}
-			any_pop = { literacy = -0.07 }
-			}
-			
-			any_owned = {
-				limit = {
-					OR = {
-						province_id = 513
-						province_id = 515
-					}
-				}
-			any_pop = { literacy = -0.09 }
-			}
-			
-			any_owned = {
-				limit = {
-					OR = {
-						province_id = 510
-						province_id = 491
-						province_id = 474
-						province_id = 476
-					}
-				}
-			any_pop = { literacy = -0.04 }
-			}
-			
-			any_owned = {
-				limit = {
-					OR = {
-						province_id = 501
-						province_id = 497
-					}
-				}
-			any_pop = { literacy = -0.035 }
-			}
-			
-			any_owned = {
-				limit = {
-					OR = {
-						province_id = 507
-						province_id = 506
-						province_id = 503
-						province_id = 516
-					}
-				}
-			any_pop = { literacy = -0.06 }
-			}
-			
-			any_owned = {
-				limit = {
-					OR = {
-						province_id = 478
-						province_id = 487
-					}
-				}
-			any_pop = { literacy = 0.14 }
-			}
-			
-			any_owned = {
-				limit = {
-					OR = {
-						province_id = 493
-						province_id = 494
-					}
-				}
-			any_pop = { literacy = 0.08 }
-			}
-			
-			any_owned = {
-				limit = {
-					OR = {
-						province_id = 477
-						province_id = 482
-					}
-				}
-			any_pop = { literacy = 0.06 }
-			}
-			
-			any_owned = {
-				limit = {
-					OR = {
-						province_id = 480
-						province_id = 481
-					}
-				}
-			any_pop = { literacy = 0.09 }
-			}
-			
-			
-			498 = { any_pop = { literacy = 0.045 } }
-			475 = { any_pop = { literacy = 0.04 } }
-			492 = { any_pop = { literacy = 0.12 } }
-			479 = { any_pop = { literacy = 0.13 } }
-			483 = { any_pop = { literacy = 0.08 } }
-			
-			502 = { any_pop = { literacy = -0.065 } }
-			496 = { any_pop = { literacy = -0.03 } }
-			500 = { any_pop = { literacy = -0.045 } }
-			504 = { any_pop = { literacy = -0.08 } }
-			488 = { any_pop = { literacy = 0.03 } }
-			489 = { any_pop = { literacy = -0.015 } }
-			512 = { any_pop = { literacy = -0.02 } }
-			SPA_484 = { any_pop = { literacy = -0.05 } }
-			
-			
-			any_pop = {
-				limit = {
-					OR = {
-						type = slaves
-						is_culture_group = west_african
-						is_culture_group = central_african
-						is_culture_group = east_african
-						is_culture_group = southern_african
-						has_pop_culture = afro_american
-						has_pop_culture = dakota
-						has_pop_culture = cherokee
-						has_pop_culture = native_american_minor 
-						has_pop_culture = maghrebi
-						has_pop_culture = berber
-						has_pop_religion = theravada
-						has_pop_religion = hindu
-						has_pop_religion = sunni
-						has_pop_religion = shiite
-						has_pop_religion = mahayana
-						has_pop_religion = animist
-						has_pop_culture = malay
-						has_pop_culture = afro_caribeno
-						has_pop_culture = nanfaren
-						has_pop_culture = asian_minor
-					}
-				}
-			literacy = -0.99
-			}
-		}
-	}
-
 	literacy_ENG = {
 		potential = {
 			tag = ENG
@@ -446,10 +274,6 @@ political_decisions = {
 				}
 				literacy = 0.05
 			}
-			any_pop = {
-				limit = { has_pop_culture = yankee }
-				literacy = 0.70
-			}
 			
 			any_pop = {
 				limit = { has_pop_culture = australian }
@@ -461,10 +285,6 @@ political_decisions = {
 				literacy = 0.20
 			}
 			
-			any_pop = {
-				limit = { OR = { has_pop_culture = french_canadian has_pop_culture = metis has_pop_culture = french } }
-				literacy = 0.35
-			}
 			any_pop = {
 				limit = { has_pop_culture = boer }
 				literacy = 0.15
@@ -806,7 +626,6 @@ political_decisions = {
 			any_pop = { limit = { has_pop_culture = greek } literacy = 0.05 }
 			
 			any_greater_power = {
-				diplomatic_influence = { who = RMD value = -400 }
 				diplomatic_influence = { who = DUL value = -400 }
 				diplomatic_influence = { who = KLS value = -400 }
 			}
@@ -1095,27 +914,6 @@ political_decisions = {
 			1781 = { add_province_modifier = { name = small_baby_boom duration = 3650 } }
 			1717 = { add_province_modifier = { name = small_baby_boom duration = 3650 } }
 			3407 = { add_province_modifier = { name = small_baby_boom duration = 3650 } }
-		}
-	}
-	
-	remove_natalian_cores_on_zulu = {
-    picture = murzuk
-		potential = {
-			tag = VND
-			NOT = { has_country_flag = fuckoffnatal }
-		}
-
-		allow = {
-			tag = VND
-		}
-
-		effect = {
-			ZUL = { all_core = { remove_core = NAT } }
-			set_country_flag = fuckoffnatal
-		}
-
-		ai_will_do = {
-			factor = 1
 		}
 	}
 	
@@ -1641,93 +1439,6 @@ political_decisions = {
 		}
 	}
 	
-	USA_1836_setup = {
-		picture = constantinople
-		potential = {
-			tag = USA
-			always = no
-		}
-		
-		allow = {
-			tag = USA
-		}
-		
-		effect = {
-			relation = { who = DEN value = 150 }
-			relation = { who = KHI value = -25 }
-			relation = { who = BUK value = -25 }
-			relation = { who = KAZ value = -25 }
-			relation = { who = KOK value = -25 }
-			any_country = { limit = { capital_scope = {continent = africa } NOT = { tag = MOR } } relation = { who = USA value = -25 } }
-			relation = { who = MOR value = -25 }
-			1887 = { any_pop = { literacy = -0.99 } }
-			1888 = { any_pop = { literacy = -0.99 } }
-			any_pop = { limit = { has_pop_culture = north_german } literacy = 0.5 }
-			any_pop = { limit = { has_pop_culture = irish } literacy = 0.2 }
-			any_pop = { limit = { has_pop_culture = french_canadian } literacy = 0.35 }
-			USA_243 = { any_pop = { limit = { OR = { is_accepted_culture = yes is_primary_culture = yes } } literacy = 0.14 } }
-			USA_247 = { any_pop = { limit = { OR = { is_accepted_culture = yes is_primary_culture = yes } } literacy = 0.13 } }
-			USA_231 = { any_pop = { limit = { OR = { is_accepted_culture = yes is_primary_culture = yes } } literacy = 0.10 } }
-			USA_176 = { any_pop = { limit = { OR = { is_accepted_culture = yes is_primary_culture = yes } } literacy = 0.12 } }
-			USA_232 = { any_pop = { limit = { OR = { is_accepted_culture = yes is_primary_culture = yes } } literacy = 0.10 } }
-			USA_223 = { any_pop = { limit = { OR = { is_accepted_culture = yes is_primary_culture = yes } } literacy = 0.09 } }
-			USA_178 = { any_pop = { limit = { OR = { is_accepted_culture = yes is_primary_culture = yes } } literacy = 0.08 } }
-			USA_151 = { any_pop = { limit = { OR = { is_accepted_culture = yes is_primary_culture = yes } } literacy = 0.08 } }
-			USA_139 = { any_pop = { limit = { OR = { is_accepted_culture = yes is_primary_culture = yes } } literacy = 0.08 } }
-			USA_219 = { any_pop = { limit = { OR = { is_accepted_culture = yes is_primary_culture = yes } } literacy = 0.06 } }
-			USA_200 = { any_pop = { limit = { OR = { is_accepted_culture = yes is_primary_culture = yes } } literacy = 0.04 } }
-			USA_194 = { any_pop = { limit = { OR = { is_accepted_culture = yes is_primary_culture = yes } } literacy = 0.02 } }
-			USA_170 = { any_pop = { limit = { OR = { is_accepted_culture = yes is_primary_culture = yes } } literacy = -0.01 } }
-			USA_148 = { any_pop = { limit = { OR = { is_accepted_culture = yes is_primary_culture = yes } } literacy = -0.01 } }
-			USA_185 = { any_pop = { limit = { OR = { is_accepted_culture = yes is_primary_culture = yes } } literacy = -0.03 } }
-			USA_196 = { any_pop = { limit = { OR = { is_accepted_culture = yes is_primary_culture = yes } } literacy = -0.04 } }
-			222 = { any_pop = { limit = { OR = { is_accepted_culture = yes is_primary_culture = yes } } literacy = -0.1 } }
-			USA_211 = { any_pop = { limit = { OR = { is_accepted_culture = yes is_primary_culture = yes } } literacy = -0.05 } }
-			USA_205 = { any_pop = { limit = { OR = { is_accepted_culture = yes is_primary_culture = yes } } literacy = -0.05 } }
-			USA_205 = { any_pop = { limit = { OR = { is_accepted_culture = yes is_primary_culture = yes } } literacy = -0.05 } }
-			USA_201 = { any_pop = { limit = { OR = { is_accepted_culture = yes is_primary_culture = yes } } literacy = -0.06 } }
-			USA_201 = { any_pop = { limit = { OR = { is_accepted_culture = yes is_primary_culture = yes } } literacy = -0.06 } }
-			USA_144 = { any_pop = { limit = { OR = { is_accepted_culture = yes is_primary_culture = yes } } literacy = -0.08 } }
-			USA_188 = { any_pop = { limit = { OR = { is_accepted_culture = yes is_primary_culture = yes } } literacy = -0.1 } }
-			USA_2556 = { any_pop = { limit = { OR = { is_accepted_culture = yes is_primary_culture = yes } } literacy = -0.14 } }
-			
-			any_pop = {
-				limit = { 
-					OR = { 
-						type = slaves
-						has_pop_culture = afro_american
-						is_culture_group = west_african
-						is_culture_group = central_african
-						is_culture_group = east_african
-						is_culture_group = southern_african
-						has_pop_culture = dakota
-						has_pop_culture = cherokee
-						has_pop_culture = native_american_minor 
-					}
-				}
-				literacy = -0.99 
-			}
-			any_pop = { limit = { has_pop_religion = catholic } literacy = -0.1 }
-			
-			163 = {
-				add_province_modifier = { name = small_baby_boom duration = 3650 }
-			}
-			
-			any_owned = {
-				limit = {
-					has_pop_type = slaves
-					produces = cotton
-				}
-				add_province_modifier = { name = king_cotton duration = -1 }
-			}
-			
-			add_country_modifier = {
-				name = america_new_world
-				duration = 1825
-			}
-		}
-	}
-	
 	1836_switzerland_setup = {
 		picture = constantinople
 		potential = {
@@ -2218,7 +1929,6 @@ political_decisions = {
 						capital_scope = { continent = asia }
 					}
 				}
-				relation = { who = USA value = -75 }
 			}
 			
 			random_country = {
