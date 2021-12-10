@@ -23,36 +23,20 @@ political_decisions = {
 		effect = {
 			inherit = NTC
 			inherit = TSR
-			any_pop = {
-				limit = {
-					OR = {
-						has_pop_culture = tuscarora_nottoway
-						has_pop_culture = nanticocke	
-						has_pop_culture = iroquios
-						}
-					location = {
-						OR = {
-							province_id = 219
-							province_id = 60
-						}
-					}
-				}
-				reduce_pop = 0.50
-				consciousness = 1
-				move_pop = 217
-			}
-
 			219 = {
 				remove_core = NTC
+				add_core = NEN
 			}
 			60 = {
 				remove_core = TSR
+				add_core = NEN
 			}
+			set_variable = { which = native_anger value = 1 }
 			set_global_flag = eastern_cession_enacted
+			country_event = { id = 606004 days = 10 }	
 		}
-		
 		ai_will_do = {
 			factor = 1
 		}
 	}
-}	
+}
