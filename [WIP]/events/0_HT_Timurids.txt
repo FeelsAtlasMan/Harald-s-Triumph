@@ -950,11 +950,11 @@ country_event = {
 				    primary_culture = gorani
 				}
 				OR = {
-				    NOT = { has_country_flag = set_country_flag = sided_with_azb_kur }
-				    NOT = { has_country_flag = set_country_flag = sided_with_frs_kur }
-					NOT = { has_country_flag = set_country_flag = sided_with_buk_kur }
-					NOT = { has_country_flag = set_country_flag = sided_with_irq_kur }
-					NOT = { has_country_flag = set_country_flag = sided_with_nobody_kur }
+				    NOT = { has_country_flag = sided_with_azb_kur }
+				    NOT = { has_country_flag = sided_with_frs_kur }
+					NOT = { has_country_flag = sided_with_buk_kur }
+					NOT = { has_country_flag = sided_with_irq_kur }
+					NOT = { has_country_flag = sided_with_nobody_kur }
 				}
 				has_country_flag = sided_with_khr_kur
 			}
@@ -969,11 +969,11 @@ country_event = {
 				    primary_culture = gorani
 				}
 				OR = {
-				    NOT = { has_country_flag = set_country_flag = sided_with_azb_kur }
-				    NOT = { has_country_flag = set_country_flag = sided_with_khr_kur }
-					NOT = { has_country_flag = set_country_flag = sided_with_buk_kur }
-					NOT = { has_country_flag = set_country_flag = sided_with_irq_kur }
-					NOT = { has_country_flag = set_country_flag = sided_with_nobody_kur }
+				    NOT = { has_country_flag = sided_with_azb_kur }
+				    NOT = { has_country_flag = sided_with_khr_kur }
+					NOT = { has_country_flag = sided_with_buk_kur }
+					NOT = { has_country_flag = sided_with_irq_kur }
+					NOT = { has_country_flag = sided_with_nobody_kur }
 				}
 				has_country_flag = sided_with_frs_kur
 			}
@@ -988,11 +988,11 @@ country_event = {
 				    primary_culture = gorani
 				}
 				OR = {
-				    NOT = { has_country_flag = set_country_flag = sided_with_azb_kur }
-				    NOT = { has_country_flag = set_country_flag = sided_with_khr_kur }
-					NOT = { has_country_flag = set_country_flag = sided_with_frs_kur }
-					NOT = { has_country_flag = set_country_flag = sided_with_irq_kur }
-					NOT = { has_country_flag = set_country_flag = sided_with_nobody_kur }
+				    NOT = { has_country_flag = sided_with_azb_kur }
+				    NOT = { has_country_flag = sided_with_khr_kur }
+					NOT = { has_country_flag = sided_with_frs_kur }
+					NOT = { has_country_flag = sided_with_irq_kur }
+					NOT = { has_country_flag = sided_with_nobody_kur }
 				}
 				has_country_flag = sided_with_buk_kur
 			}
@@ -1007,11 +1007,11 @@ country_event = {
 				    primary_culture = gorani
 				}
 				OR = {
-				    NOT = { has_country_flag = set_country_flag = sided_with_azb_kur }
-				    NOT = { has_country_flag = set_country_flag = sided_with_khr_kur }
-					NOT = { has_country_flag = set_country_flag = sided_with_frs_kur }
-					NOT = { has_country_flag = set_country_flag = sided_with_buk_kur }
-					NOT = { has_country_flag = set_country_flag = sided_with_nobody_kur }
+				    NOT = { has_country_flag = sided_with_azb_kur }
+				    NOT = { has_country_flag = sided_with_khr_kur }
+					NOT = { has_country_flag = sided_with_frs_kur }
+					NOT = { has_country_flag = sided_with_buk_kur }
+					NOT = { has_country_flag = sided_with_nobody_kur }
 				}
 				has_country_flag = sided_with_irq_kur
 			}
