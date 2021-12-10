@@ -39,4 +39,28 @@ political_decisions = {
 		}
 		ai_will_do = { factor = 1 }
 	}
+	
+	reclaiming_iraq = {
+		picture = map_iraq
+		potential = {
+			tag = KRM
+			has_global_flag = timurd_succ_war
+			NOT = { has_country_flag = beghdilid_invasion_of_iraq }
+		}
+		allow = {
+			#ai = no
+			is_vassal = no
+		}
+		effect = {
+			IRQ = { all_core = { add_core = THIS } }
+			war = {
+	            target = IRQ
+	            attacker_goal = { casus_belli = conquest }
+	            defender_goal = { casus_belli = status_quo }
+	            call_ally = no
+            }
+			set_country_flag = beghdilid_invasion_of_iraq
+		}
+		ai_will_do = { factor = 1 }
+	}
 }

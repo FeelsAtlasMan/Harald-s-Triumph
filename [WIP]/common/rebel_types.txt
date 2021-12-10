@@ -3957,16 +3957,16 @@ unciv_reactionary_rebels = {
 		factor = 0.25
 		
 		modifier = {
-			war_exhaustion = 4
+			war_exhaustion = 20
+			factor = 0.15
+		}
+		modifier = {
+			war_exhaustion = 40
 			factor = 0.25
 		}
 		modifier = {
-			war_exhaustion = 6
+			war_exhaustion = 60
 			factor = 0.35
-		}
-		modifier = {
-			war_exhaustion = 8
-			factor = 0.45
 		}
 		modifier = {
 			part_of_sphere = yes
@@ -3974,15 +3974,15 @@ unciv_reactionary_rebels = {
 		}
 		modifier = {
 			civilization_progress = 0.25
-			factor = 0.2
+			factor = 0.1
 		}
 		modifier = {
 			civilization_progress = 0.5
-			factor = 0.3
+			factor = 0.2
 		}
 		modifier = {
 			civilization_progress = 0.75
-			factor = 0.4
+			factor = 0.3
 		}
 		modifier = {
 			factor = 0
@@ -4007,7 +4007,7 @@ unciv_reactionary_rebels = {
 	
 	# The rebel type with the highest modifier for this pop gets picked
 	spawn_chance = {
-		factor = 3
+		factor = 1
 		
 		modifier = {
 			factor = 0

@@ -88,7 +88,7 @@ country_event = {
 			1071 = { secede_province = FRS }
 			1138 = { secede_province = FRS }
 			change_tag_no_core_switch = AZB
-			TIM = { 
+			KHR = { 
 			    country_event = {
 			        id = 9905
 				    days = 90
@@ -109,10 +109,10 @@ country_event = {
 			1071 = { secede_province = FRS }
 			1138 = { secede_province = FRS }
 			change_tag_no_core_switch = IRQ
-			TIM = { 
+			KHR = { 
 			    country_event = {
 			        id = 9905
-				    days = 90
+				    days = 120
 		        }
 			}
 		ai_chance = { factor = 0 }
@@ -141,12 +141,8 @@ country_event = {
 			release_vassal = KMY
 			set_global_flag = timurd_succ_war
 			FRS = { government = absolute_monarchy }
-			FRS = { create_alliance = FRS }
-			AJM = { 
-			    country_event = {
-			        id = 9906
-		        }
-			}
+			FRS = { create_alliance = AJM }
+			FRS = { create_vassal = AJM }
 			any_country = {
 			    limit = { vassal_of = THIS OR = { primary_culture = kurmanji primary_culture = zaza primary_culture = sorani primary_culture = gorani } }
 				country_event = { id = 9907 }
@@ -156,10 +152,10 @@ country_event = {
 				country_event = { id = 9908 }
 			}
 			any_country = { #All Nations, that are going to be independent
-			    limit = { vassal_of = THIS OR = { is_culture_group = kartvelian is_culture_group = caspian_caucasian tag = MZN tag = TLY tag = GLN tag = LUR tag = KHZ tag = MFQ tag = KWT tag = KSN tag = WKH tag = KFR tag = GLG tag = HNZ tag = ABK tag = TKM tag = MAK tag = KAL tag = BLA tag = SST } }
+			    limit = { vassal_of = THIS OR = { is_culture_group = kartvelian is_culture_group = caspian_caucasian tag = MZN tag = TLY tag = GLN tag = LUR tag = KHZ tag = MFQ tag = KWT tag = KSN tag = WKH tag = KFR tag = GLG tag = HNZ tag = ABK tag = TKM tag = MAK tag = KAL tag = BLA tag = SST tag = ALN tag = ASY tag = CRL } }
 				country_event = { id = 9909 }
 			}
-			any_country = { #Tajiks
+			any_country = { #Tajiks and Pamiri states
 			    limit = { vassal_of = THIS OR = { tag = TAJ tag = HSR tag = RSH } }
 				country_event = { id = 9910 }
 			}
@@ -190,22 +186,6 @@ country_event = {
 	}
 }
 
-#Farhad Khan Zohrabi assumes power
-country_event = {
-    id = 9906
-    title = "EVTNAME9906"
-    desc = "EVTDESC9906"
-        
-    is_triggered_only = yes
-	
-    option = { #we accept
-	    name = "EVT9906OPTA"
-		FRS = { create_vassal = THIS }
-		government = colonial_company
-		ai_chance = { factor = 100 }
-	}
-}
-
 #Kurdish States picking a side
 country_event = {
     id = 9907
@@ -216,25 +196,29 @@ country_event = {
 	
     option = { #accept the rule of Khorasan
 	    name = "EVT9907OPTA"
-		ai_chance = { factor = 1 }
+		ai_chance = { factor = 0 }
+		set_country_flag = sided_with_khr_kur
 	}
 	
 	option = { #accept the rule of Transoxiana
 	    name = "EVT9907OPTB"
 		BUK = { create_vassal = THIS }
+		set_country_flag = sided_with_buk_kur
 		ai_chance = { factor = 0 }
 	}
 	
 	option = { #accept the rule of Fars
 	    name = "EVT9907OPTC"
 		FRS = { create_vassal = THIS }
+		set_country_flag = sided_with_frs_kur
 		government = absolute_monarchy
-		ai_chance = { factor = 15 }
+		ai_chance = { factor = 16 }
 	}
 	
 	option = { #accept the rule of Iraq
 	    name = "EVT9907OPTD"
 		IRQ = { create_vassal = THIS }
+		set_country_flag = sided_with_irq_kur
 		government = absolute_monarchy
 		ai_chance = { factor = 14 }
 	}
@@ -242,15 +226,17 @@ country_event = {
 	option = { #accept the rule of Azerbaijan
 	    name = "EVT9907OPTE"
 		AZB = { create_vassal = THIS }
+		set_country_flag = sided_with_azb_kur
 		government = absolute_monarchy
 		ai_chance = { factor = 5 }
 	}
 	
 	option = { #use the power vacuum 
-	    name = "EVT9907OPTE"
+	    name = "EVT9907OPTF"
 		KHR = { release_vassal = THIS }
 		KHR = { leave_alliance = THIS }
 		government = absolute_monarchy
+		set_country_flag = sided_with_nobody_kur
 		ai_chance = { factor = 65 }
 	}
 }
@@ -331,7 +317,7 @@ country_event = {
 	
 	option = { #accept the rule of Khorasan
 	    name = "EVT9910OPTA"
-		ai_chance = { factor = 5 }
+		ai_chance = { factor = 0 }
 	}
 	
 	option = { #accept the rule of Transoxiana
@@ -366,7 +352,7 @@ country_event = {
 	    name = "EVT9910OPTF"
 		KHR = { release_vassal = THIS }
 		government = absolute_monarchy
-		ai_chance = { factor = 5 }
+		ai_chance = { factor = 10 }
 	}
 }
 
@@ -375,6 +361,7 @@ country_event = {
     id = 9911
     title = "EVTNAME9911"
     desc = "EVTDESC9911"
+	picture = "siege_of_herat"
 	
 	trigger = {
 	    tag = KHR
@@ -384,7 +371,10 @@ country_event = {
 		    1140 = { controlled_by = FRS }
 			1140 = { controlled_by_rebels = yes }
 			AND = {
-			    1140 = { country_units_in_province = FRS }
+			    any_owned_province = {
+                    province_id = 1140
+                    country_units_in_province = FRS
+                }
 				OR = {
 				    1139 = { controlled_by = FRS }
 					1143 = { controlled_by = FRS }
@@ -404,6 +394,11 @@ country_event = {
 		1143 = { secede_province = FRS }
 		1145 = { secede_province = FRS }
 		3456 = { secede_province = FRS }
+		1140 = { add_core = FRS }
+		1139 = { add_core = FRS }
+		1143 = { add_core = FRS }
+		1145 = { add_core = FRS }
+		3456 = { add_core = FRS }
 		war_exhaustion = 20
 		ai_chance = { factor = 100 }
 	}
@@ -414,6 +409,7 @@ country_event = {
     id = 9912
     title = "EVTNAME9912"
     desc = "EVTDESC9912"
+	picture = "rustam_gavruni"
 	
 	trigger = {
 	    tag = KHR
@@ -445,6 +441,20 @@ country_event = {
 		war_exhaustion = 2
 		ai_chance = { factor = 100 }
 	}
+	
+	option = { 
+	    name = "EVT9912OPTB"
+		release = YZD
+		war = {
+	            target = YZD
+	            attacker_goal = { casus_belli = conquest }
+	            defender_goal = { casus_belli = status_quo }
+	            call_ally = no
+            }
+		war_exhaustion = 2
+		change_tag = YZD
+		ai_chance = { factor = 0 }
+	}
 }
 
 #The Tawaniyya Order takes control in Hazarestan
@@ -452,6 +462,7 @@ country_event = {
     id = 9913
     title = "EVTNAME9913"
     desc = "EVTDESC9913"
+	picture = "rise_of_tawaniyya"
 	
 	trigger = {
 	    tag = KHR
@@ -482,6 +493,20 @@ country_event = {
 		war_exhaustion = 2
 		ai_chance = { factor = 100 }
 	}
+	
+	option = { 
+	    name = "EVT9913OPTB"
+		release = HRZ
+		war = {
+	            target = HRZ
+	            attacker_goal = { casus_belli = conquest }
+	            defender_goal = { casus_belli = status_quo }
+	            call_ally = no
+            }
+		war_exhaustion = 2
+		change_tag = HRZ
+		ai_chance = { factor = 0 }
+	}
 }
 
 #The Zoraki have stormed Kabul
@@ -489,6 +514,7 @@ country_event = {
     id = 9914
     title = "EVTNAME9914"
     desc = "EVTDESC9914"
+	picture = "zorakis_storm_kabul"
 	
 	trigger = {
 	    tag = KHR
@@ -498,6 +524,7 @@ country_event = {
 			war_with = IRQ
 			war_with = AZB
 			war_with = YZD
+			war_with = HRZ
 		}
 		OR = {
             war_exhaustion = 30
@@ -519,13 +546,28 @@ country_event = {
 		war_exhaustion = 2
 		ai_chance = { factor = 100 }
 	}
+	
+	option = { 
+	    name = "EVT9914OPTB"
+		release = AFG
+		war = {
+	            target = AFG
+	            attacker_goal = { casus_belli = conquest }
+	            defender_goal = { casus_belli = status_quo }
+	            call_ally = no
+            }
+		war_exhaustion = 2
+		change_tag = AFG
+		ai_chance = { factor = 0 }
+	}
 }
 
-#Balkh has defected!
+#Turkistan in rebellion!
 country_event = {
     id = 9915
     title = "EVTNAME9915"
     desc = "EVTDESC9915"
+	picture = "turkistan_collapse"
 	
 	trigger = {
 	    tag = KHR
@@ -535,6 +577,8 @@ country_event = {
 			war_with = IRQ
 			war_with = AZB
 			war_with = YZD
+			war_with = HRZ
+			war_with = AFG
 		}
 		OR = {
             war_exhaustion = 35
@@ -548,10 +592,111 @@ country_event = {
 	    name = "EVT9915OPTA"
 		release = KND
 		release = BDK
+		release = KHI
 		KND = { create_alliance = BDK }
 		KND = { create_vassal = BDK }
 		war = {
 	            target = KND
+	            attacker_goal = { casus_belli = conquest }
+	            defender_goal = { casus_belli = status_quo }
+	            call_ally = no
+            }
+		war = {
+	            target = KHI
+	            attacker_goal = { casus_belli = conquest }
+	            defender_goal = { casus_belli = status_quo }
+	            call_ally = no
+            }
+		war_exhaustion = 2
+		ai_chance = { factor = 100 }
+	}
+	
+	option = { 
+	    name = "EVT9915OPTB"
+		release = KND
+		release = BDK
+		release = KHI
+		KND = { create_alliance = BDK }
+		KND = { create_vassal = BDK }
+		war = {
+	            target = KND
+	            attacker_goal = { casus_belli = conquest }
+	            defender_goal = { casus_belli = status_quo }
+	            call_ally = no
+            }
+		war = {
+	            target = KHI
+	            attacker_goal = { casus_belli = conquest }
+	            defender_goal = { casus_belli = status_quo }
+	            call_ally = no
+            }
+		war_exhaustion = 2
+		change_tag = KND
+		ai_chance = { factor = 0 }
+	}
+	
+	option = { 
+	    name = "EVT9915OPTC"
+		release = KND
+		release = BDK
+		release = KHI
+		KND = { create_alliance = BDK }
+		KND = { create_vassal = BDK }
+		war = {
+	            target = KND
+	            attacker_goal = { casus_belli = conquest }
+	            defender_goal = { casus_belli = status_quo }
+	            call_ally = no
+            }
+		war = {
+	            target = KHI
+	            attacker_goal = { casus_belli = conquest }
+	            defender_goal = { casus_belli = status_quo }
+	            call_ally = no
+            }
+		war_exhaustion = 2
+		change_tag = KHI
+		ai_chance = { factor = 0 }
+	}
+}
+
+#The Turkmens have rallied around the Yomuds!
+country_event = {
+    id = 9916
+    title = "EVTNAME9916"
+    desc = "EVTDESC9916"
+	picture = "turkmen_tribes"
+	
+	trigger = {
+	    tag = KHR
+		OR = {
+		    war_with = FRS
+			war_with = BUK
+			war_with = IRQ
+			war_with = AZB
+			war_with = YZD
+			war_with = HRZ
+			war_with = AFG
+			war_with = KND
+			war_with = KHI
+		}
+		OR = {
+            war_exhaustion = 45
+            national_provinces_occupied = 35
+        }
+	}
+        
+    fire_only_once = yes
+	
+	option = { 
+	    name = "EVT9916OPTA"
+		3612 = { secede_province = TKM }
+		1150 = { secede_province = TKM }
+		1204 = { secede_province = TKM }
+		3399 = { secede_province = TKM }
+		3285 = { secede_province = TKM }
+		war = {
+	            target = TKM
 	            attacker_goal = { casus_belli = conquest }
 	            defender_goal = { casus_belli = status_quo }
 	            call_ally = no
@@ -561,6 +706,363 @@ country_event = {
 	}
 }
 
+#Unrest in Herat
+country_event = {
+    id = 9917
+    title = "EVTNAME9917"
+    desc = "EVTDESC9917"
+	picture = "PER_pcr_embassy"
+	
+	trigger = {
+	    tag = KHR
+		OR = {
+		    war_with = FRS
+			war_with = BUK
+			war_with = IRQ
+			war_with = AZB
+			war_with = YZD
+			war_with = HRZ
+			war_with = AFG
+			war_with = KND
+			war_with = KHI
+			war_with = TKM
+		}
+		OR = {
+            war_exhaustion = 60
+            national_provinces_occupied = 55
+        }
+	}
+        
+    fire_only_once = yes
+	
+	option = { 
+	    name = "EVT9917OPTA"
+		country_event = { id = 9919 days = 30 }
+		ai_chance = { factor = 100 }
+	}
+}
+
+#The Fall of Herat
+country_event = {
+    id = 9919
+    title = "EVTNAME9919"
+    desc = "EVTDESC9919"
+	
+	is_triggered_only = yes
+	
+	major = yes
+	
+    fire_only_once = yes
+	
+	option = { 
+	    name = "EVT9919OPTA"
+		release = BYT
+		release = BRL
+		release = AFS
+		release = QRI
+		release = MSM
+		release = KST
+		release = MHL
+		release = JYL
+		any_country = {
+		    limit = { 
+			    war_with = THIS
+			}
+			end_war = THIS
+		}
+		ai_chance = { factor = 100 }
+	}
+	
+	option = { 
+	    name = "EVT9919OPTB"
+		release = BYT
+		release = BRL
+		release = AFS
+		release = QRI
+		release = MSM
+		release = KST
+		release = MHL
+		release = JYL
+		any_country = {
+		    limit = { 
+			    war_with = THIS
+			}
+			end_war = THIS
+		}
+		change_tag = BYT
+		ai_chance = { factor = 0 }
+	}
+	
+	option = { 
+	    name = "EVT9919OPTB"
+		release = BYT
+		release = BRL
+		release = AFS
+		release = QRI
+		release = MSM
+		release = KST
+		release = MHL
+		release = JYL
+		any_country = {
+		    limit = { 
+			    war_with = THIS
+			}
+			end_war = THIS
+		}
+		change_tag = BRL
+		ai_chance = { factor = 0 }
+	}
+	
+	option = { 
+	    name = "EVT9919OPTB"
+		release = BYT
+		release = BRL
+		release = AFS
+		release = QRI
+		release = MSM
+		release = KST
+		release = MHL
+		release = JYL
+		any_country = {
+		    limit = { 
+			    war_with = THIS
+			}
+			end_war = THIS
+		}
+		change_tag = AFS
+		ai_chance = { factor = 0 }
+	}
+	
+	option = { 
+	    name = "EVT9919OPTB"
+		release = BYT
+		release = BRL
+		release = AFS
+		release = QRI
+		release = MSM
+		release = KST
+		release = MHL
+		release = JYL
+		any_country = {
+		    limit = { 
+			    war_with = THIS
+			}
+			end_war = THIS
+		}
+		change_tag = QRI
+		ai_chance = { factor = 0 }
+	}
+	
+	option = { 
+	    name = "EVT9919OPTB"
+		country_event = 9924
+		ai_chance = { factor = 0 }
+	}
+}
+
+#Mishmast to Jayaler
+country_event = {
+    id = 9922
+    title = "EVTNAME9922"
+    desc = "EVTDESC9922"
+	
+	is_triggered_only = yes
+	
+	option = { 
+	    name = "EVT9922OPTA" #Side with the Beghdilids
+		KRM = { create_vassal = THIS }
+		ai_chance = { factor = 30 }
+	}
+	
+	option = { 
+	    name = "EVT9922OPTB" #Our current course is fine
+		KRM = { tag = THIS add_casus_belli = conquest months = 24 }
+		ai_chance = { factor = 70 }
+	}
+}
+
+#Baghdad has fallen
+country_event = {
+    id = 9921
+    title = "EVTNAME9921"
+    desc = "EVTDESC9921"
+	picture = "fall_of_baghdad"
+	
+	trigger = {
+	    tag = KRM
+		OR = {
+		    926 = { controlled_by = KRM }
+			926 = { owned_by = KRM }
+		}
+	}
+	
+	fire_only_once = yes
+
+	option = { 
+	    name = "EVT9921OPTA" #Great News
+		end_war = IRQ
+		inherit = IRQ
+		prestige = 25
+		any_country = {
+		    limit = { 
+			    OR = {
+			        primary_culture = zaza
+				    primary_culture = kurmanji
+				    primary_culture = sorani
+				    primary_culture = gorani
+				}
+				OR = {
+			        NOT = { has_country_flag = sided_with_azb_kur }
+				    NOT = { has_country_flag = sided_with_khr_kur }
+				    NOT = { has_country_flag = sided_with_frs_kur }
+					NOT = { has_country_flag = sided_with_buk_kur }
+					NOT = { has_country_flag = sided_with_irq_kur }
+				}
+				has_country_flag = sided_with_nobody_kur
+			}
+			 country_event = 9922
+		}
+		any_country = {
+		    limit = { 
+			    OR = {
+			        primary_culture = zaza
+				    primary_culture = kurmanji
+				    primary_culture = sorani
+				    primary_culture = gorani
+				}
+				OR = {
+				    NOT = { has_country_flag = sided_with_khr_kur }
+				    NOT = { has_country_flag = sided_with_frs_kur }
+					NOT = { has_country_flag = sided_with_buk_kur }
+					NOT = { has_country_flag = sided_with_irq_kur }
+					NOT = { has_country_flag = sided_with_nobody_kur }
+				}
+				has_country_flag = sided_with_azb_kur
+			}
+			country_event = 9922
+		}
+		any_country = {
+		    limit = { 
+			    OR = {
+			        primary_culture = zaza
+				    primary_culture = kurmanji
+				    primary_culture = sorani
+				    primary_culture = gorani
+				}
+				OR = {
+				    NOT = { has_country_flag = set_country_flag = sided_with_azb_kur }
+				    NOT = { has_country_flag = set_country_flag = sided_with_frs_kur }
+					NOT = { has_country_flag = set_country_flag = sided_with_buk_kur }
+					NOT = { has_country_flag = set_country_flag = sided_with_irq_kur }
+					NOT = { has_country_flag = set_country_flag = sided_with_nobody_kur }
+				}
+				has_country_flag = sided_with_khr_kur
+			}
+			country_event = 9922
+		}
+		any_country = {
+		    limit = { 
+			    OR = {
+			        primary_culture = zaza
+				    primary_culture = kurmanji
+				    primary_culture = sorani
+				    primary_culture = gorani
+				}
+				OR = {
+				    NOT = { has_country_flag = set_country_flag = sided_with_azb_kur }
+				    NOT = { has_country_flag = set_country_flag = sided_with_khr_kur }
+					NOT = { has_country_flag = set_country_flag = sided_with_buk_kur }
+					NOT = { has_country_flag = set_country_flag = sided_with_irq_kur }
+					NOT = { has_country_flag = set_country_flag = sided_with_nobody_kur }
+				}
+				has_country_flag = sided_with_frs_kur
+			}
+			country_event = 9922
+		}
+		any_country = {
+		    limit = { 
+			    OR = {
+			        primary_culture = zaza
+				    primary_culture = kurmanji
+				    primary_culture = sorani
+				    primary_culture = gorani
+				}
+				OR = {
+				    NOT = { has_country_flag = set_country_flag = sided_with_azb_kur }
+				    NOT = { has_country_flag = set_country_flag = sided_with_khr_kur }
+					NOT = { has_country_flag = set_country_flag = sided_with_frs_kur }
+					NOT = { has_country_flag = set_country_flag = sided_with_irq_kur }
+					NOT = { has_country_flag = set_country_flag = sided_with_nobody_kur }
+				}
+				has_country_flag = sided_with_buk_kur
+			}
+			country_event = 9922
+		}
+		any_country = {
+		    limit = { 
+			    OR = {
+			        primary_culture = zaza
+				    primary_culture = kurmanji
+				    primary_culture = sorani
+				    primary_culture = gorani
+				}
+				OR = {
+				    NOT = { has_country_flag = set_country_flag = sided_with_azb_kur }
+				    NOT = { has_country_flag = set_country_flag = sided_with_khr_kur }
+					NOT = { has_country_flag = set_country_flag = sided_with_frs_kur }
+					NOT = { has_country_flag = set_country_flag = sided_with_buk_kur }
+					NOT = { has_country_flag = set_country_flag = sided_with_nobody_kur }
+				}
+				has_country_flag = sided_with_irq_kur
+			}
+			country_event = 9922
+		}
+		MFQ = { country_event = 9923 }
+		ai_chance = { factor = 100 }
+	}
+}
+
+#Switch allegiance? (Kurd. states)
+country_event = {
+    id = 9922
+    title = "EVTNAME9922"
+    desc = "EVTDESC9922"
+	
+	is_triggered_only = yes
+	
+	option = { 
+	    name = "EVT9922OPTA" #Side with the Beghdilids
+		KRM = { create_vassal = THIS }
+		ai_chance = { factor = 30 }
+	}
+	
+	option = { 
+	    name = "EVT9922OPTB" #Our current course is fine
+		KRM = { tag = THIS add_casus_belli = conquest months = 24 }
+		ai_chance = { factor = 70 }
+	}
+}
+
+#Accept Beghdilid rule?
+country_event = {
+    id = 9923
+    title = "EVTNAME9923"
+    desc = "EVTDESC9923"
+	
+	is_triggered_only = yes
+	
+	option = { 
+	    name = "EVT9923OPTA" #Finally Shia rule has been reestablished!
+		KRM = { create_vassal = THIS }
+		ai_chance = { factor = 95 }
+	}
+	
+	option = { 
+	    name = "EVT9923OPTB" #Let them come
+		KRM = { tag = THIS add_casus_belli = conquest months = 24 }
+		ai_chance = { factor = 5 }
+	}
+}
 
 #Shiite Refugees
 country_event = {

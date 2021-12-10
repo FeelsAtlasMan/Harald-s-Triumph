@@ -193,7 +193,52 @@ EVTNAME9900;An Empire in Trouble;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 EVT9900OPTA;What will the future bring?;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 EVTNAME9901;The Death of Kamran Shah;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 EVTDESC9901;Today the great Kamran Shah passed away in his sleep, without appointing a successor. His oldest son, Amir Qoli Khan, residing in Herat has managed to sway the royal court and officials in Herat and has proclaimed himself to be the new Shah of Iran and Turan. As the news of the death of Kamran Shah are spreading throughout the Empire, his other sons, the governours of Ajam - Abu Sa'id Mirza, Iraq - Soltan Ahmad ed-Din, Azerbaijan - Firuz Mirza and Mawarannahr - Salim Babur, respectivly, have proclaimed themselves as rightful successors. It seems that the Timurid Empire is disintegrating into chaos once again, maybe for good this time...;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
-EVT9901OPTA;Amir Qoli Khan is the rightful heir! Â§R(Continue as Khorasan, recommanded)Â§W;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
-EVT9901OPTB;Salim Babur is the rightful heir! Â§R(Continue as Mawarannahr, recommanded)Â§W;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
-EVT9901OPTC;Firuz Mirza is the rightful heir! Â§R(Continue as Azerbaijan, hard)Â§W;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
-EVT9901OPTD;Soltan Ahmad ed-Din is the rightful heir! Â§R(Continue as Iraq, hard)Â§W;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVT9901OPTA;Amir Qoli Khan is the rightful heir! §R(Continue as Khorasan)§W;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVT9901OPTB;Salim Babur is the rightful heir! §R(Continue as Mawarannahr)§W;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVT9901OPTC;Firuz Mirza is the rightful heir! §R(Continue as Azerbaijan)§W;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVT9901OPTD;Soltan Ahmad ed-Din is the rightful heir! §R(Continue as Iraq)§W;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTNAME9905;The Timurid Succession Crisis;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC9905;The sons of Kamran Shah have gone to war with eachother and the Timurid Empire seems to be disintegrating. All the various autonomous Principalities, Chiefdoms, Bekdoms, Emirates have picked a side or managed to break away from the Timurid authority amidst the ensuing chaos. Meanwhile Farhad Khan Zohrabi managed to sway the tribes of Hormuzgan and Laristan and managed to establish a close alliance with Abu Sa'id Mirza.;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVT9905OPTA;We will prevail!;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTNAME9907;Picking a side;x
+EVTDESC9907;As the Empire is errupting into chaos we should choose a side in this conflict;x
+EVT9907OPTA;Accept the rule of Khorasan;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVT9907OPTB;Accept the rule of Transoxiana;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVT9907OPTC;Accept the rule of Fars;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVT9907OPTD;Accept the rule of Iraq;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVT9907OPTE;Accept the rule of Azerbaijan;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVT9907OPTF;Use the power vacuum to establish an independent state;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTNAME9908;Picking a side;x
+EVTDESC9908;As the Empire is errupting into chaos we should choose a side in this conflict;x
+EVT9908OPTA;Accept the rule of Khorasan;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVT9908OPTB;Accept the rule of Transoxiana;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVT9908OPTC;Accept the rule of Fars;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVT9908OPTD;Accept the rule of Iraq;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVT9908OPTE;Accept the rule of Azerbaijan;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVT9908OPTF;Use the power vacuum to establish an independent state;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTNAME9909;Independence!;x
+EVTDESC9909;As the Empire is errupting into chaos we have gained indepence!;x
+EVT9909OPTA;Great;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTNAME9910;Picking a side;x
+EVTDESC9910;As the Empire is errupting into chaos we should choose a side in this conflict;x
+EVT9910OPTA;Accept the rule of Khorasan;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVT9910OPTB;Accept the rule of Transoxiana;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVT9910OPTC;Accept the rule of Fars;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVT9910OPTD;Accept the rule of Iraq;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVT9910OPTE;Accept the rule of Azerbaijan;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVT9910OPTF;Use the power vacuum to establish an independent state;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTNAME9911;The Fall of Kerman;x
+EVTDESC9911;The troops of Farhad Khan have managed to gain control over most of the region of Kerman and tribal alligances within the region are shifting. The governour of Kerman was ousted and the Khans of the Baharlu and Afsharids of Kerman, the Arabs of Sirjan and Balochis of the south have sworn their alliagance to him.;x
+EVT9911OPTA;Unaccaptable!;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTNAME9912;The Revolt of Rustam Gavruni;x
+EVTDESC9912;Rustam, born into a family of Bazaaris has managed to gather support in the local Zoroastrian community of Yazd. In the wake of the Timurid civil war, the lost of Kerman and a general discontent lead to the support of many peoples within the secluded region of Yazd. Not only has he gained the support of the Gavrunis, but also the desertdwelling Rajis, Sunni, aswell as Shia Persians have flocked to his banner.;x
+EVT9912OPTA;Bring me his head!;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVT9912OPTB;Iran will return to it's antique greatness under Zoroastrian rule, lead the uprising!;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTNAME9913;The Tawaniyya Order has taken control in Hazaristan!;x
+EVTDESC9913;The Tawaniyya, a Sufi order preaching a radical form of Islam, have been discrimnated and suppresed since the rule of Fathullah Shah in the mid 18th century. Still, they managed to build a powerbase within the remote and mountainous regions of Hazaristan.;x
+EVT9913OPTA;Put this down!;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVT9913OPTB;The time of Martyrdom has come, say the Takbir!;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTNAME9914;The Zoraki Pashtuns have stormed Kabul!;x
+EVTDESC9914;The Zorakis, a minor tribe of the greater Karlani confederation, has managed to storm the great city of Kabul, gem of the Hindukush. News of their success have spread quick and many of the Pashtun tribes have joined their rebellion!;x
+EVT9914OPTA;Is Eastern Khorasan lost?;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVT9914OPTB;Down with the Timurids!;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,

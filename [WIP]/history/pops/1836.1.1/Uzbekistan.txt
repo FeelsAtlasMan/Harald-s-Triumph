@@ -1099,22 +1099,22 @@
 	aristocrats = {
 		culture = kazak 
 		religion = sunni
-		size = 300
+		size = 100
 	}
 	clergymen = {
 		culture = kazak
 		religion = sunni
-		size = 300
+		size = 30
 	}
 	artisans = {
 		culture = kazak
 		religion = sunni
-		size = 1500
+		size = 50
 	}
 	soldiers = {
 		culture = kazak
 		religion = sunni
-		size = 1100
+		size = 400
 	}
 	farmers = {
 		culture = kazak
@@ -1123,45 +1123,19 @@
 	}
 
 	aristocrats = {
-		culture = kazak
-		religion = sunni
-		size = 100
-	}
-	clergymen = {
-		culture = kazak
-		religion = sunni
-		size = 100
-	}
-	artisans = {
-		culture = kazak
-		religion = sunni
-		size = 250
-	}
-	soldiers = {
-		culture = kazak
-		religion = sunni
-		size = 75
-	}
-	farmers = {
-		culture = kazak
-		religion = sunni
-		size = 1500
-	}
-
-	aristocrats = {
 		culture = turkmen
 		religion = sunni
-		size = 75
+		size = 45
 	}
 	clergymen = {
 		culture = turkmen
 		religion = sunni
-		size = 75
+		size = 25
 	}
 	artisans = {
 		culture = turkmen
 		religion = sunni
-		size = 175
+		size = 15
 	}
 	soldiers = {
 		culture = turkmen

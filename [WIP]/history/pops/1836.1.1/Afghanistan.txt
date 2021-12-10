@@ -125,13 +125,25 @@
 	soldiers = {
 		culture = persian
 		religion = sunni
-		size = 2150
+		size = 2000
 	}
 
 	farmers = {
 		culture = persian
 		religion = sunni
-		size = 20662
+		size = 20000
+	}
+	
+	soldiers = {
+		culture = moghol
+		religion = sunni
+		size = 150
+	}
+
+	farmers = {
+		culture = moghol
+		religion = sunni
+		size = 662
 	}
 
 	slaves = {
@@ -395,7 +407,19 @@
 	farmers = {
 		culture = persian
 		religion = sunni
-		size = 7480
+		size = 17480
+	}
+	
+	soldiers = {
+		culture = moghol
+		religion = sunni
+		size = 100
+	}
+	
+	farmers = {
+		culture = moghol
+		religion = sunni
+		size = 1480
 	}
 	
 	clergymen = {
@@ -407,13 +431,13 @@
 	artisans = {
 		culture = persian
 		religion = shiite
-		size = 700
+		size = 600
 	}
 	
 	farmers = {
 		culture = persian
 		religion = shiite
-		size = 22480
+		size = 11000
 	}
 }
 
@@ -783,36 +807,36 @@
 	soldiers = {
 		culture = pashtun
 		religion = sunni
-		size = 3000
+		size = 1000
 	}
 
 	farmers = {
 		culture = pashtun
 		religion = sunni
-		size = 8000
+		size = 7500
 	}
 	
 	aristocrats = {
 		culture = persian
-		religion = shiite
+		religion = sunni
 		size = 100
 	}
 
 	clergymen = {
 		culture = persian
-		religion = shiite
+		religion = sunni
 		size = 300
 	}
 
 	artisans = {
 		culture = persian
-		religion = shiite
-		size = 3000
+		religion = sunni
+		size = 300
 	}
 
 	soldiers = {
 		culture = persian
-		religion = shiite
+		religion = sunni
 		size = 400
 	}
 	
@@ -837,13 +861,13 @@
 	artisans = {
 		culture = persian
 		religion = shiite
-		size = 2000
+		size = 200
 	}
 
 	soldiers = {
 		culture = persian
 		religion = shiite
-		size = 4000
+		size = 400
 	}
 
 	farmers = {
@@ -853,25 +877,25 @@
 	}
 	
 	clergymen = {
-		culture = pashtun
+		culture = moghol
 		religion = sunni
 		size = 100
 	}
 
 	artisans = {
-		culture = pashtun
+		culture = moghol
 		religion = sunni
 		size = 400
 	}
 
 	soldiers = {
-		culture = pashtun
+		culture = moghol
 		religion = sunni
 		size = 1000
 	}
 
 	farmers = {
-		culture = pashtun
+		culture = moghol
 		religion = sunni
 		size = 2000
 	}
@@ -910,74 +934,74 @@
 
 	aristocrats = {
 		culture = persian
-		religion = sunni
+		religion = shiite
 		size = 250
 	}
 
 	clergymen = {
 		culture = persian
-		religion = sunni
+		religion = shiite
 		size = 138
 	}
 
 	artisans = {
 		culture = persian
-		religion = sunni
+		religion = shiite
 		size = 700
 	}
 
 	soldiers = {
 		culture = persian
-		religion = sunni
+		religion = shiite
 		size = 1000
 	}
 
 	farmers = {
 		culture = persian
-		religion = sunni
+		religion = shiite
 		size = 5912
 	}
 
 	aristocrats = {
 		culture = persian
-		religion = shiite
+		religion = sunni
 		size = 1050
 	}
 
 	clergymen = {
 		culture = persian
-		religion = shiite
+		religion = sunni
 		size = 500
 	}
 
 	artisans = {
 		culture = persian
-		religion = shiite
+		religion = sunni
 		size = 1700
 	}
 
 	soldiers = {
 		culture = persian
-		religion = shiite
+		religion = sunni
 		size = 4525
 	}
 
 	farmers = {
 		culture = persian
-		religion = shiite
-		size = 35225
+		religion = sunni
+		size = 33225
 	}
 
-	aristocrats = {
-		culture = pashtun
-		religion = shiite
+	soldiers = {
+		culture = moghol
+		religion = sunni
 		size = 350
 	}
 
-	clergymen = {
-	    culture = pashtun
-		religion = shiite
-		size = 188
+	farmers = {
+	    culture = moghol
+		religion = sunni
+		size = 3188
 	}
 
 	slaves = {
@@ -1459,13 +1483,25 @@
 	soldiers = {
 		culture = persian
 		religion = sunni
-		size = 400
+		size = 360
 	}
 	
 	farmers = {
 		culture = persian
 		religion = sunni
-		size = 22000
+		size = 20000
+	}
+	
+	soldiers = {
+		culture = moghol
+		religion = sunni
+		size = 40
+	}
+	
+	farmers = {
+		culture = moghol
+		religion = sunni
+		size = 2000
 	}
 	
 	clergymen = {
@@ -1666,13 +1702,25 @@
 	soldiers = {
 		culture = persian
 		religion = shiite
-		size = 525
+		size = 400
 	}
 	
 	farmers = {
 		culture = persian
 		religion = shiite
-		size = 10225
+		size = 7000
+	}
+	
+	soldiers = {
+		culture = moghol
+		religion = sunni
+		size = 125
+	}
+	
+	farmers = {
+		culture = moghol
+		religion = sunni
+		size = 3225
 	}
 	
 	aristocrats = {
@@ -1790,6 +1838,18 @@
 		culture = persian
 		religion = sunni
 		size = 24162
+	}
+	
+	soldiers = {
+		culture = moghol
+		religion = sunni
+		size = 10
+	}
+
+	farmers = {
+		culture = moghol
+		religion = sunni
+		size = 502
 	}
 
 	slaves = {

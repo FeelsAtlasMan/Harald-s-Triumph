@@ -785,6 +785,21 @@ categories =  {
         combat_width = -0.33
     }
 	
+	ani = {
+        movement_cost = 1.4
+		defence = 3
+		color = { 22 44 66 }
+		farm_rgo_size = -0.2
+		farm_rgo_eff = 0.0
+		mine_rgo_size = 0.1
+		mine_rgo_eff = 0.0
+		supply_limit = 2
+		
+		combat_width = -0.6
+		
+		min_build_railroad = 3
+    }
+	
 	shiraz = {
         movement_cost = 1.4
         defence = 3

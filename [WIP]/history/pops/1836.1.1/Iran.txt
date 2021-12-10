@@ -2739,36 +2739,36 @@
 	}
 }
 
-#Ilam (84000/21000 POPS)
+#Ilam - now Chavar
 3453 = {
 	aristocrats = {
 		culture = lurish
 		religion = sunni
-		size = 325
+		size = 5
 	}
 
 	clergymen = {
 		culture = lurish
 		religion = sunni
-		size = 150
+		size = 5
 	}
 
 	artisans = {
 		culture = lurish
 		religion = sunni
-		size = 850
+		size = 5
 	}
 
 	soldiers = {
 		culture = lurish
 		religion = sunni
-		size = 1175
+		size = 75
 	}
 
 	farmers = {
 		culture = lurish
 		religion = sunni
-		size = 8100
+		size = 200
 	}
 	
 	aristocrats = {
@@ -2858,7 +2858,7 @@
 	farmers = {
 		culture = kurdish
 		religion = sunni
-		size = 6000
+		size = 8600
 	}
 
 	aristocrats = {
@@ -2888,7 +2888,130 @@
 	farmers = {
 		culture = kordali
 		religion = shiite
-		size = 4025
+		size = 3725
+	}
+}
+
+#Dehloran
+3667 = {
+	aristocrats = {
+		culture = lurish
+		religion = sunni
+		size = 45
+	}
+
+	clergymen = {
+		culture = lurish
+		religion = sunni
+		size = 85
+	}
+
+	artisans = {
+		culture = lurish
+		religion = sunni
+		size = 95
+	}
+
+	soldiers = {
+		culture = lurish
+		religion = sunni
+		size = 375
+	}
+
+	farmers = {
+		culture = lurish
+		religion = sunni
+		size = 6200
+	}
+	
+	aristocrats = {
+		culture = laki
+		religion = sunni
+		size = 25
+	}
+
+	clergymen = {
+		culture = laki
+		religion = sunni
+		size = 50
+	}
+
+	artisans = {
+		culture = laki
+		religion = sunni
+		size = 50
+	}
+
+	soldiers = {
+		culture = laki
+		religion = sunni
+		size = 175
+	}
+
+	farmers = {
+		culture = laki
+		religion = sunni
+		size = 2500
+	}
+	
+	aristocrats = {
+		culture = kurdish
+		religion = sunni
+		size = 60
+	}
+
+	clergymen = {
+		culture = kurdish
+		religion = sunni
+		size = 40
+	}
+
+	artisans = {
+		culture = kurdish
+		religion = sunni
+		size = 540
+	}
+
+	soldiers = {
+		culture = kurdish
+		religion = sunni
+		size = 200
+	}
+
+	farmers = {
+		culture = kurdish
+		religion = sunni
+		size = 3000
+	}
+
+	aristocrats = {
+		culture = kordali
+		religion = shiite
+		size = 15
+	}
+
+	clergymen = {
+		culture = kordali
+		religion = shiite
+		size = 10
+	}
+
+	artisans = {
+		culture = kordali
+		religion = shiite
+		size = 60
+	}
+
+	soldiers = {
+		culture = kordali
+		religion = shiite
+		size = 50
+	}
+
+	farmers = {
+		culture = kordali
+		religion = shiite
+		size = 3025
 	}
 }
 
@@ -8748,6 +8871,36 @@
 		culture = baluchi
 		religion = sunni
 		size = 1550
+	}
+	
+	aristocrats = {
+		culture = arab_khorasani
+		religion = sunni
+		size = 10
+	}
+
+	clergymen = {
+		culture = arab_khorasani
+		religion = sunni
+		size = 10
+	}
+
+	artisans = {
+		culture = arab_khorasani
+		religion = sunni
+		size = 50
+	}
+
+	soldiers = {
+		culture = arab_khorasani
+		religion = sunni
+		size = 100
+	}
+
+	farmers = {
+		culture = arab_khorasani
+		religion = sunni
+		size = 650
 	}
 
 	aristocrats = {

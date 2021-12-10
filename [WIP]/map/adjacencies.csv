@@ -201,27 +201,76 @@ From;To;Type;Through;Data;Comment
 606;722;impassable;0;0;Lucerne-Novara
 
 #Caucasus
+#Caucasus Major
 3274;1051;impassable;0;0;Svateni-Sukhumi
 3274;1056;impassable;0;0;Svateni-Pyatigorsk
 3274;3397;impassable;0;0;Svateni-Elbrus
-3274;3349;impassable;0;0;Svateni-Adygei
-1092;1056;impassable;0;0;Kutaisi-Pyatigorsk
-1092;1054;impassable;0;0;Kutaisi-Vladikavkaz
-3363;3314;impassable;0;0;Kakheti-Beshta
-3363;1055;impassable;0;0;Kakheti-Grozny
-3363;1053;impassable;0;0;Kakheti-Gunib
-3364;3318;impassable;0;0;Mtskheta-Nasran
-3364;1055;impassable;0;0;Mtskheta-Grozny
-3366;1053;impassable;0;0;Ilisu-Gunib
-3366;3317;impassable;0;0;Ilisu-Tshakur
-1104;3317;impassable;0;0;Sheki-Tshakur
-1104;3320;impassable;0;0;Sheki-Quba
-3370;3320;impassable;0;0;Shirvan-Quba
-1091;3318;impassable;0;0;Tshvinkhali-Nasran
-1091;1056;impassable;0;0;Tshvinkhali-Khokhifondz
-1095;3349;impassable;0;0;Sukhumi-Adygei
+
 1095;3401;impassable;0;0;Sukhumi-Abdzakh
+1095;3349;impassable;0;0;Sukhumi-Ashuwa
 1095;3397;impassable;0;0;Sukhumi-Elbrus
+
+3364;3318;impassable;0;0;Mtsekhi-Nasran
+3364;1055;impassable;0;0;Mtsekhi-Sölsha Gala
+
+3363;1053;impassable;0;0;Kakheti-Gunib
+3364;1055;impassable;0;0;Kakheti-Sölsha Gala
+
+3366;1053;impassable;0;0;Ilisu-Gunib
+
+1104;3317;impassable;0;0;Sheki-Tsakhur
+
+3320;3647;impassable;0;0;Quba-Kaitag
+3320;3314;impassable;0;0;Quba-Akhty
+
+1103;3314;impassable;0;0;Siyazen-Akhty
+
+3370;3314;impassable;0;0;Shirvan-Akhty
+
+#Caucasus Minor
+1093;1096;impassable;0;0;Akhaltsikhe-Batumi
+1093;1092;impassable;0;0;Akhaltsikhe-Kutaisi
+1093;1090;impassable;0;0;Akhaltsikhe-Tblisi
+
+1099;3369;impassable;0;0;Gyumri-Ashtarak
+1099;3367;impassable;0;0;Gyumri-Qazakh
+1099;1090;impassable;0;0;Gyumri-Tblisi
+
+3369;3367;impassable;0;0;Ashtarak-Qazakh
+3369;1105;impassable;0;0;Ashtarak-Ganjeh
+
+1110;3368;impassable;0;0;Kapan-Shusha
+
+#Iranian Mountain Ranges
+#Zagros
+890;3651;impassable;0;0;Van-Maku
+
+892;1109;impassable;0;0;Bay-Khvoy
+892;3652;impassable;0;0;Bay-Salamis
+
+3629;1118;impassable;0;0;Sulaymaniyeh-Sanandaj
+3629;1117;impassable;0;0;Sulaymaniyeh-Saqqez
+3629;1119;impassable;0;0;Sulaymaniyeh-Kermanshah
+
+1120;3667;impassable;0;0;Khorramabad-Dehloran
+1120;3453;impassable;0;0;Khorramabad-Chavar
+1120;3634;impassable;0;0;Khorramabad-Shushtar
+
+1134;3634;impassable;0;0;Dehkord-Shushtar
+1134;3388;impassable;0;0;Dehkord-Behbanan
+
+#Albruz
+1107;1112;impassable;0;0;Lankara-Ardabil
+
+3383;1112;impassable;0;0;Astara-Ardabil
+3383;1123;impassable;0;0;Astara-Zanjan
+
+1114;3639;impassable;0;0;Noshehr-Rudbar
+1114;1124;impassable;0;0;Noshehr-Tehran
+1114;1121;impassable;0;0;Noshehr-Qazvin
+
+1115;3611;impassable;0;0;Amol-Semnan
+1115;1126;impassable;0;0;Amol-Damghan
 
 #Alaskan Panhandle
 

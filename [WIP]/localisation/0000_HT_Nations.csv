@@ -426,8 +426,8 @@ BUR_prussian_constitutionalism;Ava;;;;;;;;;;;;x
 BUR_ADJ;Avan;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 MNK;Polotsk;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 MNK_ADJ;Polotskian;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
-NOG;Nogay Khanate;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
-NOG_ADJ;Nogay;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+NOG;Uly-Noghai Khanate;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+NOG_ADJ;Noghai;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 PLK;Pleskov;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 PLK_ADJ;Pleskovian;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 TYM_absolute_monarchy;Tymyr Khanate;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
@@ -1677,6 +1677,27 @@ UYG_absolute_monarchy_ADJ;Moghulestan;;;;;;;;;;;;;x
 UYG_prussian_constitutionalism_ADJ;Moghulestan;;;;;;;;;;;;;x
 UYG_colonial_company_ADJ;Moghulestan;;;;;;;;;;;;;x
 UYG_hms_government_ADJ;Moghul;;;;;;;;;;;;;x
+AFG;Pashtunistan;;;;;;;;;;;;;x
+AFG_ADJ;Pashtun;;;;;;;;;;;;;x
+AFG_absolute_monarchy;Zoraki Emirate;;;;;;;;;;;;;x
+AFG_prussian_constitutionalism;Zoraki Emirate;;;;;;;;;;;;;x
+AFG_hms_government;Zoraki Emirate;;;;;;;;;;;;;x
+AFG_absolute_monarchy_ADJ;Zoraki;;;;;;;;;;;;;x
+AFG_prussian_constitutionalism_ADJ;Zoraki;;;;;;;;;;;;;x
+AFG_colonial_company_ADJ;Zoraki;;;;;;;;;;;;;x
+AFG_hms_government_ADJ;Zoraki;;;;;;;;;;;;;x
+KBD;Karbadia;;;;;;;;;;;;;x
+KBD_ADJ;Karbadian;;;;;;;;;;;;;x
+KBD_absolute_monarchy;Principality of Karbadia;;;;;;;;;;;;;x
+KBD_prussian_constitutionalism;Principality of Karbadia;;;;;;;;;;;;;x
+KBD_hms_government;Principality of Karbadia;;;;;;;;;;;;;x
+CIR;Circassia;;;;;;;;;;;;;x
+CIR_ADJ;Circassian;;;;;;;;;;;;;x
+CIR_absolute_monarchy;Principality of Circassia;;;;;;;;;;;;;x
+CIR_prussian_constitutionalism;Principality of Circassia;;;;;;;;;;;;;x
+CIR_hms_government;Principality of Circassia;;;;;;;;;;;;;x
+ABZ;Abaza;;;;;;;;;;;;;x
+ABZ_ADJ;Abazin;;;;;;;;;;;;;x
 CAN;Vinland;;;;;;;;;;;;;x
 CAN_ADJ;Vinlandian;;;;;;;;;;;;;x
 CAN_absolute_monarchy;Vinland;;;;;;;;;;;;;x
@@ -1711,22 +1732,50 @@ MKG_ADJ;Muskogee;;;;;;;;;;;x
 HKK;Emirate of Hakkari;;;;;;;;;;;x;
 HKK_ADJ;Hakkari;;;;;;;;;;;x
 SRN;Emirate of Soran;;;;;;;;;;;x;
-SRN_ADJ;Sorani;;;;;;;;;;;x
+SRN_ADJ;Sorani;;;;;;;;;;;x;
 BDN;Emirate of Bahdinan;;;;;;;;;;;x;
-BDN_ADJ;Bahdinani;;;;;;;;;;;x
+BDN_ADJ;Bahdinani;;;;;;;;;;;x;
 BNB;Principality of Baban;;;;;;;;;;;x;
-BNB_ADJ;Babani;;;;;;;;;;;x
+BNB_ADJ;Babani;;;;;;;;;;;x;
 RDL;Principality of Ardalan;;;;;;;;;;;x;
-RDL_ADJ;Ardalani;;;;;;;;;;;x
+RDL_ADJ;Ardalani;;;;;;;;;;;x;
 LZG;Lezgia;;;;;;;;;;;x;
 LZG_ADJ;Lezgian;;;;;;;;;;;x
 KTG;Qarakaitag;;;;;;;;;;;x;
 KTG_ADJ;Qarakaitag;;;;;;;;;;;x
 TSK;Tsakhur;;;;;;;;;;;x;
-TSK_ADJ;Tsakhur;;;;;;;;;;;x
+TSK_ADJ;Tsakhur;;;;;;;;;;;x;
 KHL;Emirate of Shirvan;;;;;;;;;;;x;
 KHL_ADJ;Emirate of Shirvan;;;;;;;;;;;x
+BYT_absolute_monarchy;Khanate of Nishapur;;;;;;;;;;;x;
+BYT;Bayat;;;;;;;;;;;x;
+BYT_ADJ;Bayat;;;;;;;;;;;x;
+QRI_absolute_monarchy;Qara'i Khanate;;;;;;;;;;;x;
+QRI;Qara'i;;;;;;;;;;;x;
+QRI_ADJ;Qara'i;;;;;;;;;;;x;
 HRT_conservative;Banu Ka'ab;;;;;;;;;;;x;
 HRZ_theocracy;Tawaniyya;;;;;;;;;;;x;
 HRZ;Hazaristan;;;;;;;;;;;x;
 HRZ_ADJ;Hazari;;;;;;;;;;;x;
+KST_absolute_monarchy;Khozeimeh Amirdom;;;;;;;;;;;x;
+KST_absolute_monarchy_ADJ;Khozeimegi;;;;;;;;;;;x;
+KST;Qa'inat;;;;;;;;;;;x;
+KST_ADJ;Qa'inati;;;;;;;;;;;x;
+MSM_absolute_monarchy;Mishmast Amirdom;;;;;;;;;;;x;
+MSM;Mishmast;;;;;;;;;;;x;
+MSM_ADJ;Mishmast;;;;;;;;;;;x;
+AFS_absolute_monarchy;Khanate of Merv;;;;;;;;;;;x;
+AFS;Afsharid;;;;;;;;;;;x;
+AFS_ADJ;Afshar;;;;;;;;;;;x;
+MHL_absolute_monarchy;Moghol Khanate;;;;;;;;;;;x;
+MHL;Moghol;;;;;;;;;;;x;
+MHL_ADJ;Moghol;;;;;;;;;;;x;
+BRL_absolute_monarchy;Khanate of Qumis;;;;;;;;;;;x;
+BRL;Baharlu;;;;;;;;;;;x;
+BRL_ADJ;Baharlu;;;;;;;;;;;x;
+UZB_absolute_monarchy;Ozbeg Horde;;;;;;;;;;;x;
+UZB;Ozbegistan;;;;;;;;;;;x;
+UZB_ADJ;Ozbeg;;;;;;;;;;;x;
+KYR_absolute_monarchy;Kyrgyz Khanate;;;;;;;;;;;x;
+KYR;Kyrgyzstan;;;;;;;;;;;x;
+KYR_ADJ;Kyrgyz;;;;;;;;;;;x;

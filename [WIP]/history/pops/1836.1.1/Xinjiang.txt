@@ -87,33 +87,39 @@
 	}
 
 	aristocrats = {
-		culture = kirgiz
-		religion = animist
+		culture = qara_kirgiz
+		religion = sunni
 		size = 225
 	}
 
 	clergymen = {
-		culture = kirgiz
-		religion = animist
+		culture = qara_kirgiz
+		religion = sunni
 		size = 125
 	}
 
 	artisans = {
-		culture = kirgiz
-		religion = animist
+		culture = qara_kirgiz
+		religion = sunni
 		size = 575
 	}
 
 	soldiers = {
-		culture = kirgiz
-		religion = animist
+		culture = qara_kirgiz
+		religion = sunni
 		size = 100
 	}
 
 	farmers = {
-		culture = kirgiz
+		culture = qara_kirgiz
+		religion = sunni
+		size = 5000
+	}
+	
+	farmers = {
+		culture = qara_kirgiz
 		religion = animist
-		size = 8975
+		size = 10975
 	}
 
 	clergymen = {
@@ -400,33 +406,33 @@
 	}
 
 	aristocrats = {
-		culture = kirgiz
+		culture = qara_kirgiz
 		religion = animist
 		size = 225
 	}
 
 	clergymen = {
-		culture = kirgiz
+		culture = qara_kirgiz
 		religion = animist
 		size = 125
 	}
 
 	artisans = {
-		culture = kirgiz
+		culture = qara_kirgiz
 		religion = animist
 		size = 575
 	}
 
 	soldiers = {
-		culture = kirgiz
+		culture = qara_kirgiz
 		religion = animist
 		size = 100
 	}
 
 	farmers = {
-		culture = kirgiz
+		culture = qara_kirgiz
 		religion = animist
-		size = 8975
+		size = 1975
 	}
 
 }
@@ -715,7 +721,43 @@
 	farmers = {
 		culture = uighur
 		religion = sunni
-		size = 43650
+		size = 28650
+	}
+	
+	aristocrats = {
+		culture = qara_kirgiz
+		religion = sunni
+		size = 150
+	}
+
+	clergymen = {
+		culture = qara_kirgiz
+		religion = sunni
+		size = 200
+	}
+
+	artisans = {
+		culture = qara_kirgiz
+		religion = sunni
+		size = 500
+	}
+
+	soldiers = {
+		culture = qara_kirgiz
+		religion = sunni
+		size = 1000
+	}
+
+	farmers = {
+		culture = qara_kirgiz
+		religion = sunni
+		size = 3000
+	}
+	
+	farmers = {
+		culture = qara_kirgiz
+		religion = animist
+		size = 9000
 	}
 }
 #Niya (88000/22000 POPS)

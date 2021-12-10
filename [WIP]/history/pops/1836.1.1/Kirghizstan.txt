@@ -3,73 +3,67 @@
 #Bishkek (236000/59000 POPS) #now part of Kirghizstan   
 1189 = {
 	aristocrats = {
-		culture = kirgiz
+		culture = qara_kirgiz
 		religion = sunni
 		size = 800
 	}
 
 	clergymen = {
-		culture = kirgiz
+		culture = qara_kirgiz
 		religion = sunni
 		size = 425
 	}
 
 	artisans = {
-		culture = kirgiz
+		culture = qara_kirgiz
 		religion = sunni
 		size = 2000
 	}
 
 	soldiers = {
-		culture = kirgiz
+		culture = qara_kirgiz
 		religion = sunni
-		size = 3000
-	}
-
-	soldiers = {
-		culture = kirgiz
-		religion = sunni
-		size = 3000
-	}
-
-	soldiers = {
-		culture = kirgiz
-		religion = sunni
-		size = 1000
+		size = 7000
 	}
 
 	farmers = {
-		culture = kirgiz
+		culture = qara_kirgiz
 		religion = sunni
-		size = 33775
+		size = 20000
+	}
+	
+	farmers = {
+		culture = qara_kirgiz
+		religion = animist
+		size = 3775
 	}
 
 	aristocrats = {
-		culture = kazak
+		culture = kirgiz
 		religion = sunni
 		size = 100
 	}
 
 	clergymen = {
-		culture = kazak
+		culture = kirgiz
 		religion = sunni
 		size = 75
 	}
 
 	artisans = {
-		culture = kazak
+		culture = kirgiz
 		religion = sunni
 		size = 300
 	}
 
 	soldiers = {
-		culture = kazak
+		culture = kirgiz
 		religion = sunni
 		size = 75
 	}
 
 	farmers = {
-		culture = kazak
+		culture = kirgiz
 		religion = sunni
 		size = 6450
 	}
@@ -101,7 +95,7 @@
 	farmers = {
 		culture = qomani
 		religion = sunni
-		size = 7375
+		size = 1375
 	}
 }
 #Naryn (56000/14000 POPS) #now part of Kirghizstan    
@@ -137,63 +131,107 @@
 	}
 
 	aristocrats = {
-		culture = oirat
-		religion = gelugpa
-		size = 100
-	}
-
-	clergymen = {
-		culture = oirat
-		religion = gelugpa
-		size = 50
-	}
-
-	artisans = {
-		culture = oirat
-		religion = gelugpa
-		size = 250
-	}
-
-	soldiers = {
-		culture = oirat
-		religion = gelugpa
-		size = 50
-	}
-
-	farmers = {
-		culture = oirat
-		religion = gelugpa
-		size = 1575
-	}
-
-	aristocrats = {
-		culture = kirgiz
+		culture = qara_kirgiz
 		religion = sunni
 		size = 100
 	}
 
 	clergymen = {
-		culture = kirgiz
+		culture = qara_kirgiz
 		religion = sunni
 		size = 50
 	}
 
 	artisans = {
-		culture = kirgiz
+		culture = qara_kirgiz
 		religion = sunni
 		size = 200
 	}
 
 	soldiers = {
-		culture = kirgiz
+		culture = qara_kirgiz
+		religion = sunni
+		size = 3050
+	}
+
+	farmers = {
+		culture = qara_kirgiz
+		religion = sunni
+		size = 7600
+	}
+	
+	farmers = {
+		culture = qara_kirgiz
+		religion = animist
+		size = 10000
+	}
+}
+#Kyzylsu (56000/14000 POPS) 
+3664 = {
+	aristocrats = {
+		culture = uighur
 		religion = sunni
 		size = 50
 	}
 
-	farmers = {
-		culture = kirgiz
+	clergymen = {
+		culture = uighur
 		religion = sunni
-		size = 4600
+		size = 50
+	}
+
+	artisans = {
+		culture = uighur
+		religion = sunni
+		size = 100
+	}
+
+	soldiers = {
+		culture = uighur
+		religion = sunni
+		size = 400
+	}
+
+	farmers = {
+		culture = uighur
+		religion = sunni
+		size = 1775
+	}
+
+	aristocrats = {
+		culture = qara_kirgiz
+		religion = sunni
+		size = 100
+	}
+
+	clergymen = {
+		culture = qara_kirgiz
+		religion = sunni
+		size = 50
+	}
+
+	artisans = {
+		culture = qara_kirgiz
+		religion = sunni
+		size = 200
+	}
+
+	soldiers = {
+		culture = qara_kirgiz
+		religion = sunni
+		size = 1050
+	}
+
+	farmers = {
+		culture = qara_kirgiz
+		religion = sunni
+		size = 4000
+	}
+	
+	farmers = {
+		culture = qara_kirgiz
+		religion = animist
+		size = 6600
 	}
 }
 #Mawarannahr Region (112000) #see Kazakhstan.txt, Tajikistan.txt, Uzbekistan.txt for balance of region 
@@ -225,31 +263,31 @@
 	}
 
 	aristocrats = {
-		culture = qomani
+		culture = qara_kirgiz
 		religion = sunni
 		size = 75
 	}
 
 	clergymen = {
-		culture = qomani
+		culture = qara_kirgiz
 		religion = sunni
 		size = 50
 	}
 
 	soldiers = {
-		culture = qomani
+		culture = qara_kirgiz
 		religion = sunni
 		size = 2000
 	}
 
 	soldiers = {
-		culture = qomani
+		culture = qara_kirgiz
 		religion = sunni
 		size = 1000
 	}
 
 	farmers = {
-		culture = qomani
+		culture = qara_kirgiz
 		religion = sunni
 		size = 5000
 	}
