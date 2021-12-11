@@ -490,8 +490,6 @@ country_event = {
 				NOT = { money = 50000 }
 				OR = {
 					tag = AUS
-					tag = KUK
-					tag = DNB
 					tag = TUR
 					tag = RUS
 				}
@@ -666,8 +664,6 @@ country_event = {
 				NOT = { money = 200000 }
 				OR = {
 					tag = AUS
-					tag = KUK
-					tag = DNB
 					tag = TUR
 					tag = RUS
 				}
@@ -937,8 +933,6 @@ country_event = {
 				NOT = { money = 50000 }
 				OR = {
 					tag = AUS
-					tag = KUK
-					tag = DNB
 					tag = TUR
 					tag = RUS
 				}
@@ -1125,8 +1119,6 @@ country_event = {
 				NOT = { money = 100000 }
 				OR = {
 					tag = AUS
-					tag = KUK
-					tag = DNB
 					tag = TUR
 					tag = RUS
 				}

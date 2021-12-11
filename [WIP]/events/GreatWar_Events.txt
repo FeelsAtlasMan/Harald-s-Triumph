@@ -461,8 +461,6 @@ country_event = {
 			tag = FRA
 			tag = BOR
 			tag = AUS
-			tag = KUK
-			tag = DNB
 			tag = TUR
 			tag = JAP
 			tag = TKG
@@ -5410,8 +5408,6 @@ country_event = {
 		}
 		OR = {
 			tag = AUS
-			tag = KUK
-			tag = DNB
 		}
 		OR = {
 			has_country_flag = ultimatum_accepted

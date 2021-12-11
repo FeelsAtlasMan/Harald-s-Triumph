@@ -90,10 +90,6 @@ LUB = {
 	value = 125
 	military_access = yes
 }
-MEC = {
-	value = 125
-	military_access = yes
-}
 MEI = {
 	value = 125
 	military_access = yes
@@ -164,7 +160,6 @@ DEN = {
 ENG = { value = -75 }
 FRA = { value = -50 }
 RUS = { value = 150 }
-USA = { value = 25 }
 PRU = { value = 150 }
 TUR = { value = 25 }
 SPA = { value = 0 }
