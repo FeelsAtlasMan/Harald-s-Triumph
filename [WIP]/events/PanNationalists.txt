@@ -342,7 +342,6 @@ country_event = {
 					NOT = {
 						tag = AUS
 						tag = KUK
-						tag = DNB
 					}
 				}
 			}
@@ -417,7 +416,6 @@ country_event = {
 					NOT = {
 						tag = AUS
 						tag = KUK
-						tag = DNB
 					}
 				}
 				NOT = { exists = GER }
@@ -458,7 +456,6 @@ country_event = {
 					NOT = {
 						tag = AUS
 						tag = KUK
-						tag = DNB
 					}
 				}
 				NOT = { exists = GER }
@@ -540,7 +537,6 @@ country_event = {
 					NOT = {
 						tag = AUS
 						tag = KUK
-						tag = DNB
 					}
 				}
 				NOT = { exists = GER }
@@ -606,7 +602,6 @@ country_event = {
 					OR = {
 						tag = AUS
 						tag = KUK
-						tag = DNB
 					}
 				}
 			}

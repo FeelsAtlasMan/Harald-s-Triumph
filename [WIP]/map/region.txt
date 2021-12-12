@@ -24,7 +24,7 @@ CAN_58 = { 58 65 62 61 63 64 66 67 } #Southern Quebec
 
 CAN_60 = { 9 59 2593 2626 2592 } #Northern Quebec
 
-ENG_68 = { 68 69 70 71 72 73 } #Maritimes
+ENG_68 = { 68 69 70 71 72 73 249 250 } #Maritimes
 
 ENG_74 = { 74 75 76 77 2625 } #Newfoundland
 
@@ -82,7 +82,7 @@ USA_170 = { 169 170 172 171 } #Indiana
 
 USA_176 = { 173 174 175 176 177 } #Michigan
 
-USA_178 = { 178 179 180 183 182 181 } #Ohio
+USA_178 = { 178 179 180 183 182 181 227 } #Ohio
 
 USA_185 = { 184 185 186 187 } #Kentucky
 
@@ -98,23 +98,21 @@ USA_201 = { 201 202 204 2555 } #Georgia
 
 USA_205 = { 205 206 } #South Carolina
 
-USA_2556 = { 209 207 208 210 2556 } #North Carolina
+NEN_207 = { 207 208 209 210 211 214 216 } #Freddrechsäje
 
-USA_211 = { 60 211 212 213 214 215 216 } #Karlien
+NEN_60 = { 60 212 213 215 220 221 2146 } #Patameck
 
-USA_218 = { 218 217 } #Appalachien
+USA_218 = { 218 217 2556 } #Appalachien
 
-USA_219 = { 2146 220 219 222 221 } #Marienland
+NEN_219 = { 219 224 225 226 228 235 236 2627 } #Honsrögge
 
-USA_223 = { 223 224 225 226 227 228 2627 } #Stiedeholtn
+NEN_222 = { 222 223 229 230 231 } #Neu-Grönnen
 
-USA_231 = { 229 231 230 } #Wildsteenkust
+USA_232 = { 237 238 239  } #New York
 
-USA_232 = { 232 233 234 235 236 237 238 239 240 } #New York
+NEN_232 = { 232 233 234 241 242 243 244 245 } #Weldsteenköst
 
-USA_243 = { 243 244 245 241 242 } #Massachusets
-
-USA_247 = { 247 246 248 249 250 } #New England
+NEN_240 = { 240 247 246 248 } #Morjeland
 
 
 ### United Kingdom

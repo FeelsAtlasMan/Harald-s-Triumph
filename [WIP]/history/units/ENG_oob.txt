@@ -3,7 +3,6 @@
 FRA = { value = 25 }
 RUS = { value = -75 }
 AUS = { value = -75 }
-USA = { value = 50 }
 PRU = { value = 25 }
 TUR = { value = 125 }
 SPA = { value = -75 }
@@ -65,35 +64,13 @@ JOH = {
 	value = -200
 }
 
-QNG ={
-	value = -10
-	level = 0
-	influence_value = 0
-}
 NYE ={
 	value = -10
 	level = 0
 	influence_value = 0
 }
-
-ARC = { 
-	value = -50
-	level = 1
-	influence_value = 0
-}
-
 SBA = { 
 	value = -50
-	level = 1
-	influence_value = 0
-}
-CRT = { 
-	value = -10
-	level = 1
-	influence_value = 0
-}
-ENT = { 
-	value = -10
 	level = 1
 	influence_value = 0
 }
@@ -212,11 +189,6 @@ COL = {				#Columbia if released
 }
 
 #India
-EIC = {
-	value = 100
-	level = 5
-	influence_value = 100
-}
 RPL = {
 	value = 100
 	level = 5

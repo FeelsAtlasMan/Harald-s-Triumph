@@ -9310,7 +9310,15 @@
             x = 1622.000000
             y = 1627.000000
         }
+		naval_base = {
+            x = 1628.000000
+            y = 1625.000000
+        }
 
+    }
+	
+	building_rotation = {
+        naval_base = 3.577925
     }
 
 } # Scranton

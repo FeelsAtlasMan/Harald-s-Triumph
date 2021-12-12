@@ -670,9 +670,7 @@ country_event = {
 			sphere_owner = { neighbour = THIS }
 		}
 		NOT = {
-			tag = KUK
 			tag = AUS
-			tag = DNB
 			tag = DES
 			tag = FSA
 			tag = UIL
