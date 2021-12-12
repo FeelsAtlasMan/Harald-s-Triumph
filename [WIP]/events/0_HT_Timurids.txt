@@ -122,8 +122,8 @@ country_event = {
 #The Timurid Succession War
 country_event = {
     id = 9905
-    title = "EVTNAME9904"
-    desc = "EVTDESC9904"
+    title = "EVTNAME9905"
+    desc = "EVTDESC9905"
 	picture = "march_on_herat"
 	
 	major = yes
@@ -452,7 +452,7 @@ country_event = {
 	            call_ally = no
             }
 		war_exhaustion = 2
-		change_tag = YZD
+		change_tag_no_core_switch = YZD
 		ai_chance = { factor = 0 }
 	}
 }
@@ -504,7 +504,7 @@ country_event = {
 	            call_ally = no
             }
 		war_exhaustion = 2
-		change_tag = HRZ
+		change_tag_no_core_switch = HRZ
 		ai_chance = { factor = 0 }
 	}
 }
@@ -557,7 +557,7 @@ country_event = {
 	            call_ally = no
             }
 		war_exhaustion = 2
-		change_tag = AFG
+		change_tag_no_core_switch = AFG
 		ai_chance = { factor = 0 }
 	}
 }
@@ -631,7 +631,7 @@ country_event = {
 	            call_ally = no
             }
 		war_exhaustion = 2
-		change_tag = KND
+		change_tag_no_core_switch = KND
 		ai_chance = { factor = 0 }
 	}
 	
@@ -655,7 +655,7 @@ country_event = {
 	            call_ally = no
             }
 		war_exhaustion = 2
-		change_tag = KHI
+		change_tag_no_core_switch = KHI
 		ai_chance = { factor = 0 }
 	}
 }
@@ -789,7 +789,7 @@ country_event = {
 			}
 			end_war = THIS
 		}
-		change_tag = BYT
+		change_tag_no_core_switch = BYT
 		ai_chance = { factor = 0 }
 	}
 	
@@ -809,7 +809,7 @@ country_event = {
 			}
 			end_war = THIS
 		}
-		change_tag = BRL
+		change_tag_no_core_switch = BRL
 		ai_chance = { factor = 0 }
 	}
 	
@@ -829,7 +829,7 @@ country_event = {
 			}
 			end_war = THIS
 		}
-		change_tag = AFS
+		change_tag_no_core_switch = AFS
 		ai_chance = { factor = 0 }
 	}
 	
@@ -849,12 +849,12 @@ country_event = {
 			}
 			end_war = THIS
 		}
-		change_tag = QRI
+		change_tag_no_core_switch = QRI
 		ai_chance = { factor = 0 }
 	}
 	
 	option = { 
-	    name = "EVT9919OPTB"
+	    name = "EVT9919OPTC"
 		country_event = 9924
 		ai_chance = { factor = 0 }
 	}
@@ -862,22 +862,90 @@ country_event = {
 
 #Mishmast to Jayaler
 country_event = {
-    id = 9922
-    title = "EVTNAME9922"
-    desc = "EVTDESC9922"
+    id = 9924
+    title = "EVTNAME9924"
+    desc = "EVTDESC9924"
 	
 	is_triggered_only = yes
 	
 	option = { 
-	    name = "EVT9922OPTA" #Side with the Beghdilids
-		KRM = { create_vassal = THIS }
-		ai_chance = { factor = 30 }
+	    name = "EVT9924OPTA"
+		release = BYT
+		release = BRL
+		release = AFS
+		release = QRI
+		release = MSM
+		release = KST
+		release = MHL
+		release = JYL
+		any_country = {
+		    limit = { 
+			    war_with = THIS
+			}
+			end_war = THIS
+		}
+		change_tag_no_core_switch = MSM
+		ai_chance = { factor = 0 }
 	}
 	
 	option = { 
-	    name = "EVT9922OPTB" #Our current course is fine
-		KRM = { tag = THIS add_casus_belli = conquest months = 24 }
-		ai_chance = { factor = 70 }
+	    name = "EVT9924OPTB"
+		release = BYT
+		release = BRL
+		release = AFS
+		release = QRI
+		release = MSM
+		release = KST
+		release = MHL
+		release = JYL
+		any_country = {
+		    limit = { 
+			    war_with = THIS
+			}
+			end_war = THIS
+		}
+		change_tag_no_core_switch = KST
+		ai_chance = { factor = 0 }
+	}
+	
+	option = { 
+	    name = "EVT9924OPTC"
+		release = BYT
+		release = BRL
+		release = AFS
+		release = QRI
+		release = MSM
+		release = KST
+		release = MHL
+		release = JYL
+		any_country = {
+		    limit = { 
+			    war_with = THIS
+			}
+			end_war = THIS
+		}
+		change_tag_no_core_switch = MHL
+		ai_chance = { factor = 0 }
+	}
+	
+	option = { 
+	    name = "EVT9924OPTD"
+		release = BYT
+		release = BRL
+		release = AFS
+		release = QRI
+		release = MSM
+		release = KST
+		release = MHL
+		release = JYL
+		any_country = {
+		    limit = { 
+			    war_with = THIS
+			}
+			end_war = THIS
+		}
+		change_tag_no_core_switch = JYL
+		ai_chance = { factor = 0 }
 	}
 }
 
