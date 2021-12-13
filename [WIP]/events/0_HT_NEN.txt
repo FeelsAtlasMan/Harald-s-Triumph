@@ -98,3 +98,19 @@ country_event = {
 		any_pop = { limit = { pop_type = aristocrats } militancy = 1 }
 	}
 }
+
+#Natives preparing for war
+country_event = { 
+	id = 606005
+	title = "Rumblings in the West"
+	desc = "EVTDESC606005" 
+	picture = "NEN_rumblings"
+
+	is_triggered_only = yes
+
+	fire_only_once = yes 
+		
+	option = {
+	name = "This is concerning."	
+	}
+}
