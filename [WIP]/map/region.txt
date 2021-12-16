@@ -243,17 +243,23 @@ FRA_467 = { 467 468 469 470 471 } #Provence
 
 SPA_474 = { 474 476 } #Galicia
 
-SPA_477 = { 477 479 480 481 482 483 475 478 } #León-Castilla
+SPA_477 = { 477 482 483 475 478 } #León
+
+SPA_479 = { 479 480 481 494 } #Castilla
 
 SPA_484 = { 484 485 486 } #Extremadura
 
-SPA_487 = { 487 488 489 490 491 } #Castilla la Nueva
+SPA_487 = { 487 488 489 490 491 } #Toledo
 
-SPA_492 = { 492 493 494 495 496 497 } #Vasconia-Aragón
+SPA_492 = { 492 493 } #Vasconia 
 
-SPA_498 = { 498 499 500 501 502 3252 } #Catalonia
+SPA_495 = { 495 496 497 3252 } #Aragón
 
-SPA_503 = { 503 504 505 506 507 508 } #Valencia
+SPA_498 = { 498 499 500 501 502 } #Catalonia
+
+SPA_503 = { 503 504 505 } #Valencia
+
+SPA_506 = { 506 507 508 } #Murcia
 
 SPA_512 = { 512 509 510 511 517 } #Andalucia
 
