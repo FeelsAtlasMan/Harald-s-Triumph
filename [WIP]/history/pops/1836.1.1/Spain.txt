@@ -4,7 +4,7 @@
 	aristocrats = {
 		culture = galician
 		religion = catholic
-		size = 2200
+		size = 2500
 	}
 
 	officers = {
@@ -34,7 +34,7 @@
 	artisans = {
 		culture = galician
 		religion = catholic
-		size = 2350
+		size = 22350
 	}
         artisans = {
 		culture = galician
@@ -57,57 +57,7 @@
     farmers = {
 		culture = galician
 		religion = catholic
-		size = 40350
-	}
-}
-#Oviedo (448000/112000 POPS)
-475 = {
-	aristocrats = {
-		culture = asturleonese
-		religion = catholic
-		size = 1100
-	}
-
-	clergymen = {
-		culture = asturleonese
-		religion = catholic
-		size = 1050
-	}
-
-	artisans = {
-		culture = asturleonese
-		religion = catholic
-		size = 5000
-	}
-
-	soldiers = {
-		culture = asturleonese
-		religion = catholic
-		size = 3100
-	}
-
-	farmers = {
-		culture = asturleonese
-		religion = catholic
-		size = 10850
-	}
-
-	clergymen = {
-		culture = basque
-		religion = catholic
-		size = 50
-	}
-
-	soldiers = {
-		culture = basque
-		religion = catholic
-		size = 50
-	}
-
-	farmers = {
-		culture = basque
-		religion = catholic
-		size = 3900
+		size = 50350
 	}
 }
 #Vigo (328000/82000 POPS)
@@ -149,6 +99,57 @@
 
 }
 #Leon Region (888000)
+#Oviedo (448000/112000 POPS)
+475 = {
+	aristocrats = {
+		culture = asturleonese
+		religion = catholic
+		size = 1100
+	}
+
+	clergymen = {
+		culture = asturleonese
+		religion = catholic
+		size = 1150
+	}
+
+	artisans = {
+		culture = asturleonese
+		religion = catholic
+		size = 20350
+	}
+
+	soldiers = {
+		culture = asturleonese
+		religion = catholic
+		size = 3100
+	}
+
+	farmers = {
+		culture = asturleonese
+		religion = catholic
+		size = 80850
+	}
+
+	clergymen = {
+		culture = galician
+		religion = catholic
+		size = 50
+	}
+
+	soldiers = {
+		culture = galician
+		religion = catholic
+		size = 50
+	}
+
+	farmers = {
+		culture = galician
+		religion = catholic
+		size = 3900
+	}
+}
+
 #Leon (280000/70000 POPS)
 477 = {
 	aristocrats = {
@@ -1462,6 +1463,8 @@
 		size = 17650
 	}
 }
+
+#Valencia Region (1016000)
 #Balearics (240000/60000 POPS)
 502 = {
 
@@ -1508,7 +1511,7 @@
 	}
 
 }
-#Valencia Region (1016000)
+
 #Valencia (420000/105000 POPS)
 503 = {
 	aristocrats = {
