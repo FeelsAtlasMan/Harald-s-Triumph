@@ -40,6 +40,90 @@ political_decisions = {
 		ai_will_do = { factor = 1 }
 	}
 	
+	
+	#Beghdilids
+	hire_french_advisors = {
+		picture = dmitry_milyutin
+		potential = {
+			tag = KRM
+			civilized = no
+			NOT = { has_country_flag = hired_french_military_advisors }
+		}
+		allow = {
+		    NOT = { has_country_modifier = uncivilized_isolationism }
+			#has_country_modifier = western_influences
+			war = no
+		}
+		effect = {
+			FRA = { country_event = 278000 }
+			set_country_flag = hired_french_military_advisors
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	deal_with_tribes_krm = {
+		picture = end_kazan
+		potential = {
+			tag = KRM
+			has_country_flag = rejected_clergy_demands
+			NOT = { has_country_flag = dealed_with_tribes_krm }
+		}
+		allow = {
+		    land_reform = yes_land_reform
+			war = no
+		}
+		effect = {
+			DUL = { country_event = 278004 }
+			RMZ = { country_event = 278004 }
+			remove_country_modifier = tribes_discontent
+			set_country_flag = dealed_with_tribes_krm
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	deal_with_ulema_krm = {
+		picture = PER_bazaari_strike
+		potential = {
+			tag = KRM
+			has_country_flag = rejected_clergy_demands
+			NOT = { has_country_flag = dealed_with_ulema_krm }
+		}
+		allow = {
+		    land_reform = yes_land_reform
+			war = no
+		}
+		effect = {
+			random_country = { limit = { ai = yes } country_event =  278005 }
+			set_country_flag = dealed_with_ulema_krm
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	reforms_of_husayn_III = {
+		picture = abdulmejid_i
+		potential = {
+			tag = KRM
+			has_country_flag = dealt_with_clergy
+			3417 = { owned_by = THIS }
+			894 = { owned_by = THIS }
+			NOT = { has_country_flag = reforms_of_amir_husayn_III }
+		}
+		allow = {
+			war = no
+		}
+		effect = {
+		    add_accepted_culture = zaza
+			add_accepted_culture = kurmanji
+			primary_culture = turkish
+			economic_reform = education_reform_two
+			economic_reform = yes_monetary_reform
+			military_reform = yes_foreign_artillery
+			military_reform = yes_army_schools
+			set_country_flag = reforms_of_amir_husayn_III
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
 	reclaiming_iraq = {
 		picture = map_iraq
 		potential = {
@@ -49,18 +133,73 @@ political_decisions = {
 		}
 		allow = {
 			#ai = no
+			war = no
 			is_vassal = no
 		}
 		effect = {
 			IRQ = { all_core = { add_core = THIS } }
-			war = {
-	            target = IRQ
-	            attacker_goal = { casus_belli = conquest }
-	            defender_goal = { casus_belli = status_quo }
-	            call_ally = no
-            }
 			set_country_flag = beghdilid_invasion_of_iraq
 		}
 		ai_will_do = { factor = 1 }
+	}
+	
+	conquest_of_syria = {
+		picture = greater_syria
+		potential = {
+			tag = KRM
+			NOT = { has_country_flag = conquest_of_syria }
+		}
+		allow = {
+			war = no
+			KRM = { all_core = { owned_by = THIS } }
+			OR = {
+			    civilized = yes
+				has_country_flag = beghdilid_invasion_of_iraq
+			}
+		}
+		effect = {
+			SYR = { all_core = { add_core = THIS } }
+			1757 = { add_core = THIS }
+			1756 = { add_core = THIS }
+			badboy = 10
+			set_country_flag = conquest_of_syria
+		}
+		ai_will_do = {
+		    factor = 1
+			modifier = {
+			     factor = 0
+				 badboy = 0.75
+			}
+		}
+	}
+	
+	subdue_the_anizzah = {
+		picture = greater_syria
+		potential = {
+			tag = KRM
+			has_country_flag = conquest_of_syria 
+			NOT = { has_country_flag = subdued_the_anizzah }
+		}
+		allow = {
+			war = no
+			KRM = { all_core = { owned_by = THIS } }
+		}
+		effect = {
+			war = {
+	                target = AZH
+	                attacker_goal = { casus_belli = make_puppet tag = AZH }
+	                defender_goal = { casus_belli = status_quo }
+	                call_ally = no
+                }
+			badboy = 2
+			set_country_flag = subdued_the_anizzah
+		}
+		ai_will_do = {
+		    factor = 1
+			modifier = {
+			     factor = 0
+				 badboy = 0.75
+			}
+		}
 	}
 }

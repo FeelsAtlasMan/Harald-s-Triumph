@@ -1628,6 +1628,15 @@ assimilation_chance = {
 	}
 	
 	modifier = {
+		factor = 100
+		country = {
+			has_country_flag = forging_neo_parthian_identity
+			primary_culture = neo_parthian
+		}
+		has_pop_culture = armenian
+	}
+	
+	modifier = {
 		factor = -80
 		country = {
 			has_country_flag = new_world_nation

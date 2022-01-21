@@ -414,12 +414,14 @@ XBI_prussian_constitutionalism;Tumed Khanate;;;;;;;;;;;;x
 XBI_republic;Qinghai;;;;;;;;;;;;x
 XBI_ADJ;Tumed;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 KHR;Khorasan;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+KHR_french_bourbon;Domains of Amir Qoli Khan;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 KHR_absolute_monarchy;Khorasan;;;;;;;;;;;;x
 KHR_colonial_company;Khorasan;;;;;;;;;;;;x
 KHR_hms_government;Khorasan;;;;;;;;;;;;x
 KHR_prussian_constitutionalism;Khorasan;;;;;;;;;;;;x
 KHR_republic;Khorasan Republic;;;;;;;;;;;;x
-KHR_ADJ;Tumed;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+KHR_presidential_dictatorship;City of Herat;;;;;;;;;;;;x
+KHR_ADJ;Khorasani;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 GLM;Halych;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 GLM_absolute_monarchy;Halych;;;;;;;;;;;;x
 GLM_colonial_company;Halych;;;;;;;;;;;;x
@@ -435,7 +437,7 @@ BUR_ADJ;Avan;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 MNK;Polotsk;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 MNK_ADJ;Polotskian;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 NOG;Uly-Noghai Khanate;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
-NOG_ADJ;Noghai;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+NOG_ADJ;Uly-Noghai;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 PLK;Pleskov;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 PLK_ADJ;Pleskovian;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 TYM_absolute_monarchy;Tymyr Khanate;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
@@ -575,7 +577,7 @@ KKH_hms_government;Kakheti;;;;;;;;;;;;x
 KKH_prussian_constitutionalism;Kakheti;;;;;;;;;;;;x
 KKH_ADJ;Kakhetian;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 IRV;Irevan;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
-IRV_colonial_company;Khanate of  Nakhchivan;;;;;;;;;;;;x
+IRV_colonial_company;Khanate of Irevan;;;;;;;;;;;;x
 IRV_absolute_monarchy;Khanate of Irevan;;;;;;;;;;;;x
 IRV_hms_government;Khanate of Irevan;;;;;;;;;;;;x
 IRV_prussian_constitutionalism;Khanate of Irevan;;;;;;;;;;;;x
@@ -620,8 +622,11 @@ FRS_absolute_monarchy;Zohrabid Empire;;;;;;;;;;;;x
 FRS_hms_government;Zohrabid Empire;;;;;;;;;;;;x
 FRS_prussian_constitutionalism;Zohrabid Empire;;;;;;;;;;;;x
 FRS_ADJ;Zohrabi;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+AZB_french_bourbon;Domains of Firuz Mirza;;;;;;;;;;;;x
+BUK_french_bourbon;Domains of Salim Babur;;;;;;;;;;;;x
 AJM;Ajam;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 AJM_absolute_monarchy;Ajam;;;;;;;;;;;;x
+AJM_french_bourbon;Domains of Abu Sa'id Mirza;;;;;;;;;;;;x
 AJM_hms_government;Ajam;;;;;;;;;;;;x
 AJM_prussian_constitutionalism;Ajam;;;;;;;;;;;;x
 AJM_ADJ;Ajami;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
@@ -718,6 +723,7 @@ MFQ_prussian_constitutionalism;al-Muntafiq;;;;;;;;;;;;x
 MFQ_ADJ;Muntafiq;;;;;;;;;;;;x
 IRQ;Iraq;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 IRQ_colonial_company;Baghdad Vilayat;;;;;;;;;;;;x
+IRQ_french_bourbon;Domains of Soltan Ahmad ed-Din;;;;;;;;;;;;x
 IRQ_absolute_monarchy;Iraq;;;;;;;;;;;;x
 IRQ_hms_government;Iraq;;;;;;;;;;;x
 IRQ_prussian_constitutionalism;Iraq;;;;;;;;;;;;x
@@ -1787,3 +1793,102 @@ UZB_ADJ;Ozbeg;;;;;;;;;;;x;
 KYR_absolute_monarchy;Kyrgyz Khanate;;;;;;;;;;;x;
 KYR;Kyrgyzstan;;;;;;;;;;;x;
 KYR_ADJ;Kyrgyz;;;;;;;;;;;x;
+MTH;Athos;;;;;;;;;;;x;
+MTH_ADJ;Athonite;;;;;;;;;;;x;
+THY;Thessaly;;;;;;;;;;;x;
+THY_ADJ;Thessalian;;;;;;;;;;;x;
+GRP;Gropaj;;;;;;;;;;;x;
+GRP_ADJ;Gropaji;;;;;;;;;;;x;
+THP;Thopia;;;;;;;;;;;x;
+THP_ADJ;Thopian;;;;;;;;;;;x;
+MRD;Mirdita;;;;;;;;;;;x;
+MRD_ADJ;Mirditan;;;;;;;;;;;x;
+ZHR;Zaharia;;;;;;;;;;;x;
+ZHR_ADJ;Zaharian;;;;;;;;;;;x;
+WAL;Pecenakia;;;;;;;;;;;x;
+WAL_ADJ;Pecenakian;;;;;;;;;;;x;
+HEK;Thuringia-Kassel;;;;;;;;;;;x;
+HEK_ADJ;Thuringian;;;;;;;;;;;x;
+BLL;Bouillon;;;;;;;;;;;x;
+BLL_ADJ;Bouillonian;;;;;;;;;;;x;
+OSN;Osnabrück;;;;;;;;;;;x;
+OSN_ADJ;Osnabrückan;;;;;;;;;;;x;
+SMM;Simmern;;;;;;;;;;;x;
+SMM_ADJ;Simmern;;;;;;;;;;;x;
+MAG;Magdeburg;;;;;;;;;;;x;
+MAG_ADJ;Magdeburger;;;;;;;;;;;x;
+MAI;Mainz;;;;;;;;;;;x;
+MAI_ADJ;Mainz;;;;;;;;;;;x;
+MSN;Misna;;;;;;;;;;;x;
+MSN_ADJ;Misna;;;;;;;;;;;x;
+LUS;Lusatia;;;;;;;;;;;x;
+LUS_ADJ;Lusatian;;;;;;;;;;;x;
+LBZ;Lubusz;;;;;;;;;;;x;
+LBZ_ADJ;Lubuszan;;;;;;;;;;;x;
+POM;Pomerania;;;;;;;;;;;x;
+POM_ADJ;Pomeranian;;;;;;;;;;;x;
+HNB;Henneberg-Coburg;;;;;;;;;;;x;
+HNB_ADJ;Henneberg-Coburg;;;;;;;;;;;x;
+BGU;Baden-Freiburg;;;;;;;;;;;x;
+BGU_ADJ;Baden-Freiburg;;;;;;;;;;;x;
+BAD;Baden-Alsace;;;;;;;;;;;x;
+BAD_ADJ;Baden-Alsatian;;;;;;;;;;;x;
+KNZ;Konstanz;;;;;;;;;;;x;
+KNZ_ADJ;Konstanzian;;;;;;;;;;;x;
+ULM;Ulm;;;;;;;;;;;x;
+ULM_ADJ;Ulmer;;;;;;;;;;;x;
+SPY;Speyer;;;;;;;;;;;x;
+SPY_ADJ;Speyer;;;;;;;;;;;x;
+ZWB;Zweibrücken;;;;;;;;;;;x;
+ZWB_ADJ;Zweibrücken;;;;;;;;;;;x;
+ANS;Ansbach;;;;;;;;;;;x;
+ANS_ADJ;Ansbacher;;;;;;;;;;;x;
+SAL;Salzburg;;;;;;;;;;;x;
+SAL_ADJ;Salzburger;;;;;;;;;;;x;
+BRX;Brixen;;;;;;;;;;;x;
+BRX_ADJ;Brixen;;;;;;;;;;;x;
+JSZ;Jaszag;;;;;;;;;;;x;
+JSZ_ADJ;Jaszag;;;;;;;;;;;x;
+ROT;Rothenburg;;;;;;;;;;;x;
+ROT_ADJ;Rothenburger;;;;;;;;;;;x;
+BAY;Bayreuth;;;;;;;;;;;x;
+BAY_ADJ;Bayreuther;;;;;;;;;;;x;
+BMB;Bamberg;;;;;;;;;;;x;
+BMB_ADJ;Bamberger;;;;;;;;;;;x;
+MBG;Amberg;;;;;;;;;;;x;
+MBG_ADJ;Amberger;;;;;;;;;;;x;
+TIR;Tyrol;;;;;;;;;;;x;
+TIR_ADJ;Tyrolian;;;;;;;;;;;x;
+FSN;Freising;;;;;;;;;;;x;
+FSN_ADJ;Freisinger;;;;;;;;;;;x;
+MMG;Memmingen;;;;;;;;;;;x;
+MMG_ADJ;Memmingen;;;;;;;;;;;x;
+LDH;Landshut;;;;;;;;;;;x;
+LDH_ADJ;Landshut;;;;;;;;;;;x;
+INL;Ingolstadt;;;;;;;;;;;x;
+INL_ADJ;Ingolstädter;;;;;;;;;;;x;
+NRG;Neuburg;;;;;;;;;;;x;
+NRG_ADJ;Neuburger;;;;;;;;;;;x;
+NRM;Triple Alliance;;;;;;;;;;;x;
+NRM_ADJ;Nürnberger;;;;;;;;;;;x;
+ZNB;Zenebishi;;;;;;;;;;;x;
+ZNB_absolute_monarchy;League of Gjirokastra;;;;;;;;;;;x;
+ZNB_absolute_monarchy_ADJ;Gjirokastran;;;;;;;;;;;x;
+ZNB_ADJ;Zenebishi;;;;;;;;;;;x;
+AOM;Aromania;;;;;;;;;;;x; 
+AOM_colonial_company;Principality of Aminciu;;;;;;;;;;;x;
+AOM_ADJ;Aromanian;;;;;;;;;;;x;
+NPT;Neo-Parthia;;;;;;;;;;;;;x
+NPT_ADJ;Pahlawi;;;;;;;;;;;;;x
+NPT_absolute_monarchy;Neo-Parthian Empire;;;;;;;;;;;;;x
+NPT_prussian_constitutionalism;Neo-Parthian Empire;;;;;;;;;;;;;x
+NPT_hms_government;Neo-Parthian Empire;;;;;;;;;;;;;x
+NPT_proletarian_dictatorship;Iranian Peoples Republic;;;;;;;;;;;;;x;
+NPT_proletarian_dictatorship_ADJ;Iranian;;;;;;;;;;;;;x;
+NPT_presidential_dictatorship;Neo-Parthian Empire;;;;;;;;;;;;;x;
+NPT_bourgeois_dictatorship;Iranian Revolutionary Republic;;;;;;;;;;;;;x;
+NPT_bourgeois_dictatorship_ADJ;Iranian;;;;;;;;;;;;;x;
+NPT_fascist_dictatorship;Eranshahr;;;;;;;;;;;;;x;
+NPT_fascist_dictatorship_ADJ;Iranian;;;;;;;;;;;;;x;
+NPT_democracy;Iran;;;;;;;;;;;;;x;
+NPT_democracy_ADJ;Iranian;;;;;;;;;;;;;x;

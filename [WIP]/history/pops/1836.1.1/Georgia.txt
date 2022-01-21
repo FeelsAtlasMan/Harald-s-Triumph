@@ -155,11 +155,28 @@
 
 #Kakheti (232000/58000 POPS)
 3363 = {
+    clergymen = {
+		culture = turkish
+		religion = sunni
+		size = 125
+	}
 
+	soldiers = {
+		culture = turkish
+		religion = sunni
+		size = 600
+	}
+	
+	farmers = {
+		culture = turkish
+		religion = sunni
+		size = 8400
+	}
+    
 	clergymen = {
 		culture = georgian
 		religion = orthodox
-		size = 1025
+		size = 900
 	}
 
 	soldiers = {
@@ -171,13 +188,13 @@
 	serfs = {
 		culture = georgian
 		religion = orthodox
-		size = 20875
+		size = 13875
 	}
 	
 	farmers = {
 		culture = georgian
 		religion = orthodox
-		size = 2400
+		size = 1000
 	}
 
 	aristocrats = {

@@ -922,8 +922,8 @@ missionary_activity = {
 }
 
 western_influences = {
-	global_pop_militancy_modifier = 0.05
-	global_pop_consciousness_modifier = 0.05
+	global_pop_militancy_modifier = 0.01
+	global_pop_consciousness_modifier = 0.01
 	research_points_modifier = 0.2
 	icon = 10
 }
@@ -3427,7 +3427,41 @@ hemp_production = {
 	local_RGO_output = -0.25
 	icon = 13
 }
+
 illigitimate_crown = {
 	core_pop_militancy_modifier = 0.11
 	prestige = -0.2
+}
+
+rebuilding_of_ani = {
+	population_growth = 0.001
+	assimilation_rate = 0.15
+	immigrant_attract = 0.5
+}
+
+french_advisors = {
+	research_points_modifier = 0.2
+	global_pop_militancy_modifier = 0.01
+	suppression_points_modifier = -0.5
+}
+
+tribes_discontent = {
+	global_pop_militancy_modifier = 0.03
+	org_regain = -0.1
+	land_organisation = -0.1
+	land_defense_modifier = -0.1
+	supply_consumption = 0.15
+	suppression_points_modifier = -0.5
+}
+
+farhad_khan = {
+	global_pop_militancy_modifier = -0.06
+	org_regain = 0.1
+	land_organisation = 0.1
+	land_defense_modifier = 0.1
+	supply_consumption = -0.30
+	mobilisation_size = 0.20
+	mobilization_impact = 0.25
+	war_exhaustion = -0.10
+	administrative_efficiency_modifier = 0.2
 }

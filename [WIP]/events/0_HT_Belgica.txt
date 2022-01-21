@@ -219,3 +219,19 @@ country_event = {
 		ai_chance = { factor = 0 }
 	}
 }
+
+country_event = {
+	id = 182107
+	title = "The Shadow County"
+	desc = "EVTDESC182107"
+	picture = "polish_uprising_aus"
+	
+	fire_only_once = yes
+	
+	trigger = {
+	    tag = BRB
+	}
+	option = {
+		name = "Freiheit, Gleichheit, Brüderlichkeit?"
+	}
+}

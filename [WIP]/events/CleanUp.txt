@@ -1052,7 +1052,7 @@ country_event = {
 		
 	trigger = {
 		government = theocracy
-		NOT = { tag = MON }
+		NOT = { tag = HRZ }
 		NOT = { tag = ITA }
 		NOT = { tag = PAP }
 		NOT = { tag = TIB }

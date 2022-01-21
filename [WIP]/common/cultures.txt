@@ -1620,23 +1620,6 @@ hellenic = {
 		Trikoupis Tsakalotos Tsolakoglou Typaldos-Alfonsatos Tzavelas Vassos Venizelos Voulgaris Zaimis Zymvrakakis
 		}
 	}
-	armenian = {
-		color = {185 105 155}
-		first_names = { Alexander Arakel Aram Aramais Arsen Artashes Artavazd Artem Ashot Assadour
-		Atom Barsegh Benyamin Deran Eduard Gevorg Gor Gurgen Hayk Hovhannes
-		Hovsep Hrant Isahak Karapet Kevork Levon Mkrtich Murad Nubad Papken
-		Rouben Sarkis Sergei Sevan Smbat Soghomon Souren Spiru Tadevos Taniel
-		Vahan Vahe Vahram Vano Vartan Vazrik Vilen Yegishe Yervand Zaven
-		}
-
-		last_names = { Afeyan Arakelian Asdvadzadrian Asriyan Avakian Aydinian Azatian Bogosian Bounyatian Chakheltian
-		Dombalagian Egoyan Erznvian Ghakarian Ghorghanian Guediguian Ghehanian Hannessoghlian Hasratian Hovsepian
-		Kaloian Kamalian Khachaturian Khatchaturiants Konstandyan Konstanian Mamikonian Mardvian Matinian Melik-Aghamalian
-		Mkhitarian Mussiniants Pahlevanian Peleshyan Safrazpekian Sahakiam Sarksyan Sekoyan Shadunts Shahsuvarian
-		Tavakyalian Tchartichian Tcholakhian Ter-Sarkayan Terzian Tigraniants Tigranov Toshian Varapetian Vartanian
-		}
-		radicalism = 5
-	}
 }
 
 #Caucasian Languages
@@ -1722,9 +1705,7 @@ kartvelian = {
 		Razikashvili Sabinin Shanidze Sukhisvili Tabidze Takaishvili Tsereteli Tsintsadze Uznadze Zhordania
 		}
 	}
-	
-	union = GEO
-	
+	union = GEO	
 }
 
 pontic_caucasian = {
@@ -2754,6 +2735,24 @@ arab = {
 			"ibn Umar" "ibn Uthman" "ibn Yusuf"  
 		}
 	}
+	shirvani = {
+		color = {40 140 125}
+		first_names = { 
+			"Abd Allah" "Abd al-Karim" "Abd al-Malik" "Abd al-Qadir" "Abd al-Rahman" Ahmad Ali 
+			Fawzi Fuad Halil Hasan Hisham Ibrahim Ishaq Iskandar Jamal Kamil Khalid 
+			Muhammad Mustafa "Nur al-Din" "Sa'd al-Din" Salim Shukri
+			Tawfiq Umar Uthman Yahya Yusuf Zafir 		
+			}
+		
+		last_names = {
+			"al-Baghdadi" "al-Basri" "al-Ghazzawi" "al-Halabi" "al-Hamawi" "al-Himsi" 
+			"al-Mawsili" "al-Nablusi" "al-Qudsi" "al-Shami"  
+			"ibn Abd Allah" "ibn Abd al-Qadir" "ibn Abu Bakr" "ibn Ahmad" "ibn Ali"
+			"ibn Fuad" "ibn Halil" "ibn Hasan" "ibn Hisham" "ibn Ishaq" "ibn Ja'far" "ibm Kamil" "ibn Khalid" 
+			"ibn Muhammad" "ibn Mustafa" "ibn Salim"   
+			"ibn Umar" "ibn Uthman" "ibn Yusuf"  
+		}
+	}
 	saidi_arabic = {
 		color = {0 120 40}
 		first_names = { 
@@ -3364,7 +3363,23 @@ iranian_turanian = {
 	leader = arab
 	is_overseas = no
 	unit = MiddleEasternGC
-	#Persid
+	#Southwest Iranian
+	classical_persian = {
+		color = {20 100 165}
+		first_names = {
+			Abbas Abolghasem Abdolhossein Abdolsamad Abdolazim Ahmad Ali Bahram
+			Ebrahim Esmail "Fath Ali" Fazlollah Firuz Hamzeh Hasan Hossein Kamran Karim "Lotf Ali" 
+			Mahmoud Mirza Massoud Mohammad "Moin ed-Din" "Mozzafer ed-Din" Murad Muhsin 
+			"Naser ed-Din" Nosret Reza
+			}
+		last_names = {
+			Airom Ansari Ayrum Buzarjomehri Davallu Esfahani Farhani 
+			Jahanbani Kashani Khan Khuzai  
+			Meshhedi Nakhchevani Pesyan Rokni Shafaei Shahbakhti 
+			Shirazi Tabrizi Tahmasebi Zahedi
+			}
+	}
+	
 	persian = {
 		color = {0 100 165}
 		first_names = {
@@ -3446,7 +3461,7 @@ iranian_turanian = {
 	}
 	
 	kuhmareyi = {
-		color = {5 60 155}
+		color = {5 80 185}
 		first_names = {
 			Abbas Abolghasem Abdolhossein Abdolsamad Abdolazim Ahmad Ali Bahram
 			Ebrahim Esmail "Fath Ali" Fazlollah Hamzeh Hasan Hossein Kamran Karim "Lotf Ali" 
@@ -3462,7 +3477,7 @@ iranian_turanian = {
 	}
 	
 	larestani = {
-		color = {5 80 185}
+		color = {5 60 155}
 		first_names = {
 			Abbas Abolghasem Abdolhossein Abdolsamad Abdolazim Ahmad Ali Bahram
 			Ebrahim Esmail "Fath Ali" Fazlollah Hamzeh Hasan Hossein Kamran Karim "Lotf Ali" 
@@ -3609,6 +3624,23 @@ iranian_turanian = {
 			Meshhedi Nakhchevani Pesyan Rokni Shafaei Shahbakhti 
 			Shirazi Tabrizi Tahmasebi Zahedi
 			}
+	}
+	
+	neo_parthian  = {
+		color = {160 100 150}
+		first_names = { Alexander Arakel Aram Aramais Arsen Artashes Artavazd Artem Ashot Assadour
+		Atom Barsegh Benyamin Deran Eduard Gevorg Gor Gurgen Hayk Hovhannes
+		Hovsep Hrant Isahak Karapet Kevork Levon Mkrtich Murad Nubad Papken
+		Rouben Sarkis Sergei Sevan Smbat Soghomon Souren Spiru Tadevos Taniel
+		Vahan Vahe Vahram Vano Vartan Vazrik Vilen Yegishe Yervand Zaven
+		}
+
+		last_names = { Afeyan Arakelian Asdvadzadrian Asriyan Avakian Aydinian Azatian Bogosian Bounyatian Chakheltian
+		Dombalagian Egoyan Erznvian Ghakarian Ghorghanian Guediguian Ghehanian Hannessoghlian Hasratian Hovsepian
+		Kaloian Kamalian Khachaturian Khatchaturiants Konstandyan Konstanian Mamikonian Mardvian Matinian Melik-Aghamalian
+		Mkhitarian Mussiniants Pahlevanian Peleshyan Safrazpekian Sahakiam Sarksyan Sekoyan Shadunts Shahsuvarian
+		Tavakyalian Tchartichian Tcholakhian Ter-Sarkayan Terzian Tigraniants Tigranov Toshian Varapetian Vartanian
+		}
 	}
 	
 	#Northwest Iranian - Tatic-Balochi
@@ -3879,6 +3911,29 @@ iranian_turanian = {
 			Meshhedi Nakhchevani Pesyan Rokni Shafaei Shahbakhti 
 			Shirazi Tabrizi Tahmasebi Zahedi
 			}
+	}
+}
+
+#Armenian
+armenian_group = {
+	leader = arab
+	is_overseas = no
+	armenian = {
+		color = {185 105 155}
+		first_names = { Alexander Arakel Aram Aramais Arsen Artashes Artavazd Artem Ashot Assadour
+		Atom Barsegh Benyamin Deran Eduard Gevorg Gor Gurgen Hayk Hovhannes
+		Hovsep Hrant Isahak Karapet Kevork Levon Mkrtich Murad Nubad Papken
+		Rouben Sarkis Sergei Sevan Smbat Soghomon Souren Spiru Tadevos Taniel
+		Vahan Vahe Vahram Vano Vartan Vazrik Vilen Yegishe Yervand Zaven
+		}
+
+		last_names = { Afeyan Arakelian Asdvadzadrian Asriyan Avakian Aydinian Azatian Bogosian Bounyatian Chakheltian
+		Dombalagian Egoyan Erznvian Ghakarian Ghorghanian Guediguian Ghehanian Hannessoghlian Hasratian Hovsepian
+		Kaloian Kamalian Khachaturian Khatchaturiants Konstandyan Konstanian Mamikonian Mardvian Matinian Melik-Aghamalian
+		Mkhitarian Mussiniants Pahlevanian Peleshyan Safrazpekian Sahakiam Sarksyan Sekoyan Shadunts Shahsuvarian
+		Tavakyalian Tchartichian Tcholakhian Ter-Sarkayan Terzian Tigraniants Tigranov Toshian Varapetian Vartanian
+		}
+		radicalism = 5
 	}
 }
 

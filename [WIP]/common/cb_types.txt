@@ -977,6 +977,7 @@ iran_unification = {
 			is_culture_group = iranian_turanian
 			NOT = { primary_culture = kurmanji }
 			NOT = { primary_culture = pashtun }
+			NOT = { primary_culture = classical_persian }
 		}
 		is_vassal = no
 		neighbour = THIS
@@ -7573,15 +7574,15 @@ tourkistan_acquire_state = {
 					is_core = GNJ
 					is_core = KRB
 					is_core = SMZ
-					is_core = IRV
-					is_core = AKK					
+					is_core = IRV				
 				}
 			}
 		THIS = {
-			primary_culture = azeri			
+			primary_culture = turkish			
 			NOT = {
 				has_country_modifier = neutrality
 				war_policy = pacifism
+				tag = KRM
 			}
 		}
 		is_vassal = no
@@ -7604,8 +7605,7 @@ tourkistan_acquire_state = {
 				is_core = GNJ
 				is_core = KRB
 				is_core = SMZ
-				is_core = IRV
-				is_core = AKK					
+				is_core = IRV					
            }
         }
     }

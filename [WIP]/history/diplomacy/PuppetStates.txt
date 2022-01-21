@@ -479,12 +479,6 @@ substate = {
 }
 
 #Hungary and Romania
-vassal = {
-	first = HUN
-	second = MOL
-	start_date = 1836.1.1
-	end_date = 1937.1.1
-}
 
 substate = {
 	first = HUN
@@ -500,24 +494,16 @@ substate = {
 	end_date = 1937.1.1
 }
 
-#Slavic Bans
-vassal = {
+substate = {
 	first = HUN
-	second = BBO
+	second = CMN
 	start_date = 1836.1.1
 	end_date = 1937.1.1
 }
 
 vassal = {
 	first = HUN
-	second = SER
-	start_date = 1836.1.1
-	end_date = 1937.1.1
-}
-
-vassal = {
-	first = HUN
-	second = BSV
+	second = MOL
 	start_date = 1836.1.1
 	end_date = 1937.1.1
 }
@@ -532,6 +518,35 @@ substate = {
 substate = {
 	first = HUN
 	second = BCR
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+vassal = {
+	first = HUN
+	second = SLO
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+vassal = {
+	first = HUN
+	second = JSZ
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+
+vassal = {
+	first = HUN
+	second = BOS
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+vassal = {
+	first = HUN
+	second = BSV
 	start_date = 1836.1.1
 	end_date = 1937.1.1
 }
@@ -1478,6 +1493,76 @@ vassal = {
 vassal = {
 	first = SHN
 	second = CGH
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+#Bulgaria
+vassal = {
+	first = BYZ
+	second = MTH
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+vassal = {
+	first = BYZ
+	second = THY
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+vassal = {
+	first = BYZ
+	second = ATH
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+vassal = {
+	first = BYZ
+	second = EPI
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+vassal = {
+	first = BYZ
+	second = MRE
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+vassal = {
+	first = BYZ
+	second = AOM
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+#League of Gjirokastra
+vassal = {
+	first = ZNB
+	second = GRP
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+vassal = {
+	first = ZNB
+	second = MRD
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+vassal = {
+	first = ZNB
+	second = THP
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+vassal = {
+	first = ZNB
+	second = ZHR
 	start_date = 1836.1.1
 	end_date = 1937.1.1
 }

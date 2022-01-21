@@ -31,12 +31,12 @@ political_decisions = {
 	claim_upper_euphrates = {
 	    picture = "map_iraq"
 		potential = {
-			tag = IRQ
+			tag = MFQ
 			NOT = { has_country_flag = claimed_urfa }
 		}
 		
 		allow = {
-			IRQ = { all_core = { owned_by = THIS } }
+			MFQ = { all_core = { owned_by = THIS } }
 			war = no
 			is_vassal = no
 		}
@@ -60,13 +60,13 @@ political_decisions = {
 	end_anizzah_raids = {
 	    picture = "map_arabia"
 		potential = {
-			tag = IRQ
+			tag = MFQ
 			has_country_flag = claimed_urfa
 			NOT = { has_country_flag = ended_anizzah_raids }
 		}
 		
 		allow = {
-			IRQ = { all_core = { owned_by = THIS } }
+			MFQ = { all_core = { owned_by = THIS } }
 			war = no
 			is_vassal = no
 		}
@@ -87,13 +87,13 @@ political_decisions = {
 	claim_al_sham = {
 	    picture = "map_arabia"
 		potential = {
-			tag = IRQ
+			tag = MFQ
 			has_country_flag = ended_anizzah_raids
 			NOT = { has_country_flag = claimed_levante }
 		}
 		
 		allow = {
-			IRQ = { all_core = { owned_by = THIS } }
+			MFQ = { all_core = { owned_by = THIS } }
 			war = no
 			is_vassal = no
 		}
@@ -114,13 +114,13 @@ political_decisions = {
 	push_to_taurus = {
 	    picture = "map_arabia"
 		potential = {
-			tag = IRQ
+			tag = MFQ
 			has_country_flag = claimed_levante
 			NOT = { has_country_flag = claimed_cilicia }
 		}
 		
 		allow = {
-			IRQ = { all_core = { owned_by = THIS } }
+			MFQ = { all_core = { owned_by = THIS } }
 			war = no
 			is_vassal = no
 		}
@@ -142,13 +142,13 @@ political_decisions = {
 	cilicia_expedition = {
 	    picture = "greater_armenia"
 		potential = {
-			tag = IRQ
+			tag = MFQ
 			has_country_flag = claimed_levante
 			NOT = { has_country_flag = claimed_cilicia }
 		}
 		
 		allow = {
-			IRQ = { all_core = { owned_by = THIS } }
+			MFQ = { all_core = { owned_by = THIS } }
 			war = no
 			is_vassal = no
 		}

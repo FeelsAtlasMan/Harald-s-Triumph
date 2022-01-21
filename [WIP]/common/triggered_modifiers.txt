@@ -964,23 +964,6 @@ colonial_administration = {
 	administrative_efficiency_modifier = -0.1
 }
 
-pakhtunwali = {
-	trigger = {
-		owns = 1209
-		primary_culture = pashtun
-		civilized = no
-		war = yes
-		any_greater_power = { war_with = THIS }
-	}
-	icon = 10
-	supply_consumption = -0.75
-	land_organisation = 0.1
-	land_unit_start_experience = 5
-	org_regain = 0.2
-	war_exhaustion = -2.5
-	mobilisation_size = 0.2
-}
-
 western_advisors = {
     trigger = {
 		civilized = no
@@ -1018,6 +1001,20 @@ loosing_mamluk_support = {
 	mobilisation_size = -0.4
 	core_pop_militancy_modifier = 0.2
 	core_pop_consciousness_modifier = 0.2
+	icon = 7
+}
+
+tribal_army = {
+    trigger = {
+		tag = KRM
+		NOT = { has_country_flag = reforms_of_amir_husayn_III }
+	}
+	supply_consumption = -0.75
+	land_organisation = -0.1
+	land_unit_start_experience = 1
+	org_regain = -0.2
+	war_exhaustion = -0.05
+	mobilisation_size = -0.2
 	icon = 7
 }
 
@@ -1109,5 +1106,23 @@ south_american_ai_ii = {
 	}
 	supply_consumption = -0.2
 	mobilisation_size = 0.03
+	icon = 19
+}
+
+silk_road = {
+	trigger = {
+		exists = yes
+		has_global_flag = golden_age_of_silk_road
+		has_country_flag = is_silk_road_country
+		capital_scope = {
+			OR = { 
+				continent = oceania
+				continent = central_asia
+			}
+		}
+	}
+    global_population_growth = 0.001
+	tax_efficiency = 0.4
+	import_cost = -0.3
 	icon = 19
 }

@@ -210,11 +210,14 @@ From;To;Type;Through;Data;Comment
 1095;3349;impassable;0;0;Sukhumi-Ashuwa
 1095;3397;impassable;0;0;Sukhumi-Elbrus
 
+1092;1056;impassable;0;0;Kutaisi-Pyatigorsk
+
 3364;3318;impassable;0;0;Mtsekhi-Nasran
 3364;1055;impassable;0;0;Mtsekhi-Sölsha Gala
 
 3363;1053;impassable;0;0;Kakheti-Gunib
-3364;1055;impassable;0;0;Kakheti-Sölsha Gala
+3363;3315;impassable;0;0;Kakheti-Aghwali
+3363;1055;impassable;0;0;Kakheti-Sölsha Gala
 
 3366;1053;impassable;0;0;Ilisu-Gunib
 
@@ -239,7 +242,7 @@ From;To;Type;Through;Data;Comment
 3369;3367;impassable;0;0;Ashtarak-Qazakh
 3369;1105;impassable;0;0;Ashtarak-Ganjeh
 
-1110;3368;impassable;0;0;Kapan-Shusha
+1100;3368;impassable;0;0;Kapan-Shusha
 
 #Iranian Mountain Ranges
 #Zagros
@@ -247,6 +250,10 @@ From;To;Type;Through;Data;Comment
 
 892;1109;impassable;0;0;Bay-Khvoy
 892;3652;impassable;0;0;Bay-Salamis
+
+924;3652;impassable;0;0;Amedi-Salamis
+
+928;3652;impassable;0;0;Soran-Salamis
 
 3629;1118;impassable;0;0;Sulaymaniyeh-Sanandaj
 3629;1117;impassable;0;0;Sulaymaniyeh-Saqqez

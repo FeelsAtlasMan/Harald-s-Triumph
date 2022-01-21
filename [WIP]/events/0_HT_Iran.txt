@@ -1,0 +1,255 @@
+#####88000
+#Invasion of Tabriz
+country_event = {
+    id = 88001
+    title = "Invasion of Tabriz"
+    desc = "EVTDESC88001"
+	picture = "capturing_khiva"
+
+    trigger = {
+        tag = TKO
+    }
+	
+	fire_only_once = yes
+
+    mean_time_to_happen = { days = 365 }
+
+    option = {
+	    TKO = { casus_belli = { target = AZB type = conquest months = 12 } }
+        name = "Destroy the Timurid Remnant!"
+		AZB = { all_core = { add_core = THIS } }
+        war = {
+	            target = AZB
+	            attacker_goal = { casus_belli = conquest }
+	            defender_goal = { casus_belli = conquest }
+	            call_ally = no
+        }
+		all_core = { limit = { is_core = AZB } add_core = THIS }
+        ai_chance = { factor = 100 }
+    }
+	
+	option = {
+        name = "Now is not the time"
+		all_core = { limit = { is_core = AZB } add_core = THIS }
+        ai_chance = { factor = 0 }
+    }
+}
+
+#The Demands of the Turks
+country_event = {
+    id = 88002
+    title = "The Demands of the Turks"
+    desc = "EVTDESC88002"
+	picture = "deputation_to_milos"
+
+    is_triggered_only = yes
+
+    option = {
+        name = "We have no other choice..."
+        TKO = { create_vassal = THIS }
+        ai_chance = { factor = 30 }
+    }
+	
+	option = {
+        name = "The Turks of no Authority over us!"
+		TKO = { casus_belli = { target = THIS type = create_vassal months = 12 } }
+		TKO = {
+		    war = {
+	            target = THIS
+	            attacker_goal = { casus_belli = create_vassal }
+	            defender_goal = { casus_belli = status_quo }
+	            call_ally = no
+            }
+		}
+        ai_chance = { factor = 0 }
+    }
+}
+
+#Farhad Khan Zohrabi
+country_event = {
+    id = 88003
+    title = "Farhad Khan Zohrabi"
+    desc = "EVTDESC88003"
+	picture = "farhad_khan"
+
+    fire_only_once = yes
+	trigger = {
+	    tag = FRS
+	}
+
+    option = {
+        name = "We have no other choice..."
+        add_country_modifier = {
+	        name = farhad_khan
+	        duration = 36500
+        }
+		define_general = {
+	        name = "Farhad Khan Zohrabi"
+	        personality = implacable
+	        background = natural_born_leader
+        }
+        ai_chance = { factor = 100 }
+    }
+}
+
+#The Lurs have sworn their fealty
+country_event = {
+    id = 88004
+    title = "Farhad Khan Zohrabi"
+    desc = "EVTDESC88004"
+	picture = "kashmir_selling"
+
+    is_triggered_only = yes
+
+    option = {
+        name = "It is our only hope..."
+        FRS = { country_event = 88005 }
+        ai_chance = { factor = 100 }
+    }
+	
+	option = {
+        name = We dont need Farhad Khan!"
+		prestige = 5
+        ai_chance = { factor = 0 }
+    }
+}
+
+#The Lurs have sworn their fealty
+country_event = {
+    id = 88005
+    title = "Farhad Khan Zohrabi"
+    desc = "EVTDESC88005"
+	picture = "iranian_tribesmen"
+
+    is_triggered_only = yes
+
+    option = {
+        name = "Accept!"
+        create_vassal = LUR 
+		relation = {
+	        who = KRM
+	        value = -100
+        }
+        ai_chance = { factor = 100 }
+    }
+	
+	option = {
+        name = "We dont want to anger the Beghdilids"
+        prestige = -5
+		relation = {
+	        who = 	LUR
+	        value = -100
+        }
+        ai_chance = { factor = 0 }
+    }
+}
+
+#The Treaty of Qazvin
+country_event = {
+    id = 88006
+    title = "The Treaty of Qazvin"
+    desc = "EVTDESC88006"
+	picture = "iranian_tribesmen"
+
+    fire_only_once = yes
+	major = yes
+	
+	trigger = {
+	    tag = KRM
+		has_country_flag = got_cut_down 
+		truce_with = FRS
+	}
+
+    option = {
+        name = We have been victorious!"
+        create_vassal = RDL 
+		create_vassal = BBN 
+		create_vassal = SRN 
+		create_vassal = BDN
+        create_vassal = HKK
+        create_vassal = AKK  	
+        create_vassal = MFQ  	
+        RDL = { all_core = { add_core = THIS } }
+		BBN = { all_core = { add_core = THIS } }
+		SRN = { all_core = { add_core = THIS } }	
+		BDN = { all_core = { add_core = THIS } }
+		HKK = { all_core = { add_core = THIS } }
+		AKK = { all_core = { add_core = THIS } }	
+		MFQ = { all_core = { add_core = THIS } }
+        926 = { add_core = THIS }
+		923 = { add_core = THIS }
+		927 = { add_core = THIS }
+		3633 = { add_core = THIS }
+		3631 = { add_core = THIS }
+		bad_boy = 5
+        ai_chance = { factor = 100 }
+    }
+}
+
+#The Treaty of Diyarbakir
+country_event = {
+    id = 88007
+    title = "The Treaty of Diyarbakir"
+    desc = "EVTDESC88007"
+	picture = "iranian_tribesmen"
+
+    fire_only_once = yes
+	major = yes
+	
+	trigger = {
+	    tag = KRM
+		has_country_flag = got_cut_down 
+		truce_with = FRS
+	}
+
+    option = {
+        name = We have been victorious!"
+        create_vassal = RDL 
+		create_vassal = BBN 
+		create_vassal = SRN 
+		create_vassal = BDN
+        create_vassal = HKK
+        create_vassal = AKK  	
+        create_vassal = MFQ  	
+		create_vassal = LUR  	
+		create_vassal = SMZ  	
+        create_vassal = KRT  	
+		create_vassal = KKH
+        RDL = { all_core = { add_core = THIS } }
+		BBN = { all_core = { add_core = THIS } }
+		SRN = { all_core = { add_core = THIS } }	
+		BDN = { all_core = { add_core = THIS } }
+		HKK = { all_core = { add_core = THIS } }
+		AKK = { all_core = { add_core = THIS } }	
+		MFQ = { all_core = { add_core = THIS } }
+		KHZ = { all_core = { add_core = THIS } }
+		LUR = { all_core = { add_core = THIS } }
+		TKO = { all_core = { add_core = THIS } }
+		inherit = TKO
+        926 = { add_core = THIS }
+		923 = { add_core = THIS }
+		927 = { add_core = THIS }
+		3633 = { add_core = THIS }
+		3631 = { add_core = THIS }
+		1123 = { add_core = THIS }
+		1122 = { add_core = THIS }
+		1107 = { add_core = THIS }
+		3382 = { add_core = THIS }
+		1137 = { remove_core = THIS }
+		1134 = { remove_core = THIS }
+		FRS = { 
+		    all_core = {
+		        limit = { is_core = KRM }
+	            secede_province = KRM  
+			}
+		}
+		KRM = {
+		    any_country = {
+		        limit = { vassal_of = FRS NOT = { tag = AJM } }
+	            create_vassal = FROM 
+			}
+		}
+		bad_boy = 5
+        ai_chance = { factor = 100 }
+    }
+}

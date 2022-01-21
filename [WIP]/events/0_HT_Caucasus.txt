@@ -1,0 +1,450 @@
+#########################################################
+#														#
+#      		  778800                                    #
+#														#
+#########################################################
+#Armenian Parthia Larp Events
+#Conquest of Media
+country_event = {
+    id = 778800
+    title = "EVTNAME778800"
+    desc = "EVTDESC778800"
+	picture = "kashmir_selling"
+        
+    trigger = {
+		tag = ARM
+		has_country_flag = legacy_of_arsacids
+		war = no
+		NOT = { government = democracy }
+		is_secondary_power = yes
+		all_core = {
+			    owned_by = THIS
+		}
+		1108 = { owned_by = THIS }
+		1111 = { owned_by = THIS }
+		3653 = { owned_by = THIS }
+		1119 = { owned_by = THIS }
+		1117 = { owned_by = THIS }
+		1121 = { owned_by = THIS }
+		1127 = { owned_by = THIS }
+	}
+	
+	fire_only_once = yes
+
+    option = {
+		name = "EVT778800A"  #Parthian Larp
+		PER_1112 = { add_core = THIS }
+		1108 = { state_scope = { change_region_name = "Adurpadegan-ce Arevelk" } }
+		TIM_1110 = { add_core = THIS }
+		1111 = { state_scope = { change_region_name = "Adurpadegan-ce Arevmutk" } }
+		PER_1121 = { add_core = THIS }
+		1121 = { state_scope = { change_region_name = "Pahlawestan-ce Arevelk" } }
+		PER_1117 = { add_core = THIS }
+		1117 = { state_scope = { change_region_name = "Pahlawestan-ce Arevmutk" } }
+		PER_1127 = { add_core = THIS }
+		1127 = { state_scope = { change_region_name = "Mad-ce Spahan" } }
+		set_country_flag = parthian_larp_media
+	}
+}
+
+#Conquest of Tabarestan
+country_event = {
+    id = 778801
+    title = "EVTNAME778801"
+    desc = "EVTDESC778801"
+	picture = "kashmir_selling"
+        
+    trigger = {
+		tag = ARM
+		has_country_flag = legacy_of_arsacids
+		war = no
+		NOT = { government = democracy }
+		is_secondary_power = yes
+		all_core = {
+			    owned_by = THIS
+		}
+		1113 = { owned_by = THIS }
+		1115 = { owned_by = THIS }
+	}
+	
+	fire_only_once = yes
+
+    option = {
+		name = "EVT778801A"  #Parthian Larp
+		PER_1113 = { add_core = THIS }
+		1113 = { state_scope = { change_region_name = "Gelan" } }
+		PER_1116 = { add_core = THIS }
+		1115 = { state_scope = { change_region_name = "Vergana" } }
+		set_country_flag = parthian_larp_tabarestan
+	}
+}
+
+#Conquest of Mesopotamia
+country_event = {
+    id = 778802
+    title = "EVTNAME778802"
+    desc = "EVTDESC778802"
+	picture = "kashmir_selling"
+        
+    trigger = {
+		tag = ARM
+		has_country_flag = legacy_of_arsacids
+		war = no
+		NOT = { government = democracy }
+		is_secondary_power = yes
+		all_core = {
+			    owned_by = THIS
+		}
+		URF_920 = { owned_by = THIS }
+		TIM_923 = { owned_by = THIS }
+		TUR_931 = { owned_by = THIS }
+		TUR_935 = { owned_by = THIS }
+		TUR_3630 = { owned_by = THIS }
+		PER_1132 = { owned_by = THIS }
+	}
+	
+	fire_only_once = yes
+
+    option = {
+		name = "EVT778802A"  #Parthian Larp
+		URF_920 = { add_core = THIS }
+		TIM_923 = { add_core = THIS }
+		TUR_931 = { add_core = THIS }
+		926 = { state_scope = { change_region_name = "Asorestan" } }
+		TUR_935 = { add_core = THIS }
+		932 = { state_scope = { change_region_name = "Meshan" } }
+		TUR_3630 = { add_core = THIS }
+		PER_1132 = { add_core = THIS }
+		set_country_flag = parthian_larp_mesopotamia
+	}
+}
+
+#Conquest of Parthava
+country_event = {
+    id = 778803
+    title = "EVTNAME778803"
+    desc = "EVTDESC778803"
+	picture = "kashmir_selling"
+        
+    trigger = {
+		tag = ARM
+		has_country_flag = legacy_of_arsacids
+		war = no
+		NOT = { government = democracy }
+		is_secondary_power = yes
+		all_core = {
+			    owned_by = THIS
+		}
+		PER_1126 = { owned_by = THIS }
+		PER_1147 = { owned_by = THIS }
+		PER_1148 = { owned_by = THIS }
+		AFG_1212 = { owned_by = THIS }
+		686 = { owned_by = THIS }
+		1204 = { owned_by = THIS }
+		3284 = { owned_by = THIS }
+	}
+	
+	fire_only_once = yes
+
+    option = {
+		name = "EVT778803A"  #Parthian Larp
+		PER_1126 = { add_core = THIS }
+		1126 = { state_scope = { change_region_name = "Qumis" } }
+		PER_1147 = { add_core = THIS }
+		1147 = { state_scope = { change_region_name = "Parthava" } }
+		PER_1148 = { add_core = THIS }
+		AFG_1212 = { add_core = THIS }
+		1212 = { state_scope = { change_region_name = "Harew" } }
+		686 = { add_core = THIS }
+		1204 = { add_core = THIS }
+		3284 = { add_core = THIS }
+		set_country_flag = parthian_larp_parthava
+	}
+}
+
+#Conquest of Pars
+country_event = {
+    id = 778804
+    title = "EVTNAME778804"
+    desc = "EVTDESC778804"
+	picture = "kashmir_selling"
+        
+    trigger = {
+		tag = ARM
+		has_country_flag = legacy_of_arsacids
+		war = no
+		NOT = { government = democracy }
+		is_secondary_power = yes
+		all_core = {
+			    owned_by = THIS
+		}
+		PER_1135 = { owned_by = THIS }
+		PER_1142 = { owned_by = THIS }
+		PER_1139 = { owned_by = THIS }
+		PER_1140 = { owned_by = THIS }
+	}
+	
+	fire_only_once = yes
+
+    option = {
+		name = "EVT778804A"  #Parthian Larp
+		PER_1135 = { add_core = THIS }
+		1135 = { state_scope = { change_region_name = "Pars" } }
+		PER_1142 = { add_core = THIS }
+		PER_1139 = { add_core = THIS }
+		PER_1140 = { add_core = THIS }
+		1140 = { state_scope = { change_region_name = "Kirman" } }
+		set_country_flag = parthian_larp_pars
+	}
+}
+
+#Conquest of Pontus and Lesser Armenia
+country_event = {
+    id = 778805
+    title = "EVTNAME778805"
+    desc = "EVTDESC778805"
+	picture = "kashmir_selling"
+        
+    trigger = {
+		tag = ARM
+		has_country_flag = legacy_of_tigranes
+		war = no
+		NOT = { government = democracy }
+		is_secondary_power = yes
+		all_core = {
+			    owned_by = THIS
+		}
+		TUR_879 = { owned_by = THIS }
+		TUR_882 = { owned_by = THIS }
+	}
+	
+	fire_only_once = yes
+
+    option = {
+		name = "EVT778805A"  #Greek Larp
+		TUR_879 = { add_core = THIS }
+		879 = { state_scope = { change_region_name = "Lesser Armenia" } }
+		TUR_882 = { add_core = THIS }
+		882 = { state_scope = { change_region_name = "Pontus" } }
+		set_country_flag = greek_larp_pnt_larm
+	}
+}
+
+#Conquest of Southern Anatolia
+country_event = {
+    id = 778806
+    title = "EVTNAME778806"
+    desc = "EVTDESC778806"
+	picture = "kashmir_selling"
+        
+    trigger = {
+		tag = ARM
+		has_country_flag = legacy_of_tigranes
+		war = no
+		NOT = { government = democracy }
+		is_secondary_power = yes
+		all_core = {
+			    owned_by = THIS
+		}
+		878 = { owned_by = THIS }
+		3655 = { owned_by = THIS }
+		TUR_873 = { owned_by = THIS }
+		TUR_875 = { owned_by = THIS }
+	}
+	
+	fire_only_once = yes
+
+    option = {
+		name = "EVT778806A"  #Greek Larp
+		TUR_873 = { add_core = THIS }
+		TUR_875 = { add_core = THIS }
+		878 = { add_core = THIS }
+		3655 = { add_core = THIS }
+		add_accepted_culture = cappadocian
+		set_country_flag = greek_larp_southern_anat
+	}
+}
+
+#Conquest of Northern Anatolia
+country_event = {
+    id = 778807
+    title = "EVTNAME778807"
+    desc = "EVTDESC778807"
+	picture = "kashmir_selling"
+        
+    trigger = {
+		tag = ARM
+		has_country_flag = legacy_of_tigranes
+		war = no
+		NOT = { government = democracy }
+		is_secondary_power = yes
+		all_core = {
+			    owned_by = THIS
+		}
+		TUR_880 = { owned_by = THIS }
+		TUR_876 = { owned_by = THIS }
+		TUR_867 = { owned_by = THIS }
+	}
+	
+	fire_only_once = yes
+
+    option = {
+		name = "EVT778807A"  #Greek Larp
+		TUR_880 = { add_core = THIS }
+		TUR_876 = { add_core = THIS }
+		TUR_867 = { add_core = THIS }
+		set_country_flag = greek_larp_northern_anat
+	}
+}
+
+#Conquest of Western Anatolia
+country_event = {
+    id = 778808
+    title = "EVTNAME778808"
+    desc = "EVTDESC778808"
+	picture = "kashmir_selling"
+        
+    trigger = {
+		tag = ARM
+		has_country_flag = legacy_of_tigranes
+		war = no
+		NOT = { government = democracy }
+		is_secondary_power = yes
+		all_core = {
+			    owned_by = THIS
+		}
+		TUR_869 = { owned_by = THIS }
+		TUR_863 = { owned_by = THIS }
+	}
+	
+	fire_only_once = yes
+
+    option = {
+		name = "EVT778808A"  #Greek Larp
+		TUR_869 = { add_core = THIS }
+		TUR_863 = { add_core = THIS }
+		set_country_flag = greek_larp_western_anat
+	}
+}
+
+#Conquest of Thrace
+country_event = {
+    id = 778809
+    title = "EVTNAME778809"
+    desc = "EVTDESC778809"
+	picture = "kashmir_selling"
+        
+    trigger = {
+		tag = ARM
+		has_country_flag = legacy_of_tigranes
+		war = no
+		NOT = { government = democracy }
+		is_secondary_power = yes
+		all_core = {
+			    owned_by = THIS
+		}
+		TUR_860 = { owned_by = THIS }
+		TUR_809 = { owned_by = THIS }
+		TUR_823 = { owned_by = THIS }
+	}
+	
+	fire_only_once = yes
+
+    option = {
+		name = "EVT778809A"  #Greek Larp
+		TUR_860 = { add_core = THIS }
+		TUR_809 = { add_core = THIS }
+		TUR_823 = { add_core = THIS }
+		add_accepted_culture = greek
+		add_accepted_culture = bulgarian
+		set_country_flag = greek_larp_thrace
+	}
+}
+
+#Conquest of Makedonia
+country_event = {
+    id = 778810
+    title = "EVTNAME778810"
+    desc = "EVTDESC778810"
+	picture = "kashmir_selling"
+        
+    trigger = {
+		tag = ARM
+		has_country_flag = legacy_of_tigranes
+		war = no
+		NOT = { government = democracy }
+		is_secondary_power = yes
+		all_core = {
+			    owned_by = THIS
+		}
+		TUR_805 = { owned_by = THIS }
+		TUR_806 = { owned_by = THIS }
+	}
+	
+	fire_only_once = yes
+
+    option = {
+		name = "EVT778810A"  #Greek Larp
+		TUR_805 = { add_core = THIS }
+		TUR_806 = { add_core = THIS }
+		set_country_flag = greek_larp_makedonia
+	}
+}
+
+#Conquest of Central Greece
+country_event = {
+    id = 778811
+    title = "EVTNAME778811"
+    desc = "EVTDESC778811"
+	picture = "kashmir_selling"
+        
+    trigger = {
+		tag = ARM
+		has_country_flag = legacy_of_tigranes
+		war = no
+		NOT = { government = democracy }
+		is_secondary_power = yes
+		all_core = {
+			    owned_by = THIS
+		}
+		TUR_832 = { owned_by = THIS }
+		GRE_837 = { owned_by = THIS }
+	}
+	
+	fire_only_once = yes
+
+    option = {
+		name = "EVT778811A"  #Greek Larp
+		TUR_832 = { add_core = THIS }
+		GRE_837 = { add_core = THIS }
+		set_country_flag = greek_larp_cntr_greece
+	}
+}
+
+#Conquest of the Peloponnese
+country_event = {
+    id = 778812
+    title = "EVTNAME778812"
+    desc = "EVTDESC778812"
+	picture = "kashmir_selling"
+        
+    trigger = {
+		tag = ARM
+		has_country_flag = legacy_of_tigranes
+		war = no
+		NOT = { government = democracy }
+		is_secondary_power = yes
+		all_core = {
+			    owned_by = THIS
+		}
+		GRE_826 = { owned_by = THIS }
+	}
+	
+	fire_only_once = yes
+
+    option = {
+		name = "EVT778812A"  #Greek Larp
+		GRE_826 = { add_core = THIS }
+		set_country_flag = greek_larp_peloponnese
+	}
+}

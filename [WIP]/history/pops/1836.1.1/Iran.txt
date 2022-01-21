@@ -2921,7 +2921,37 @@
 	farmers = {
 		culture = lurish
 		religion = sunni
-		size = 6200
+		size = 3200
+	}
+	
+	aristocrats = {
+		culture = mashriqi
+		religion = shiite
+		size = 25
+	}
+
+	clergymen = {
+		culture = mashriqi
+		religion = shiite
+		size = 50
+	}
+
+	artisans = {
+		culture = mashriqi
+		religion = shiite
+		size = 50
+	}
+
+	soldiers = {
+		culture = mashriqi
+		religion = shiite
+		size = 175
+	}
+
+	farmers = {
+		culture = mashriqi
+		religion = shiite
+		size = 1300
 	}
 	
 	aristocrats = {
@@ -2951,7 +2981,7 @@
 	farmers = {
 		culture = laki
 		religion = sunni
-		size = 2500
+		size = 1300
 	}
 	
 	aristocrats = {
@@ -2981,7 +3011,7 @@
 	farmers = {
 		culture = kurdish
 		religion = sunni
-		size = 3000
+		size = 1500
 	}
 
 	aristocrats = {
@@ -3011,7 +3041,7 @@
 	farmers = {
 		culture = kordali
 		religion = shiite
-		size = 3025
+		size = 1525
 	}
 }
 
@@ -5571,7 +5601,7 @@
 	farmers = {
 		culture = khuzi
 		religion = shiite
-		size = 2000
+		size = 8000
 	}
 	
 	aristocrats = {
@@ -5601,7 +5631,7 @@
 	farmers = {
 		culture = khuzestani
 		religion = shiite
-		size = 275
+		size = 1275
 	}
 
 	aristocrats = {
@@ -5625,13 +5655,13 @@
 	soldiers = {
 		culture = lurish
 		religion = sunni
-		size = 75
+		size = 1075
 	}
 
 	farmers = {
 		culture = lurish
 		religion = sunni
-		size = 4275
+		size = 12275
 	}
 }
 #Shushtar (32000/8000 POPS)
@@ -5663,7 +5693,7 @@
 	farmers = {
 		culture = khuzi
 		religion = shiite
-		size = 4000
+		size = 8000
 	}
 	
 	aristocrats = {
@@ -5693,7 +5723,7 @@
 	farmers = {
 		culture = khuzestani
 		religion = shiite
-		size = 175
+		size = 975
 	}
 
 	aristocrats = {
@@ -5717,13 +5747,13 @@
 	soldiers = {
 		culture = lurish
 		religion = sunni
-		size = 275
+		size = 1275
 	}
 
 	farmers = {
 		culture = lurish
 		religion = sunni
-		size = 6275
+		size = 15275
 	}
 }
 #Shahr-e Kord (32000/8000 POPS)
@@ -7205,7 +7235,7 @@
 	artisans = {
 		culture = dari
 		religion = zoroastrian
-		size = 8100
+		size = 2100
 	}
 
 	soldiers = {
@@ -7217,7 +7247,7 @@
 	farmers = {
 		culture = dari
 		religion = zoroastrian
-		size = 18125
+		size = 10125
 	}
 	
 	aristocrats = {
@@ -7247,7 +7277,7 @@
 	farmers = {
 		culture = turkmen
 		religion = sunni
-		size = 9125
+		size = 3125
 	}
 	
 	clergymen = {
@@ -7523,7 +7553,7 @@
 	farmers = {
 		culture = persian
 		religion = sunni
-		size = 7000
+		size = 12000
 	}
 	
 	aristocrats = {
@@ -7553,7 +7583,7 @@
 	farmers = {
 		culture = persian
 		religion = shiite
-		size = 1025
+		size = 2025
 	}
 
 	aristocrats = {
@@ -7583,7 +7613,7 @@
 	farmers = {
 		culture = baluchi
 		religion = sunni
-		size = 8200
+		size = 9200
 	}
 	
 	aristocrats = {
@@ -7613,7 +7643,7 @@
 	farmers = {
 		culture = bashkardi
 		religion = shiite
-		size = 800
+		size = 2000
 	}
 }
 #Sistan Region (260000)
@@ -7658,13 +7688,13 @@
 	farmers = {
 		culture = persian
 		religion = sunni
-		size = 4000
+		size = 1000
 	}
 
 	aristocrats = {
 		culture = baluchi
 		religion = sunni
-		size = 625
+		size = 225
 	}
 
 	clergymen = {
@@ -7688,7 +7718,7 @@
 	farmers = {
 		culture = baluchi
 		religion = sunni
-		size = 27000
+		size = 17000
 	}
 	
 	aristocrats = {
@@ -7718,7 +7748,7 @@
 	farmers = {
 		culture = brahui
 		religion = sunni
-		size = 3375
+		size = 1375
 	}
 }
 
@@ -7727,19 +7757,7 @@
 	aristocrats = {
 		culture = persian
 		religion = sunni
-		size = 200
-	}
-
-	bureaucrats = {
-		culture = persian
-		religion = sunni
-		size = 25
-	}
-
-	officers = {
-		culture = persian
-		religion = sunni
-		size = 75
+		size = 100
 	}
 
 	clergymen = {
@@ -7787,7 +7805,7 @@
 	farmers = {
 		culture = bashkardi
 		religion = sunni
-		size = 8000
+		size = 5000
 	}
 	
 	aristocrats = {
@@ -7847,7 +7865,7 @@
 	farmers = {
 		culture = baluchi
 		religion = sunni
-		size = 9375
+		size = 6375
 	}
 }
 
@@ -7928,7 +7946,7 @@
 	farmers = {
 		culture = baluchi
 		religion = sunni
-		size = 20375
+		size = 13375
 	}
 }
 
