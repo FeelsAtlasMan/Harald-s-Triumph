@@ -628,13 +628,43 @@ substate = {
 	start_date = 1836.1.1
 	end_date = 1937.1.1
 }
-substate = {
-	first = SWE
+#Russia
+vassal = {
+	first = MUS
 	second = PLK
 	start_date = 1836.1.1
 	end_date = 1937.1.1
 }
-
+vassal = {
+	first = MUS
+	second = NOV
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+vassal = {
+	first = MUS
+	second = VYA
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+vassal = {
+	first = MUS
+	second = GAL
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+vassal = {
+	first = MUS
+	second = NNO
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+vassal = {
+	first = MUS
+	second = VLA
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
 #Oirat Tributes
 vassal = {
 	first = OIR
@@ -1013,7 +1043,7 @@ vassal = {
 }
 vassal = {
 	first = RTH
-	second = MNK
+	second = DRU
 	start_date = 1836.1.1
 	end_date = 1937.1.1
 }

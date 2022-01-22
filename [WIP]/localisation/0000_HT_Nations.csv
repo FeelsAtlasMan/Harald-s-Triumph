@@ -1,5 +1,5 @@
-NOV;Novgorod;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
-NOV_ADJ;Novgorodian;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+NOV;Novgorod;;;;;;;;;;;;;x
+NOV_ADJ;Novgorodian;;;;;;;;;;;;;x
 NOV_conservative;fill;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 NOV_liberal;fill;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 NOV_reactionary;fill;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
@@ -25,8 +25,8 @@ ZOU_communist;Communists;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 ZOU_fascist;Fascists;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 RYA;Ryazan Cossacks;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 RYA_ADJ;Ryazanian;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
-MUS;Muscowy;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
-MUS_ADJ;Muscowian;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+MUS;Tverite Rus;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+MUS_ADJ;Tverite;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 MUS_conservative;fill;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 MUS_liberal;fill;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 MUS_reactionary;fill;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
@@ -434,15 +434,15 @@ BUR_absolute_monarchy;Ava;;;;;;;;;;;;x
 BUR_hms_government;Ava;;;;;;;;;;;;x
 BUR_prussian_constitutionalism;Ava;;;;;;;;;;;;x
 BUR_ADJ;Avan;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
-MNK;Polotsk;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
-MNK_ADJ;Polotskian;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+MNK;Minsk;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+MNK_ADJ;Minskian;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 NOG;Uly-Noghai Khanate;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 NOG_ADJ;Uly-Noghai;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 PLK;Pleskov;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 PLK_ADJ;Pleskovian;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 TYM_absolute_monarchy;Tymyr Khanate;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 TYM;Tymyr;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
-TYM_ADJ;Pleskovian;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+TYM_ADJ;Tymyr;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 NNT;Nenetsia;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 NNT_ADJ;Nenets;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 YML;Yamalia;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
@@ -473,10 +473,10 @@ YDN_absolute_monarchy;Yedisan Khanate;;;;;;;;;;;;x
 YDN_hms_government;Yedisan Khanate;;;;;;;;;;;;x
 YDN_prussian_constitutionalism;Yedisan Khanate;;;;;;;;;;;;x
 YDN_ADJ;Yedisanian;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
-RTH;Ruthenia;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
-RTH_absolute_monarchy;Great Ruthenia;;;;;;;;;;;;x
-RTH_hms_government;Great Ruthenia;;;;;;;;;;;;x
-RTH_prussian_constitutionalism;Great Ruthenia;;;;;;;;;;;;x
+RTH;Kyiv;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+RTH_absolute_monarchy;Kyiv;;;;;;;;;;;;x
+RTH_hms_government;Kyiv;;;;;;;;;;;;x
+RTH_prussian_constitutionalism;Kyiv;;;;;;;;;;;;x
 RTH_ADJ;Ruthenian;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 KAZ;Kyrgyzstan;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 KAZ_absolute_monarchy;Kyrgyzstan;;;;;;;;;;;;x
@@ -1892,3 +1892,37 @@ NPT_fascist_dictatorship;Eranshahr;;;;;;;;;;;;;x;
 NPT_fascist_dictatorship_ADJ;Iranian;;;;;;;;;;;;;x;
 NPT_democracy;Iran;;;;;;;;;;;;;x;
 NPT_democracy_ADJ;Iranian;;;;;;;;;;;;;x;
+GAL;Galich;;;;;;;;;;;x;
+GAL_ADJ;Galichian;;;;;;;;;;;x;
+VYA;Vyazma;;;;;;;;;;;x;
+VYA_ADJ;Vyazman;;;;;;;;;;;x;
+VLA;Vladimir;;;;;;;;;;;x;
+VLA_ADJ;Vladimir;;;;;;;;;;;x;
+PEN;Penza;;;;;;;;;;;x;
+PEN_ADJ;Penza;;;;;;;;;;;x;
+NNO;Nizhny Novgorod;;;;;;;;;;;x;
+NNO_ADJ;Nizhegorodian;;;;;;;;;;;x;
+QAS;Qaism;;;;;;;;;;;x;
+QAS_ADJ;Qaism;;;;;;;;;;;x;
+QAS_absolute_monarchy;Qaism Khanate;;;;;;;;;;;x;
+BYE;Vitebsk;;;;;;;;;;;x;
+BYE_ADJ;Vitebskian;;;;;;;;;;;x;
+VOR;Voronezh;;;;;;;;;;;x;
+VOR_ADJ;Voronezhian;;;;;;;;;;;x;
+MDV;Mordovia;;;;;;;;;;;x;
+MDV_ADJ;Mordovian;;;;;;;;;;;x;
+MRL;Mari El;;;;;;;;;;;x;
+MRL_ADJ;Mari;;;;;;;;;;;x;
+KHY;Khlynov;;;;;;;;;;;x;
+KHY_ADJ;Khlynovian;;;;;;;;;;;x;
+DRU;Drutsk;;;;;;;;;;;x;
+DRU_ADJ;Drutskian;;;;;;;;;;;x;
+KOM;Komi;;;;;;;;;;;x;
+KOM_ADJ;Komi;;;;;;;;;;;x;
+UMN;Uman;;;;;;;;;;;x;
+UMN_absolute_monarchy;Uman Host;;;;;;;;;;;;x
+UMN_hms_government;Uman Host;;;;;;;;;;;;x
+UMN_prussian_constitutionalism;Uman Host;;;;;;;;;;;;x
+UMN_ADJ;Uman;;;;;;;;;;;x;
+GZA;Gazaria;;;;;;;;;;;x;
+GZA_ADJ;Gazarian;;;;;;;;;;;x;

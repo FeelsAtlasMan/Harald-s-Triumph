@@ -1514,35 +1514,6 @@
 #under the rule of Russia in 1836
 #Mezen (22600/5650 POPS)
 985 = {
-	bureaucrats = {
-		culture = novgorodian
-		religion = orthodox
-		size = 10
-	}
-
-	clergymen = {
-		culture = novgorodian
-		religion = orthodox
-		size = 80
-	}
-
-	artisans = {
-		culture = novgorodian
-		religion = orthodox
-		size = 250
-	}
-
-	soldiers = {
-		culture = novgorodian
-		religion = orthodox
-		size = 50
-	}
-
-	farmers = {
-		culture = novgorodian
-		religion = orthodox
-		size = 2800
-	}
 	
 	farmers = {
 		culture = komi
@@ -1679,6 +1650,35 @@
 #under the rule of Russia in 1836
 #Naryan Mar (4000/1000 POPS)
 986 = {
+	bureaucrats = {
+		culture = novgorodian
+		religion = orthodox
+		size = 10
+	}
+
+	clergymen = {
+		culture = novgorodian
+		religion = orthodox
+		size = 80
+	}
+
+	artisans = {
+		culture = novgorodian
+		religion = orthodox
+		size = 250
+	}
+
+	soldiers = {
+		culture = novgorodian
+		religion = orthodox
+		size = 50
+	}
+
+	farmers = {
+		culture = novgorodian
+		religion = orthodox
+		size = 2800
+	}
 	bureaucrats = {
 		culture = novgorodian
 		religion = orthodox
@@ -4537,7 +4537,7 @@
 	aristocrats = {
 		culture = russian
 		religion = orthodox
-		size = 1700
+		size = 1350
 	}
 
 	clergymen = {
@@ -4561,49 +4561,31 @@
 	farmers = {
 		culture = russian
 		religion = orthodox
-		size = 25000
-	}
-	
-	farmers = {
-		culture = chuvashian
-		religion = orthodox
-		size = 5000
+		size = 20000
 	}
 	
 	clergymen = {
 		culture = mari
 		religion = orthodox
-		size = 600
+		size = 150
 	}
 
 	artisans = {
 		culture = mari
 		religion = orthodox
-		size = 3000
+		size = 750
 	}
 
 	soldiers = {
 		culture = mari
 		religion = orthodox
-		size = 2200
+		size = 550
 	}
 
 	farmers = {
 		culture = mari
 		religion = orthodox
-		size = 39900
-	}
-	
-	soldiers = {
-		culture = bulgar_tatar
-		religion = sunni
-		size = 3000
-	}
-
-	farmers = {
-		culture = bulgar_tatar
-		religion = sunni
-		size = 11000
+		size = 9975
 	}
 
 	clergymen = {
@@ -4634,6 +4616,60 @@
 		culture = udmurt
 		religion = orthodox
 		size = 4625
+	}
+}
+#Yoshkar-Ola
+3674 = {
+	aristocrats = {
+		culture = russian
+		religion = orthodox
+		size = 350
+	}
+	clergymen = {
+		culture = mari
+		religion = orthodox
+		size = 450
+	}
+	farmers = {
+		culture = chuvashian
+		religion = orthodox
+		size = 5000
+	}
+	
+	artisans = {
+		culture = mari
+		religion = orthodox
+		size = 2250
+	}
+
+	soldiers = {
+		culture = mari
+		religion = orthodox
+		size = 1650
+	}
+	
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 5000
+	}
+	
+	farmers = {
+		culture = mari
+		religion = orthodox
+		size = 29925
+	}
+	
+	soldiers = {
+		culture = bulgar_tatar
+		religion = sunni
+		size = 3000
+	}
+
+	farmers = {
+		culture = bulgar_tatar
+		religion = sunni
+		size = 11000
 	}
 }
 #Glasov (452000/113000 POPS)
