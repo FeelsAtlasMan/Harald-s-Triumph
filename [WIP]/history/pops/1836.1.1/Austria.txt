@@ -29,7 +29,7 @@
 	artisans = {
 		culture = south_german
 		religion = catholic
-		size = 2750
+		size = 12750
 	}
 
 	soldiers = {
@@ -47,7 +47,7 @@
 	farmers = {
 		culture = south_german
 		religion = catholic
-		size = 50325
+		size = 80325
 	}
 }
 #Salzburg (136000/34000 POPS)
@@ -112,19 +112,7 @@
 	farmers = {
 		culture = south_german
 		religion = catholic
-		size = 18000
-	}
-	
-	farmers = {
-		culture = hungarian
-		religion = catholic
-		size = 2000
-	}
-	
-	farmers = {
-		culture = slovene
-		religion = catholic
-		size = 4975
+		size = 28000
 	}
 }
 
@@ -176,31 +164,31 @@
 #Bregenz (132000/33000 POPS)
 614 = {
 	aristocrats = {
-		culture = south_german
+		culture = alemannic
 		religion = catholic
 		size = 400 
 	}
 
 	clergymen = {
-		culture = south_german
+		culture = alemannic
 		religion = catholic
 		size = 300 
 	}
 
 	artisans = {
-		culture = south_german
+		culture = alemannic
 		religion = catholic
 		size = 1500
 	}
 
 	soldiers = {
-		culture = south_german
+		culture = alemannic
 		religion = catholic
 		size = 1100
 	}
 
 	farmers = {
-		culture = south_german
+		culture = alemannic
 		religion = catholic
 		size = 24700
 	}
@@ -234,19 +222,13 @@
 	farmers = {
 		culture = south_german
 		religion = catholic
-		size = 8600
+		size = 9600
 	}
 	
 	farmers = {
 		culture = hungarian
 		religion = catholic
 		size = 400
-	}
-	
-	farmers = {
-		culture = venetian
-		religion = catholic
-		size = 1375
 	}
 	
 	farmers = {

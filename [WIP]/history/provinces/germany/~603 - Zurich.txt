@@ -1,0 +1,15 @@
+owner = WUR
+controller = WUR
+add_core = WUR
+add_core = BRG
+add_core = GER
+trade_goods = iron
+life_rating = 38
+terrain = zurich
+fort = 1
+
+state_building = {
+	level = 1
+	building = fabric_factory
+	upgrade = yes
+}
