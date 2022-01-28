@@ -3,62 +3,56 @@
 399 = {
 	aristocrats = {
 		culture = french
-		religion = catholic
-		size = 1400
+		religion = protestant
+		size = 1300
 	}
 
 	officers = {
 		culture = french
-		religion = catholic
-		size = 750
+		religion = protestant
+		size = 650
 	}
 
 	bureaucrats = {
 		culture = french
-		religion = catholic
-		size = 1750
+		religion = protestant
+		size = 1150
 	}
 
 	clergymen = {
 		culture = french
-		religion = catholic
+		religion = protestant
 		size = 1500
 	}
 
 	artisans = {
 		culture = french
-		religion = catholic
-		size = 10000
+		religion = protestant
+		size = 7000
 	}
 
 	soldiers = {
 		culture = french
-		religion = catholic
-		size = 3000
-	}
-
-	soldiers = {
-		culture = french
-		religion = catholic
-		size = 3000
-	}
-
-	soldiers = {
-		culture = french
-		religion = catholic
+		religion = protestant
 		size = 3000
 	}
 
 	labourers = {
 		culture = french
-		religion = catholic
+		religion = protestant
 		size = 5000
 	}
 	
 	labourers = {
 		culture = picard
+		religion = protestant
+		size = 15000
+	}
+	
+	labourers = {
+		culture = picard
 		religion = catholic
-		size = 55000
+		size = 25000
 	}
 	
 	artisans = {
@@ -73,16 +67,16 @@
 		size = 3000
 	}
 
-	soldiers = {
+	labourers = {
 		culture = dutch
 		religion = protestant
-		size = 3000
+		size = 7500
 	}
 	
 	labourers = {
 		culture = dutch
-		religion = protestant
-		size = 50500
+		religion = catholic
+		size = 15500
 	}
 }
 #Dunkirk (396000/99000 POPS)
@@ -108,99 +102,88 @@
 	soldiers = {
 		culture = dutch
 		religion = protestant
-		size = 3000
-	}
-
-	soldiers = {
-		culture = dutch
-		religion = protestant
-		size = 3000
-	}
-
-	soldiers = {
-		culture = dutch
-		religion = protestant
-		size = 3000
-	}
-
-	soldiers = {
-		culture = dutch
-		religion = protestant
-		size = 3000
-	}
-
-	soldiers = {
-		culture = dutch
-		religion = protestant
 		size = 1000
 	}
 
 	farmers = {
 		culture = dutch
 		religion = protestant
-		size = 63550
+		size = 13550
 	}
+	
+	farmers = {
+		culture = dutch
+		religion = catholic
+		size = 10000
+	}
+
 
 	artisans = {
 		culture = french
-		religion = catholic
+		religion = protestant
 		size = 2500
 	}
 
 	soldiers = {
 		culture = french
-		religion = catholic
+		religion = protestant
 		size = 300
 	}
 
 	farmers = {
 		culture = french
-		religion = catholic
+		religion = protestant
 		size = 1000
 	}
 	
 	farmers = {
 		culture = picard
 		religion = catholic
-		size = 14000
+		size = 7000
 	}
 }
 #Arras (428000/107000 POPS)
 401 = {
 	aristocrats = {
 		culture = french
-		religion = catholic
+		religion = protestant
 		size = 850
 	}
 
 	clergymen = {
 		culture = french
-		religion = catholic
+		religion = protestant
 		size = 925
 	}
 
 	artisans = {
 		culture = french
-		religion = catholic
+		religion = protestant
 		size = 5750
 	}
 
 	soldiers = {
 		culture = french
-		religion = catholic
+		religion = protestant
 		size = 1150
 	}
 
 	farmers = {
 		culture = french
-		religion = catholic
+		religion = protestant
 		size = 10000
 	}
 	
 	farmers = {
 		culture = picard
 		religion = catholic
-		size = 45200
+		size = 25200
+	}
+	
+	farmers = {
+		culture = picard
+		religion = protestant
+		size = 20000
 	}
 
 	farmers = {

@@ -98,19 +98,19 @@ USA_201 = { 201 202 204 2555 } #Georgia
 
 USA_205 = { 205 206 } #South Carolina
 
-NEN_207 = { 207 208 209 210 211 214 216 } #Freddrechsäje
+NEN_207 = { 207 208 209 210 211 214 216 } #Freddrechsï¿½je
 
 NEN_60 = { 60 212 213 215 220 221 2146 } #Patameck
 
 USA_218 = { 218 217 2556 } #Appalachien
 
-NEN_219 = { 219 224 225 226 228 235 236 2627 } #Honsrögge
+NEN_219 = { 219 224 225 226 228 235 236 2627 } #Honsrï¿½gge
 
-NEN_222 = { 222 223 229 230 231 } #Neu-Grönnen
+NEN_222 = { 222 223 229 230 231 } #Neu-Grï¿½nnen
 
 USA_232 = { 237 238 239  } #New York
 
-NEN_232 = { 232 233 234 241 242 243 244 245 } #Weldsteenköst
+NEN_232 = { 232 233 234 241 242 243 244 245 } #Weldsteenkï¿½st
 
 NEN_240 = { 240 247 246 248 } #Morjeland
 
@@ -202,11 +202,11 @@ FRA_406 = { 406 405 408 407 } #Champagne
 
 FRA_400 = { 400 399 393 388 389 } #French Flanders
 
-FRA_411 = { 411 413 414 573 412} #Lorraine
+FRA_411 = { 411 413 414 573 412 3710 3711 3712 } #Lorraine
 
-FRA_432 = { 432 433 } #Franche-Comté
+FRA_432 = { 432 433 3715 } #Franche-Comtï¿½
 
-FRA_409 = { 409 410 3694 } #Elass-Pfalz
+FRA_409 = { 409 410 3694 3713 3714 } #Elass-Pfalz
 
 FRA_418 = { 418 415 416 417 } #Normandie
 
@@ -243,13 +243,13 @@ FRA_467 = { 467 468 469 470 471 } #Provence
 
 SPA_474 = { 474 476 } #Galicia
 
-SPA_477 = { 477 479 480 481 482 483 475 478 } #León-Castilla
+SPA_477 = { 477 479 480 481 482 483 475 478 } #Leï¿½n-Castilla
 
 SPA_484 = { 484 485 486 } #Extremadura
 
 SPA_487 = { 487 488 489 490 491 } #Castilla la Nueva
 
-SPA_492 = { 492 493 494 495 496 497 } #Vasconia-Aragón
+SPA_492 = { 492 493 494 495 496 497 } #Vasconia-Aragï¿½n
 
 SPA_498 = { 498 499 500 501 502 3252 } #Catalonia
 
@@ -282,11 +282,11 @@ PRU_546 = { 546 547 548 679 680 692 } #Pomerania
 
 PRU_549 = { 549 550 551 552 } #Brandenburg
 
-PRU_554 = { 554 561 562 563 3256 } #Westthüringen
+PRU_554 = { 554 561 562 563 3256 } #Westthï¿½ringen
 
-THU_556 = { 556 555 559 3255 } #Ostthüringen
+THU_556 = { 556 555 559 3255 } #Ostthï¿½ringen
 
-SAX_558 = { 558 560 } #Krušné Hory
+SAX_558 = { 558 560 } #Kruï¿½nï¿½ Hory
 
 HES_566 = { 566 567 568 3257 } #Osthessen
 
@@ -312,15 +312,15 @@ BAV_613 = { 613 3279 622 3298 } #Ostmark
 
 SWI_606 = { 606 605 604 3272 } #Swiss Mittelland
 
-SWI_607 = { 607 608 609 3250 3271 } #Région Lémanique
+SWI_607 = { 607 608 609 3250 3271 } #Rï¿½gion Lï¿½manique
 
-SWI_603 = { 603 611 3253 614 } #Zürichgau
+SWI_603 = { 603 611 3253 614 } #Zï¿½richgau
  
 PRU_682 = { 682 683 687 } #Lower Silesia
 
 BOH_684 = { 684 688 2584 685 689 } #Upper Silesia
 
-PRU_690 = { 690 691 694 693 } #Westpreußen
+PRU_690 = { 690 691 694 693 } #Westpreuï¿½en
 
 PRU_695 = { 695 696 697 698 3431 3432 3433 } #Prusija
 
@@ -869,7 +869,7 @@ NET_1449 = { 1430 1431 1432 1435 1434 1433 1436 1437 } #Celebes
 
 NET_1451 = { 1452 1453 1454 1560 } #Western New Guinea
 
-SPA_1455 = { 1455 1456 1457 1458 } #Luzón
+SPA_1455 = { 1455 1456 1457 1458 } #Luzï¿½n
 
 SPA_1459 = { 1459 1460 1461 2565 } #Visayas
 
@@ -1195,7 +1195,7 @@ POR_2053 = { 2059 2061 2060 2063 2038 2039 } #Zambezia - now Southern Swahili Co
 
 POR_2054 = { 2057 2052 2058 2053 } #Tete - now Sofala/Shonaland
 
-POR_2060 = { 2064 2581 3436 2065 2037 } #Moçambique - now Yao-Makua
+POR_2060 = { 2064 2581 3436 2065 2037 } #Moï¿½ambique - now Yao-Makua
 
 ENG_2067 = { 2067 2066 2018 2054 2055 2056 } #Malawi
 
@@ -1331,7 +1331,7 @@ ENG_1979 = { 2239 2240 2241 2245 2246 } #Guyana - now Quyana
 
 VNZ_2234 = { 2268 2270 2272 2273 } #Zulia 
 
-VNZ_2265 = { 2264 2265 2266 2267 2274 } #Miranda - now Françiana
+VNZ_2265 = { 2264 2265 2266 2267 2274 } #Miranda - now Franï¿½iana
 
 VNZ_2278 = { 2275 2277 2403 } #Bolivar - now Terre de Sauvage
 
@@ -1339,7 +1339,7 @@ CLM_2276 = { 2276 2269 2243 } #Warao - now Sanha de Warao
 
 CLM_2251 = { 2255 2252 2253 2254 2285 } #Antioquia - now Nou Gasconha 
 
-CLM_2262 = { 2262 2261 2260 2242 } #Guaviare - Terre de Aroüagues
+CLM_2262 = { 2262 2261 2260 2242 } #Guaviare - Terre de Aroï¿½agues
  
 CLM_2247 = { 2247 2249 2251 2271 } #Cundinamarca - now Muiscas de Nord
 
@@ -1358,7 +1358,7 @@ BRZ_2410 = { 2424 2426 3467 } #Tubajara
 
 BRZ_2418 = { 2418 3464 3465 } #Shingu
 
-BRZ_2421 = { 2421 2422 2423 } #Goiás - now Qalwu
+BRZ_2421 = { 2421 2422 2423 } #Goiï¿½s - now Qalwu
 
 BRZ_2428 = { 2431 2428 2429 } #Butiwara
 
@@ -1380,7 +1380,7 @@ BRZ_3472 = { 3472 2437 2438 } #Tupina
 
 BRZ_2444 = { 2444 2445 2453 2456 } #Tamu
 
-BRZ_2408 = { 3473 2440 2443 } #Pará - now Kremak
+BRZ_2408 = { 3473 2440 2443 } #Parï¿½ - now Kremak
 
 BRZ_2439 = { 2436 2439 2449 } #Bahia - now Tufinawa al-Janubiyya
 
@@ -1388,15 +1388,15 @@ BRZ_2446 = { 2442 2446 2441 2452 } #Minas Gerais - al-Buri
 
 BRZ_2447 = { 2447 2448 2451 } #Rio de Janeiro - now al-Sahil al-Humr
 
-BRZ_2462 = { 2458 2460 2462 2306 } #Paraná - now Barana
+BRZ_2462 = { 2458 2460 2462 2306 } #Paranï¿½ - now Barana
 
-BRZ_2306 = { 2450 2455 2457 2459 2461 } #São Paulo - now al-Tufiniqin
+BRZ_2306 = { 2450 2455 2457 2459 2461 } #Sï¿½o Paulo - now al-Tufiniqin
 
 BRZ_2467 = { 2463 2464 2465 2347 } #Rio Grande do Sul - now al-Shariji
 
 ARG_2360 = { 2357 2358 2554 2356 2466 2467 } #Entre Rios - now Taragui
 
-ARG_2387 = { 2373 2376 2377 2378 2365 2362 2364 } #Tucumán - now Apipon Chaquniku
+ARG_2387 = { 2373 2376 2377 2378 2365 2362 2364 } #Tucumï¿½n - now Apipon Chaquniku
 
 PRG_2338 = { 2338 2337 2416 2343 2372 2366 2367 } #Alto Paraguay - now Mpaya Chaquniku
 

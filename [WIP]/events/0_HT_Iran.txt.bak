@@ -203,27 +203,10 @@ country_event = {
 	}
 
     option = {
-        name = We have been victorious!"
-        create_vassal = RDL 
-		create_vassal = BBN 
-		create_vassal = SRN 
-		create_vassal = BDN
-        create_vassal = HKK
-        create_vassal = AKK  	
-        create_vassal = MFQ  	
-		create_vassal = LUR  	
+        name = "We have been victorious!"	
 		create_vassal = SMZ  	
         create_vassal = KRT  	
 		create_vassal = KKH
-        RDL = { all_core = { add_core = THIS } }
-		BBN = { all_core = { add_core = THIS } }
-		SRN = { all_core = { add_core = THIS } }	
-		BDN = { all_core = { add_core = THIS } }
-		HKK = { all_core = { add_core = THIS } }
-		AKK = { all_core = { add_core = THIS } }	
-		MFQ = { all_core = { add_core = THIS } }
-		KHZ = { all_core = { add_core = THIS } }
-		LUR = { all_core = { add_core = THIS } }
 		TKO = { all_core = { add_core = THIS } }
 		inherit = TKO
         926 = { add_core = THIS }
@@ -243,13 +226,29 @@ country_event = {
 	            secede_province = KRM  
 			}
 		}
-		KRM = {
+		FRS = {
 		    any_country = {
-		        limit = { vassal_of = FRS NOT = { tag = AJM } }
-	            create_vassal = THIS 
+		        limit = { vassal_of = THIS NOT = { tag = AJM } }
+	            country_event = 88008 
 			}
 		}
 		bad_boy = 5
         ai_chance = { factor = 100 }
+    }
+}
+
+#fuck event modding (debug event vassals)
+country_event = {
+    id = 88008
+    title = "Farhad Khan defeated"
+    desc = "With Farhad Khan defeated by the Beghdilids we are now forced to either keep fighting or accept Turkoman vassalage..."
+	picture = "iranian_tribesmen"
+
+    is_triggered_only = yes
+
+    option = {
+        name = "Accept the Beghdilid Overlordship"	
+		KRM = { create_vassal = THIS }
+        ai_chance = { factor = 60 }
     }
 }
