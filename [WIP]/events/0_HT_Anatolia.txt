@@ -346,32 +346,18 @@ country_event = {
 	}
 }
 
-#Farhad Khan has answered...
+#fuck event modding (debug event vassals)
 country_event = {
-	id = 278011
-	title = "EVTNAME278011"
-	desc = "EVTDESC278011"
-	picture = "kashmir_selling"
+    id = 278011
+    title = "Turkoman alliagence has changed"
+    desc = "The Turkoman alliagence has changed"
+	picture = "iranian_tribesmen"
 
-	is_triggered_only = yes
-	
-	option = {
-		name = "EVT278011OPTA" #We have no other choice
+    is_triggered_only = yes
+
+    option = {
+        name = "Accept the Beghdilid Overlordship"	
 		FRS = { create_vassal = THIS }
-		KRM = {
-		    war = {
-	            target = FRS
-	            attacker_goal = { casus_belli = cut_down_to_size }
-	            defender_goal = { casus_belli = cut_down_to_size }
-	            call_ally = no
-			}
-        }
-		ai_chance = { factor = 100 }
-	}
-	
-	option = {
-		name = "EVT278011OPTA" #We refuse!
-		prestige = 5
-		ai_chance = { factor = 0 }
-	}
+        ai_chance = { factor = 100 }
+    }
 }
