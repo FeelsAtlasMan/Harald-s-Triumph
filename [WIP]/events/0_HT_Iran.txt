@@ -47,7 +47,7 @@ country_event = {
     option = {
         name = "We have no other choice..."
         TKO = { create_vassal = THIS }
-        ai_chance = { factor = 30 }
+        ai_chance = { factor = 100 }
     }
 	
 	option = {
@@ -156,7 +156,7 @@ country_event = {
 	
 	trigger = {
 	    tag = FRS
-		has_country_flag = got_cut_down 
+		KRM = { has_country_flag = got_cut_down }
 		truce_with = KRM
 	}
 
@@ -176,9 +176,16 @@ country_event = {
         TUR_3630 = { add_core = FRS }
 		TUR_935 = { add_core = FRS }
 		TUR_931 = { add_core = FRS }
+		PER_1117 = { add_core = FRS }
 		TKO = { all_core = { add_core = FRS } }
 		AKK = { all_core = { add_core = FRS } }
 		KHZ = { all_core = { add_core = FRS } }
+		KRM = {
+		    any_owned = {
+		        limit = { is_core = FRS }
+	            secede_province = FRS  
+			}
+		}
 		bad_boy = 5
         ai_chance = { factor = 100 }
     }
@@ -196,7 +203,7 @@ country_event = {
 	
 	trigger = {
 	    tag = KRM
-		has_country_flag = got_cut_down 
+		FRS = { has_country_flag = got_cut_down }
 		truce_with = FRS
 	}
 
@@ -244,7 +251,9 @@ country_event = {
     option = {
         name = "Accept the Beghdilid Overlordship"	
 		FRS = { release_vassal = THIS }
+		all_core = { remove_core = KRM }
 		KRM = { create_vassal = THIS }
+		all_core = { add_core = KRM }
         ai_chance = { factor = 95 }
     }
 	
@@ -321,15 +330,6 @@ country_event = {
 		932 = { add_core = FRS }
 		929 = { add_core = FRS }
 		934 = { add_core = FRS }
-		any_country = {
-            limit = {
-			    tag = KRM
-            }			
-		    any_owned = {
-		        limit = { is_core = FRS }
-	            secede_province = FRS  
-			}
-		}
         ai_chance = { factor = 40 }
     }
 	
@@ -344,15 +344,6 @@ country_event = {
 	            defender_goal = { casus_belli = status_quo }
 	            call_ally = no
             } 
-		}
-		any_country = {
-            limit = {
-			    tag = KRM
-            }			
-		    any_owned = {
-		        limit = { is_core = FRS }
-	            secede_province = FRS  
-			}
 		}
         ai_chance = { factor = 60 }
     }

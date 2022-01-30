@@ -3464,4 +3464,11 @@ farhad_khan = {
 	mobilization_impact = 0.25
 	war_exhaustion = -0.10
 	administrative_efficiency_modifier = 0.2
+	tax_efficiency = 0.25
+	tariff_efficiency_modifier = 0.25
+}
+
+mawlawiyya_influence = {
+	research_points_modifier = 0.2
+	prestige = 0.02
 }

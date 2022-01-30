@@ -17,7 +17,6 @@ christian = {
 	orthodox = {
 		icon = 3
 		color = { 0.7 0.5 0 }
-
 	}
 	
 	coptic = {
@@ -25,14 +24,22 @@ christian = {
 		color = { 0 0.5 0.7 }
 		
 	}
+	
 	kirishitan = {
 		icon = 19
 		color = { 0.5 0.5 0 }
 		
 	}
+	
 	assyrian = {
 		icon = 20
 		color = { 0 0.5 0.7 }
+		
+	}	
+	
+	gallician = {
+		icon = 28
+		color = { 0.2 0.3 0.7 }
 		
 	}	
 }

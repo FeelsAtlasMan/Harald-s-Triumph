@@ -79,6 +79,29 @@ political_decisions = {
 		}	
 	}
 	
+	#Zohrabid Flavour
+	patronisation_of_the_mawlawiyya = {
+	    picture = "mawlawiyya"
+		potential = {
+			tag = FRS
+			has_global_flag = timurd_succ_war
+		}
+		
+		allow = {
+		    war = no
+			money = 3000
+		}
+		
+		effect = {
+			add_country_modifier = {
+	            name = mawlawiyya_influence
+	            duration = 3650
+            }
+			money = -3000
+			prestige = 10
+		}	
+	}
+	
 	#Unciv Mob. 
 	mobilize_tribesmen = {
 		picture = form_the_ikhwan
