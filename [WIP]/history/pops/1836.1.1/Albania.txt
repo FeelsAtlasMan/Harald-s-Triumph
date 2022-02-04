@@ -1,234 +1,617 @@
+#Dibër
 849 = {
 	aristocrats = {
 		culture = albanian
 		religion = orthodox
-		size = 614
+		size = 214
 	}
+	
 	bureaucrats = {
 		culture = albanian
 		religion = orthodox
 		size = 143
 	}
+	
 	officers = {
 		culture = albanian
 		religion = orthodox
 		size = 122
 	}
+	
 	clergymen = {
 		culture = albanian
 		religion = orthodox
 		size = 256
 	}
+	
 	artisans = {
 		culture = albanian
 		religion = orthodox
-		size = 1310
+		size = 310
 	}
+	
 	soldiers = {
 		culture = albanian
 		religion = orthodox
-		size = 819
+		size = 919
 	}
+	
 	farmers = {
 		culture = albanian
 		religion = orthodox
-		size = 25947
+		size = 10947
 	}
-	clergymen = {
-		culture = albanian
+	
+	aristocrats = {
+		culture = tosk
 		religion = orthodox
-		size = 100
+		size = 200
 	}
+	
+	bureaucrats = {
+		culture = tosk
+		religion = orthodox
+		size = 143
+	}
+	
+	officers = {
+		culture = tosk
+		religion = orthodox
+		size = 122
+	}
+	
+	clergymen = {
+		culture = tosk
+		religion = orthodox
+		size = 256
+	}
+	
+	artisans = {
+		culture = tosk
+		religion = orthodox
+		size = 310
+	}
+	
+	soldiers = {
+		culture = tosk
+		religion = orthodox
+		size = 919
+	}
+	
 	farmers = {
 		culture = tosk
 		religion = orthodox
-		size = 21065
+		size = 10065
 	}
 }
+
+#Orosh
 850 = {
 	aristocrats = {
 		culture = albanian
-		religion = orthodox
+		religion = catholic
 		size = 880
 	}
+	
 	clergymen = {
 		culture = albanian
-		religion = orthodox
+		religion = catholic
 		size = 307
 	}
+	
 	artisans = {
 		culture = albanian
-		religion = orthodox
-		size = 1556
+		religion = catholic
+		size = 556
 	}
+	
 	soldiers = {
 		culture = albanian
-		religion = orthodox
-		size = 819
+		religion = catholic
+		size = 2819
 	}
+	
 	farmers = {
 		culture = albanian
-		religion = orthodox
-		size = 30566
+		religion = catholic
+		size = 27566
 	}
 	
 	aristocrats = {
 		culture = albanian
-		religion = catholic
+		religion = orthodox
 		size = 1150
 	}
 
 	clergymen = {
 		culture = albanian
-		religion = catholic
+		religion = orthodox
 		size = 100
 	}
+	
 	artisans = {
 		culture = albanian
-		religion = catholic
+		religion = orthodox
 		size = 430
 	}
-	farmers = {
-		culture = albanian
-		religion = catholic
-		size = 10127
-	}
-}
-851 = {
-	aristocrats = {
-		culture = albanian
-		religion = orthodox
-		size = 245
-	}
-	clergymen = {
-		culture = albanian
-		religion = orthodox
-		size = 100
-	}
-	artisans = {
-		culture = albanian
-		religion = orthodox
-		size = 491
-	}
+	
 	soldiers = {
 		culture = albanian
 		religion = orthodox
-		size = 450
+		size = 2430
 	}
+	
 	farmers = {
 		culture = albanian
 		religion = orthodox
-		size = 4632
-	}
-	clergymen = {
-		culture = tosk
-		religion = catholic
-		size = 100
-	}
-	farmers = {
-		culture = tosk
-		religion = catholic
-		size = 3355
+		size = 10127
 	}
 }
+
+#Kruje
+851 = {
+	aristocrats = {
+		culture = albanian
+		religion = catholic
+		size = 1245
+	}
+	
+	clergymen = {
+		culture = albanian
+		religion = catholic
+		size = 600
+	}
+	
+	artisans = {
+		culture = albanian
+		religion = catholic
+		size = 491
+	}
+	
+	soldiers = {
+		culture = albanian
+		religion = catholic
+		size = 2450
+	}
+	
+	farmers = {
+		culture = albanian
+		religion = catholic
+		size = 30632
+	}
+	
+	aristocrats = {
+		culture = tosk
+		religion = orthodox
+		size = 445
+	}
+	
+	clergymen = {
+		culture = tosk
+		religion = orthodox
+		size = 600
+	}
+	
+	artisans = {
+		culture = tosk
+		religion = orthodox
+		size = 491
+	}
+	
+	soldiers = {
+		culture = tosk
+		religion = orthodox
+		size = 2000
+	}
+	
+	farmers = {
+		culture = tosk
+		religion = orthodox
+		size = 30000
+	}
+	
+	aristocrats = {
+		culture = aromanian
+		religion = orthodox
+		size = 45
+	}
+	
+	clergymen = {
+		culture = aromanian
+		religion = orthodox
+		size = 100
+	}
+	
+	artisans = {
+		culture = aromanian
+		religion = orthodox
+		size = 500
+	}
+	
+	soldiers = {
+		culture = aromanian
+		religion = orthodox
+		size = 50
+	}
+	
+	farmers = {
+		culture = aromanian
+		religion = orthodox
+		size = 6355
+	}
+}
+
+#Durres
+3678 = {
+	aristocrats = {
+		culture = albanian
+		religion = catholic
+		size = 45
+	}
+	
+	clergymen = {
+		culture = albanian
+		religion = catholic
+		size = 60
+	}
+	
+	artisans = {
+		culture = albanian
+		religion = catholic
+		size = 1500
+	}
+	
+	soldiers = {
+		culture = albanian
+		religion = catholic
+		size = 50
+	}
+	
+	farmers = {
+		culture = albanian
+		religion = catholic
+		size = 1000
+	}
+	
+	aristocrats = {
+		culture = tosk
+		religion = orthodox
+		size = 45
+	}
+	
+	clergymen = {
+		culture = tosk
+		religion = orthodox
+		size = 60
+	}
+	
+	artisans = {
+		culture = tosk
+		religion = orthodox
+		size = 1000
+	}
+	
+	soldiers = {
+		culture = tosk
+		religion = orthodox
+		size = 20
+	}
+	
+	farmers = {
+		culture = tosk
+		religion = orthodox
+		size = 800
+	}
+	
+	aristocrats = {
+		culture = venetian
+		religion = catholic
+		size = 45
+	}
+	
+	clergymen = {
+		culture = venetian
+		religion = catholic
+		size = 90
+	}
+	
+	artisans = {
+		culture = venetian
+		religion = catholic
+		size = 1200
+	}
+	
+	soldiers = {
+		culture = venetian
+		religion = catholic
+		size = 50
+	}
+	
+	farmers = {
+		culture = venetian
+		religion = catholic
+		size = 355
+	}
+}
+
+#Scutari
+3679 = {
+	aristocrats = {
+		culture = albanian
+		religion = catholic
+		size = 45
+	}
+	
+	clergymen = {
+		culture = albanian
+		religion = catholic
+		size = 120
+	}
+	
+	artisans = {
+		culture = albanian
+		religion = catholic
+		size = 1500
+	}
+	
+	soldiers = {
+		culture = albanian
+		religion = catholic
+		size = 50
+	}
+	
+	farmers = {
+		culture = albanian
+		religion = catholic
+		size = 3000
+	}
+	
+	aristocrats = {
+		culture = shtokavian
+		religion = orthodox
+		size = 45
+	}
+	
+	clergymen = {
+		culture = shtokavian
+		religion = orthodox
+		size = 60
+	}
+	
+	artisans = {
+		culture = shtokavian
+		religion = orthodox
+		size = 10
+	}
+	
+	soldiers = {
+		culture = shtokavian
+		religion = orthodox
+		size = 20
+	}
+	
+	farmers = {
+		culture = shtokavian
+		religion = orthodox
+		size = 1800
+	}
+	
+	aristocrats = {
+		culture = venetian
+		religion = catholic
+		size = 145
+	}
+	
+	bureaucrats	= {
+		culture = venetian
+		religion = catholic
+		size = 45
+	}
+	
+	clergymen = {
+		culture = venetian
+		religion = catholic
+		size = 160
+	}
+	
+	artisans = {
+		culture = venetian
+		religion = catholic
+		size = 3200
+	}
+	
+	soldiers = {
+		culture = venetian
+		religion = catholic
+		size = 50
+	}
+	
+	farmers = {
+		culture = venetian
+		religion = catholic
+		size = 355
+	}
+}
+
+#Vlore
 852 = {
 	aristocrats = {
 		culture = tosk
 		religion = orthodox
 		size = 573
 	}
+	
 	clergymen = {
 		culture = tosk
 		religion = orthodox
 		size = 256
 	}
+	
 	artisans = {
 		culture = tosk
 		religion = orthodox
-		size = 1331
+		size = 331
 	}
+	
 	soldiers = {
 		culture = tosk
 		religion = orthodox
-		size = 286
+		size = 986
 	}
+	
 	farmers = {
 		culture = tosk
 		religion = orthodox
-		size = 10947
+		size = 18947
 	}
+	
+	aristocrats = {
+		culture = aromanian
+		religion = orthodox
+		size = 73
+	}
+	
+	clergymen = {
+		culture = aromanian
+		religion = orthodox
+		size = 90
+	}
+	
+	artisans = {
+		culture = aromanian
+		religion = orthodox
+		size = 931
+	}
+	
+	soldiers = {
+		culture = aromanian
+		religion = orthodox
+		size = 86
+	}
+	
+	farmers = {
+		culture = aromanian
+		religion = orthodox
+		size = 2047
+	}
+	
 	clergymen = {
 		culture = tosk
-		religion = orthodox
+		religion = catholic
 		size = 143
 	}
+	
 	farmers = {
 		culture = tosk
-		religion = orthodox
+		religion = catholic
 		size = 3232
 	}
+	
+	artisans = {
+		culture = yevanic
+		religion = jewish
+		size = 231
+	}
 }
+
+#Gjirokastra
 853 = {
+	clergymen = {
+		culture = tosk
+		religion = catholic
+		size = 102
+	}
+	
+	soldiers = {
+		culture = tosk
+		religion = catholic
+		size = 450
+	}
+	
+	artisans = {
+		culture = tosk
+		religion = catholic
+		size = 122
+	}
+	
+	farmers = {
+		culture = tosk
+		religion = catholic
+		size = 1246
+	}
+	
+	clergymen = {
+		culture = aromanian
+		religion = orthodox
+		size = 102
+	}
+	
+	soldiers = {
+		culture = aromanian
+		religion = orthodox
+		size = 50
+	}
+	
+	artisans = {
+		culture = aromanian
+		religion = orthodox
+		size = 522
+	}
+	
+	farmers = {
+		culture = aromanian
+		religion = orthodox
+		size = 1246
+	}
+	
 	aristocrats = {
 		culture = tosk
 		religion = orthodox
 		size = 307
 	}
-	clergymen = {
-		culture = tosk
-		religion = orthodox
-		size = 102
-	}
-	soldiers = {
-		culture = tosk
-		religion = orthodox
-		size = 450
-	}
-	artisans = {
-		culture = tosk
-		religion = orthodox
-		size = 122
-	}
-	farmers = {
-		culture = tosk
-		religion = orthodox
-		size = 6246
-	}
-	soldiers = {
-		culture = tosk
-		religion = orthodox
-		size = 100
-	}
+	
 	clergymen = {
 		culture = tosk
 		religion = orthodox
 		size = 100
 	}
+	
 	artisans = {
 		culture = tosk
 		religion = orthodox
 		size = 100
 	}
+	
+	soldiers = {
+		culture = tosk
+		religion = orthodox
+		size = 3379
+	}
+	
 	farmers = {
 		culture = tosk
 		religion = orthodox
-		size = 31379
+		size = 41379
 	}
+	
 	soldiers = {
 		culture = greek
 		religion = orthodox
 		size = 122
 	}
+	
 	clergymen = {
 		culture = greek
 		religion = orthodox
 		size = 100
 	}
+	
 	artisans = {
 		culture = greek
 		religion = orthodox
 		size = 245
 	}
+	
 	farmers = {
 		culture = greek
 		religion = orthodox

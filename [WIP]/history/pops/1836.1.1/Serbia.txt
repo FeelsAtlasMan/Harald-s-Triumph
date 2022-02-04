@@ -85,6 +85,12 @@
 		religion = catholic
 		size = 5225  
 	}
+	
+	farmers = {
+		culture = gypsy
+		religion = catholic
+		size = 1700
+	}
 }
 #Pancevo (268000/67000 POPS) #part of shtokaviania today
 792 = {
@@ -115,7 +121,13 @@
 	farmers = {
 		culture = shtokavian
 		religion = catholic
-		size = 1000
+		size = 8000
+	}
+	
+	farmers = {
+		culture = gypsy
+		religion = orthodox
+		size = 4000
 	}
 
 	aristocrats = {
@@ -145,7 +157,7 @@
 	farmers = {
 		culture = hungarian
 		religion = catholic
-		size = 16700 
+		size = 23700 
 	}
 
 	clergymen = {
@@ -169,7 +181,7 @@
 	farmers = {
 		culture = romanian
 		religion = orthodox
-		size = 20300 
+		size = 6300 
 	}
 }
 #Novi Sad (384000/96000 POPS) #part of shtokaviania today
@@ -414,6 +426,12 @@
 		religion = orthodox
 		size = 6900
 	}
+	
+	farmers = {
+		culture = gypsy
+		religion = orthodox
+		size = 900
+	}
 }
 
 #Bor (220400/55000 POPS)
@@ -475,7 +493,13 @@
 	farmers = {
 		culture = romanian
 		religion = orthodox
-		size = 19000
+		size = 18000
+	}
+	
+	farmers = {
+		culture = gypsy
+		religion = orthodox
+		size = 1000
 	}
 }
 
@@ -522,6 +546,12 @@
 		religion = orthodox
 		size = 2200
 	}
+	
+	farmers = {
+		culture = gypsy
+		religion = orthodox
+		size = 1000
+	}
 }
 #Uzice (72000/18000 POPS)
 797 = {
@@ -554,6 +584,12 @@
 		religion = orthodox
 		size = 13000
 	}
+	
+	farmers = {
+		culture = gypsy
+		religion = orthodox
+		size = 600
+	}
 }
 #under the rule of Ottoman Empire in 1836
 #Nis (260000/65000 POPS)
@@ -580,7 +616,7 @@
 	farmers = {
 		culture = bulgarian
 		religion = orthodox
-		size = 18300
+		size = 15300
 	}	
 
 	aristocrats = {
@@ -622,7 +658,13 @@
 	farmers = {
 		culture = torlakian
 		religion = orthodox
-		size = 43250
+		size = 40250
+	}
+	
+	farmers = {
+		culture = gypsy
+		religion = orthodox
+		size = 6000
 	}
 }
 #Leskovac (220000/55000 POPS)
@@ -688,10 +730,10 @@
 		size = 100
 	}
 
-	artisans = {
+	farmers = {
 		culture = makedonian
 		religion = orthodox
-		size = 2500
+		size = 500
 	}
 
 	soldiers = {
@@ -703,7 +745,13 @@
 	farmers = {
 		culture = torlakian
 		religion = orthodox
-		size = 12575
+		size = 3575
+	}
+	
+	farmers = {
+		culture = gypsy
+		religion = orthodox
+		size = 5000
 	}
 }
 #Kosovo-Sanjak Region (466000)
@@ -712,25 +760,25 @@
 802 = {
 
 	soldiers = {
-		culture = torlakian
+		culture = bulgarian
 		religion = orthodox
 		size = 1100
 	}
 	
 	clergymen = {
-		culture = torlakian
+		culture = bulgarian
 		religion = orthodox
 		size = 100
 	}
 
 	artisans = {
-		culture = torlakian
+		culture = bulgarian
 		religion = orthodox
 		size = 900
 	}
 
 	farmers = {
-		culture = torlakian
+		culture = bulgarian
 		religion = orthodox
 		size = 21420
 	}
@@ -754,27 +802,33 @@
 	}
 
 	clergymen = {
-		culture = bulgarian
+		culture = romanian
 		religion = orthodox
 		size = 100
 	}
 
 	artisans = {
-		culture = bulgarian
+		culture = romanian
 		religion = orthodox
 		size = 100
 	}
 
-	farmers = {
-		culture = bulgarian
+	soldiers = {
+		culture = romanian
 		religion = orthodox
 		size = 100
 	}
 	
 	farmers = {
+		culture = romanian
+		religion = orthodox
+		size = 4000
+	}
+	
+	farmers = {
 		culture = gypsy
 		religion = orthodox
-		size = 300
+		size = 4000
 	}
 
 	aristocrats = {
@@ -793,60 +847,6 @@
 		culture = bulgarian
 		religion = orthodox
 		size = 150
-	}
-
-	clergymen = {
-		culture = bulgarian
-		religion = orthodox
-		size = 100
-	}
-
-	artisans = {
-		culture = bulgarian
-		religion = orthodox
-		size = 2000
-	}
-
-	soldiers = {
-		culture = bulgarian
-		religion = orthodox
-		size = 100
-	}
-
-	farmers = {
-		culture = bulgarian
-		religion = orthodox
-		size = 2800
-	}
-	
-	soldiers = {
-		culture = albanian
-		religion = orthodox
-		size = 100
-	}
-
-	clergymen = {
-		culture = albanian
-		religion = orthodox
-		size = 100
-	}
-
-	artisans = {
-		culture = albanian
-		religion = orthodox
-		size = 1100
-	}
-
-	soldiers = {
-		culture = albanian
-		religion = orthodox
-		size = 1100
-	}
-
-	farmers = {
-		culture = albanian
-		religion = orthodox
-		size = 19700
 	}
 }
 #Prizren (186000/46000 POPS)
@@ -1035,41 +1035,11 @@
 	farmers = {
 		culture = albanian
 		religion = orthodox
-		size = 34550
+		size = 24550
 	}
 	
-	aristocrats = {
-		culture = greek
-		religion = orthodox
-		size = 100
-	}
-
-	officers = {
-		culture = greek
-		religion = orthodox
-		size = 100
-	}
-	
-	soldiers = {
-		culture = greek
-		religion = orthodox
-		size = 200
-	}
-
-	clergymen = {
-		culture = greek
-		religion = orthodox
-		size = 100
-	}
-
-	artisans = {
-		culture = greek
-		religion = orthodox
-		size = 100
-	}
-
 	farmers = {
-		culture = greek
+		culture = gypsy
 		religion = orthodox
 		size = 1425
 	}

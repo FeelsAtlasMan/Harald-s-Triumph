@@ -7,53 +7,53 @@
 		religion = orthodox
 		size = 50
 	}
+
+	soldiers = {
+		culture = shtokavian
+		religion = orthodox
+		size = 900
+	}
+
+	farmers = {
+		culture = shtokavian
+		religion = orthodox
+		size = 10550
+	}
+	
+	aristocrats = {
+	    culture = albanian
+		religion = catholic
+		size = 220
+	}
 	
 	bureaucrats = {
-		culture = shtokavian
-		religion = orthodox
-		size = 20
-	}
-
-	artisans = {
-		culture = shtokavian
-		religion = orthodox
-		size = 400
-	}
-
-	farmers = {
-		culture = shtokavian
-		religion = orthodox
-		size = 16550
-	}
-	
-	farmers = {
 		culture = albanian
 		religion = catholic
-		size = 6000
+		size = 20
 	}
 
 	clergymen = {
 		culture = albanian
-		religion = orthodox
-		size = 25
+		religion = catholic
+		size = 225
 	}
 
 	artisans = {
 		culture = albanian
-		religion = orthodox
-		size = 50
+		religion = catholic
+		size = 150
 	}
 
 	soldiers = {
 		culture = albanian
-		religion = orthodox
-		size = 100
+		religion = catholic
+		size = 1100
 	}
 
-	serfs = {
+	farmers = {
 		culture = albanian
-		religion = orthodox
-		size = 1825
+		religion = catholic
+		size = 17825
 	}
 }
 #Niksic (52000/13000 POPS) 
@@ -73,7 +73,7 @@
 	artisans = {
 		culture = shtokavian
 		religion = orthodox
-		size = 500
+		size = 50
 	}
 	
 	farmers = {
@@ -88,7 +88,7 @@
 		size = 1000
 	}
 
-	serfs = {
+	farmers = {
 		culture = shtokavian
 		religion = orthodox
 		size = 8400
@@ -96,31 +96,31 @@
 
 	aristocrats = {
 		culture = shtokavian
-		religion = catholic
+		religion = orthodox
 		size = 250
 	}
 
 	clergymen = {
 		culture = shtokavian
-		religion = catholic
+		religion = orthodox
 		size = 25
 	}
 
 	artisans = {
 		culture = shtokavian
-		religion = catholic
+		religion = orthodox
 		size = 75
 	}
 
 	soldiers = {
 		culture = shtokavian
-		religion = catholic
+		religion = orthodox
 		size = 125
 	}
 
 	farmers = {
 		culture = shtokavian
-		religion = catholic
+		religion = orthodox
 		size = 6825
 	}
 }
@@ -154,24 +154,24 @@
 	artisans = {
 		culture = shtokavian
 		religion = orthodox
-		size = 1300
+		size = 300
 	}
 
 	soldiers = {
 		culture = shtokavian
 		religion = orthodox
-		size = 1100
+		size = 3200
 	}
 
 	farmers = {
 		culture = shtokavian
 		religion = orthodox
-		size = 17375
+		size = 16375
 	}
 	
 	farmers = {
 		culture = shtokavian
-		religion = catholic
+		religion = orthodox
 		size = 6000
 	}
 	

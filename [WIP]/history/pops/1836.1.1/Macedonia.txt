@@ -188,8 +188,26 @@
 
 }
 
-#Debar - Former Tichit
+#Ohrid - Former Tichit
 1780 = {
+    aristocrats = {
+		culture = albanian
+		religion = orthodox
+		size = 614
+	}
+	
+	bureaucrats = {
+		culture = albanian
+		religion = orthodox
+		size = 143
+	}
+	
+	officers = {
+		culture = albanian
+		religion = orthodox
+		size = 122
+	}
+    
 	clergymen = {
 		culture = albanian
 		religion = orthodox
@@ -211,7 +229,7 @@
 	farmers = {
 		culture = albanian
 		religion = orthodox
-		size = 21062
+		size = 36062
 	}
 	
 	clergymen = {
@@ -235,7 +253,7 @@
 	farmers = {
 		culture = aromanian
 		religion = orthodox
-		size = 1062
+		size = 6062
 	}
 	
 	soldiers = {
@@ -259,7 +277,7 @@
 	farmers = {
 		culture = makedonian
 		religion = orthodox
-		size = 1100
+		size = 10100
 	}
 }
 
