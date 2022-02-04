@@ -42,7 +42,8 @@
 		religion = catholic
 		size = 2350
 	}
-        artisans = {
+	
+    artisans = {
 		culture = asturleonese
 		religion = catholic
 		size = 4350
@@ -60,7 +61,7 @@
 		size = 104350
 	}
 	
-    	farmers = {
+    farmers = {
 		culture = asturleonese
 		religion = catholic
 		size = 40350
@@ -159,6 +160,7 @@
 		religion = catholic
 		size = 55500
 	}
+	
    	farmers = {
 		culture = asturleonese
 		religion = catholic
@@ -1314,7 +1316,8 @@
 		culture = catalan
 		religion = catholic
 		size = 880
-
+    }
+	
 	artisans = {
 		culture = catalan
 		religion = catholic
@@ -1684,13 +1687,13 @@
 	
 	
 	clergymen = {
-		culture = sephardim
+		culture = sephardic
 		religion = jewish
 		size = 25
 	}
 
 	artisans = {
-		culture = sephardim
+		culture = sephardic
 		religion = jewish
 		size = 2100
 	}
@@ -1746,13 +1749,13 @@
 	}	
 	
 	clergymen = {
-		culture = sephardim
+		culture = sephardic
 		religion = jewish
 		size = 25
 	}
 
 	artisans = {
-		culture = sephardim
+		culture = sephardic
 		religion = jewish
 		size = 1000
 	}
@@ -1897,13 +1900,13 @@
 	}
 
 	artisans = {
-		culture = sephardim
+		culture = sephardic
 		religion = jewish
 		size = 3250
 	}
 
 	clergymen = {
-		culture = sephardim
+		culture = sephardic
 		religion = jewish
 		size = 50
 	}

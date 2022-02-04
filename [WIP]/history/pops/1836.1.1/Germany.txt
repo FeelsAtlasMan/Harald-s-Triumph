@@ -3003,7 +3003,7 @@
 	farmers = {
 		culture = central_franconian
 		religion = catholic
-		size = 70750
+		size = 30750
 	}
 
 	clergymen = {
@@ -3016,6 +3016,51 @@
 		culture = ashkenazi
 		religion = jewish
 		size = 495
+	}
+}
+
+#Zweibrücken (556000/139000 POPS)
+3694 = {
+	aristocrats = {
+		culture = central_franconian
+		religion = catholic
+		size = 450  
+	}
+
+	clergymen = {
+		culture = central_franconian
+		religion = catholic
+		size = 700
+	}
+
+	artisans = {
+		culture = central_franconian
+		religion = catholic
+		size = 3800
+	}
+
+	soldiers = {
+		culture = central_franconian
+		religion = catholic
+		size = 750 
+	}
+
+	farmers = {
+		culture = central_franconian
+		religion = catholic
+		size = 40750
+	}
+
+	clergymen = {
+		culture = ashkenazi
+		religion = jewish
+		size = 5     
+	}
+
+	artisans = {
+		culture = ashkenazi
+		religion = jewish
+		size = 195
 	}
 }
 

@@ -753,6 +753,75 @@
 		size = 30000
 	}
 }
+#Bullion (212000/53000 POPS)
+3693 = {
+	aristocrats = {
+		culture = picard
+		religion = catholic
+		size = 100
+	}
+	
+	bureaucrats = {
+		culture = picard
+		religion = catholic
+		size = 20
+	}
+
+	clergymen = {
+		culture = picard
+		religion = catholic
+		size = 200
+	}
+	
+	artisans = {
+		culture = picard
+		religion = catholic
+		size = 100
+	}
+
+	soldiers = {
+		culture = picard
+		religion = catholic
+		size = 900
+	}
+
+	farmers = {
+		culture = picard
+		religion = catholic
+		size = 9000
+	}
+	
+    aristocrats = {
+		culture = central_franconian
+		religion = catholic
+		size = 30
+	}
+
+	clergymen = {
+		culture = central_franconian
+		religion = catholic
+		size = 20
+	}
+
+	artisans = {
+		culture = central_franconian
+		religion = catholic
+		size = 10
+	}
+
+	soldiers = {
+		culture = central_franconian
+		religion = catholic
+		size = 10
+	}
+	
+	farmers = {
+		culture = central_franconian
+		religion = catholic
+		size = 800
+	}
+}
+
 #Liege (212000/53000 POPS)
 395 = {
 	aristocrats = {
@@ -839,35 +908,36 @@
 		size = 2800
 	}
 }
+
 #Spa - Eupen-Malmedy (144000/36000 POPS)
 396 = {
 	aristocrats = {
 		culture = central_franconian
-		religion = catholic
+		religion = protestant
 		size = 50
 	}
 
 	clergymen = {
 		culture = central_franconian
-		religion = catholic
+		religion = protestant
 		size = 200
 	}
 
 	artisans = {
 		culture = central_franconian
-		religion = catholic
+		religion = protestant
 		size = 450
 	}
 
 	soldiers = {
 		culture = central_franconian
-		religion = catholic
+		religion = protestant
 		size = 1200
 	}
 
 	farmers = {
 		culture = central_franconian
-		religion = catholic
+		religion = protestant
 		size = 10375
 	}
 	
@@ -919,31 +989,31 @@
 398 = {
 	aristocrats = {
 		culture = central_franconian
-		religion = catholic
+		religion = protestant
 		size = 450
 	}
 
 	clergymen = {
 		culture = central_franconian
-		religion = catholic
+		religion = protestant
 		size = 225
 	}
 
 	artisans = {
 		culture = central_franconian
-		religion = catholic
+		religion = protestant
 		size = 1350
 	}
 
 	soldiers = {
 		culture = central_franconian
-		religion = catholic
+		religion = protestant
 		size = 1100
 	}
 	
 	farmers = {
 		culture = central_franconian
-		religion = catholic
+		religion = protestant
 		size = 17500
 	}
 	

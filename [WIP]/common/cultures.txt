@@ -778,7 +778,57 @@ pan_romanian = {
 		}
 		radicalism = 10
 	}
-	union = ROM 
+	
+	aromanian = {
+		color = {200 200 140}
+		first_names = { Adrian Alexandru Andrei Anton Artur Bogdan Carol Cezar Constantin Constin
+		Cosmin Daniel Dumitru Emanuel Eremia Eugen Ferdinand Flaviu Florea Gheorghe
+		Grigore Henric Horatiu Iacob Ilie Ioan Ion "Ion Emanuel" Iosif Iulian
+		Iuliu Laurentiu Leontin Luca Lucian Mihai Mircea Nicolae Ovidiu Petru
+		Radu Sergiu Silviu Simion Stefan Valeriu Vasile Victor Vintila Vlad
+		}
+
+		last_names = { Angelescu Antonescu Argetoianu Averescu Baldescu Barozzi Berindei Cernat Christecu Cihoski
+		Ciuperca Coanda Crainiceanu Critescu Culcer Cuza "de Hohenzollern" Dona Dragalina Dumitrescu
+		Falcoianu Florescu Gardescu Grigorescu Froza Harjeu Holban Iancovescu Iliasevici Iliescu
+		Ionascu Ionescu Ionitiu Koslinski Lahovary Lupescu Mardarescu Murgescu Poenaru Prezan
+		Salajan Samsonovici Schitiu Scodrea Slaniceanu Steflea Tatarascu Tenescu Vaitoianu Zottu
+		}
+	}
+	
+	megleno_romanian = {
+		color = {200 240 100}
+		first_names = { Adrian Alexandru Andrei Anton Artur Bogdan Carol Cezar Constantin Constin
+		Cosmin Daniel Dumitru Emanuel Eremia Eugen Ferdinand Flaviu Florea Gheorghe
+		Grigore Henric Horatiu Iacob Ilie Ioan Ion "Ion Emanuel" Iosif Iulian
+		Iuliu Laurentiu Leontin Luca Lucian Mihai Mircea Nicolae Ovidiu Petru
+		Radu Sergiu Silviu Simion Stefan Valeriu Vasile Victor Vintila Vlad
+		}
+
+		last_names = { Angelescu Antonescu Argetoianu Averescu Baldescu Barozzi Berindei Cernat Christecu Cihoski
+		Ciuperca Coanda Crainiceanu Critescu Culcer Cuza "de Hohenzollern" Dona Dragalina Dumitrescu
+		Falcoianu Florescu Gardescu Grigorescu Froza Harjeu Holban Iancovescu Iliasevici Iliescu
+		Ionascu Ionescu Ionitiu Koslinski Lahovary Lupescu Mardarescu Murgescu Poenaru Prezan
+		Salajan Samsonovici Schitiu Scodrea Slaniceanu Steflea Tatarascu Tenescu Vaitoianu Zottu
+		}
+	}
+	
+	istro_romanian = {
+		color = {180 240 140}
+		first_names = { Adrian Alexandru Andrei Anton Artur Bogdan Carol Cezar Constantin Constin
+		Cosmin Daniel Dumitru Emanuel Eremia Eugen Ferdinand Flaviu Florea Gheorghe
+		Grigore Henric Horatiu Iacob Ilie Ioan Ion "Ion Emanuel" Iosif Iulian
+		Iuliu Laurentiu Leontin Luca Lucian Mihai Mircea Nicolae Ovidiu Petru
+		Radu Sergiu Silviu Simion Stefan Valeriu Vasile Victor Vintila Vlad
+		}
+
+		last_names = { Angelescu Antonescu Argetoianu Averescu Baldescu Barozzi Berindei Cernat Christecu Cihoski
+		Ciuperca Coanda Crainiceanu Critescu Culcer Cuza "de Hohenzollern" Dona Dragalina Dumitrescu
+		Falcoianu Florescu Gardescu Grigorescu Froza Harjeu Holban Iancovescu Iliasevici Iliescu
+		Ionascu Ionescu Ionitiu Koslinski Lahovary Lupescu Mardarescu Murgescu Poenaru Prezan
+		Salajan Samsonovici Schitiu Scodrea Slaniceanu Steflea Tatarascu Tenescu Vaitoianu Zottu
+		}
+	}
 }
 
 #Balto-Slavic Languages
@@ -887,6 +937,7 @@ south_slavic = {
 		}
 	}
 	
+	#Bulgarian Group
 	torlakian = {
 		color = {70 130 110}
 		first_names = { Alaksandar Blagoje Bozidar Branko Danilo Dejan Djordje Dragan Dragisa Dragoljub
@@ -933,7 +984,7 @@ south_slavic = {
 		radicalism = 10
 	}
 	
-	bulgarian = {
+	thracian = {
 		color = {70 160 130}
 		first_names = { Aleksandar Andrey Asen Atanas Atila Bogdan Boncho Boris Damyan Dimitar
 		Dobri Ferdinand Georgi Hristo Ilya Ivan Kalin Kardam Kimon Kiril
@@ -951,7 +1002,7 @@ south_slavic = {
 		radicalism = 10
 	}
 	
-	pecenak = {
+	bulgarian = {
 		color = {75 130 120}
 		first_names = { Aleksandar Andrey Asen Atanas Atila Bogdan Boncho Boris Damyan Dimitar
 		Dobri Ferdinand Georgi Hristo Ilya Ivan Kalin Kardam Kimon Kiril

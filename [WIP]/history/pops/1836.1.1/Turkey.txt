@@ -3,31 +3,31 @@
 #Edirne (172000/43000 POPS)
 828 = {
 	aristocrats = {
-		culture = bulgarian
+		culture = thracian
 		religion = orthodox
 		size = 900
 	}
 
 	bureaucrats = {
-		culture = bulgarian
+		culture = thracian
 		religion = orthodox
 		size = 225
 	}
 
 	clergymen = {
-		culture = bulgarian
+		culture = thracian
 		religion = orthodox
 		size = 175
 	}
 
 	artisans = {
-		culture = bulgarian
+		culture = thracian
 		religion = orthodox
 		size = 1000
 	}
 
 	soldiers = {
-		culture = bulgarian
+		culture = thracian
 		religion = orthodox
 		size = 1100
 	}
@@ -57,25 +57,25 @@
 	}
 
 	clergymen = {
-		culture = bulgarian
+		culture = thracian
 		religion = orthodox
 		size = 120
 	}
 
 	artisans = {
-		culture = bulgarian
+		culture = thracian
 		religion = orthodox
 		size = 5500
 	}
 	
 	soldiers = {
-		culture = bulgarian
+		culture = thracian
 		religion = orthodox
 		size = 500
 	}
 
 	farmers = {
-		culture = bulgarian
+		culture = thracian
 		religion = orthodox
 		size = 19950
 	}
@@ -107,25 +107,25 @@
 #Kirklareli (112000/28000 POPS)
 858 = {
 	aristocrats = {
-		culture = bulgarian
+		culture = thracian
 		religion = orthodox
 		size = 550
 	}
 
 	clergymen = {
-		culture = bulgarian
+		culture = thracian
 		religion = orthodox
 		size = 125
 	}
 
 	artisans = {
-		culture = bulgarian
+		culture = thracian
 		religion = orthodox
 		size = 750
 	}
 
 	soldiers = {
-		culture = bulgarian
+		culture = thracian
 		religion = orthodox
 		size = 300
 	}
@@ -155,25 +155,25 @@
 	}
 	
 	soldiers = {
-		culture = bulgarian
+		culture = thracian
 		religion = orthodox
 		size = 200
 	}
 
 	clergymen = {
-		culture = bulgarian
+		culture = thracian
 		religion = orthodox
 		size = 120
 	}
 
 	artisans = {
-		culture = bulgarian
+		culture = thracian
 		religion = orthodox
 		size = 120
 	}
 
 	farmers = {
-		culture = bulgarian
+		culture = thracian
 		religion = orthodox
 		size = 25825
 	}
@@ -210,6 +210,12 @@
 		size = 1100
 	}
 	
+	farmers = {
+		culture = bulgarian
+		religion = orthodox
+		size = 5475
+	}
+	
 	soldiers = {
 		culture = greek
 		religion = orthodox
@@ -231,11 +237,11 @@
 	farmers = {
 		culture = greek
 		religion = orthodox
-		size = 27225
+		size = 22225
 	}
 	
 	aristocrats = {
-		culture = bulgarian
+		culture = thracian
 		religion = orthodox
 		size = 120
 	}
@@ -247,25 +253,25 @@
 	}
 	
 	soldiers = {
-		culture = bulgarian
+		culture = thracian
 		religion = orthodox
 		size = 300
 	}
 
 	clergymen = {
-		culture = bulgarian
+		culture = thracian
 		religion = orthodox
 		size = 200
 	}
 
 	artisans = {
-		culture = bulgarian
+		culture = thracian
 		religion = orthodox
 		size = 2000
 	}
 
 	farmers = {
-		culture = bulgarian
+		culture = thracian
 		religion = orthodox
 		size = 15475
 	}
@@ -301,25 +307,49 @@
 	clergymen = {
 		culture = bulgarian
 		religion = orthodox
-		size = 1125
+		size = 400
 	}
 
 	artisans = {
 		culture = bulgarian
 		religion = orthodox
-		size = 10000
+		size = 1000
 	}
 
 	soldiers = {
 		culture = bulgarian
 		religion = orthodox
-		size = 6000
+		size = 1000
 	}
 
 	farmers = {
 		culture = bulgarian
 		religion = orthodox
-		size = 43675
+		size = 13675
+	}
+	
+	clergymen = {
+		culture = thracian
+		religion = orthodox
+		size = 725
+	}
+
+	artisans = {
+		culture = thracian
+		religion = orthodox
+		size = 9000
+	}
+
+	soldiers = {
+		culture = thracian
+		religion = orthodox
+		size = 5000
+	}
+
+	farmers = {
+		culture = thracian
+		religion = orthodox
+		size = 30000
 	}
 	
 	aristocrats = {
@@ -477,13 +507,6 @@
 		religion = catholic
 		size = 1000
 	}
-
-	slaves = {
-		culture = greek
-		religion = orthodox
-		size = 500
-	}
-	
 }
 #Uskudar (188000/47000 POPS)
 861 = {

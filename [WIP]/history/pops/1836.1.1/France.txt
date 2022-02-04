@@ -2653,6 +2653,94 @@
 		size = 20000
 	}
 }
+
+#Montbelliard (600000/150000 POPS)
+3715 = {
+	aristocrats = {
+		culture = burgundian
+		religion = catholic
+		size = 40
+	}
+
+	clergymen = {
+		culture = burgundian
+		religion = catholic
+		size = 25
+	}
+
+	artisans = {
+		culture = burgundian
+		religion = catholic
+		size = 200
+	}
+
+	soldiers = {
+		culture = burgundian
+		religion = catholic
+		size = 100
+	}
+
+	farmers = {
+		culture = burgundian
+		religion = catholic
+		size = 4000
+	}
+	
+	aristocrats = {
+		culture = central_franconian
+		religion = catholic
+		size = 10
+	}
+
+	bureaucrats = {
+		culture = central_franconian
+		religion = catholic
+		size = 30
+	}
+	
+	aristocrats = {
+		culture = alemannic
+		religion = catholic
+		size = 10
+	}
+
+	clergymen = {
+		culture = alemannic
+		religion = catholic
+		size = 40
+	}
+
+	artisans = {
+		culture = alemannic
+		religion = catholic
+		size = 360
+	}
+
+	soldiers = {
+		culture = alemannic
+		religion = catholic
+		size = 100
+	}
+
+	farmers = {
+		culture = alemannic
+		religion = catholic
+		size = 2750
+	}
+	
+	soldiers = {
+		culture = franco_burgundian
+		religion = protestant
+		size = 100
+	}
+	
+	farmers = {
+		culture = franco_burgundian
+		religion = protestant
+		size = 800
+	}
+}
+
 #Lons (314000/78500 POPS)
 433 = {
 	aristocrats = {
