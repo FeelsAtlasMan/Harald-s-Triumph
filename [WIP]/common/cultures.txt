@@ -984,7 +984,7 @@ south_slavic = {
 		radicalism = 10
 	}
 	
-	thracian = {
+	bulgarian = {
 		color = {70 160 130}
 		first_names = { Aleksandar Andrey Asen Atanas Atila Bogdan Boncho Boris Damyan Dimitar
 		Dobri Ferdinand Georgi Hristo Ilya Ivan Kalin Kardam Kimon Kiril
@@ -1002,8 +1002,8 @@ south_slavic = {
 		radicalism = 10
 	}
 	
-	bulgarian = {
-		color = {75 130 120}
+	thracian = {
+		color = {80 180 150}
 		first_names = { Aleksandar Andrey Asen Atanas Atila Bogdan Boncho Boris Damyan Dimitar
 		Dobri Ferdinand Georgi Hristo Ilya Ivan Kalin Kardam Kimon Kiril
 		Kliment Konstantin Krastyu Leonid Mihail Nikifor Niloa Pencho Petar Petko
@@ -1018,8 +1018,7 @@ south_slavic = {
 		Tsaklev Valkov Valnarov Vasilev Vazov Velchev Zafirov Zhekov Zlatarev Zlatev
 		}
 		radicalism = 10
-	}
-	
+	}	
 }
 
 western_slavic = {
@@ -1344,7 +1343,7 @@ pan_albanian = {
 	}
 	
 	tosk = {
-		color = {140 0 80}
+		color = {140 0 40}
 		first_names = { Ahmet Ali Azem Bajram Behxhet Davud Ekrem Elez Enver Eqrem
 		Esad Fatmir Fejzi Fiqri Gjergj Gjon Hasan Hashim Ibrahim Idhomene
 		Iliaz Ishak Ismail Izet Kara Kastriot Koçi Köpryly Kostaq Lekë
@@ -1362,7 +1361,7 @@ pan_albanian = {
 	}
 	
 	arvanitika = {
-		color = {140 0 80}
+		color = {140 40 80}
 		first_names = { Ahmet Ali Azem Bajram Behxhet Davud Ekrem Elez Enver Eqrem
 		Esad Fatmir Fejzi Fiqri Gjergj Gjon Hasan Hashim Ibrahim Idhomene
 		Iliaz Ishak Ismail Izet Kara Kastriot Koçi Köpryly Kostaq Lekë

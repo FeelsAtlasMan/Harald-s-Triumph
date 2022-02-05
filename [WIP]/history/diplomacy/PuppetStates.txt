@@ -478,8 +478,7 @@ substate = {
 	end_date = 1937.1.1
 }
 
-#Hungary and Romania
-
+#Hungary
 substate = {
 	first = HUN
 	second = BZN
@@ -517,19 +516,19 @@ substate = {
 
 substate = {
 	first = HUN
-	second = BCR
+	second = CRO
 	start_date = 1836.1.1
 	end_date = 1937.1.1
 }
 
-vassal = {
+substate = {
 	first = HUN
 	second = SLO
 	start_date = 1836.1.1
 	end_date = 1937.1.1
 }
 
-vassal = {
+substate = {
 	first = HUN
 	second = JSZ
 	start_date = 1836.1.1

@@ -53,7 +53,31 @@
 	farmers = {
 		culture = chakavian
 		religion = catholic
-		size = 20625
+		size = 18000
+	}
+	
+	clergymen = {
+		culture = istro_romanian
+		religion = catholic
+		size = 25
+	}
+
+	artisans = {
+		culture = istro_romanian
+		religion = catholic
+		size = 90
+	}
+
+	soldiers = {
+		culture = istro_romanian
+		religion = catholic
+		size = 50
+	}
+
+	farmers = {
+		culture = istro_romanian
+		religion = catholic
+		size = 2625
 	}
 	
 	farmers = {
@@ -118,12 +142,6 @@
 		culture = kaykavian
 		religion = catholic
 		size = 300
-	}
-	
-	serfs = {
-		culture = gypsy
-		religion = catholic
-		size = 1000
 	}
 	
 	serfs = {
@@ -231,27 +249,33 @@
 	}
 
 	clergymen = {
-		culture = chakavian
+		culture = kaykavian
 		religion = orthodox
 		size = 100
 	}
 
 	artisans = {
-		culture = chakavian
+		culture = kaykavian
 		religion = orthodox
 		size = 550
 	}
 
 	soldiers = {
-		culture = chakavian
+		culture = kaykavian
 		religion = orthodox
 		size = 125
 	}
 
 	serfs = {
-		culture = chakavian
+		culture = kaykavian
 		religion = orthodox
 		size = 10225
+	}
+	
+	farmers = {
+		culture = gypsy
+		religion = orthodox
+		size = 325
 	}
 }
 #Karlovac (184000/46000 POPS)
@@ -409,6 +433,12 @@
 		religion = catholic
 		size = 5000
 	}
+	
+	serfs = {
+		culture = gypsy
+		religion = catholic
+		size = 500
+	}
 }
 #Bjelovar (52000/13000 POPS)
 776 = {
@@ -481,7 +511,13 @@
 	farmers = {
 		culture = hungarian
 		religion = catholic
-		size = 2650
+		size = 2000
+	}
+	
+	farmers = {
+		culture = gypsy
+		religion = catholic
+		size = 650
 	}
 }
 #Pozega (80000/20000 POPS)
@@ -520,6 +556,12 @@
 		culture = shtokavian
 		religion = orthodox
 		size = 8000
+	}
+	
+	serfs = {
+		culture = gypsy
+		religion = orthodox
+		size = 200
 	}
 }
 #Fiume (52000/13000 POPS)
@@ -698,25 +740,25 @@
 
 	clergymen = {
 		culture = hungarian
-		religion = protestant
+		religion = catholic
 		size = 50 
 	}
 
 	artisans = {
 		culture = hungarian
-		religion = protestant
+		religion = catholic
 		size = 350 
 	}
 
 	soldiers = {
 		culture = hungarian
-		religion = protestant
+		religion = catholic
 		size = 50
 	}
 
 	farmers = {
 		culture = hungarian
-		religion = protestant
+		religion = catholic
 		size = 8300 
 	}
 }
@@ -751,19 +793,13 @@
 	farmers = {
 		culture = chakavian
 		religion = catholic
-		size = 8250
-	}
-	
-	serfs = {
-		culture = gypsy
-		religion = catholic
-		size = 1000
+		size = 15250
 	}
 	
 	serfs = {
 		culture = shtokavian
 		religion = orthodox
-		size = 10000
+		size = 3000
 	}
 
 	clergymen = {

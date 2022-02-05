@@ -370,7 +370,7 @@
 	aristocrats = {
 		culture = torlakian
 		religion = orthodox
-		size = 300
+		size = 100
 	}
 
 	clergymen = {
@@ -382,7 +382,7 @@
 	artisans = {
 		culture = torlakian
 		religion = orthodox
-		size = 1800
+		size = 800
 	}
 
 	soldiers = {
@@ -394,7 +394,37 @@
 	farmers = {
 		culture = torlakian
 		religion = orthodox
-		size = 16000
+		size = 6000
+	}
+	
+	aristocrats = {
+		culture = shtokavian
+		religion = orthodox
+		size = 200
+	}
+
+	clergymen = {
+		culture = shtokavian
+		religion = orthodox
+		size = 85
+	}
+
+	artisans = {
+		culture = shtokavian
+		religion = orthodox
+		size = 1000
+	}
+
+	soldiers = {
+		culture = shtokavian
+		religion = orthodox
+		size = 900
+	}
+
+	farmers = {
+		culture = shtokavian
+		religion = orthodox
+		size = 10000
 	}
 	
 	farmers = {
@@ -437,37 +467,37 @@
 #Bor (220400/55000 POPS)
 795 = {
 	aristocrats = {
-		culture = torlakian
+		culture = shtokavian
 		religion = orthodox
 		size = 500
 	}
 
 	clergymen = {
-		culture = torlakian
+		culture = shtokavian
 		religion = orthodox
 		size = 150
 	}
 
 	artisans = {
-		culture = torlakian
+		culture = shtokavian
 		religion = orthodox
 		size = 2600
 	}
 
 	soldiers = {
-		culture = torlakian
+		culture = shtokavian
 		religion = orthodox
 		size = 1600
 	}
 
 	farmers = {
-		culture = torlakian
+		culture = shtokavian
 		religion = orthodox
-		size = 10000
+		size = 5000
 	}
 	
 	farmers = {
-		culture = bulgarian
+		culture = torlakian
 		religion = orthodox
 		size = 1360
 	}
@@ -493,7 +523,7 @@
 	farmers = {
 		culture = romanian
 		religion = orthodox
-		size = 18000
+		size = 23000
 	}
 	
 	farmers = {
@@ -853,73 +883,73 @@
 803 = {
 
 	aristocrats = {
-		culture = bulgarian
+		culture = shtokavian
 		religion = orthodox
 		size = 100
 	}
 	
 	officers = {
-		culture = bulgarian
+		culture = shtokavian
 		religion = orthodox
 		size = 100
 	}
 
 	soldiers = {
-		culture = bulgarian
+		culture = shtokavian
 		religion = orthodox
 		size = 100
 	}
 
 	clergymen = {
-		culture = bulgarian
+		culture = shtokavian
 		religion = orthodox
 		size = 100
 	}
 
 	artisans = {
-		culture = bulgarian
+		culture = shtokavian
 		religion = orthodox
 		size = 100
 	}
 
 	farmers = {
-		culture = bulgarian
+		culture = shtokavian
 		religion = orthodox
 		size = 3000
 	}
 	
 	aristocrats = {
-		culture = bulgarian
+		culture = shtokavian
 		religion = orthodox
 		size = 100
 	}
 	
 	officers = {
-		culture = bulgarian
+		culture = shtokavian
 		religion = orthodox
 		size = 100
 	}
 
 	soldiers = {
-		culture = bulgarian
+		culture = shtokavian
 		religion = orthodox
 		size = 100
 	}
 
 	clergymen = {
-		culture = bulgarian
+		culture = shtokavian
 		religion = orthodox
 		size = 100
 	}
 
 	artisans = {
-		culture = bulgarian
+		culture = shtokavian
 		religion = orthodox
 		size = 100
 	}
 
 	farmers = {
-		culture = bulgarian
+		culture = shtokavian
 		religion = orthodox
 		size = 2000
 	}
@@ -993,7 +1023,7 @@
 	farmers = {
 		culture = torlakian
 		religion = orthodox
-		size = 5150
+		size = 9150
 	}
 	
 	farmers = {
@@ -1035,7 +1065,7 @@
 	farmers = {
 		culture = albanian
 		religion = orthodox
-		size = 24550
+		size = 20550
 	}
 	
 	farmers = {
@@ -1093,7 +1123,12 @@
 		religion = orthodox
 		size = 7450
 	}
-
+	
+	farmers = {
+		culture = gypsy
+		religion = orthodox
+		size = 1000
+	}
 }
 
 #Kikinda 
@@ -1169,9 +1204,9 @@
 		size = 11000  
 	}
 	farmers = {
-		culture = romanian
+		culture = gypsy
 		religion = orthodox
-		size = 300 
+		size = 2300 
 	}
 }
 

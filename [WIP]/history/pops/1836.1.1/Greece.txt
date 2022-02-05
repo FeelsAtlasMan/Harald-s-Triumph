@@ -74,6 +74,12 @@
 		size = 25005
 	}
 	
+	farmers = {
+		culture = gypsy
+		religion = orthodox
+		size = 555
+	}
+	
 	soldiers = {
 		culture = greek
 		religion = orthodox
@@ -183,6 +189,12 @@
 		religion = orthodox
 		size = 33300
 	}
+	
+	farmers = {
+		culture = gypsy
+		religion = orthodox
+		size = 300
+	}
 }
 
 #Mt. Athos
@@ -278,6 +290,12 @@
 		culture = makedonian
 		religion = orthodox
 		size = 5525
+	}
+	
+	farmers = {
+		culture = gypsy
+		religion = orthodox
+		size = 1025
 	}
 	
 	aristocrats = {
@@ -463,6 +481,12 @@
 		religion = orthodox
 		size = 12325
 	}
+	
+	farmers = {
+		culture = gypsy
+		religion = orthodox
+		size = 1325
+	}
 }
 #Grevena (140000/35000 POPS) #now part of Greece
 820 = {
@@ -567,6 +591,12 @@
 		religion = orthodox
 		size = 15325
 	}
+	
+	farmers = {
+		culture = gypsy
+		religion = orthodox
+		size = 325
+	}
 }
 #Edessa (128000/32000 POPS) #now part of Greece
 821 = {
@@ -652,6 +682,12 @@
 		culture = aromanian
 		religion = orthodox
 		size = 4975
+	}
+	
+	farmers = {
+		culture = gypsy
+		religion = orthodox
+		size = 475
 	}
 }
 #Epirus Region (724000) #see Albania.txt for balance of region 
@@ -762,6 +798,12 @@
 	
 	farmers = {
 		culture = yevanic
+		religion = jewish
+		size = 1000
+	}
+	
+	farmers = {
+		culture = gypsy
 		religion = orthodox
 		size = 1000
 	}
@@ -816,8 +858,8 @@
 		size = 35000
 	}
 	
-	soldiers = {
-		culture = greek
+	farmers = {
+		culture = gypsy
 		religion = orthodox
 		size = 425
 	}
@@ -965,6 +1007,12 @@
 		size = 28925
 	}
 	
+	farmers = {
+		culture = gypsy
+		religion = orthodox
+		size = 1925
+	}
+	
 	soldiers = {
 		culture = greek
 		religion = orthodox
@@ -1020,6 +1068,12 @@
 		culture = thracian
 		religion = orthodox
 		size = 19900
+	}
+	
+	farmers = {
+		culture = gypsy
+		religion = orthodox
+		size = 1000
 	}
 	
 	soldiers = {
@@ -1140,6 +1194,12 @@
 		size = 38000
 	}
 	
+	farmers = {
+		culture = gypsy
+		religion = orthodox
+		size = 800
+	}
+	
 	artisans = {
 		culture = yevanic
 		religion = jewish
@@ -1176,6 +1236,12 @@
 		culture = makedonian
 		religion = orthodox
 		size = 9925
+	}
+	
+	farmers = {
+		culture = gypsy
+		religion = orthodox
+		size = 325
 	}
 	
 	aristocrats = {
@@ -1358,33 +1424,39 @@
 	}
 	
 	aristocrats = {
-		culture = tosk
+		culture = arvanitika
 		religion = orthodox
 		size = 400
 	}
 
 	officers = {
-		culture = tosk
+		culture = arvanitika
 		religion = orthodox
 		size = 100
 	}
 
 	clergymen = {
-		culture = tosk
+		culture = arvanitika
 		religion = orthodox
 		size = 475
 	}
 	
 	soldiers = {
-		culture = tosk
+		culture = arvanitika
 		religion = orthodox
 		size = 1100
 	}
 	
 	farmers = {
-		culture = tosk
+		culture = arvanitika
 		religion = orthodox
 		size = 17175
+	}
+	
+	farmers = {
+		culture = gypsy
+		religion = orthodox
+		size = 3175
 	}
 }
 #Amfissa (76000/19000 POPS)
@@ -1414,27 +1486,33 @@
 	}
 	
 	clergymen = {
-		culture = greek
+		culture = arvanitika
 		religion = orthodox
 		size = 350
 	}
 
 	artisans = {
-		culture = greek
+		culture = arvanitika
 		religion = orthodox
 		size = 200
 	}
 
 	soldiers = {
-		culture = greek
+		culture = arvanitika
 		religion = orthodox
 		size = 300
 	}
 	
 	farmers = {
-		culture = tosk
+		culture = arvanitika
 		religion = orthodox
 		size = 8050
+	}
+	
+	farmers = {
+		culture = gypsy
+		religion = orthodox
+		size = 150
 	}
 }
 #Lamia (44000/11000 POPS)
@@ -1462,6 +1540,12 @@
 		religion = orthodox
 		size = 29200
 	}
+	
+	farmers = {
+		culture = gypsy
+		religion = orthodox
+		size = 200
+	}
 }
 #Missolonghi (140000/35000 POPS)
 837 = {
@@ -1487,6 +1571,12 @@
 		culture = greek
 		religion = orthodox
 		size = 43000
+	}
+	
+	farmers = {
+		culture = gypsy
+		religion = orthodox
+		size = 1200
 	}
 	
 	clergymen = {
@@ -1540,25 +1630,25 @@
 	}
 	
 	clergymen = {
-		culture = tosk
+		culture = arvanitika
 		religion = orthodox
 		size = 50
 	}
 
 	artisans = {
-		culture = tosk
+		culture = arvanitika
 		religion = orthodox
 		size = 50
 	}
 
 	soldiers = {
-		culture = tosk
+		culture = arvanitika
 		religion = orthodox
 		size = 100
 	}
 
 	farmers = {
-		culture = tosk
+		culture = arvanitika
 		religion = orthodox
 		size = 2100
 	}
@@ -1634,13 +1724,13 @@
 	}
 
 	soldiers = {
-		culture = tosk
+		culture = arvanitika
 		religion = orthodox
 		size = 2600
 	}
 
 	farmers = {
-		culture = tosk
+		culture = arvanitika
 		religion = orthodox
 		size = 2000
 	}
@@ -1672,25 +1762,25 @@
 	}
 	
 	clergymen = {
-		culture = greek
+		culture = arvanitika
 		religion = orthodox
 		size = 100
 	}
 
 	artisans = {
-		culture = greek
+		culture = arvanitika
 		religion = orthodox
 		size = 450
 	}
 
 	soldiers = {
-		culture = greek
+		culture = arvanitika
 		religion = orthodox
 		size = 400
 	}
 	
 	farmers = {
-		culture = tosk
+		culture = arvanitika
 		religion = orthodox
 		size = 11100
 	}
@@ -1722,25 +1812,25 @@
 	}
 	
 	clergymen = {
-		culture = tosk
+		culture = arvanitika
 		religion = orthodox
 		size = 50
 	}
 
 	artisans = {
-		culture = tosk
+		culture = arvanitika
 		religion = orthodox
 		size = 50
 	}
 
 	soldiers = {
-		culture = tosk
+		culture = arvanitika
 		religion = orthodox
 		size = 200
 	}
 
 	farmers = {
-		culture = tosk
+		culture = arvanitika
 		religion = orthodox
 		size = 2000
 	}
@@ -1790,25 +1880,25 @@
 	}
 	
 	clergymen = {
-		culture = tosk
+		culture = arvanitika
 		religion = orthodox
 		size = 100
 	}
 
 	artisans = {
-		culture = tosk
+		culture = arvanitika
 		religion = orthodox
 		size = 400
 	}
 
 	soldiers = {
-		culture = tosk
+		culture = arvanitika
 		religion = orthodox
 		size = 100
 	}
 
 	farmers = {
-		culture = tosk
+		culture = arvanitika
 		religion = orthodox
 		size = 6000
 	}

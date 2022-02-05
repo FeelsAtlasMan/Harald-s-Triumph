@@ -103,6 +103,12 @@
 		religion = orthodox
 		size = 6200
 	}
+	
+	farmers = {
+		culture = gypsy
+		religion = orthodox
+		size = 4200
+	}
 
 	artisans = {
 		culture = sephardic
@@ -141,7 +147,31 @@
 	farmers = {
 		culture = torlakian
 		religion = orthodox
-		size = 24075
+		size = 14075
+	}
+	
+	soldiers = {
+		culture = albanian
+		religion = orthodox
+		size = 200
+	}
+	
+	clergymen = {
+		culture = albanian
+		religion = orthodox
+		size = 30
+	}
+
+	artisans = {
+		culture = albanian
+		religion = orthodox
+		size = 125
+	}
+
+	farmers = {
+		culture = albanian
+		religion = orthodox
+		size = 10000
 	}
 
 	aristocrats = {
@@ -178,6 +208,12 @@
 		culture = aromanian
 		religion = orthodox
 		size = 1100
+	}
+	
+	farmers = {
+		culture = gypsy
+		religion = orthodox
+		size = 400
 	}
 
 	artisans = {
@@ -279,6 +315,12 @@
 		religion = orthodox
 		size = 10100
 	}
+	
+	farmers = {
+		culture = gypsy
+		religion = orthodox
+		size = 700
+	}
 }
 
 #Kastoria
@@ -353,6 +395,12 @@
 		culture = makedonian
 		religion = orthodox
 		size = 3100
+	}
+	
+	farmers = {
+		culture = gypsy
+		religion = orthodox
+		size = 300
 	}
 }
 
@@ -463,6 +511,12 @@
 	farmers = {
 		culture = greek
 		religion = orthodox
-		size = 6100
+		size = 4000
+	}
+	
+	farmers = {
+		culture = gypsy
+		religion = orthodox
+		size = 2100
 	}
 }

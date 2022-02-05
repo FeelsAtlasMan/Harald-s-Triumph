@@ -83,6 +83,12 @@
 		religion = orthodox
 		size = 10065
 	}
+	
+	farmers = {
+		culture = gypsy
+		religion = orthodox
+		size = 400
+	}
 }
 
 #Orosh
@@ -210,6 +216,12 @@
 		size = 30000
 	}
 	
+	farmers = {
+		culture = gypsy
+		religion = orthodox
+		size = 2000
+	}
+	
 	aristocrats = {
 		culture = aromanian
 		religion = orthodox
@@ -331,6 +343,12 @@
 		culture = venetian
 		religion = catholic
 		size = 355
+	}
+	
+	farmers = {
+		culture = gypsy
+		religion = orthodox
+		size = 55
 	}
 }
 
@@ -507,6 +525,12 @@
 		size = 3232
 	}
 	
+	farmers = {
+		culture = gypsy
+		religion = orthodox
+		size = 232
+	}
+	
 	artisans = {
 		culture = yevanic
 		religion = jewish
@@ -616,5 +640,11 @@
 		culture = greek
 		religion = orthodox
 		size = 8799
+	}
+	
+	farmers = {
+		culture = gypsy
+		religion = orthodox
+		size = 799
 	}
 }

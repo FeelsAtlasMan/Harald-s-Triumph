@@ -56,6 +56,12 @@
 		size = 4075
 	}
 	
+	farmers = {
+		culture = gypsy
+		religion = orthodox
+		size = 875
+	}
+	
 	soldiers = {
 		culture = makedonian
 		religion = orthodox
@@ -152,37 +158,73 @@
 	}
 	
 	aristocrats = {
-		culture = bulgarian
+		culture = thracian
 		religion = orthodox
 		size = 100
 	}
 
 	officers = {
-		culture = bulgarian
+		culture = thracian
 		religion = orthodox
 		size = 100
 	}
 
 	clergymen = {
-		culture = bulgarian
+		culture = thracian
 		religion = orthodox
 		size = 600
 	}
 
 	artisans = {
-		culture = bulgarian
+		culture = thracian
 		religion = orthodox
-		size = 2500
+		size = 500
 	}
 	
 	soldiers = {
-		culture = bulgarian
+		culture = thracian
 		religion = orthodox
 		size = 500
 	}
 
 	farmers = {
-		culture = bulgarian
+		culture = thracian
+		religion = orthodox
+		size = 8442
+	}
+	
+	aristocrats = {
+		culture = makedonian
+		religion = orthodox
+		size = 100
+	}
+
+	officers = {
+		culture = makedonian
+		religion = orthodox
+		size = 100
+	}
+
+	clergymen = {
+		culture = makedonian
+		religion = orthodox
+		size = 600
+	}
+
+	artisans = {
+		culture = makedonian
+		religion = orthodox
+		size = 500
+	}
+	
+	soldiers = {
+		culture = makedonian
+		religion = orthodox
+		size = 500
+	}
+
+	farmers = {
+		culture = makedonian
 		religion = orthodox
 		size = 5442
 	}
@@ -220,7 +262,13 @@
 	farmers = {
 		culture = bulgarian
 		religion = orthodox
-		size = 48425
+		size = 40000
+	}
+	
+	farmers = {
+		culture = gypsy
+		religion = orthodox
+		size = 1425
 	}
 	
 	aristocrats = {
@@ -318,7 +366,13 @@
 	farmers = {
 		culture = bulgarian
 		religion = orthodox
-		size = 10125
+		size = 9400
+	}
+	
+	farmers = {
+		culture = gypsy
+		religion = orthodox
+		size = 1000
 	}
 
 	soldiers = {
@@ -452,7 +506,13 @@
 	farmers = {
 		culture = bulgarian
 		religion = orthodox
-		size = 26050
+		size = 25500
+	}
+	
+	farmers = {
+		culture = gypsy
+		religion = orthodox
+		size = 550
 	}
 
 	artisans = {
@@ -538,7 +598,13 @@
 	farmers = {
 		culture = bulgarian
 		religion = orthodox
-		size = 47650
+		size = 46650
+	}
+	
+	farmers = {
+		culture = gypsy
+		religion = orthodox
+		size = 1000
 	}
 }
 #Shumen (144000/36000 POPS)
@@ -618,7 +684,13 @@
 	farmers = {
 		culture = bulgarian
 		religion = orthodox
-		size = 22700
+		size = 21700
+	}
+	
+	farmers = {
+		culture = gypsy
+		religion = orthodox
+		size = 1000
 	}
 }
 
@@ -676,6 +748,12 @@
 		culture = bulgarian
 		religion = orthodox
 		size = 35875
+	}
+	
+	farmers = {
+		culture = gypsy
+		religion = orthodox
+		size = 675
 	}
 }
 #Rumelia Region (396000)
@@ -807,6 +885,12 @@
 		religion = orthodox
 		size = 2200
 	}
+	
+	farmers = {
+		culture = gypsy
+		religion = orthodox
+		size = 400
+	}
 
 	artisans = {
 		culture = sephardic
@@ -876,6 +960,12 @@
 		religion = orthodox
 		size = 13475
 	}
+	
+	farmers = {
+		culture = gypsy
+		religion = orthodox
+		size = 275
+	}
 }
 
 #Stara Zagora (80000/20000 POPS)
@@ -938,6 +1028,12 @@
 		culture = thracian
 		religion = orthodox
 		size = 31475
+	}
+	
+	farmers = {
+		culture = gypsy
+		religion = orthodox
+		size = 2475
 	}
 	
 	clergymen = {
@@ -1018,6 +1114,12 @@
 		culture = bulgarian
 		religion = orthodox
 		size = 8425
+	}
+	
+	farmers = {
+		culture = gypsy
+		religion = orthodox
+		size = 2425
 	}
 
 	aristocrats = {
@@ -1191,6 +1293,12 @@
 		culture = bulgarian
 		religion = orthodox
 		size = 4100  
+	}
+	
+	farmers = {
+		culture = gypsy
+		religion = orthodox
+		size = 2100  
 	}
 	
 	aristocrats = {

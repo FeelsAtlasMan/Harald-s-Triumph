@@ -40,25 +40,25 @@
 
 	clergymen = {
 		culture = slovene
-		religion = catholic
+		religion = protestant
 		size = 450
 	}
 
 	artisans = {
 		culture = slovene
-		religion = catholic
+		religion = protestant
 		size = 600
 	}
 
 	soldiers = {
 		culture = slovene
-		religion = catholic
+		religion = protestant
 		size = 450 
 	}
 
 	farmers = {
 		culture = slovene
-		religion = catholic
+		religion = protestant
 		size = 12500
 	}
 	
@@ -87,50 +87,62 @@
 768 = {
 	aristocrats = {
 		culture = slovene
-		religion = catholic
+		religion = protestant
 		size = 825
 	}
 
 	bureaucrats = {
 		culture = slovene
-		religion = catholic
+		religion = protestant
 		size = 225
 	}
 
 	officers = {
 		culture = slovene
-		religion = catholic
+		religion = protestant
 		size = 100
 	}
 
 	clergymen = {
 		culture = slovene
-		religion = catholic
+		religion = protestant
 		size = 700
 	}
 
 	artisans = {
 		culture = slovene
-		religion = catholic
+		religion = protestant
 		size = 4000
 	}
 
 	soldiers = {
 		culture = slovene
-		religion = catholic
+		religion = protestant
 		size = 1100
 	}
 
 	farmers = {
 		culture = slovene
+		religion = protestant
+		size = 30000
+	}
+	
+	farmers = {
+		culture = slovene
 		religion = catholic
-		size = 53150
+		size = 23150
 	}
 	
 	serfs = {
 		culture = slovene
 		religion = catholic
-		size = 20000
+		size = 18000
+	}
+	
+	serfs = {
+		culture = gypsy
+		religion = catholic
+		size = 2000
 	}
 	
 }
@@ -138,32 +150,86 @@
 769 = {
 	aristocrats = {
 		culture = slovene
-		religion = catholic
-		size = 500
+		religion = protestant
+		size = 300
 	}
 
 	clergymen = {
 		culture = slovene
-		religion = catholic
-		size = 425
+		religion = protestant
+		size = 350
 	}
 
 	artisans = {
 		culture = slovene
-		religion = catholic
-		size = 2100
+		religion = protestant
+		size = 1900
 	}
 
 	soldiers = {
 		culture = slovene
-		religion = catholic
-		size = 425
+		religion = protestant
+		size = 1000
 	}
 
 	farmers = {
 		culture = slovene
+		religion = protestant
+		size = 25000
+	}
+	
+	aristocrats = {
+		culture = slovene
+		religion = protestant
+		size = 200
+	}
+
+	clergymen = {
+		culture = slovene
+		religion = protestant
+		size = 75
+	}
+
+	artisans = {
+		culture = slovene
+		religion = protestant
+		size = 300
+	}
+
+	soldiers = {
+		culture = slovene
+		religion = protestant
+		size = 125
+	}
+
+	farmers = {
+		culture = slovene
+		religion = protestant
+		size = 5000
+	}
+	
+	clergymen = {
+		culture = istro_romanian
 		religion = catholic
-		size = 30000
+		size = 25
+	}
+
+	artisans = {
+		culture = istro_romanian
+		religion = catholic
+		size = 20
+	}
+
+	soldiers = {
+		culture = istro_romanian
+		religion = catholic
+		size = 25
+	}
+
+	farmers = {
+		culture = istro_romanian
+		religion = catholic
+		size = 500
 	}
 	
 	farmers = {
@@ -195,31 +261,46 @@
 		religion = catholic
 		size = 1000
 	}
-
 }
 
 #Murska Sobota
 3294 = {
 	aristocrats = {
 		culture = cuman
-		religion = catholic
+		religion = protestant
 		size = 250
 	}
+	
 	clergymen = {
 		culture = cuman
-		religion = catholic
+		religion = protestant
 		size = 100
 	}
+	
+	artisans = {
+		culture = slovene
+		religion = protestant
+		size = 500
+	}
+	
+	farmers = {
+		culture = cuman
+		religion = protestant
+		size = 5700
+	}
+	
 	artisans = {
 		culture = slovene
 		religion = catholic
-		size = 1000
+		size = 500
 	}
+	
 	soldiers = {
 		culture = slovene
 		religion = catholic
 		size = 100
 	}
+	
 	farmers = {
 		culture = slovene
 		religion = catholic
@@ -231,21 +312,25 @@
 		religion = catholic
 		size = 150
 	}
+	
 	clergymen = {
 		culture = hungarian
 		religion = catholic
 		size = 10
 	}
+	
 	farmers = {
 		culture = hungarian
 		religion = catholic
-		size = 3000
+		size = 2000
 	}
+	
 	farmers = {
-		culture = cuman
+		culture = gypsy
 		religion = catholic
-		size = 5000
+		size = 300
 	}
+
 	artisans = {
 		culture = south_german
 		religion = catholic

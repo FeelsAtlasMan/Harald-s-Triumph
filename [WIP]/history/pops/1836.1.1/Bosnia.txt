@@ -83,7 +83,13 @@
 	farmers = {
 		culture = shtokavian
 		religion = orthodox
-		size = 24000
+		size = 14000
+	}
+	
+	farmers = {
+		culture = gypsy
+		religion = orthodox
+		size = 3000
 	}
 	
 	aristocrats = {
@@ -142,8 +148,7 @@
 }
 
 #Trevnik (148000/37000 POPS)
-3299 = {
-	
+3299 = {	
 	aristocrats = {
 		culture = shtokavian
 		religion = orthodox
@@ -178,6 +183,12 @@
 		culture = shtokavian
 		religion = orthodox
 		size = 24000
+	}
+	
+	farmers = {
+		culture = gypsy
+		religion = orthodox
+		size = 1000
 	}
 	
 	aristocrats = {
@@ -231,7 +242,7 @@
 	artisans = {
 		culture = sephardic
 		religion = jewish
-		size = 2000
+		size = 200
 	}
 }
 
@@ -291,6 +302,12 @@
 		size = 8625
 	}
 	
+	farmers = {
+		culture = gypsy
+		religion = orthodox
+		size = 625
+	}
+	
 	soldiers = {
 		culture = shtokavian
 		religion = catholic
@@ -312,37 +329,37 @@
 	farmers = {
 		culture = shtokavian
 		religion = catholic
-		size = 6650
+		size = 2650
 	}
 }
 #Banja Luka (116000/29000 POPS)
 785 = {
 	aristocrats = {
-		culture = kaykavian
+		culture = shtokavian
 		religion = catholic
 		size = 500
 	}
 	
 	soldiers = {
-		culture = kaykavian
+		culture = shtokavian
 		religion = catholic
 		size = 100
 	}
 
 	clergymen = {
-		culture = kaykavian
+		culture = shtokavian
 		religion = catholic
 		size = 100
 	}
 
 	artisans = {
-		culture = kaykavian
+		culture = shtokavian
 		religion = catholic
 		size = 800
 	}
 
 	farmers = {
-		culture = kaykavian
+		culture = shtokavian
 		religion = catholic
 		size = 4500
 	}
@@ -371,6 +388,12 @@
 		size = 18300
 	}
 	
+	farmers = {
+		culture = gypsy
+		religion = orthodox
+		size = 1300
+	}
+	
 	soldiers = {
 		culture = shtokavian
 		religion = catholic
@@ -395,6 +418,94 @@
 		size = 3675
 	}
 }
+
+#Novi Grad (116000/29000 POPS)
+3716 = {
+	aristocrats = {
+		culture = shtokavian
+		religion = catholic
+		size = 500
+	}
+	
+	soldiers = {
+		culture = shtokavian
+		religion = catholic
+		size = 100
+	}
+
+	clergymen = {
+		culture = shtokavian
+		religion = catholic
+		size = 100
+	}
+
+	artisans = {
+		culture = shtokavian
+		religion = catholic
+		size = 800
+	}
+
+	farmers = {
+		culture = shtokavian
+		religion = catholic
+		size = 4500
+	}
+	
+	soldiers = {
+		culture = shtokavian
+		religion = orthodox
+		size = 100
+	}
+
+	clergymen = {
+		culture = shtokavian
+		religion = orthodox
+		size = 100
+	}
+
+	artisans = {
+		culture = shtokavian
+		religion = orthodox
+		size = 500
+	}
+
+	farmers = {
+		culture = shtokavian
+		religion = orthodox
+		size = 8300
+	}
+	
+	farmers = {
+		culture = gypsy
+		religion = orthodox
+		size = 300
+	}
+	
+	soldiers = {
+		culture = shtokavian
+		religion = catholic
+		size = 100
+	}
+
+	clergymen = {
+		culture = shtokavian
+		religion = catholic
+		size = 100
+	}
+
+	artisans = {
+		culture = shtokavian
+		religion = catholic
+		size = 150
+	}
+
+	farmers = {
+		culture = shtokavian
+		religion = catholic
+		size = 675
+	}
+}
+
 #Tuzla (168000/42000 POPS)
 786 = {
 	aristocrats = {
@@ -475,6 +586,12 @@
 		size = 5675
 	}
 	
+	farmers = {
+		culture = gypsy
+		religion = orthodox
+		size = 675
+	}
+	
 	clergymen = {
 		culture = sephardic
 		religion = jewish
@@ -541,6 +658,12 @@
 		culture = shtokavian
 		religion = orthodox
 		size = 15300
+	}
+	
+	farmers = {
+		culture = gypsy
+		religion = orthodox
+		size = 300
 	}
 }
 #Mostar (104000/26000 POPS)
@@ -680,25 +803,25 @@
 	}
 	
 	soldiers = {
-		culture = chakavian
+		culture = shtokavian
 		religion = orthodox
 		size = 100
 	}
 
 	clergymen = {
-		culture = chakavian
+		culture = shtokavian
 		religion = orthodox
 		size = 100
 	}
 
 	artisans = {
-		culture = chakavian
+		culture = shtokavian
 		religion = orthodox
 		size = 600
 	}
 
 	farmers = {
-		culture = chakavian
+		culture = shtokavian
 		religion = orthodox
 		size = 14300
 	}

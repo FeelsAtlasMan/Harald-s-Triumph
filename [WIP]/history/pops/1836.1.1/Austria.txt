@@ -156,7 +156,7 @@
 	
 	farmers = {
 		culture = slovene
-		religion = catholic
+		religion = protestant
 		size = 4975
 	}
 }
@@ -233,7 +233,7 @@
 	
 	farmers = {
 		culture = slovene
-		religion = catholic
+		religion = protestant
 		size = 1775
 	}
 }
@@ -291,52 +291,146 @@
 
 	clergymen = {
 		culture = slovene
-		religion = catholic
+		religion = protestant
 		size = 1025 
 	}
 
 	artisans = {
 		culture = slovene
-		religion = catholic
+		religion = protestant
 		size = 1000
 	}
 
 	soldiers = {
 		culture = slovene
-		religion = catholic
+		religion = protestant
 		size = 2050
 	}
 
 	farmers = {
 		culture = slovene
-		religion = catholic
+		religion = protestant
 		size = 26420 
 	}
 	
 	farmers = {
-		culture = cuman
+		culture = slovene
 		religion = catholic
-		size = 20675 
+		size = 20000 
+	}
+	
+	farmers = {
+		culture = cuman
+		religion = protestant
+		size = 6675 
 	}
 }
-#Judenburg (168000/42000 POPS)
-617 = {
+
+#Nemethely (380000/95000 POPS)
+3718 = {
 	aristocrats = {
 		culture = hungarian
 		religion = catholic
-		size = 700 
+		size = 50 
 	}
-
+	
 	clergymen = {
 		culture = hungarian
 		religion = catholic
-		size = 450
+		size = 25 
 	}
 
 	artisans = {
 		culture = hungarian
 		religion = catholic
-		size = 2250
+		size = 100
+	}
+
+	soldiers = {
+		culture = hungarian
+		religion = catholic
+		size = 50
+	}
+
+	farmers = {
+		culture = hungarian
+		religion = catholic
+		size = 1280
+	}
+	
+	clergymen = {
+		culture = south_german
+		religion = catholic
+		size = 65 
+	}
+
+	artisans = {
+		culture = south_german
+		religion = catholic
+		size = 100
+	}
+
+	soldiers = {
+		culture = south_german
+		religion = catholic
+		size = 50
+	}
+
+	farmers = {
+		culture = south_german
+		religion = catholic
+		size = 6080
+	}
+
+	clergymen = {
+		culture = slovene
+		religion = protestant
+		size = 25 
+	}
+
+	artisans = {
+		culture = slovene
+		religion = protestant
+		size = 20
+	}
+
+	soldiers = {
+		culture = slovene
+		religion = protestant
+		size = 50
+	}
+
+	farmers = {
+		culture = slovene
+		religion = protestant
+		size = 420 
+	}
+	
+	farmers = {
+		culture = cuman
+		religion = protestant
+		size = 2675 
+	}
+}
+
+#Judenburg (168000/42000 POPS)
+617 = {
+	aristocrats = {
+		culture = hungarian
+		religion = catholic
+		size = 70 
+	}
+
+	clergymen = {
+		culture = hungarian
+		religion = catholic
+		size = 50
+	}
+
+	artisans = {
+		culture = hungarian
+		religion = catholic
+		size = 250
 	}
 
 	soldiers = {
@@ -348,7 +442,7 @@
 	farmers = {
 		culture = hungarian
 		religion = catholic
-		size = 5150
+		size = 10150
 	}
 	
 	farmers = {
@@ -357,22 +451,40 @@
 		size = 4000
 	}
 	
+	aristocrats = {
+		culture = hungarian
+		religion = protestant
+		size = 700 
+	}
+
+	clergymen = {
+		culture = hungarian
+		religion = protestant
+		size = 450
+	}
+
+	artisans = {
+		culture = hungarian
+		religion = protestant
+		size = 2250
+	}
+	
 	soldiers = {
 		culture = cuman
-		religion = catholic
+		religion = protestant
 		size = 5000
 	}
 	
 	farmers = {
 		culture = cuman
-		religion = catholic
-		size = 11000
+		religion = protestant
+		size = 19000
 	}
 	
 	farmers = {
 		culture = slovene
-		religion = catholic
-		size = 15000
+		religion = protestant
+		size = 5000
 	}
 }
 #Klagenfurt (188000/47000 POPS)
@@ -406,29 +518,53 @@
 		religion = catholic
 		size = 5675
 	}
+	
+	clergymen = {
+		culture = slovene
+		religion = protestant
+		size = 75 
+	}
+
+	artisans = {
+		culture = slovene
+		religion = protestant
+		size = 450
+	}
+
+	soldiers = {
+		culture = slovene
+		religion = protestant
+		size = 900
+	}
+
+	farmers = {
+		culture = slovene
+		religion = protestant
+		size = 15675 
+	}
 
 	clergymen = {
 		culture = slovene
 		religion = catholic
-		size = 175 
+		size = 100 
 	}
 
 	artisans = {
 		culture = slovene
 		religion = catholic
-		size = 950
+		size = 450
 	}
 
 	soldiers = {
 		culture = slovene
 		religion = catholic
-		size = 1200
+		size = 900
 	}
 
 	farmers = {
 		culture = slovene
 		religion = catholic
-		size = 33675 
+		size = 18000 
 	}
 	
 	artisans = {
@@ -478,7 +614,7 @@
 	
 	farmers = {
 		culture = slovene
-		religion = catholic
+		religion = protestant
 		size = 4975
 	}
 }
@@ -529,40 +665,46 @@
 		size = 11000
 	}
 	
+	aristocrats = {
+		culture = cuman
+		religion = protestant
+		size = 2250 
+	}
+	
 	bureaucrats = {
 		culture = cuman
-		religion = catholic
+		religion = protestant
 		size = 2000
 	}
 
 	officers = {
 		culture = cuman
-		religion = catholic
+		religion = protestant
 		size = 500 
 	}
 
 	clergymen = {
 		culture = cuman
-		religion = catholic
+		religion = protestant
 		size = 450
 	}
 
 	artisans = {
 		culture = cuman
-		religion = catholic
+		religion = protestant
 		size = 8000
 	}
 	
 	farmers = {
 		culture = cuman
-		religion = catholic
+		religion = protestant
 		size = 45250
 	}
 	
 	aristocrats = {
 		culture = hungarian
 		religion = catholic
-		size = 4250 
+		size = 2000 
 	}
 
 	bureaucrats = {
@@ -616,13 +758,13 @@
 	clergymen = {
 		culture = ashkenazi
 		religion = jewish
-		size = 2025 
+		size = 225 
 	}
 
 	artisans = {
 		culture = ashkenazi
 		religion = jewish
-		size = 10595
+		size = 4595
 	}
 }
 #Sankt Polten (88000/22000 POPS)
@@ -631,12 +773,6 @@
 		culture = hungarian
 		religion = catholic
 		size = 375 
-	}
-
-	bureaucrats = {
-		culture = hungarian
-		religion = catholic
-		size = 600 
 	}
 	
 	clergymen = {
@@ -654,31 +790,43 @@
 	farmers = {
 		culture = hungarian
 		religion = catholic
-		size = 22925 
+		size = 9925 
+	}
+	
+	aristocrats = {
+		culture = cuman
+		religion = protestant
+		size = 375 
+	}
+
+	bureaucrats = {
+		culture = cuman
+		religion = protestant
+		size = 60 
+	}
+	
+	clergymen = {
+		culture = cuman
+		religion = protestant
+		size = 250
+	}
+
+	artisans = {
+		culture = cuman
+		religion = protestant
+		size = 1200
 	}
 	
 	soldiers = {
 		culture = cuman
-		religion = catholic
+		religion = protestant
 		size = 2250 
 	}
 
 	farmers = {
 		culture = cuman
-		religion = catholic
-		size = 18000 
-	}
-
-	soldiers = {
-		culture = slovak
-		religion = catholic
-		size = 250 
-	}
-
-	farmers = {
-		culture = slovak
-		religion = catholic
-		size = 4000 
+		religion = protestant
+		size = 31000 
 	}
 	
 	artisans = {
@@ -692,7 +840,7 @@
 	aristocrats = {
 		culture = hungarian
 		religion = catholic
-		size = 925 
+		size = 225 
 	}
 
 	clergymen = {
@@ -704,25 +852,43 @@
 	artisans = {
 		culture = hungarian
 		religion = catholic
-		size = 3100
+		size = 1100
 	}
 	
 	farmers = {
 		culture = hungarian
 		religion = catholic
-		size = 16700
+		size = 6700
+	}
+	
+	aristocrats = {
+		culture = hungarian
+		religion = catholic
+		size = 925 
+	}
+
+	clergymen = {
+		culture = cuman
+		religion = catholic
+		size = 625
+	}
+
+	artisans = {
+		culture = cuman
+		religion = catholic
+		size = 3100
 	}
 	
 	soldiers = {
 		culture = cuman
-		religion = catholic
+		religion = protestant
 		size = 2650
 	}
 
 	farmers = {
 		culture = cuman
-		religion = catholic
-		size = 17500
+		religion = protestant
+		size = 23500
 	}
 
 	soldiers = {
@@ -734,7 +900,7 @@
 	farmers = {
 		culture = slovak
 		religion = catholic
-		size = 3500
+		size = 7500
 	}
 	
 	artisans = {
@@ -749,6 +915,88 @@
 		size = 3000
 	}
 }
+
+#Kannal (240000/60000 POPS)
+3717 = {
+	aristocrats = {
+		culture = hungarian
+		religion = catholic
+		size = 25 
+	}
+
+	clergymen = {
+		culture = hungarian
+		religion = catholic
+		size = 65
+	}
+
+	artisans = {
+		culture = hungarian
+		religion = catholic
+		size = 110
+	}
+	
+	farmers = {
+		culture = hungarian
+		religion = catholic
+		size = 1700
+	}
+	
+	aristocrats = {
+		culture = cuman
+		religion = protestant
+		size = 5 
+	}
+
+	clergymen = {
+		culture = cuman
+		religion = protestant
+		size = 25
+	}
+
+	artisans = {
+		culture = cuman
+		religion = protestant
+		size = 30
+	}
+	
+	soldiers = {
+		culture = cuman
+		religion = protestant
+		size = 50
+	}
+
+	farmers = {
+		culture = cuman
+		religion = protestant
+		size = 500
+	}
+
+	soldiers = {
+		culture = slovak
+		religion = catholic
+		size = 10
+	}
+
+	farmers = {
+		culture = slovak
+		religion = catholic
+		size = 30
+	}
+	
+	artisans = {
+		culture = south_german
+		religion = catholic
+		size = 80
+	}
+	
+	farmers = {
+		culture = south_german
+		religion = catholic
+		size = 300
+	}
+}
+
 #Linz (588000/147000 POPS)
 622 = {
 	aristocrats = {
@@ -842,12 +1090,12 @@
 	farmers = {
 		culture = hungarian
 		religion = catholic
-		size = 17075
+		size = 27075
 	}
 	
 	farmers = {
 		culture = cuman
-		religion = catholic
+		religion = protestant
 		size = 10000
 	}
 
@@ -890,24 +1138,24 @@
 	clergymen = {
 		culture = slovene
 		religion = catholic
-		size = 1225
+		size = 125
 	}
 
 	artisans = {
 		culture = slovene
 		religion = catholic
-		size = 5600
+		size = 500
 	}
 
 	soldiers = {
 		culture = slovene
 		religion = catholic
-		size = 1250
+		size = 250
 	}
 
 	farmers = {
 		culture = slovene
 		religion = catholic
-		size = 13625
+		size = 1625
 	}
 }
