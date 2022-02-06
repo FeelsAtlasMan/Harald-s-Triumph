@@ -1,19 +1,4 @@
 #Sphere of Influence
-SER = {
-	value = -175
-	level = 3
-}
-
-BCR = {
-	value = -150
-	level = 1
-}
-
-BBO = {
-	value = -150
-	level = 3
-}
-
 BSV = {
 	value = -150
 	level = 3
@@ -29,10 +14,59 @@ TUR = {
 	level = 5		
 	influence_value = 100
 }
+THY = {
+	value = 200		
+	level = 5		
+	influence_value = 100
+}
+AOM = {
+	value = 200		
+	level = 5		
+	influence_value = 100
+}
+ATH = {
+	value = 200		
+	level = 5		
+	influence_value = 100
+}
+MRE = {
+	value = 200		
+	level = 5		
+	influence_value = 100
+}
+EPI = {
+	value = 200		
+	level = 5		
+	influence_value = 100
+}
+MTH = {
+	value = 200		
+	level = 5		
+	influence_value = 100
+}
+ZNB = {
+	value = -200		
+	level = 1		
+}
+GRP = {
+	value = -200		
+	level = 1		
+}
+THP = {
+	value = -200		
+	level = 1		
+}
+MRD = {
+	value = -200		
+	level = 1		
+}
+ZHR = {
+	value = -200		
+	level = 1		
+}
 KRM = {
-	value = -100
-	level = 3
-	influence_value = 10
+	value = -200
+	level = 1
 }
 UKR = {
 	value = 175		
@@ -141,93 +175,7 @@ leader = {
 }
 
 army = {
-	name = "1. Armiya ot Gutska Tema"
-	location = 834
-	regiment = {
-		name= "1st Greek Infantry"
-		type = infantry
-		home = 834
-	}
-
-	regiment = {
-		name= "2nd Greek Infantry"
-		type = infantry
-		home = 834
-	}
-	
-	regiment = {
-		name= "3rd Greek Infantry"
-		type = infantry
-		home = 835
-	}
-
-	regiment = {
-		name= "4th Greek Infantry"
-		type = infantry
-		home = 835
-	}
-	
-	regiment = {
-		name= "5th Greek Infantry"
-		type = infantry
-		home = 836
-	}
-
-	regiment = {
-		name= "1st Greek Cavallery"
-		type = hussar
-		home = 837
-	}
-	
-	regiment = {
-		name= "2nd Greek Cavallery"
-		type = hussar
-		home = 837
-	}
-	
-	regiment = {
-		name= "1st Greek Artillery"
-		type = artillery
-		home = 840
-	}
-	
-	regiment = {
-		name= "2nd Greek Artillery"
-		type = artillery
-		home = 845
-	}
-}
-
-army = {
-	name = "2. Armiya ot Gutska Tema"
-	location = 842
-	regiment = {
-		name= "1st Greek Infantry"
-		type = infantry
-		home = 842
-	}
-
-	regiment = {
-		name= "2nd Greek Infantry"
-		type = infantry
-		home = 842
-	}
-	
-	regiment = {
-		name= "1st Greek Cavallery"
-		type = hussar
-		home = 839
-	}
-	
-	regiment = {
-		name= "1st Greek Artillery"
-		type = artillery
-		home = 841
-	}
-}
-
-army = {
-	name = "Armiya ot Makedonska Tema"
+	name = "Army of Makedonia"
 	location = 805
 	regiment = {
 		name= "1st Makedonian Infantry"
@@ -238,7 +186,7 @@ army = {
 	regiment = {
 		name= "2nd Makedonian Infantry"
 		type = infantry
-		home = 805
+		home = 3675
 	}
 	
 	regiment = {
@@ -256,169 +204,117 @@ army = {
 	regiment = {
 		name= "5th Makedonian Infantry"
 		type = infantry
-		home = 806
+		home = 809
 	}
 
 	regiment = {
 		name= "1st Makedonian Cavallery"
 		type = hussar
-		home = 807
+		home = 829
 	}
 	
 	regiment = {
 		name= "1st Makedonian Artillery"
 		type = artillery
-		home = 1780
+		home = 812
 	}
 }
 
 army = {
-	name = "Armiya ot Trakiiska Tema"
-	location = 859
+	name = "Army of Bulgaria"
+	location = 809
 	regiment = {
-		name= "1st Thrakian Infantry"
+		name= "1st Bulgarian Infantry"
+		type = infantry
+		home = 802
+	}
+
+	regiment = {
+		name= "2nd Bulgarian Infantry"
 		type = infantry
 		home = 859
 	}
-
-	regiment = {
-		name= "2nd Thrakian Infantry"
-		type = infantry
-		home = 828
-	}
 	
 	regiment = {
-		name= "3rd Thrakian Infantry"
-		type = infantry
-		home = 817
-	}
-
-	regiment = {
-		name= "4th Thrakian Infantry"
-		type = infantry
-		home = 829
-	}
-	
-	regiment = {
-		name= "5th Thrakian Infantry"
-		type = infantry
-		home = 829
-	}
-
-	regiment = {
-		name= "1st Thrakian Cavallery"
-		type = hussar
-		home = 805
-	}
-	
-	regiment = {
-		name= "2nd Thrakian Cavallery"
-		type = hussar
-		home = 814
-	}
-	
-	regiment = {
-		name= "1st Thrakian Artillery"
-		type = artillery
-		home = 814
-	}
-	
-	regiment = {
-		name= "2nd Thrakian Artillery"
-		type = artillery
-		home = 813
-	}
-}
-
-army = {
-	name = "Armiya na Bulgarska Tema"
-	location = 809
-	regiment = {
-		name= "1st Thrakian Infantry"
-		type = infantry
-		home = 809
-	}
-
-	regiment = {
-		name= "2nd Thrakian Infantry"
-		type = infantry
-		home = 809
-	}
-	
-	regiment = {
-		name= "3rd Thrakian Infantry"
-		type = infantry
-		home = 810
-	}
-
-	regiment = {
-		name= "4th Thrakian Infantry"
-		type = infantry
-		home = 812
-	}
-	
-	regiment = {
-		name= "5th Thrakian Infantry"
+		name= "3rd Bulgarian Infantry"
 		type = infantry
 		home = 811
 	}
 
 	regiment = {
-		name= "1st Thrakian Cavallery"
+		name= "4th Bulgarian Infantry"
+		type = infantry
+		home = 813
+	}
+	
+	regiment = {
+		name= "5th Bulgarian Infantry"
+		type = infantry
+		home = 828
+	}
+
+	regiment = {
+		name= "1st Bulgarian Cavallery"
 		type = hussar
-		home = 798
+		home = 829
 	}
 	
 	regiment = {
-		name= "2nd Thrakian Cavallery"
-		type = hussar
-		home = 802
-	}
-	
-	regiment = {
-		name= "1st Thrakian Artillery"
+		name= "1st Bulgarian Artillery"
 		type = artillery
-		home = 802
-	}
-	
-	regiment = {
-		name= "2nd Thrakian Artillery"
-		type = artillery
-		home = 803
+		home = 845
 	}
 }
 
 army = {
-	name = "Pazach na Tsarya"
+	name = "Army of Thrace"
 	location = 860
 	regiment = {
-		name= "1st Guard of the Czar"
-		type = guard
+		name= "1st Thracian Infantry"
+		type = infantry
 		home = 860
 	}
 
 	regiment = {
-		name= "2nd Guard of the Czar"
-		type = guard
+		name= "2nd Thracian Infantry"
+		type = infantry
 		home = 860
 	}
 	
 	regiment = {
-		name= "3rd Guard of the Czar"
-		type = guard
+		name= "3rd Thracian Infantry"
+		type = infantry
 		home = 860
 	}
-	
+
 	regiment = {
-		name= "1st Cavallery of the Czar"
-		type = cuirassier
+		name= "4th Thracian Infantry"
+		type = infantry
 		home = 861
+	}
+	
+	regiment = {
+		name= "5th Thracian Infantry"
+		type = infantry
+		home = 818
+	}
+
+	regiment = {
+		name= "1st Thracian Cavallery"
+		type = hussar
+		home = 818
+	}
+	
+	regiment = {
+		name= "1st Thracian Artillery"
+		type = artillery
+		home = 810
 	}
 }
 
 navy = {
 	name = "Bulgarian Fleet"
-	location = 805
+	location = 860
 	ship = {
 		name= "1. Man o' War"
 		type = manowar
@@ -438,57 +334,7 @@ navy = {
 		name= "4. Man o' War"
 		type = manowar
 	}
-
-	ship = {
-		name= "5. Man o' War"
-		type = manowar
-	}
-
-	ship = {
-		name= "6. Man o' War"
-		type = manowar
-	}
-
-	ship = {
-		name= "7. Man o' War"
-		type = manowar
-	}
-
-	ship = {
-		name= "8. Man o' War"
-		type = manowar
-	}
-
-	ship = {
-		name= "9. Man o' War"
-		type = manowar
-	}
-
-	ship = {
-		name= "10. Man o' War"
-		type = manowar
-	}
-
-	ship = {
-		name= "11. Man o' War"
-		type = manowar
-	}
-
-	ship = {
-		name= "12. Man o' War"
-		type = manowar
-	}
-
-	ship = {
-		name= "13. Man o' War"
-		type = manowar
-	}
-
-	ship = {
-		name= "14. Man o' War"
-		type = manowar
-	}
-
+	
 	ship = {
 		name= "1. Frigate"
 		type = frigate
@@ -525,46 +371,6 @@ navy = {
 	}
 
 	ship = {
-		name= "8. Frigate"
-		type = frigate
-	}
-
-	ship = {
-		name= "9. Frigate"
-		type = frigate
-	}
-
-	ship = {
-		name= "10. Frigate"
-		type = frigate
-	}
-
-	ship = {
-		name= "11. Frigate"
-		type = frigate
-	}
-
-	ship = {
-		name= "12. Frigate"
-		type = frigate
-	}
-
-	ship = {
-		name= "13. Frigate"
-		type = frigate
-	}
-
-	ship = {
-		name= "14. Frigate"
-		type = frigate
-	}
-
-	ship = {
-		name= "15. Frigate"
-		type = frigate
-	}
-
-	ship = {
 		name= "1. Clipper"
 		type = clipper_transport
 	}
@@ -573,27 +379,6 @@ navy = {
 		name= "2. Clipper"
 		type = clipper_transport
 	}
-
-	ship = {
-		name= "3. Clipper"
-		type = clipper_transport
-	}
-	
-	ship = {
-		name= "4. Clipper"
-		type = clipper_transport
-	}
-
-	ship = {
-		name= "5. Clipper"
-		type = clipper_transport
-	}
-
-	ship = {
-		name= "6. Clipper"
-		type = clipper_transport
-	}
-
 }
 
 

@@ -1,5 +1,6 @@
 capital = 824
-primary_culture = greek
+primary_culture = tosk
+culture = greek
 religion = orthodox
 government = colonial_company
 plurality = 0.4
@@ -48,8 +49,6 @@ upper_house = {
 	socialist = 0
 	communist = 0
 }
-
-set_country_flag = existing_country
 
 # Technologies
 post_napoleonic_thought = 1
