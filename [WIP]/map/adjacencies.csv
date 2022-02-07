@@ -178,27 +178,59 @@ From;To;Type;Through;Data;Comment
 1226;1591;impassable;0;0;scary mountain
 
 #Alps
-
-#727;735;impassable;0;0;Bergamo-Bozen
-#727;734;impassable;0;0;Bergamo-Trent
-#732;735;impassable;0;0;Treviso-Bozen
-#732;615;impassable;0;0;Treviso-Lienz
-#732;618;impassable;0;0;Treviso-Klagenfurth
-#733;618;impassable;0;0;Udine-Klagenfurt
 2669;735;impassable;0;0;Sondrio-Bozen
 2669;734;impassable;0;0;Sondrio-Trent
-2669;611;impassable;0;0;Sondrio-Chur
-2669;2568;impassable;0;0;Sondrio-Lugano
+2669;727;impassable;0;0;Sondrio-Bergamo
+611;2568;impassable;0;0;Chur-Lugano
+611;727;impassable;0;0;Chur-Bergamo
 3262;734;impassable;0;0;Belluno-Trent
 3262;735;impassable;0;0;Belluno-Bozen
 3262;615;impassable;0;0;Belluno-Lienz
 3262;618;impassable;0;0;Belluno-Klagenfurt
-#727;611;impassable;0;0;Bergamo-Chur
-#727;2568;impassable;0;0;Bergamo-Lugano
 722;605;impassable;0;0;Novara-Bern
 2568;722;impassable;0;0;Lugano-Novara
 609;722;impassable;0;0;Sitten-Novara
 606;722;impassable;0;0;Lucerne-Novara
+
+#Carpathian Mauntains
+636;704;impassable;0;0;Banska Bystrica-Nowy Sad
+636;2584;impassable;0;0;Banska Bystrica-Bielsko
+638;705;impassable;0;0;Presov-Przemysl
+3278;3332;impassable;0;0;Jaroslaw-Chust
+953;3332;impassable;0;0;Halyc-Chust
+705;3332;impassable;0;0;Przemysl-Chust
+953;3333;impassable;0;0;Halyc-Maramos
+662;3333;impassable;0;0;Cernauti-Maramos
+672;660;impassable;0;0;Bacau-Maramos
+659;668;impassable;0;0;Brasso-Braila
+659;667;impassable;0;0;Brasso-Tirgoviste
+665;656;impassable;0;0;Tirgo Jiu-Deva
+665;653;impassable;0;0;Tirgo Jiu-Resicabanya
+
+#Balkans
+789;3299;impassable;0;0;Livno-Trevnik
+788;783;impassable;0;0;Mostar-Sarajevo
+788;787;impassable;0;0;Mostar-Foca
+2569;787;impassable;0;0;Niksic-Foca
+2583;2577;impassable;0;0;Cetinje-Pljevlja
+
+850;807;impassable;0;0;Orosh-Strpce
+
+3677;812;impassable;0;0;Plovdiv-Pleven
+816;812;impassable;0;0;Stara Zagora-Pleven
+816;813;impassable;0;0;Stara Zagora-Shumen
+
+808;809;impassable;0;0;Kavala-Plodiv
+808;3677;impassable;0;0;Kavala-Plodiv
+823;3677;impassable;0;0;Kavala-Plodiv
+823;815;impassable;0;0;Kavala-Kardzhali
+
+853;820;impassable;0;0;Gjirokaster-Grebena
+824;820;impassable;0;0;Janina-Grebena
+825;820;impassable;0;0;Arta-Grebena
+825;833;impassable;0;0;Arta-Trikkala
+837;833;impassable;0;0;Missolonghi-Trikkala
+837;836;impassable;0;0;Missolonghi-Lamia
 
 #Caucasus
 #Caucasus Major
@@ -341,15 +373,6 @@ From;To;Type;Through;Data;Comment
 1223;1208;impassable;0;0;Hindukush
 1225;1208;impassable;0;0;Hindukush
 1225;3313;impassable;0;0;Hindukush
-
-#Carpathian Mauntains
-638;705;impassable;0;0;Hindukush
-638;705;impassable;0;0;Hindukush
-3278;3332;impassable;0;0;Hindukush
-953;3332;impassable;0;0;Hindukush
-705;3332;impassable;0;0;Hindukush
-953;3333;impassable;0;0;Hindukush
-662;3333;impassable;0;0;Hindukush
 
 #Pyrennes
 496;460;impassable;0;0;Hindukush

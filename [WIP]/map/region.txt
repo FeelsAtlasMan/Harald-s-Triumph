@@ -422,9 +422,9 @@ MON_2582 = { 788 2583 2569 } #Montenegro - now Herzegovina
 
 TUR_803 = { 803 798 799 2577 804 } #Southern Serbia
 
-TUR_805 = { 805 820 821 822 3675 823 3676 } #Southern Macedonia
+TUR_805 = { 805 821 822 3675 823 3676 } #Southern Macedonia
 
-TUR_806 = { 806 807 1780 819 808 } #Northern Macedonia
+TUR_806 = { 806 807 1780 819 808 3674 } #Northern Macedonia
 
 TUR_809 = { 815 817 816 3677 } #Eastern Rumelia
 
@@ -432,13 +432,15 @@ TUR_810 = { 809 810 812 802 } #Bulgaria
 
 GRE_826 = { 842 839 826 840 841 } #Peloponnese
 
-TUR_832 = { 832 831 833 825 824 } #Thessalia
+TUR_832 = { 832 831 833 820 836 } #Thessalia
 
-GRE_837 = { 834 837 836 835 838 845 } #Attica - Central Greece
+GRE_837 = { 834 835 838 } #Attica - Central Greece
 
-EGY_843 = { 848 843 844 846 847 } #Aegean Islands
+ALB_824 = { 824 853 825 837 } #Epirus/Cham
 
-TUR_853 = { 849 853 852 851 850 3674 3678 3679 800 } #Albania
+EGY_843 = { 848 843 844 846 847 845 } #Aegean Islands
+
+TUR_853 = { 849 852 851 850 3678 3679 800 } #Albania
 
 TUR_855 = { 855 856 857 } #Cyprus
 

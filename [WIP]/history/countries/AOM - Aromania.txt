@@ -41,7 +41,7 @@ colonial_policy = no_colonies
 
 set_country_flag = orthodox_country
 
-ruling_party = ROM_liberal
+ruling_party = ROM_conservative
 upper_house = {
 	fascist = 0
 	liberal = 25
@@ -51,6 +51,8 @@ upper_house = {
 	socialist = 5
 	communist = 0
 }
+
+oob = "AOM_oob.txt"
 
 1861.1.1 = {
 	oob = "/1861/ROM_oob.txt"
