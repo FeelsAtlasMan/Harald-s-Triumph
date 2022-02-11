@@ -1003,7 +1003,7 @@ south_slavic = {
 	}
 	
 	thracian = {
-		color = {75 130 120}
+		color = {80 180 150}
 		first_names = { Aleksandar Andrey Asen Atanas Atila Bogdan Boncho Boris Damyan Dimitar
 		Dobri Ferdinand Georgi Hristo Ilya Ivan Kalin Kardam Kimon Kiril
 		Kliment Konstantin Krastyu Leonid Mihail Nikifor Niloa Pencho Petar Petko
@@ -1018,8 +1018,7 @@ south_slavic = {
 		Tsaklev Valkov Valnarov Vasilev Vazov Velchev Zafirov Zhekov Zlatarev Zlatev
 		}
 		radicalism = 10
-	}
-	
+	}	
 }
 
 western_slavic = {
@@ -1344,7 +1343,7 @@ pan_albanian = {
 	}
 	
 	tosk = {
-		color = {140 0 80}
+		color = {140 0 40}
 		first_names = { Ahmet Ali Azem Bajram Behxhet Davud Ekrem Elez Enver Eqrem
 		Esad Fatmir Fejzi Fiqri Gjergj Gjon Hasan Hashim Ibrahim Idhomene
 		Iliaz Ishak Ismail Izet Kara Kastriot Koçi Köpryly Kostaq Lekë
@@ -1359,6 +1358,23 @@ pan_albanian = {
 		"Pashë Përmeti" "Pashë Tepelena" "Pashë Toptani" Poga "Qemal Bej" Shahini Skiroi Thaçi Troja Xoxe
 		}
 		radicalism = 15
+	}
+	
+	arvanitika = {
+		color = {140 40 80}
+		first_names = { Ahmet Ali Azem Bajram Behxhet Davud Ekrem Elez Enver Eqrem
+		Esad Fatmir Fejzi Fiqri Gjergj Gjon Hasan Hashim Ibrahim Idhomene
+		Iliaz Ishak Ismail Izet Kara Kastriot Koçi Köpryly Kostaq Lekë
+		Maliq Marin mehdi Musa Mustafa Pandeli Petro Qamil Qazim Ramush
+		Rexhep Shefqet Skënder Sulejman Tewfik Theofan Turhan Vasil Veton Xhafer
+		}
+
+		last_names = { Ahmeti al-Albani Bardha Bazna "Bej Alizoti" "Bej Biçakçiu" "Bej Delvina" "Bej Frashëri" "Bej Libohova" "Bej Ndroque"
+		"Bej Prishtina" "Bej Verlaci" "Bej Vrioni" "Bej Ypi" "Bej Zogu" Belishi Burbank Bushati Buza Çabej
+		Çeku Dine Dragoti Dukagiini Dushku Evangjeli Feza Hoxha Islami Kadare
+		Koculi Konica Konushevci Kosturi Kota Logoreci Merlika-Kruja Mitrovica Mula Noli
+		"Pashë Përmeti" "Pashë Tepelena" "Pashë Toptani" Poga "Qemal Bej" Shahini Skiroi Thaçi Troja Xoxe
+		}
 	}
 }
 
@@ -2060,28 +2076,6 @@ oghuz = {
 			Bey Pasha Hoca Efendi
 			Ahmadbek Ahmadzade Akbarzade Edigar Ganjavi Ibrahimbek Mehmandar Nakhchivani 
 			Qasimbek Qasimzade Rasulzade Tahirzade Talishkhan Topchubashi Zardabi
-		}
-	}
-	rumi = {
-		color = {140 60 140}
-		first_names = { 
-			Abdullah Abdulhamid Abdulkerim Abdulrahim Ahmet Akif Ali Arif 
-			Bahaeddin Bekir Cemal Cevad Celaleddin Cevdet Daud Edhem Emin Enver 
-			Fahri Fevzi Ferid Fuat Hafiz Hamza Halil Halim Hasan Hayrullah Husrev
-			Ibrahim Iskender Ismet Izzet Kamil Kazim Kemal Lutfi
-			Mahmut Mehmet Mithat Muhtar Murat Musa Mustafa 
-			Namik Nazim Nurettin Nuri Numan Omar Osman 
-			Pertev Rauf Receb Reshad Refet Rifat Riza 
-			Sabaheddin Said Selim Shevket Shukru Suleyman 
-			Talat Tevfik Vefik Yusuf Yunus Ziya Ziyauddin
-		}
-		
-		last_names = { 
-			Charalambis Christakis-Zografos Danglis Dousmanis Foumis Gonatas Hatzianestis Kallergis Kanaris Katsimiros
-		    Kolokotronis Kondylis Kountouriotis Kriezis Makriyannis Manos Mavrocordatos Mavrovouniotis Metaxas Mouskos
-		    Nider Othonaios Palaskas Pangalos Papadiamantopoulos Papadopoulos Papagos Papoulas Parakevopouolos Plapoutas
-		    Plastiras Sapountzakis Sarafis Smolenskis Sofoulis Soutsos Spyromilios Staikopoulos Stanotas "tes Elladas"
-		    Trikoupis Tsakalotos Tsolakoglou Typaldos-Alfonsatos Tzavelas Vassos Venizelos Voulgaris Zaimis Zymvrakakis
 		}
 	}
 	chaharmahali = {
@@ -3422,6 +3416,22 @@ iranian_turanian = {
 	is_overseas = no
 	unit = MiddleEasternGC
 	#Southwest Iranian
+	parsik = {
+		color = {40 80 165}
+		first_names = {
+			Abbas Abolghasem Abdolhossein Abdolsamad Abdolazim Ahmad Ali Bahram
+			Ebrahim Esmail "Fath Ali" Fazlollah Firuz Hamzeh Hasan Hossein Kamran Karim "Lotf Ali" 
+			Mahmoud Mirza Massoud Mohammad "Moin ed-Din" "Mozzafer ed-Din" Murad Muhsin 
+			"Naser ed-Din" Nosret Reza
+			}
+		last_names = {
+			Airom Ansari Ayrum Buzarjomehri Davallu Esfahani Farhani 
+			Jahanbani Kashani Khan Khuzai  
+			Meshhedi Nakhchevani Pesyan Rokni Shafaei Shahbakhti 
+			Shirazi Tabrizi Tahmasebi Zahedi
+			}
+	} 
+	
 	classical_persian = {
 		color = {20 100 165}
 		first_names = {

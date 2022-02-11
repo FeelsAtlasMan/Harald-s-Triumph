@@ -3416,6 +3416,22 @@ iranian_turanian = {
 	is_overseas = no
 	unit = MiddleEasternGC
 	#Southwest Iranian
+	parsik = {
+		color = {70 40 165}
+		first_names = {
+			Abbas Abolghasem Abdolhossein Abdolsamad Abdolazim Ahmad Ali Bahram
+			Ebrahim Esmail "Fath Ali" Fazlollah Firuz Hamzeh Hasan Hossein Kamran Karim "Lotf Ali" 
+			Mahmoud Mirza Massoud Mohammad "Moin ed-Din" "Mozzafer ed-Din" Murad Muhsin 
+			"Naser ed-Din" Nosret Reza
+			}
+		last_names = {
+			Airom Ansari Ayrum Buzarjomehri Davallu Esfahani Farhani 
+			Jahanbani Kashani Khan Khuzai  
+			Meshhedi Nakhchevani Pesyan Rokni Shafaei Shahbakhti 
+			Shirazi Tabrizi Tahmasebi Zahedi
+			}
+	} 
+	
 	classical_persian = {
 		color = {20 100 165}
 		first_names = {
