@@ -5,7 +5,7 @@ political_decisions = {
 				government = colonial_company
 				year = 1848
 			}
-			tag = SER
+			tag = BOS
 			NOT = { has_country_flag = lunched_the_serb_uprising }
 			vassal_of = HUN
 		}
@@ -20,31 +20,24 @@ political_decisions = {
 			HUN = {
 				any_owned_province = {
 					limit = {
-						is_core = SER
+						is_core = BOS
 					}
-					secede_province = SER
+					secede_province = BOS
 				}
-				release_vassal = SER
-				release_vassal = BBO
+				release_vassal = BOS
 				diplomatinc_influence = {
-					who = SER
+					who = BOS
 					value = -200
 				}
+				casus_belli = { target = THIS type = conquest months = 12 }
 				war = {
-					target = SER
-					attacker_goal = { casus_belli = annex_core_country }
-					defender_goal = { casus_belli = status_quo }
-					call_ally = no
-				}
-				war = {
-					target = BBO
-					attacker_goal = { casus_belli = annex_core_country }
+					target = BOS
+					attacker_goal = { casus_belli = conquest }
 					defender_goal = { casus_belli = status_quo }
 					call_ally = no
 				}
 			}
 			government = absolute_monarchy
-			BBO = { government = absolute_monarchy }
 		}
 		ai_will_do = {
 			factor = 1

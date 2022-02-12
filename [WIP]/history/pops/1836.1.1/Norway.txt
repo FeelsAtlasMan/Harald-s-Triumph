@@ -40,7 +40,19 @@
 	farmers = {
 		culture = norwegian
 		religion = protestant
-		size = 31250
+		size = 25000
+	}
+	
+	farmers = {
+		culture = norwegian
+		religion = catholic
+		size = 5000
+	}
+	
+	farmers = {
+		culture = sami
+		religion = protestant
+		size = 1250
 	}
 }
 #Bodo (56000/14000 POPS)
@@ -72,13 +84,19 @@
 	farmers = {
 		culture = norwegian
 		religion = protestant
-		size = 13100
+		size = 11000
+	}
+	
+	farmers = {
+		culture = norwegian
+		religion = catholic
+		size = 1100
 	}
 
 	farmers = {
 		culture = sami
 		religion = protestant
-		size = 1100
+		size = 2100
 	}
 }
 #Hammerfest (36000/9000 POPS)
@@ -110,19 +128,19 @@
 	farmers = {
 		culture = norwegian
 		religion = protestant
-		size = 5000
+		size = 2800
+	}
+	
+	farmers = {
+		culture = finnish
+		religion = catholic
+		size = 2600
 	}
 
 	farmers = {
 		culture = sami
 		religion = protestant
-		size = 2400
-	}
-
-	farmers = {
-		culture = sami
-		religion = protestant
-		size = 2000
+		size = 3000
 	}
 }
 #Alesund (72000/18000 POPS)
@@ -154,9 +172,14 @@
 	farmers = {
 		culture = norwegian
 		religion = protestant
-		size = 17825
+		size = 15000
 	}
 
+    farmers = {
+		culture = norwegian
+		religion = catholic
+		size = 2825
+	}
 }
 
 #Vestlandet-Sorlandet Region : 544000
@@ -201,7 +224,13 @@
 	farmers = {
 		culture = norwegian
 		religion = protestant
-		size = 39200
+		size = 33000
+	}
+	
+	farmers = {
+		culture = norwegian
+		religion = catholic
+		size = 6200
 	}
 }
 #Christiansand (164000/41000 POPS)
@@ -233,7 +262,13 @@
 	farmers = {
 		culture = norwegian
 		religion = protestant
-		size = 38825
+		size = 32000
+	}
+	
+	farmers = {
+		culture = norwegian
+		religion = catholic
+		size = 6825
 	}
 }
 #Skien (68000/17000 POPS)
@@ -265,7 +300,13 @@
 	farmers = {
 		culture = norwegian
 		religion = protestant
-		size = 17075
+		size = 14000
+	}
+	
+	farmers = {
+		culture = norwegian
+		religion = catholic
+		size = 3075
 	}
 }
 #Drammen (132000/33000 POPS)
@@ -297,9 +338,14 @@
 	farmers = {
 		culture = norwegian
 		religion = protestant
-		size = 32125
+		size = 25000
 	}
-
+    
+	farmers = {
+		culture = norwegian
+		religion = catholic
+		size = 7125
+	}
 }
 #Ostlandet Region - 352000
 #Christiania (108000/27000 POPS)
@@ -343,13 +389,13 @@
 	farmers = {
 		culture = norwegian
 		religion = protestant
-		size = 18275
+		size = 11275
 	}
-
-	capitalists = {
+	
+	farmers = {
 		culture = norwegian
-		religion = protestant
-		size = 5
+		religion = catholic
+		size = 7000
 	}
 }
 #Hamar (80000/20000 POPS)
@@ -381,7 +427,13 @@
 	farmers = {
 		culture = norwegian
 		religion = protestant
-		size = 19750
+		size = 18000
+	}
+	
+	farmers = {
+		culture = norwegian
+		religion = catholic
+		size = 1750
 	}
 }
 #Lillehammer (96000/24000 POPS)
@@ -413,7 +465,13 @@
 	farmers = {
 		culture = norwegian
 		religion = protestant
-		size = 23425
+		size = 20000
+	}
+	
+	farmers = {
+		culture = norwegian
+		religion = catholic
+		size = 3425
 	}
 }
 #Frederiksstad (68000/17000 POPS)
@@ -445,7 +503,12 @@
 	farmers = {
 		culture = norwegian
 		religion = protestant
-		size = 17025
+		size = 14000
 	}
-
+    
+	farmers = {
+		culture = norwegian
+		religion = catholic
+		size = 3025
+	}
 }

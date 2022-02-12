@@ -5,7 +5,7 @@ political_decisions = {
 	    potential = {
 			SNR = { exists = yes }
 			OR = {
-			   tag = SHL
+			   tag = SHK
 			   tag = TQL
 		    }
 			NOT = { has_country_flag = invaded_sennar }
@@ -15,7 +15,7 @@ political_decisions = {
 			war = no
 			OR = {
 			   SNR = { war_with = ABB }
-			   #SNR = { war_with = MAM }
+			   SNR = { war_with = MAM }
 			   #SNR = { war_with = EGY }
 		    }
 		}

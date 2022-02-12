@@ -978,7 +978,7 @@ political_decisions = {
 				AND = { tag = NET owns = 375 NOT = { capital = 375 } }
 				AND = { tag = POL owns = 706 NOT = { capital = 706 } }
 				AND = { tag = BUL owns = 809 NOT = { capital = 809 } }
-				AND = { tag = HUN owns = 641 NOT = { capital = 641 } }
+				#AND = { tag = HUN owns = 641 NOT = { capital = 641 } }
 				AND = { tag = NYE owns = 1178 NOT = { capital = 1178 } }
 				AND = { tag = YEM owns = 1178 NOT = { capital = 1178 } }
 				AND = { tag = LIT owns = 360 NOT = { capital = 360 } }
@@ -994,7 +994,6 @@ political_decisions = {
 				AND = { tag = LXA owns = 1357 NOT = { capital = 1357 } }
 				AND = { tag = CNG owns = 1983 NOT = { capital = 1983 } NOT = { has_global_flag = congo_renamed } }
 				AND = { tag = KAM owns = 1082 NOT = { capital = 1082 } }
-				AND = { tag = UKR owns = 958 NOT = { capital = 958 } }
 				AND = { tag = CUB owns = 2209 NOT = { capital = 2209 } }
 				AND = { tag = GRE owns = 860 NOT = { capital = 860 } state_n_government = 1 prestige = 40 860 = { is_core = THIS } }
 				AND = { tag = PHL owns = 1455 NOT = { capital = 1455 } }

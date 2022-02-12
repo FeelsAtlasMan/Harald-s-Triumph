@@ -15,25 +15,34 @@ political_decisions = {
 			is_our_vassal = BZN
 			is_our_vassal = BSV
 			is_our_vassal = SLA
-			is_our_vassal = BCR
+			is_our_vassal = CRO
+			is_our_vassal = SZE
+			is_our_vassal = JSZ
+			is_our_vassal = CMN
+			is_our_vassal = SLO
 		}
 		
 		effect = {
 			prestige = 10
 			badboy = 10
 			set_country_flag = hun_annexed_puppets
-			BBO = { government = colonial_company all_core = { add_core = THIS } }
-			SER = { government = colonial_company }
+			BOS = { government = colonial_company }
 			MOL = { government = colonial_company }
-			BCR = { all_core = { add_core = CRO } }
 			SLA = { all_core = { add_core = CRO } }
 			inherit = BSV
 			inherit = SLA
-			inherit = BCR
+			inherit = CRO
+			inherit = SZE
+			inherit = JSZ
+			inherit = CMN
+			inherit = SLO
 			all_core = {
-				remove_core = BCR
 				remove_core = SLA
 				remove_core = BSV
+				remove_core = SZE
+				remove_core = JSZ
+				remove_core = CMN
+				remove_core = SLO
 			}
 			add_country_modifier = {
 				name = magiarisation
@@ -46,7 +55,7 @@ political_decisions = {
 					NOT = { is_culture = hungarian }
 					NOT = { has_pop_culture = hungarian }
 				}
-				militancy = 3
+				militancy = 4
 			}
 			casus_belli = {
 				target = WAL
@@ -59,72 +68,6 @@ political_decisions = {
 				}
 				country_event = 138000
 			}
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	banat_form_croatia = {
-		picture = croatia
-		potential = {
-			OR = {
-				tag = BCR
-				tag = SLA
-			}
-			NOT = {
-				CRO = {
-					exists = yes
-				} 
-			}
-		}
-		allow = {
-			is_vassal = no
-			prestige = 20
-			war = no
-		}
-		effect = {
-			prestige = 30
-			all_core = {
-				add_core = CRO
-				remove_core = THIS
-			}
-			change_tag = CRO
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	banat_join_croatia = {
-		picture = croatia
-		potential = {
-			OR = {
-				tag = BCR
-				tag = SLA
-			}
-			CRO = {
-				exists = yes
-			}
-			ai = yes
-		}
-		allow = {
-			is_vassal = no
-			OR = {
-				in_sphere = no
-				sphere_owner = {
-					tag = CRO
-				}
-			}
-			war = no
-		}
-		effect = {
-			prestige = 30
-			all_core = {
-				add_core = CRO
-				remove_core = THIS
-			}
-			annex_to = CRO
 		}
 		ai_will_do = {
 			factor = 1

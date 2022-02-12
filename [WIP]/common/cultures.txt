@@ -249,6 +249,20 @@ north_germanic = {
 		Palmstierna Peyron Rappe Reuterskiöld Rosensvärd Ryding Sprengtportem Ström Taube Tawast
 		Thörnell Thulstrup Tingsten Ulner Virgin "von Essen" "von Hohenhausen" "von Otter" "von Platen" Weidenhielm }
 	}
+	
+	skanian = {
+        color = { 70 40 130 }
+        first_names = { Aage Adam Albert Anders Asmund Axel Bent Carl Charles Christen Christian Edvard Edvin
+        Enevold Erik Ernst Folke Frederik Georg Gregers Gunnar Gustav Hagbard Hannibal Hans Harald Henrik Herman Hugo Ivar Immanuel
+        Jacob Jens Johan Johannes Julius Knud Ludvig Magnus Michael Niels Olav Otto Osvald Oktavius
+        Peder Poul Sigurd Sven Søren Tage Thomas Thorvald Ukrik Valdemar Vilfred Vilhelm }
+   
+        last_names = { Ahlefeldt Andersen Asp-Persson Berger Bille Bielke Bonde Blücher-Altona Carlsen Castenschiold Clauson-Kaas Dannemand Danneskjold-Samso "de Meza" "de Crèvecœur" Eberlin "Fabritius de Tengnagel" Falsen Falstring
+        Folsach Garde Güntelberg Grodtschilling Griss Gyldenfeldt Haack Hambro Haxthausen Hedemann Hoppe Juul Jyde Klauman Krogh Laessoe
+        "Le Normand de Bretteville" Leuenbach Lovenbalk Marselis Marstrand Meier Morgenstierne Mylius Neergaard Obelitz Oxholm Pretorius Quaade Rantzau Reventlow Rosenkrantz Sand Schack-Schackenborg
+        Stemman Suenson "Suzannet de la Forest" Thygeson Trampe Urne "von Glücksburg" "von Holstein" "von Oldenburg" Wedel-Heinen Zytphen-Adeler }
+	}
+	
 	danish = {
         color = { 140 40 130 }
         first_names = { Aage Adam Albert Anders Asmund Axel Bent Carl Charles Christen Christian Edvard Edvin
@@ -261,6 +275,7 @@ north_germanic = {
         "Le Normand de Bretteville" Leuenbach Lovenbalk Marselis Marstrand Meier Morgenstierne Mylius Neergaard Obelitz Oxholm Pretorius Quaade Rantzau Reventlow Rosenkrantz Sand Schack-Schackenborg
         Stemman Suenson "Suzannet de la Forest" Thygeson Trampe Urne "von Glücksburg" "von Holstein" "von Oldenburg" Wedel-Heinen Zytphen-Adeler }
 	}
+	
 	norwegian = { 
 		color = { 100 100 190 }
 		first_names = { Alfred Adrian Arne Bernt Bjorn Carl Caspar Christian Christopher Cort
@@ -271,6 +286,7 @@ north_germanic = {
 		Frisvold Hákonarson Hansen Hund Kaldager Konow Lambrechts Morgenstierne Munthe Petersen
 		Rye Sissener Skjalgsson Tambarskjelve "von Holstein-Glücksburg" "von Klenow" Wedel-Jarlsberg Wiborg With Zeiner-Gundersen }
 	}
+	
 	icelandic = { 
 		color = { 80 20 150}
 		first_names = { Agnar Ásgeir Björn Eidur Einar Emil Geir Gudmund Gunnar Hannes
@@ -279,6 +295,7 @@ north_germanic = {
 		last_names = { Arnórsson Ásgeirsson Benediktsson Bjarnasen Björnsson Eggers Eldjárn Hafstein Hansen
 		Hermannsson Johánesson Jónsson Magnússon Stefánsson Steinthosson Thórdarson Thórhallson Thorláksson Thurs }
 	}
+	
 	dalecarlian = { 
 		color = { 70 70 160 }
 		first_names = { Agnar Ásgeir Björn Eidur Einar Emil Geir Gudmund Gunnar Hannes
@@ -287,6 +304,7 @@ north_germanic = {
 		last_names = { Arnórsson Ásgeirsson Benediktsson Bjarnasen Björnsson Eggers Eldjárn Hafstein Hansen
 		Hermannsson Johánesson Jónsson Magnússon Stefánsson Steinthosson Thórdarson Thórhallson Thorláksson Thurs }
 	}
+	
 	norn = { 
 		color = { 100 20 140}
 		first_names = { Agnar Ásgeir Björn Eidur Einar Emil Geir Gudmund Gunnar Hannes
@@ -1379,11 +1397,22 @@ pan_albanian = {
 }
 
 #Finno-Ugric Languages
-hungarian_culture_group = {
-	leader = european
-	unit = AustriaHungaryGC
-		
-	hungarian = {
+ugric = {
+	leader = russian
+	unit = RussianGC
+    mansi = {  
+		color = {130 175 90}
+		first_names = { Aleksandr Dmitri Ivan Jukka Santeri Vladimir }
+		last_names = { Kokko Likhachev Mamin Minin Sibiriak  Tikhanov Zubov }
+  }
+	
+   khanty = {  
+		color = {100 145 60}
+		first_names = { Aleksandr Dmitri Ivan Jukka Santeri Vladimir }
+		last_names = { Kokko Likhachev Mamin Minin Sibiriak  Tikhanov Zubov }
+   }
+   
+   hungarian = {
 		color = {160 205 120}
 		first_names = { Alajos Albert Álmos Anasztáz András Arisztid Aurél Béla Benedek Béni
 		Bertalan Dániel Dávid Edvárd Éliás Erno Ferencz Gábor Gábriel Gáspár
@@ -1400,27 +1429,11 @@ hungarian_culture_group = {
 	}
 }
 
-ugric = {
-	leader = russian
-	unit = RussianGC
-    mansi = {  
-		color = {130 175 90}
-		first_names = { Aleksandr Dmitri Ivan Jukka Santeri Vladimir }
-		last_names = { Kokko Likhachev Mamin Minin Sibiriak  Tikhanov Zubov }
-	  }
-	
-   khanty = {  
-		color = {100 145 60}
-		first_names = { Aleksandr Dmitri Ivan Jukka Santeri Vladimir }
-		last_names = { Kokko Likhachev Mamin Minin Sibiriak  Tikhanov Zubov }
-	  }
-}
-
 western_finnic = {
 	leader = european
 	unit = SwedishGC
 	finnish = { 
-		color = { 220 220 220}
+		color = { 220 220 220 }
 		first_names = { Aatto Akseli Aleksanteri Anders Aukusti Edvard Eemil Erkki Erno Fabian
 		Fredrik Fridolf Georg Gösta Harald Hjalmar Hugo Johannes Juho Kaarlo
 		Kurt Lars Martti Mikko Paavo Petteri Rudolf Väinö Viktor Vilho }
@@ -1430,8 +1443,21 @@ western_finnic = {
 		Sihvo Siilasvuo Talvela Thesleff Tujulin Tuompo "von Hesse-Kassel" Walden Wallenius Wetzer }
 		radicalism = 5
 	}
+	
+	savonian = { 
+		color = { 200 190 220 }
+		first_names = { Aatto Akseli Aleksanteri Anders Aukusti Edvard Eemil Erkki Erno Fabian
+		Fredrik Fridolf Georg Gösta Harald Hjalmar Hugo Johannes Juho Kaarlo
+		Kurt Lars Martti Mikko Paavo Petteri Rudolf Väinö Viktor Vilho }
+		
+		last_names = { Airo Alopaeus Aspara Cajander Ehrnrooth Heinrichs Heiskanen Holsti Ignatius Järnefält
+		Linder Mannerheim Multamäki Nenonen Oesch Öquist Österman Paasikivi Raappana Ramsay
+		Sihvo Siilasvuo Talvela Thesleff Tujulin Tuompo "von Hesse-Kassel" Walden Wallenius Wetzer }
+		radicalism = 5
+	}
+	
 	karelian = { 
-		color = { 240 210 210}
+		color = { 180 170 220 }
 		first_names = { Aatto Akseli Aleksanteri Anders Aukusti Edvard Eemil Erkki Erno Fabian
 		Fredrik Fridolf Georg Gösta Harald Hjalmar Hugo Johannes Juho Kaarlo
 		Kurt Lars Martti Mikko Paavo Petteri Rudolf Väinö Viktor Vilho }
@@ -1441,8 +1467,21 @@ western_finnic = {
 		Sihvo Siilasvuo Talvela Thesleff Tujulin Tuompo "von Hesse-Kassel" Walden Wallenius Wetzer }
 		radicalism = 5
 	}
+	
+	ludic = { 
+		color = { 160 150 220 }
+		first_names = { Aatto Akseli Aleksanteri Anders Aukusti Edvard Eemil Erkki Erno Fabian
+		Fredrik Fridolf Georg Gösta Harald Hjalmar Hugo Johannes Juho Kaarlo
+		Kurt Lars Martti Mikko Paavo Petteri Rudolf Väinö Viktor Vilho }
+		
+		last_names = { Airo Alopaeus Aspara Cajander Ehrnrooth Heinrichs Heiskanen Holsti Ignatius Järnefält
+		Linder Mannerheim Multamäki Nenonen Oesch Öquist Österman Paasikivi Raappana Ramsay
+		Sihvo Siilasvuo Talvela Thesleff Tujulin Tuompo "von Hesse-Kassel" Walden Wallenius Wetzer }
+		radicalism = 5
+	}
+	
 	veps = { 
-		color = { 180 180 180}
+		color = { 140 130 160 }
 		first_names = { Aatto Akseli Aleksanteri Anders Aukusti Edvard Eemil Erkki Erno Fabian
 		Fredrik Fridolf Georg Gösta Harald Hjalmar Hugo Johannes Juho Kaarlo
 		Kurt Lars Martti Mikko Paavo Petteri Rudolf Väinö Viktor Vilho }
@@ -1452,8 +1491,9 @@ western_finnic = {
 		Sihvo Siilasvuo Talvela Thesleff Tujulin Tuompo "von Hesse-Kassel" Walden Wallenius Wetzer }
 		radicalism = 5
 	}
+	
 	ingrian = { 
-		color = {140 140 140}
+		color = {180 160 220}
 		first_names = { Aatto Akseli Aleksanteri Anders Aukusti Edvard Eemil Erkki Erno Fabian
 		Fredrik Fridolf Georg Gösta Harald Hjalmar Hugo Johannes Juho Kaarlo
 		Kurt Lars Martti Mikko Paavo Petteri Rudolf Väinö Viktor Vilho }
@@ -1463,15 +1503,20 @@ western_finnic = {
 		Sihvo Siilasvuo Talvela Thesleff Tujulin Tuompo "von Hesse-Kassel" Walden Wallenius Wetzer }
 		radicalism = 5
 	}
-	sami = {
-		color = { 160 180 110}
-		first_names = {
-			Asllak Biejas Dure Erke Hanno Iskko Joha Laras Markkos Mikko Niillas Osku Uhkku
-		}
-		last_names = {
-			Hætta Somby Turi Magga Dunfjeld Kvitfjell Kappfjell
-		}
+	
+	votic = { 
+		color = {160 120 240}
+		first_names = { Aatto Akseli Aleksanteri Anders Aukusti Edvard Eemil Erkki Erno Fabian
+		Fredrik Fridolf Georg Gösta Harald Hjalmar Hugo Johannes Juho Kaarlo
+		Kurt Lars Martti Mikko Paavo Petteri Rudolf Väinö Viktor Vilho }
+		
+		last_names = { Airo Alopaeus Aspara Cajander Ehrnrooth Heinrichs Heiskanen Holsti Ignatius Järnefält
+		Linder Mannerheim Multamäki Nenonen Oesch Öquist Österman Paasikivi Raappana Ramsay
+		Sihvo Siilasvuo Talvela Thesleff Tujulin Tuompo "von Hesse-Kassel" Walden Wallenius Wetzer }
+		radicalism = 5
 	}
+	
+	#Southern
 	estonian = {
 		color = {80 60 120}
 		first_names = { Aadu Alar Aleksander Andrus Artur August Bernard Dmitri Eduard Eerik
@@ -1486,6 +1531,63 @@ western_finnic = {
 		Lipping Lohk Mäe Männil Moora Natus Nurkse Nurmekund Õkva Öpik
 		Orkivu Päts Perna Piiper Poska Puusepp Ränk Rei Reinman Siinmaa
 		Sikkar Sirk Tõnisson Uluots Vaga Veske Vilbaste Vilms "von Uexküll" Warma
+		}
+	}
+	
+	south_estonian = {
+		color = {60 40 100}
+		first_names = { Aadu Alar Aleksander Andrus Artur August Bernard Dmitri Eduard Eerik
+		Elmar Ernst Georg Gustav Haman Harri Heino Hendrik Hjalmar Ivari
+		Jaan Jakob Johannes Joosep Juhan Julius Jüri Kaarel Kalev Konstantin
+		Lennart Ludvig Madis Mart Mikhel Nigul Olev Paavo Peeter Pent
+		Ragnar Siiri Sven Tarmo Tõnis Toomas Uno Valmar Villwm Voldemar
+		}
+
+		last_names = { Aamisepp Aavik Adams Anvel Barbarus Bornhöhe Eenpalu Hint Hurt Jaakson
+		Kangro Kint Klaasen Koern Kõiv Kotli Kumari Kupine Kuusik Leppik
+		Lipping Lohk Mäe Männil Moora Natus Nurkse Nurmekund Õkva Öpik
+		Orkivu Päts Perna Piiper Poska Puusepp Ränk Rei Reinman Siinmaa
+		Sikkar Sirk Tõnisson Uluots Vaga Veske Vilbaste Vilms "von Uexküll" Warma
+		}
+	}
+	
+	livonian = {
+		color = {40 20 80}
+		first_names = { Aadu Alar Aleksander Andrus Artur August Bernard Dmitri Eduard Eerik
+		Elmar Ernst Georg Gustav Haman Harri Heino Hendrik Hjalmar Ivari
+		Jaan Jakob Johannes Joosep Juhan Julius Jüri Kaarel Kalev Konstantin
+		Lennart Ludvig Madis Mart Mikhel Nigul Olev Paavo Peeter Pent
+		Ragnar Siiri Sven Tarmo Tõnis Toomas Uno Valmar Villwm Voldemar
+		}
+
+		last_names = { Aamisepp Aavik Adams Anvel Barbarus Bornhöhe Eenpalu Hint Hurt Jaakson
+		Kangro Kint Klaasen Koern Kõiv Kotli Kumari Kupine Kuusik Leppik
+		Lipping Lohk Mäe Männil Moora Natus Nurkse Nurmekund Õkva Öpik
+		Orkivu Päts Perna Piiper Poska Puusepp Ränk Rei Reinman Siinmaa
+		Sikkar Sirk Tõnisson Uluots Vaga Veske Vilbaste Vilms "von Uexküll" Warma
+		}
+	}
+}
+
+saami_group = {
+	leader = european
+	unit = SwedishGC
+	sami = {
+		color = { 160 180 110}
+		first_names = {
+			Asllak Biejas Dure Erke Hanno Iskko Joha Laras Markkos Mikko Niillas Osku Uhkku
+		}
+		last_names = {
+			Hætta Somby Turi Magga Dunfjeld Kvitfjell Kappfjell
+		}
+	}
+	eastern_sami = {
+		color = { 160 180 110}
+		first_names = {
+			Asllak Biejas Dure Erke Hanno Iskko Joha Laras Markkos Mikko Niillas Osku Uhkku
+		}
+		last_names = {
+			Hætta Somby Turi Magga Dunfjeld Kvitfjell Kappfjell
 		}
 	}
 }
@@ -1542,8 +1644,13 @@ samoyedic = {
 		color = {15 45 45}
 		first_names = { Aleksandr Dmitri Ivan Jukka Santeri Vladimir }
 		last_names = { Kokko Likhachev Mamin Minin Sibiriak  Tikhanov Zubov }
-	  } 
-	  
+	} 
+	
+	kamas = {  
+		color = {15 45 45}
+		first_names = { Aleksandr Dmitri Ivan Jukka Santeri Vladimir }
+		last_names = { Kokko Likhach Mamin Minin Sibiri  Tikhan Zub }
+	}   
 }
 
 #Siberian Languages
