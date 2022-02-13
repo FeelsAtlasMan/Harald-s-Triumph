@@ -887,13 +887,15 @@ country_event = {
 	option = {
 		name = "The nation needs to be reformed!"
 		any_pop = {
-		         limit = {
-				       culture = mamluki
-					   culture = abaza
-					   culture = circassian
-				 }
-				 militancy = 3
-		   }
+		    limit = {
+				OR = {
+					culture = mamluki
+					culture = abaza
+					culture = circassian
+				}
+			}
+			militancy = 3
+		}
 		set_country_flag = abb_western_advisors
 		ai_chance = {
 			factor = 60
@@ -903,13 +905,15 @@ country_event = {
 	option = {
 		name = "The traditional values are more important!"
 		any_pop = {
-		         limit = {
-				       culture = mamluki
-					   culture = abaza
-					   culture = circassian
-				 }
-				 militancy = -3
-		   }
+		    limit = {
+				OR = {
+				    culture = mamluki
+					culture = abaza
+					culture = circassian
+				}
+			}
+			militancy = -3
+		}
 		set_country_flag = abb_mamluk_advisors
 		ai_chance = {
 			factor = 40

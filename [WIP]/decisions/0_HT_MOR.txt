@@ -20,7 +20,7 @@ political_decisions = {
 			}	
 			prestige = 20
 			set_country_flag = centralized_morocco
-			remove_country_flag = waqt_almetaab
+			clr_country_flag = waqt_almetaab
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -111,7 +111,7 @@ political_decisions = {
 		
 		allow = {
 			all_core = { owned_by = THIS }
-			SEG = { exists = NO }
+			SEG = { exists = no }
 		}
 		effect = {
 			set_country_flag = timbuktu_invasion_too

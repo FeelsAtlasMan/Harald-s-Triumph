@@ -24,13 +24,15 @@ political_decisions = {
                     name = sedentarization
 	                duration = 720			
 			}
-			militancy = 3
+			any_pop = {
+				militancy = 3
+			}
 			prestige = 5
 			any_pop = {
-			        limit = {
-					   has_pop_type = soldier				   
-					}
-			  militancy = 6
+			    limit = {
+					type = soldiers
+				}
+				militancy = 6
 			}
 		}
 		ai_will_do = { factor = 1 }

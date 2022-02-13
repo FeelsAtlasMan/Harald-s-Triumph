@@ -390,7 +390,7 @@ country_event = {
 		    2408 = { add_core = PNB }
 			2404 = { add_core = PNB }
 		    2405 = { add_core = PNB }
-			KKR = { all_core = { add_core PNB } }
+			KKR = { all_core = { add_core = PNB } }
 			1979 = { secede_province = PNB }
 		    1979 = { life_rating = 25 }
 		    1979 = { add_core = PNB }
@@ -426,8 +426,8 @@ country_event = {
 			relation = { who = INC value = -150 } #Incas
 			INC = { prestige = -10 }
 			INC = { set_country_flag = cucked_out_of_ac }
-			KKR = { country_event = 690016 days = 10 }
-			MRA = { country_event = 690016 days = 10 }
+			KKR = { country_event = { id = 690016 days = 10 } }
+			MRA = { country_event = { id = 690016 days = 10 } }
 	    }
 }
 
@@ -474,7 +474,7 @@ country_event = {
 		    2408 = { add_core = PNB }
 			2404 = { add_core = PNB }
 		    2405 = { add_core = PNB }
-			KKR = { all_core = { add_core PNB } }
+			KKR = { all_core = { add_core = PNB } }
 			1979 = { secede_province = PNB }
 		    1979 = { life_rating = 25 }
 		    1979 = { add_core = PNB }
@@ -512,8 +512,8 @@ country_event = {
 		    2401 = { life_rating = 25 }
 		    2401 = { add_core = CLM }
 			relation = { who = INC value = -200 } #Incas
-			KKR = { country_event = 690016 days = 10 }
-			MRA = { country_event = 690016 days = 10 }
+			KKR = { country_event = { id = 690016 days = 10 } }
+			MRA = { country_event = { id = 690016 days = 10 } }
 	    }
 }
 

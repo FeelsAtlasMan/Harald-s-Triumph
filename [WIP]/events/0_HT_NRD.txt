@@ -8,7 +8,7 @@ country_event = {
 	option = {
 		name = "Attempt to integrate them"
 		set_variable = {
-			name = anglo_saxon_integration
+			which = anglo_saxon_integration
 			value = 1
 		}
 	}
@@ -28,7 +28,7 @@ country_event = {
 			}
 		}
 		change_variable = {
-			name = anglo_saxon_revolt
+			which = anglo_saxon_revolt
 			value = 2
 		}
 	}
@@ -46,7 +46,7 @@ country_event = {
 			tag = ENG
 		}
 		check_variable = {
-			name = anglo_saxon_integration
+			which = anglo_saxon_integration
 			value = 6
 		}
 		war = no
@@ -76,7 +76,7 @@ country_event = {
 			tag = ENG
 		}
 		check_variable = {
-			name = anglo_saxon_revolt
+			which = anglo_saxon_revolt
 			value = 6
 		}
 		war = no
@@ -355,7 +355,7 @@ country_event = {
 		ABB = { treasury = 100000 }
 		NAL = { all_core = { add_core = AST } }
 		NAL = { all_core = { remove_core = NAL } }
-		any_core = {
+		any_owned = {
 		        limit = { 
 					  is_core = AST
 			    }
@@ -555,7 +555,7 @@ country_event = {
 			limit = {
 				culture = british
 			}
-			conciousness = 3
+			consciousness = 3
 		}
 	}
 }

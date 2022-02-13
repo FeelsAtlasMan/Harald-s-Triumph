@@ -1048,7 +1048,7 @@ political_decisions = {
 				owner = { capital = 860 860 = { any_pop = { limit = { has_pop_religion = orthodox } militancy = -2 } } }
 			}
 			random_owned = { limit = { owner = { tag = CUB } } owner = { capital = 2209 } }
-			random_owned = { limit = { owner = { tag = UKR } } owner = { capital = 958 } }
+			#random_owned = { limit = { owner = { tag = UKR } } owner = { capital = 958 } }
 			random_owned = { limit = { owner = { tag = KAM } } owner = { capital = 1082 } }
 			random_owned = { limit = { owner = { tag = CNG } } owner = { capital = 1983 } }
 			random_owned = { limit = { owner = { tag = LXA } } owner = { capital = 1357 } }

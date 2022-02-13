@@ -29,12 +29,14 @@ political_decisions = {
 			is_culture_group = continental_west_germanic
 			NOT = { has_country_flag = de_jure_osterreich_created }
 			OR = {
-			any_owned_province = {
-				is_core = CMN
-			}
-			any_neighbor_province = {
-				is_core = CMN
-			}
+				any_owned_province = {
+					is_core = CMN
+				}
+				any_owned_province = {
+					any_neighbor_province = {
+						is_core = CMN
+					}
+				}
 			}
 		}
 		allow = {
@@ -68,12 +70,14 @@ political_decisions = {
 			has_country_flag = de_jure_osterreich_created
 			NOT = { has_country_flag = expanded_ossterreich }
 			OR = {
-			any_owned_province = {
-				is_core = SLO
-			}
-			any_neighbor_province = {
-				is_core = SLO
-			}
+				any_owned_province = {
+					is_core = SLO
+				}
+				any_owned_province = {
+					any_neighbor_province = {
+						is_core = SLO
+					}
+				}
 			}
 		}
 		allow = {
@@ -128,9 +132,9 @@ political_decisions = {
 							}
 							AND = {
 								NOT = {
-									culture = swiss_german
+									culture = central_franconian
 								}
-								THIS = { primary_culture = swiss_german }
+								THIS = { primary_culture = central_franconian }
 							}
 							AND = {
 								NOT = {
@@ -157,8 +161,8 @@ political_decisions = {
 					THIS = { primary_culture = north_german }
 					}
 					AND = {
-					primary_culture = swiss_german
-					THIS = { primary_culture = swiss_german }
+					primary_culture = central_franconian
+					THIS = { primary_culture = central_franconian }
 					}
 					AND = {
 					primary_culture = south_german

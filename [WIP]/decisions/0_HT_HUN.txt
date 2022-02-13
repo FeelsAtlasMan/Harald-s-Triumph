@@ -46,13 +46,12 @@ political_decisions = {
 			}
 			add_country_modifier = {
 				name = magiarisation
-				duartion = 7200
+				duration = 7200
 			}
 			remove_accepted_culture = jassic
 			remove_accepted_culture = cuman
 			any_pop = {
 				limit = {
-					NOT = { is_culture = hungarian }
 					NOT = { has_pop_culture = hungarian }
 				}
 				militancy = 4
@@ -148,9 +147,6 @@ political_decisions = {
 		}
 		effect = {
 			set_country_flag = kunsag_boom_happened
-			AUS_619 = { add_province_modifer = { name = ruhr_boom_city duration = 2700 } }
-			AUS_623 = { add_province_modifer = { name = ruhr_boom_city duration = 2700 } }
-			618 = { add_province_modifer = { name = ruhr_boom_city duration = 2700 } }
 			AUS_619 = { add_province_modifier = { name = ruhr_boom_city duration = 2700 } }
 			AUS_623 = { add_province_modifier = { name = ruhr_boom_city duration = 2700 } }
 			618 = { add_province_modifier = { name = ruhr_boom_city duration = 2700 } }

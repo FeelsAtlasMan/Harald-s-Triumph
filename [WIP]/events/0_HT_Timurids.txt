@@ -95,7 +95,6 @@ country_event = {
 		    release_vassal = AZB
 			AZB = { government = french_bourbon }
 			release_vassal = IRQ
-			release_vassal = IRQ
 			IRQ = { government = french_bourbon }
 			KHR = { government = french_bourbon }
 			3391 = { secede_province = FRS }
@@ -168,19 +167,19 @@ country_event = {
 			AJM = { government = french_bourbon }
 			any_country = {
 			    limit = { vassal_of = THIS OR = { primary_culture = kurmanji primary_culture = zaza primary_culture = sorani primary_culture = gorani } }
-				country_event = { id = 9907 }
+				country_event = 9907 
 			}
 			any_country = {
 			    limit = { vassal_of = THIS OR = { primary_culture = turkish tag = TTN } }
-				country_event = { id = 9908 }
+				country_event = 9908
 			}
 			any_country = { #All Nations, that are going to be independent
 			    limit = { vassal_of = THIS OR = { is_culture_group = kartvelian is_culture_group = caspian_caucasian tag = MZN tag = TLY tag = GLN tag = LUR tag = KHZ tag = MFQ tag = KWT tag = KSN tag = WKH tag = KFR tag = GLG tag = HNZ tag = ABK tag = TKM tag = MAK tag = KAL tag = BLA tag = SST tag = ALN tag = ASY tag = CRL tag = KCN tag = GNJ } }
-				country_event = { id = 9909 }
+				country_event = 9909
 			}
 			any_country = { #Tajiks and Pamiri states
 			    limit = { vassal_of = THIS OR = { tag = TAJ tag = HSR tag = RSH } }
-				country_event = { id = 9910 }
+				country_event = 9910
 			}
 			leave_alliance = PNJ
 			leave_alliance = KMY
@@ -450,7 +449,7 @@ country_event = {
 		}
 		OR = {
             war_exhaustion = 20
-            national_provinces_occupied = 15
+            national_provinces_occupied = 0.15
 			1130 = { NOT = { controlled_by = THIS } }
 			1140 = { NOT = { owned_by = THIS } }
         }
@@ -505,7 +504,7 @@ country_event = {
 		}
 		OR = {
             war_exhaustion = 25
-            national_provinces_occupied = 20
+            national_provinces_occupied = 0.20
         }
 	}
         
@@ -560,7 +559,7 @@ country_event = {
 		}
 		OR = {
             war_exhaustion = 30
-            national_provinces_occupied = 25
+            national_provinces_occupied = 0.25
         }
 	}
         
@@ -616,7 +615,7 @@ country_event = {
 		}
 		OR = {
             war_exhaustion = 35
-            national_provinces_occupied = 30
+            national_provinces_occupied = 0.30
         }
 	}
         
@@ -722,7 +721,7 @@ country_event = {
 		}
 		OR = {
             war_exhaustion = 45
-            national_provinces_occupied = 35
+            national_provinces_occupied = 0.35
         }
 	}
         
@@ -770,7 +769,7 @@ country_event = {
 		}
 		OR = {
             war_exhaustion = 60
-            national_provinces_occupied = 55
+            national_provinces_occupied = 0.55
         }
 	}
         
@@ -805,7 +804,7 @@ country_event = {
 		release = KST
 		release = MHL
 		release = JYL
-		any_core = { limit = { is_core = THIS NOT = { region = AFG_1212 } NOT = { region = PER_1148 } NOT = { region = PER_1147 } } remove_core = THIS }
+		any_owned = { limit = { is_core = THIS NOT = { region = AFG_1212 } NOT = { region = PER_1148 } NOT = { region = PER_1147 } } remove_core = THIS }
 		add_core = 1212
 		government = bourgeois_dictatorship
 		any_country = {
@@ -1188,7 +1187,7 @@ country_event = {
 
 #The Tragic Death of Abu Sa'id Mirza
 country_event = {
-    id = 9924
+    id = 99241
     title = "EVTNAME9924"
     desc = "EVTDESC9924"
 	
@@ -1211,7 +1210,9 @@ country_event = {
 		create_vassal = AJM
 		AJM = { all_core = { add_core = THIS } }
 		AJM = { government = colonial_company }
-		militancy = -2
+		any_pop = {
+			militancy = -2
+		}
 		set_country_flag = death_of_abu_said_mirza
 		ai_chance = { factor = 95 }
 	}

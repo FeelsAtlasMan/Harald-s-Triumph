@@ -51,7 +51,9 @@ political_decisions = {
 						has_country_modifier = sajungos_judejimas
 					}
 				}
-				remove_country_modifier = sajungos_judejimas
+				owner = {
+					remove_country_modifier = sajungos_judejimas
+				}
 			}
 		}
 		ai_will_do = { factor = 1 }
@@ -62,7 +64,7 @@ political_decisions = {
 			tag = SMG
 			NOT = { LIT = { exists = yes } }
 			has_global_flag = LIT_uprising
-			NOT = { has_country_flag = { spread_the_uprising } }
+			NOT = { has_country_flag = spread_the_uprising }
 			LIH = { vassal_of = THIS }
 		}
 		
