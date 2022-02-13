@@ -1445,7 +1445,7 @@ western_finnic = {
 	}
 	
 	savonian = { 
-		color = { 200 190 220 }
+		color = { 200 180 220 }
 		first_names = { Aatto Akseli Aleksanteri Anders Aukusti Edvard Eemil Erkki Erno Fabian
 		Fredrik Fridolf Georg Gösta Harald Hjalmar Hugo Johannes Juho Kaarlo
 		Kurt Lars Martti Mikko Paavo Petteri Rudolf Väinö Viktor Vilho }
@@ -1457,7 +1457,7 @@ western_finnic = {
 	}
 	
 	karelian = { 
-		color = { 180 170 220 }
+		color = { 180 160 220 }
 		first_names = { Aatto Akseli Aleksanteri Anders Aukusti Edvard Eemil Erkki Erno Fabian
 		Fredrik Fridolf Georg Gösta Harald Hjalmar Hugo Johannes Juho Kaarlo
 		Kurt Lars Martti Mikko Paavo Petteri Rudolf Väinö Viktor Vilho }
@@ -1469,7 +1469,7 @@ western_finnic = {
 	}
 	
 	ludic = { 
-		color = { 160 150 220 }
+		color = { 160 140 220 }
 		first_names = { Aatto Akseli Aleksanteri Anders Aukusti Edvard Eemil Erkki Erno Fabian
 		Fredrik Fridolf Georg Gösta Harald Hjalmar Hugo Johannes Juho Kaarlo
 		Kurt Lars Martti Mikko Paavo Petteri Rudolf Väinö Viktor Vilho }
@@ -1481,7 +1481,7 @@ western_finnic = {
 	}
 	
 	veps = { 
-		color = { 140 130 160 }
+		color = { 140 120 160 }
 		first_names = { Aatto Akseli Aleksanteri Anders Aukusti Edvard Eemil Erkki Erno Fabian
 		Fredrik Fridolf Georg Gösta Harald Hjalmar Hugo Johannes Juho Kaarlo
 		Kurt Lars Martti Mikko Paavo Petteri Rudolf Väinö Viktor Vilho }
@@ -1493,7 +1493,7 @@ western_finnic = {
 	}
 	
 	ingrian = { 
-		color = {180 160 220}
+		color = {120 100 140}
 		first_names = { Aatto Akseli Aleksanteri Anders Aukusti Edvard Eemil Erkki Erno Fabian
 		Fredrik Fridolf Georg Gösta Harald Hjalmar Hugo Johannes Juho Kaarlo
 		Kurt Lars Martti Mikko Paavo Petteri Rudolf Väinö Viktor Vilho }
@@ -1505,7 +1505,7 @@ western_finnic = {
 	}
 	
 	votic = { 
-		color = {160 120 240}
+		color = {100 80 140}
 		first_names = { Aatto Akseli Aleksanteri Anders Aukusti Edvard Eemil Erkki Erno Fabian
 		Fredrik Fridolf Georg Gösta Harald Hjalmar Hugo Johannes Juho Kaarlo
 		Kurt Lars Martti Mikko Paavo Petteri Rudolf Väinö Viktor Vilho }
@@ -1582,7 +1582,7 @@ saami_group = {
 		}
 	}
 	eastern_sami = {
-		color = { 160 180 110}
+		color = { 140 180 90}
 		first_names = {
 			Asllak Biejas Dure Erke Hanno Iskko Joha Laras Markkos Mikko Niillas Osku Uhkku
 		}
@@ -1592,7 +1592,29 @@ saami_group = {
 	}
 }
 
-eastern_finnic = {
+mordvinic_mari = {
+	leader = russian
+	unit = RussianGC
+    mari = {
+		color = {80 100 130}
+		first_names = { Aleksandr Dmitri Ivan Jukka Santeri Vladimir }
+		last_names = { Kokko Likhachev Mamin Minin Sibiriak  Tikhanov Zubov }
+	}
+	
+	mordvin = {
+		color = {110 130 160}
+		first_names = { Aleksandr Dmitri Ivan Jukka Santeri Vladimir }
+		last_names = { Kokko Likhachev Mamin Minin Sibiriak  Tikhanov Zubov }
+	}
+	
+	erzya = {
+		color = {150 130 160}
+		first_names = { Aleksandr Dmitri Ivan Jukka Santeri Vladimir }
+		last_names = { Kokko Likhachev Mamin Minin Sibiriak  Tikhanov Zubov }
+	}
+}
+
+permic = {
 	leader = russian
 	unit = RussianGC
 	komi = { 
@@ -1600,18 +1622,9 @@ eastern_finnic = {
 		first_names = { Aleksandr Dmitri Ivan Jukka Santeri Vladimir }
 		last_names = { Kokko Likhachev Mamin Minin Sibiriak  Tikhanov Zubov }
 	}
+	
 	udmurt = {
 		color = {60 130 130}
-		first_names = { Aleksandr Dmitri Ivan Jukka Santeri Vladimir }
-		last_names = { Kokko Likhachev Mamin Minin Sibiriak  Tikhanov Zubov }
-	}
-	mari = {
-		color = {80 100 130}
-		first_names = { Aleksandr Dmitri Ivan Jukka Santeri Vladimir }
-		last_names = { Kokko Likhachev Mamin Minin Sibiriak  Tikhanov Zubov }
-	}
-	mordvin = {
-		color = {110 130 160}
 		first_names = { Aleksandr Dmitri Ivan Jukka Santeri Vladimir }
 		last_names = { Kokko Likhachev Mamin Minin Sibiriak  Tikhanov Zubov }
 	}
@@ -2303,7 +2316,7 @@ siberian_turkic = {
 	is_overseas = no
 	unit = AsianGC
 	yakut = {
-		color = {80 90 90}
+		color = {45 15 90}
 		first_names = { 
 			Aysen Nyurgun Elley Aytal Manchaary
 		}
@@ -2313,27 +2326,7 @@ siberian_turkic = {
 	}
 	
 	dolgan = {
-		color = {70 80 70}
-		first_names = { 
-			Aysen Nyurgun Elley Aytal Manchaary
-		}
-		last_names = { 
-              Okhlopkov Shishigin Shtyrov Ondar Sivtsev 
-		}
-	}
-	
-	tofa = {
-		color = {80 100 120}
-		first_names = { 
-			Aysen Nyurgun Elley Aytal Manchaary
-		}
-		last_names = { 
-              Okhlopkov Shishigin Shtyrov Ondar Sivtsev 
-		}
-	}
-	
-	khaka = {
-		color = {90 110 130}
+		color = {25 15 70}
 		first_names = { 
 			Aysen Nyurgun Elley Aytal Manchaary
 		}
@@ -2343,7 +2336,37 @@ siberian_turkic = {
 	}
 	
 	tuvan = {
-		color = {100 130 120}
+		color = {75 35 120}
+		first_names = { 
+			Aysen Nyurgun Elley Aytal Manchaary
+		}
+		last_names = { 
+              Okhlopkov Shishigin Shtyrov Ondar Sivtsev 
+		}
+	}
+	
+	tofa = {
+		color = {85 55 125}
+		first_names = { 
+			Aysen Nyurgun Elley Aytal Manchaary
+		}
+		last_names = { 
+              Okhlopkov Shishigin Shtyrov Ondar Sivtsev 
+		}
+	}
+	
+	soyot = {
+		color = {95 75 130}
+		first_names = { 
+			Aysen Nyurgun Elley Aytal Manchaary
+		}
+		last_names = { 
+              Okhlopkov Shishigin Shtyrov Ondar Sivtsev 
+		}
+	}
+	
+	khakas = {
+		color = {105 95 135}
 		first_names = { 
 			Aysen Nyurgun Elley Aytal Manchaary
 		}
@@ -2353,7 +2376,17 @@ siberian_turkic = {
 	}
 	
 	shor = {
-		color = {110 150 140}
+		color = {115 115 140}
+		first_names = { 
+			Aysen Nyurgun Elley Aytal Manchaary
+		}
+		last_names = { 
+              Okhlopkov Shishigin Shtyrov Ondar Sivtsev 
+		}
+	}
+	
+	western_yugur = {
+		color = {125 125 145}
 		first_names = { 
 			Aysen Nyurgun Elley Aytal Manchaary
 		}
@@ -2363,7 +2396,7 @@ siberian_turkic = {
 	}
     
     altai = {
-		color = {130 160 140}
+		color = {135 145 155}
 		first_names = { 
 			Aysen Nyurgun Elley Aytal Manchaary
 		}
@@ -2371,6 +2404,17 @@ siberian_turkic = {
               Okhlopkov Shishigin Shtyrov Ondar Sivtsev 
 		}
    }
+   
+    teleut = {
+		color = {145 160 155}
+		first_names = { 
+			Aysen Nyurgun Elley Aytal Manchaary
+		}
+		last_names = { 
+              Okhlopkov Shishigin Shtyrov Ondar Sivtsev 
+		}
+   }
+   
    chulym = {
 		color = {65 55 5}
 		first_names = { 
@@ -2517,7 +2561,7 @@ kipchak = {
 		radicalism = 10
 	}
 	
-	astrakhan_tatar = {
+	bashkir = {
 		color = {155 145 90}
 		first_names = {
 			Asaf Baqi Galiaskar Ismail Makhmut  Musa Rustam Yusuf
