@@ -387,7 +387,7 @@ political_decisions = {
 	}
 	
 	#Defeat the Chokwe
-	reform_lunda_administration = {
+	reform_lunda_administration_two = {
 	    picture = hausa_expansion4
 	    potential = {
 			tag = LUN
@@ -496,30 +496,6 @@ political_decisions = {
 		    factor = 1
 		}
 	}
-	
-	#Defeat the Chokwe
-	reform_lunda_administration = {
-	    picture = hausa_expansion4
-	    potential = {
-			tag = LUN
-			NOT = { has_country_flag = chokwe_war }
-			has_country_flag = reformed_lunda
-		}
-
-		allow = {
-			war = no
-			LUN = { all_core = { owned_by = THIS } }
-		}
-
-		effect = {
-            CKW = { all_core = { add_core = THIS } }
-			set_country_flag = chokwe_war
-		}
-
-		ai_will_do = {
-		    factor = 1
-		}
-	}
 
 	#Meme Shit
 	invade_iran_swa = {
@@ -549,7 +525,7 @@ political_decisions = {
 		effect = {
 			PER = { all_core = { add_core = SWA } }
 			set_country_flag =  invaded_iran_swa 
-			infamy = 25
+			badboy = 25
 		}
 
 		ai_will_do = {

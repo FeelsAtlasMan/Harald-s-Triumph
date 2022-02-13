@@ -125,7 +125,7 @@ political_decisions = {
 			is_vassal = no
 		}
 		effect = {
-			TUR_894 = { all_core = { add_core = THIS } }
+			TUR_894 = { add_core = THIS }
 			badboy = 4
 			set_country_flag = claimed_cilicia
 		}
@@ -153,7 +153,7 @@ political_decisions = {
 			is_vassal = no
 		}
 		effect = {
-			TUR_894 = { all_core = { add_core = THIS } }
+			TUR_894 = { add_core = THIS }
 			badboy = 4
 			set_country_flag = claimed_cilicia
 		}
@@ -187,13 +187,13 @@ political_decisions = {
 			     has_country_flag = abb_mamluk_advisors
 			     has_country_flag = abb_western_administration
 		         has_country_flag = abb_australia
-				 AI = yes
+				 ai = yes
 		      }
 			  AND = {
 			     has_country_flag = abb_western_advisors
 			     has_country_flag = abb_mamluk_administration
 		         has_country_flag = abb_australia
-				 AI = yes
+				 ai = yes
 		      }
 			  AND = {
 			     has_country_flag = abb_western_advisors
@@ -202,27 +202,29 @@ political_decisions = {
 		           has_country_flag = sold_australia
 				   has_country_flag = lost_australia
 				 }
-				 AI = yes
+				 ai = yes
 		      }
 		  }
 		}
 		effect = {
-		   remove_accepted_culture = mamluki
-		   clr_country_flag = shadow_caliphate
-		   set_country_flag = dethrowned_mamluks
-		   prestige = 10
-		   any_pop = {
-		         limit = {
-				       culture = mamluki
-					   culture = abaza
-					   culture = circassian
-				 }
-				 militancy = 9
-		   }
+			remove_accepted_culture = mamluki
+			clr_country_flag = shadow_caliphate
+			set_country_flag = dethrowned_mamluks
+			prestige = 10
+			any_pop = {
+		        limit = {
+					OR = {
+						culture = mamluki
+						culture = abaza
+						culture = circassian
+					}
+				}
+			militancy = 9
+			}
 		}
 		ai_will_do = {
 		    factor = 1
-			}
+		}
 	}
 	
 	#Install Advisors

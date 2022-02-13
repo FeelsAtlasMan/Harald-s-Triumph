@@ -68,7 +68,7 @@ political_decisions = {
 		#picture = become_toucouleur
 		potential = {
 			tag = SGH
-			NOT = { set_country_flag = reestablished_songhai }
+			NOT = { has_country_flag = reestablished_songhai }
 		}
 
 		allow = {

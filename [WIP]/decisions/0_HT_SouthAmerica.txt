@@ -61,7 +61,9 @@ political_decisions = {
 		    BRZ = { all_core = { remove_core = BRZ } }
 			BAH = { all_core = { add_core = THIS } }
 		    BAH = { all_core = { remove_core = BAH } }
-			militancy = -8
+			any_pop = {
+				militancy = -8
+			}
 			war_exhaustion = -100
 			economic_reform = yes_land_reform
 			economic_reform = yes_admin_reform
@@ -448,7 +450,7 @@ political_decisions = {
 		effect = {
 			2417 = { add_core = INC }
 			3480 = { add_core = INC }
-			2407 = { add_core = INC }
+			2407 = { add_core = INC secede_province = THIS }
 			2401 = { add_core = INC }
 			2263 = { add_core = INC }
 			2235 = { add_core = INC }
@@ -456,7 +458,6 @@ political_decisions = {
 			2549 = { add_core = INC }
 			2404 = { add_core = INC }
 			2405 = { add_core = INC }
-			secede_province = 2407
 			set_country_flag = inca_amassuna_claims_proc
 		}
 		ai_will_do = { factor = 1 }

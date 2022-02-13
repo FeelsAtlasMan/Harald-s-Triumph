@@ -15,7 +15,7 @@ political_decisions = {
 			war = no
 			OR = {
 			   SNR = { war_with = ABB }
-			   SNR = { war_with = MAM }
+			   #SNR = { war_with = MAM }
 			   #SNR = { war_with = EGY }
 		    }
 		}

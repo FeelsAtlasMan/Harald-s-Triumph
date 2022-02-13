@@ -30,20 +30,20 @@ political_decisions = {
 		}
 		effect = {
 			treasury = -50000
-			625 = { railroad = 1 }
-			3334 = { railroad = 1 }
-			631 = { railroad = 1 }
-			3335 = { railroad = 1 }
-			689 = { railroad = 1 }
-			2584 = { railroad = 1 }
-			703 = { railroad = 1 }
-			716 = { railroad = 1 }
-			713 = { railroad = 1 }
-			706 = { railroad = 1 }
-			708 = { railroad = 1 }
-			694 = { railroad = 1 }
-			691 = { railroad = 1 }
-			690 = { railroad = 1 }
+			625 = { infrastructure = 1 }
+			3334 = { infrastructure = 1 }
+			631 = { infrastructure = 1 }
+			3335 = { infrastructure = 1 }
+			689 = { infrastructure = 1 }
+			2584 = { infrastructure = 1 }
+			703 = { infrastructure = 1 }
+			716 = { infrastructure = 1 }
+			713 = { infrastructure = 1 }
+			706 = { infrastructure = 1 }
+			708 = { infrastructure = 1 }
+			694 = { infrastructure = 1 }
+			691 = { infrastructure = 1 }
+			690 = { infrastructure = 1 }
 			set_country_flag = built_the_prauge_vistula_railway
 		}
 	}

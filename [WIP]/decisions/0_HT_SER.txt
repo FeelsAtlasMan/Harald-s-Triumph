@@ -18,14 +18,14 @@ political_decisions = {
 				duration = 2700
 			}
 			HUN = {
-				any_owned_province = {
+				any_owned = {
 					limit = {
 						is_core = BOS
 					}
 					secede_province = BOS
 				}
 				release_vassal = BOS
-				diplomatinc_influence = {
+				diplomatic_influence = {
 					who = BOS
 					value = -200
 				}

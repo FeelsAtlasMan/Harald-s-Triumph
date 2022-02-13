@@ -97,7 +97,6 @@ upper_house = {
 }
 
 schools = culture_tech_school
-decision = france_1836_setup
 decision = setup_france
 
 set_country_flag = france
@@ -118,7 +117,6 @@ foreign_investment = {
 	non_state_culture_literacy = 0.15
 
 	
-	decision = support_french_foreign_legion
 	set_country_flag = cochinchina_campaign
 	set_country_flag = claimed_authority_over_holy_land
 	set_global_flag = liberal_revolutions_should_now_fire
