@@ -410,8 +410,6 @@ MOL_673 = { 673 672 670 671 663 662 } #Moldavia
 
 TUR_674 = { 674 675 818 814 813 811 } #Dobrudja
 
-MOL_676 = { 676 677 678 } #Bessarabia
-
 TUR_788 = { 783 787 786 3299 } #Bosnia
 
 CRO_784 = { 784 785 789 3716 } #Krajina
@@ -565,7 +563,7 @@ YEM_1412 = { 1412 1173 1175 1176 1177 1174 } #Hadhramut
 
 YEM_1178 = { 1178 1179 1155 3443 } #Sanaa
 
-KOK_1190 = { 1186 1187 1188 2606 } #Outer Dzungaria
+KOK_1190 = { 1186 1187 1188 2606 1067 } #Outer Dzungaria
 
 KHI_1198 = { 1198 1199 1200 1206 3290 3614 } #Uzbekia
 
@@ -608,51 +606,51 @@ RUS_706 = { 706 708 713 3422 } #Western Masovia
 
 RUS_712 = { 712 717 710 } #Sieradz
 
-RUS_937 = { 937 939 940 } #Polesia
+RUS_937 = { 937 940 941 942 } #Polesia
 
 RUS_707 = { 707 936 361 362 } #Yotvingia
 
 RUS_719 = { 719 709 711 } #Eastern Masovia-Podlachia
 
-RUS_718 = { 718 941 942 } #Minsk
+RUS_718 = { 718 939 945 946 } #Minsk
 
-RUS_943 = { 943 999 1000 3356 } #Smolensk
+RUS_943 = { 943 3356 1016 } #Smolensk
 
-RUS_947 = { 944 945 946 948 } #Orsha
+RUS_947 = { 944 948 3331 949 } #Orsha
 
 RUS_958 = { 958 959 960 } #Kiev
 
-RUS_954 = { 954 3343 3344 961 } #Southern Ukraine
+RUS_954 = { 954 3343 3344 961 677 } #Southern Ukraine
 
 RUS_959 = { 955 956 957 } #Volyn
 
-RUS_964 = { 967 966 964 } #Crimea
+RUS_964 = { 967 966 964 973 965 } #Crimea
 
-RUS_968 = { 968 969 } #Yedisan
-
-RUS_973 = { 976 973 975 965 } #Kherson-Zaporizhia
+RUS_968 = { 968 969 678 676 } #Yedisan
 
 RUS_955 = { 972 971 970 } #Yekaterinoslav
 
-RUS_977 = { 977 1017 3326 } #Kursk
+RUS_977 = { 977 1017 1018 } #Kursk
 
-RUS_978 = { 978 980 974 } #Kharkov
+RUS_978 = { 978 980 974 976 975 } #Kharkov
 
 RUS_963 = { 963 3321 3322 3323 } #Poltava
 
 RUS_962 = { 962 3324 3325 } #Chernigov
 
-RUS_1019 = { 1019 1018 3327 } #Voronezh
+RUS_1019 = { 1019 3327 3326 } #Voronezh
 
-RUS_979 = { 979 1047 1046 1045 } #Don Host Oblast
+RUS_979 = { 979 1047 1046 1045 1048 3672 } #Don Host Oblast
 
 RUS_981 = { 981 985 2588 } #Arkhangelsk
 
-RUS_990 = { 990 987 1024 991 1023 } #Galich
+RUS_990 = { 990 987 1024 991 989 } #Galich
 
 RUS_994 = { 994 996 997 } #Ingria
 
-RUS_998 = { 998 1001 989 } #Tver
+RUS_998 = { 998 999 1000 1009 } #Tver
+
+RUS_1001 = { 1001 1022 1023 } #Yaroslavl
 
 RUS_992 = { 992 1004 2580 993 } #Belozersk
 
@@ -660,27 +658,25 @@ RUS_1003 = { 1003 1005 3357 3358 } #Novgorod
 
 RUS_1006 = { 1006 3355 1007 } #Pskov
 
-RUS_1008 = { 1008 1013 1022 } #Moscow
+RUS_1008 = { 1008 1013 1012 1011 } #Moscow
 
-RUS_1012 = { 1012 1011 3328 3360 } #Ryazan
+RUS_1025 = { 1025 3329 3328 3360 } #Tambov
 
-RUS_1025 = { 1025 3329 3330 } #Tambov
+RUS_1010 = { 1010 1014 1015 } #Kaluga
 
-RUS_1016 = { 1016 1015 3331 949 } #Bryansk
+RUS_3709 = { 3709 1027 1028 1029 1031 } #Outer Kazan - Mari El-Udmurtia
 
-RUS_1010 = { 1010 1014 1009 } #Kaluga
+RUS_1020 = { 1020 3310 1021 } #Nizhni-Novgorod
 
-RUS_1020 = { 1020 1027 1028 3310 3709 } #Outer Kazan
+RUS_1030 = { 1030 1033 3309 3719 1032 } #Inner Kazan
 
-RUS_1030 = { 1030 1033 3309 1021 3719 } #Inner Kazan
+RUS_1026 = { 1026 2689 2700 3354 } #Perm
 
-RUS_1026 = { 1026 2689 1029 1031 2700 3352 3354 3720 3721 } #Perm
+RUS_1037 = { 1037 1038 3330 } #Tartaria
 
-RUS_1037 = { 1037 1038 1035 1043 } #Tartaria
+RUS_1041 = { 1036 1040 1039 2610 } #Astrakhan
 
-RUS_1041 = { 1041 1036 1040 1039 2610 } #Astrakhan
-
-RUS_1048 = { 1048 3351 3672 3673 } #Kuban
+RUS_1048 = { 1041 3351 3673 } #Kamassia
 
 RUS_3350 = { 3668 3350 3349 3401 3669 3671 1049 1051 3348 } #Circassia
 
@@ -690,17 +686,17 @@ RUS_1052 = { 1052 1053 3314 3315 3316 3319 3317 3647 } #Avarestan
 
 TIM_1055 = { 1055 1057 3318 1054 3362 3400 } #Northern Caucasus
 
-RUS_1060 = { 1042 1034 1032 } #Eastern Tartary
+RUS_1060 = { 1035 1034 1043 } #Eastern Tartary
 
-RUS_1064 = { 1064 1066 1061 } #Tobolsk
+RUS_1042 = { 1042 1059 1058 3352 3720 } #Bashkortostan
 
-RUS_1065 = { 2682 2613 2615 2659 2684 } #Ob - Yamalia
+RUS_1064 = { 1064 1066 1061 2614 2658 2686 } #Tobolsk - Qashliq
+
+RUS_1065 = { 2613 2615 2659 2684 } #Yamalia
 
 RUS_1069 = { 1069 2650 2651 2649 2673 2652 2653 2695 } #West Yakutsk
 
-RUS_1070 = { 1469 2691 2674 1068 } #Uriankhai
-
-RUS_1075 = { 1075 1076 2701 2677 } #Sayan
+RUS_1070 = { 1469 2691 2674 1068 1077 2698 1075 1076 } #Uriankhai
 
 RUS_1071 = { 2648 2696 2644 2645 } #Yakutsk
 
@@ -708,9 +704,9 @@ RUS_1072 = { 1081 2697 1080 1085 1553 } #Daguria
 
 RUS_1074 = { 1074 2633 2616 2663 } #Kamchatka
 
-RUS_1079 = { 1078 1079 2671 2676 } #Trans-Baikal
+RUS_1079 = { 1078 1079 2671 2676 2677 2670 } #Trans-Baikal
 
-CHI_1082 = { 1082 1083 1084 2617 1554 } #Manchuria
+CHI_1082 = { 1082 1083 1084 2617 1554 3723 3724 3725 3726 } #Manchuria
 
 JAP_1086 = { 1086 1087 1088 1089 } #Sakhalin
 
@@ -724,25 +720,19 @@ RUS_1205 = { 1205 1194 3283 3662 } #Ust Yurt/Siahkuh
 
 RUS_1204 = { 1204 686 3284 3285 3398 3399 } #Kara Kum
 
-RUS_1469 = { 1067 2698 2686 } #Shoria
-
-RUS_1063 = { 1063 2683 1070 1077 2646 } #Selkupia
+RUS_1063 = { 1063 2683 2646 } #Selkupia
 
 RUS_2589 = { 986 2699 2688 2687 } #Nenetsia
 
 RUS_2590 = { 2622 2634 2637 2661 2666 } #Coastal Chukotka
 
-RUS_2615 = { 2657 2680 2654 2694 2656 2655 2693 2692 2675 } #Lower Yeniseysk - Taymyria
+RUS_2615 = { 1070 2657 2680 2654 2694 2656 2655 2693 2692 2675 3722 2701 } #Lower Yeniseysk - Taymyria
 
 RUS_2618 = { 1072 2641 2618 2620 2638 2639 1073 2660 } #Upper Okhotsk - Magadan
 
-#RUS_2621 = { } #Inner Chukotka
-
-RUS_2653 = { 2690 1065 1062 } #North Siberia
+RUS_2653 = { 2690 1065 1062 2685 3721 2682 } #Khanty-Mansi
 
 RUS_2668 = { 2668 2643 2665 2667 2672 2621 2619 2642 } #North Yakutsk
-
-RUS_2685 = { 1058 2685 1059 2614 2658 } #Ural
 
 #RUS_2694 = {  } #Middle Siberia - Evensk
 
@@ -880,7 +870,7 @@ SPA_1463 = { 1463 1462 1464 } #Mindanao
 
 ### China
 
-CHI_1465 = { 1465 1466 1467 2207 2670 } #Urga
+CHI_1465 = { 1465 1466 1467 2207 } #Urga
 
 CHI_1468 = { 1468 2678 2679 2608 } #Uliastai
 

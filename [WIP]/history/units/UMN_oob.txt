@@ -1,0 +1,39 @@
+army = {
+	name = "Uman Cossacks"
+	location = 3344
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+		home = 961
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+		home = 3321
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+		home = 972
+	}
+}
+
+army = {
+	name = "Djneper Cossacks"
+	location = 970
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+		home = 970
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+		home = 971
+	}
+}
+
+
+
+
+

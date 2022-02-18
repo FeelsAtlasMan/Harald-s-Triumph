@@ -1155,7 +1155,7 @@ western_slavic = {
 east_slavic = {
 	leader = russian
 	unit = RussianGC
-	russian = {
+	novgorodian = {
 		color = {0 70 10}
 		   first_names = { Aleksandr Alexei Andrei Anton Boris Dmitry Fyodor Gennady 
 						 Giorgi Grigoriy Igor Ivan Kirill Konstantin Lavr Leonid Lev Maxim 
@@ -1169,8 +1169,8 @@ east_slavic = {
 						  Shuvalov Surkov Tukhachevsky Yegorov Yudenich Vorontsov Voroshilov Zavoyko }
 	}
 	
-	novgorodian = {
-		color = {35 105 45}
+	russian = {
+		color = {35 105 45} 
 		   first_names = { Aleksandr Alexei Andrei Anton Boris Dmitry Fyodor Gennady 
 						 Giorgi Grigoriy Igor Ivan Kirill Konstantin Lavr Leonid Lev Maxim 
 						 Mikhail Nikita Nikolai Oleg Pavel Pyotr Roman Semyon Sergei 
@@ -1183,17 +1183,6 @@ east_slavic = {
 						  Shuvalov Surkov Tukhachevsky Yegorov Yudenich Vorontsov Voroshilov Zavoyko }
 	}
 	
-	byelorussian = {
-		color = {100 140 110}
-			first_names = { Alaksandr Alexei Andrei Anton Boris Cyril Danya Dz'mitry Giorgi 
-							Ivan Janka Jury Lavr Leonid Leu Mikalai Paval Piotr Roman Ryhor 
-							Stanislaw Sergey Valery Vasily Viktar Uladzimir Vladislav }
-
-			last_names = { Alexseyev "Bulak-Balachowicz" Chibisov Denikin Dragomirov Golivin Gurko 
-						   Ivanov Kalinowski Kornilov Kolchak Kuropatkin Lukashenka Menshikov Nakhimov 
-						   Nebogatov Nikolaevich Pavlov Putyatin Rozhestvensky Skobelev Sukhoi 
-						   Tukhachevsky Yegorov Vorontsov Zhauryd }
-        }
 	ukrainian = {
 		color = {70 140 80}
 			first_names = { Alexei Andrei Anton Arkadiy Borys Dmitro Fyodor Hryhoriy Ivan Lavr Leonid Lev 
@@ -1204,7 +1193,32 @@ east_slavic = {
 							Kapustiansky Kondratenko Leshchenko Leshchinskiy "Omelianovych-Pavlenko" 
 							Paskevich Petliura Radchenko Shevchenko Skoropadskyi Stefaniv Tymoshenko Vitovsky }
 			radicalism = 10
-        }
+    }
+	
+	polesian = {
+		color = {88 158 98}
+			first_names = { Alaksandr Alexei Andrei Anton Boris Cyril Danya Dz'mitry Giorgi 
+							Ivan Janka Jury Lavr Leonid Leu Mikalai Paval Piotr Roman Ryhor 
+							Stanislaw Sergey Valery Vasily Viktar Uladzimir Vladislav }
+
+			last_names = { Alexseyev "Bulak-Balachowicz" Chibisov Denikin Dragomirov Golivin Gurko 
+						   Ivanov Kalinowski Kornilov Kolchak Kuropatkin Lukashenka Menshikov Nakhimov 
+						   Nebogatov Nikolaevich Pavlov Putyatin Rozhestvensky Skobelev Sukhoi 
+						   Tukhachevsky Yegorov Vorontsov Zhauryd }
+    }
+		
+	byelorussian = {
+		color = {105 175 115}
+			first_names = { Alaksandr Alexei Andrei Anton Boris Cyril Danya Dz'mitry Giorgi 
+							Ivan Janka Jury Lavr Leonid Leu Mikalai Paval Piotr Roman Ryhor 
+							Stanislaw Sergey Valery Vasily Viktar Uladzimir Vladislav }
+
+			last_names = { Alexseyev "Bulak-Balachowicz" Chibisov Denikin Dragomirov Golivin Gurko 
+						   Ivanov Kalinowski Kornilov Kolchak Kuropatkin Lukashenka Menshikov Nakhimov 
+						   Nebogatov Nikolaevich Pavlov Putyatin Rozhestvensky Skobelev Sukhoi 
+						   Tukhachevsky Yegorov Vorontsov Zhauryd }
+    }
+	
 	rusyn = {
 		color = {70 140 120}
 			first_names = { Alexei Andrei Anton Arkadiy Borys Dmitro Fyodor Hryhoriy Ivan Lavr Leonid Lev 
@@ -1214,8 +1228,7 @@ east_slavic = {
 			last_names = { Bezruchko Chernyakhovsky Dyachenko Gamula Grigoriev Hrekov Ivanenko Ivanov 
 							Kapustiansky Kondratenko Leshchenko Leshchinskiy "Omelianovych-Pavlenko" 
 							Paskevich Petliura Radchenko Shevchenko Skoropadskyi Stefaniv Tymoshenko Vitovsky }
-			radicalism = 10
-        }
+    }
 	union = RUS
 }
 
@@ -1396,18 +1409,18 @@ pan_albanian = {
 	}
 }
 
-#Finno-Ugric Languages
+#Uralic
 ugric = {
 	leader = russian
 	unit = RussianGC
     mansi = {  
-		color = {130 175 90}
+		color = {80 165 60}
 		first_names = { Aleksandr Dmitri Ivan Jukka Santeri Vladimir }
 		last_names = { Kokko Likhachev Mamin Minin Sibiriak  Tikhanov Zubov }
   }
 	
    khanty = {  
-		color = {100 145 60}
+		color = {60 145 40}
 		first_names = { Aleksandr Dmitri Ivan Jukka Santeri Vladimir }
 		last_names = { Kokko Likhachev Mamin Minin Sibiriak  Tikhanov Zubov }
    }
@@ -1633,34 +1646,38 @@ permic = {
 samoyedic = {
 	leader = russian
 	unit = RussianGC
-    nenets = {  
+	nganasan = {  
 		color = {125 185 185}
 		first_names = { Aleksandr Dmitri Ivan Jukka Santeri Vladimir }
 		last_names = { Kokko Likhachev Mamin Minin Sibiriak  Tikhanov Zubov }
-	  }
+	} 
+	
     enets = {  
-		color = {85 125 125}
+		color = {105 165 165}
 		first_names = { Aleksandr Dmitri Ivan Jukka Santeri Vladimir }
 		last_names = { Kokko Likhachev Mamin Minin Sibiriak  Tikhanov Zubov }
-	  }
+	}
+	
+    nenets = {  
+		color = {85 145 145}
+		first_names = { Aleksandr Dmitri Ivan Jukka Santeri Vladimir }
+		last_names = { Kokko Likhachev Mamin Minin Sibiriak  Tikhanov Zubov }
+	}
+	
     selkup = {  
-		color = {55 95 95}
+		color = {65 125 125}
 		first_names = { Aleksandr Dmitri Ivan Jukka Santeri Vladimir }
 		last_names = { Kokko Likhachev Mamin Minin Sibiriak  Tikhanov Zubov }
-	  } 
-	nganasan = {  
-		color = {35 65 65}
-		first_names = { Aleksandr Dmitri Ivan Jukka Santeri Vladimir }
-		last_names = { Kokko Likhachev Mamin Minin Sibiriak  Tikhanov Zubov }
-	  } 
+    } 
+	
 	sayan = {  
-		color = {15 45 45}
+		color = {45 105 105}
 		first_names = { Aleksandr Dmitri Ivan Jukka Santeri Vladimir }
 		last_names = { Kokko Likhachev Mamin Minin Sibiriak  Tikhanov Zubov }
 	} 
 	
 	kamas = {  
-		color = {15 45 45}
+		color = {25 85 85}
 		first_names = { Aleksandr Dmitri Ivan Jukka Santeri Vladimir }
 		last_names = { Kokko Likhach Mamin Minin Sibiri  Tikhan Zub }
 	}   
@@ -2316,7 +2333,7 @@ siberian_turkic = {
 	is_overseas = no
 	unit = AsianGC
 	yakut = {
-		color = {45 15 90}
+		color = {45 15 60}
 		first_names = { 
 			Aysen Nyurgun Elley Aytal Manchaary
 		}
@@ -2326,7 +2343,7 @@ siberian_turkic = {
 	}
 	
 	dolgan = {
-		color = {25 15 70}
+		color = {25 15 30}
 		first_names = { 
 			Aysen Nyurgun Elley Aytal Manchaary
 		}
@@ -2336,7 +2353,7 @@ siberian_turkic = {
 	}
 	
 	tuvan = {
-		color = {75 35 120}
+		color = {75 35 70}
 		first_names = { 
 			Aysen Nyurgun Elley Aytal Manchaary
 		}
@@ -2346,7 +2363,7 @@ siberian_turkic = {
 	}
 	
 	tofa = {
-		color = {85 55 125}
+		color = {85 35 75}
 		first_names = { 
 			Aysen Nyurgun Elley Aytal Manchaary
 		}
@@ -2356,7 +2373,7 @@ siberian_turkic = {
 	}
 	
 	soyot = {
-		color = {95 75 130}
+		color = {95 35 80}
 		first_names = { 
 			Aysen Nyurgun Elley Aytal Manchaary
 		}
@@ -2365,8 +2382,8 @@ siberian_turkic = {
 		}
 	}
 	
-	khakas = {
-		color = {105 95 135}
+	khakass = {
+		color = {105 55 85}
 		first_names = { 
 			Aysen Nyurgun Elley Aytal Manchaary
 		}
@@ -2376,7 +2393,7 @@ siberian_turkic = {
 	}
 	
 	shor = {
-		color = {115 115 140}
+		color = {115 55 90}
 		first_names = { 
 			Aysen Nyurgun Elley Aytal Manchaary
 		}
@@ -2386,7 +2403,7 @@ siberian_turkic = {
 	}
 	
 	western_yugur = {
-		color = {125 125 145}
+		color = {125 55 95}
 		first_names = { 
 			Aysen Nyurgun Elley Aytal Manchaary
 		}
@@ -2396,17 +2413,17 @@ siberian_turkic = {
 	}
     
     altai = {
-		color = {135 145 155}
+		color = {135 75 100}
 		first_names = { 
 			Aysen Nyurgun Elley Aytal Manchaary
 		}
 		last_names = { 
               Okhlopkov Shishigin Shtyrov Ondar Sivtsev 
 		}
-   }
+    }
    
     teleut = {
-		color = {145 160 155}
+		color = {145 75 105}
 		first_names = { 
 			Aysen Nyurgun Elley Aytal Manchaary
 		}
@@ -2517,8 +2534,52 @@ kipchak = {
 			}
 	}
 	
+	nogay_tatar = {
+		color = {200 220 110}
+		first_names = {
+			Asaf Baqi Galiaskar Ismail Makhmut  Musa Rustam Yusuf
+		}
+		last_names = {
+			Amirkhanov Faysi Gizzat Ibragimov Kamal Khusainov Tinchurin Tukay Yanbayev
+		}
+		radicalism = 10
+	}
+	
+	kumyk = {
+		color = {220 220 110}
+		first_names = {
+			Asaf Baqi Galiaskar Ismail Makhmut  Musa Rustam Yusuf
+		}
+		last_names = {
+			Amirkhanov Faysi Gizzat Ibragimov Kamal Khusainov Tinchurin Tukay Yanbayev
+		}
+		radicalism = 10
+	}
+	
+	tawlula = {
+		color = {200 220 140}
+		first_names = {
+			Asaf Baqi Galiaskar Ismail Makhmut  Musa Rustam Yusuf
+		}
+		last_names = {
+			Amirkhanov Faysi Gizzat Ibragimov Kamal Khusainov Tinchurin Tukay Yanbayev
+		}
+		radicalism = 10
+	}
+	
 	crimean_tatar = {
-		color = { 190 180 125 }
+		color = { 200 200 100 }
+		first_names = {
+			Asaf Baqi Galiaskar Ismail Makhmut  Musa Rustam Yusuf
+		}
+		last_names = {
+			Amirkhanov Faysi Gizzat Ibragimov Kamal Khusainov Tinchurin Tukay Yanbayev
+		}
+		radicalism = 10
+	}
+	
+	bulgar_tatar = {
+		color = { 160 180 90 }
 		first_names = {
 			Asaf Baqi Galiaskar Ismail Makhmut  Musa Rustam Yusuf
 		}
@@ -2529,7 +2590,7 @@ kipchak = {
 	}
 	
 	mishar = {
-		color = { 140 180 125 }
+		color = { 140 160 80 }
 		first_names = {
 			Asaf Baqi Galiaskar Ismail Makhmut  Musa Rustam Yusuf
 		}
@@ -2550,19 +2611,8 @@ kipchak = {
 		radicalism = 10
 	}
 	
-	bulgar_tatar = {
-		color = {120 110 55}
-		first_names = {
-			Asaf Baqi Galiaskar Ismail Makhmut  Musa Rustam Yusuf
-		}
-		last_names = {
-			Amirkhanov Faysi Gizzat Ibragimov Kamal Khusainov Tinchurin Tukay Yanbayev
-		}
-		radicalism = 10
-	}
-	
 	bashkir = {
-		color = {155 145 90}
+		color = { 120 140 70 }
 		first_names = {
 			Asaf Baqi Galiaskar Ismail Makhmut  Musa Rustam Yusuf
 		}
@@ -2573,40 +2623,7 @@ kipchak = {
 	}
 	
 	sibir_tatar = {
-		color = {85 75 20}
-		first_names = {
-			Asaf Baqi Galiaskar Ismail Makhmut  Musa Rustam Yusuf
-		}
-		last_names = {
-			Amirkhanov Faysi Gizzat Ibragimov Kamal Khusainov Tinchurin Tukay Yanbayev
-		}
-		radicalism = 10
-	}
-	
-	nogay_tatar = {
-		color = {100 100 45}
-		first_names = {
-			Asaf Baqi Galiaskar Ismail Makhmut  Musa Rustam Yusuf
-		}
-		last_names = {
-			Amirkhanov Faysi Gizzat Ibragimov Kamal Khusainov Tinchurin Tukay Yanbayev
-		}
-		radicalism = 10
-	}
-	
-	kumyk = {
-		color = {125 125 70}
-		first_names = {
-			Asaf Baqi Galiaskar Ismail Makhmut  Musa Rustam Yusuf
-		}
-		last_names = {
-			Amirkhanov Faysi Gizzat Ibragimov Kamal Khusainov Tinchurin Tukay Yanbayev
-		}
-		radicalism = 10
-	}
-	
-	tawlula = {
-		color = {105 105 50}
+		color = { 100 120 60 }
 		first_names = {
 			Asaf Baqi Galiaskar Ismail Makhmut  Musa Rustam Yusuf
 		}
@@ -4361,22 +4378,80 @@ navkh_group = {
 tungusic = {
     leader = asian
 	unit = ChineseGC
-	manchu = {
-		color = {245 255 160}
-		first_names = { Ma Deng Zhao Tong Guan Oboi Sonin Songgotu Suksaha Mingzhu Nalan Fu Hesehn Changlin
-		}
-		last_names = { Zhanshan Tiemei Shangzhi Linge Xiangying Xingde Kang'an
-		}
-	} 
 	even = {
-		color = {205 215 120}
+		color = {75 155 220}
 		first_names = { Ma Deng Zhao Tong Guan Oboi Sonin Songgotu Suksaha Mingzhu Nalan Fu Hesehn Changlin
 		}
 		last_names = { Zhanshan Tiemei Shangzhi Linge Xiangying Xingde Kang'an
 		}
 	}
+	
 	evenki = {
-		color = {165 175 80}
+		color = {65 145 180}
+		first_names = { Ma Deng Zhao Tong Guan Oboi Sonin Songgotu Suksaha Mingzhu Nalan Fu Hesehn Changlin
+		}
+		last_names = { Zhanshan Tiemei Shangzhi Linge Xiangying Xingde Kang'an
+		}
+	}
+	
+	negidal = {
+		color = {55 135 160}
+		first_names = { Ma Deng Zhao Tong Guan Oboi Sonin Songgotu Suksaha Mingzhu Nalan Fu Hesehn Changlin
+		}
+		last_names = { Zhanshan Tiemei Shangzhi Linge Xiangying Xingde Kang'an
+		}
+	}
+	
+	oroqen = {
+		color = {45 125 140}
+		first_names = { Ma Deng Zhao Tong Guan Oboi Sonin Songgotu Suksaha Mingzhu Nalan Fu Hesehn Changlin
+		}
+		last_names = { Zhanshan Tiemei Shangzhi Linge Xiangying Xingde Kang'an
+		}
+	}
+	
+	oroch = {
+		color = {45 155 140}
+		first_names = { Ma Deng Zhao Tong Guan Oboi Sonin Songgotu Suksaha Mingzhu Nalan Fu Hesehn Changlin
+		}
+		last_names = { Zhanshan Tiemei Shangzhi Linge Xiangying Xingde Kang'an
+		}
+	}
+	
+	udihe = {
+		color = {55 175 150}
+		first_names = { Ma Deng Zhao Tong Guan Oboi Sonin Songgotu Suksaha Mingzhu Nalan Fu Hesehn Changlin
+		}
+		last_names = { Zhanshan Tiemei Shangzhi Linge Xiangying Xingde Kang'an
+		}
+	}
+	
+	manchu = {
+		color = {95 155 140}
+		first_names = { Ma Deng Zhao Tong Guan Oboi Sonin Songgotu Suksaha Mingzhu Nalan Fu Hesehn Changlin
+		}
+		last_names = { Zhanshan Tiemei Shangzhi Linge Xiangying Xingde Kang'an
+		}
+	} 
+	
+	nanai = {
+		color = {115 165 150}
+		first_names = { Ma Deng Zhao Tong Guan Oboi Sonin Songgotu Suksaha Mingzhu Nalan Fu Hesehn Changlin
+		}
+		last_names = { Zhanshan Tiemei Shangzhi Linge Xiangying Xingde Kang'an
+		}
+	}
+	
+	orok = {
+		color = {135 175 160}
+		first_names = { Ma Deng Zhao Tong Guan Oboi Sonin Songgotu Suksaha Mingzhu Nalan Fu Hesehn Changlin
+		}
+		last_names = { Zhanshan Tiemei Shangzhi Linge Xiangying Xingde Kang'an
+		}
+	}
+	
+	ulch = {
+		color = {155 185 170}
 		first_names = { Ma Deng Zhao Tong Guan Oboi Sonin Songgotu Suksaha Mingzhu Nalan Fu Hesehn Changlin
 		}
 		last_names = { Zhanshan Tiemei Shangzhi Linge Xiangying Xingde Kang'an

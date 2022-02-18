@@ -7,9 +7,9 @@ culture = circassian
 religion = animist
 government = absolute_monarchy
 plurality = 0.0
-nationalvalue = nv_order
+nationalvalue = nv_tradition
 literacy = 0.01
-prestige = 5
+prestige = 1
 
 # Political reforms
 slavery = yes_slavery
@@ -44,7 +44,7 @@ colonial_policy = no_colonies
 consciousness = 0
 nonstate_consciousness = 0
 
-oob = "CIR_oob.txt"
+oob = "ABZ_oob.txt"
 
 set_country_flag = sunni_country
 

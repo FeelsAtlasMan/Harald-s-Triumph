@@ -23,7 +23,8 @@ ZOU_anarcho_liberal;Radicals;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 ZOU_socialist;Socalists;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 ZOU_communist;Communists;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 ZOU_fascist;Fascists;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
-RYA;Ryazan Cossacks;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+RYA;Ryazan;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+RYA_absolute_monarchy;Ryazan Principality;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 RYA_ADJ;Ryazanian;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 MUS;Tverite Rus;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 MUS_ADJ;Tverite;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
@@ -218,11 +219,11 @@ AAC_fascist;Faschisten;;;;;;;;;;;;;x
 AAC_ADJ;Aachener;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 WUL;Franconia;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 WUL_ADJ;Franconian;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
-KZN_absolute_monarchy;Khanate of Kazan;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
-KZN_hms_government;Khanate of Kazan;;;;;;;;;;;;x
-KZN_prussian_constitutionalism;Khanate of Kazan;;;;;;;;;;;;x
-KZN;Kazan;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
-KZN_ADJ;Kazani;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+KZN_absolute_monarchy;Khanate of Qazan;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+KZN_hms_government;Khanate of Qazan;;;;;;;;;;;;x
+KZN_prussian_constitutionalism;Khanate of Qazan;;;;;;;;;;;;x
+KZN;Qazan;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+KZN_ADJ;Qazani;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 NEN;Lozania;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 NEN_liberal;Sjtadlige;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 NEN_conservative;Dörpenkongrese;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
@@ -348,9 +349,7 @@ NIB;New Iberia;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 NIB_ADJ;New Iberian;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 CHV;Chuvashia;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 CHV_ADJ;Chuvashian;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
-CHC;Chernigov Cossacks;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
-CHC_ADJ;Chernigovian;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
-KRC;Kursk Cossacks;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+KRC;Kursk Host;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 KRC_ADJ;Kurskian;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 SHU;Shu;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 SHU_ADJ;Shu;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
@@ -1899,15 +1898,17 @@ VYA_ADJ;Vyazman;;;;;;;;;;;x;
 VLA;Vladimir;;;;;;;;;;;x;
 VLA_ADJ;Vladimir;;;;;;;;;;;x;
 PEN;Penza;;;;;;;;;;;x;
+PEN_absolute_monarchy;Penza Host;;;;;;;;;;;x;
 PEN_ADJ;Penza;;;;;;;;;;;x;
 NNO;Nizhny Novgorod;;;;;;;;;;;x;
 NNO_ADJ;Nizhegorodian;;;;;;;;;;;x;
-QAS;Qaism;;;;;;;;;;;x;
-QAS_ADJ;Qaism;;;;;;;;;;;x;
-QAS_absolute_monarchy;Qaism Khanate;;;;;;;;;;;x;
+QAS;Qasim;;;;;;;;;;;x;
+QAS_ADJ;Qasim;;;;;;;;;;;x;
+QAS_absolute_monarchy;Qasim Principality;;;;;;;;;;;x;
 BYE;Vitebsk;;;;;;;;;;;x;
 BYE_ADJ;Vitebskian;;;;;;;;;;;x;
 VOR;Voronezh;;;;;;;;;;;x;
+VOR_absolute_monarchy;Voronezh Principality;;;;;;;;;;;x;
 VOR_ADJ;Voronezhian;;;;;;;;;;;x;
 MVI;Mordovia;;;;;;;;;;;x;
 MVI_ADJ;Mordovian;;;;;;;;;;;x;
@@ -1924,6 +1925,18 @@ UMN_absolute_monarchy;Uman Host;;;;;;;;;;;;x
 UMN_hms_government;Uman Host;;;;;;;;;;;;x
 UMN_prussian_constitutionalism;Uman Host;;;;;;;;;;;;x
 UMN_ADJ;Uman;;;;;;;;;;;x;
+DON;Azov;;;;;;;;;;;;x
+DON_absolute_monarchy;Azov Host;;;;;;;;;;;;x
+DON_hms_government;Azov Host;;;;;;;;;;;;x
+DON_prussian_constitutionalism;Azov Host;;;;;;;;;;;;x
+DON_ADJ;Azovian;;;;;;;;;;;;x
+DON_conservative;The Conservatives;Faction royale;Königsfraktion;;;;;;;;;;;x
+DON_liberal;The Liberals;Faction libérale;Die liberale Fraktion;;;;;;;;;;;x
+DON_reactionary;The Hetmanate Faction;Faction nationaliste;Die nationalistische Fraktion;;;;;;;;;;;x
+DON_anarcho_liberal;The Libertains;Faction radicale;Die radikale Fraktion;;;;;;;;;;;x
+DON_socialist;The Socialists;Faction socialiste;Die sozialistische Fraktion;;;;;;;;;;;x
+DON_communist;The Communists;Faction communiste;Die kommunistische Fraktion;;;;;;;;;;;x
+DON_fascist;The Nationalist Faction;Faction fasciste;Die faschistische Fraktion;;;;;;;;;;;x
 GZA;Gazaria;;;;;;;;;;;x;
 GZA_ADJ;Gazarian;;;;;;;;;;;x;
 ZND;Seven Zenden;;;;;;;;;;;x;
@@ -1933,9 +1946,9 @@ TLG_ADJ;Three Leaguer;;;;;;;;;;;x;
 HGN;Zehnstädtebund;;;;;;;;;;;x;
 HGN_ADJ;Bünder;;;;;;;;;;;x;
 KMS;Kamas Khanate;;;;;;;;;;;x;
-KMS_ADJ;Kamas;;;;;;;;;;;x;
+KMS_ADJ;Kamassian;;;;;;;;;;;x;
 BSR;Besermyan;;;;;;;;;;;x;
-BSR_ADJ;Kamas;;;;;;;;;;;x;
+BSR_ADJ;Besermyan;;;;;;;;;;;x;
 UDM;Udmurtia;;;;;;;;;;;x;
 UDM_ADJ;Udmurtian;;;;;;;;;;;x;
 CHR;Cheremis;;;;;;;;;;;x;
@@ -1943,6 +1956,6 @@ CHR_ADJ;Cheremis;;;;;;;;;;;x;
 KDA;Koda;;;;;;;;;;;x;
 KDA_ADJ;Kodan;;;;;;;;;;;x;
 SKW;Skewbald;;;;;;;;;;;x;
-SKW_ADJ;Kodan;;;;;;;;;;;x;
+SKW_ADJ;Skewbald;;;;;;;;;;;x;
 BLG;Belgorye;;;;;;;;;;;x;
-BLG_ADJ;Kodan;;;;;;;;;;;x;
+BLG_ADJ;Belgorye;;;;;;;;;;;x;

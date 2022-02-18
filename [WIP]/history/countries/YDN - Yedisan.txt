@@ -3,7 +3,7 @@ primary_culture = nogay_tatar
 religion = sunni
 government = absolute_monarchy
 plurality = 0.02
-nationalvalue = nv_order
+nationalvalue = nv_tradition
 literacy = 0.1
 civilized = no
 
@@ -16,6 +16,7 @@ trade_unions = no_trade_unions
 voting_system = jefferson_method
 political_parties = underground_parties
 
+oob = "YDN_oob.txt"
 
 ruling_party = CRI_conservative
 upper_house = {
@@ -46,7 +47,7 @@ penal_system = capital_punishment
 child_labor = child_labor_legal
 citizens_rights = primary_culture_only
 border_policy = open_borders
-centralization = unitary
+centralization = regionalism
 colonial_policy = no_colonies 
 
 # Technologies

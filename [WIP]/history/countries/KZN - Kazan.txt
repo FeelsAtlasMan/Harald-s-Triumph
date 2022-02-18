@@ -1,16 +1,21 @@
 capital = 1030
 primary_culture = bulgar_tatar
-culture = astrakhan_tatar
+culture = bashkir
+culture = nogay_tatar
+culture = erzya
+culture = mari
+culture = chuvashian
 religion = sunni
 government = absolute_monarchy
 plurality = 0.02
-nationalvalue = nv_order
-literacy = 0.1
+nationalvalue = nv_tradition
+literacy = 0.12
+prestige = 15
 
 # Political reforms
 slavery = yes_slavery
 upper_house_composition = appointed
-vote_franschise = wealth_voting
+vote_franschise = none_voting
 public_meetings = yes_meeting
 press_rights = censored_press
 trade_unions = no_trade_unions
@@ -33,9 +38,10 @@ penal_system = capital_punishment
 child_labor = child_labor_legal
 citizens_rights = primary_culture_only
 border_policy = open_borders
-centralization = unitary
+centralization = regionalism
 colonial_policy = no_colonies 
 
+oob = "KZN_oob.txt"
 
 ruling_party = TAR_conservative
 upper_house = {
@@ -49,19 +55,18 @@ upper_house = {
 }
 
 set_country_flag = sunni_country
-set_country_flag = steppe_nation
 
 monetary_reform = yes_monetary_reform #Currency
 #monetary_reform = monetary_reform_two
-#research_reform = yes_education_reform #Universities 
+research_reform = yes_education_reform #Universities 
 #research_reform = education_reform_two
 #firearms_production = yes_firearms_production #Steam Power
 #firearms_production = firearms_production_two
-#land_reform = yes_land_reform #Land 
+land_reform = yes_land_reform #Land 
 #land_reform = land_reform_two
 admin_reform = yes_admin_reform #Legislative
 #admin_reform = admin_reform_two
-#finance_reform = yes_finance_reform #Finance
+finance_reform = yes_finance_reform #Finance
 #finance_reform = finance_reform_two
 #education_reform = yes_western_science #Basic Education
 #education_reform = western_science_two
@@ -95,16 +100,16 @@ foreign_artillery = yes_foreign_artillery #Artillery
 #Unciv Technologies
 early_classical_theory_and_critique = 1
 #late_classical_theory = 1
-#malthusian_thought = 1
+malthusian_thought = 1
 #positivism = 1
 #enlightenment_thought = 1
 #piston_steam_engine = 1
 #high_pressure_steam_engine = 1
-#mechanized_mining = 1
+mechanized_mining = 1
 #freedom_of_trade = 1
 no_standard = 1
 #ad_hoc_money_bill_printing = 1
-#private_banks = 1
+private_banks = 1
 #stock_exchange = 1
 #late_enlightenment_philosophy = 1
 #basic_chemistry = 1

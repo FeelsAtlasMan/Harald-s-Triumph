@@ -1,11 +1,13 @@
 capital = 1019
 primary_culture = ukrainian
+culture = russian
 religion = orthodox
 government = absolute_monarchy
 plurality = 0.02
 nationalvalue = nv_autocracy
-literacy = 0.15
+literacy = 0.12
 civilized = yes
+prestige = 3
 
 # Political reforms
 slavery = no_slavery
@@ -62,6 +64,8 @@ basic_chemistry = 1
 piston_steam_engine = 1
 
 set_country_flag = orthodox_country
+
+oob = "VOR_oob.txt"
 
 ruling_party = RUS_conservative
 upper_house = {

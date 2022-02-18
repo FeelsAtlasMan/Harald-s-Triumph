@@ -6,7 +6,7 @@ culture = scythian
 religion = orthodox
 government = absolute_monarchy
 plurality = 0.0
-nationalvalue = nv_order
+nationalvalue = nv_tradition
 literacy = 0.01
 prestige = 5
 
@@ -43,7 +43,7 @@ colonial_policy = no_colonies
 consciousness = 0
 nonstate_consciousness = 0
 
-oob = "CIR_oob.txt"
+oob = "KBD_oob.txt"
 
 set_country_flag = sunni_country
 
