@@ -36,6 +36,7 @@ border_policy = open_borders
 centralization = unitary
 colonial_policy = no_colonies 
 
+oob = "MVI_oob.txt"
 
 set_country_flag = orthodox_country
 
@@ -49,3 +50,11 @@ upper_house = {
 	socialist = 0
 	communist = 0
 }
+
+# Technologies
+flintlock_rifles = 1
+bronze_muzzle_loaded_artillery = 1
+
+foreign_artillery = yes_foreign_artillery
+foreign_weapons = yes_foreign_weapons
+land_reform = yes_land_reform

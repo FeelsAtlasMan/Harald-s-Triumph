@@ -428,6 +428,8 @@ country_event = {
 		1145 = { add_core = FRS }
 		3456 = { add_core = FRS }
 		war_exhaustion = 20
+		FRS = { set_country_flag = gained_kerman }
+		FRS = { add_country_modifier = { name = french_traders duration = 36500 } }
 		ai_chance = { factor = 100 }
 	}
 }

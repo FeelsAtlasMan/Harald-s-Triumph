@@ -4146,16 +4146,6 @@ country_event = {
 				add_core = SPA
 			}
 		}
-		random_country = {
-			limit = {
-				tag = SPC
-				exists = yes
-			}
-			517 = {
-				remove_core = ENG
-				add_core = SPC
-			}
-		}
 		
 		#Add French cores, if France is in a truce
 		random_country = {
@@ -5088,15 +5078,6 @@ country_event = {
 			457 = { add_core = SPA secede_province = SPA }
 			460 = { add_core = SPA secede_province = SPA }
 			464 = { add_core = SPA secede_province = SPA }
-		}
-		random_country = {
-			limit = {
-				tag = SPC
-				truce_with = THIS
-			}
-			457 = { add_core = SPC secede_province = SPC }
-			460 = { add_core = SPC secede_province = SPC }
-			464 = { add_core = SPC secede_province = SPC }
 		}
 		
 		#if any Congress Poland cores owned, re-add cores to Russia
@@ -6286,8 +6267,6 @@ country_event = {
 					tag = CYP
 					tag = SYR
 					tag = LBN
-					tag = PLS
-					tag = JOR
 					tag = IRQ
 					tag = LBY
 					is_culture_group = west_african
@@ -6361,26 +6340,6 @@ country_event = {
 		any_country = {
 			limit = {
 				tag = LBN
-				exists = no
-				any_core = { owned_by = THIS }
-			}
-			country_event = 96061
-		}
-		
-		#release Palestine as a vassal to a European GP
-		any_country = {
-			limit = {
-				tag = PLS
-				exists = no
-				any_core = { owned_by = THIS }
-			}
-			country_event = 96061
-		}
-
-		#release Transjordan as a vassal to a European GP
-		any_country = {
-			limit = {
-				tag = JOR
 				exists = no
 				any_core = { owned_by = THIS }
 			}

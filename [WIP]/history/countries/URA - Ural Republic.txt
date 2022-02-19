@@ -1,6 +1,6 @@
 capital = 1026
-primary_culture = russian
-culture = komi
+primary_culture = komi
+culture = russian
 religion = orthodox
 government = absolute_monarchy
 plurality = 0.0
@@ -35,9 +35,10 @@ penal_system = capital_punishment
 child_labor = child_labor_legal
 citizens_rights = primary_culture_only
 border_policy = open_borders
-centralization = unitary
+centralization = regionalism
 colonial_policy = no_colonies 
 
+oob = "URA_oob.txt"
 
 set_country_flag = orthodox_country
 

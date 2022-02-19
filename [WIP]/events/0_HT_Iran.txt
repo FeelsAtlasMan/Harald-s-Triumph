@@ -348,3 +348,77 @@ country_event = {
         ai_chance = { factor = 60 }
     }
 }
+
+#Omani Raids on French treaty ports!
+country_event = {
+    id = 88011
+    title = "Piracy in the Persian Gulf"
+    desc = "EVTDESC88011"
+	picture = "persian_gulf_trading"
+
+    trigger = {
+	    tag = FRA
+		FRS = { has_country_flag = gained_kerman }
+		has_global_flag = timurd_succ_war
+		FRS = { war = no }
+	}
+	
+	mean_time_to_happen = {
+	    months = 60
+	}
+
+    option = {
+        name = "This situation is unacceptable, the Persians have to uphold their promises!"	
+		FRS = { country_event = 88012 }
+        ai_chance = { factor = 100 }
+    }
+	
+	option = {
+        name = "This situation is unacceptable, trading in Persia is no longer profitable."	
+		FRS = { country_event = 88013 }
+		3637 = { secede_province = FRS }
+        ai_chance = { factor = 0 }
+    }
+}
+
+#The French demand that we uphold our ends of the Hormuz Convention
+country_event = {
+    id = 88012
+    title = "The French demand that we uphold the Hormuz Convention!"
+    desc = "EVTDESC88012"
+	picture = "western_deligation"
+
+    is_triggered_only = yes
+
+    option = {
+        name = "This Treaty is essential for the flow of commerce, we have to uphold our promises!"	
+		OMA = { country_event = 88014 }
+        ai_chance = { factor = 100 }
+    }
+	
+	option = {
+        name = "We have more important issues."	
+		remove_country_modifier = french_traders
+		3637 = { trade_goods = fish }
+		FRA = { 3637 = { secede_province = FRS } }
+        ai_chance = { factor = 100 }
+    }
+}
+
+#French traders are leaving Iran
+country_event = {
+    id = 88013
+    title = "French traders are leaving Iran!"
+    desc = "EVTDESC88013"
+	picture = "persian_gulf_trading"
+
+    is_triggered_only = yes
+
+    option = {
+        name = "Terrible!"	
+		remove_country_modifier = french_traders
+		3637 = { trade_goods = fish }
+		FRA = { 3637 = { secede_province = FRS } }
+        ai_chance = { factor = 100 }
+    }
+}

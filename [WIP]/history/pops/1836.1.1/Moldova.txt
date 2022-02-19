@@ -1,5 +1,4 @@
 #Bessarabia Region (652000) #see Ukraine.txt for balance of Region  
-#Turkish + Orthodox = Gaugaz
 #Chisinau (332000/83000 POPS)  
 676 = {
 	farmers = {
@@ -87,25 +86,25 @@
 	}
 
 	clergymen = {
-		culture = turkish #gagauz
+		culture = gagauz 
 		religion = orthodox
 		size = 75  
 	}
 
 	artisans = {
-		culture = turkish
+		culture = gagauz
 		religion = orthodox
 		size = 250 
 	}
 
 	soldiers = {
-		culture = turkish
+		culture = gagauz
 		religion = orthodox
 		size = 50
 	}
 
 	farmers = {
-		culture = turkish
+		culture = gagauz
 		religion = orthodox
 		size = 4625  
 	}

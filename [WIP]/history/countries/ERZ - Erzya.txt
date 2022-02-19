@@ -1,9 +1,11 @@
 capital = 1182
-primary_culture = mordvin
+primary_culture = erzya
+culture = bulgar_tatar
+culture = chuvash
 religion = sunni
 government = colonial_company
 plurality = 0.02
-nationalvalue = nv_order
+nationalvalue = nv_tradition
 literacy = 0.1
 
 # Political reforms
@@ -32,9 +34,10 @@ penal_system = capital_punishment
 child_labor = child_labor_legal
 citizens_rights = primary_culture_only
 border_policy = open_borders
-centralization = unitary
+centralization = regionalism
 colonial_policy = no_colonies 
 
+oob = "ERZ_oob.txt"
 
 ruling_party = "Conservatives"
 upper_house = {
@@ -48,7 +51,6 @@ upper_house = {
 }
 
 set_country_flag = sunni_country
-set_country_flag = steppe_nation
 
 # Technologies
 flintlock_rifles = 1

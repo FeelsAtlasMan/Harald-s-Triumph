@@ -1050,51 +1050,6 @@ country_event = {
 	}
 }
 
-
-country_event = {
-
-	id = 96171
-	title = "EVTNAME96171" #Tuscany Inherits Lucca
-	desc = "EVTDESC96171"
-	picture = "theatre"
-
-	trigger = {
-		year = 1847
-		OR = {
-		AND = {
-			tag = TUS
-			OR = {
-				NOT = { LUC = { in_sphere = SAR } }
-				NOT = { LUC = { in_sphere = SIC } }
-				}
-			}
-		AND = {
-			tag = SAR
-			LUC = { in_sphere = SAR }
-			}
-		
-		AND = {
-			tag = SIC
-			LUC = { in_sphere = SIC }
-			}
-		}
-		
-		LUC = {
-			exists = yes
-			ai = yes
-			}
-		}
-	
-	fire_only_once = yes
-	mean_time_to_happen = { months = 12 }
-
-	option = {				
-		name = "EVTOPTA96171" #Accept inheritance
-		prestige = 5
-		inherit = LUC
-	}
-}
-
 country_event = {
 
 	id = 96172

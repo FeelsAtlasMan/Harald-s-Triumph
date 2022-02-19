@@ -1,12 +1,12 @@
-capital = 1008
+capital = 1013
 primary_culture = russian
 religion = orthodox
 government = colonial_company
 plurality = 0.02
 nationalvalue = nv_autocracy
-literacy = 0.15
+literacy = 0.12
 civilized = yes
-prestige = 65
+prestige = 5
 
 # Political reforms
 slavery = no_slavery
@@ -80,4 +80,4 @@ govt_flag = {
 	flag = theocracy
 }
 
-oob = "MUS_oob.txt"
+oob = "VLA_oob.txt"

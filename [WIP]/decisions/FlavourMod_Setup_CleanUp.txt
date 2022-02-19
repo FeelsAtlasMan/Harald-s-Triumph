@@ -48,19 +48,6 @@ political_decisions = {
 		}
 	}
 	
-	cleanup_ant = {
-		potential = {
-			tag = ANT
-			exists = yes
-			GRE = { exists = yes }
-		}
-		allow = { }
-		effect = {
-			ANT = { all_core = { remove_core = ANT } }
-			annex_to = GRE
-		}
-	}
-	
 	cleanup_morocco = {
 		potential = {
 			capital_scope = { continent = europe }
@@ -69,7 +56,6 @@ political_decisions = {
 			NOT = { primary_culture = french }
 			NOT = { tag = SPA }
 			NOT = { tag = IBR }
-			NOT = { tag = SPC }
 			ai = yes
 			OR = {
 				owns = 1683 #Taza
@@ -83,15 +69,6 @@ political_decisions = {
 		allow = {
 			OR = {
 				SPA = {
-					OR = {
-						owns = 1683 #Taza
-						owns = 1680 #Fez
-						owns = 1690 #Marrakesh
-						owns = 1694 #Agadir
-					}
-					#money = 75000
-				}
-				SPC = {
 					OR = {
 						owns = 1683 #Taza
 						owns = 1680 #Fez
@@ -124,7 +101,6 @@ political_decisions = {
 					OR = {
 						AND = {  tag = FRA exists = yes }
 						tag = SPA
-						tag = SPC
 					}
 					OR = {
 						owns = 1683 #Taza

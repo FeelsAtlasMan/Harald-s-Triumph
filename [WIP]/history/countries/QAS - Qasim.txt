@@ -1,4 +1,4 @@
-capital = 1030
+capital = 3360
 primary_culture = russian
 culture = mishar
 religion = orthodox
@@ -37,6 +37,7 @@ border_policy = open_borders
 centralization = unitary
 colonial_policy = no_colonies 
 
+oob = "QAS_oob.txt"
 
 ruling_party = TAR_conservative
 upper_house = {

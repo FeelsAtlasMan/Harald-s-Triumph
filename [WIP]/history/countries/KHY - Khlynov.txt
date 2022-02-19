@@ -4,7 +4,7 @@ religion = orthodox
 government = absolute_monarchy
 plurality = 0.02
 nationalvalue = nv_autocracy
-literacy = 0.15
+literacy = 0.12
 civilized = yes
 
 # Political reforms
@@ -60,6 +60,8 @@ mechanical_production = 1
 mechanized_mining = 1
 basic_chemistry = 1
 piston_steam_engine = 1
+
+oob = "KHY_oob.txt"
 
 set_country_flag = orthodox_country
 

@@ -109,8 +109,6 @@ country_event = {
 				value = jingoism
 			}
 		}
-		random_country = { limit = { exists = yes tag = PLS vassal_of = EGY } annex_to = EGY }
-		random_country = { limit = { exists = yes tag = JOR vassal_of = EGY } annex_to = EGY }
 		random_country = { limit = { exists = yes tag = LBN vassal_of = EGY } annex_to = EGY }
 		random_country = { limit = { exists = yes tag = SYR vassal_of = EGY } annex_to = EGY }
 		random_country = { limit = { exists = yes tag = ASY vassal_of = EGY } annex_to = EGY }
@@ -285,7 +283,6 @@ country_event = {
 				value = jingoism
 			}
 		}
-		random_country = { limit = { exists = yes tag = PLS vassal_of = EGY } annex_to = EGY }
 		random_country = { limit = { exists = yes tag = JOR vassal_of = EGY } annex_to = EGY }
 		random_country = { limit = { exists = yes tag = LBN vassal_of = EGY } annex_to = EGY }
 		random_country = { limit = { exists = yes tag = SYR vassal_of = EGY } annex_to = EGY }

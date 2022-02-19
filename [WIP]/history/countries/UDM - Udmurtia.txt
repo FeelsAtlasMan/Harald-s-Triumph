@@ -33,11 +33,12 @@ penal_system = capital_punishment
 child_labor = child_labor_legal
 citizens_rights = primary_culture_only
 border_policy = open_borders
-centralization = unitary
+centralization = regionalism
 colonial_policy = no_colonies 
 
+oob = "UDM_oob.txt"
 
-ruling_party = TAR_conservative
+ruling_party = "Conservatives"
 upper_house = {
 	fascist = 0
 	liberal = 13

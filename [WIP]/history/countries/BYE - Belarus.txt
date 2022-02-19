@@ -4,7 +4,7 @@ religion = orthodox
 government = absolute_monarchy
 plurality = 0.2
 nationalvalue = nv_order
-literacy = 0.6
+literacy = 0.12
 civilized = yes
 
 
@@ -39,6 +39,8 @@ centralization = unitary
 colonial_policy = no_colonies 
 
 set_country_flag = orthodox_country
+
+oob = "BYE_oob.txt"
 
 ruling_party = BYE_conservative
 upper_house = {

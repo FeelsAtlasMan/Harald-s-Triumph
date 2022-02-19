@@ -4,7 +4,7 @@ religion = orthodox
 government = colonial_company
 plurality = 0.02
 nationalvalue = nv_autocracy
-literacy = 0.15
+literacy = 0.12
 civilized = yes
 
 # Political reforms
@@ -62,6 +62,8 @@ basic_chemistry = 1
 piston_steam_engine = 1
 
 set_country_flag = orthodox_country
+
+oob = "GAL_oob.txt"
 
 ruling_party = RUS_conservative
 upper_house = {

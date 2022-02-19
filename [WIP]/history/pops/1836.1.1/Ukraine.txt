@@ -269,7 +269,7 @@
 	}
 	
 	farmers = {
-		culture = turkish
+		culture = gagauz
 		religion = orthodox
 		size = 4000 
 	}
@@ -3065,12 +3065,6 @@
 }
 #Sevastopol (60000/15000 POPS)
 967 = {
-	farmers = {
-		culture = crimean_tatar
-		religion = shiite
-		size = 9000
-	}
-	
 	aristocrats = {
 		culture = crimean_tatar
 		religion = sunni
@@ -3092,13 +3086,13 @@
 	soldiers = {
 		culture = crimean_tatar
 		religion = sunni
-		size = 10100
+		size = 1100
 	}
 
 	farmers = {
 		culture = crimean_tatar
 		religion = sunni
-		size = 45375
+		size = 10375
 	}
 
 	aristocrats = {
@@ -3116,7 +3110,7 @@
 	artisans = {
 		culture = tatlar
 		religion = orthodox
-		size = 9500
+		size = 2500
 	}
 
 	soldiers = {
@@ -3134,13 +3128,13 @@
 	clergymen = {
 		culture = karaim
 		religion = jewish
-		size = 310
+		size = 110
 	}
 
 	artisans = {
 		culture = karaim
 		religion = jewish
-		size = 3050
+		size = 350
 	}
 
 	farmers = {
@@ -3170,31 +3164,31 @@
 	farmers = {
 		culture = north_italian
 		religion = catholic
-		size = 60
+		size = 8060
 	}
 
 	clergymen = {
-		culture = crimean_tatar
-		religion = shiite
+		culture = gothic
+		religion = orthodox
 		size = 25
 	}
 
 	artisans = {
-		culture = crimean_tatar
-		religion = shiite
-		size = 75
+		culture = gothic
+		religion = orthodox
+		size = 575
 	}
 
 	soldiers = {
-		culture = crimean_tatar
-		religion = shiite
+		culture = gothic
+		religion = orthodox
 		size = 25
 	}
 
 	farmers = {
-		culture = crimean_tatar
-		religion = shiite
-		size = 875
+		culture = gothic
+		religion = orthodox
+		size = 4875
 	}
 }
 #Odessa Region (1488000)

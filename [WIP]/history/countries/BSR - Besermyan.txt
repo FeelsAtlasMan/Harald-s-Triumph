@@ -36,8 +36,9 @@ border_policy = open_borders
 centralization = unitary
 colonial_policy = no_colonies 
 
+oob = "BSR_oob.txt"
 
-ruling_party = TAR_conservative
+ruling_party = "Conservatives"
 upper_house = {
 	fascist = 0
 	liberal = 13

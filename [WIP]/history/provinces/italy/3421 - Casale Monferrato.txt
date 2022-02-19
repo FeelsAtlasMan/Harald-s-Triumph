@@ -1,10 +1,9 @@
-owner = MFT
-controller = MFT
-add_core = MFT
+owner = LOM
+controller = LOM
+add_core = LOM
 add_core = ITA
 trade_goods = fruit
-life_rating = 40
-terrain = turin
+life_rating = 35
 state_building = {
 	level = 1
 	building = luxury_clothes_factory
