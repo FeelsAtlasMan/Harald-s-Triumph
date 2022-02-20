@@ -1,0 +1,16 @@
+army = {
+	name = "Armee von Lutzelburg"
+	location = 398
+	regiment = {
+		name= "1. Infantrie von Lutzelburg"
+		type = infantry
+		home = 398
+	}
+
+        regiment = {
+		name= "1. Infantrie von Arel"
+		type = infantry
+		home = 397
+	}
+}
+

@@ -1,0 +1,812 @@
+#Sphere of Influence
+ILL = {
+	value = -175
+	level = 3
+}
+
+NEN = {
+	value = -150
+	level = 1
+}
+
+FRI = {
+	value = 200
+	level = 5
+	influence_value = 100
+}
+
+BAH = {
+	value = 150
+	level = 3
+}
+
+CAL = {
+	value = 200		
+	level = 5		
+	influence_value = 100
+}
+MTC = {
+	value = 200		
+	level = 5		
+	influence_value = 100
+}
+RPL = {
+	value = 200
+	level = 5
+	influence_value = 100
+}
+SLN = {
+	value = 75		
+	level = 5		
+	influence_value = 100
+}
+MNS = {
+	value = 75		
+	level = 5		
+	influence_value = 100
+}
+ULS = {
+	value = 75		
+	level = 5		
+	influence_value = 100
+}
+LIR = {
+	value = 200	
+	level = 5		
+	influence_value = 100
+}
+WHA = {
+	value = 200	
+	level = 5		
+	influence_value = 100
+}
+
+#GPs
+FRA = { value = -120 }
+SAX = { value = 50 }
+BYZ = { value = 10 }
+SWE = { value = -120 }
+BOH = { value = -75 }
+HUN = { value = 30 }
+
+army = {
+	name = "Hære af Hymbær"
+	location = 3307
+	regiment = {
+		name= "1. Féðehæras af Jorvik"
+		type = infantry
+		home = 3307
+	}
+	regiment = {
+		name= "1. Féðehæras af Skarðæburh"
+		type = infantry
+		home = 281
+	}
+	
+	regiment = {
+		name= "1. Féðehæras af Bæmburh"
+		type = infantry
+		home = 280
+	}
+	regiment = {
+		name= "1. Féðehæras af Shéafeld"
+		type = infantry
+		home = 283
+	}
+	
+	regiment = {
+		name= "1. Féðehæras af Lieds" 
+		type = infantry
+		home = 282
+	}
+	
+	regiment = {
+		name= "1. Rædehæras af Manekæster" 
+		type = hussar
+		home = 278
+	}
+	
+	regiment = {
+		name= "2. Rædehæras af Manekæster" 
+		type = hussar
+		home = 278
+	}
+	
+	regiment = {
+		name= "1. Artillæri af Lonkæster" 
+		type = artillery
+		home = 277
+	}
+	
+	regiment = {
+		name= "2. Artillæri af Lonkæster" 
+		type = artillery
+		home = 277
+	}
+}
+
+army = {
+	name = "Hære af Skotsland"
+	location = 269
+	regiment = {
+		name= "1. Féðehæras af Eidinburh"
+		type = infantry
+		home = 269
+	}
+	regiment = {
+		name= "1. Féðehæras af Glæsge"
+		type = infantry
+		home = 271
+	}
+	
+	regiment = {
+		name= "2. Féðehæras af Glæsge"
+		type = infantry
+		home = 271
+	}
+	regiment = {
+		name= "1. Féðehæras af Dundie"
+		type = infantry
+		home = 268
+	}
+	
+	regiment = {
+		name= "1. Féðehæras af Æberdien" 
+		type = infantry
+		home = 266
+	}
+	
+	regiment = {
+		name= "1. Féðehæras af Inwernes" 
+		type = infantry
+		home = 267
+	}
+	
+	regiment = {
+		name= "3. Rædehæras af Manekæster" 
+		type = hussar
+		home = 278
+	}
+	
+	regiment = {
+		name= "2. Artillæri af Argæl" 
+		type = artillery
+		home = 270
+	}
+}
+
+army = {
+	name = "Hære af Lunden"
+	location = 300
+	regiment = {
+		name= "1. Féðehæras af Lunden"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "2. Féðehæras af Lunden"
+		type = infantry
+		home = 300
+	}
+	
+	regiment = {
+		name= "1. Féðehæras af Kelmærsfort"
+		type = infantry
+		home = 293
+	}
+	regiment = {
+		name= "1. Féðehæras af Væclingskæster"
+		type = infantry
+		home = 295
+	}
+	
+	regiment = {
+		name= "1. Rædehæras af Grantebryge" 
+		type = hussar
+		home = 291
+	}
+	
+	regiment = {
+		name= "1. Rædehæras af Norþwik" 
+		type = hussar
+		home = 292
+	}
+	
+	regiment = {
+		name= "1. Artillæri af Likæster" 
+		type = artillery
+		home = 289
+	}
+	
+	regiment = {
+		name= "1. Artillæri af Lincyln" 
+		type = artillery
+		home = 290
+	}
+}
+
+army = {
+	name = "Hære af Vinland"
+	location = 65
+	regiment = {
+		name= "1. Féðehæras af Snotingham"
+		type = infantry
+		home = 288
+	}
+	regiment = {
+		name= "1. Féðehæras af Legkæster"
+		type = infantry
+		home = 285
+	}
+	
+	regiment = {
+		name= "1. Féðehæras af Bermingham"
+		type = infantry
+		home = 284
+	}
+	regiment = {
+		name= "2. Féðehæras af Bermingham"
+		type = infantry
+		home = 284
+	}
+	
+	regiment = {
+		name= "1. Rædehæras af Werkæster" 
+		type = hussar
+		home = 287
+	}
+	
+	regiment = {
+		name= "1. Rædehæras af Shrobsburh" 
+		type = hussar
+		home = 286
+	}
+	
+	regiment = {
+		name= "1. Artillæri af Brygstow" 
+		type = artillery
+		home = 296
+	}
+	
+	regiment = {
+		name= "1. Artillæri af Kardif" 
+		type = artillery
+		home = 273
+	}
+}
+
+army = {
+	name = "Hære af Dænmark"
+	location = 372
+	regiment = {
+		name= "1. Féðehæras af Kobehafn"
+		type = infantry
+		home = 372
+	}
+	regiment = {
+		name= "2. Féðehæras af Kobehafn"
+		type = infantry
+		home = 372
+	}
+	
+	regiment = {
+		name= "1. Féðehæras af Odense"
+		type = infantry
+		home = 373
+	}
+	regiment = {
+		name= "1. Féðehæras af Orhus"
+		type = infantry
+		home = 366
+	}
+	
+	regiment = {
+		name= "1. Rædehæras af Olburh" 
+		type = hussar
+		home = 367
+	}
+	
+	regiment = {
+		name= "1. Rædehæras af Ribe" 
+		type = hussar
+		home = 368
+	}
+	
+	regiment = {
+		name= "1. Artillæri af Esbjerg" 
+		type = artillery
+		home = 2557
+	}
+	
+	regiment = {
+		name= "1. Artillæri af Malmö" 
+		type = artillery
+		home = 334
+	}
+}
+
+army = {
+	name = "Hære af Hæraldsby"
+	location = 313
+	regiment = {
+		name= "1. Féðehæras af Hæraldsby"
+		type = infantry
+		home = 313
+	}
+	regiment = {
+		name= "2. Féðehæras af Hæraldsby"
+		type = infantry
+		home = 313
+	}
+	
+	regiment = {
+		name= "1. Féðehæras af Göteburh"
+		type = infantry
+		home = 329
+	}
+	regiment = {
+		name= "1. Féðehæras af Frædriksund"
+		type = infantry
+		home = 310
+	}
+	
+	regiment = {
+		name= "1. Rædehæras af Bergen" 
+		type = hussar
+		home = 309
+	}
+	
+	regiment = {
+		name= "1. Rædehæras af Trondheim" 
+		type = hussar
+		home = 305
+	}
+	
+	regiment = {
+		name= "1. Artillæri af Suþhamwik" 
+		type = artillery
+		home = 303
+	}
+	
+	regiment = {
+		name= "1. Artillæri af Portsmuð" 
+		type = artillery
+		home = 302
+	}
+}
+
+army = {
+	name = "Hære af Australia"
+	location = 2468
+	regiment = {
+		name= "1. Féðehæras af Henriksby"
+		type = infantry
+		home = 2468
+	}
+	regiment = {
+		name= "1. Féðehæras af Oksfort"
+		type = infantry
+		home = 294
+	}
+	
+	regiment = {
+		name= "1. Artillæri af Sareburh" 
+		type = artillery
+		home = 297
+	}
+}
+
+navy = {
+	name = "Flot af þære Norþsæ"
+	location = 3307
+	ship = {
+		name= "1. Grætskip"
+		type = manowar
+	}
+
+	ship = {
+		name= "2. Grætskip"
+		type = manowar
+	}
+
+	ship = {
+		name= "3. Grætskip"
+		type = manowar
+	}
+
+	ship = {
+		name= "4. Grætskip"
+		type = manowar
+	}
+
+	ship = {
+		name= "5. Grætskip"
+		type = manowar
+	}
+
+	ship = {
+		name= "6. Grætskip"
+		type = manowar
+	}
+
+	ship = {
+		name= "7. Grætskip"
+		type = manowar
+	}
+
+	ship = {
+		name= "8. Grætskip"
+		type = manowar
+	}
+
+	ship = {
+		name= "9. Grætskip"
+		type = manowar
+	}
+
+	ship = {
+		name= "10. Grætskip"
+		type = manowar
+	}
+
+	ship = {
+		name= "11. Grætskip"
+		type = manowar
+	}
+
+	ship = {
+		name= "12. Grætskip"
+		type = manowar
+	}
+
+	ship = {
+		name= "13. Grætskip"
+		type = manowar
+	}
+
+	ship = {
+		name= "14. Grætskip"
+		type = manowar
+	}
+
+	ship = {
+		name= "1. Kupel"
+		type = frigate
+	}
+
+	ship = {
+		name= "2. Kupel"
+		type = frigate
+	}
+
+	ship = {
+		name= "3. Kupel"
+		type = frigate
+	}
+
+	ship = {
+		name= "4. Kupel"
+		type = frigate
+	}
+
+	ship = {
+		name= "5. Kupel"
+		type = frigate
+	}
+
+	ship = {
+		name= "6. Kupel"
+		type = frigate
+	}
+
+	ship = {
+		name= "7. Kupel"
+		type = frigate
+	}
+
+	ship = {
+		name= "8. Kupel"
+		type = frigate
+	}
+
+	ship = {
+		name= "9. Kupel"
+		type = frigate
+	}
+
+	ship = {
+		name= "10. Kupel"
+		type = frigate
+	}
+
+	ship = {
+		name= "11. Kupel"
+		type = frigate
+	}
+
+	ship = {
+		name= "12. Kupel"
+		type = frigate
+	}
+
+	ship = {
+		name= "13. Kupel"
+		type = frigate
+	}
+
+	ship = {
+		name= "14. Kupel"
+		type = frigate
+	}
+
+	ship = {
+		name= "15. Kupel"
+		type = frigate
+	}
+
+	ship = {
+		name= "1. Skiphlæst"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2. Skiphlæst"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3. Skiphlæst"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name= "4. Skiphlæst"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "5. Skiphlæst"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "6. Skiphlæst"
+		type = clipper_transport
+	}
+
+}
+
+navy = {
+	name = "Flot af þære Súþsæ"
+	location = 3269
+	ship = {
+		name= "1. Grætskip"
+		type = manowar
+	}
+
+	ship = {
+		name= "2. Grætskip"
+		type = manowar
+	}
+
+	ship = {
+		name= "3. Grætskip"
+		type = manowar
+	}
+
+	ship = {
+		name= "4. Grætskip"
+		type = manowar
+	}
+
+	ship = {
+		name= "5. Grætskip"
+		type = manowar
+	}
+
+	ship = {
+		name= "6. Grætskip"
+		type = manowar
+	}
+
+	ship = {
+		name= "7. Grætskip"
+		type = manowar
+	}
+
+	ship = {
+		name= "8. Grætskip"
+		type = manowar
+	}
+
+	ship = {
+		name= "9. Grætskip"
+		type = manowar
+	}
+
+	ship = {
+		name= "10. Grætskip"
+		type = manowar
+	}
+
+	ship = {
+		name= "11. Grætskip"
+		type = manowar
+	}
+
+	ship = {
+		name= "12. Grætskip"
+		type = manowar
+	}
+
+	ship = {
+		name= "13. Grætskip"
+		type = manowar
+	}
+
+	ship = {
+		name= "14. Grætskip"
+		type = manowar
+	}
+
+	ship = {
+		name= "1. Kupel"
+		type = frigate
+	}
+
+	ship = {
+		name= "2. Kupel"
+		type = frigate
+	}
+
+	ship = {
+		name= "3. Kupel"
+		type = frigate
+	}
+
+	ship = {
+		name= "4. Kupel"
+		type = frigate
+	}
+
+	ship = {
+		name= "5. Kupel"
+		type = frigate
+	}
+
+	ship = {
+		name= "6. Kupel"
+		type = frigate
+	}
+
+	ship = {
+		name= "7. Kupel"
+		type = frigate
+	}
+
+	ship = {
+		name= "8. Kupel"
+		type = frigate
+	}
+
+	ship = {
+		name= "9. Kupel"
+		type = frigate
+	}
+
+	ship = {
+		name= "10. Kupel"
+		type = frigate
+	}
+
+	ship = {
+		name= "11. Kupel"
+		type = frigate
+	}
+
+	ship = {
+		name= "12. Kupel"
+		type = frigate
+	}
+
+	ship = {
+		name= "13. Kupel"
+		type = frigate
+	}
+
+	ship = {
+		name= "14. Kupel"
+		type = frigate
+	}
+
+	ship = {
+		name= "15. Kupel"
+		type = frigate
+	}
+
+	ship = {
+		name= "1. Skiphlæst"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2. Skiphlæst"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3. Skiphlæst"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name= "4. Skiphlæst"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "5. Skiphlæst"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "6. Skiphlæst"
+		type = clipper_transport
+	}
+
+}
+
+leader = {
+	name = "Georg, Ealderman of Sareburgh"
+	date = 1829.1.1
+	type = land
+	personality = relentless
+	background = nationalist
+	prestige = 0.6
+}
+
+leader = {
+	name = "Fridrik of Haraldsby"
+	date = 1817.1.1
+	type = land
+	personality = cautious
+	background = school_of_defense
+	prestige = 0.8
+}
+
+leader = {
+	name = "Harald, Duke of Mercia"
+	date = 1829.1.1
+	type = land
+	personality = tactful
+	background = school_of_defense
+	prestige = 0.3
+}
+
+leader = {
+	name = "Kristijan Egge"
+	date = 1817.1.1
+	type = land
+	personality = cautious
+	background = nationalist
+	prestige = 0.8
+}
+
+leader = {
+	name = "Vilhelm af Baemburh"
+	date = 1832.1.1
+	type = sea
+	personality = wrathful
+	background = cursed_luck
+	prestige = 0.2
+}
+
+leader = {
+	name = "Osvald Dannemand"
+	date = 1829.1.1
+	type = sea
+	personality = tactful
+	background = bootlicker
+	prestige = 0.5
+}
+

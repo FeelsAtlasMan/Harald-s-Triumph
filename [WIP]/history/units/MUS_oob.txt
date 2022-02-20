@@ -1,0 +1,124 @@
+#Relations
+
+KZN = { 
+	value = -200
+}
+
+RTH = { 
+	value = -200
+}
+
+SWE = { 
+	value = -200
+}
+
+leader = {
+	name = "Andrei Petliura"
+	date = 1820.1.1
+	type = land
+	personality = steadfast
+	background = aristocrat
+	prestige = 0.2
+}
+
+leader = {
+	name = "Alaksandr Yegorov"
+	date = 1820.1.1
+	type = land
+	personality = perverse
+	background = aristocrat
+	prestige = 0.2
+}
+
+leader = {
+	name = "Vladislav Rozhestvensky"
+	date = 1820.1.1
+	type = land
+	personality = steadfast
+	background = adventurer
+	prestige = 0.2
+}
+
+leader = {
+	name = "Fyodor Petliura"
+	date = 1820.1.1
+	type = land
+	personality = skilled
+	background = generals_aide
+	prestige = 0.2
+}
+
+army = {
+	name = "Army of Tver"
+	location = 998
+	regiment = {
+		name= "Guard"
+		type = guard
+		home = 998
+	}
+	regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 998
+	}
+	regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 999
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+		home = 1009
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+		home = 1009
+	}
+	regiment = {
+		name= "Artillery"
+		type = artillery
+		home = 1003
+	}
+}
+
+army = {
+	name = "Army of Novgorod"
+	location = 1003
+	regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 2580
+	}
+	regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 1001
+	}
+	regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 1023
+	}
+	regiment = {
+		name= "Infantery"
+		type = infantry
+		home = 1022
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+		home = 998
+	}
+	regiment = {
+		name= "Artillery"
+		type = artillery
+		home = 1001
+	}
+}
+
+
+
+
+

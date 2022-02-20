@@ -78,7 +78,7 @@ country_event = {
 	}
 
     option = {
-        name = "We have no other choice..."
+        name = "Truly a great man"
         add_country_modifier = {
 	        name = farhad_khan
 	        duration = 36500
@@ -92,10 +92,10 @@ country_event = {
     }
 }
 
-#The Lurs have sworn their fealty
+#Farhad Khan offers his protection
 country_event = {
     id = 88004
-    title = "Farhad Khan Zohrabi"
+    title = "Farhad Khan offers his protection"
     desc = "EVTDESC88004"
 	picture = "kashmir_selling"
 
@@ -114,7 +114,7 @@ country_event = {
     }
 }
 
-#The Lurs have sworn their fealty
+#The Lurs have sworn their fealty - Zohrabids
 country_event = {
     id = 88005
     title = "Farhad Khan Zohrabi"
@@ -124,7 +124,7 @@ country_event = {
     is_triggered_only = yes
 
     option = {
-        name = "Accept!"
+        name = "Great!"
         create_vassal = LUR 
 		relation = {
 	        who = KRM
@@ -366,6 +366,8 @@ country_event = {
 	mean_time_to_happen = {
 	    months = 60
 	}
+	
+	fire_only_once = yes
 
     option = {
         name = "This situation is unacceptable, the Persians have to uphold their promises!"	
@@ -419,6 +421,129 @@ country_event = {
 		remove_country_modifier = french_traders
 		3637 = { trade_goods = fish }
 		FRA = { 3637 = { secede_province = FRS } }
+        ai_chance = { factor = 100 }
+    }
+}
+
+#The Zohrabi Ultimatum
+country_event = {
+    id = 88014
+    title = "The Zohrabi Ultimatum"
+    desc = "EVTDESC88014"
+	#picture = "persian_gulf_trading"
+
+    is_triggered_only = yes
+
+    option = {
+        name = "We will handle the pirates..."	
+		FRS = { country_event = 88015 }
+        ai_chance = { factor = 90 }
+    }
+	
+	option = {
+        name = "What are they going to do? They dont even have a navy!"	
+		FRS = { casus_belli = { target = THIS type = cut_down_to_size months = 12 } } 
+		FRS = { 
+		    war = {
+	            target = THIS
+	            attacker_goal = { casus_belli = cut_down_to_size }
+	            defender_goal = { casus_belli = status_quo }
+	            call_ally = no
+            } 
+		}
+        ai_chance = { factor = 10 }
+    }
+}
+
+#The Omanis have accepted!
+country_event = {
+    id = 88015
+    title = "The Omanis have accepted"
+    desc = "EVTDESC88015"
+	picture = "deputation_to_milos"
+
+    is_triggered_only = yes
+
+    option = {
+        name = "Great!"	
+		FRA = { country_event = 88016 }
+		set_country_flag = handled_pirates
+        ai_chance = { factor = 100 }
+    }
+}
+
+#The Pirate threat has been dealt with
+country_event = {
+    id = 88016
+    title = "The Pirate threat has been dealt with"
+    desc = "EVTDESC88016"
+	picture = "cyprus_convention"
+
+    is_triggered_only = yes
+
+    option = {
+        name = "Great!"	
+		relation = {
+	        who = FRS
+	        value = 100
+        }
+		FRS = { set_country_flag = protected_french_trading_rights }
+        ai_chance = { factor = 100 }
+    }
+}
+
+#The Pirate threat has been dealt with
+country_event = {
+    id = 88017
+    title = "The Pirate threat has been dealt with"
+    desc = "EVTDESC88016"
+	picture = "cyprus_convention"
+
+    trigger = {
+	    tag = FRA
+		FRS = { truce_with = OMA }
+		OMA = { has_country_flag = got_cut_down }
+		FRS = { war = no }
+	}
+	
+	fire_only_once = yes
+
+    option = {
+        name = "Great!"	
+		relation = {
+	        who = FRS
+	        value = 100
+        }
+		FRS = { set_country_flag = protected_french_trading_rights }
+        ai_chance = { factor = 100 }
+    }
+}
+
+#The Anglo-Norse support our cause!
+country_event = {
+    id = 88018
+    title = "The Anglo-Norse support our cause!"
+    desc = "EVTDESC88018"
+	picture = "western_alliances"
+
+    trigger = {
+	    tag = FRS
+		has_country_flag = secured_anglo_trading_rights
+	}
+	
+	mean_time_to_happen = {
+	    months = 3
+	}
+	
+	fire_only_once = yes
+
+    option = {
+        name = "Great!"	
+		relation = {
+	        who = NRD
+	        value = 120
+        }
+		set_country_flag = anglo_norse_support_frs
         ai_chance = { factor = 100 }
     }
 }

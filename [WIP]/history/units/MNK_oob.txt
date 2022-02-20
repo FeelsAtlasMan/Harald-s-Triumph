@@ -1,0 +1,42 @@
+#Relations
+
+BOH = { 
+	value = 150
+}
+
+SWE = { 
+	value = 150
+}
+
+RTH = { 
+	value = 150
+}
+
+army = {
+	name = "Army of Minsk"
+	location = 718
+	regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 718
+	}
+	regiment = {
+		name= "Infantery"
+		type = infantry
+		home = 939
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+		home = 947
+	}
+	regiment = {
+		name= "Artillery"
+		type = artillery
+		home = 938
+	}
+}
+
+
+
+

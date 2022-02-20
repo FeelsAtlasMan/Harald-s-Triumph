@@ -1,0 +1,14 @@
+owner = NRD
+controller = NRD
+add_core = NRD
+add_core = ENG
+add_core = WSX
+trade_goods = iron
+life_rating = 35
+naval_base = 2
+terrain = plymouth
+state_building = {
+	level = 4
+	building = steel_factory
+	upgrade = yes
+}

@@ -1,0 +1,31 @@
+
+army = {
+	name = "Karbadian Army"
+	location = 1050
+	
+
+	regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 1050
+	}
+	
+	regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 3670
+	}
+
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+		home = 3670
+	}
+
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+		home = 3397
+	}
+}
+

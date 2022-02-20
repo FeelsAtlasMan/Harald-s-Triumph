@@ -1,0 +1,61 @@
+MOR = {
+	value = 50
+}
+
+army = {
+	name = "Army of the Wali"
+	location = 510
+	regiment = {
+		name= "1. Ghazi"
+		type = irregular
+		home = 515
+	}
+
+	regiment = {
+		name= "2. Ghazi"
+		type = irregular
+		home = 513
+	}
+
+	regiment = {
+		name= "3. Ghazi"
+		type = irregular
+		home = 516
+	}
+	
+	regiment = {
+		name= "1. Thagri"
+		type = hussar
+		home = 510
+	}
+
+	regiment = {
+		name= "2. Thagri"
+		type = hussar
+		home = 514
+	}	
+
+	regiment = {
+		name= "3. Thagri"
+		type = hussar
+		home = 509
+	}	
+
+	regiment = {
+		name= "4. Thagri"
+		type = hussar
+		home = 512
+	}		
+
+}
+
+leader = {
+	name = "Shayk al-Ghuzat"
+	type = land
+	date = 1820.1.1
+	personality = spirited
+	background = eccentric_genius
+	prestige = 0.1
+	}
+	
+	

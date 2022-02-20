@@ -52,7 +52,6 @@ restore_austrian_empire
 reconquesta
 restore_german_confederation
 claim_ger_leader
-iran_unification
 eth_unification
 colonial_reconquest_cb
 claim_holy_land
@@ -939,99 +938,6 @@ eth_unification = {
 	po_demand_state = yes
 	
 	war_name = WAR_ETH_UNIFICATION_NAME
-	
-	on_add = {
-		move_issue_percentage = { 
-			from = jingoism 
-			to = pro_military
-			value = 0.25
-		}
-	}
-}
-
-iran_unification = {
-	sprite_index = 21
-	is_triggered_only = yes
-	months = 12
-	
-	construction_speed = 0.8
-
-	badboy_factor = 0
-	prestige_factor = 2
-	peace_cost_factor = 0.7
-	penalty_factor = 1
-	always = yes
-
-	break_truce_prestige_factor = 5
-	break_truce_infamy_factor = 2
-	break_truce_militancy_factor = 2
-	truce_months = 48
-	
-	good_relation_prestige_factor = 1
-	good_relation_infamy_factor = 1
-	good_relation_militancy_factor = 1
-
-	can_use = {
-		NOT = { is_our_vassal = THIS }
-		THIS = {
-			is_culture_group = iranian_turanian
-			NOT = { primary_culture = kurmanji }
-			NOT = { primary_culture = pashtun }
-			NOT = { primary_culture = classical_persian }
-		}
-		is_vassal = no
-		neighbour = THIS
-		any_owned_province = {
-			OR = {
-				region = PER_1112
-				region = PER_1123
-				region = PER_1121
-				region = PER_1127
-				region = PER_1135
-				region = PER_1136
-				region = PER_1142
-				region = PER_1140
-				region = PER_1148
-				region = PER_1147
-				region = PER_1126
-				region = PER_1139
-				#province_id = 1212
-				#province_id = 3396
-			}
-		}
-		NOT = { has_country_modifier = neutrality }
-		NOT = { in_sphere = THIS }
-		THIS = { NOT = { has_country_modifier = neutrality } }
-		OR = {
-			war_with = THIS
-			THIS = { NOT = { has_country_modifier = punitive_effects } }
-		}
-	}
-	
-	allowed_states = {
-		any_owned_province = {
-			OR = {
-				region = PER_1112
-				region = PER_1123
-				region = PER_1121
-				region = PER_1127
-				region = PER_1135
-				region = PER_1136
-				region = PER_1142
-				region = PER_1140
-				region = PER_1148
-				region = PER_1147
-				region = PER_1126
-				region = PER_1139
-				#province_id = 1212
-				#province_id = 3396
-			}
-		}
-	}
-
-	po_demand_state = yes
-	
-	war_name = WAR_IRAN_UNIFICATION_NAME
 	
 	on_add = {
 		move_issue_percentage = { 

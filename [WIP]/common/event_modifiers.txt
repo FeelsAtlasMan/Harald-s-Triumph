@@ -3474,11 +3474,11 @@ mawlawiyya_influence = {
 }
 
 french_traders = {
-    tax_efficiency  = 0.05
-	import_cost  = 0.05
+    tax_efficiency  = 0.10
+	import_cost  = -0.10
 }
 
 anglo_traders = {
-    tax_efficiency  = 0.05
-	import_cost  = 0.05
+    tax_efficiency  = 0.10
+	import_cost  = -0.10
 }
