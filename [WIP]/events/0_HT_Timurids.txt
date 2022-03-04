@@ -38,6 +38,9 @@ country_event = {
 
     option = { #resume as Timurids (Khorasan), recommanded
 	    name = "EVT9901OPTA"
+		    TIM = { all_core = { remove_core = TIM } }
+			change_tag = KHR
+			KHR = { government = french_bourbon }
 	        release_vassal = AJM
 			AJM = { government = french_bourbon }
 		    release_vassal = BUK
@@ -51,9 +54,6 @@ country_event = {
 			1141 = { secede_province = FRS }
 			1071 = { secede_province = FRS }
 			1138 = { secede_province = FRS }
-			TIM = { all_core = { remove_core = TIM } }
-			change_tag = KHR
-			KHR = { government = french_bourbon }
 			country_event = {
 			    id = 9905
 				days = 90
@@ -63,7 +63,7 @@ country_event = {
 	
 	option = { #resume as Transoxiana, recommanded
 	    name = "EVT9901OPTB"
-	         release_vassal = AJM
+	        release_vassal = AJM
 			AJM = { government = french_bourbon }
 		    release_vassal = BUK
 			BUK = { government = french_bourbon }
@@ -1191,7 +1191,8 @@ country_event = {
 country_event = {
     id = 99241
     title = "The Tragic Death of Abu Sa'id Mirza"
-    desc = "EVTDESC9924"
+    desc = "EVTDESC99241"
+	picture = "turkmen_tribes"
 	
 	fire_only_once = yes
 	

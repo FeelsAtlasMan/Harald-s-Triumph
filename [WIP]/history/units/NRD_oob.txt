@@ -1,9 +1,4 @@
 #Sphere of Influence
-ILL = {
-	value = -175
-	level = 3
-}
-
 NEN = {
 	value = -150
 	level = 1
@@ -15,9 +10,10 @@ FRI = {
 	influence_value = 100
 }
 
-BAH = {
-	value = 150
-	level = 3
+CAN = {
+	value = 200		
+	level = 5		
+	influence_value = 100
 }
 
 CAL = {
@@ -25,36 +21,31 @@ CAL = {
 	level = 5		
 	influence_value = 100
 }
-MTC = {
-	value = 200		
-	level = 5		
-	influence_value = 100
-}
-RPL = {
-	value = 200
-	level = 5
-	influence_value = 100
-}
+
 SLN = {
 	value = 75		
 	level = 5		
 	influence_value = 100
 }
+
 MNS = {
 	value = 75		
 	level = 5		
 	influence_value = 100
 }
+
 ULS = {
 	value = 75		
 	level = 5		
 	influence_value = 100
 }
+
 LIR = {
 	value = 200	
 	level = 5		
 	influence_value = 100
 }
+
 WHA = {
 	value = 200	
 	level = 5		

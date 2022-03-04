@@ -102,6 +102,9 @@ political_decisions = {
 			prestige = 10
 			set_country_flag = mawlawiyya_advisors
 		}	
+		ai_will_do = {
+		    factor = 1
+		}
 	}
 	
 	secure_anglo_trading_rights = {
@@ -133,37 +136,66 @@ political_decisions = {
             }
 		set_country_flag = secured_anglo_trading_rights
 		}	
+		ai_will_do = {
+		    factor = 1
+		}
 	}
 	
+	#Choosing between Anglos or French
 	western_alliances_frs_1 = {
-	    picture = "pax_britannica"
+	    picture = "treaty_of_turkmanchay"
 		potential = {
 			tag = FRS
-			has_global_flag = timurd_succ_war
-			NOT = { has_country_flag = secured_anglo_trading_rights }
-			NOT = { year = 1855 }
+			has_country_flag = anglo_norse_support_frs
+			has_country_flag = protected_french_trading_rights
+			NOT = { has_country_flag = western_alliances_frs }
+			civilized = no
 		}
 		
 		allow = {
 		    war = no
-			OR = {
-			    foreign_naval_officers = yes_foreign_naval_officers
-				has_country_flag = handled_pirates
-				AND = {
-				    OMA = { has_country_flag = got_cut_down }
-					truce_with = OMA
-				}
-				total_amount_of_ships = 3
-			}
 		}
 		
 		effect = {
-			add_country_modifier = {
-	            name = anglo_traders
-	            duration = 36500
+		    country_event = 88019
+			set_country_flag = has_western_alliance
+		}
+        ai_will_do = {
+		    factor = 1
+		}		
+	}
+	
+	western_alliances_frs_2 = {
+	    picture = "treaty_of_turkmanchay"
+		potential = {
+			tag = FRS
+			has_country_flag = anglo_norse_support_frs
+			has_country_flag = french_traders_leaving_iran
+			NOT = { has_country_flag = western_alliances_frs }
+			civilized = no
+		}
+		
+		allow = {
+		    war = no
+		}
+		
+		effect = {
+		    relation = {
+	        who = NRD
+	        value = 200
+        }
+		NRD = {
+		    diplomatic_influence = {
+	           who = FRS
+	           value = 4
             }
-		set_country_flag = secured_anglo_trading_rights
-		}	
+		}
+		create_alliance = NRD
+		set_country_flag = has_western_alliance
+		}
+        ai_will_do = {
+		    factor = 1
+		}		
 	}
 	
 	#Unciv Mob. 

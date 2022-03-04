@@ -36,6 +36,12 @@
 		religion = gallician
 		size = 3000
 	}
+	
+	craftsmen = {
+		culture = french
+		religion = gallician
+		size = 1000
+	}
 
 	labourers = {
 		culture = french
@@ -46,7 +52,19 @@
 	labourers = {
 		culture = picard
 		religion = gallician
+		size = 2000
+	}
+	
+	labourers = {
+		culture = picard
+		religion = gallician
 		size = 15000
+	}
+	
+	labourers = {
+		culture = picard
+		religion = catholic
+		size = 5000
 	}
 	
 	labourers = {
@@ -71,6 +89,12 @@
 		culture = dutch
 		religion = protestant
 		size = 7500
+	}
+	
+	craftsmen = {
+		culture = dutch
+		religion = protestant
+		size = 2000
 	}
 	
 	labourers = {
@@ -104,11 +128,23 @@
 		religion = protestant
 		size = 1000
 	}
+	
+	craftsmen = {
+		culture = dutch
+		religion = protestant
+		size = 1800
+	}
 
 	farmers = {
 		culture = dutch
 		religion = protestant
 		size = 13550
+	}
+	
+	craftsmen = {
+		culture = dutch
+		religion = gallician
+		size = 1500
 	}
 	
 	farmers = {
@@ -128,11 +164,23 @@
 		religion = gallician
 		size = 300
 	}
+	
+	craftsmen = {
+		culture = french
+		religion = gallician
+		size = 100
+	}
 
 	farmers = {
 		culture = french
 		religion = gallician
 		size = 1000
+	}
+	
+	craftsmen = {
+		culture = picard
+		religion = catholic
+		size = 400
 	}
 	
 	farmers = {
@@ -166,6 +214,12 @@
 		religion = gallician
 		size = 1150
 	}
+	
+	craftsmen = {
+		culture = french
+		religion = gallician
+		size = 3000
+	}
 
 	farmers = {
 		culture = french
@@ -173,22 +227,40 @@
 		size = 10000
 	}
 	
+	craftsmen = {
+		culture = picard
+		religion = catholic
+		size = 1600
+	}
+	
 	farmers = {
 		culture = picard
 		religion = catholic
-		size = 25200
+		size = 23600
+	}
+	
+	craftsmen = {
+		culture = picard
+		religion = gallician
+		size = 5000
 	}
 	
 	farmers = {
 		culture = picard
 		religion = gallician
-		size = 30000
+		size = 25000
+	}
+	
+	craftsmen = {
+		culture = dutch
+		religion = protestant
+		size = 2000
 	}
 
 	farmers = {
 		culture = dutch
 		religion = protestant
-		size = 20125
+		size = 18125
 	}
 }
 #Amiens (552000/138000 POPS)
@@ -418,6 +490,12 @@
 		religion = gallician
 		size = 3750
 	}
+	
+	craftsmen = {
+		culture = french
+		religion = gallician
+		size = 2000
+	}
 
 	soldiers = {
 		culture = french
@@ -440,7 +518,13 @@
 	farmers = {
 		culture = picard
 		religion = catholic
-		size = 31250
+		size = 8000
+	}
+	
+	farmers = {
+		culture = picard
+		religion = catholic
+		size = 23250
 	}
 
 }
@@ -451,6 +535,12 @@
 		culture = french
 		religion = gallician
 		size = 750
+	}
+
+    capitalists = {
+		culture = french
+		religion = gallician
+		size = 200
 	}
 
 	officers = {
@@ -483,16 +573,28 @@
 		size = 1000
 	}
 	
+	craftsmen = {
+		culture = french
+		religion = gallician
+		size = 1000
+	}
+	
 	farmers = {
 		culture = french
 		religion = gallician
-		size = 5900
+		size = 4900
+	}
+	
+	craftsmen = {
+		culture = french
+		religion = catholic
+		size = 11000
 	}
 
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 50000
+		size = 39000
 	}
 }
 #Chaumont (256000/64000 POPS)
@@ -520,11 +622,23 @@
 		religion = catholic
 		size = 1000
 	}
+	
+	clerks = {
+		culture = french
+		religion = catholic
+		size = 600
+	}
+	
+	craftsmen = {
+		culture = french
+		religion = catholic
+		size = 8750
+	}
 
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 58750
+		size = 50000
 	}
 }
 #Chalons (348000/87000 POPS)
@@ -552,11 +666,17 @@
 		religion = catholic
 		size = 1000
 	}
+	
+	craftsmen = {
+		culture = french
+		religion = catholic
+		size = 8700
+	}
 
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 78700
+		size = 70000
 	}
 
 }
@@ -2360,6 +2480,18 @@
 		religion = gallician
 		size = 100
 	}
+	
+	clerks = {
+		culture = french
+		religion = gallician
+		size = 500
+	}
+	
+	craftsmen = {
+		culture = french
+		religion = gallician
+		size = 150
+	}
 
 	farmers = {
 		culture = french
@@ -2384,6 +2516,12 @@
 		religion = catholic
 		size = 900
 	}
+	
+	craftsmen = {
+		culture = french
+		religion = catholic
+		size = 1000
+	}
 
 	farmers = {
 		culture = french
@@ -2391,10 +2529,22 @@
 		size = 3000
 	}
 	
+	craftsmen = {
+		culture = franco_burgundian
+		religion = gallician
+		size = 4000
+	}
+	
 	farmers = {
 		culture = franco_burgundian
 		religion = gallician
 		size = 10000
+	}
+	
+	craftsmen = {
+		culture = franco_burgundian
+		religion = catholic
+		size = 13000
 	}
 	
 	farmers = {
@@ -2683,7 +2833,7 @@
 	farmers = {
 		culture = burgundian
 		religion = catholic
-		size = 2000
+		size = 4000
 	}
 	
 	aristocrats = {
@@ -2725,7 +2875,7 @@
 	farmers = {
 		culture = alemannic
 		religion = catholic
-		size = 4750
+		size = 2750
 	}
 	
 	soldiers = {
@@ -4222,6 +4372,12 @@
 		religion = gallician
 		size = 1600
 	}
+	
+	craftsmen = {
+		culture = french
+		religion = gallician
+		size = 1000
+	}
 
 	farmers = {
 		culture = french
@@ -4229,10 +4385,22 @@
 		size = 10510
 	}
 	
+	craftsmen = {
+		culture = gascon
+		religion = gallician
+		size = 3000
+	}
+	
     farmers = {
 		culture = gascon
 		religion = gallician
 		size = 40000
+	}
+	
+	craftsmen = {
+		culture = gascon
+		religion = catholic
+		size = 7000
 	}
 	
 	farmers = {

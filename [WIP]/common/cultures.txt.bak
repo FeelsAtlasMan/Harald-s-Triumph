@@ -232,6 +232,20 @@ eastern_germanic = {
 			
 		last_names = { Amalungs "af Genfs" "af Baltharingos" Bardsungs }
 	}
+	
+	gothic = {
+		color = {40 5 40}
+		first_names = 
+		{ 
+		  Isarnus Fahlawills Fanawills Gibowills Theudowills Gundiharjis Anafunds Anahardus Aldifuns Althja 
+		  Frankamers Anamunds Ananunths Andiharjis Andiriks Anditheus Ansiwins Ansigardis Ansiharjis Ansleuba
+          Ansemundus Ansiwigs Ansila Ansilins Ansilhardus Anstigards Anstiharjis Antihadus Aringos Arila Araberhts
+          Arawulfs Arbibalths Arbiwins Arbiwulfs Argings Argibauds Argiwarjands Armawis Arningos Bainwalds Balafridus
+          Baldisins Baldamos Baldareths Baltharjis Bards Barnafridus Barnagards Barnaharjis Barnahilds		  
+		}
+			
+		last_names = { Amalungs "af Genfs" "af Baltharingos" Bardsungs }
+	}
 }
 	
 north_germanic = {
@@ -1923,20 +1937,8 @@ pontic_caucasian = {
 	leader = arab
 	is_overseas = no
 	unit = MiddleEasternGC
-		#north_caucasian = {
-		#color = {252 255 161}
-		#first_names = {
-		#	Aslan Hamza "Jamal al-Din" Mansur Mohammad Murad Shamil Abatiy Bate Belatse Blaneshu Dzeghaschte Discheshu Foqwe Ghwaze Hebale Hezeishe Hetezchiqwe #Jatawe Lawirsen Lhostenasch Mamish Nartschawe Nart Pschibiy Pagwe Psebide Qideghaze Qwbatiy Qwsh Zhanqeit Yapenes Wezrej Tsatsu Teimbolet 
-		#}
-		#
-		#last_names = { 
-		#	Mollah Bek Aghwrbiyç Alijiqwe Dzuneç Gushina Gushipsaç Dzadzooç Hatsiquaç Jirandiqua Mashiquaç Naly Nartby Shoomaquaç Tsikira Zhambora
-		#}
-		#radicalism = 10
-		#}
-		
 	circassian = {
-		color = {190 205 5}
+		color = {130 20 30}
 		first_names = {
 			Aghwrbiy Abatiy Albech Albot "Alhx'es" "Alhx'o" Alijiqwe Bale Batirbiy Biylhosten Blaneshu Bubeird Chetsu "Ch'ischiqwe" Chawis Dariqwe Dokshiqua Dzeghaschte Dzune Foqwe Ghwaze Gushina Gushipsa Hegwtsire Hanaqua Hetsu Jirandiqwe Kwshbiy Lhostenasch Mamsriqwe Menshaq Meshiqwe Nalbiy Nartshu Nerzan Pschimaxwe Qideghaze Schebet Shumaxwe Shupashe Takwu Tsumash Tighwenbiy Tighwen Werdeschawe Wezroqwe Yedij Zhore
 			}
@@ -1948,7 +1950,7 @@ pontic_caucasian = {
 		}
 		
 	abkhaz = {
-		color = {70 85 0}
+		color = {85 15 15}
 		first_names = {
 			Aghwrbiy Abatiy Albech Albot "Alhx'es" "Alhx'o" Alijiqwe Bale Batirbiy Biylhosten Blaneshu Bubeird Chetsu "Ch'ischiqwe" Chawis Dariqwe Dokshiqua Dzeghaschte Dzune Foqwe Ghwaze Gushina Gushipsa Hegwtsire Hanaqua Hetsu Jirandiqwe Kwshbiy Lhostenasch Mamsriqwe Menshaq Meshiqwe Nalbiy Nartshu Nerzan Pschimaxwe Qideghaze Schebet Shumaxwe Shupashe Takwu Tsumash Tighwenbiy Tighwen Werdeschawe Wezroqwe Yedij Zhore
 			}
@@ -1960,7 +1962,7 @@ pontic_caucasian = {
 		}
 		
 	kabardian = {
-		color = {220 235 30}
+		color = {150 40 55}
 		first_names = {
 			Aghwrbiy Abatiy Albech Albot "Alhx'es" "Alhx'o" Alijiqwe Bale Batirbiy Biylhosten Blaneshu Bubeird Chetsu "Ch'ischiqwe" Chawis Dariqwe Dokshiqua Dzeghaschte Dzune Foqwe Ghwaze Gushina Gushipsa Hegwtsire Hanaqua Hetsu Jirandiqwe Kwshbiy Lhostenasch Mamsriqwe Menshaq Meshiqwe Nalbiy Nartshu Nerzan Pschimaxwe Qideghaze Schebet Shumaxwe Shupashe Takwu Tsumash Tighwenbiy Tighwen Werdeschawe Wezroqwe Yedij Zhore
 			}
@@ -1972,7 +1974,7 @@ pontic_caucasian = {
 		}
 		
 	ubykh = {
-		color = {150 165 10}
+		color = {80 20 0}
 		first_names = {
 			Aghwrbiy Abatiy Albech Albot "Alhx'es" "Alhx'o" Alijiqwe Bale Batirbiy Biylhosten Blaneshu Bubeird Chetsu "Ch'ischiqwe" Chawis Dariqwe Dokshiqua Dzeghaschte Dzune Foqwe Ghwaze Gushina Gushipsa Hegwtsire Hanaqua Hetsu Jirandiqwe Kwshbiy Lhostenasch Mamsriqwe Menshaq Meshiqwe Nalbiy Nartshu Nerzan Pschimaxwe Qideghaze Schebet Shumaxwe Shupashe Takwu Tsumash Tighwenbiy Tighwen Werdeschawe Wezroqwe Yedij Zhore
 			}
@@ -1984,7 +1986,7 @@ pontic_caucasian = {
 		}
 		
 	abaza = {
-		color = {110 125 15}
+		color = {105 35 35}
 		first_names = {
 			Aghwrbiy Abatiy Albech Albot "Alhx'es" "Alhx'o" Alijiqwe Bale Batirbiy Biylhosten Blaneshu Bubeird Chetsu "Ch'ischiqwe" Chawis Dariqwe Dokshiqua Dzeghaschte Dzune Foqwe Ghwaze Gushina Gushipsa Hegwtsire Hanaqua Hetsu Jirandiqwe Kwshbiy Lhostenasch Mamsriqwe Menshaq Meshiqwe Nalbiy Nartshu Nerzan Pschimaxwe Qideghaze Schebet Shumaxwe Shupashe Takwu Tsumash Tighwenbiy Tighwen Werdeschawe Wezroqwe Yedij Zhore
 			}
@@ -2003,7 +2005,7 @@ caspian_caucasian = {
 	unit = MiddleEasternGC
 	#Nokh
 	chechen = {
-		color = {50 110 70}
+		color = {70 50 110}
 		first_names = {
 			Abuu Ayub Adam Ahmad Alikhan Alkhazur Aluu Andarbek Anzor Aptii Arzu Aslan Aslanbek Asuu Balavdi Baudi Bekkhan Bislan Bula Buvaisar Bworz Chabworz Deni Duqvaakha Eela Elbek Elbrus Elberd Emin Gada Ghanii Hassuh Hamid Hamzat Haaron Hasan Hooza Humid Husein Ibraahim Iljas Kanta Katii Kazbek Khasboolat Khasmohmad Khavazh Kyyra Lyoma Lecha "Madii Nel" Mairbek Mamed Mikaail Mohmad Movldi Movsar Mumaadi Murad Muusa Nezh Nurdi Ortsa Ramzan Ruman Ruslan Rustam Saida Saidali Saipuddi Shamsuuddi Sha'raani Sherip Shirvani Siraazhdi Sols Suliim Suliman Supjan Surkho "T'aaus" Umalt Turpal Vaakha Vaakhiita Yaaqub Visiita Yunaadi Yunus Yusup Yousef Zaindi Zakrii Zeelim Zhabii Zhamal Zhamalaila Zovra Mansur
 			}
@@ -2015,7 +2017,7 @@ caspian_caucasian = {
 	}
 		
 	ingush = {
-		color = {70 120 90}
+		color = {90 70 120}
 		first_names = {
 			Abuu Ayub Adam Ahmad Alikhan Alkhazur Aluu Andarbek Anzor Aptii Arzu Aslan Aslanbek Asuu Balavdi Baudi Bekkhan Bislan Bula Buvaisar Bworz Chabworz Deni Duqvaakha Eela Elbek Elbrus Elberd Emin Gada Ghanii Hassuh Hamid Hamzat Haaron Hasan Hooza Humid Husein Ibraahim Iljas Kanta Katii Kazbek Khasboolat Khasmohmad Khavazh Kyyra Lyoma Lecha "Madii Nel" Mairbek Mamed Mikaail Mohmad Movldi Movsar Mumaadi Murad Muusa Nezh Nurdi Ortsa Ramzan Ruman Ruslan Rustam Saida Saidali Saipuddi Shamsuuddi Sha'raani Sherip Shirvani Siraazhdi Sols Suliim Suliman Supjan Surkho "T'aaus" Umalt Turpal Vaakha Vaakhiita Yaaqub Visiita Yunaadi Yunus Yusup Yousef Zaindi Zakrii Zeelim Zhabii Zhamal Zhamalaila Zovra Mansur
 			}
@@ -2028,7 +2030,7 @@ caspian_caucasian = {
 		
 	#Darkin-Lak
 	dargin = {
-		color = {180 170 50}
+		color = {120 50 110}
 		first_names = {
 			Abuu Ayub Adam Ahmad Alikhan Alkhazur Aluu Andarbek Anzor Aptii Arzu Aslan Aslanbek Asuu Balavdi Baudi Bekkhan Bislan Bula Buvaisar Bworz Chabworz Deni Duqvaakha Eela Elbek Elbrus Elberd Emin Gada Ghanii Hassuh Hamid Hamzat Haaron Hasan Hooza Humid Husein Ibraahim Iljas Kanta Katii Kazbek Khasboolat Khasmohmad Khavazh Kyyra Lyoma Lecha "Madii Nel" Mairbek Mamed Mikaail Mohmad Movldi Movsar Mumaadi Murad Muusa Nezh Nurdi Ortsa Ramzan Ruman Ruslan Rustam Saida Saidali Saipuddi Shamsuuddi Sha'raani Sherip Shirvani Siraazhdi Sols Suliim Suliman Supjan Surkho "T'aaus" Umalt Turpal Vaakha Vaakhiita Yaaqub Visiita Yunaadi Yunus Yusup Yousef Zaindi Zakrii Zeelim Zhabii Zhamal Zhamalaila Zovra Mansur
 			}
@@ -2040,7 +2042,7 @@ caspian_caucasian = {
 	}
 	
 	lak_cauc = {
-		color = {220 210 50}
+		color = {160 50 150}
 		first_names = {
 			Abuu Ayub Adam Ahmad Alikhan Alkhazur Aluu Andarbek Anzor Aptii Arzu Aslan Aslanbek Asuu Balavdi Baudi Bekkhan Bislan Bula Buvaisar Bworz Chabworz Deni Duqvaakha Eela Elbek Elbrus Elberd Emin Gada Ghanii Hassuh Hamid Hamzat Haaron Hasan Hooza Humid Husein Ibraahim Iljas Kanta Katii Kazbek Khasboolat Khasmohmad Khavazh Kyyra Lyoma Lecha "Madii Nel" Mairbek Mamed Mikaail Mohmad Movldi Movsar Mumaadi Murad Muusa Nezh Nurdi Ortsa Ramzan Ruman Ruslan Rustam Saida Saidali Saipuddi Shamsuuddi Sha'raani Sherip Shirvani Siraazhdi Sols Suliim Suliman Supjan Surkho "T'aaus" Umalt Turpal Vaakha Vaakhiita Yaaqub Visiita Yunaadi Yunus Yusup Yousef Zaindi Zakrii Zeelim Zhabii Zhamal Zhamalaila Zovra Mansur
 			}
@@ -2053,7 +2055,7 @@ caspian_caucasian = {
 
 	#Lezgic Group
 	lezgic = { #now just Lezgin
-		color = {50 180 190}
+		color = {120 50 130}
 		first_names = {
 			Abuu Ayub Adam Ahmad Alikhan Alkhazur Aluu Andarbek Anzor Aptii Arzu Aslan Aslanbek Asuu Balavdi Baudi Bekkhan Bislan Bula Buvaisar Bworz Chabworz Deni Duqvaakha Eela Elbek Elbrus Elberd Emin Gada Ghanii Hassuh Hamid Hamzat Haaron Hasan Hooza Humid Husein Ibraahim Iljas Kanta Katii Kazbek Khasboolat Khasmohmad Khavazh Kyyra Lyoma Lecha "Madii Nel" Mairbek Mamed Mikaail Mohmad Movldi Movsar Mumaadi Murad Muusa Nezh Nurdi Ortsa Ramzan Ruman Ruslan Rustam Saida Saidali Saipuddi Shamsuuddi Sha'raani Sherip Shirvani Siraazhdi Sols Suliim Suliman Supjan Surkho "T'aaus" Umalt Turpal Vaakha Vaakhiita Yaaqub Visiita Yunaadi Yunus Yusup Yousef Zaindi Zakrii Zeelim Zhabii Zhamal Zhamalaila Zovra Mansur
 			}
@@ -2065,7 +2067,7 @@ caspian_caucasian = {
 	}
 		
 	tabasaran = {
-		color = {70 160 170}
+		color = {100 70 110}
 		first_names = {
 			Abuu Ayub Adam Ahmad Alikhan Alkhazur Aluu Andarbek Anzor Aptii Arzu Aslan Aslanbek Asuu Balavdi Baudi Bekkhan Bislan Bula Buvaisar Bworz Chabworz Deni Duqvaakha Eela Elbek Elbrus Elberd Emin Gada Ghanii Hassuh Hamid Hamzat Haaron Hasan Hooza Humid Husein Ibraahim Iljas Kanta Katii Kazbek Khasboolat Khasmohmad Khavazh Kyyra Lyoma Lecha "Madii Nel" Mairbek Mamed Mikaail Mohmad Movldi Movsar Mumaadi Murad Muusa Nezh Nurdi Ortsa Ramzan Ruman Ruslan Rustam Saida Saidali Saipuddi Shamsuuddi Sha'raani Sherip Shirvani Siraazhdi Sols Suliim Suliman Supjan Surkho "T'aaus" Umalt Turpal Vaakha Vaakhiita Yaaqub Visiita Yunaadi Yunus Yusup Yousef Zaindi Zakrii Zeelim Zhabii Zhamal Zhamalaila Zovra Mansur
 			}
@@ -2077,7 +2079,7 @@ caspian_caucasian = {
 	}
 		
 	aghul = {
-		color = {50 220 210}
+		color = {160 50 150}
 		first_names = {
 			Abuu Ayub Adam Ahmad Alikhan Alkhazur Aluu Andarbek Anzor Aptii Arzu Aslan Aslanbek Asuu Balavdi Baudi Bekkhan Bislan Bula Buvaisar Bworz Chabworz Deni Duqvaakha Eela Elbek Elbrus Elberd Emin Gada Ghanii Hassuh Hamid Hamzat Haaron Hasan Hooza Humid Husein Ibraahim Iljas Kanta Katii Kazbek Khasboolat Khasmohmad Khavazh Kyyra Lyoma Lecha "Madii Nel" Mairbek Mamed Mikaail Mohmad Movldi Movsar Mumaadi Murad Muusa Nezh Nurdi Ortsa Ramzan Ruman Ruslan Rustam Saida Saidali Saipuddi Shamsuuddi Sha'raani Sherip Shirvani Siraazhdi Sols Suliim Suliman Supjan Surkho "T'aaus" Umalt Turpal Vaakha Vaakhiita Yaaqub Visiita Yunaadi Yunus Yusup Yousef Zaindi Zakrii Zeelim Zhabii Zhamal Zhamalaila Zovra Mansur
 			}
@@ -2089,7 +2091,7 @@ caspian_caucasian = {
 	}
 	
 	tsakhur = {
-		color = {50 130 140}
+		color = {70 50 80}
 		first_names = {
 			Abuu Ayub Adam Ahmad Alikhan Alkhazur Aluu Andarbek Anzor Aptii Arzu Aslan Aslanbek Asuu Balavdi Baudi Bekkhan Bislan Bula Buvaisar Bworz Chabworz Deni Duqvaakha Eela Elbek Elbrus Elberd Emin Gada Ghanii Hassuh Hamid Hamzat Haaron Hasan Hooza Humid Husein Ibraahim Iljas Kanta Katii Kazbek Khasboolat Khasmohmad Khavazh Kyyra Lyoma Lecha "Madii Nel" Mairbek Mamed Mikaail Mohmad Movldi Movsar Mumaadi Murad Muusa Nezh Nurdi Ortsa Ramzan Ruman Ruslan Rustam Saida Saidali Saipuddi Shamsuuddi Sha'raani Sherip Shirvani Siraazhdi Sols Suliim Suliman Supjan Surkho "T'aaus" Umalt Turpal Vaakha Vaakhiita Yaaqub Visiita Yunaadi Yunus Yusup Yousef Zaindi Zakrii Zeelim Zhabii Zhamal Zhamalaila Zovra Mansur
 			}
@@ -2101,7 +2103,7 @@ caspian_caucasian = {
 	}
 	
 	rutul = {
-		color = {70 130 140}
+		color = {70 70 80}
 		first_names = {
 			Abuu Ayub Adam Ahmad Alikhan Alkhazur Aluu Andarbek Anzor Aptii Arzu Aslan Aslanbek Asuu Balavdi Baudi Bekkhan Bislan Bula Buvaisar Bworz Chabworz Deni Duqvaakha Eela Elbek Elbrus Elberd Emin Gada Ghanii Hassuh Hamid Hamzat Haaron Hasan Hooza Humid Husein Ibraahim Iljas Kanta Katii Kazbek Khasboolat Khasmohmad Khavazh Kyyra Lyoma Lecha "Madii Nel" Mairbek Mamed Mikaail Mohmad Movldi Movsar Mumaadi Murad Muusa Nezh Nurdi Ortsa Ramzan Ruman Ruslan Rustam Saida Saidali Saipuddi Shamsuuddi Sha'raani Sherip Shirvani Siraazhdi Sols Suliim Suliman Supjan Surkho "T'aaus" Umalt Turpal Vaakha Vaakhiita Yaaqub Visiita Yunaadi Yunus Yusup Yousef Zaindi Zakrii Zeelim Zhabii Zhamal Zhamalaila Zovra Mansur
 			}
@@ -2113,7 +2115,7 @@ caspian_caucasian = {
 	}
 	
 	budukh_kryts = {
-		color = {50 200 210}
+		color = {140 50 150}
 		first_names = {
 			Abuu Ayub Adam Ahmad Alikhan Alkhazur Aluu Andarbek Anzor Aptii Arzu Aslan Aslanbek Asuu Balavdi Baudi Bekkhan Bislan Bula Buvaisar Bworz Chabworz Deni Duqvaakha Eela Elbek Elbrus Elberd Emin Gada Ghanii Hassuh Hamid Hamzat Haaron Hasan Hooza Humid Husein Ibraahim Iljas Kanta Katii Kazbek Khasboolat Khasmohmad Khavazh Kyyra Lyoma Lecha "Madii Nel" Mairbek Mamed Mikaail Mohmad Movldi Movsar Mumaadi Murad Muusa Nezh Nurdi Ortsa Ramzan Ruman Ruslan Rustam Saida Saidali Saipuddi Shamsuuddi Sha'raani Sherip Shirvani Siraazhdi Sols Suliim Suliman Supjan Surkho "T'aaus" Umalt Turpal Vaakha Vaakhiita Yaaqub Visiita Yunaadi Yunus Yusup Yousef Zaindi Zakrii Zeelim Zhabii Zhamal Zhamalaila Zovra Mansur
 			}
@@ -2125,7 +2127,7 @@ caspian_caucasian = {
 	}
 	
 	alvuanian = {
-		color = {30 160 170}
+		color = {100 30 110}
 		first_names = {
 			Abuu Ayub Adam Ahmad Alikhan Alkhazur Aluu Andarbek Anzor Aptii Arzu Aslan Aslanbek Asuu Balavdi Baudi Bekkhan Bislan Bula Buvaisar Bworz Chabworz Deni Duqvaakha Eela Elbek Elbrus Elberd Emin Gada Ghanii Hassuh Hamid Hamzat Haaron Hasan Hooza Humid Husein Ibraahim Iljas Kanta Katii Kazbek Khasboolat Khasmohmad Khavazh Kyyra Lyoma Lecha "Madii Nel" Mairbek Mamed Mikaail Mohmad Movldi Movsar Mumaadi Murad Muusa Nezh Nurdi Ortsa Ramzan Ruman Ruslan Rustam Saida Saidali Saipuddi Shamsuuddi Sha'raani Sherip Shirvani Siraazhdi Sols Suliim Suliman Supjan Surkho "T'aaus" Umalt Turpal Vaakha Vaakhiita Yaaqub Visiita Yunaadi Yunus Yusup Yousef Zaindi Zakrii Zeelim Zhabii Zhamal Zhamalaila Zovra Mansur
 			}
@@ -2137,7 +2139,7 @@ caspian_caucasian = {
 	
 	#Khinalug
 	khinalug = {
-		color = {50 140 110}
+		color = {80 50 50}
 		first_names = {
 			Abuu Ayub Adam Ahmad Alikhan Alkhazur Aluu Andarbek Anzor Aptii Arzu Aslan Aslanbek Asuu Balavdi Baudi Bekkhan Bislan Bula Buvaisar Bworz Chabworz Deni Duqvaakha Eela Elbek Elbrus Elberd Emin Gada Ghanii Hassuh Hamid Hamzat Haaron Hasan Hooza Humid Husein Ibraahim Iljas Kanta Katii Kazbek Khasboolat Khasmohmad Khavazh Kyyra Lyoma Lecha "Madii Nel" Mairbek Mamed Mikaail Mohmad Movldi Movsar Mumaadi Murad Muusa Nezh Nurdi Ortsa Ramzan Ruman Ruslan Rustam Saida Saidali Saipuddi Shamsuuddi Sha'raani Sherip Shirvani Siraazhdi Sols Suliim Suliman Supjan Surkho "T'aaus" Umalt Turpal Vaakha Vaakhiita Yaaqub Visiita Yunaadi Yunus Yusup Yousef Zaindi Zakrii Zeelim Zhabii Zhamal Zhamalaila Zovra Mansur
 			}
@@ -2150,7 +2152,7 @@ caspian_caucasian = {
 	
 	#Avar-Andic
 	andi = {
-		color = {150 30 120}
+		color = {90 30 60}
 		first_names = {
 			Abuu Ayub Adam Ahmad Alikhan Alkhazur Aluu Andarbek Anzor Aptii Arzu Aslan Aslanbek Asuu Balavdi Baudi Bekkhan Bislan Bula Buvaisar Bworz Chabworz Deni Duqvaakha Eela Elbek Elbrus Elberd Emin Gada Ghanii Hassuh Hamid Hamzat Haaron Hasan Hooza Humid Husein Ibraahim Iljas Kanta Katii Kazbek Khasboolat Khasmohmad Khavazh Kyyra Lyoma Lecha "Madii Nel" Mairbek Mamed Mikaail Mohmad Movldi Movsar Mumaadi Murad Muusa Nezh Nurdi Ortsa Ramzan Ruman Ruslan Rustam Saida Saidali Saipuddi Shamsuuddi Sha'raani Sherip Shirvani Siraazhdi Sols Suliim Suliman Supjan Surkho "T'aaus" Umalt Turpal Vaakha Vaakhiita Yaaqub Visiita Yunaadi Yunus Yusup Yousef Zaindi Zakrii Zeelim Zhabii Zhamal Zhamalaila Zovra Mansur
 			}
@@ -2162,7 +2164,7 @@ caspian_caucasian = {
 	}
 	
 	avar = {
-		color = {210 100 50}
+		color = {110 50 80}
 		first_names = {
 			Abuu Ayub Adam Ahmad Alikhan Alkhazur Aluu Andarbek Anzor Aptii Arzu Aslan Aslanbek Asuu Balavdi Baudi Bekkhan Bislan Bula Buvaisar Bworz Chabworz Deni Duqvaakha Eela Elbek Elbrus Elberd Emin Gada Ghanii Hassuh Hamid Hamzat Haaron Hasan Hooza Humid Husein Ibraahim Iljas Kanta Katii Kazbek Khasboolat Khasmohmad Khavazh Kyyra Lyoma Lecha "Madii Nel" Mairbek Mamed Mikaail Mohmad Movldi Movsar Mumaadi Murad Muusa Nezh Nurdi Ortsa Ramzan Ruman Ruslan Rustam Saida Saidali Saipuddi Shamsuuddi Sha'raani Sherip Shirvani Siraazhdi Sols Suliim Suliman Supjan Surkho "T'aaus" Umalt Turpal Vaakha Vaakhiita Yaaqub Visiita Yunaadi Yunus Yusup Yousef Zaindi Zakrii Zeelim Zhabii Zhamal Zhamalaila Zovra Mansur
 			}
@@ -2175,7 +2177,7 @@ caspian_caucasian = {
 	
 	#Tsezic
 	tsezic = {
-		color = {110 100 50}
+		color = {90 30 80}
 		first_names = {
 			Abuu Ayub Adam Ahmad Alikhan Alkhazur Aluu Andarbek Anzor Aptii Arzu Aslan Aslanbek Asuu Balavdi Baudi Bekkhan Bislan Bula Buvaisar Bworz Chabworz Deni Duqvaakha Eela Elbek Elbrus Elberd Emin Gada Ghanii Hassuh Hamid Hamzat Haaron Hasan Hooza Humid Husein Ibraahim Iljas Kanta Katii Kazbek Khasboolat Khasmohmad Khavazh Kyyra Lyoma Lecha "Madii Nel" Mairbek Mamed Mikaail Mohmad Movldi Movsar Mumaadi Murad Muusa Nezh Nurdi Ortsa Ramzan Ruman Ruslan Rustam Saida Saidali Saipuddi Shamsuuddi Sha'raani Sherip Shirvani Siraazhdi Sols Suliim Suliman Supjan Surkho "T'aaus" Umalt Turpal Vaakha Vaakhiita Yaaqub Visiita Yunaadi Yunus Yusup Yousef Zaindi Zakrii Zeelim Zhabii Zhamal Zhamalaila Zovra Mansur
 			}
@@ -2215,6 +2217,31 @@ oghuz = {
 			Qasimbek Qasimzade Rasulzade Tahirzade Talishkhan Topchubashi Zardabi
 		}
 	}
+	
+	gagauz = {
+		color = {220 180 70}
+		first_names = { 
+			Abdullah Abdulhamid Abdulkerim Abdulrahim Ahmet Akif Ali Arif 
+			Bahaeddin Bekir Cemal Cevad Celaleddin Cevdet Daud Edhem Emin Enver 
+			Fahri Fevzi Ferid Fuat Hafiz Hamza Halil Halim Hasan Hayrullah Husrev
+			Ibrahim Iskender Ismet Izzet Kamil Kazim Kemal Lutfi
+			Mahmut Mehmet Mithat Muhtar Murat Musa Mustafa 
+			Namik Nazim Nurettin Nuri Numan Omar Osman 
+			Pertev Rauf Receb Reshad Refet Rifat Riza 
+			Sabaheddin Said Selim Shevket Shukru Suleyman 
+			Talat Tevfik Vefik Yusuf Yunus Ziya Ziyauddin
+			Ahmad Aliagha Bahram Elbay Farhad Firudin Hamid Heydar
+			Huseyin Ismayil Jalil Mahmud Malik Mehdi Mohammad Murad Samad 
+			Tahir Zahid
+		}
+		
+		last_names = { 
+			Bey Pasha Hoca Efendi
+			Ahmadbek Ahmadzade Akbarzade Edigar Ganjavi Ibrahimbek Mehmandar Nakhchivani 
+			Qasimbek Qasimzade Rasulzade Tahirzade Talishkhan Topchubashi Zardabi
+		}
+	}
+	
 	chaharmahali = {
 		color = {200 140 90}
 		first_names = { 
@@ -2447,20 +2474,24 @@ karluk = {
     leader = arab
 	is_overseas = no
 	unit = MiddleEasternGC
-	uzbek = {
-		color = {150 70 55}
+	khwarazm_turkic = { 
+		color = {120 100 85}
 		first_names = {
-			"Abd al-Ahad" "Abd al-Karim" "Abu al-Ghazi" Abulfayz Alimqul Aqim "Allah Quli" Haydar Husayn 
-			Iltazar Isfandiyar Jahangir Khudayar Madali Mahmud Muhammad Murad 
-			Nasrallah "Nasir al-Din" Nurali Pulad Qilich Qutlugh Rahim Shir Umar Yadigar Yaqub 
+			Abbas Abolghasem Abdolhossein Abdolsamad Abdolazim Ahmad Ali Bahram
+			Ebrahim Esmail "Fath Ali" Fazlollah Hamzeh Hasan Hossein Kamran Karim "Lotf Ali" 
+			Mahmoud Massoud Mohammad "Moin ed-Din" "Mozzafer ed-Din" Murad Muhsin 
+			"Naser ed-Din" Nosret Reza Timur Yaqub
 			}
 		last_names = {
-			Bahadur Bukhari Khan
+			Airom Ansari Ayrum Buzarjomehri Davallu Esfahani Farhani 
+			Jahanbani Kashani Khan Khuzai
+			Meshhedi Nakhchevani Pesyan Rokni Shafaei Shahbakhti 
+			Shirazi Tabrizi Tahmasebi Zahedi
 			}
 	}
 	
-	chaghatay = {
-		color = {150 70 95}
+	chaghatay = { #Gurkani
+		color = {80 120 105}
 		first_names = {
 			Abbas Abolghasem Abdolhossein Abdolsamad Abdolazim Ahmad Ali Bahram
 			Ebrahim Esmail "Fath Ali" Fazlollah Hamzeh Hasan Hossein Kamran Karim "Lotf Ali" 
@@ -2476,7 +2507,7 @@ karluk = {
 	}
 	
 	uighur = {
-		color = {150 70 125}
+		color = {85 140 120}
 		first_names = { 
 			Afaq Ahmed Arshad Bahayeddin Burhan Daud Hakim Husayin Kemal Maqsud Muhammad Musa Rashidin Satuq Timur Yaqub
 			}
@@ -2486,7 +2517,7 @@ karluk = {
 	}
 	
 	abdal = {
-		color = {100 30 90}
+		color = {90 120 195}
 		first_names = { 
 			Afaq Ahmed Arshad Bahayeddin Burhan Daud Hakim Husayin Kemal Maqsud Muhammad Musa Rashidin Satuq Timur Yaqub
 			}
@@ -2500,6 +2531,18 @@ kipchak = {
     leader = arab
 	is_overseas = no
 	unit = MiddleEasternGC
+	uzbek = {
+		color = { 110 130 55 }
+		first_names = {
+			"Abd al-Ahad" "Abd al-Karim" "Abu al-Ghazi" Abulfayz Alimqul Aqim "Allah Quli" Haydar Husayn 
+			Iltazar Isfandiyar Jahangir Khudayar Madali Mahmud Muhammad Murad 
+			Nasrallah "Nasir al-Din" Nurali Pulad Qilich Qutlugh Rahim Shir Umar Yadigar Yaqub 
+			}
+		last_names = {
+			Bahadur Bukhari Khan
+			}
+	}
+	
 	kazak = {
 		color = {80 100 45}
 		first_names = {
@@ -2634,7 +2677,7 @@ kipchak = {
 	}
 	
 	cuman = {
-		color = {245 247 199}
+		color = {230 250 125}
 		first_names = {
 			Asaf Baqi Galiaskar Ismail Makhmut  Musa Rustam Yusuf
 		}
@@ -3584,22 +3627,7 @@ iranian_turanian = {
 	is_overseas = no
 	unit = MiddleEasternGC
 	#Southwest Iranian
-	parsik = {
-		color = {70 40 165}
-		first_names = {
-			Abbas Abolghasem Abdolhossein Abdolsamad Abdolazim Ahmad Ali Bahram
-			Ebrahim Esmail "Fath Ali" Fazlollah Firuz Hamzeh Hasan Hossein Kamran Karim "Lotf Ali" 
-			Mahmoud Mirza Massoud Mohammad "Moin ed-Din" "Mozzafer ed-Din" Murad Muhsin 
-			"Naser ed-Din" Nosret Reza
-			}
-		last_names = {
-			Airom Ansari Ayrum Buzarjomehri Davallu Esfahani Farhani 
-			Jahanbani Kashani Khan Khuzai  
-			Meshhedi Nakhchevani Pesyan Rokni Shafaei Shahbakhti 
-			Shirazi Tabrizi Tahmasebi Zahedi
-			}
-	} 
-	
+	#Persian in a closer sense
 	classical_persian = {
 		color = {20 100 165}
 		first_names = {
@@ -3616,7 +3644,151 @@ iranian_turanian = {
 			}
 	}
 	
-	persian = {
+	khwarazm_persian = {
+		color = {30 160 215}
+		first_names = {
+			Abbas Abolghasem Abdolhossein Abdolsamad Abdolazim Ahmad Ali Bahram
+			Ebrahim Esmail "Fath Ali" Fazlollah Firuz Hamzeh Hasan Hossein Kamran Karim "Lotf Ali" 
+			Mahmoud Mirza Massoud Mohammad "Moin ed-Din" "Mozzafer ed-Din" Murad Muhsin 
+			"Naser ed-Din" Nosret Reza
+			}
+		last_names = {
+			Airom Ansari Ayrum Buzarjomehri Davallu Esfahani Farhani 
+			Jahanbani Kashani Khan Khuzai  
+			Meshhedi Nakhchevani Pesyan Rokni Shafaei Shahbakhti 
+			Shirazi Tabrizi Tahmasebi Zahedi
+			}
+	}
+	
+	dehgani = {
+		color = {25 150 205}
+		first_names = {
+			Abbas Abolghasem Abdolhossein Abdolsamad Abdolazim Ahmad Ali Bahram
+			Ebrahim Esmail "Fath Ali" Fazlollah Firuz Hamzeh Hasan Hossein Kamran Karim "Lotf Ali" 
+			Mahmoud Mirza Massoud Mohammad "Moin ed-Din" "Mozzafer ed-Din" Murad Muhsin 
+			"Naser ed-Din" Nosret Reza
+			}
+		last_names = {
+			Airom Ansari Ayrum Buzarjomehri Davallu Esfahani Farhani 
+			Jahanbani Kashani Khan Khuzai  
+			Meshhedi Nakhchevani Pesyan Rokni Shafaei Shahbakhti 
+			Shirazi Tabrizi Tahmasebi Zahedi
+			}
+	}
+	
+	hazaragi = {
+		color = {20 140 195}
+		first_names = {
+			Abbas Abolghasem Abdolhossein Abdolsamad Abdolazim Ahmad Ali Bahram
+			Ebrahim Esmail "Fath Ali" Fazlollah Firuz Hamzeh Hasan Hossein Kamran Karim "Lotf Ali" 
+			Mahmoud Mirza Massoud Mohammad "Moin ed-Din" "Mozzafer ed-Din" Murad Muhsin 
+			"Naser ed-Din" Nosret Reza
+			}
+		last_names = {
+			Airom Ansari Ayrum Buzarjomehri Davallu Esfahani Farhani 
+			Jahanbani Kashani Khan Khuzai  
+			Meshhedi Nakhchevani Pesyan Rokni Shafaei Shahbakhti 
+			Shirazi Tabrizi Tahmasebi Zahedi
+			}
+	}
+	
+	aimaqi = {
+		color = {15 130 185}
+		first_names = {
+			Abbas Abolghasem Abdolhossein Abdolsamad Abdolazim Ahmad Ali Bahram
+			Ebrahim Esmail "Fath Ali" Fazlollah Firuz Hamzeh Hasan Hossein Kamran Karim "Lotf Ali" 
+			Mahmoud Mirza Massoud Mohammad "Moin ed-Din" "Mozzafer ed-Din" Murad Muhsin 
+			"Naser ed-Din" Nosret Reza
+			}
+		last_names = {
+			Airom Ansari Ayrum Buzarjomehri Davallu Esfahani Farhani 
+			Jahanbani Kashani Khan Khuzai  
+			Meshhedi Nakhchevani Pesyan Rokni Shafaei Shahbakhti 
+			Shirazi Tabrizi Tahmasebi Zahedi
+			}
+	}
+	
+	dehwari = {
+		color = {30 145 175}
+		first_names = {
+			Abbas Abolghasem Abdolhossein Abdolsamad Abdolazim Ahmad Ali Bahram
+			Ebrahim Esmail "Fath Ali" Fazlollah Firuz Hamzeh Hasan Hossein Kamran Karim "Lotf Ali" 
+			Mahmoud Mirza Massoud Mohammad "Moin ed-Din" "Mozzafer ed-Din" Murad Muhsin 
+			"Naser ed-Din" Nosret Reza
+			}
+		last_names = {
+			Airom Ansari Ayrum Buzarjomehri Davallu Esfahani Farhani 
+			Jahanbani Kashani Khan Khuzai  
+			Meshhedi Nakhchevani Pesyan Rokni Shafaei Shahbakhti 
+			Shirazi Tabrizi Tahmasebi Zahedi
+			}
+	}
+	
+	sistani = {
+		color = {20 135 175}
+		first_names = {
+			Abbas Abolghasem Abdolhossein Abdolsamad Abdolazim Ahmad Ali Bahram
+			Ebrahim Esmail "Fath Ali" Fazlollah Firuz Hamzeh Hasan Hossein Kamran Karim "Lotf Ali" 
+			Mahmoud Mirza Massoud Mohammad "Moin ed-Din" "Mozzafer ed-Din" Murad Muhsin 
+			"Naser ed-Din" Nosret Reza
+			}
+		last_names = {
+			Airom Ansari Ayrum Buzarjomehri Davallu Esfahani Farhani 
+			Jahanbani Kashani Khan Khuzai  
+			Meshhedi Nakhchevani Pesyan Rokni Shafaei Shahbakhti 
+			Shirazi Tabrizi Tahmasebi Zahedi
+			}
+	}
+	
+	kohestani = {
+		color = {10 120 175}
+		first_names = {
+			Abbas Abolghasem Abdolhossein Abdolsamad Abdolazim Ahmad Ali Bahram
+			Ebrahim Esmail "Fath Ali" Fazlollah Firuz Hamzeh Hasan Hossein Kamran Karim "Lotf Ali" 
+			Mahmoud Mirza Massoud Mohammad "Moin ed-Din" "Mozzafer ed-Din" Murad Muhsin 
+			"Naser ed-Din" Nosret Reza
+			}
+		last_names = {
+			Airom Ansari Ayrum Buzarjomehri Davallu Esfahani Farhani 
+			Jahanbani Kashani Khan Khuzai  
+			Meshhedi Nakhchevani Pesyan Rokni Shafaei Shahbakhti 
+			Shirazi Tabrizi Tahmasebi Zahedi
+			}
+	}
+	
+	khorasani_persian = {
+		color = {5 110 175}
+		first_names = {
+			Abbas Abolghasem Abdolhossein Abdolsamad Abdolazim Ahmad Ali Bahram
+			Ebrahim Esmail "Fath Ali" Fazlollah Firuz Hamzeh Hasan Hossein Kamran Karim "Lotf Ali" 
+			Mahmoud Mirza Massoud Mohammad "Moin ed-Din" "Mozzafer ed-Din" Murad Muhsin 
+			"Naser ed-Din" Nosret Reza
+			}
+		last_names = {
+			Airom Ansari Ayrum Buzarjomehri Davallu Esfahani Farhani 
+			Jahanbani Kashani Khan Khuzai  
+			Meshhedi Nakhchevani Pesyan Rokni Shafaei Shahbakhti 
+			Shirazi Tabrizi Tahmasebi Zahedi
+			}
+	}
+	
+	bassari = {
+		color = {5 90 165}
+		first_names = {
+			Abbas Abolghasem Abdolhossein Abdolsamad Abdolazim Ahmad Ali Bahram
+			Ebrahim Esmail "Fath Ali" Fazlollah Hamzeh Hasan Hossein Kamran Karim "Lotf Ali" 
+			Mahmoud Massoud Mohammad "Moin ed-Din" "Mozzafer ed-Din" Murad Muhsin 
+			"Naser ed-Din" Nosret Reza
+			}
+		last_names = {
+			Airom Ansari Ayrum Buzarjomehri Davallu Esfahani Farhani 
+			Jahanbani Kashani Khan Khuzai
+			Meshhedi Nakhchevani Pesyan Rokni Shafaei Shahbakhti 
+			Shirazi Tabrizi Tahmasebi Zahedi
+			}
+	}
+	
+	persian = { #now Western Persian
 		color = {0 100 165}
 		first_names = {
 			Abbas Abolghasem Abdolhossein Abdolsamad Abdolazim Ahmad Ali Bahram
@@ -3631,6 +3803,22 @@ iranian_turanian = {
 			Shirazi Tabrizi Tahmasebi Zahedi
 			}
 	}
+	
+	parseh = {
+		color = {70 40 165}
+		first_names = {
+			Abbas Abolghasem Abdolhossein Abdolsamad Abdolazim Ahmad Ali Bahram
+			Ebrahim Esmail "Fath Ali" Fazlollah Firuz Hamzeh Hasan Hossein Kamran Karim "Lotf Ali" 
+			Mahmoud Mirza Massoud Mohammad "Moin ed-Din" "Mozzafer ed-Din" Murad Muhsin 
+			"Naser ed-Din" Nosret Reza
+			}
+		last_names = {
+			Airom Ansari Ayrum Buzarjomehri Davallu Esfahani Farhani 
+			Jahanbani Kashani Khan Khuzai  
+			Meshhedi Nakhchevani Pesyan Rokni Shafaei Shahbakhti 
+			Shirazi Tabrizi Tahmasebi Zahedi
+			}
+	} 
 	
 	tat = {
 		color = {0 80 185}
@@ -3696,7 +3884,7 @@ iranian_turanian = {
 			}
 	}
 	
-	kuhmareyi = {
+	kuhmareyi = { #Fars Dialects
 		color = {5 80 185}
 		first_names = {
 			Abbas Abolghasem Abdolhossein Abdolsamad Abdolazim Ahmad Ali Bahram
@@ -3762,7 +3950,7 @@ iranian_turanian = {
 	
 	#Northeast Iranian
 	scythian = {
-		color = {70 130 10}
+		color = {70 130 160}
 		first_names = {
 			Æfsati Alægatæ Alardy Aminon Anigol Atsa Barastyr Borkhuarali Donbettyr Pettyr Fælværa Gatag Ældar Huyædon Khæmyts Khoraældar
 			Khutsau Kurdalægon Safa Saubarag Syrdon Tætærtupp Totraž Tutyr Uarkhag Uastyržhi Uatsilla
@@ -3780,7 +3968,7 @@ iranian_turanian = {
 	}
 	
 	jassic = {
-		color = {100 180 10}
+		color = {100 180 160}
 			first_names = {
 			Æfsati Alægatæ Alardy Aminon Anigol Atsa Barastyr Borkhuarali Donbettyr Pettyr Fælværa Gatag Ældar Huyædon Khæmyts Khoraældar
 			Khutsau Kurdalægon Safa Saubarag Syrdon Tætærtupp Totraž Tutyr Uarkhag Uastyržhi Uatsilla
@@ -3798,7 +3986,7 @@ iranian_turanian = {
 	}
 	
 	yaghnobi = {
-		color = {70 160 60}
+		color = {70 160 210}
 		first_names = {
 			Abbas Abolghasem Abdolhossein Abdolsamad Abdolazim Ahmad Ali Bahram
 			Ebrahim Esmail "Fath Ali" Fazlollah Hamzeh Hasan Hossein Kamran Karim "Lotf Ali" 

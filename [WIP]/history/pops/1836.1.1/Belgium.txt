@@ -182,11 +182,23 @@
 		religion = catholic
 		size = 1000
 	}
+	
+	craftsmen = {
+		culture = dutch
+		religion = catholic
+		size = 6000
+	}
 
 	farmers = {
 		culture = dutch
 		religion = catholic
 		size = 25000
+	}
+	
+	craftsmen = {
+		culture = picard
+		religion = catholic
+		size = 1000
 	}
 	
 	farmers = {
@@ -224,11 +236,23 @@
 		religion = protestant
 		size = 700
 	}
+	
+	craftsmen = {
+		culture = dutch
+		religion = protestant
+		size = 6000
+	}
 
 	farmers = {
 		culture = dutch
 		religion = protestant
 		size = 25525
+	}
+	
+	craftsmen = {
+		culture = picard
+		religion = protestant
+		size = 1000
 	}
 	
 	farmers = {
@@ -262,6 +286,18 @@
 		religion = catholic
 		size = 3000
 	}
+	
+	clerks = {
+		culture = dutch
+		religion = catholic
+		size = 1300
+	}
+	
+	craftsmen = {
+		culture = dutch
+		religion = catholic
+		size = 10000
+	}
 
 	soldiers = {
 		culture = dutch
@@ -291,6 +327,12 @@
 		culture = picard
 		religion = catholic
 		size = 50
+	}
+	
+	craftsmen = {
+		culture = picard
+		religion = catholic
+		size = 1000
 	}
 	
 	farmers = {
@@ -328,6 +370,12 @@
 		religion = protestant
 		size = 1000
 	}
+	
+	craftsmen = {
+		culture = dutch
+		religion = protestant
+		size = 10000
+	}
 
 	farmers = {
 		culture = dutch
@@ -351,6 +399,12 @@
 		culture = picard
 		religion = protestant
 		size = 50
+	}
+	
+	craftsmen = {
+		culture = picard
+		religion = protestant
+		size = 1000
 	}
 	
 	farmers = {
@@ -642,6 +696,12 @@
 		religion = catholic
 		size = 100
 	}
+	
+	craftsmen = {
+		culture = dutch
+		religion = catholic
+		size = 4500
+	}
 
 	farmers = {
 		culture = dutch
@@ -677,6 +737,12 @@
 		culture = picard
 		religion = protestant
 		size = 1100
+	}
+	
+	craftsmen = {
+		culture = picard
+		religion = protestant
+		size = 3500
 	}
 
 	farmers = {

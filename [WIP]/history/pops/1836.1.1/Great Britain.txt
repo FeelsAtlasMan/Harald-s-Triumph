@@ -211,23 +211,11 @@
 		religion = protestant
 		size = 1375
 	}
-
-	capitalists = {
-		culture = englisk
-		religion = protestant
-		size = 550
-	}
-
+	
 	bureaucrats = {
 		culture = scots
 		religion = protestant
 		size = 2100
-	}
-
-	clerks = {
-		culture = scots
-		religion = protestant
-		size = 400
 	}
 
 	craftsmen = {
@@ -342,18 +330,6 @@
 		size = 1500
 	}
 
-	clerks = {
-		culture = scots
-		religion = protestant
-		size = 10850
-	}
-
-	craftsmen = {
-		culture = scots
-		religion = protestant
-		size = 25000
-	}
-
 	artisans = {
 		culture = englisk
 		religion = protestant
@@ -396,7 +372,7 @@
 		size = 10000
 	}
 	
-	craftsmen = {
+	farmers = {
 		culture = scottish
 		religion = catholic
 		size = 20000
@@ -1009,7 +985,7 @@
 	craftsmen = {
 		culture = englisk
 		religion = protestant
-		size = 121300
+		size = 76300
 	}
 
 	soldiers = {
@@ -1033,13 +1009,13 @@
 	labourers = {
 		culture = norwegian
 		religion = protestant
-		size = 55000
+		size = 15000
 	}
 	
 	labourers = {
 		culture = danish
 		religion = protestant
-		size = 35000
+		size = 5000
 	}
 }
 #Leeds (468000/117000 POPS)
@@ -1196,7 +1172,7 @@
 	craftsmen = {
 		culture = british
 		religion = protestant
-		size = 16000
+		size = 11000
 	}
 
 	artisans = {
@@ -1762,16 +1738,10 @@
 	capitalists = {
 		culture = british
 		religion = protestant
-		size = 250
+		size = 50
 	}
 
-	clerks = {
-		culture = british
-		religion = protestant
-		size = 600
-	}
-
-	craftsmen = {
+	artisans = {
 		culture = british
 		religion = protestant
 		size = 12000
@@ -1821,7 +1791,7 @@
 		size = 5000
 	}
 
-	craftsmen = {
+	artisans = {
 		culture = british
 		religion = protestant
 		size = 12000
@@ -1864,7 +1834,8 @@
 		religion = protestant
 		size = 1100
 	}
-	craftsmen = {
+	
+	artisans = {
 		culture = british
 		religion = protestant
 		size = 12000
@@ -1987,18 +1958,6 @@
 		religion = protestant
 		size = 250
 	}
-
-	clerks = {
-		culture = british
-		religion = protestant
-		size = 1200
-	}
-
-	craftsmen = {
-		culture = british
-		religion = protestant
-		size = 11600
-	}
 	
 	artisans = {
 		culture = british
@@ -2034,18 +1993,6 @@
 		culture = englisk
 		religion = catholic
 		size = 37000
-	}
-
-	clerks = {
-		culture = ashkenazi
-		religion = jewish
-		size = 100
-	}
-
-	craftsmen = {
-		culture = ashkenazi
-		religion = jewish
-		size = 1500
 	}
 
 	artisans = {

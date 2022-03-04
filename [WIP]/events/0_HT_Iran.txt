@@ -421,6 +421,7 @@ country_event = {
 		remove_country_modifier = french_traders
 		3637 = { trade_goods = fish }
 		FRA = { 3637 = { secede_province = FRS } }
+		set_country_flag = french_traders_leaving_iran
         ai_chance = { factor = 100 }
     }
 }
@@ -472,7 +473,7 @@ country_event = {
     }
 }
 
-#The Pirate threat has been dealt with
+#The Pirate threat has been dealt with FRS
 country_event = {
     id = 88016
     title = "The Pirate threat has been dealt with"
@@ -492,7 +493,7 @@ country_event = {
     }
 }
 
-#The Pirate threat has been dealt with
+#The Pirate threat has been dealt with FRA
 country_event = {
     id = 88017
     title = "The Pirate threat has been dealt with"
@@ -544,6 +545,80 @@ country_event = {
 	        value = 120
         }
 		set_country_flag = anglo_norse_support_frs
+        ai_chance = { factor = 100 }
+    }
+}
+
+#Choosing between Anglos and French
+country_event = {
+    id = 88019
+    title = "Deciding on Western Alliances"
+    desc = "EVTDESC88019"
+	picture = "western_alliances"
+
+    is_triggered_only = yes
+	
+    option = {
+        name = "The Anglo-Norse are an obvious choice"	
+		relation = {
+	        who = NRD
+	        value = 200
+        }
+		NRD = {
+		    diplomatic_influence = {
+	           who = FRS
+	           value = 4
+            }
+		}
+		create_alliance = NRD
+		set_country_flag = has_western_alliance
+        ai_chance = { factor = 80 }
+    }
+	
+	  option = {
+        name = "The French offer a stronger alliance"	
+		relation = {
+	        who = FRA
+	        value = 200
+        }
+		FRA = {
+		    diplomatic_influence = {
+	           who = FRS
+	           value = 4
+            }
+		}
+		create_alliance = FRA
+		set_country_flag = has_western_alliance
+        ai_chance = { factor = 20 }
+    }
+}
+
+#Western Investors in FRS!
+country_event = {
+    id = 88020
+    title = "Western Investors in the Zohrabi Empire!"
+    desc = "EVTDESC88020"
+	picture = "mining"
+
+    trigger = {
+	    tag = FRS
+		has_country_flag = has_western_alliance
+	}
+	
+	mean_time_to_happen = {
+	    months = 5
+	}
+	
+	fire_only_once = yes
+
+    option = {
+        name = "They are more than welcome!"	
+		3456 = { trade_goods = precious_metal }
+		3635 = { trade_goods = sulphur }
+		1122 = { trade_goods = sulphur }
+		1143 = { trade_goods = coal }
+		economic_reform = yes_firearms_production
+		set_country_flag = western_investments_frs
         ai_chance = { factor = 100 }
     }
 }
