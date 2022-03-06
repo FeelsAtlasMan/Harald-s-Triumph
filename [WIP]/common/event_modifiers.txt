@@ -3431,18 +3431,21 @@ hemp_production = {
 illigitimate_crown = {
 	core_pop_militancy_modifier = 0.11
 	prestige = -0.2
+	icon = 6
 }
 
 rebuilding_of_ani = {
 	population_growth = 0.001
 	assimilation_rate = 0.15
 	immigrant_attract = 0.5
+	icon = 9
 }
 
 french_advisors = {
 	research_points_modifier = 0.2
 	global_pop_militancy_modifier = 0.01
 	suppression_points_modifier = -0.5
+	icon = 5
 }
 
 tribes_discontent = {
@@ -3452,6 +3455,7 @@ tribes_discontent = {
 	land_defense_modifier = -0.1
 	supply_consumption = 0.15
 	suppression_points_modifier = -0.5
+	icon = 2
 }
 
 farhad_khan = {
@@ -3466,19 +3470,32 @@ farhad_khan = {
 	administrative_efficiency_modifier = 0.2
 	tax_efficiency = 0.25
 	tariff_efficiency_modifier = 0.25
+	icon = 17
 }
 
 mawlawiyya_influence = {
 	research_points_modifier = 0.2
 	prestige = 0.02
+	icon = 5
 }
 
 french_traders = {
-    tax_efficiency  = 0.10
-	import_cost  = -0.10
+    tax_efficiency = 0.10
+	import_cost = -0.10
+	icon = 7
 }
 
 anglo_traders = {
-    tax_efficiency  = 0.10
-	import_cost  = -0.10
+    tax_efficiency = 0.10
+	import_cost = -0.10
+	icon = 7
+}
+
+zoroastrian_autonomy = {
+    assimilation_rate = -0.10
+	local_artisan_output = -0.05
+	local_RGO_output = -0.05
+	pop_consciousness_modifier = 0.01
+	pop_militancy_modifier = -0.05
+	icon = 2
 }

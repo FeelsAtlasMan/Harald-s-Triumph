@@ -353,10 +353,11 @@ country_event = {
 	desc = "EVTDESC278011"
 	picture = "kashmir_selling"
 
-    	is_triggered_only = yes
+    is_triggered_only = yes
 	
 	option = {
 		name = "EVT278011OPTA" #We have no other choice
+		alliance_with = FRS
 		KRM = {
 		    war = {
 	            target = FRS

@@ -181,20 +181,93 @@ political_decisions = {
 		
 		effect = {
 		    relation = {
-	        who = NRD
-	        value = 200
-        }
-		NRD = {
-		    diplomatic_influence = {
-	           who = FRS
-	           value = 4
+	            who = NRD
+	            value = 200
             }
-		}
-		create_alliance = NRD
-		set_country_flag = has_western_alliance
+		    NRD = {
+		       diplomatic_influence = {
+	                who = FRS
+	                value = 4
+                }
+		    }
+		    create_alliance = NRD
+		    set_country_flag = has_western_alliance
 		}
         ai_will_do = {
 		    factor = 1
+		}		
+	}
+	
+	the_subjegation_of_khorasan = {
+	    picture = "khorasan_map"
+		potential = {
+			tag = FRS
+			has_country_flag = claimed_timurid_succession
+			NOT = { has_country_flag = subjegated_khorasan }
+			civilized = no
+		}
+		
+		allow = {
+		    war = no
+			is_vassal = no
+			prestige = 30
+		}
+		
+		effect = {
+		    badboy = 10
+			PER_1148 = { add_core = THIS }
+			PER_1126 = { add_core = THIS }
+			PER_1147 = { add_core = THIS }
+			1212 = { add_core = THIS }
+			3284 = { add_core = THIS }
+			3286 = { add_core = THIS }
+			3396 = { add_core = THIS }
+			3454 = { add_core = THIS }
+			3628 = { add_core = THIS }
+			3612 = { add_core = THIS }
+			1150 = { add_core = THIS }
+			1204 = { add_core = THIS }
+			3398 = { add_core = THIS }
+		    set_country_flag = subjegated_khorasan
+		}
+        ai_will_do = {
+		    factor = 1
+			modifier = {
+			     factor = 0
+				 badboy = 0.75
+			}
+		}		
+	}
+	
+	matter_of_zoroastrians = {
+	    picture = "zoroastrian_matter"
+		potential = {
+			tag = FRS
+			has_country_flag = claimed_timurid_succession
+			NOT = { has_country_flag = zoroastrian_matters }
+		}
+		
+		allow = {
+		    OR = {
+			    AND = {
+		            YZD = { exists = no }
+				    1130 = { owned_by = THIS }
+					1140 = { owned_by = THIS }
+				}
+				YZD = { exists = yes }
+			}
+		}
+		
+		effect = {
+		    country_event = 88022
+		    set_country_flag = zoroastrian_matters
+		}
+        ai_will_do = {
+		    factor = 1
+			modifier = {
+			     factor = 0
+				 badboy = 0.75
+			}
 		}		
 	}
 	
