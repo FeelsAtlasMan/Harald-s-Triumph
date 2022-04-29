@@ -2243,7 +2243,7 @@ oghuz = {
 	}
 	
 	chaharmahali = {
-		color = {200 140 90}
+		color = {210 145 85}
 		first_names = { 
 			Abdullah Abdulhamid Abdulkerim Abdulrahim Ahmet Akif Ali Arif 
 			Bahaeddin Bekir Cemal Cevad Celaleddin Cevdet Daud Edhem Emin Enver 
@@ -2260,19 +2260,25 @@ oghuz = {
 			Bey Pasha Hoca Efendi
 		}
 	}
-	azeri = {
-		color = {220 140 90}
-		first_names = { 
-			Ahmad Aliagha Ali Bahram Elbay Farhad Firudin Hamid Hasan Heydar
-			Huseyin Ibrahim Ismayil Jalil Mahmud Malik Mehdi Mohammad Murad Samad 
-			Tahir Zahid
-			}
-		
+	
+	qashqai = {
+		color = {200 130 80}
+		first_names = {
+			Ahmed Haydar Mehmed Murad Nurberdi Qilich
+		}
 		last_names = {
-			Ahmadbek Ahmadzade Akbarzade Edigar Ganjavi Ibrahimbek Mehmandar Nakhchivani 
-			Qasimbek Qasimzade Rasulzade Tahirzade Talishkhan Topchubashi Zardabi
-			}
-		radicalism = 5
+			Beg Khan
+		}
+	}
+	
+	khorasani = {
+		color = {190 115 75}
+		first_names = {
+			Ahmed Haydar Mehmed Murad Nurberdi Qilich
+		}
+		last_names = {
+			Beg Khan
+		}
 	}
 	
 	mamluki = {
@@ -2295,27 +2301,7 @@ oghuz = {
 	}
 	
 	turkmen = {
-		color = {180 100 90}
-		first_names = {
-			Ahmed Haydar Mehmed Murad Nurberdi Qilich
-		}
-		last_names = {
-			Beg Khan
-		}
-	}
-	
-	khorasani = {
-		color = {140 100 90}
-		first_names = {
-			Ahmed Haydar Mehmed Murad Nurberdi Qilich
-		}
-		last_names = {
-			Beg Khan
-		}
-	}
-	
-	qashqai = {
-		color = {100 60 90}
+		color = {180 100 60}
 		first_names = {
 			Ahmed Haydar Mehmed Murad Nurberdi Qilich
 		}

@@ -1,0 +1,91 @@
+#Jamaica Region - 384000
+#Ruled by Britain 1836
+#Jamaica (372000/93000 POPS)
+2217 = {
+	aristocrats = {
+		culture = north_german
+		religion = protestant
+		size = 100
+	}
+	
+	aristocrats = { #So the state has 2% aristocrats
+		culture = north_german
+		religion = protestant
+		size = 1890
+	}
+
+	bureaucrats = {
+		culture = north_german
+		religion = protestant
+		size = 85
+	}
+
+	clergymen = {
+		culture = north_german
+		religion = protestant
+		size = 75
+	}
+
+	artisans = {
+		culture = north_german
+		religion = protestant
+		size = 1250
+	}
+
+	soldiers = {
+		culture = north_german
+		religion = protestant
+		size = 50
+	}
+
+	farmers = {
+		culture = north_german
+		religion = protestant
+		size = 2190
+	}
+
+	clergymen = {
+		culture = afro_germanic
+		religion = protestant
+		size = 625
+	}
+
+	artisans = {
+		culture = afro_germanic
+		religion = protestant
+		size = 3250
+	}
+
+	soldiers = {
+		culture = afro_germanic
+		religion = protestant
+		size = 1100
+	}
+
+	farmers = {
+		culture = afro_germanic
+		religion = protestant
+		size = 84375
+	}
+}
+#Cayman Islands : (1200/300 POPS) #still a north_german Colony
+2218 = {
+	clergymen = {
+		culture = afro_antillean
+		religion = catholic
+		size = 5
+	}
+
+	artisans = {
+		culture = afro_antillean
+		religion = catholic
+		size = 15
+	}
+
+	farmers = {
+		culture = afro_antillean
+		religion = catholic
+		size = 280
+	}
+
+}

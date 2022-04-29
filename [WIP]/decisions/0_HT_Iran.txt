@@ -148,7 +148,7 @@ political_decisions = {
 			tag = FRS
 			has_country_flag = anglo_norse_support_frs
 			has_country_flag = protected_french_trading_rights
-			NOT = { has_country_flag = western_alliances_frs }
+			NOT = { has_country_flag = has_western_alliance }
 			civilized = no
 		}
 		
@@ -171,7 +171,7 @@ political_decisions = {
 			tag = FRS
 			has_country_flag = anglo_norse_support_frs
 			has_country_flag = french_traders_leaving_iran
-			NOT = { has_country_flag = western_alliances_frs }
+			NOT = { has_country_flag = has_western_alliance }
 			civilized = no
 		}
 		
@@ -204,13 +204,13 @@ political_decisions = {
 			tag = FRS
 			has_country_flag = claimed_timurid_succession
 			NOT = { has_country_flag = subjegated_khorasan }
-			civilized = no
 		}
 		
 		allow = {
 		    war = no
 			is_vassal = no
 			prestige = 30
+			TKO = { exists = no }
 		}
 		
 		effect = {
@@ -268,6 +268,28 @@ political_decisions = {
 			     factor = 0
 				 badboy = 0.75
 			}
+		}		
+	}
+	
+	guarded_realms_of_iran = {
+	    picture = "greater_iran"
+		potential = {
+			tag = FRS
+			has_country_flag = western_investments_frs
+			has_country_flag = subjegated_khorasan
+			all_core = { owned_by = THIS }
+			NOT = { has_country_flag = protector_of_the_people_title }
+		}
+		
+		allow = {
+		    war = no
+		}
+		
+		effect = {
+		    set_country_flag = protector_of_the_people_title
+		}
+        ai_will_do = {
+		    factor = 1
 		}		
 	}
 	

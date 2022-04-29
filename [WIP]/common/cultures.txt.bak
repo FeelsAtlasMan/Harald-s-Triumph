@@ -2243,7 +2243,7 @@ oghuz = {
 	}
 	
 	chaharmahali = {
-		color = {200 140 90}
+		color = {210 145 85}
 		first_names = { 
 			Abdullah Abdulhamid Abdulkerim Abdulrahim Ahmet Akif Ali Arif 
 			Bahaeddin Bekir Cemal Cevad Celaleddin Cevdet Daud Edhem Emin Enver 
@@ -2260,19 +2260,25 @@ oghuz = {
 			Bey Pasha Hoca Efendi
 		}
 	}
-	azeri = {
-		color = {220 140 90}
-		first_names = { 
-			Ahmad Aliagha Ali Bahram Elbay Farhad Firudin Hamid Hasan Heydar
-			Huseyin Ibrahim Ismayil Jalil Mahmud Malik Mehdi Mohammad Murad Samad 
-			Tahir Zahid
-			}
-		
+	
+	qashqai = {
+		color = {200 130 80}
+		first_names = {
+			Ahmed Haydar Mehmed Murad Nurberdi Qilich
+		}
 		last_names = {
-			Ahmadbek Ahmadzade Akbarzade Edigar Ganjavi Ibrahimbek Mehmandar Nakhchivani 
-			Qasimbek Qasimzade Rasulzade Tahirzade Talishkhan Topchubashi Zardabi
-			}
-		radicalism = 5
+			Beg Khan
+		}
+	}
+	
+	khorasani = {
+		color = {190 115 75}
+		first_names = {
+			Ahmed Haydar Mehmed Murad Nurberdi Qilich
+		}
+		last_names = {
+			Beg Khan
+		}
 	}
 	
 	mamluki = {
@@ -2295,27 +2301,7 @@ oghuz = {
 	}
 	
 	turkmen = {
-		color = {180 100 90}
-		first_names = {
-			Ahmed Haydar Mehmed Murad Nurberdi Qilich
-		}
-		last_names = {
-			Beg Khan
-		}
-	}
-	
-	khorasani = {
-		color = {140 100 90}
-		first_names = {
-			Ahmed Haydar Mehmed Murad Nurberdi Qilich
-		}
-		last_names = {
-			Beg Khan
-		}
-	}
-	
-	qashqai = {
-		color = {100 60 90}
+		color = {180 100 70}
 		first_names = {
 			Ahmed Haydar Mehmed Murad Nurberdi Qilich
 		}
@@ -3645,7 +3631,7 @@ iranian_turanian = {
 	}
 	
 	khwarazm_persian = {
-		color = {30 160 215}
+		color = {30 125 190}
 		first_names = {
 			Abbas Abolghasem Abdolhossein Abdolsamad Abdolazim Ahmad Ali Bahram
 			Ebrahim Esmail "Fath Ali" Fazlollah Firuz Hamzeh Hasan Hossein Kamran Karim "Lotf Ali" 
@@ -3661,7 +3647,7 @@ iranian_turanian = {
 	}
 	
 	dehgani = {
-		color = {25 150 205}
+		color = {25 120 185}
 		first_names = {
 			Abbas Abolghasem Abdolhossein Abdolsamad Abdolazim Ahmad Ali Bahram
 			Ebrahim Esmail "Fath Ali" Fazlollah Firuz Hamzeh Hasan Hossein Kamran Karim "Lotf Ali" 
@@ -3677,7 +3663,7 @@ iranian_turanian = {
 	}
 	
 	hazaragi = {
-		color = {20 140 195}
+		color = {20 115 180}
 		first_names = {
 			Abbas Abolghasem Abdolhossein Abdolsamad Abdolazim Ahmad Ali Bahram
 			Ebrahim Esmail "Fath Ali" Fazlollah Firuz Hamzeh Hasan Hossein Kamran Karim "Lotf Ali" 
@@ -3693,7 +3679,7 @@ iranian_turanian = {
 	}
 	
 	aimaqi = {
-		color = {15 130 185}
+		color = {15 110 175}
 		first_names = {
 			Abbas Abolghasem Abdolhossein Abdolsamad Abdolazim Ahmad Ali Bahram
 			Ebrahim Esmail "Fath Ali" Fazlollah Firuz Hamzeh Hasan Hossein Kamran Karim "Lotf Ali" 
@@ -3709,7 +3695,7 @@ iranian_turanian = {
 	}
 	
 	dehwari = {
-		color = {30 145 175}
+		color = {30 120 190}
 		first_names = {
 			Abbas Abolghasem Abdolhossein Abdolsamad Abdolazim Ahmad Ali Bahram
 			Ebrahim Esmail "Fath Ali" Fazlollah Firuz Hamzeh Hasan Hossein Kamran Karim "Lotf Ali" 
@@ -3725,7 +3711,7 @@ iranian_turanian = {
 	}
 	
 	sistani = {
-		color = {20 135 175}
+		color = {20 115 185}
 		first_names = {
 			Abbas Abolghasem Abdolhossein Abdolsamad Abdolazim Ahmad Ali Bahram
 			Ebrahim Esmail "Fath Ali" Fazlollah Firuz Hamzeh Hasan Hossein Kamran Karim "Lotf Ali" 
@@ -3741,7 +3727,7 @@ iranian_turanian = {
 	}
 	
 	kohestani = {
-		color = {10 120 175}
+		color = {10 110 180}
 		first_names = {
 			Abbas Abolghasem Abdolhossein Abdolsamad Abdolazim Ahmad Ali Bahram
 			Ebrahim Esmail "Fath Ali" Fazlollah Firuz Hamzeh Hasan Hossein Kamran Karim "Lotf Ali" 
@@ -3757,7 +3743,7 @@ iranian_turanian = {
 	}
 	
 	khorasani_persian = {
-		color = {5 110 175}
+		color = {5 105 170}
 		first_names = {
 			Abbas Abolghasem Abdolhossein Abdolsamad Abdolazim Ahmad Ali Bahram
 			Ebrahim Esmail "Fath Ali" Fazlollah Firuz Hamzeh Hasan Hossein Kamran Karim "Lotf Ali" 

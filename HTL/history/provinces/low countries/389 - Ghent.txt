@@ -1,0 +1,21 @@
+owner = FRA
+controller = FRA
+add_core = FRA
+add_core = FLA
+trade_goods = wool
+life_rating = 40
+state_building = {
+	level = 3
+	building = steamer_shipyard
+	upgrade = yes
+}
+state_building = {
+	level = 4
+	building = steel_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = machine_parts_factory
+	upgrade = yes
+}

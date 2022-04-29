@@ -1,0 +1,4524 @@
+#41,000 registered slaves in 1821, that means 10250 slave pops.
+#Loreto Region (96000)
+#Ruled by Peru 1836
+#Iquitos (60000/15000 POPS)
+2286 = {
+	aristocrats = {
+		culture = kichwa
+		religion = inti
+		size = 100
+	}
+
+	bureaucrats = {
+		culture = kichwa
+		religion = inti
+		size = 5
+	}
+
+	officers = {
+		culture = kichwa
+		religion = inti
+		size = 5
+	}
+
+	clergymen = {
+		culture = kichwa
+		religion = inti
+		size = 180
+	}
+
+	artisans = {
+		culture = kichwa
+		religion = inti
+		size = 1000
+	}
+
+	soldiers = {
+		culture = kichwa
+		religion = inti
+		size = 720
+	}
+
+	farmers = {
+		culture = kichwa
+		religion = inti
+		size = 3300
+	}
+	
+	farmers = {
+		culture = manta
+		religion = inti
+		size = 400
+	}
+	
+	farmers = {
+		culture = kanari
+		religion = inti
+		size = 300
+	}
+	
+	clergymen = {
+		culture = cara
+		religion = inti
+		size = 20
+	}
+
+	artisans = {
+		culture = cara
+		religion = inti
+		size = 150
+	}
+
+	soldiers = {
+		culture = cara
+		religion = inti
+		size = 80
+	}
+
+	farmers = {
+		culture = cara
+		religion = inti
+		size = 565
+	}
+
+	clergymen = {
+		culture = panoan
+		religion = animist
+		size = 20
+	}
+
+	artisans = {
+		culture = panoan
+		religion = animist
+		size = 20
+	}
+
+	soldiers = {
+		culture = panoan
+		religion = animist
+		size = 20
+	}
+
+	farmers = {
+		culture = panoan
+		religion = animist
+		size = 9125
+	}
+	
+	clergymen = {
+		culture = cocama_omagua
+		religion = animist
+		size = 70
+	}
+
+	artisans = {
+		culture = cocama_omagua
+		religion = animist
+		size = 70
+	}
+
+	soldiers = {
+		culture = cocama_omagua
+		religion = animist
+		size = 70
+	}
+
+	farmers = {
+		culture = cocama_omagua
+		religion = animist
+		size = 7000
+	}
+	
+	farmers = {
+		culture = zaparoan
+		religion = animist
+		size = 1000
+	}
+	
+	clergymen = {
+		culture = yameo
+		religion = animist
+		size = 10
+	}
+
+	artisans = {
+		culture = yameo
+		religion = animist
+		size = 10
+	}
+
+	soldiers = {
+		culture = yameo
+		religion = animist
+		size = 10
+	}
+
+	farmers = {
+		culture = yameo
+		religion = animist
+		size = 6000
+	}
+}
+#"Ruled" by Ecuador 1836
+#Yurimagues (12000/3000 POPS)
+2287 = {
+
+    clergymen = {
+		culture = kichwa
+		religion = inti
+		size = 75
+	}
+
+	artisans = {
+		culture = kichwa
+		religion = inti
+		size = 1650
+	}
+
+	soldiers = {
+		culture = kichwa
+		religion = inti
+		size = 225
+	}
+
+	farmers = {
+		culture = kichwa
+		religion = inti
+		size = 4200
+	}
+	
+	farmers = {
+		culture = kanari
+		religion = inti
+		size = 200
+	}
+	
+	farmers = {
+		culture = cholon
+		religion = inti
+		size = 200
+	}
+	
+	farmers = {
+		culture = cara
+		religion = inti
+		size = 200
+	}
+	
+	farmers = {
+		culture = yanesha
+		religion = inti
+		size = 200
+	}
+	
+	farmers = {
+		culture = manta
+		religion = inti
+		size = 1200
+	}
+
+	clergymen = {
+		culture = chachapoya
+		religion = inti
+		size = 75
+	}
+
+	artisans = {
+		culture = chachapoya
+		religion = inti
+		size = 650
+	}
+
+	soldiers = {
+		culture = chachapoya
+		religion = inti
+		size = 225
+	}
+
+	farmers = {
+		culture = chachapoya
+		religion = inti
+		size = 2000
+	}
+	
+	aristocrats = {
+		culture = chayahuita
+		religion = inti
+		size = 150
+	}
+
+	clergymen = {
+		culture = chayahuita
+		religion = inti
+		size = 175
+	}
+
+	artisans = {
+		culture = chayahuita
+		religion = inti
+		size = 650
+	}
+
+	soldiers = {
+		culture = chayahuita
+		religion = inti
+		size = 225
+	}
+
+	farmers = {
+		culture = chayahuita
+		religion = inti
+		size = 2000
+	}
+	
+	farmers = {
+		culture = chayahuita
+		religion = animist
+		size = 20000
+	}
+	
+	clergymen = {
+		culture = palta
+		religion = inti
+		size = 75
+	}
+
+	artisans = {
+		culture = palta
+		religion = inti
+		size = 250
+	}
+
+	soldiers = {
+		culture = palta
+		religion = inti
+		size = 225
+	}
+
+	farmers = {
+		culture = palta
+		religion = inti
+		size = 200
+	}
+	
+	farmers = {
+		culture = palta
+		religion = animist
+		size = 5000
+	}
+}
+#Yuncos (12000/3000 POPS)
+2288 = {
+
+    clergymen = {
+		culture = zaparoan
+		religion = animist
+		size = 100
+	}
+
+	soldiers = {
+		culture = zaparoan
+		religion = animist
+		size = 400
+	}
+
+	farmers = {
+		culture = zaparoan
+		religion = animist
+		size = 10000
+	}
+	
+	farmers = {
+		culture = yameo
+		religion = animist
+		size = 2000
+	}
+	
+	farmers = {
+		culture = chayahuita
+		religion = animist
+		size = 1000
+	}
+	
+	clergymen = {
+		culture = candoshi
+		religion = animist
+		size = 20
+	}
+
+	soldiers = {
+		culture = candoshi
+		religion = animist
+		size = 100
+	}
+
+	farmers = {
+		culture = candoshi
+		religion = animist
+		size = 4000
+	}
+	
+	clergymen = {
+		culture = urarina
+		religion = animist
+		size = 10
+	}
+
+	soldiers = {
+		culture = urarina
+		religion = animist
+		size = 100
+	}
+
+	farmers = {
+		culture = urarina
+		religion = animist
+		size = 3000
+	}
+	
+	clergymen = {
+		culture = shawar
+		religion = animist
+		size = 20
+	}
+
+	soldiers = {
+		culture = shawar
+		religion = animist
+		size = 175
+	}
+
+	farmers = {
+		culture = shawar
+		religion = animist
+		size = 2775
+	}
+	
+	aristocrats = {
+		culture = kichwa
+		religion = inti
+		size = 150
+	}
+	
+	clergymen = {
+		culture = kichwa
+		religion = inti
+		size = 200
+	}
+
+	artisans = {
+		culture = kichwa
+		religion = inti
+		size = 850
+	}
+
+	soldiers = {
+		culture = kichwa
+		religion = inti
+		size = 105
+	}
+
+	farmers = {
+		culture = kichwa
+		religion = inti
+		size = 5020
+	}
+}
+#Puca Urco (12000/3000 POPS)
+2289 = {
+	aristocrats = {
+		culture = tupinamba
+		religion = animist
+		size = 50
+	}
+
+	soldiers = {
+		culture = tupinamba
+		religion = animist
+		size = 25
+	}
+
+	farmers = {
+		culture = tupinamba
+		religion = animist
+		size = 9000
+	}
+	
+	farmers = {
+		culture = nawaki
+		religion = animist
+		size = 2000
+	}
+	
+	farmers = {
+		culture = munduruku
+		religion = animist
+		size = 925
+	}
+	
+	clergymen = {
+		culture = amazuni
+		religion = sunni
+		size = 5
+	}
+
+	artisans = {
+		culture = amazuni
+		religion = sunni
+		size = 5
+	}
+
+	soldiers = {
+		culture = amazuni
+		religion = sunni
+		size = 5
+	}
+
+	farmers = {
+		culture = amazuni
+		religion = sunni
+		size = 200
+	}
+}
+#Cajamarca Region (296000)
+#Ruled by Peru 1836
+#Cajamarca (144000/38000 POPS)
+2290 = {
+	aristocrats = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 800
+	}
+
+	bureaucrats = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 100
+	}
+
+	officers = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 100
+	}
+
+	clergymen = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 250
+	}
+
+	artisans = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 600
+	}
+
+	soldiers = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 1125
+	}
+
+	farmers = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 14050
+	}
+	
+	aristocrats = {
+		culture = cholon
+		religion = inti
+		size = 125
+	}
+	
+	officers = {
+		culture = cholon
+		religion = inti
+		size = 100
+	}
+
+	clergymen = {
+		culture = cholon
+		religion = inti
+		size = 125
+	}
+
+	artisans = {
+		culture = cholon
+		religion = inti
+		size = 1300
+	}
+
+	soldiers = {
+		culture = cholon
+		religion = inti
+		size = 250
+	}
+
+	farmers = {
+		culture = cholon
+		religion = inti
+		size = 19325
+	}
+}
+#Piura (60000/15000 POPS)
+2291 = {
+	aristocrats = {
+		culture = chimu
+		religion = inti
+		size = 1325
+	}
+
+	clergymen = {
+		culture = chimu
+		religion = inti
+		size = 1100
+	}
+	
+	artisans = {
+		culture = chimu
+		religion = inti
+		size = 5000
+	}
+	
+	soldiers = {
+		culture = chimu
+		religion = inti
+		size = 3100
+	}
+
+	farmers = {
+		culture = chimu
+		religion = inti
+		size = 39500
+	}
+	
+	aristocrats = {
+		culture = atalan
+		religion = inti
+		size = 3325
+	}
+
+	clergymen = {
+		culture = atalan
+		religion = inti
+		size = 4100
+	}
+
+	artisans = {
+		culture = atalan
+		religion = inti
+		size = 10000
+	}
+	
+	artisans = {
+		culture = atalan
+		religion = inti
+		size = 10000
+	}
+	
+	artisans = {
+		culture = atalan
+		religion = inti
+		size = 10000
+	}
+	
+	artisans = {
+		culture = atalan
+		religion = inti
+		size = 10000
+	}
+
+	soldiers = {
+		culture = atalan
+		religion = inti
+		size = 7100
+	}
+
+	farmers = {
+		culture = atalan
+		religion = inti
+		size = 121000
+	}
+}
+#Trujillo (68000/17000 POPS)
+2292 = {
+	aristocrats = {
+		culture = quechua
+		religion = inti
+		size = 375
+	}
+
+	clergymen = {
+		culture = quechua
+		religion = inti
+		size = 125
+	}
+
+	artisans = {
+		culture = quechua
+		religion = inti
+		size = 300
+	}
+
+	soldiers = {
+		culture = quechua
+		religion = inti
+		size = 100
+	}
+
+	farmers = {
+		culture = quechua
+		religion = inti
+		size = 5050
+	}
+	
+	aristocrats = {
+		culture = chimu
+		religion = inti
+		size = 1375
+	}
+
+	clergymen = {
+		culture = chimu
+		religion = inti
+		size = 5100
+	}
+
+	artisans = {
+		culture = chimu
+		religion = inti
+		size = 10000
+	}
+	
+	artisans = {
+		culture = chimu
+		religion = inti
+		size = 5000
+	}
+
+	soldiers = {
+		culture = chimu
+		religion = inti
+		size = 4100
+	}
+
+	farmers = {
+		culture = chimu
+		religion = inti
+		size = 78350
+	}
+
+	clergymen = {
+		culture = atalan
+		religion = inti
+		size = 3100
+	}
+
+	artisans = {
+		culture = atalan
+		religion = inti
+		size = 10000
+	}
+	
+	artisans = {
+		culture = atalan
+		religion = inti
+		size = 10000
+	}
+
+	soldiers = {
+		culture = atalan
+		religion = inti
+		size = 4100
+	}
+
+	farmers = {
+		culture = atalan
+		religion = inti
+		size = 101100
+	}
+}
+#Moyobamba (24000/6000 POPS)
+2294 = {
+	aristocrats = {
+		culture = kichwa
+		religion = inti
+		size = 250
+	}
+
+	clergymen = {
+		culture = kichwa
+		religion = inti
+		size = 200
+	}
+
+	artisans = {
+		culture = kichwa
+		religion = inti
+		size = 3100
+	}
+
+	soldiers = {
+		culture = kichwa
+		religion = inti
+		size = 100
+	}
+
+	farmers = {
+		culture = yungay_runasimi
+		religion = inti
+		size = 7650
+	}
+	
+	farmers = {
+		culture = manta
+		religion = inti
+		size = 1000
+	}
+	
+	farmers = {
+		culture = chimu
+		religion = inti
+		size = 500
+	}
+	
+	farmers = {
+		culture = yanesha
+		religion = inti
+		size = 500
+	}
+	
+	farmers = {
+		culture = cara
+		religion = inti
+		size = 500
+	}
+    
+	farmers = {
+		culture = kanari
+		religion = inti
+		size = 500
+	}
+
+	artisans = {
+		culture = palta
+		religion = animist
+		size = 150
+	}
+
+	soldiers = {
+		culture = palta
+		religion = animist
+		size = 250
+	}
+
+	farmers = {
+		culture = palta
+		religion = animist
+		size = 12700
+	}
+	
+	artisans = {
+		culture = shawar
+		religion = animist
+		size = 50
+	}
+
+	soldiers = {
+		culture = shawar
+		religion = animist
+		size = 150
+	}
+
+	farmers = {
+		culture = shawar
+		religion = animist
+		size = 2700
+	}
+}
+#Junin Region (204000)
+#Ruled by Peru 1836
+#Huanuco (36000/9000 POPS)
+2293 = {
+	aristocrats = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 200
+	}
+
+	clergymen = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 100
+	}
+
+	artisans = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 1100
+	}
+
+	soldiers = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 100
+	}
+
+	farmers = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 500
+	}
+
+	clergymen = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 200
+	}
+
+	artisans = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 3650
+	}
+
+	soldiers = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 1150
+	}
+
+	farmers = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 23400
+	}
+}
+#Jauja (60000/15000 POPS)
+2296 = {
+	aristocrats = {
+		culture = quechua
+		religion = inti
+		size = 325
+	}
+
+	clergymen = {
+		culture = quechua
+		religion = inti
+		size = 100
+	}
+
+	artisans = {
+		culture = quechua
+		religion = inti
+		size = 1100
+	}
+
+	soldiers = {
+		culture = quechua
+		religion = inti
+		size = 125
+	}
+
+	farmers = {
+		culture = quechua
+		religion = inti
+		size = 4350
+	}
+
+	clergymen = {
+		culture = aimara
+		religion = inti
+		size = 100
+	}
+
+	artisans = {
+		culture = aimara
+		religion = inti
+		size = 1650
+	}
+
+	soldiers = {
+		culture = aimara
+		religion = inti
+		size = 125
+	}
+
+	farmers = {
+		culture = aimara
+		religion = inti
+		size = 7125
+	}
+}
+#Ayacucho (108000/27000 POPS)
+2299 = {
+	aristocrats = {
+		culture = quechua
+		religion = inti
+		size = 575
+	}
+
+	bureaucrats = {
+		culture = quechua
+		religion = inti
+		size = 75
+	}
+
+	officers = {
+		culture = quechua
+		religion = inti
+		size = 50
+	}
+
+	clergymen = {
+		culture = quechua
+		religion = inti
+		size = 175
+	}
+
+	artisans = {
+		culture = quechua
+		religion = inti
+		size = 2200
+	}
+
+	soldiers = {
+		culture = quechua
+		religion = inti
+		size = 100
+	}
+
+	farmers = {
+		culture = quechua
+		religion = inti
+		size = 10825
+	}
+
+	clergymen = {
+		culture = aimara
+		religion = inti
+		size = 100
+	}
+
+	artisans = {
+		culture = aimara
+		religion = inti
+		size = 2150
+	}
+
+	soldiers = {
+		culture = aimara
+		religion = inti
+		size = 225
+	}
+
+	farmers = {
+		culture = aimara
+		religion = inti
+		size = 10525
+	}
+}
+#Lima Region (484000)
+#Ruled by Peru 1836
+#Lima (324000/81000 POPS)
+2295 = {
+	aristocrats = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 1675
+	}
+
+	bureaucrats = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 200
+	}
+
+	officers = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 150
+	}
+
+	clergymen = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 1500
+	}
+
+	artisans = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 10000
+	}
+	
+	artisans = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 10000
+	}
+	
+	artisans = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 10000
+	}
+	
+	artisans = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 10000
+	}
+	
+	artisans = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 10000
+	}
+	
+	artisans = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 10000
+	}
+	
+	artisans = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 2400
+	}
+
+	soldiers = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 5000
+	}
+
+	farmers = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 101075
+	}
+	
+	aristocrats = {
+		culture = aimara
+		religion = inti
+		size = 200
+	}
+	
+	officers = {
+		culture = aimara
+		religion = inti
+		size = 100
+	}
+
+	clergymen = {
+		culture = aimara
+		religion = inti
+		size = 1100
+	}
+
+	artisans = {
+		culture = aimara
+		religion = inti
+		size = 10800
+	}
+
+	soldiers = {
+		culture = aimara
+		religion = inti
+		size = 150
+	}
+
+	farmers = {
+		culture = aimara
+		religion = inti
+		size = 10000
+	}
+	
+	clergymen = {
+		culture = chimu
+		religion = inti
+		size = 600
+	}
+
+	artisans = {
+		culture = chimu
+		religion = inti
+		size = 5000
+	}
+
+	soldiers = {
+		culture = chimu
+		religion = inti
+		size = 150
+	}
+
+	farmers = {
+		culture = chimu
+		religion = inti
+		size = 4000
+	}
+}
+#Ica (60000/15000 POPS)
+2297 = {
+	aristocrats = {
+		culture = quechua
+		religion = inti
+		size = 525
+	} 
+	
+	clergymen = {
+		culture = quechua
+		religion = inti
+		size = 1000
+	}
+	
+	artisans = {
+		culture = quechua
+		religion = inti
+		size = 10000
+	}
+
+	artisans = {
+		culture = quechua
+		religion = inti
+		size = 2500
+	}
+
+	soldiers = {
+		culture = quechua
+		religion = inti
+		size = 2100
+	}
+
+	farmers = {
+		culture = quechua
+		religion = inti
+		size = 103000
+	}
+
+	clergymen = {
+		culture = aimara
+		religion = inti
+		size = 400
+	}
+
+	artisans = {
+		culture = aimara
+		religion = inti
+		size = 4100
+	}
+
+	soldiers = {
+		culture = aimara
+		religion = inti
+		size = 1100
+	}
+
+	farmers = {
+		culture = aimara
+		religion = inti
+		size = 40300
+	}
+
+}
+#Huaraz (100000/25000 POPS)
+2298 = {
+	aristocrats = {
+		culture = chimu
+		religion = inti
+		size = 1025
+	}
+
+	clergymen = {
+		culture = chimu
+		religion = inti
+		size = 2150
+	}
+
+	artisans = {
+		culture = chimu
+		religion = inti
+		size = 10300
+	}
+	
+	artisans = {
+		culture = chimu
+		religion = inti
+		size = 10000
+	}
+	
+	artisans = {
+		culture = chimu
+		religion = inti
+		size = 10000
+	}
+	
+	artisans = {
+		culture = chimu
+		religion = inti
+		size = 10000
+	}
+
+	soldiers = {
+		culture = chimu
+		religion = inti
+		size = 4100
+	}
+
+	farmers = {
+		culture = chimu
+		religion = inti
+		size = 104925
+	}
+}
+#Ucayali Region (32000)
+#Ruled by Peru 1836
+#Pucallpa (20000/5000 POPS)
+2300 = {
+	aristocrats = {
+		culture = kichwa
+		religion = inti
+		size = 140
+	}
+
+	bureaucrats = {
+		culture = kichwa
+		religion = inti
+		size = 100
+	}
+
+	clergymen = {
+		culture = kichwa
+		religion = inti
+		size = 325
+	}
+
+	artisans = {
+		culture = kichwa
+		religion = inti
+		size = 1050
+	}
+
+	soldiers = {
+		culture = kichwa
+		religion = inti
+		size = 1010
+	}
+
+	farmers = {
+		culture = kichwa
+		religion = inti
+		size = 2900
+	}
+	
+	clergymen = {
+		culture = cholon
+		religion = inti
+		size = 125
+	}
+
+	artisans = {
+		culture = cholon
+		religion = inti
+		size = 450
+	}
+
+	soldiers = {
+		culture = cholon
+		religion = inti
+		size = 210
+	}
+
+	farmers = {
+		culture = cholon
+		religion = inti
+		size = 10000
+	}
+	
+	clergymen = {
+		culture = aimara
+		religion = inti
+		size = 25
+	}
+
+	artisans = {
+		culture = aimara
+		religion = inti
+		size = 150
+	}
+
+	soldiers = {
+		culture = aimara
+		religion = inti
+		size = 10
+	}
+
+	farmers = {
+		culture = aimara
+		religion = inti
+		size = 1000
+	}
+	
+	clergymen = {
+		culture = atalan
+		religion = inti
+		size = 25
+	}
+
+	artisans = {
+		culture = atalan
+		religion = inti
+		size = 150
+	}
+
+	soldiers = {
+		culture = atalan
+		religion = inti
+		size = 10
+	}
+
+	farmers = {
+		culture = atalan
+		religion = inti
+		size = 800
+	}
+	
+	artisans = {
+		culture = chimu
+		religion = inti
+		size = 150
+	}
+
+	soldiers = {
+		culture = chimu
+		religion = inti
+		size = 10
+	}
+
+	farmers = {
+		culture = chimu
+		religion = inti
+		size = 800
+	}
+
+	clergymen = {
+		culture = panoan
+		religion = animist
+		size = 100
+	}
+
+	soldiers = {
+		culture = panoan
+		religion = animist
+		size = 300
+	}
+
+	farmers = {
+		culture = panoan
+		religion = animist
+		size = 16225
+	}
+	
+	clergymen = {
+		culture = campa
+		religion = animist
+		size = 10
+	}
+
+	soldiers = {
+		culture = campa
+		religion = animist
+		size = 30
+	}
+
+	farmers = {
+		culture = campa
+		religion = animist
+		size = 3225
+	}
+	
+	clergymen = {
+		culture = piro
+		religion = animist
+		size = 50
+	}
+
+	soldiers = {
+		culture = piro
+		religion = animist
+		size = 150
+	}
+
+	farmers = {
+		culture = piro
+		religion = animist
+		size = 7225
+	}
+}
+#Puerto Maldonado (12000/3000 POPS)
+2301 = {
+	aristocrats = {
+		culture = quechua
+		religion = inti
+		size = 50
+	}
+
+	clergymen = {
+		culture = quechua
+		religion = inti
+		size = 75
+	}
+
+	artisans = {
+		culture = quechua
+		religion = inti
+		size = 150
+	}
+
+	soldiers = {
+		culture = quechua
+		religion = inti
+		size = 25
+	}
+
+	farmers = {
+		culture = quechua
+		religion = inti
+		size = 2700
+	}
+	
+	aristocrats = {
+		culture = panoan
+		religion = inti
+		size = 50
+	}
+
+	clergymen = {
+		culture = panoan
+		religion = inti
+		size = 75
+	}
+
+	artisans = {
+		culture = panoan
+		religion = inti
+		size = 150
+	}
+
+	soldiers = {
+		culture = panoan
+		religion = inti
+		size = 225
+	}
+
+	farmers = {
+		culture = panoan
+		religion = inti
+		size = 700
+	}
+	
+	farmers = {
+		culture = panoan
+		religion = animist
+		size = 17000
+	}
+	
+	aristocrats = {
+		culture = tacana
+		religion = inti
+		size = 50
+	}
+
+	clergymen = {
+		culture = tacana
+		religion = inti
+		size = 75
+	}
+
+	artisans = {
+		culture = tacana
+		religion = inti
+		size = 150
+	}
+
+	soldiers = {
+		culture = tacana
+		religion = inti
+		size = 225
+	}
+
+	farmers = {
+		culture = tacana
+		religion = inti
+		size = 700
+	}
+	
+	farmers = {
+		culture = tacana
+		religion = animist
+		size = 20000
+	}
+	
+	farmers = {
+		culture = piro
+		religion = animist
+		size = 5000
+	}
+}
+#Cusco Region (404000)
+#Ruled by Peru 1836
+#Cusco (228000/57000 POPS)
+2302 = {
+	aristocrats = {
+		culture = quechua
+		religion = inti
+		size = 350
+	}
+
+	bureaucrats = {
+		culture = quechua
+		religion = inti
+		size = 25
+	}
+
+	officers = {
+		culture = quechua
+		religion = inti
+		size = 100
+	}
+
+	clergymen = {
+		culture = quechua
+		religion = inti
+		size = 375
+	}
+
+	artisans = {
+		culture = quechua
+		religion = inti
+		size = 750
+	}
+
+	soldiers = {
+		culture = quechua
+		religion = inti
+		size = 1100
+	}
+
+	farmers = {
+		culture = quechua
+		religion = inti
+		size = 11625
+	}
+	
+	aristocrats = {
+		culture = quechua
+		religion = inti
+		size = 200
+	}
+	
+	officers = {
+		culture = quechua
+		religion = inti
+		size = 100
+	}
+	
+	bureaucrats = {
+		culture = quechua
+		religion = inti
+		size = 100
+	}
+
+	clergymen = {
+		culture = quechua
+		religion = inti
+		size = 200
+	}
+	
+	artisans = {
+		culture = quechua
+		religion = inti
+		size = 10000
+	}
+
+	artisans = {
+		culture = quechua
+		religion = inti
+		size = 2100
+	}
+
+	farmers = {
+		culture = quechua
+		religion = inti
+		size = 44275
+	}
+}
+#Puno (104000/26000 POPS)
+2303 = {
+	aristocrats = {
+		culture = quechua
+		religion = inti
+		size = 575
+	}
+
+	clergymen = {
+		culture = quechua
+		religion = inti
+		size = 1150
+	}
+
+	artisans = {
+		culture = uru
+		religion = inti
+		size = 10000
+	}
+
+	soldiers = {
+		culture = quechua
+		religion = inti
+		size = 1100
+	}
+
+	farmers = {
+		culture = quechua
+		religion = inti
+		size = 12025
+	}
+
+	clergymen = {
+		culture = uru
+		religion = inti
+		size = 1100
+	}
+
+	artisans = {
+		culture = uru
+		religion = inti
+		size = 11150
+	}
+	
+	artisans = {
+		culture = uru
+		religion = inti
+		size = 10000
+	}
+	
+	artisans = {
+		culture = uru
+		religion = inti
+		size = 10000
+	}
+
+	soldiers = {
+		culture = uru
+		religion = inti
+		size = 4250
+	}
+
+	farmers = {
+		culture = uru
+		religion = inti
+		size = 91500
+	}
+	
+	clergymen = {
+		culture = uru
+		religion = inti
+		size = 800
+	}
+	
+	artisans = {
+		culture = uru
+		religion = inti
+		size = 10000
+	}
+
+	soldiers = {
+		culture = uru
+		religion = inti
+		size = 1250
+	}
+
+	farmers = {
+		culture = aimara
+		religion = inti
+		size = 21500
+	}
+}
+#Arequipa (72000/18000 POPS)
+2304 = {
+	aristocrats = {
+		culture = quechua
+		religion = inti
+		size = 375
+	}
+
+	clergymen = {
+		culture = quechua
+		religion = inti
+		size = 125
+	}
+
+	artisans = {
+		culture = quechua
+		religion = inti
+		size = 200
+	}
+
+	soldiers = {
+		culture = quechua
+		religion = inti
+		size = 1050
+	}
+
+	farmers = {
+		culture = quechua
+		religion = inti
+		size = 3250
+	}
+
+	clergymen = {
+		culture = aimara
+		religion = inti
+		size = 800
+	}
+
+	artisans = {
+		culture = aimara
+		religion = inti
+		size = 10700
+	}
+
+	soldiers = {
+		culture = aimara
+		religion = inti
+		size = 1150
+	}
+
+	farmers = {
+		culture = aimara
+		religion = inti
+		size = 43100
+	}
+}
+#Atacama Region (100000) #see Chile.txt for balance of Region
+#Ruled by Peru 1836
+#Tacna (100000/25000 POPS)
+2578 = {
+	aristocrats = {
+		culture = quechua
+		religion = inti
+		size = 550
+	}
+
+	bureaucrats = {
+		culture = quechua
+		religion = inti
+		size = 25
+	}
+
+	officers = {
+		culture = quechua
+		religion = inti
+		size = 50
+	}
+
+	clergymen = {
+		culture = quechua
+		religion = inti
+		size = 150
+	}
+
+	artisans = {
+		culture = quechua
+		religion = inti
+		size = 6250
+	}
+
+	soldiers = {
+		culture = quechua
+		religion = inti
+		size = 100
+	}
+
+	farmers = {
+		culture = quechua
+		religion = inti
+		size = 2925
+	}
+
+	clergymen = {
+		culture = pukina
+		religion = inti
+		size = 400
+	}
+
+	artisans = {
+		culture = pukina
+		religion = inti
+		size = 4100
+	}
+
+	soldiers = {
+		culture = pukina
+		religion = inti
+		size = 1200
+	}
+
+	farmers = {
+		culture = pukina
+		religion = inti
+		size = 33700
+	}
+	
+	clergymen = {
+		culture = aimara
+		religion = inti
+		size = 100
+	}
+
+	artisans = {
+		culture = aimara
+		religion = inti
+		size = 1100
+	}
+
+	soldiers = {
+		culture = aimara
+		religion = inti
+		size = 200
+	}
+
+	farmers = {
+		culture = aimara
+		religion = inti
+		size = 8700
+	}
+}
+
+#New Provinces
+#Cochabamba (100000/25000 POPS)
+3485 = {
+
+    artisans = {
+		culture = diaguita
+		religion = inti
+		size = 100
+	}
+
+	soldiers = {
+		culture = diaguita
+		religion = inti
+		size = 100
+	}
+
+	farmers = {
+		culture = diaguita
+		religion = inti
+		size = 3000
+	}
+	
+	artisans = {
+		culture = pukina
+		religion = inti
+		size = 100
+	}
+
+	soldiers = {
+		culture = pukina
+		religion = inti
+		size = 100
+	}
+
+	farmers = {
+		culture = pukina
+		religion = inti
+		size = 1000
+	}
+	
+	artisans = {
+		culture = aimara
+		religion = inti
+		size = 8000
+	}
+
+	soldiers = {
+		culture = aimara
+		religion = inti
+		size = 2500
+	}
+
+	farmers = {
+		culture = aimara
+		religion = inti
+		size = 40925
+	}
+	
+	artisans = {
+		culture = angara
+		religion = inti
+		size = 600
+	}
+
+	soldiers = {
+		culture = angara
+		religion = inti
+		size = 50
+	}
+
+	farmers = {
+		culture = angara
+		religion = inti
+		size = 5925
+	}
+}
+
+#Cochabamba (100000/25000 POPS)
+3486 = {
+	aristocrats = {
+		culture = quechua
+		religion = inti
+		size = 450
+	}
+
+	clergymen = {
+		culture = quechua
+		religion = inti
+		size = 850
+	}
+
+	artisans = {
+		culture = quechua
+		religion = inti
+		size = 10000
+	}
+	
+	soldiers = {
+		culture = quechua
+		religion = inti
+		size = 1100
+	}
+
+	farmers = {
+		culture = quechua
+		religion = inti
+		size = 20000
+	}
+	
+	artisans = {
+		culture = pukina
+		religion = inti
+		size = 1000
+	}
+
+	soldiers = {
+		culture = pukina
+		religion = inti
+		size = 100
+	}
+
+	farmers = {
+		culture = pukina
+		religion = inti
+		size = 5000
+	}
+	
+	artisans = {
+		culture = aimara
+		religion = inti
+		size = 6000
+	}
+
+	soldiers = {
+		culture = aimara
+		religion = inti
+		size = 500
+	}
+
+	farmers = {
+		culture = aimara
+		religion = inti
+		size = 10925
+	}
+	
+	artisans = {
+		culture = cholon
+		religion = inti
+		size = 600
+	}
+
+	soldiers = {
+		culture = cholon
+		religion = inti
+		size = 50
+	}
+
+	farmers = {
+		culture = cholon
+		religion = inti
+		size = 5925
+	}
+}
+
+#Tacna (100000/25000 POPS)
+3487 = {
+	aristocrats = {
+		culture = quechua
+		religion = inti
+		size = 1950
+	}
+
+	clergymen = {
+		culture = quechua
+		religion = inti
+		size = 7850
+	}
+
+	artisans = {
+		culture = quechua
+		religion = inti
+		size = 10000
+	}
+	
+	artisans = {
+		culture = quechua
+		religion = inti
+		size = 10000
+	}
+	
+	soldiers = {
+		culture = quechua
+		religion = inti
+		size = 2100
+	}
+
+	farmers = {
+		culture = quechua
+		religion = inti
+		size = 20000
+	}
+	
+	artisans = {
+		culture = pukina
+		religion = inti
+		size = 10000
+	}
+
+	soldiers = {
+		culture = pukina
+		religion = inti
+		size = 4100
+	}
+
+	farmers = {
+		culture = pukina
+		religion = inti
+		size = 45000
+	}
+	
+	artisans = {
+		culture = aimara
+		religion = inti
+		size = 12250
+	}
+	
+	artisans = {
+		culture = aimara
+		religion = inti
+		size = 10000
+	}
+
+	soldiers = {
+		culture = aimara
+		religion = inti
+		size = 1500
+	}
+
+	farmers = {
+		culture = aimara
+		religion = inti
+		size = 30925
+	}
+}
+
+#Tacna (100000/25000 POPS)
+3488 = {
+	aristocrats = {
+		culture = quechua
+		religion = inti
+		size = 1950
+	}
+
+	clergymen = {
+		culture = quechua
+		religion = inti
+		size = 7850
+	}
+
+	artisans = {
+		culture = quechua
+		religion = inti
+		size = 10000
+	}
+	
+	artisans = {
+		culture = quechua
+		religion = inti
+		size = 10000
+	}
+	
+	artisans = {
+		culture = quechua
+		religion = inti
+		size = 10000
+	}
+	
+	artisans = {
+		culture = quechua
+		religion = inti
+		size = 10000
+	}
+
+	soldiers = {
+		culture = quechua
+		religion = inti
+		size = 6100
+	}
+
+	farmers = {
+		culture = quechua
+		religion = inti
+		size = 125000
+	}
+	
+	artisans = {
+		culture = aimara
+		religion = inti
+		size = 12250
+	}
+
+	soldiers = {
+		culture = aimara
+		religion = inti
+		size = 1500
+	}
+
+	farmers = {
+		culture = aimara
+		religion = inti
+		size = 20925
+	}
+}
+
+#Tacna (100000/25000 POPS)
+3489 = {
+	aristocrats = {
+		culture = quechua
+		religion = inti
+		size = 950
+	}
+
+	clergymen = {
+		culture = quechua
+		religion = inti
+		size = 850
+	}
+
+	artisans = {
+		culture = quechua
+		religion = inti
+		size = 10000
+	}
+
+	soldiers = {
+		culture = quechua
+		religion = inti
+		size = 1100
+	}
+
+	farmers = {
+		culture = quechua
+		religion = inti
+		size = 75000
+	}
+	
+	artisans = {
+		culture = aimara
+		religion = inti
+		size = 2250
+	}
+
+	soldiers = {
+		culture = aimara
+		religion = inti
+		size = 500
+	}
+
+	farmers = {
+		culture = aimara
+		religion = inti
+		size = 8925
+	}
+}
+
+#Tacna (100000/25000 POPS)
+3490 = {
+	aristocrats = {
+		culture = quechua
+		religion = inti
+		size = 150
+	}
+
+	clergymen = {
+		culture = quechua
+		religion = inti
+		size = 150
+	}
+
+	artisans = {
+		culture = quechua
+		religion = inti
+		size = 4250
+	}
+
+	soldiers = {
+		culture = quechua
+		religion = inti
+		size = 100
+	}
+
+	farmers = {
+		culture = quechua
+		religion = inti
+		size = 1850
+	}
+
+	clergymen = {
+		culture = aimara
+		religion = inti
+		size = 100
+	}
+
+	artisans = {
+		culture = aimara
+		religion = inti
+		size = 2200
+	}
+
+	soldiers = {
+		culture = aimara
+		religion = inti
+		size = 200
+	}
+
+	farmers = {
+		culture = aimara
+		religion = inti
+		size = 50000
+	}
+}
+
+#Tacna (100000/25000 POPS)
+3491 = {
+	aristocrats = {
+		culture = quechua
+		religion = inti
+		size = 150
+	}
+
+	clergymen = {
+		culture = quechua
+		religion = inti
+		size = 150
+	}
+
+	artisans = {
+		culture = quechua
+		religion = inti
+		size = 2250
+	}
+
+	soldiers = {
+		culture = quechua
+		religion = inti
+		size = 100
+	}
+
+	farmers = {
+		culture = quechua
+		religion = inti
+		size = 925
+	}
+
+	clergymen = {
+		culture = pukina
+		religion = inti
+		size = 400
+	}
+
+	artisans = {
+		culture = pukina
+		religion = inti
+		size = 2100
+	}
+
+	soldiers = {
+		culture = pukina
+		religion = inti
+		size = 1200
+	}
+
+	farmers = {
+		culture = pukina
+		religion = inti
+		size = 20700
+	}
+	
+	clergymen = {
+		culture = aimara
+		religion = inti
+		size = 100
+	}
+
+	artisans = {
+		culture = aimara
+		religion = inti
+		size = 1100
+	}
+
+	soldiers = {
+		culture = aimara
+		religion = inti
+		size = 200
+	}
+
+	farmers = {
+		culture = aimara
+		religion = inti
+		size = 11800
+	}
+}
+
+#Tacna (100000/25000 POPS)
+3492 = {
+	aristocrats = {
+		culture = quechua
+		religion = inti
+		size = 150
+	}
+
+	clergymen = {
+		culture = quechua
+		religion = inti
+		size = 150
+	}
+
+	artisans = {
+		culture = quechua
+		religion = inti
+		size = 1250
+	}
+
+	soldiers = {
+		culture = quechua
+		religion = inti
+		size = 100
+	}
+
+	farmers = {
+		culture = quechua
+		religion = inti
+		size = 10925
+	}
+
+	clergymen = {
+		culture = pukina
+		religion = inti
+		size = 40
+	}
+
+	artisans = {
+		culture = pukina
+		religion = inti
+		size = 100
+	}
+
+	soldiers = {
+		culture = pukina
+		religion = inti
+		size = 20
+	}
+
+	farmers = {
+		culture = pukina
+		religion = inti
+		size = 5400
+	}
+	
+	clergymen = {
+		culture = aimara
+		religion = inti
+		size = 100
+	}
+
+	artisans = {
+		culture = aimara
+		religion = inti
+		size = 5100
+	}
+
+	soldiers = {
+		culture = aimara
+		religion = inti
+		size = 200
+	}
+
+	farmers = {
+		culture = aimara
+		religion = inti
+		size = 22800
+	}
+}
+
+#Tacna (100000/25000 POPS)
+3493 = {
+	aristocrats = {
+		culture = quechua
+		religion = inti
+		size = 150
+	}
+
+	clergymen = {
+		culture = quechua
+		religion = inti
+		size = 150
+	}
+
+	artisans = {
+		culture = quechua
+		religion = inti
+		size = 4250
+	}
+
+	soldiers = {
+		culture = quechua
+		religion = inti
+		size = 100
+	}
+
+	farmers = {
+		culture = quechua
+		religion = inti
+		size = 14925
+	}
+	
+	clergymen = {
+		culture = aimara
+		religion = inti
+		size = 100
+	}
+
+	artisans = {
+		culture = aimara
+		religion = inti
+		size = 2100
+	}
+
+	soldiers = {
+		culture = aimara
+		religion = inti
+		size = 200
+	}
+
+	farmers = {
+		culture = aimara
+		religion = inti
+		size = 30070
+	}
+}
+
+#Tacna (100000/25000 POPS)
+3494 = {
+	aristocrats = {
+		culture = quechua
+		religion = inti
+		size = 150
+	}
+
+	clergymen = {
+		culture = quechua
+		religion = inti
+		size = 150
+	}
+
+	artisans = {
+		culture = quechua
+		religion = inti
+		size = 1250
+	}
+
+	soldiers = {
+		culture = quechua
+		religion = inti
+		size = 100
+	}
+
+	farmers = {
+		culture = quechua
+		religion = inti
+		size = 8925
+	}
+	
+	clergymen = {
+		culture = aimara
+		religion = inti
+		size = 100
+	}
+
+	artisans = {
+		culture = aimara
+		religion = inti
+		size = 2100
+	}
+
+	soldiers = {
+		culture = aimara
+		religion = inti
+		size = 200
+	}
+
+	farmers = {
+		culture = aimara
+		religion = inti
+		size = 12800
+	}
+}
+
+#Tacna (100000/25000 POPS)
+3495 = {
+	aristocrats = {
+		culture = quechua
+		religion = inti
+		size = 150
+	}
+
+	clergymen = {
+		culture = quechua
+		religion = inti
+		size = 150
+	}
+
+	artisans = {
+		culture = quechua
+		religion = inti
+		size = 1250
+	}
+
+	soldiers = {
+		culture = quechua
+		religion = inti
+		size = 100
+	}
+
+	farmers = {
+		culture = quechua
+		religion = inti
+		size = 15925
+	}
+	
+	clergymen = {
+		culture = aimara
+		religion = inti
+		size = 100
+	}
+
+	artisans = {
+		culture = aimara
+		religion = inti
+		size = 2100
+	}
+
+	soldiers = {
+		culture = aimara
+		religion = inti
+		size = 200
+	}
+
+	farmers = {
+		culture = aimara
+		religion = inti
+		size = 10800
+	}
+}
+
+#Tacna (100000/25000 POPS)
+3496 = {
+	aristocrats = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 550
+	}
+
+	clergymen = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 450
+	}
+	
+	artisans = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 10000
+	}
+
+	artisans = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 6250
+	}
+
+	soldiers = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 2100
+	}
+
+	farmers = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 80925
+	}
+	
+	artisans = {
+		culture = aimara
+		religion = inti
+		size = 1250
+	}
+
+	soldiers = {
+		culture = aimara
+		religion = inti
+		size = 100
+	}
+
+	farmers = {
+		culture = aimara
+		religion = inti
+		size = 18925
+	}
+}
+
+#Tacna (100000/25000 POPS)
+3497 = {
+	aristocrats = {
+		culture = chimu
+		religion = inti
+		size = 550
+	}
+
+	clergymen = {
+		culture = chimu
+		religion = inti
+		size = 450
+	}
+	
+	artisans = {
+		culture = chimu
+		religion = inti
+		size = 10000
+	}
+	
+	artisans = {
+		culture = chimu
+		religion = inti
+		size = 10000
+	}
+	
+	artisans = {
+		culture = chimu
+		religion = inti
+		size = 10000
+	}
+
+	artisans = {
+		culture = chimu
+		religion = inti
+		size = 6250
+	}
+
+	soldiers = {
+		culture = chimu
+		religion = inti
+		size = 2100
+	}
+
+	farmers = {
+		culture = chimu
+		religion = inti
+		size = 140925
+	}
+	
+	artisans = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 1250
+	}
+
+	soldiers = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 100
+	}
+
+	farmers = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 8925
+	}
+}
+
+#Tacna (100000/25000 POPS)
+3498 = {
+
+    aristocrats = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 2550
+	}
+
+	clergymen = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 1450
+	}
+	
+	artisans = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 10000
+	}
+   
+	aristocrats = {
+		culture = chimu
+		religion = inti
+		size = 550
+	}
+
+	clergymen = {
+		culture = chimu
+		religion = inti
+		size = 2450
+	}
+	
+	artisans = {
+		culture = chimu
+		religion = inti
+		size = 10000
+	}
+	
+	artisans = {
+		culture = chimu
+		religion = inti
+		size = 10000
+	}
+	
+	artisans = {
+		culture = chimu
+		religion = inti
+		size = 10000
+	}
+	
+	artisans = {
+		culture = chimu
+		religion = inti
+		size = 10000
+	}
+
+	artisans = {
+		culture = chimu
+		religion = inti
+		size = 6250
+	}
+
+	soldiers = {
+		culture = chimu
+		religion = inti
+		size = 6100
+	}
+
+	farmers = {
+		culture = chimu
+		religion = inti
+		size = 200925
+	}
+}
+
+#Tacna (100000/25000 POPS)
+3499 = {
+   
+	aristocrats = {
+		culture = atalan
+		religion = inti
+		size = 550
+	}
+
+	clergymen = {
+		culture = atalan
+		religion = inti
+		size = 2450
+	}
+	
+	artisans = {
+		culture = atalan
+		religion = inti
+		size = 10000
+	}
+	
+	artisans = {
+		culture = atalan
+		religion = inti
+		size = 10000
+	}
+
+	artisans = {
+		culture = atalan
+		religion = inti
+		size = 6250
+	}
+
+	soldiers = {
+		culture = atalan
+		religion = inti
+		size = 6100
+	}
+
+	farmers = {
+		culture = atalan
+		religion = inti
+		size = 120925
+	}
+}
+
+#Tacna (100000/25000 POPS)
+3500 = {
+	aristocrats = {
+		culture = yungay_runasimi
+		religion = inti
+		size = 250
+	}
+
+	clergymen = {
+		culture = yungay_runasimi
+		religion = inti
+		size = 250
+	}
+
+	artisans = {
+		culture = yungay_runasimi
+		religion = inti
+		size = 6250
+	}
+
+	soldiers = {
+		culture = yungay_runasimi
+		religion = inti
+		size = 1100
+	}
+
+	farmers = {
+		culture = yungay_runasimi
+		religion = inti
+		size = 60925
+	}
+}
+
+#Chachapoyas (100000/25000 POPS)
+3501 = {
+	aristocrats = {
+		culture = chachapoya
+		religion = inti
+		size = 250
+	}
+
+	clergymen = {
+		culture = chachapoya
+		religion = inti
+		size = 250
+	}
+
+	artisans = {
+		culture = chachapoya
+		religion = inti
+		size = 6250
+	}
+
+	soldiers = {
+		culture = chachapoya
+		religion = inti
+		size = 1100
+	}
+
+	farmers = {
+		culture = chachapoya
+		religion = inti
+		size = 20925
+	}
+	
+	aristocrats = {
+		culture = yungay_runasimi
+		religion = inti
+		size = 50
+	}
+
+	clergymen = {
+		culture = yungay_runasimi
+		religion = inti
+		size = 50
+	}
+
+	artisans = {
+		culture = yungay_runasimi
+		religion = inti
+		size = 1250
+	}
+
+	soldiers = {
+		culture = yungay_runasimi
+		religion = inti
+		size = 100
+	}
+
+	farmers = {
+		culture = yungay_runasimi
+		religion = inti
+		size = 3925
+	}
+}
+
+#Tacna (100000/25000 POPS)
+3502 = {
+	aristocrats = {
+		culture = yungay_runasimi
+		religion = inti
+		size = 250
+	}
+
+	clergymen = {
+		culture = yungay_runasimi
+		religion = inti
+		size = 250
+	}
+
+	artisans = {
+		culture = yungay_runasimi
+		religion = inti
+		size = 6250
+	}
+
+	soldiers = {
+		culture = yungay_runasimi
+		religion = inti
+		size = 1100
+	}
+
+	farmers = {
+		culture = yungay_runasimi
+		religion = inti
+		size = 70925
+	}
+	
+	aristocrats = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 50
+	}
+
+	clergymen = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 50
+	}
+
+	artisans = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 1250
+	}
+
+	soldiers = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 100
+	}
+
+	farmers = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 20925
+	}
+}
+
+#Tacna (100000/25000 POPS)
+3503 = {
+	aristocrats = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 250
+	}
+
+	clergymen = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 150
+	}
+
+	artisans = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 6250
+	}
+
+	soldiers = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 1100
+	}
+
+	farmers = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 40925
+	}
+	
+	aristocrats = {
+		culture = yungay_runasimi
+		religion = inti
+		size = 50
+	}
+
+	clergymen = {
+		culture = yungay_runasimi
+		religion = inti
+		size = 50
+	}
+
+	artisans = {
+		culture = yungay_runasimi
+		religion = inti
+		size = 1250
+	}
+
+	soldiers = {
+		culture = yungay_runasimi
+		religion = inti
+		size = 100
+	}
+
+	farmers = {
+		culture = yungay_runasimi
+		religion = inti
+		size = 16925
+	}
+}
+
+#Cholon (100000/25000 POPS)
+3504 = {
+	aristocrats = {
+		culture = cholon
+		religion = inti
+		size = 550
+	}
+
+	clergymen = {
+		culture = cholon
+		religion = inti
+		size = 450
+	}
+
+	artisans = {
+		culture = cholon
+		religion = inti
+		size = 6250
+	}
+
+	soldiers = {
+		culture = cholon
+		religion = inti
+		size = 1100
+	}
+
+	farmers = {
+		culture = cholon
+		religion = inti
+		size = 50925
+	}
+	
+	aristocrats = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 50
+	}
+
+	clergymen = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 50
+	}
+
+	artisans = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 1250
+	}
+
+	soldiers = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 100
+	}
+
+	farmers = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 925
+	}
+}
+
+#Tacna (100000/25000 POPS)
+3505 = {
+	aristocrats = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 550
+	}
+
+	clergymen = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 450
+	}
+
+	artisans = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 10250
+	}
+
+	soldiers = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 1100
+	}
+
+	farmers = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 80925
+	}
+}
+
+#Tacna (100000/25000 POPS)
+3506 = {
+	aristocrats = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 550
+	}
+
+	clergymen = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 450
+	}
+
+	artisans = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 4250
+	}
+
+	soldiers = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 1100
+	}
+
+	farmers = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 51925
+	}
+}
+
+#Kulyi (100000/25000 POPS)
+3507 = {
+	aristocrats = {
+		culture = kulyi
+		religion = inti
+		size = 550
+	}
+
+	clergymen = {
+		culture = kulyi
+		religion = inti
+		size = 450
+	}
+
+	artisans = {
+		culture = kulyi
+		religion = inti
+		size = 4250
+	}
+
+	soldiers = {
+		culture = kulyi
+		religion = inti
+		size = 1100
+	}
+
+	farmers = {
+		culture = kulyi
+		religion = inti
+		size = 61925
+	}
+	
+	aristocrats = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 50
+	}
+
+	clergymen = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 50
+	}
+
+	artisans = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 2250
+	}
+
+	soldiers = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 100
+	}
+
+	farmers = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 20925
+	}
+}
+
+#Tacna (100000/25000 POPS)
+3508 = {
+	aristocrats = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 550
+	}
+
+	clergymen = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 450
+	}
+
+	artisans = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 6250
+	}
+
+	soldiers = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 1100
+	}
+
+	farmers = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 40925
+	}
+}
+
+#Tacna (100000/25000 POPS)
+3509 = {
+	aristocrats = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 150
+	}
+
+	clergymen = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 150
+	}
+
+	artisans = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 2250
+	}
+
+	soldiers = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 600
+	}
+
+	farmers = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 18925
+	}
+	
+	clergymen = {
+		culture = jaqaru
+		religion = inti
+		size = 150
+	}
+
+	artisans = {
+		culture = jaqaru
+		religion = inti
+		size = 4250
+	}
+
+	soldiers = {
+		culture = jaqaru
+		religion = inti
+		size = 600
+	}
+
+	farmers = {
+		culture = jaqaru
+		religion = inti
+		size = 4925
+	}
+}
+
+#Tacna (100000/25000 POPS)
+3510 = {
+	clergymen = {
+		culture = yanesha 
+		religion = inti
+		size = 150
+	}
+
+	artisans = {
+		culture = yanesha 
+		religion = inti
+		size = 2250
+	}
+
+	soldiers = {
+		culture = yanesha
+		religion = inti
+		size = 600
+	}
+
+	farmers = {
+		culture = yanesha 
+		religion = inti
+		size = 11000
+	}
+	
+	clergymen = {
+		culture = cholon 
+		religion = inti
+		size = 50
+	}
+
+	artisans = {
+		culture = cholon 
+		religion = inti
+		size = 1000
+	}
+
+	soldiers = {
+		culture = cholon
+		religion = inti
+		size = 600
+	}
+
+	farmers = {
+		culture = cholon 
+		religion = inti
+		size = 6925
+	}
+	
+	aristocrats = {
+		culture = waywash_runasimi 
+		religion = inti
+		size = 150
+	}
+	
+	clergymen = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 50
+	}
+
+	artisans = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 1250
+	}
+
+	soldiers = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 60
+	}
+
+	farmers = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 925
+	}
+}
+
+#Tacna (100000/25000 POPS)
+3511 = {
+	aristocrats = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 550
+	}
+
+	clergymen = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 450
+	}
+
+	artisans = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 10250
+	}
+
+	soldiers = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 1100
+	}
+
+	farmers = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 74925
+	}
+}
+
+#Tacna (100000/25000 POPS)
+3512 = {
+	aristocrats = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 350
+	}
+
+	clergymen = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 250
+	}
+
+	artisans = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 4250
+	}
+
+	soldiers = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 1100
+	}
+
+	farmers = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 29925
+	}
+	
+	aristocrats = {
+		culture = angara
+		religion = inti
+		size = 200
+	}
+
+	clergymen = {
+		culture = angara
+		religion = inti
+		size = 200
+	}
+
+	artisans = {
+		culture = angara
+		religion = inti
+		size = 6250
+	}
+
+	soldiers = {
+		culture = angara
+		religion = inti
+		size = 1000
+	}
+
+	farmers = {
+		culture = angara
+		religion = inti
+		size = 64000
+	}
+}
+
+#Tacna (100000/25000 POPS)
+3513 = {
+	aristocrats = {
+		culture = aimara
+		religion = inti
+		size = 250
+	}
+
+	clergymen = {
+		culture = aimara
+		religion = inti
+		size = 250
+	}
+
+	artisans = {
+		culture = aimara
+		religion = inti
+		size = 4250
+	}
+
+	soldiers = {
+		culture = aimara
+		religion = inti
+		size = 1100
+	}
+
+	farmers = {
+		culture = aimara
+		religion = inti
+		size = 20025
+	}
+	
+	aristocrats = {
+		culture = quechua
+		religion = inti
+		size = 50
+	}
+
+	clergymen = {
+		culture = quechua
+		religion = inti
+		size = 50
+	}
+
+	artisans = {
+		culture = quechua
+		religion = inti
+		size = 250
+	}
+}
+
+#Tacna (100000/25000 POPS)
+3514 = {
+	aristocrats = {
+		culture = quechua
+		religion = inti
+		size = 250
+	}
+
+	clergymen = {
+		culture = quechua
+		religion = inti
+		size = 250
+	}
+
+	artisans = {
+		culture = quechua
+		religion = inti
+		size = 2250
+	}
+
+	soldiers = {
+		culture = quechua
+		religion = inti
+		size = 1100
+	}
+
+	farmers = {
+		culture = quechua
+		religion = inti
+		size = 30025
+	}
+	
+	aristocrats = {
+		culture = aimara
+		religion = inti
+		size = 50
+	}
+
+	clergymen = {
+		culture = aimara
+		religion = inti
+		size = 50
+	}
+
+	artisans = {
+		culture = aimara
+		religion = inti
+		size = 250
+	}
+
+	soldiers = {
+		culture = aimara
+		religion = inti
+		size = 100
+	}
+
+	farmers = {
+		culture = aimara
+		religion = inti
+		size = 3025
+	}
+}
+
+#Tacna (100000/25000 POPS)
+3515 = {
+	aristocrats = {
+		culture = quechua
+		religion = inti
+		size = 350
+	}
+
+	clergymen = {
+		culture = quechua
+		religion = inti
+		size = 250
+	}
+
+	artisans = {
+		culture = quechua
+		religion = inti
+		size = 4250
+	}
+
+	soldiers = {
+		culture = quechua
+		religion = inti
+		size = 1100
+	}
+
+	farmers = {
+		culture = quechua
+		religion = inti
+		size = 49925
+	}
+	
+	aristocrats = {
+		culture = angara
+		religion = inti
+		size = 200
+	}
+
+	clergymen = {
+		culture = angara
+		religion = inti
+		size = 200
+	}
+
+	artisans = {
+		culture = angara
+		religion = inti
+		size = 6250
+	}
+
+	soldiers = {
+		culture = angara
+		religion = inti
+		size = 1000
+	}
+
+	farmers = {
+		culture = angara
+		religion = inti
+		size = 24000
+	}
+}
+
+#Tacna (100000/25000 POPS)
+3516 = {
+	aristocrats = {
+		culture = quechua
+		religion = inti
+		size = 350
+	}
+
+	clergymen = {
+		culture = quechua
+		religion = inti
+		size = 250
+	}
+	
+	artisans = {
+		culture = quechua
+		religion = inti
+		size = 10000
+	}
+	
+	artisans = {
+		culture = quechua
+		religion = inti
+		size = 10000
+	}
+	
+	artisans = {
+		culture = quechua
+		religion = inti
+		size = 10000
+	}
+
+	artisans = {
+		culture = quechua
+		religion = inti
+		size = 8250
+	}
+
+	soldiers = {
+		culture = quechua
+		religion = inti
+		size = 1100
+	}
+
+	farmers = {
+		culture = quechua
+		religion = inti
+		size = 54925
+	}
+	
+	artisans = {
+		culture = aimara
+		religion = inti
+		size = 7250
+	}
+}
+
+#Qusqu (100000/25000 POPS)
+3517 = {
+	aristocrats = {
+		culture = quechua
+		religion = inti
+		size = 8350
+	}
+
+	clergymen = {
+		culture = quechua
+		religion = inti
+		size = 14250
+	}
+
+	artisans = {
+		culture = quechua
+		religion = inti
+		size = 38250
+	}
+	
+	artisans = {
+		culture = atalan
+		religion = inti
+		size = 10000
+	}
+	
+	artisans = {
+		culture = aimara
+		religion = inti
+		size = 10000
+	}
+	
+	artisans = {
+		culture = aimara
+		religion = inti
+		size = 10000
+	}
+	
+	artisans = {
+		culture = chimu 
+		religion = inti
+		size = 10000
+	}
+	
+	artisans = {
+		culture = chimu 
+		religion = inti
+		size = 10000
+	}
+	
+	artisans = {
+		culture = waywash_runasimi
+		religion = inti
+		size = 10000
+	}
+	
+	artisans = {
+		culture = yungay_runasimi
+		religion = inti
+		size = 10000
+	}
+	
+	artisans = {
+		culture = kichwa
+		religion = inti
+		size = 10000
+	}
+	
+	artisans = {
+		culture = pukina
+		religion = inti
+		size = 5000
+	}
+	
+	artisans = {
+		culture = cholon
+		religion = inti
+		size = 4000
+	}
+	
+	artisans = {
+		culture = yanesha
+		religion = inti
+		size = 4000
+	}
+	
+	artisans = {
+		culture = angara
+		religion = inti
+		size = 1000
+	}
+	
+	artisans = {
+		culture = kunza
+		religion = inti
+		size = 500
+	}
+	
+	artisans = {
+		culture = diaguita
+		religion = inti
+		size = 500
+	}
+	
+	artisans = {
+		culture = jaqaru
+		religion = inti
+		size = 500
+	}
+
+	soldiers = {
+		culture = quechua
+		religion = inti
+		size = 11100
+	}
+
+	farmers = {
+		culture = quechua
+		religion = inti
+		size = 94925
+	}
+}
+
+#Tacna (100000/25000 POPS)
+3518 = {
+	aristocrats = {
+		culture = quechua
+		religion = inti
+		size = 1350
+	}
+
+	clergymen = {
+		culture = quechua
+		religion = inti
+		size = 1250
+	}
+	
+	artisans = {
+		culture = quechua
+		religion = inti
+		size = 10000
+	}
+	
+	artisans = {
+		culture = quechua
+		religion = inti
+		size = 10000
+	}
+
+	artisans = {
+		culture = quechua
+		religion = inti
+		size = 8250
+	}
+
+	soldiers = {
+		culture = quechua
+		religion = inti
+		size = 1100
+	}
+
+	farmers = {
+		culture = quechua
+		religion = inti
+		size = 44925
+	}
+	
+	farmers = {
+		culture = piro
+		religion = inti
+		size = 7250
+	}
+}
+
+#Tacna (100000/25000 POPS)
+3519 = {
+	aristocrats = {
+		culture = quechua
+		religion = inti
+		size = 350
+	}
+
+	clergymen = {
+		culture = quechua
+		religion = inti
+		size = 250
+	}
+	
+	artisans = {
+		culture = quechua
+		religion = inti
+		size = 10000
+	}
+	
+	artisans = {
+		culture = quechua
+		religion = inti
+		size = 10000
+	}
+
+	artisans = {
+		culture = quechua
+		religion = inti
+		size = 8250
+	}
+
+	soldiers = {
+		culture = quechua
+		religion = inti
+		size = 1100
+	}
+
+	farmers = {
+		culture = quechua
+		religion = inti
+		size = 64925
+	}
+}
+
+#Tacna (100000/25000 POPS)
+3520 = {
+    aristocrats = {
+		culture = quechua
+		religion = inti
+		size = 50
+	}
+
+	clergymen = {
+		culture = quechua
+		religion = inti
+		size = 50
+	}
+
+	artisans = {
+		culture = quechua
+		religion = inti
+		size = 2550
+	}
+
+	soldiers = {
+		culture = quechua
+		religion = inti
+		size = 100
+	}
+
+	farmers = {
+		culture = quechua
+		religion = inti
+		size = 6925
+	}
+	
+	farmers = {
+		culture = cholon
+		religion = inti
+		size = 525
+	}
+	
+	farmers = {
+		culture = kulyi
+		religion = inti
+		size = 125
+	}
+	
+	farmers = {
+		culture = yanesha
+		religion = inti
+		size = 1925
+	}
+	
+	farmers = {
+		culture = angara
+		religion = inti
+		size = 425
+	}
+	
+	clergymen = {
+		culture = aimara
+		religion = inti
+		size = 50
+	}
+
+	artisans = {
+		culture = aimara
+		religion = inti
+		size = 1350
+	}
+
+	soldiers = {
+		culture = aimara
+		religion = inti
+		size = 50
+	}
+
+	farmers = {
+		culture = aimara
+		religion = inti
+		size = 225
+	}
+	
+	aristocrats = {
+		culture = harakmbut
+		religion = inti
+		size = 150
+	}
+
+	clergymen = {
+		culture = harakmbut
+		religion = inti
+		size = 150
+	}
+
+	artisans = {
+		culture = harakmbut
+		religion = inti
+		size = 250
+	}
+
+	soldiers = {
+		culture = harakmbut
+		religion = inti
+		size = 1100
+	}
+
+	farmers = {
+		culture = harakmbut
+		religion = inti
+		size = 3925
+	}
+	
+	farmers = {
+		culture = harakmbut
+		religion = animist
+		size = 8000
+	}
+	
+	aristocrats = {
+		culture = tacana
+		religion = inti
+		size = 50
+	}
+
+	clergymen = {
+		culture = tacana
+		religion = inti
+		size = 70
+	}
+
+	artisans = {
+		culture = tacana
+		religion = inti
+		size = 100
+	}
+
+	soldiers = {
+		culture = tacana
+		religion = inti
+		size = 800
+	}
+
+	farmers = {
+		culture = tacana
+		religion = inti
+		size = 2925
+	}
+	
+	farmers = {
+		culture = tacana
+		religion = animist
+		size = 5000
+	}
+	
+	aristocrats = {
+		culture = panoan
+		religion = inti
+		size = 50
+	}
+
+	clergymen = {
+		culture = panoan
+		religion = inti
+		size = 50
+	}
+
+	artisans = {
+		culture = panoan
+		religion = inti
+		size = 50
+	}
+
+	soldiers = {
+		culture = panoan
+		religion = inti
+		size = 600
+	}
+
+	farmers = {
+		culture = panoan
+		religion = inti
+		size = 925
+	}
+	
+	farmers = {
+		culture = panoan
+		religion = animist
+		size = 3000
+	}
+}
+
+#Ch'unchu (100000/25000 POPS)
+3521 = {
+    aristocrats = {
+		culture = quechua
+		religion = inti
+		size = 850
+	}
+
+	clergymen = {
+		culture = quechua
+		religion = inti
+		size = 1050
+	}
+	
+	artisans = {
+		culture = quechua
+		religion = inti
+		size = 10000
+	}
+
+	artisans = {
+		culture = quechua
+		religion = inti
+		size = 550
+	}
+
+	soldiers = {
+		culture = quechua
+		religion = inti
+		size = 100
+	}
+
+	farmers = {
+		culture = quechua
+		religion = inti
+		size = 7925
+	}
+	
+	farmers = {
+		culture = angara
+		religion = inti
+		size = 1125
+	}
+	
+	farmers = {
+		culture = cara
+		religion = inti
+		size = 2125
+	}
+	
+	farmers = {
+		culture = kanari
+		religion = inti
+		size = 1125
+	}
+	
+	farmers = {
+		culture = kulyi
+		religion = inti
+		size = 1325
+	}
+	
+	farmers = {
+		culture = pukina
+		religion = inti
+		size = 1925
+	}
+	
+	clergymen = {
+		culture = yanesha
+		religion = inti
+		size = 15
+	}
+
+	artisans = {
+		culture = yanesha
+		religion = inti
+		size = 1250
+	}
+
+	soldiers = {
+		culture = yanesha
+		religion = inti
+		size = 15
+	}
+
+	farmers = {
+		culture = yanesha
+		religion = inti
+		size = 1625
+	}
+	
+	clergymen = {
+		culture = cholon
+		religion = inti
+		size = 15
+	}
+
+	artisans = {
+		culture = cholon
+		religion = inti
+		size = 350
+	}
+
+	soldiers = {
+		culture = cholon
+		religion = inti
+		size = 15
+	}
+
+	farmers = {
+		culture = cholon
+		religion = inti
+		size = 425
+	}
+	
+	clergymen = {
+		culture = aimara
+		religion = inti
+		size = 150
+	}
+
+	artisans = {
+		culture = aimara
+		religion = inti
+		size = 950
+	}
+
+	soldiers = {
+		culture = aimara
+		religion = inti
+		size = 150
+	}
+
+	farmers = {
+		culture = aimara
+		religion = inti
+		size = 525
+	}
+	
+	aristocrats = {
+		culture = campa
+		religion = inti
+		size = 150
+	}
+
+	clergymen = {
+		culture = campa
+		religion = inti
+		size = 150
+	}
+
+	artisans = {
+		culture = campa
+		religion = inti
+		size = 250
+	}
+
+	soldiers = {
+		culture = campa
+		religion = inti
+		size = 1100
+	}
+
+	farmers = {
+		culture = campa
+		religion = inti
+		size = 925
+	}
+	
+	farmers = {
+		culture = campa
+		religion = animist
+		size = 23000
+	}
+	
+	aristocrats = {
+		culture = piro
+		religion = inti
+		size = 50
+	}
+
+	clergymen = {
+		culture = piro
+		religion = inti
+		size = 100
+	}
+
+	artisans = {
+		culture = piro
+		religion = inti
+		size = 50
+	}
+
+	soldiers = {
+		culture = piro
+		religion = inti
+		size = 200
+	}
+
+	farmers = {
+		culture = piro
+		religion = inti
+		size = 2000
+	}
+	
+	farmers = {
+		culture = piro
+		religion = animist
+		size = 8000
+	}
+}
+
+#Tacna (100000/25000 POPS)
+3522 = {
+    aristocrats = {
+		culture = quechua
+		religion = inti
+		size = 1150
+	}
+
+	clergymen = {
+		culture = quechua
+		religion = inti
+		size = 1650
+	}
+	
+	artisans = {
+		culture = quechua
+		religion = inti
+		size = 10000
+	}
+	
+	artisans = {
+		culture = quechua
+		religion = inti
+		size = 10000
+	}
+
+	artisans = {
+		culture = quechua
+		religion = inti
+		size = 8550
+	}
+
+	soldiers = {
+		culture = quechua
+		religion = inti
+		size = 1100
+	}
+
+	farmers = {
+		culture = quechua
+		religion = inti
+		size = 71925
+	}
+}
+
+#Tukumi (100000/25000 POPS)
+3530 = {
+    aristocrats = {
+		culture = chimu
+		religion = inti
+		size = 1150
+	}
+
+	clergymen = {
+		culture = chimu
+		religion = inti
+		size = 1650
+	}
+	
+	artisans = {
+		culture = chimu
+		religion = inti
+		size = 10000
+	}
+
+	artisans = {
+		culture = chimu
+		religion = inti
+		size = 8550
+	}
+
+	soldiers = {
+		culture = chimu
+		religion = inti
+		size = 1100
+	}
+
+	farmers = {
+		culture = chimu
+		religion = inti
+		size = 183410
+	}
+}

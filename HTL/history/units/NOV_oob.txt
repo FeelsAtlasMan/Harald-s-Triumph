@@ -1,0 +1,45 @@
+#Relations
+MUS = { 
+	value = -150
+}
+
+SWE = { 
+	value = 200
+}
+
+BOH = { 
+	value = -150
+}
+
+leader = {
+	name = "Dmitry Budyonny"
+	date = 1820.1.1
+	type = land
+	personality = steadfast
+	background = aristocrat
+	prestige = 0.2
+}
+
+leader = {
+	name = "Aleksandr Surkov"
+	date = 1820.1.1
+	type = land
+	personality = perverse
+	background = aristocrat
+	prestige = 0.2
+}
+
+army = {
+	name = "1. Army of Novgorod"
+	location = 1003
+	regiment = {
+		name= "1. Infantry"
+		type = infantry
+		home = 1003
+	}
+	regiment = {
+		name= "2. artillery"
+		type = artillery
+		home = 2580
+	}
+}

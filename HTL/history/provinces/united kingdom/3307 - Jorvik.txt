@@ -1,0 +1,37 @@
+owner = NRD
+controller = NRD
+add_core = NRD
+add_core = ENG
+trade_goods = coal
+life_rating = 45
+naval_base = 2
+state_building = {
+	level = 2
+	building = cement_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = glass_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = liquor_distillery
+	upgrade = yes
+}
+state_building = {
+	level = 2
+	building = steamer_shipyard
+	upgrade = yes
+}
+state_building = {
+	level = 2
+	building = explosives_factory
+	upgrade = yes
+}
+state_building = {
+	level = 3
+	building = artillery_factory
+	upgrade = yes
+}

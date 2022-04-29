@@ -1,0 +1,618 @@
+#Casamance Region (96000) #see Guinea Bissau.txt and Senegambia.txt for balance of Region
+#under the rule of Gabu in 1836
+#Boffa (192000/48000 POPS) #now part of Guinea
+1879 = {
+	aristocrats = {
+		culture = susu
+		religion = sunni
+		size = 900
+	}
+
+	clergymen = {
+		culture = susu
+		religion = sunni
+		size = 500
+	}
+
+	artisans = {
+		culture = susu
+		religion = sunni
+		size = 1900
+	}
+
+	soldiers = {
+		culture = susu
+		religion = sunni
+		size = 2700
+	}
+
+	farmers = {
+		culture = susu
+		religion = sunni
+		size = 30000
+	}
+	
+	aristocrats = {
+		culture = fulbe
+		religion = sunni
+		size = 300
+	}
+
+	clergymen = {
+		culture = fulbe
+		religion = sunni
+		size = 100
+	}
+
+	artisans = {
+		culture = fulbe
+		religion = sunni
+		size = 900
+	}
+
+	soldiers = {
+		culture = fulbe
+		religion = sunni
+		size = 700
+	}
+
+	farmers = {
+		culture = fulbe
+		religion = sunni
+		size = 12000
+	}
+	
+	aristocrats = {
+		culture = baga
+		religion = animist
+		size = 90
+	}
+
+	clergymen = {
+		culture = baga
+		religion = animist
+		size = 50
+	}
+
+	artisans = {
+		culture = baga
+		religion = animist
+		size = 190
+	}
+
+	soldiers = {
+		culture = baga
+		religion = animist
+		size = 700
+	}
+
+	farmers = {
+		culture = baga
+		religion = animist
+		size = 11000
+	}
+	
+	aristocrats = {
+		culture = nalu
+		religion = animist
+		size = 90
+	}
+
+	clergymen = {
+		culture = nalu
+		religion = animist
+		size = 50
+	}
+
+	artisans = {
+		culture = nalu
+		religion = animist
+		size = 190
+	}
+
+	soldiers = {
+		culture = nalu
+		religion = animist
+		size = 700
+	}
+
+	farmers = {
+		culture = nalu
+		religion = animist
+		size = 12000
+	}
+
+	slaves = {
+		culture = temne
+		religion = animist
+		size = 6000
+	}
+}
+#Jallon Region (540000) #see Sierra Leone.txt for balance of Region
+#uncolonized in 1836/ruled by Emirate of Futa Jallon
+#Timbo (540000/135000 POPS)  
+1880 = {
+	aristocrats = {
+		culture = fulbe
+		religion = sunni
+		size = 1750
+	}
+
+	bureaucrats = {
+		culture = fulbe
+		religion = sunni
+		size = 375
+	}
+
+	officers = {
+		culture = fulbe
+		religion = sunni
+		size = 75
+	}
+
+	clergymen = {
+		culture = fulbe
+		religion = sunni
+		size = 375
+	}
+
+	artisans = {
+		culture = fulbe
+		religion = sunni
+		size = 1575
+	}
+
+	soldiers = {
+		culture = fulbe
+		religion = sunni
+		size = 1150
+	}
+
+	farmers = {
+		culture = fulbe
+		religion = sunni
+		size = 86400
+	}
+	
+	clergymen = {
+		culture = tenda
+		religion = animist
+		size = 37
+	}
+
+	artisans = {
+		culture = tenda
+		religion = animist
+		size = 15
+	}
+
+	soldiers = {
+		culture = tenda
+		religion = animist
+		size = 150
+	}
+
+	farmers = {
+		culture = tenda
+		religion = animist
+		size = 5400
+	}
+	
+	aristocrats = {
+		culture = temne
+		religion = animist
+		size = 18
+	}
+
+	clergymen = {
+		culture = temne
+		religion = animist
+		size = 97
+	}
+
+	artisans = {
+		culture = temne
+		religion = animist
+		size = 48
+	}
+
+	soldiers = {
+		culture = temne
+		religion = animist
+		size = 125
+	}
+
+	farmers = {
+		culture = temne
+		religion = animist
+		size = 4000
+	}
+
+	aristocrats = {
+		culture = bambara
+		religion = animist
+		size = 180
+	}
+
+	clergymen = {
+		culture = bambara
+		religion = animist
+		size = 205
+	}
+
+	artisans = {
+		culture = bambara
+		religion = animist
+		size = 2000
+	}
+
+	soldiers = {
+		culture = bambara
+		religion = animist
+		size = 125
+	}
+
+	farmers = {
+		culture = bambara
+		religion = animist
+		size = 3000
+	}
+	
+	aristocrats = {
+		culture = dyula
+		religion = animist
+		size = 180
+	}
+
+	clergymen = {
+		culture = dyula
+		religion = animist
+		size = 205
+	}
+
+	artisans = {
+		culture = dyula
+		religion = animist
+		size = 2800
+	}
+
+	soldiers = {
+		culture = dyula
+		religion = animist
+		size = 125
+	}
+
+	farmers = {
+		culture = dyula
+		religion = animist
+		size = 6000
+	}
+	
+	farmers = {
+		culture = yalunka
+		religion = animist
+		size = 18000
+	}
+
+	slaves = {
+		culture = limba
+		religion = animist
+		size = 6000
+	}
+}
+#Dinguiraye (272000/68000 POPS)  
+1881 = {
+	aristocrats = {
+		culture = fulbe
+		religion = sunni
+		size = 565
+	}
+
+	clergymen = {
+		culture = fulbe
+		religion = sunni
+		size = 300
+	}
+
+	artisans = {
+		culture = fulbe
+		religion = sunni
+		size = 1165
+	}
+
+	soldiers = {
+		culture = fulbe
+		religion = sunni
+		size = 1015
+	}
+
+	farmers = {
+		culture = fulbe
+		religion = sunni
+		size = 18900
+	}
+
+	aristocrats = {
+		culture = bambara
+		religion = sunni
+		size = 565
+	}
+
+	officers = {
+		culture = bambara
+		religion = sunni
+		size = 115
+	}
+
+	clergymen = {
+		culture = bambara
+		religion = sunni
+		size = 300
+	}
+
+	artisans = {
+		culture = bambara
+		religion = sunni
+		size = 1500
+	}
+
+	soldiers = {
+		culture = bambara
+		religion = sunni
+		size = 2300
+	}
+
+	farmers = {
+		culture = bambara
+		religion = sunni
+		size = 28225
+	}
+
+	aristocrats = {
+		culture = bambara
+		religion = animist
+		size = 200
+	}
+
+	clergymen = {
+		culture = bambara
+		religion = animist
+		size = 75
+	}
+
+	artisans = {
+		culture = bambara
+		religion = animist
+		size = 450
+	}
+
+	soldiers = {
+		culture = bambara
+		religion = animist
+		size = 75
+	}
+
+	farmers = {
+		culture = bambara
+		religion = animist
+		size = 8250
+	}
+
+	slaves = {
+		culture = yalunka
+		religion = animist
+		size = 10000
+	}
+}
+#Bure Region (340000) #see Mali.txt and Ivory Coast.txt for balance of Region
+#uncolonized in 1836/ruled by Futa Jallon
+#Kankan (236000/59000 POPS)  
+1882 = {
+	aristocrats = {
+		culture = fulbe
+		religion = sunni
+		size = 390
+	}
+
+	clergymen = {
+		culture = fulbe
+		religion = sunni
+		size = 115
+	}
+
+	artisans = {
+		culture = fulbe
+		religion = sunni
+		size = 600
+	}
+
+	soldiers = {
+		culture = fulbe
+		religion = sunni
+		size = 150
+	}
+
+	farmers = {
+		culture = fulbe
+		religion = sunni
+		size = 9450
+	}
+
+	aristocrats = {
+		culture = bambara
+		religion = sunni
+		size = 715
+	}
+
+	clergymen = {
+		culture = bambara
+		religion = sunni
+		size = 375
+	}
+
+	artisans = {
+		culture = bambara
+		religion = sunni
+		size = 1875
+	}
+
+	soldiers = {
+		culture = bambara
+		religion = sunni
+		size = 1025
+	}
+
+	farmers = {
+		culture = bambara
+		religion = sunni
+		size = 36090
+	}
+
+	aristocrats = {
+		culture = dyula
+		religion = animist
+		size = 150
+	}
+
+	clergymen = {
+		culture = dyula
+		religion = animist
+		size = 75
+	}
+
+	artisans = {
+		culture = dyula
+		religion = animist
+		size = 450
+	}
+
+	soldiers = {
+		culture = dyula
+		religion = animist
+		size = 115
+	}
+
+	farmers = {
+		culture = dyula
+		religion = animist
+		size = 8215
+	}
+
+	slaves = {
+		culture = dyula
+		religion = animist
+		size = 4500
+	}
+}
+#uncolonized in 1836
+#Beyla (184000/46000 POPS)  
+1883 = {
+	aristocrats = {
+		culture = bambara
+		religion = sunni
+		size = 800
+	}
+
+	clergymen = {
+		culture = bambara
+		religion = sunni
+		size = 400
+	}
+
+	artisans = {
+		culture = bambara
+		religion = sunni
+		size = 1650
+	}
+
+	soldiers = {
+		culture = bambara
+		religion = sunni
+		size = 425
+	}
+
+	farmers = {
+		culture = bambara
+		religion = sunni
+		size = 8000
+	}
+	
+	farmers = {
+		culture = dyula
+		religion = animist
+		size = 4725
+	}
+
+	aristocrats = {
+		culture = southwestern_mande
+		religion = animist
+		size = 100
+	}
+
+	clergymen = {
+		culture = southwestern_mande
+		religion = animist
+		size = 100
+	}
+
+	artisans = {
+		culture = southwestern_mande
+		religion = animist
+		size = 250
+	}
+
+	soldiers = {
+		culture = southwestern_mande
+		religion = animist
+		size = 1100
+	}
+
+	farmers = {
+		culture = southwestern_mande
+		religion = animist
+		size = 10000
+	}
+	
+	farmers = {
+		culture = mano_dan
+		religion = animist
+		size = 9000
+	}
+	
+	aristocrats = {
+		culture = kissi
+		religion = animist
+		size = 100
+	}
+
+	clergymen = {
+		culture = kissi
+		religion = animist
+		size = 100
+	}
+
+	artisans = {
+		culture = kissi
+		religion = animist
+		size = 250
+	}
+
+	soldiers = {
+		culture = kissi
+		religion = animist
+		size = 100
+	}
+
+	farmers = {
+		culture = kissi
+		religion = animist
+		size = 4550
+	}
+
+	slaves = {
+		culture = kissi
+		religion = animist
+		size = 5000
+	}
+
+}

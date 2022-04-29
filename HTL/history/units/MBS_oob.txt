@@ -1,0 +1,58 @@
+ZAN = {
+	value = 85
+}
+
+KLW = {
+	value = -200
+}
+
+SFL = {
+	value = -200
+}
+
+AGC = {
+	value = -200
+}
+
+GEL = {
+	value = 130
+}
+
+army = {
+	name = "The Sultans Army"
+	location = 2029
+regiment = {
+		name= "Infantry"
+		type = infantry
+	home = 2029 }
+
+
+regiment = {
+		name= "Infantry"
+		type = infantry
+	home = 2029 }
+
+
+regiment = {
+		name= "Infantry"
+		type = infantry
+       home = 2030 }
+regiment = {
+		name= "Infantry"
+		type = infantry
+	home = 2030 }
+
+
+regiment = {
+		name= "Artillery"
+		type = artillery
+	home = 1870 }
+
+
+regiment = {
+		name= "Artillery"
+		type = artillery
+       home = 1870 }
+}
+
+

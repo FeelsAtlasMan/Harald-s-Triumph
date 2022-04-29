@@ -364,7 +364,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-	    months = 60
+	    months = 20
 	}
 	
 	fire_only_once = yes
@@ -711,7 +711,7 @@ country_event = {
 	picture = "deliberation"
 
     trigger = {
-	    all_core = { limit = { is_core = YZD } owned_by = THIS }
+	    YZD = { all_core = { owned_by = THIS } }
 		has_country_flag = respected_zoroastrians
 	}
 	
@@ -742,8 +742,8 @@ country_event = {
 	picture = "deliberation"
 
     trigger = {
-	    all_core = { limit = { is_core = YZD } owned_by = THIS }
-		has_country_flag = respected_zoroastrians
+	    YZD = { all_core = { owned_by = THIS } }
+		has_country_flag = disrespected_zoroastrians
 	}
 	
 	fire_only_once = yes
@@ -755,9 +755,35 @@ country_event = {
 		    limit = {
 			    has_pop_religion = zoroastrian
 			}
-			reduce_pop = 0.8
+			reduce_pop = 0.7
 		}
-		any_pop = { limit = { has_pop_religion = zoroastrian consciousness = 3 } move_pop = 1296 }
+		any_pop = { limit = { has_pop_religion = zoroastrian consciousness = 1.5 } move_pop = 1296 }
         ai_chance = { factor = 100 }
     }
+}
+
+country_event = {
+    id = 88025
+    title = "Wakil-e Mardom"
+    desc = "EVTDESC88025"
+	picture = "protector_of_the_people"
+	
+	trigger = {
+		tag = FRS
+		has_country_flag = zoroastrian_matters
+		has_country_flag = subjegated_khorasan
+		all_core = { owned_by = THIS }
+		NOT = { has_country_flag = protector_of_the_people_title }
+		war = no
+	}
+	
+	fire_only_once = yes
+		
+	effect = {
+	    prestige = 30
+		militancy = -5
+		consciousness = -3
+		set_country_flag = protector_of_the_people_title
+		ai_chance = { factor = 100 }
+	}	
 }

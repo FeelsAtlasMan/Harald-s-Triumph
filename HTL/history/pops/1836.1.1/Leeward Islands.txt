@@ -1,0 +1,222 @@
+#Leeward Islands Region - 61600
+#Ruled by Britain 1836
+#Antigua (25000/6250 POPS) #now independent
+2224 = {
+	aristocrats = {
+		culture = british
+		religion = protestant
+		size = 50
+	}
+
+	bureaucrats = {
+		culture = british
+		religion = protestant
+		size = 30
+	}
+
+	clergymen = {
+		culture = british
+		religion = protestant
+		size = 10
+	}
+
+	artisans = {
+		culture = british
+		religion = protestant
+		size = 200
+	}
+
+	soldiers = {
+		culture = british
+		religion = protestant
+		size = 10
+	}
+
+	farmers = {
+		culture = british
+		religion = protestant
+		size = 200
+	}
+
+	clergymen = {
+		culture = taino
+		religion = protestant
+		size = 75
+	}
+
+	artisans = {
+		culture = taino
+		religion = protestant
+		size = 150
+	}
+
+	soldiers = {
+		culture = taino
+		religion = protestant
+		size = 50
+	}
+	
+	slaves = {
+		culture = taino
+		religion = protestant
+		size = 1470
+	}
+
+	slaves = {
+		culture = kreol
+		religion = protestant
+		size = 5470
+	}
+}
+#Montserrat (5300/1325 POPS) #still British Colony
+2225 = {
+
+	clergymen = {
+		culture = taino
+		religion = catholic
+		size = 15
+	}
+
+	artisans = {
+		culture = taino
+		religion = catholic
+		size = 45
+	}
+
+	soldiers = {
+		culture = taino
+		religion = catholic
+		size = 10
+	}
+	
+	farmers = {
+		culture = taino
+		religion = catholic
+		size = 380
+	}
+
+	farmers = {
+		culture = kreol
+		religion = catholic
+		size = 2380
+	}
+}
+#Tortola (4800/1200 POPS) #still British Colony
+2226 = {
+	aristocrats = {
+		culture = french
+		religion = catholic
+		size = 10
+	}
+
+	clergymen = {
+		culture = french
+		religion = catholic
+		size = 10
+	}
+
+	artisans = {
+		culture = french
+		religion = catholic
+		size = 40
+	}
+
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 40
+	}
+
+	clergymen = {
+		culture = taino
+		religion = catholic
+		size = 15
+	}
+
+	artisans = {
+		culture = taino
+		religion = catholic
+		size = 35
+	}
+
+	soldiers = {
+		culture = taino
+		religion = catholic
+		size = 10
+	}
+	
+	farmers = {
+		culture = taino
+		religion = catholic
+		size = 140
+	}
+
+	slaves = {
+		culture = kreol
+		religion = catholic
+		size = 1040
+	}
+}
+#Saint Kitts (26500/6625 POPS) #now independent
+2227 = {
+	aristocrats = {
+		culture = french
+		religion = catholic
+		size = 75
+	}
+
+	clergymen = {
+		culture = french
+		religion = catholic
+		size = 15
+	}
+
+	artisans = {
+	    culture = french
+		religion = catholic
+		size = 225
+	}
+
+	soldiers = {
+		culture = french
+		religion = catholic
+		size = 50
+	}
+
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 260
+	}
+
+	clergymen = {
+	    culture = taino
+		religion = catholic
+		size = 75
+	}
+
+	artisans = {
+		culture = taino
+		religion = catholic
+		size = 150
+	}
+
+	soldiers = {
+		culture = taino
+		religion = catholic
+		size = 75
+	}
+	
+	farmers = {
+		culture = taino
+		religion = catholic
+		size = 900
+	}
+
+	farmers = {
+		culture = kreol
+		religion = catholic
+		size = 5900
+	}
+
+}

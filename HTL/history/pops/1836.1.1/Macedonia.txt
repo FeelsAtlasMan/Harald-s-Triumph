@@ -1,0 +1,522 @@
+#Macedonia Region (424000) #see Greece.txt and Bulgaria.txt for balance of region 
+#under the rule of Ottoman Empire in 1836  
+#Skopje (424000/106000 POPS) 
+806 = {
+	aristocrats = {
+		culture = aromanian
+		religion = orthodox
+		size = 450
+	}
+
+	clergymen = {
+		culture = aromanian
+		religion = orthodox
+		size = 325
+	}
+
+	artisans = {
+		culture = aromanian
+		religion = orthodox
+		size = 1000
+	}
+
+	soldiers = {
+		culture = aromanian
+		religion = orthodox
+		size = 2000
+	}
+
+	farmers = {
+		culture = aromanian
+		religion = orthodox
+		size = 15225
+	}
+
+	aristocrats = {
+		culture = makedonian
+		religion = orthodox
+		size = 2125
+	}
+	
+	officers = {
+		culture = makedonian
+		religion = orthodox
+		size = 110
+	}
+	
+	soldiers = {
+		culture = makedonian
+		religion = orthodox
+		size = 200
+	}
+	
+	clergymen = {
+		culture = makedonian
+		religion = orthodox
+		size = 125
+	}
+
+	artisans = {
+		culture = makedonian
+		religion = orthodox
+		size = 3100
+	}
+
+	farmers = {
+		culture = makedonian
+		religion = orthodox
+		size = 46350
+	}
+	
+	aristocrats = {
+		culture = greek
+		religion = orthodox
+		size = 110
+	}
+	
+	officers = {
+		culture = greek
+		religion = orthodox
+		size = 110
+	}
+	
+	soldiers = {
+		culture = greek
+		religion = orthodox
+		size = 200
+	}
+
+	clergymen = {
+		culture = greek
+		religion = orthodox
+		size = 110
+	}
+
+	artisans = {
+		culture = greek
+		religion = orthodox
+		size = 1200
+	}
+
+	farmers = {
+		culture = greek
+		religion = orthodox
+		size = 6200
+	}
+	
+	farmers = {
+		culture = gypsy
+		religion = orthodox
+		size = 4200
+	}
+
+	artisans = {
+		culture = sephardic
+		religion = jewish
+		size = 700
+	}
+
+	farmers = {
+		culture = sephardic
+		religion = jewish
+		size = 300
+	}
+}
+#Monastir Region (268000) #see Greece.txt for balance of region 
+#under the rule of Ottoman Empire in 1836  
+#Bitola (268000/67000 POPS) 
+807 = {
+	soldiers = {
+		culture = torlakian
+		religion = orthodox
+		size = 1200
+	}
+	
+	clergymen = {
+		culture = torlakian
+		religion = orthodox
+		size = 110
+	}
+
+	artisans = {
+		culture = torlakian
+		religion = orthodox
+		size = 425
+	}
+
+	farmers = {
+		culture = torlakian
+		religion = orthodox
+		size = 14075
+	}
+	
+	soldiers = {
+		culture = albanian
+		religion = orthodox
+		size = 200
+	}
+	
+	clergymen = {
+		culture = albanian
+		religion = orthodox
+		size = 30
+	}
+
+	artisans = {
+		culture = albanian
+		religion = orthodox
+		size = 125
+	}
+
+	farmers = {
+		culture = albanian
+		religion = orthodox
+		size = 10000
+	}
+
+	aristocrats = {
+		culture = makedonian
+		religion = orthodox
+		size = 1500
+	}
+
+	bureaucrats = {
+		culture = makedonian
+		religion = orthodox
+		size = 225
+	}
+
+	officers = {
+		culture = makedonian
+		religion = orthodox
+		size = 175
+	}
+
+	clergymen = {
+		culture = makedonian
+		religion = orthodox
+		size = 50
+	}
+
+	artisans = {
+		culture = makedonian
+		religion = orthodox
+		size = 1300
+	}
+
+	farmers = {
+		culture = aromanian
+		religion = orthodox
+		size = 1100
+	}
+	
+	farmers = {
+		culture = gypsy
+		religion = orthodox
+		size = 400
+	}
+
+	artisans = {
+		culture = sephardic
+		religion = jewish
+		size = 400
+	}
+
+}
+
+#Ohrid - Former Tichit
+1780 = {
+    aristocrats = {
+		culture = albanian
+		religion = orthodox
+		size = 614
+	}
+	
+	bureaucrats = {
+		culture = albanian
+		religion = orthodox
+		size = 143
+	}
+	
+	officers = {
+		culture = albanian
+		religion = orthodox
+		size = 122
+	}
+    
+	clergymen = {
+		culture = albanian
+		religion = orthodox
+		size = 125
+	}
+
+	artisans = {
+		culture = albanian
+		religion = orthodox
+		size = 400
+	}
+
+	soldiers = {
+		culture = albanian
+		religion = orthodox
+		size = 2100
+	}
+
+	farmers = {
+		culture = albanian
+		religion = orthodox
+		size = 36062
+	}
+	
+	clergymen = {
+		culture = aromanian
+		religion = orthodox
+		size = 125
+	}
+
+	artisans = {
+		culture = aromanian
+		religion = orthodox
+		size = 400
+	}
+
+	soldiers = {
+		culture = aromanian
+		religion = orthodox
+		size = 100
+	}
+
+	farmers = {
+		culture = aromanian
+		religion = orthodox
+		size = 6062
+	}
+	
+	soldiers = {
+		culture = makedonian
+		religion = orthodox
+		size = 175
+	}
+
+	clergymen = {
+		culture = makedonian
+		religion = orthodox
+		size = 110
+	}
+
+	artisans = {
+		culture = makedonian
+		religion = orthodox
+		size = 250
+	}
+	
+	farmers = {
+		culture = makedonian
+		religion = orthodox
+		size = 10100
+	}
+	
+	farmers = {
+		culture = gypsy
+		religion = orthodox
+		size = 700
+	}
+}
+
+#Kastoria
+3674 = {
+	clergymen = {
+		culture = tosk
+		religion = orthodox
+		size = 125
+	}
+
+	artisans = {
+		culture = tosk
+		religion = orthodox
+		size = 400
+	}
+
+	soldiers = {
+		culture = tosk
+		religion = orthodox
+		size = 1100
+	}
+
+	farmers = {
+		culture = tosk
+		religion = orthodox
+		size = 7062
+	}
+	
+	clergymen = {
+		culture = aromanian
+		religion = orthodox
+		size = 125
+	}
+
+	artisans = {
+		culture = aromanian
+		religion = orthodox
+		size = 400
+	}
+
+	soldiers = {
+		culture = aromanian
+		religion = orthodox
+		size = 100
+	}
+
+	farmers = {
+		culture = aromanian
+		religion = orthodox
+		size = 7062
+	}
+	
+	soldiers = {
+		culture = makedonian
+		religion = orthodox
+		size = 175
+	}
+
+	clergymen = {
+		culture = makedonian
+		religion = orthodox
+		size = 110
+	}
+
+	artisans = {
+		culture = makedonian
+		religion = orthodox
+		size = 250
+	}
+	
+	farmers = {
+		culture = makedonian
+		religion = orthodox
+		size = 3100
+	}
+	
+	farmers = {
+		culture = gypsy
+		religion = orthodox
+		size = 300
+	}
+}
+
+#Solon
+3675 = {
+	clergymen = {
+		culture = megleno_romanian
+		religion = orthodox
+		size = 125
+	}
+
+	artisans = {
+		culture = megleno_romanian
+		religion = orthodox
+		size = 400
+	}
+
+	soldiers = {
+		culture = megleno_romanian
+		religion = orthodox
+		size = 100
+	}
+
+	farmers = {
+		culture = megleno_romanian
+		religion = orthodox
+		size = 7062
+	}
+	
+	clergymen = {
+		culture = aromanian
+		religion = orthodox
+		size = 125
+	}
+
+	artisans = {
+		culture = aromanian
+		religion = orthodox
+		size = 400
+	}
+
+	soldiers = {
+		culture = aromanian
+		religion = orthodox
+		size = 100
+	}
+
+	farmers = {
+		culture = aromanian
+		religion = orthodox
+		size = 4062
+	}
+	
+	aristocrats = {
+		culture = makedonian
+		religion = orthodox
+		size = 275
+	}
+
+	clergymen = {
+		culture = makedonian
+		religion = orthodox
+		size = 610
+	}
+
+	artisans = {
+		culture = makedonian
+		religion = orthodox
+		size = 1250
+	}
+	
+	soldiers = {
+		culture = makedonian
+		religion = orthodox
+		size = 2175
+	}
+	
+	farmers = {
+		culture = makedonian
+		religion = orthodox
+		size = 63100
+	}
+	
+	aristocrats = {
+		culture = greek
+		religion = orthodox
+		size = 75
+	}
+
+	clergymen = {
+		culture = greek
+		religion = orthodox
+		size = 110
+	}
+
+	artisans = {
+		culture = greek
+		religion = orthodox
+		size = 1250
+	}
+	
+	soldiers = {
+		culture = greek
+		religion = orthodox
+		size = 175
+	}
+	
+	farmers = {
+		culture = greek
+		religion = orthodox
+		size = 4000
+	}
+	
+	farmers = {
+		culture = gypsy
+		religion = orthodox
+		size = 2100
+	}
+}
