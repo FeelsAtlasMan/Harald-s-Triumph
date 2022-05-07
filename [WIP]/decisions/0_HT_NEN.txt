@@ -9,7 +9,10 @@ political_decisions = {
 		}
 		
 		allow = {
-			ideological_thought = 1
+			OR = {
+				ideological_thought = 1
+				year = 1840
+			}
 			NTC = { 
 				vassal_of = THIS
 				ai = yes    
