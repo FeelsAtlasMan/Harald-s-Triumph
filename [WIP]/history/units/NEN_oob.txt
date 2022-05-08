@@ -1,0 +1,63 @@
+
+
+leader = {
+	name = "Edwin Hoeber"
+	picture = nen_gen_hoeber
+	type = land
+	date="1764.1.1"
+	personality = defiant
+	background = natural_born_leader
+	prestige = 0.2
+}
+
+army = {
+	name = "Bondesarmee"
+	location = 243
+	regiment = {
+		name= "Freddrechsäje Rejiment"
+		type = infantry
+		home = 211
+	}
+
+	regiment = {
+		name= "Patameck Rejiment"
+		type = infantry
+		home = 215
+	}
+	
+	regiment = {
+		name= "Honsrögge Rejiment"
+		type = infantry
+		home = 226
+	}
+
+	regiment = {
+		name= "Neu-Grönnen Rejiment"
+		type = infantry
+		home = 223
+	}
+	
+	regiment = {
+		name= "Weldsteenköst Rejiment"
+		type = infantry
+		home = 243
+	}
+
+	regiment = {
+		name= "Morjeland Rejiment"
+		type = infantry
+		home = 247
+	}
+	
+	regiment = {
+		name= "Hoebers Rieder"
+		type = dragoon
+		home = 241
+	}
+	
+}
+
+
+
+
+
