@@ -3904,6 +3904,18 @@
 	}
 	
 	artisans = {
+		culture = raji
+		religion = sunni
+		size = 10
+	}
+
+	farmers = {
+		culture = raji
+		religion = sunni
+		size = 700
+	}
+	
+	artisans = {
 		culture = mazanderani
 		religion = shiite
 		size = 300
@@ -4165,18 +4177,18 @@
 		size = 1900
 	}
 }
-#Dashte-e Kavir (48000/12000 POPS)
+#Dasht-e Kavir (48000/12000 POPS)
 3386 = {	
 	artisans = {
-		culture = raji
+		culture = khuri
 		religion = sunni
-		size = 600
+		size = 400
 	}
 
 	farmers = {
-		culture = raji
+		culture = khuri
 		religion = sunni
-		size = 2000
+		size = 1000
 	}
 	
 	artisans = {
@@ -4194,13 +4206,13 @@
 	artisans = {
 		culture = raji
 		religion = shiite
-		size = 50
+		size = 350
 	}
 
 	farmers = {
 		culture = raji
 		religion = shiite
-		size = 100
+		size = 900
 	}
 	
 	farmers = {
@@ -6118,6 +6130,30 @@
 		size = 4625
 	}
 	
+	clergymen = {
+		culture = baluchi
+		religion = sunni
+		size = 20
+	}
+
+	artisans = {
+		culture = sivandi
+		religion = sunni
+		size = 300
+	}
+
+	soldiers = {
+		culture = sivandi
+		religion = sunni
+		size = 10
+	}
+
+	farmers = {
+		culture = sivandi
+		religion = sunni
+		size = 825
+	}
+	
 	farmers = {
 		culture = qashqai
 		religion = shiite
@@ -6623,31 +6659,31 @@
 	}
 	
 	aristocrats = {
-		culture = qashqai
-		religion = shiite
+		culture = aynallu
+		religion = sunni
 		size = 70
 	}
 
 	clergymen = {
-		culture = turkmen
+		culture = aynallu
 		religion = sunni
 		size = 10
 	}
 
 	artisans = {
-		culture = turkmen
+		culture = aynallu
 		religion = sunni
 		size = 80
 	}
 
 	soldiers = {
-	culture = turkmen
+	    culture = aynallu
 		religion = sunni
 		size = 660
 	}
 	
 	farmers = {
-	    culture = turkmen
+	    culture = aynallu
 		religion = sunni
 		size = 1025
 	}
@@ -6745,7 +6781,7 @@
 	}
 	
 	farmers = {
-		culture = turkmen
+		culture = aynallu
 		religion = sunni
 		size = 2925
 	}
@@ -7124,6 +7160,30 @@
 		culture = persian
 		religion = shiite
 		size = 500
+	}
+	
+	aristocrats = {
+		culture = afshar
+		religion = sunni
+		size = 5
+	}
+
+	clergymen = {
+		culture = afshar
+		religion = sunni
+		size = 5
+	}
+	
+	soldiers = {
+		culture = afshar
+		religion = sunni
+		size = 225
+	}
+	
+	farmers = {
+		culture = afshar
+		religion = sunni
+		size = 475
 	}
 	
 	aristocrats = {
@@ -8115,91 +8175,91 @@
 #Mashhad (380000/95000 POPS)
 1147 = {
 	aristocrats = {
-		culture = persian
+		culture = khorasani_persian
 		religion = shiite
 		size = 1400
 	}
 
 	bureaucrats = {
-		culture = persian
+		culture = khorasani_persian
 		religion = shiite
 		size = 140
 	}
 
 	officers = {
-		culture = persian
+		culture = khorasani_persian
 		religion = shiite
 		size = 165
 	}
 
 	clergymen = {
-		culture = persian
+		culture = khorasani_persian
 		religion = shiite
 		size = 2800
 	}
 
 	artisans = {
-		culture = persian
+		culture = khorasani_persian
 		religion = shiite
 		size = 10000
 	}
 	
 	artisans = {
-		culture = persian
+		culture = khorasani_persian
 		religion = shiite
 		size = 5000
 	}
 
 	soldiers = {
-		culture = persian
+		culture = khorasani_persian
 		religion = shiite
 		size = 1050
 	}
 
 	farmers = {
-		culture = persian
+		culture = khorasani_persian
 		religion = shiite
 		size = 40000
 	}
 	
 	aristocrats = {
-		culture = persian
+		culture = khorasani_persian
 		religion = sunni
 		size = 150
 	}
 
 	bureaucrats = {
-		culture = persian
+		culture = khorasani_persian
 		religion = sunni
 		size = 15
 	}
 
 	officers = {
-		culture = persian
+		culture = khorasani_persian
 		religion = sunni
 		size = 15
 	}
 
 	clergymen = {
-		culture = persian
+		culture = khorasani_persian
 		religion = sunni
 		size = 25
 	}
 
 	artisans = {
-		culture = persian
+		culture = khorasani_persian
 		religion = sunni
 		size = 100
 	}
 
 	soldiers = {
-		culture = persian
+		culture = khorasani_persian
 		religion = sunni
 		size = 50
 	}
 
 	farmers = {
-		culture = persian
+		culture = khorasani_persian
 		religion = sunni
 		size = 4550
 	}
@@ -8352,61 +8412,61 @@
 #Zaveh (380000/95000 POPS)
 3643 = {
 	aristocrats = {
-		culture = persian
+		culture = khorasani_persian
 		religion = shiite
 		size = 50
 	}
 
 	clergymen = {
-		culture = persian
+		culture = khorasani_persian
 		religion = shiite
 		size = 100
 	}
 
 	artisans = {
-		culture = persian
+		culture = khorasani_persian
 		religion = shiite
 		size = 500
 	}
 
 	soldiers = {
-		culture = persian
+		culture = khorasani_persian
 		religion = shiite
 		size = 150
 	}
 
 	farmers = {
-		culture = persian
+		culture = khorasani_persian
 		religion = shiite
 		size = 7000
 	}
 	
 	aristocrats = {
-		culture = persian
+		culture = khorasani_persian
 		religion = sunni
 		size = 20
 	}
 
 	clergymen = {
-		culture = persian
+		culture = khorasani_persian
 		religion = sunni
 		size = 25
 	}
 
 	artisans = {
-		culture = persian
+		culture = khorasani_persian
 		religion = sunni
 		size = 100
 	}
 
 	soldiers = {
-		culture = persian
+		culture = khorasani_persian
 		religion = sunni
 		size = 50
 	}
 
 	farmers = {
-		culture = persian
+		culture = khorasani_persian
 		religion = sunni
 		size = 1550
 	}
@@ -8715,31 +8775,31 @@
 #Qalat-e Nadiri (380000/95000 POPS)
 3644 = {
 	aristocrats = {
-		culture = persian
+		culture = khorasani_persian
 		religion = shiite
 		size = 20
 	}
 
 	clergymen = {
-		culture = persian
+		culture = khorasani_persian
 		religion = shiite
 		size = 10
 	}
 
 	artisans = {
-		culture = persian
+		culture = khorasani_persian
 		religion = shiite
 		size = 150
 	}
 
 	soldiers = {
-		culture = persian
+		culture = khorasani_persian
 		religion = shiite
 		size = 110
 	}
 
 	farmers = {
-		culture = persian
+		culture = khorasani_persian
 		religion = shiite
 		size = 1000
 	}
@@ -8805,31 +8865,31 @@
 	}
 	
 	aristocrats = {
-		culture = persian
+		culture = khorasani_persian
 		religion = sunni
 		size = 170
 	}
 
 	clergymen = {
-		culture = persian
+		culture = khorasani_persian
 		religion = sunni
 		size = 280
 	}
 
 	artisans = {
-		culture = persian
+		culture = khorasani_persian
 		religion = sunni
 		size = 1100
 	}
 
 	soldiers = {
-		culture = persian
+		culture = khorasani_persian
 		religion = sunni
 		size = 150
 	}
 
 	farmers = {
-		culture = persian
+		culture = khorasani_persian
 		religion = sunni
 		size = 9550
 	}
@@ -8838,61 +8898,61 @@
 #Sarakhs (380000/95000 POPS)
 3396 = {
 	aristocrats = {
-		culture = persian
+		culture = khorasani_persian
 		religion = sunni
 		size = 140
 	}
 
 	clergymen = {
-		culture = persian
+		culture = khorasani_persian
 		religion = sunni
 		size = 300
 	}
 
 	artisans = {
-		culture = persian
+		culture = khorasani_persian
 		religion = sunni
 		size = 1800
 	}
 
 	soldiers = {
-		culture = persian
+		culture = khorasani_persian
 		religion = sunni
 		size = 250
 	}
 
 	farmers = {
-		culture = persian
+		culture = khorasani_persian
 		religion = sunni
 		size = 7000
 	}
 	
 	aristocrats = {
-		culture = persian
+		culture = khorasani_persian
 		religion = shiite
 		size = 15
 	}
 
 	clergymen = {
-		culture = persian
+		culture = khorasani_persian
 		religion = shiite
 		size = 25
 	}
 
 	artisans = {
-		culture = persian
+		culture = khorasani_persian
 		religion = shiite
 		size = 200
 	}
 
 	soldiers = {
-		culture = persian
+		culture = khorasani_persian
 		religion = shiite
 		size = 50
 	}
 
 	farmers = {
-		culture = persian
+		culture = khorasani_persian
 		religion = shiite
 		size = 2550
 	}
@@ -8958,31 +9018,31 @@
 	}
 
 	aristocrats = {
-		culture = turkmen
+		culture = khorasani
 		religion = sunni
 		size = 100
 	}
 
 	clergymen = {
-		culture = turkmen
+		culture = khorasani
 		religion = sunni
 		size = 10
 	}
 
 	artisans = {
-		culture = turkmen
+		culture = khorasani
 		religion = sunni
 		size = 50
 	}
 
 	soldiers = {
-		culture = turkmen
+		culture = khorasani
 		religion = sunni
 		size = 2100
 	}
 
 	farmers = {
-		culture = turkmen
+		culture = khorasani
 		religion = sunni
 		size = 2050
 	}

@@ -1892,7 +1892,7 @@ peasant_revolt = {
 
 war_torn = {
 	local_ruling_party_support = -0.5
-	#pop_militancy_modifier = -0.1
+	pop_militancy_modifier = -0.1
 	local_factory_output = -0.25
 	local_rgo_output = -0.25
 	immigrant_attract = -0.25

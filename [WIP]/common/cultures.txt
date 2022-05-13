@@ -2271,8 +2271,38 @@ oghuz = {
 		}
 	}
 	
-	khorasani = {
+	aynallu = {
 		color = {190 115 75}
+		first_names = {
+			Ahmed Haydar Mehmed Murad Nurberdi Qilich
+		}
+		last_names = {
+			Beg Khan
+		}
+	}
+	
+	afshar = {
+		color = {180 100 70}
+		first_names = {
+			Ahmed Haydar Mehmed Murad Nurberdi Qilich
+		}
+		last_names = {
+			Beg Khan
+		}
+	}
+	
+	khorasani = {
+		color = {170 85 65}
+		first_names = {
+			Ahmed Haydar Mehmed Murad Nurberdi Qilich
+		}
+		last_names = {
+			Beg Khan
+		}
+	}
+	
+	turkmen = {
+		color = {160 70 55}
 		first_names = {
 			Ahmed Haydar Mehmed Murad Nurberdi Qilich
 		}
@@ -2297,16 +2327,6 @@ oghuz = {
 		
 		last_names = { 
 			Bey Pasha Hoca Efendi
-		}
-	}
-	
-	turkmen = {
-		color = {180 100 60}
-		first_names = {
-			Ahmed Haydar Mehmed Murad Nurberdi Qilich
-		}
-		last_names = {
-			Beg Khan
 		}
 	}
 }
@@ -4069,6 +4089,38 @@ iranian_turanian = {
 	
 	raji = {
 		color = {20 80 125} 
+		first_names = {
+			Abbas Abolghasem Abdolhossein Abdolsamad Abdolazim Ahmad Ali Bahram
+			Ebrahim Esmail "Fath Ali" Fazlollah Hamzeh Hasan Hossein Kamran Karim "Lotf Ali" 
+			Mahmoud Massoud Mohammad "Moin ed-Din" "Mozzafer ed-Din" Murad Muhsin 
+			"Naser ed-Din" Nosret Reza
+			}
+		last_names = {
+			Airom Ansari Ayrum Buzarjomehri Davallu Esfahani Farhani 
+			Jahanbani Kashani Khan Khuzai
+			Meshhedi Nakhchevani Pesyan Rokni Shafaei Shahbakhti 
+			Shirazi Tabrizi Tahmasebi Zahedi
+			}
+	}
+	
+	khuri = {
+		color = {20 100 145} 
+		first_names = {
+			Abbas Abolghasem Abdolhossein Abdolsamad Abdolazim Ahmad Ali Bahram
+			Ebrahim Esmail "Fath Ali" Fazlollah Hamzeh Hasan Hossein Kamran Karim "Lotf Ali" 
+			Mahmoud Massoud Mohammad "Moin ed-Din" "Mozzafer ed-Din" Murad Muhsin 
+			"Naser ed-Din" Nosret Reza
+			}
+		last_names = {
+			Airom Ansari Ayrum Buzarjomehri Davallu Esfahani Farhani 
+			Jahanbani Kashani Khan Khuzai
+			Meshhedi Nakhchevani Pesyan Rokni Shafaei Shahbakhti 
+			Shirazi Tabrizi Tahmasebi Zahedi
+			}
+	}
+	
+	sivandi = {
+		color = {30 90 145} 
 		first_names = {
 			Abbas Abolghasem Abdolhossein Abdolsamad Abdolazim Ahmad Ali Bahram
 			Ebrahim Esmail "Fath Ali" Fazlollah Hamzeh Hasan Hossein Kamran Karim "Lotf Ali" 
