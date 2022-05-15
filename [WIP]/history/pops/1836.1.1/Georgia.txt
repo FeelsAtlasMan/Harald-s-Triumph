@@ -101,7 +101,7 @@
 	farmers = {
 		culture = scythian
 		religion = orthodox
-		size = 3550
+		size = 2550
 	}
 
 	aristocrats = {
@@ -150,6 +150,99 @@
 		culture = kivruli
 		religion = jewish
 		size = 3690
+	}
+}
+
+#Rustawi (232000/58000 POPS)
+3754 = {
+    soldiers = {
+		culture = armenian
+		religion = coptic
+		size = 150
+	}
+
+	artisans = {
+		culture = armenian
+		religion = coptic
+		size = 1000
+	}
+	
+    clergymen = {
+		culture = turkish
+		religion = sunni
+		size = 125
+	}
+
+	soldiers = {
+		culture = turkish
+		religion = sunni
+		size = 600
+	}
+	
+	farmers = {
+		culture = turkish
+		religion = sunni
+		size = 8400
+	}
+    
+	clergymen = {
+		culture = georgian
+		religion = orthodox
+		size = 90
+	}
+
+	soldiers = {
+		culture = georgian
+		religion = orthodox
+		size = 100
+	}
+
+	serfs = {
+		culture = georgian
+		religion = orthodox
+		size = 2875
+	}
+	
+	farmers = {
+		culture = georgian
+		religion = orthodox
+		size = 500
+	}
+
+	aristocrats = {
+		culture = scythian
+		religion = orthodox
+		size = 15
+	}
+
+	clergymen = {
+		culture = scythian
+		religion = orthodox
+		size = 15
+	}
+
+	artisans = {
+		culture = scythian
+		religion = orthodox
+		size = 50
+	}
+
+	soldiers = {
+		culture = scythian
+		religion = orthodox
+		size = 75
+	}
+
+	farmers = {
+		culture = scythian
+		religion = orthodox
+		size = 1525
+	}
+
+	artisans = {
+		culture = kivruli
+		religion = jewish
+		size = 70
 	}
 }
 
