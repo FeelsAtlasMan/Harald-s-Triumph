@@ -192,6 +192,88 @@
 	aristocrats = {
 		culture = turkmen
 		religion = sunni
+		size = 10
+	}
+
+	clergymen = {
+		culture = turkmen
+		religion = sunni
+		size = 10
+	}
+	
+	soldiers = {
+		culture = turkmen
+		religion = sunni
+		size = 200
+	}
+
+	farmers = {
+		culture = turkmen
+		religion = sunni
+		size = 1400
+	}
+}
+#Cheleken (88000/22000 POPS)   
+3756 = {
+	aristocrats = {
+		culture = turkmen
+		religion = sunni
+		size = 10
+	}
+
+	clergymen = {
+		culture = turkmen
+		religion = sunni
+		size = 20
+	}
+
+	artisans = {
+		culture = turkmen
+		religion = sunni
+		size = 40
+	}
+
+	soldiers = {
+		culture = turkmen
+		religion = sunni
+		size = 200
+	}
+
+	farmers = {
+		culture = turkmen
+		religion = sunni
+		size = 1400
+	}
+	
+	slaves = {
+		culture = russian
+		religion = sunni
+		size = 100
+	}
+	
+	slaves = {
+		culture = mazanderani
+		religion = sunni
+		size = 100
+	}
+	
+	slaves = {
+		culture = talysh
+		religion = sunni
+		size = 100
+	}
+
+	slaves = {
+		culture = persian
+		religion = sunni
+		size = 100
+	}
+}
+#Dashte-e Yomud  (88000/22000 POPS)   
+3757 = {
+	aristocrats = {
+		culture = turkmen
+		religion = sunni
 		size = 100
 	}
 
@@ -219,16 +301,78 @@
 		size = 6400
 	}
 
-	artisans = {
+	slaves = {
 		culture = persian
-		religion = shiite
+		religion = sunni
+		size = 100
+	}
+}
+#Tagta  (88000/22000 POPS)   
+3758 = {
+	aristocrats = {
+		culture = turkmen
+		religion = sunni
+		size = 100
+	}
+
+	clergymen = {
+		culture = turkmen
+		religion = sunni
+		size = 50
+	}
+
+	artisans = {
+		culture = turkmen
+		religion = sunni
+		size = 400
+	}
+
+	soldiers = {
+		culture = turkmen
+		religion = sunni
 		size = 200
 	}
 
 	farmers = {
-		culture = persian
-		religion = shiite
+		culture = turkmen
+		religion = sunni
+		size = 6400
+	}
+
+	slaves = {
+		culture = khwarazm_persian
+		religion = sunni
 		size = 100
+	}
+	
+	aristocrats = {
+		culture = khwarazm_turkic
+		religion = sunni
+		size = 25
+	}
+
+	clergymen = {
+		culture = khwarazm_turkic
+		religion = sunni
+		size = 25
+	}
+
+	artisans = {
+		culture = khwarazm_turkic
+		religion = sunni
+		size = 100
+	}
+
+	soldiers = {
+		culture = khwarazm_turkic
+		religion = sunni
+		size = 750
+	}
+
+	farmers = {
+		culture = khwarazm_turkic
+		religion = sunni
+		size = 2825
 	}
 }
 #under the rule of Bukhara in 1836  
@@ -654,31 +798,7 @@
 		size = 10500
 	}
 	
-	aristocrats = {
-		culture = persian
-		religion = sunni
-		size = 20
-	}
-	
-	clergymen = {
-		culture = persian
-		religion = sunni
-		size = 20
-	}
-	
-	artisans = {
-		culture = persian
-		religion = sunni
-		size = 400
-	}
-	
-	soldiers = {
-		culture = persian
-		religion = sunni
-		size = 25
-	}
-	
-	farmers = {
+	slaves = {
 		culture = persian
 		religion = sunni
 		size = 500

@@ -2420,6 +2420,76 @@
 		size = 3175
 	}
 }
+
+#Jamborg
+3755 = {
+	aristocrats = {
+		culture = ingrian
+		religion = catholic
+		size = 5
+	}
+	
+	clergymen = {
+		culture = votic
+		religion = catholic
+		size = 10
+	}
+
+	artisans = {
+		culture = votic
+		religion = catholic
+		size = 50
+	}
+
+	soldiers = {
+		culture = votic
+		religion = catholic
+		size = 100
+	}
+
+	farmers = {
+		culture = votic
+		religion = catholic
+		size = 2000
+	}
+	
+	aristocrats = {
+		culture = swedish
+		religion = catholic
+		size = 100
+	}
+
+	clergymen = {
+		culture = swedish
+		religion = catholic
+		size = 125
+	}
+
+	artisans = {
+		culture = swedish
+		religion = catholic
+		size = 650
+	}
+
+	soldiers = {
+		culture = swedish
+		religion = catholic
+		size = 100
+	}
+
+	farmers = {
+		culture = swedish
+		religion = catholic
+		size = 1325
+	}
+	
+	farmers = {
+		culture = ingrian
+		religion = catholic
+		size = 175
+	}
+}
+
 #Gdov (120000/30000 POPS)
 997 = {
 	aristocrats = {

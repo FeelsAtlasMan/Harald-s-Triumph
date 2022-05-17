@@ -73,23 +73,47 @@
 		religion = sunni
 		size = 3950
 	}
+	
+	clergymen = {
+		culture = luwati
+		religion = sunni
+		size = 50
+	}
 
 	artisans = {
-		culture = gulf_arabic
-		religion = shiite
+		culture = luwati
+		religion = sunni
+		size = 700
+	}
+
+	soldiers = {
+		culture = luwati
+		religion = sunni
+		size = 100
+	}
+
+	farmers = {
+		culture = luwati
+		religion = sunni
+		size = 550
+	}
+
+	artisans = {
+		culture = baluchi
+		religion = sunni
 		size = 50
 	}
 
 	soldiers = {
-		culture = gulf_arabic
-		religion = shiite
+		culture = baluchi
+		religion = sunni
 		size = 25
 	}
 
 	farmers = {
-		culture = gulf_arabic
-		religion = shiite
-		size = 925
+		culture = baluchi
+		religion = sunni
+		size = 1225
 	}
 
 	clergymen = {
@@ -147,11 +171,35 @@
 		religion = ibadi
 		size = 1400
 	}
+
+	clergymen = {
+		culture = luwati
+		religion = sunni
+		size = 15
+	}
+
+	artisans = {
+		culture = luwati
+		religion = sunni
+		size = 400
+	}
+
+	soldiers = {
+		culture = luwati
+		religion = sunni
+		size = 50
+	}
+
+	farmers = {
+		culture = luwati
+		religion = sunni
+		size = 100
+	}
 	
 	farmers = {
 		culture = gulf_arabic
 		religion = sunni
-		size = 1625
+		size = 1025
 	}
 	
 	farmers = {

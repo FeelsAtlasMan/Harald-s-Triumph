@@ -1009,7 +1009,7 @@
 	}
 }
 
-#Kyzyl Kum - Former Medicine Hat (8000/2000 POPS)
+#Kyzyl Kum
 29 = {
 	
 	clergymen = {
@@ -1035,17 +1035,45 @@
 		religion = sunni
 		size = 3000
 	}
+}
+
+#Karmana
+3759 = {
+	
+	clergymen = {
+		culture = kirgiz
+		religion = sunni
+		size = 10
+	}
+
+	artisans = {
+		culture = kirgiz
+		religion = sunni
+		size = 50
+	}
+
+	soldiers = {
+		culture = kirgiz
+		religion = sunni
+		size = 50
+	}
+
+	farmers = {
+		culture = kirgiz
+		religion = sunni
+		size = 2000
+	}
 	
 	soldiers = {
-		culture = kazak
+		culture = uzbek
 		religion = sunni
 		size = 250
 	}
 
 	farmers = {
-		culture = kazak
+		culture = uzbek
 		religion = sunni
-		size = 2000
+		size = 1000
 	}
 }
 

@@ -2271,7 +2271,7 @@ oghuz = {
 		}
 	}
 	
-	khorasani = {
+	aynallu = {
 		color = {190 115 75}
 		first_names = {
 			Ahmed Haydar Mehmed Murad Nurberdi Qilich
@@ -2281,7 +2281,7 @@ oghuz = {
 		}
 	}
 	
-	aynallu = {
+	afshar = {
 		color = {180 100 70}
 		first_names = {
 			Ahmed Haydar Mehmed Murad Nurberdi Qilich
@@ -2291,7 +2291,7 @@ oghuz = {
 		}
 	}
 	
-	afshar = {
+	khorasani = {
 		color = {170 85 65}
 		first_names = {
 			Ahmed Haydar Mehmed Murad Nurberdi Qilich
@@ -4547,7 +4547,109 @@ indo_aryan = {
                
 		}
 	}
-	panjabi = {
+	
+	#Sindhi-Panjabi
+	#Sindhic
+	sindi = {
+		color = {155 135 110}
+		first_names = { "Morad Ali" "Nur Mohammad" Sobhdar Hosayn Shahdad Mohammad Nasir Morad Karim Gholam "Mir Fath"
+			
+		}
+		
+		last_names = { Alwani Bjaeen Bhatti Bhil Bhurgari Bulfati Chandio Daudpota Gabol Kalpar Kolhi Magsi Mallaah Rajpar Sarki Sirki Solangi
+               
+		}
+	}
+	
+	kutchi  = {
+		color = {145 130 105}
+		first_names = { "Morad Ali" "Nur Mohammad" Sobhdar Hosayn Shahdad Mohammad Nasir Morad Karim Gholam "Mir Fath"
+			
+		}
+		
+		last_names = { Alwani Bjaeen Bhatti Bhil Bhurgari Bulfati Chandio Daudpota Gabol Kalpar Kolhi Magsi Mallaah Rajpar Sarki Sirki Solangi
+               
+		}
+	}
+	
+	luwati = {
+		color = {135 125 100}
+		first_names = { "Morad Ali" "Nur Mohammad" Sobhdar Hosayn Shahdad Mohammad Nasir Morad Karim Gholam "Mir Fath"
+			
+		}
+		
+		last_names = { Alwani Bjaeen Bhatti Bhil Bhurgari Bulfati Chandio Daudpota Gabol Kalpar Kolhi Magsi Mallaah Rajpar Sarki Sirki Solangi
+               
+		}
+	}
+	
+	kholosi = {
+		color = {130 120 95}
+		first_names = { "Morad Ali" "Nur Mohammad" Sobhdar Hosayn Shahdad Mohammad Nasir Morad Karim Gholam "Mir Fath"
+			
+		}
+		
+		last_names = { Alwani Bjaeen Bhatti Bhil Bhurgari Bulfati Chandio Daudpota Gabol Kalpar Kolhi Magsi Mallaah Rajpar Sarki Sirki Solangi
+               
+		}
+	}
+	
+	memoni = {
+		color = {125 115 90}
+		first_names = { "Morad Ali" "Nur Mohammad" Sobhdar Hosayn Shahdad Mohammad Nasir Morad Karim Gholam "Mir Fath"
+			
+		}
+		
+		last_names = { Alwani Bjaeen Bhatti Bhil Bhurgari Bulfati Chandio Daudpota Gabol Kalpar Kolhi Magsi Mallaah Rajpar Sarki Sirki Solangi
+               
+		}
+	}
+	
+	lasi = {
+		color = {115 110 85}
+		first_names = { "Morad Ali" "Nur Mohammad" Sobhdar Hosayn Shahdad Mohammad Nasir Morad Karim Gholam "Mir Fath"
+			
+		}
+		
+		last_names = { Alwani Bjaeen Bhatti Bhil Bhurgari Bulfati Chandio Daudpota Gabol Kalpar Kolhi Magsi Mallaah Rajpar Sarki Sirki Solangi
+               
+		}
+	}
+	
+	jadgali = {
+		color = {110 105 80}
+		first_names = { "Morad Ali" "Nur Mohammad" Sobhdar Hosayn Shahdad Mohammad Nasir Morad Karim Gholam "Mir Fath"
+			
+		}
+		
+		last_names = { Alwani Bjaeen Bhatti Bhil Bhurgari Bulfati Chandio Daudpota Gabol Kalpar Kolhi Magsi Mallaah Rajpar Sarki Sirki Solangi
+               
+		}
+	}
+	
+	sindhi_bhil = {
+		color = {105 100 75}
+		first_names = { "Morad Ali" "Nur Mohammad" Sobhdar Hosayn Shahdad Mohammad Nasir Morad Karim Gholam "Mir Fath"
+			
+		}
+		
+		last_names = { Alwani Bjaeen Bhatti Bhil Bhurgari Bulfati Chandio Daudpota Gabol Kalpar Kolhi Magsi Mallaah Rajpar Sarki Sirki Solangi
+               
+		}
+	}
+	
+	khetrani = {
+		color = {135 115 120}
+		first_names = { "Morad Ali" "Nur Mohammad" Sobhdar Hosayn Shahdad Mohammad Nasir Morad Karim Gholam "Mir Fath"
+			
+		}
+		
+		last_names = { Alwani Bjaeen Bhatti Bhil Bhurgari Bulfati Chandio Daudpota Gabol Kalpar Kolhi Magsi Mallaah Rajpar Sarki Sirki Solangi
+               
+		}
+	} 
+	
+	sarakai = { #Multani
 		color = {155 135 140}
 		first_names = { Ranjit Kharak Nau Nihal Chand Kaur Shir Dhalip Diwan Jassa Hari Bhuma Nawab Banda Baba Kapur
 			
@@ -4557,13 +4659,58 @@ indo_aryan = {
                
 		}
 	}
-	sindi = {
-		color = {155 135 110}
-		first_names = { "Morad Ali" "Nur Mohammad" Sobhdar Hosayn Shahdad Mohammad Nasir Morad Karim Gholam "Mir Fath"
+	
+	inku = {
+		color = {150 135 150}
+		first_names = { Ranjit Kharak Nau Nihal Chand Kaur Shir Dhalip Diwan Jassa Hari Bhuma Nawab Banda Baba Kapur
 			
 		}
 		
-		last_names = { Alwani Bjaeen Bhatti Bhil Bhurgari Bulfati Chandio Daudpota Gabol Kalpar Kolhi Magsi Mallaah Rajpar Sarki Sirki Solangi
+		last_names = { Singh Kunwar Bahadur Dhillon Nalwa Ahluwalia Ramgarhia Mal Mulraj
+               
+		}
+	}
+	
+	pothwari = {
+		color = {150 135 145}
+		first_names = { Ranjit Kharak Nau Nihal Chand Kaur Shir Dhalip Diwan Jassa Hari Bhuma Nawab Banda Baba Kapur
+			
+		}
+		
+		last_names = { Singh Kunwar Bahadur Dhillon Nalwa Ahluwalia Ramgarhia Mal Mulraj
+               
+		}
+	}
+	
+	hindko = {
+		color = {160 140 150}
+		first_names = { Ranjit Kharak Nau Nihal Chand Kaur Shir Dhalip Diwan Jassa Hari Bhuma Nawab Banda Baba Kapur
+			
+		}
+		
+		last_names = { Singh Kunwar Bahadur Dhillon Nalwa Ahluwalia Ramgarhia Mal Mulraj
+               
+		}
+	}
+	
+	panjabi = { #Eastern Punjabi
+		color = {175 135 150}
+		first_names = { Ranjit Kharak Nau Nihal Chand Kaur Shir Dhalip Diwan Jassa Hari Bhuma Nawab Banda Baba Kapur
+			
+		}
+		
+		last_names = { Singh Kunwar Bahadur Dhillon Nalwa Ahluwalia Ramgarhia Mal Mulraj
+               
+		}
+	}
+	
+	sansi = {
+		color = {170 130 160}
+		first_names = { Ranjit Kharak Nau Nihal Chand Kaur Shir Dhalip Diwan Jassa Hari Bhuma Nawab Banda Baba Kapur
+			
+		}
+		
+		last_names = { Singh Kunwar Bahadur Dhillon Nalwa Ahluwalia Ramgarhia Mal Mulraj
                
 		}
 	}

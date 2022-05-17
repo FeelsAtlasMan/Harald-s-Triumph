@@ -147,8 +147,8 @@
 	}
 
 	slaves = {
-		culture = panjabi
-		religion = sikh
+		culture = inku
+		religion = sunni
 		size = 4500
 	}
 
@@ -702,25 +702,25 @@
 	
 	aristocrats = {
 		culture = khorasani_persian
-		religion = shiite
-		size = 1700
+		religion = sunni
+		size = 2700
 	}
 
 	clergymen = {
 		culture = khorasani_persian
-		religion = shiite
-		size = 3200
+		religion = sunni
+		size = 4200
 	}
 
 	artisans = {
 		culture = khorasani_persian
-		religion = shiite
-		size = 30000
+		religion = sunni
+		size = 48000
 	}
 
 	soldiers = {
 		culture = khorasani_persian
-		religion = shiite
+		religion = sunni
 		size = 4000
 	}
 	
@@ -731,33 +731,69 @@
 	}
 	
 	aristocrats = {
-		culture = khorasani_persian
-		religion = shiite
-		size = 1700
+		culture = aimaqi
+		religion = sunni
+		size = 200
 	}
 
 	clergymen = {
-		culture = khorasani_persian
-		religion = shiite
-		size = 3200
+		culture = aimaqi
+		religion = sunni
+		size = 1000
 	}
 
 	artisans = {
-		culture = khorasani_persian
-		religion = shiite
-		size = 28000
+		culture = aimaqi
+		religion = sunni
+		size = 2000
 	}
 
 	soldiers = {
-		culture = khorasani_persian
+		culture = aimaqi
+		religion = sunni
+		size = 3000
+	}
+
+	farmers = {
+		culture = aimaqi
+		religion = sunni
+		size = 20000
+	}
+	
+	aristocrats = {
+		culture = hazaragi
+		religion = shiite
+		size = 500
+	}
+
+	clergymen = {
+		culture = hazaragi
+		religion = shiite
+		size = 1200
+	}
+
+	artisans = {
+		culture = hazaragi
 		religion = shiite
 		size = 4000
 	}
 
-	farmers = {
-		culture = khorasani_persian
+	soldiers = {
+		culture = hazaragi
 		religion = shiite
-		size = 45000
+		size = 3000
+	}
+
+	farmers = {
+		culture = hazaragi
+		religion = shiite
+		size = 23000
+	}
+	
+	farmers = {
+		culture = inku
+		religion = sunni
+		size = 450
 	}
 	
 	clergymen = {
@@ -785,7 +821,7 @@
 	}
 
 	slaves = {
-		culture = pashtun
+		culture = inku
 		religion = sunni
 		size = 6500
 	}
@@ -933,61 +969,61 @@
 	}
 
 	aristocrats = {
-		culture = khorasani_persian
+		culture = hazaragi
 		religion = shiite
 		size = 250
 	}
 
 	clergymen = {
-		culture = khorasani_persian
+		culture = hazaragi
 		religion = shiite
 		size = 138
 	}
 
 	artisans = {
-		culture = khorasani_persian
+		culture = hazaragi
 		religion = shiite
 		size = 700
 	}
 
 	soldiers = {
-		culture = khorasani_persian
+		culture = hazaragi
 		religion = shiite
 		size = 1000
 	}
 
 	farmers = {
-		culture = khorasani_persian
+		culture = hazaragi
 		religion = shiite
 		size = 5912
 	}
 
 	aristocrats = {
-		culture = khorasani_persian
+		culture = hazaragi
 		religion = sunni
 		size = 1050
 	}
 
 	clergymen = {
-		culture = khorasani_persian
+		culture = hazaragi
 		religion = sunni
 		size = 500
 	}
 
 	artisans = {
-		culture = khorasani_persian
+		culture = hazaragi
 		religion = sunni
 		size = 1700
 	}
 
 	soldiers = {
-		culture = khorasani_persian
+		culture = hazaragi
 		religion = sunni
 		size = 4525
 	}
 
 	farmers = {
-		culture = khorasani_persian
+		culture = hazaragi
 		religion = sunni
 		size = 33225
 	}
@@ -1005,39 +1041,39 @@
 	}
 
 	slaves = {
-		culture = chaghatay
+		culture = inku
 		religion = sunni
-		size = 2500
+		size = 500
 	}
 }
 #Farrah (464000/116000 POPS)
 1214 = {
 	aristocrats = {
-		culture = khorasani_persian
+		culture = sistani
 		religion = sunni
 		size = 150
 	}
 
 	clergymen = {
-		culture = khorasani_persian
+		culture = sistani
 		religion = sunni
 		size = 88
 	}
 
 	artisans = {
-		culture = khorasani_persian
+		culture = sistani
 		religion = sunni
 		size = 600
 	}
 
 	soldiers = {
-		culture = khorasani_persian
+		culture = sistani
 		religion = sunni
 		size = 300
 	}
 
 	farmers = {
-		culture = khorasani_persian
+		culture = sistani
 		religion = sunni
 		size = 5662
 	}
@@ -1073,13 +1109,19 @@
 	}
 	
 	slaves = {
-		culture = pashtun
+		culture = inku
 		religion = sunni
-		size = 2000
+		size = 1000
+	}
+	
+	slaves = {
+		culture = swahili
+		religion = animist
+		size = 1000
 	}
 
 	farmers = {
-		culture = khorasani_persian
+		culture = aimaqi
 		religion = shiite
 		size = 1000
 	}
@@ -1407,7 +1449,13 @@
 	farmers = {
 		culture = khorasani_persian
 		religion = shiite
-		size = 11912
+		size = 7000
+	}
+	
+	farmers = {
+		culture = hazaragi
+		religion = sunni
+		size = 4912
 	}
 }
 #Badakhshan Region (340000)
@@ -1490,6 +1538,12 @@
 		culture = khorasani_persian
 		religion = sunni
 		size = 20000
+	}
+	
+	slaves = {
+		culture = inku
+		religion = sunni
+		size = 500
 	}
 	
 	soldiers = {
@@ -1682,31 +1736,31 @@
 	}
 
 	aristocrats = {
-		culture = khorasani_persian
+		culture = aimaqi
 		religion = shiite
 		size = 650
 	}
 	
 	clergymen = {
-		culture = khorasani_persian
+		culture = aimaqi
 		religion = shiite
 		size = 300
 	}
 	
 	artisans = {
-		culture = khorasani_persian
+		culture = aimaqi
 		religion = shiite
 		size = 1700
 	}
 	
 	soldiers = {
-		culture = khorasani_persian
+		culture = aimaqi
 		religion = shiite
 		size = 400
 	}
 	
 	farmers = {
-		culture = khorasani_persian
+		culture = aimaqi
 		religion = shiite
 		size = 7000
 	}
@@ -1724,39 +1778,39 @@
 	}
 	
 	aristocrats = {
-		culture = khorasani_persian
+		culture = hazaragi
 		religion = sunni
 		size = 750
 	}
 	
 	clergymen = {
-		culture = khorasani_persian
+		culture = hazaragi
 		religion = sunni
 		size = 388
 	}
 	
 	artisans = {
-		culture = khorasani_persian
+		culture = hazaragi
 		religion = sunni
 		size = 1850
 	}
 	
 	soldiers = {
-		culture = khorasani_persian
+		culture = hazaragi
 		religion = sunni
 		size = 1000
 	}
 	
 	farmers = {
-		culture = khorasani_persian
+		culture = hazaragi
 		religion = sunni
 		size = 12000
 	}
 
 	slaves = {
-		culture = chaghatay
+		culture = inku
 		religion = sunni
-		size = 3500
+		size = 500
 	}
 }
 
@@ -1853,9 +1907,15 @@
 	}
 
 	slaves = {
-		culture = pashtun
+		culture = inku
 		religion = sunni
-		size = 2000
+		size = 1000
+	}
+	
+	slaves = {
+		culture = russian
+		religion = orthodox
+		size = 1000
 	}
 	
 	aristocrats = {

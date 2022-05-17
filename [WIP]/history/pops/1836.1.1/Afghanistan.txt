@@ -147,8 +147,8 @@
 	}
 
 	slaves = {
-		culture = panjabi
-		religion = sikh
+		culture = inku
+		religion = sunni
 		size = 4500
 	}
 
@@ -702,25 +702,25 @@
 	
 	aristocrats = {
 		culture = khorasani_persian
-		religion = shiite
-		size = 1700
+		religion = sunni
+		size = 2700
 	}
 
 	clergymen = {
 		culture = khorasani_persian
-		religion = shiite
-		size = 3200
+		religion = sunni
+		size = 4200
 	}
 
 	artisans = {
 		culture = khorasani_persian
-		religion = shiite
-		size = 30000
+		religion = sunni
+		size = 48000
 	}
 
 	soldiers = {
 		culture = khorasani_persian
-		religion = shiite
+		religion = sunni
 		size = 4000
 	}
 	
@@ -731,33 +731,69 @@
 	}
 	
 	aristocrats = {
-		culture = khorasani_persian
-		religion = shiite
-		size = 1700
+		culture = aimaqi
+		religion = sunni
+		size = 200
 	}
 
 	clergymen = {
-		culture = khorasani_persian
-		religion = shiite
-		size = 3200
+		culture = aimaqi
+		religion = sunni
+		size = 1000
 	}
 
 	artisans = {
-		culture = khorasani_persian
-		religion = shiite
-		size = 28000
+		culture = aimaqi
+		religion = sunni
+		size = 2000
 	}
 
 	soldiers = {
-		culture = khorasani_persian
+		culture = aimaqi
+		religion = sunni
+		size = 3000
+	}
+
+	farmers = {
+		culture = aimaqi
+		religion = sunni
+		size = 20000
+	}
+	
+	aristocrats = {
+		culture = hazaragi
+		religion = shiite
+		size = 500
+	}
+
+	clergymen = {
+		culture = hazaragi
+		religion = shiite
+		size = 1200
+	}
+
+	artisans = {
+		culture = hazaragi
 		religion = shiite
 		size = 4000
 	}
 
-	farmers = {
-		culture = khorasani_persian
+	soldiers = {
+		culture = hazaragi
 		religion = shiite
-		size = 45000
+		size = 3000
+	}
+
+	farmers = {
+		culture = hazaragi
+		religion = shiite
+		size = 23000
+	}
+	
+	farmers = {
+		culture = inku
+		religion = sunni
+		size = 450
 	}
 	
 	clergymen = {
@@ -783,11 +819,17 @@
 		religion = shiite
 		size = 2000
 	}
+	
+	slaves = {
+		culture = swahili
+		religion = sunni
+		size = 5500
+	}
 
 	slaves = {
-		culture = pashtun
+		culture = inku
 		religion = sunni
-		size = 6500
+		size = 1000
 	}
 }
 #Ghuriyan (324000/81000 POPS)
@@ -1005,9 +1047,9 @@
 	}
 
 	slaves = {
-		culture = chaghatay
+		culture = inku
 		religion = sunni
-		size = 2500
+		size = 500
 	}
 }
 #Farrah (464000/116000 POPS)
@@ -1073,9 +1115,15 @@
 	}
 	
 	slaves = {
-		culture = pashtun
+		culture = inku
 		religion = sunni
-		size = 2000
+		size = 1000
+	}
+	
+	slaves = {
+		culture = swahili
+		religion = animist
+		size = 1000
 	}
 
 	farmers = {
@@ -1498,6 +1546,12 @@
 		size = 20000
 	}
 	
+	slaves = {
+		culture = inku
+		religion = sunni
+		size = 500
+	}
+	
 	soldiers = {
 		culture = moghol
 		religion = sunni
@@ -1760,9 +1814,9 @@
 	}
 
 	slaves = {
-		culture = chaghatay
+		culture = inku
 		religion = sunni
-		size = 3500
+		size = 500
 	}
 }
 
@@ -1859,9 +1913,15 @@
 	}
 
 	slaves = {
-		culture = pashtun
+		culture = inku
 		religion = sunni
-		size = 2000
+		size = 1000
+	}
+	
+	slaves = {
+		culture = russian
+		religion = orthodox
+		size = 1000
 	}
 	
 	aristocrats = {
