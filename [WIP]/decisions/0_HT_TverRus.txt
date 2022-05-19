@@ -1,0 +1,229 @@
+political_decisions = {
+
+	revived_baltic_rivalry = {
+		picture = baltic_map
+		potential = {
+			tag = MUS
+			NOT = { has_country_flag = revived_baltic_rivalry }
+			NOT = { has_country_flag = teverite_swedish_coop }
+		}
+		allow = {
+			state_n_government = 1
+			NOT = {
+				relation = {
+					who = SWE
+					value = -50
+				}
+			}
+		}
+		effect = {
+			set_country_flag = revived_baltic_rivalry
+			prestige = 15
+			badboy = 15
+			change_veriable = {
+				which = michail_absolutism
+				value = 2
+			}
+			relation = {
+				who = SWE
+				value = -100
+			}
+			SWE = {
+				add_casus_belli = {
+					target = MUS
+					type = humiliate
+					months = 12
+				}
+			}
+			EST = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			LAT = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			IZH = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	teverite_swedish_coop = {
+		picture = treaty_of_nanking
+		potential = {
+			tag = MUS
+			NOT = { has_country_flag = revived_baltic_rivalry }
+			NOT = { has_country_flag = teverite_swedish_coop }
+			NOT = { owns = 994 }
+			NOT = { owns = 997 }
+		}
+		allow = {
+			state_n_government = 1
+			relation = {
+				who = SWE
+				value = -50
+			}
+		}
+		effect = {
+			set_country_flag = teverite_swedish_coop
+			SWE = { country_event = 188001 }
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	nakaz_of_mikhail_vi = {
+		picture = nakaz
+		potential = {
+			tag = MUS
+			NOT = { has_country_flag = nakaz_of_mikhail_vi }
+		}
+		allow = {
+			war = no
+			nationalism_n_imperialism = 1
+			has_country_modifier = boyar_oligarchy
+		}
+		effect = {
+			set_country_flag = nakaz_of_mikhail_vi
+			remove_country_modifier = boyar_oligarchy
+			country_event = 188002
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	tverite_vasilism = {
+		picture = tver_rus
+		potential = {
+			tag = MUS
+			NOT = { has_country_flag = tverite_vasilism }
+			IZH = { exists = no }
+		}
+		allow = {
+			war = no
+		}
+		effect = {
+			capital = 1003
+			prestige = 33
+			change_veriable = {
+				which = michail_absolutism
+				value = 2
+			}
+			upper_house = {
+				ideology = reactionary
+				value = 0.33
+			}
+			country_event = 188003
+			set_country_flag = tverite_vasilism
+		}
+	}
+	
+	emancipation_of_serfs = {
+		picture = enslave_the_serfs_image
+		potential = {
+			tag = MUS
+			debt_law = serfdom
+			NOT = { has_country_flag = serfs_trolled_lmao }
+		}
+		allow = {
+			war = no
+			compound_steam_engines = 1
+			semi_automatization = 1
+			hot_blast = 1
+		}
+		effect = {
+			political_reform = peonage
+			prestige = 15
+			any_pop = {
+				limit = {
+					strata = poor
+				}
+				militancy = -3
+			}
+			any_pop = {
+				limit = {
+					strata = rich
+				}
+				militancy = 6
+			}
+			change_variable = {
+				which = boyar_rebellion
+				value = 3
+			}
+			set_country_flag = serfs_trolled_lmao
+		}
+	}
+	
+	conquest_of_the_steppe = {
+		picture = conquest_of_the_desert
+		potential = {
+			tag = MUS
+			NOT = { has_country_flag = conquest_of_the_steppe }
+		}
+		allow = {
+			war = no
+			OR = {
+				AND = {
+					owns = 977
+					owns = 1019
+					owns = 3360
+					owns = 1021
+					owns = 3310
+				}
+				AND = {
+					nationalism_n_imperialism = 1
+					ai = yes
+				}
+			}
+		}
+		effect = {
+			remove_country_modifier = serf_republic_fugatives
+			KRC = {
+				all_core = { add_core = THIS }
+			}
+			VOR = {
+				all_core = { add_core = THIS }
+			}
+			QAS = {
+				all_core = { add_core = THIS }
+			}
+			PEN = {
+				all_core = { add_core = THIS }
+			}
+			MVI = {
+				all_core = { add_core = THIS }
+			}
+			RYA = {
+				all_core = { add_core = THIS }
+			}
+			set_country_flag = conquest_of_the_steppe
+		}
+	}
+	
+	destroy_qazan = {
+		picture = kazan
+		potential = {
+			tag = MUS
+			NOT = { has_country_flag = qazan_jover }
+		}
+		allow = {
+			war = no
+			nationalism_n_imperialism = 1
+			has_country_flag = nakaz_of_mikhail_vi
+			is_greater_power = yes
+		}
+		effect = {
+			set_country_flag = qazan_jover
+			add_casus_belli = {
+				target = KZN
+				type = conquest_any
+				months = 12
+			}
+			badboy = 10
+		}
+	}
+}
