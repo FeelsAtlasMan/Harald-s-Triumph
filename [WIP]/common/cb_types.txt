@@ -3879,7 +3879,7 @@ establish_protectorate_casus_belli = {
 		civilized = no
 		is_vassal = no
 		OR = {
-			any_owned_province = { any_neighbor_province = { OR = { owned_by = THIS owner = { vassal_of = THIS } } }
+			any_owned_province = { any_neighbor_province = { OR = { owned_by = THIS owner = { vassal_of = THIS } } } }
 			AND = {
 				any_owned_province = { port = yes }
 				THIS = { any_owned_province = { port = yes } }
