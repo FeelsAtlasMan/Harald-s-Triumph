@@ -20,7 +20,7 @@ political_decisions = {
 			set_country_flag = revived_baltic_rivalry
 			prestige = 15
 			badboy = 15
-			change_veriable = {
+			change_variable = {
 				which = michail_absolutism
 				value = 2
 			}
@@ -109,7 +109,7 @@ political_decisions = {
 		effect = {
 			capital = 1003
 			prestige = 33
-			change_veriable = {
+			change_variable = {
 				which = michail_absolutism
 				value = 2
 			}

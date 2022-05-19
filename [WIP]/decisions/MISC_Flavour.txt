@@ -119,7 +119,7 @@ political_decisions = {
 				AND = {
 					NOT = { tag = BAV }
 					owns = 592 #Augsburg
-					is_culture_group = continental_western_germanic
+					#is_culture_group = continental_western_germanic
 				}
 			}
 			OR = {

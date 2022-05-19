@@ -229,7 +229,7 @@ political_decisions = {
 		allow = {
 			OR = {
 			   civilized = yes
-			   military_reform = yes_military_constructions
+			   #military_reform = yes_military_constructions
 			}
 			war = no
 		}

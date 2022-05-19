@@ -376,7 +376,7 @@ political_decisions = {
 			add_tax_relative_income = -0.1
 			plurality = -50
 			set_country_flag = preparations_to_kill
-			random_owned = { limit = { owner = { has_country_modifier = signed_the_geneva_convention  } } owner = { badboy = 3 } }
+			#random_owned = { limit = { owner = { has_country_modifier = signed_the_geneva_convention  } } owner = { badboy = 3 } }
 			any_owned = { limit = { has_province_modifier = national_assimilation } owner = { country_event = 2611 } }
 			random_list = {
 				33 = { add_country_modifier = { name = preparations_to_kill duration = 365 } }
@@ -929,7 +929,7 @@ political_decisions = {
 		
 		allow = {
 			war = no
-			has_country_modifier = signed_the_geneva_convention
+			#has_country_modifier = signed_the_geneva_convention
 			invention = mission_to_civilize
 			NOT = { citizenship_policy = residency }
 			NOT = { ruling_party_ideology = reactionary }
@@ -1263,7 +1263,7 @@ political_decisions = {
 					NOT = { TUR = { has_country_flag = southern_macedonia_exchange } }
 				}
 				AND = {
-					NOT = { TUR_823 = { NOT = { owned_by = THIS } } }
+					#NOT = { TUR_823 = { NOT = { owned_by = THIS } } }
 					NOT = { EGY_843 = { NOT = { owned_by = THIS } } }
 					has_country_flag = southern_macedonia_exchange
 					has_country_flag = thessalia_exchange
@@ -1621,19 +1621,19 @@ political_decisions = {
 						}
 					}
 				}
-			random_country = {
-				limit = {
-					tag = TUR
-					NOT = { has_country_flag = eastern_macedonia_exchange }
-					owns = 828
-					owns = 859
-					owns = 858
-					owns = 860
-					owns = 861
-				}
-				set_country_flag = eastern_macedonia_exchange
-				country_event = { id = 986510 days = 5 }
-			}
+			#random_country = {
+			#	limit = {
+			#		tag = TUR
+			#		NOT = { has_country_flag = eastern_macedonia_exchange }
+			#		owns = 828
+			#		owns = 859
+			#		owns = 858
+			#		owns = 860
+			#		owns = 861
+			#	}
+			#	set_country_flag = eastern_macedonia_exchange
+			#	country_event = { id = 986510 days = 5 }
+			#}
 		}
 		
 		random_owned = {

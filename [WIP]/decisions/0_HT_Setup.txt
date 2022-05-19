@@ -561,7 +561,7 @@ political_decisions = {
 					limit = {
 						OR = {
 							has_pop_culture = persian 
-							has_pop_culture = tatic 
+							#has_pop_culture = tatic 
 							has_pop_culture = armenian
 							has_pop_culture = greek
 							has_pop_culture = georgian
@@ -580,15 +580,15 @@ political_decisions = {
 				
 				any_pop = { limit = { is_culture_group = arab } literacy = 0.01 }
 				any_pop = { limit = { has_pop_religion = catholic NOT = { has_pop_culture = assyrian } } literacy = 0.1 }
-				any_pop = { limit = { has_pop_culture = azeri } literacy = 0.01 }
+				#any_pop = { limit = { has_pop_culture = azeri } literacy = 0.01 }
 				any_pop = { limit = { has_pop_culture = turkish } literacy = 0.01 }
 			}
 			
 			TIM = {
-				any_pop = {
-					limit = { OR = { has_pop_culture = azeri has_pop_culture = circassian has_pop_culture = chechen } }
-					literacy = 0.01
-				}
+				#any_pop = {
+				#	limit = { OR = { has_pop_culture = azeri has_pop_culture = circassian has_pop_culture = chechen } }
+				#	literacy = 0.01
+				#}
 				
 				any_pop = {
 					limit = { 
@@ -757,7 +757,7 @@ political_decisions = {
 							is_culture_group = southern_african
 							has_pop_culture = afro_american
 							has_pop_culture = dakota
-							has_pop_culture = cherokee
+							#has_pop_culture = cherokee
 							has_pop_culture = native_american_minor 
 							has_pop_culture = maghrebi
 							has_pop_culture = berber
@@ -819,7 +819,7 @@ political_decisions = {
 				any_pop = { limit = { has_pop_culture = russian } literacy = -0.46 }
 				any_pop = { limit = { OR = { has_pop_culture = polish has_pop_culture = lithuanian } } literacy = 0.19 }
 				any_pop = { limit = { has_pop_culture = ashkenazi } literacy = 0.49 }
-				any_pop = { limit = { has_pop_culture = ugrian } literacy = 0.49 }
+				#any_pop = { limit = { has_pop_culture = ugrian } literacy = 0.49 }
 			}
 			
 			FIN = {
@@ -1317,12 +1317,12 @@ political_decisions = {
 			
 			#################Setup UK Ideology######################
 			ENG = {
-				any_owned = { limit = { is_core = ENG }
-					any_pop = { 
-						limit = { is_culture_group = british }
-						ideology = { factor = 0.2 value = liberal } 
-					} 
-				}
+				#any_owned = { limit = { is_core = ENG }
+				#	any_pop = { 
+				#		limit = { is_culture_group = british }
+				#		ideology = { factor = 0.2 value = liberal } 
+				#	} 
+				#}
 				ENG_258 = { any_pop = { ideology = { factor = 0.6 value = liberal } } }
 				ENG_260 = { any_pop = { ideology = { factor = 0.6 value = liberal } } }
 				ENG_263 = { any_pop = { ideology = { factor = 0.6 value = liberal } } }
@@ -1374,7 +1374,7 @@ political_decisions = {
 					OR = {
 						is_culture_group = east_asian
 						has_country_modifier = uncivilized_isolationism
-						has_country_modifier = sakoku
+						#has_country_modifier = sakoku
 						vassal_of = SHN
 						substate_of = SHN
 					}
@@ -1390,7 +1390,7 @@ political_decisions = {
 					OR = {
 						is_culture_group = east_asian
 						has_country_modifier = uncivilized_isolationism
-						has_country_modifier = sakoku
+						#has_country_modifier = sakoku
 						vassal_of = SHN
 						substate_of = SHN
 					}
@@ -1406,7 +1406,7 @@ political_decisions = {
 					OR = {
 						is_culture_group = east_asian
 						has_country_modifier = uncivilized_isolationism
-						has_country_modifier = sakoku
+						#has_country_modifier = sakoku
 						vassal_of = SHN
 						substate_of = SHN
 					}
@@ -1422,7 +1422,7 @@ political_decisions = {
 					OR = {
 						is_culture_group = east_asian
 						has_country_modifier = uncivilized_isolationism
-						has_country_modifier = sakoku
+						#has_country_modifier = sakoku
 						vassal_of = SHN
 						substate_of = SHN
 					}

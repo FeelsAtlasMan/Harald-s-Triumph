@@ -115,7 +115,7 @@ political_decisions = {
 			primary_culture = tuscan
 			OR = {
 				tag = TUS
-				tag = LUC
+				#tag = LUC
 				tag = SNA
 			}
 			NOT = { tag = ITA }

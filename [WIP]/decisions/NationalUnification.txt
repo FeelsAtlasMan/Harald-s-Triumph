@@ -347,23 +347,23 @@ political_decisions = {
 				}
 				country_event = 11101
 			}
-			any_country = {
-				limit = {
-					NOT = { is_culture_group = italian }
-					exists = yes
-					OR = {
-						has_country_flag = objects_to_italy
-						tag = FRA
-						tag = AUS
-						tag = KUK
-						AND = {
-							neighbour = ITA
-							is_greater_power = yes
-						}
-					}
-				}
-				country_event = { id = 96165 days = 20 }
-			}
+			#any_country = {
+			#	limit = {
+			#		NOT = { is_culture_group = italian }
+			#		exists = yes
+			#		OR = {
+			#			has_country_flag = objects_to_italy
+			#			tag = FRA
+			#			tag = AUS
+			#			tag = KUK
+			#			AND = {
+			#				neighbour = ITA
+			#				is_greater_power = yes
+			#			}
+			#		}
+			#	}
+			#	country_event = { id = 96165 days = 20 }
+			#}
 			add_country_modifier = {
 				name = global_baby_boom
 				duration = 1095
@@ -531,7 +531,7 @@ political_decisions = {
 				state_scope = { change_region_name = "Alsace-Lorraine" }
 			}
 			ALS = { government = democracy }
-			remove_country_modifier = la_tache_noire
+			#remove_country_modifier = la_tache_noire
 			prestige = 10
 			clr_global_flag = germany_has_renamed_elsass
 		}

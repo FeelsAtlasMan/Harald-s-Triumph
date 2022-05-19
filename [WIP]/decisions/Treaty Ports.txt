@@ -78,7 +78,7 @@ political_decisions = {
 			any_owned = {
 				limit = {
 					OR = {
-						region = PER_1136
+						#region = PER_1136
 						region = PER_1127
 						region = PER_1140
 					}

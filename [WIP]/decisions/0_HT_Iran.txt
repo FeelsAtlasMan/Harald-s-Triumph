@@ -349,9 +349,9 @@ political_decisions = {
 			890 = { add_core = KDS }
 			873 = { add_core = KDS }
 			895 = { add_core = KDS }
-			TUR_3339 = { add_core = KDS }
+			#TUR_3339 = { add_core = KDS }
 			TUR_876 = { add_core = KDS }
-			TUR_878 = { add_core = KDS }
+			#TUR_878 = { add_core = KDS }
 			TUR_894 = { add_core = KDS }
 			EGY_897 = { add_core = KDS }
 			set_country_flag = united_kurds
@@ -387,12 +387,12 @@ political_decisions = {
 		
 		effect = {
 		    PER_1112 = { add_core = THIS }
-			PER_1123 = { add_core = THIS }
+			#PER_1123 = { add_core = THIS }
 			PER_1121 = { add_core = THIS }
 			PER_1113 = { add_core = THIS }
 			PER_1112 = { add_core = THIS }
 			AJM = { all_core = { add_core = THIS } }
-			add_accepted_culture = tatic
+			#add_accepted_culture = tatic
 			add_accepted_culture = deylemi
 			add_accepted_culture = talysh
 			add_accepted_culture = gilaki
