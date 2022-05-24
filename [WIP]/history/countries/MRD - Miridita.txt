@@ -1,23 +1,19 @@
-capital = 1212
-primary_culture = classical_persian
-culture = chaghatay
-culture = persian
-religion = sunni
+capital = 3344
+primary_culture = albanian
+culture = tosk
+religion = catholic
 government = absolute_monarchy
-plurality = 15.0
+plurality = 0.02
 nationalvalue = nv_tradition
-literacy = 0.2
-non_state_culture_literacy = 0.01
+literacy = 0.10
 civilized = no
-is_releasable_vassal = no
-prestige = 40
-
+prestige = 3
 
 # Political reforms
-slavery = yes_slavery
+slavery = no_slavery
 upper_house_composition = appointed
-vote_franschise = landed_voting
-public_meetings = no_meeting
+vote_franschise = none_voting
+public_meetings = yes_meeting
 press_rights = state_press
 trade_unions = no_trade_unions
 voting_system = first_past_the_post
@@ -29,34 +25,44 @@ work_hours = no_work_hour_limit
 safety_regulations = no_safety
 health_care = no_health_care
 unemployment_subsidies = no_subsidies
-pensions = no_pensions 
-school_reforms = low_schools #Shiite Madreseha
+pensions = no_pensions
+school_reforms = no_schools
 
-
-set_country_flag = sunni_country
-set_country_flag = is_silk_road_country
 
 #New Reforms
-conscription = mandatory_service
+conscription = four_year_draft
 debt_law = serfdom
 penal_system = capital_punishment
 child_labor = child_labor_legal
 citizens_rights = primary_culture_only
 border_policy = open_borders
 centralization = regionalism
-colonial_policy = no_colonies
+colonial_policy = no_colonies 
+
+set_country_flag = catholic_country
+
+ruling_party = ALB_conservative
+upper_house = {
+	fascist = 0
+	liberal = 15
+	conservative = 70
+	reactionary = 15
+	anarcho_liberal = 0
+	socialist = 0
+	communist = 0
+}
 
 monetary_reform = yes_monetary_reform #Currency
 #monetary_reform = monetary_reform_two
-research_reform = yes_education_reform #Universities 
+#research_reform = yes_education_reform #Universities 
 #research_reform = education_reform_two
 #firearms_production = yes_firearms_production #Steam Power
 #firearms_production = firearms_production_two
-land_reform = yes_land_reform #Land 
+#land_reform = yes_land_reform #Land 
 #land_reform = land_reform_two
 admin_reform = yes_admin_reform #Legislative
 #admin_reform = admin_reform_two
-#finance_reform = yes_finance_reform #Finance
+finance_reform = yes_finance_reform #Finance
 #finance_reform = finance_reform_two
 #education_reform = yes_western_science #Basic Education
 #education_reform = western_science_two
@@ -67,13 +73,12 @@ admin_reform = yes_admin_reform #Legislative
 #industrial_construction = yes_industrial_construction #Machinery
 #industrial_construction = industrial_construction_two
 
-foreign_training = yes_foreign_training #Training Methods
-#foreign_training = foreign_training_two
+foreign_training = foreign_training_two
 foreign_weapons = yes_foreign_weapons #Foreign Weapons
 #foreign_weapons = foreign_weapons_two
 military_constructions = yes_military_constructions #Fortification
 #military_constructions = military_constructions_two
-#foreign_officers = yes_foreign_officers #Officier Training
+foreign_officers = yes_foreign_officers #Officier Training
 #foreign_officers = foreign_officers_two
 army_schools = yes_army_schools #Army Training
 #army_schools = army_schools_two
@@ -88,32 +93,19 @@ army_schools = yes_army_schools #Army Training
 foreign_artillery = yes_foreign_artillery #Artillery
 #foreign_artillery = foreign_artillery_two
 
-ruling_party = TIM_conservative
-upper_house = {
-	fascist = 0
-	liberal = 15
-	conservative = 60
-	reactionary = 25
-	anarcho_liberal = 0
-	socialist = 0
-	communist = 0
-}
-
-oob = "TIM_oob.txt"
-
 #Unciv Technologies
 early_classical_theory_and_critique = 1
 #late_classical_theory = 1
-malthusian_thought = 1
-positivism = 1
-enlightenment_thought = 1
+#malthusian_thought = 1
+#positivism = 1
+#enlightenment_thought = 1
 #piston_steam_engine = 1
 #high_pressure_steam_engine = 1
-mechanized_mining = 1
+#mechanized_mining = 1
 #freedom_of_trade = 1
 no_standard = 1
 #ad_hoc_money_bill_printing = 1
-#private_banks = 1
+private_banks = 1
 #stock_exchange = 1
 #late_enlightenment_philosophy = 1
 #basic_chemistry = 1
@@ -128,7 +120,7 @@ flintlock_rifles = 1
 #muzzle_loaded_rifles = 1
 post_napoleonic_thought = 1
 #strategic_mobility = 1
-#military_staff_system = 1
+military_staff_system = 1
 #military_plans = 1
 army_command_principle = 1
 #army_professionalism = 1
@@ -142,4 +134,4 @@ army_command_principle = 1
 #post_nelsonian_thought = 1
 #battleship_column_doctrine = 1
 bronze_muzzle_loaded_artillery = 1
-iron_muzzle_loaded_artillery = 1
+#iron_muzzle_loaded_artillery = 1
