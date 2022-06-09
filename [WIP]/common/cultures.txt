@@ -4447,6 +4447,8 @@ indo_aryan = {
                
 		}
 	}
+	
+	#Insular Indic
 	sinhala = {
 		color = {75 40 40}
 		first_names = { Kirtisri Vikrama Sri Vijaya Viraparakkama Vimala Rajasingha Senarat  Anagarika Wimalaratne
@@ -4457,6 +4459,29 @@ indo_aryan = {
                
 		}
 	}
+	
+	vedda = {
+		color = {55 30 30}
+		first_names = { Kirtisri Vikrama Sri Vijaya Viraparakkama Vimala Rajasingha Senarat  Anagarika Wimalaratne
+			
+		}
+		
+		last_names = { Dharmasurya Narendrasimha Rajasimha Rajadhirajasimha Doraisami
+               
+		}
+	}
+	
+	dhivehi = {
+		color = {35 10 10}
+		first_names = { Kirtisri Vikrama Sri Vijaya Viraparakkama Vimala Rajasingha Senarat  Anagarika Wimalaratne
+			
+		}
+		
+		last_names = { Dharmasurya Narendrasimha Rajasimha Rajadhirajasimha Doraisami
+               
+		}
+	}
+	
 	hindi = {
 		color = {155 135 80}
 		first_names = { Lokendra Raghuraj Vijay Vishvanath Pheran Jugal Parbhu Narayan Ishvari Udit Prasan Mahip
@@ -5247,56 +5272,7 @@ south_asian = {
 dravidian = {
 	leader = indian
 	unit = IndianGC
-	kannada = {
-		color = {60 90 170}
-		first_names = { Aliya Abbakka Amoghavarasha Basaveshwara Bijjala Guvida Harihara Kempe Krishnadeva Krisnaraja Mayuravarma Pulakesi Rani Chennamma Sagolli Tailapa Veera Vikramaditya Vishnuvardhana
-			
-		}
-		
-		last_names = { "Rama Raya" Rani Raya Bibi Wodeyar Gowda Nayaka Rayanna Ballala
-               
-		}
-	}
-	malayalam = {
-		color = {100 90 110}
-		first_names = { Cheraman Swathi Thirunal Sri Sakthan Raja Moolam Marthanda Dharma Chithira Balarama Ayilyam Saamoothiri
-			
-		}
-		
-		last_names = { Varma Kesavadas Thampuran "Rama Varma" Perumal
-               
-		}
-	}
-	tamil = {
-		color = {80 90 130}
-		first_names = { Ramayyan Seshayya Ramiengar Seshadri Shungrasoobyer Rajagopalachari Shanmukham Ramaswami Dheeran Subramania Chidambaram Sathyamurthy Vanchinathan Champakaraman
-			
-		}
-		
-		last_names = { Mudaliar Krishnamachari Rajapopalachari Sastri Dalawa
-               
-		}
-	}
-	telegu = {
-		color = {20 90 150}
-		first_names = { Vasireddy Venkatadri Uyyalawada Narasimha Veerapandiya Keneganti Alluri Potti Tanguturi Pingali Durgabai Sarojini Kandukuri
-			
-		}
-		
-		last_names = { Sitaramaraju Kattabomman Hanumathu Nayudu Deshmukh Naidu Veeresalingam Sriramulu
-               
-		}
-	}
-	kurukh = {
-		color = {40 90 180}
-		first_names = { Vasireddy Venkatadri Uyyalawada Narasimha Veerapandiya Keneganti Alluri Potti Tanguturi Pingali Durgabai Sarojini Kandukuri
-			
-		}
-		
-		last_names = { Sitaramaraju Kattabomman Hanumathu Nayudu Deshmukh Naidu Veeresalingam Sriramulu
-               
-		}
-	}
+	#Northern	
 	brahui = {
 		color = {50 90 160}
 		first_names = { Vasireddy Venkatadri Uyyalawada Narasimha Veerapandiya Keneganti Alluri Potti Tanguturi Pingali Durgabai Sarojini Kandukuri
@@ -5307,6 +5283,111 @@ dravidian = {
                
 		}
 	}
+	
+	kurukh = {
+		color = {40 90 180}
+		first_names = { Vasireddy Venkatadri Uyyalawada Narasimha Veerapandiya Keneganti Alluri Potti Tanguturi Pingali Durgabai Sarojini Kandukuri
+			
+		}
+		
+		last_names = { Sitaramaraju Kattabomman Hanumathu Nayudu Deshmukh Naidu Veeresalingam Sriramulu
+               
+		}
+	}
+	
+	paharia = {
+		color = {30 90 200}
+		first_names = { Vasireddy Venkatadri Uyyalawada Narasimha Veerapandiya Keneganti Alluri Potti Tanguturi Pingali Durgabai Sarojini Kandukuri
+			
+		}
+		
+		last_names = { Sitaramaraju Kattabomman Hanumathu Nayudu Deshmukh Naidu Veeresalingam Sriramulu
+               
+		}
+	}
+	
+	#Central
+	kolami = {
+		color = {20 70 190}
+		first_names = { Vasireddy Venkatadri Uyyalawada Narasimha Veerapandiya Keneganti Alluri Potti Tanguturi Pingali Durgabai Sarojini Kandukuri
+			
+		}
+		
+		last_names = { Sitaramaraju Kattabomman Hanumathu Nayudu Deshmukh Naidu Veeresalingam Sriramulu
+               
+		}
+	}
+	
+	naiki = {
+		color = {20 70 170}
+		first_names = { Vasireddy Venkatadri Uyyalawada Narasimha Veerapandiya Keneganti Alluri Potti Tanguturi Pingali Durgabai Sarojini Kandukuri
+			
+		}
+		
+		last_names = { Sitaramaraju Kattabomman Hanumathu Nayudu Deshmukh Naidu Veeresalingam Sriramulu
+               
+		}
+	}
+	
+	ollari = {
+		color = {30 70 150}
+		first_names = { Vasireddy Venkatadri Uyyalawada Narasimha Veerapandiya Keneganti Alluri Potti Tanguturi Pingali Durgabai Sarojini Kandukuri
+			
+		}
+		
+		last_names = { Sitaramaraju Kattabomman Hanumathu Nayudu Deshmukh Naidu Veeresalingam Sriramulu
+               
+		}
+	}
+	
+	duruwa = {
+		color = {40 90 130}
+		first_names = { Vasireddy Venkatadri Uyyalawada Narasimha Veerapandiya Keneganti Alluri Potti Tanguturi Pingali Durgabai Sarojini Kandukuri
+			
+		}
+		
+		last_names = { Sitaramaraju Kattabomman Hanumathu Nayudu Deshmukh Naidu Veeresalingam Sriramulu
+               
+		}
+	}
+	
+	#South-Central
+	#Teleguic
+	telegu = {
+		color = {20 90 150}
+		first_names = { Vasireddy Venkatadri Uyyalawada Narasimha Veerapandiya Keneganti Alluri Potti Tanguturi Pingali Durgabai Sarojini Kandukuri
+			
+		}
+		
+		last_names = { Sitaramaraju Kattabomman Hanumathu Nayudu Deshmukh Naidu Veeresalingam Sriramulu
+               
+		}
+	}
+	
+	waddari = {
+		color = {20 90 150}
+		first_names = { Vasireddy Venkatadri Uyyalawada Narasimha Veerapandiya Keneganti Alluri Potti Tanguturi Pingali Durgabai Sarojini Kandukuri
+			
+		}
+		
+		last_names = { Sitaramaraju Kattabomman Hanumathu Nayudu Deshmukh Naidu Veeresalingam Sriramulu
+               
+		}
+	}
+	
+	chenchu = {
+		color = {20 90 150}
+		first_names = { Vasireddy Venkatadri Uyyalawada Narasimha Veerapandiya Keneganti Alluri Potti Tanguturi Pingali Durgabai Sarojini Kandukuri
+			
+		}
+		
+		last_names = { Sitaramaraju Kattabomman Hanumathu Nayudu Deshmukh Naidu Veeresalingam Sriramulu
+               
+		}
+	}
+	
+	#Gondi-Kui
+	#Gondi
 	gondi = {
 		color = {40 90 180}
 		first_names = { Vasireddy Venkatadri Uyyalawada Narasimha Veerapandiya Keneganti Alluri Potti Tanguturi Pingali Durgabai Sarojini Kandukuri
@@ -5314,6 +5395,750 @@ dravidian = {
 		}
 		
 		last_names = { Sitaramaraju Kattabomman Hanumathu Nayudu Deshmukh Naidu Veeresalingam Sriramulu
+               
+		}
+	}
+	
+	madiya = {
+		color = {35 80 160}
+		first_names = { Vasireddy Venkatadri Uyyalawada Narasimha Veerapandiya Keneganti Alluri Potti Tanguturi Pingali Durgabai Sarojini Kandukuri
+			
+		}
+		
+		last_names = { Sitaramaraju Kattabomman Hanumathu Nayudu Deshmukh Naidu Veeresalingam Sriramulu
+               
+		}
+	}
+    
+	pardhan = {
+		color = {30 70 140}
+		first_names = { Vasireddy Venkatadri Uyyalawada Narasimha Veerapandiya Keneganti Alluri Potti Tanguturi Pingali Durgabai Sarojini Kandukuri
+			
+		}
+		
+		last_names = { Sitaramaraju Kattabomman Hanumathu Nayudu Deshmukh Naidu Veeresalingam Sriramulu
+               
+		}
+	}
+	
+	muria = {
+		color = {25 60 120}
+		first_names = { Vasireddy Venkatadri Uyyalawada Narasimha Veerapandiya Keneganti Alluri Potti Tanguturi Pingali Durgabai Sarojini Kandukuri
+			
+		}
+		
+		last_names = { Sitaramaraju Kattabomman Hanumathu Nayudu Deshmukh Naidu Veeresalingam Sriramulu
+               
+		}
+	}
+	
+	koya = {
+		color = {20 50 100}
+		first_names = { Vasireddy Venkatadri Uyyalawada Narasimha Veerapandiya Keneganti Alluri Potti Tanguturi Pingali Durgabai Sarojini Kandukuri
+			
+		}
+		
+		last_names = { Sitaramaraju Kattabomman Hanumathu Nayudu Deshmukh Naidu Veeresalingam Sriramulu
+               
+		}
+	}
+	
+	nagarchal = {
+		color = {15 40 80}
+		first_names = { Vasireddy Venkatadri Uyyalawada Narasimha Veerapandiya Keneganti Alluri Potti Tanguturi Pingali Durgabai Sarojini Kandukuri
+			
+		}
+		
+		last_names = { Sitaramaraju Kattabomman Hanumathu Nayudu Deshmukh Naidu Veeresalingam Sriramulu
+               
+		}
+	}
+	
+	khirwar = {
+		color = {10 30 60}
+		first_names = { Vasireddy Venkatadri Uyyalawada Narasimha Veerapandiya Keneganti Alluri Potti Tanguturi Pingali Durgabai Sarojini Kandukuri
+			
+		}
+		
+		last_names = { Sitaramaraju Kattabomman Hanumathu Nayudu Deshmukh Naidu Veeresalingam Sriramulu
+               
+		}
+	}
+	
+	#Kui
+	kui_lang = {
+		color = {80 70 180}
+		first_names = { Vasireddy Venkatadri Uyyalawada Narasimha Veerapandiya Keneganti Alluri Potti Tanguturi Pingali Durgabai Sarojini Kandukuri
+			
+		}
+		
+		last_names = { Sitaramaraju Kattabomman Hanumathu Nayudu Deshmukh Naidu Veeresalingam Sriramulu
+               
+		}
+	}
+	
+	kuvi = {
+		color = {75 60 160}
+		first_names = { Vasireddy Venkatadri Uyyalawada Narasimha Veerapandiya Keneganti Alluri Potti Tanguturi Pingali Durgabai Sarojini Kandukuri
+			
+		}
+		
+		last_names = { Sitaramaraju Kattabomman Hanumathu Nayudu Deshmukh Naidu Veeresalingam Sriramulu
+               
+		}
+	}
+	
+	pengo = {
+		color = {70 50 140}
+		first_names = { Vasireddy Venkatadri Uyyalawada Narasimha Veerapandiya Keneganti Alluri Potti Tanguturi Pingali Durgabai Sarojini Kandukuri
+			
+		}
+		
+		last_names = { Sitaramaraju Kattabomman Hanumathu Nayudu Deshmukh Naidu Veeresalingam Sriramulu
+               
+		}
+	}
+	
+	konda = {
+		color = {65 40 120}
+		first_names = { Vasireddy Venkatadri Uyyalawada Narasimha Veerapandiya Keneganti Alluri Potti Tanguturi Pingali Durgabai Sarojini Kandukuri
+			
+		}
+		
+		last_names = { Sitaramaraju Kattabomman Hanumathu Nayudu Deshmukh Naidu Veeresalingam Sriramulu
+               
+		}
+	}
+	
+	mukha_dora = {
+		color = {60 30 180}
+		first_names = { Vasireddy Venkatadri Uyyalawada Narasimha Veerapandiya Keneganti Alluri Potti Tanguturi Pingali Durgabai Sarojini Kandukuri
+			
+		}
+		
+		last_names = { Sitaramaraju Kattabomman Hanumathu Nayudu Deshmukh Naidu Veeresalingam Sriramulu
+               
+		}
+	}
+	
+    #Southern
+	#Kannada-Tamil
+	kannada = {
+		color = {60 90 170}
+		first_names = { Aliya Abbakka Amoghavarasha Basaveshwara Bijjala Guvida Harihara Kempe Krishnadeva Krisnaraja Mayuravarma Pulakesi Rani Chennamma Sagolli Tailapa Veera Vikramaditya Vishnuvardhana
+			
+		}
+		
+		last_names = { "Rama Raya" Rani Raya Bibi Wodeyar Gowda Nayaka Rayanna Ballala
+               
+		}
+	}
+	
+	holiya = {
+		color = {60 90 170}
+		first_names = { Aliya Abbakka Amoghavarasha Basaveshwara Bijjala Guvida Harihara Kempe Krishnadeva Krisnaraja Mayuravarma Pulakesi Rani Chennamma Sagolli Tailapa Veera Vikramaditya Vishnuvardhana
+			
+		}
+		
+		last_names = { "Rama Raya" Rani Raya Bibi Wodeyar Gowda Nayaka Rayanna Ballala
+               
+		}
+	}
+	
+	urali = {
+		color = {60 90 170}
+		first_names = { Aliya Abbakka Amoghavarasha Basaveshwara Bijjala Guvida Harihara Kempe Krishnadeva Krisnaraja Mayuravarma Pulakesi Rani Chennamma Sagolli Tailapa Veera Vikramaditya Vishnuvardhana
+			
+		}
+		
+		last_names = { "Rama Raya" Rani Raya Bibi Wodeyar Gowda Nayaka Rayanna Ballala
+               
+		}
+	}
+	
+	sholaga = {
+		color = {60 90 170}
+		first_names = { Aliya Abbakka Amoghavarasha Basaveshwara Bijjala Guvida Harihara Kempe Krishnadeva Krisnaraja Mayuravarma Pulakesi Rani Chennamma Sagolli Tailapa Veera Vikramaditya Vishnuvardhana
+			
+		}
+		
+		last_names = { "Rama Raya" Rani Raya Bibi Wodeyar Gowda Nayaka Rayanna Ballala
+               
+		}
+	}
+	
+	betta_kurumba = {
+		color = {60 90 170}
+		first_names = { Aliya Abbakka Amoghavarasha Basaveshwara Bijjala Guvida Harihara Kempe Krishnadeva Krisnaraja Mayuravarma Pulakesi Rani Chennamma Sagolli Tailapa Veera Vikramaditya Vishnuvardhana
+			
+		}
+		
+		last_names = { "Rama Raya" Rani Raya Bibi Wodeyar Gowda Nayaka Rayanna Ballala
+               
+		}
+	}
+	
+	
+	alu_kurumba = {
+		color = {60 90 170}
+		first_names = { Aliya Abbakka Amoghavarasha Basaveshwara Bijjala Guvida Harihara Kempe Krishnadeva Krisnaraja Mayuravarma Pulakesi Rani Chennamma Sagolli Tailapa Veera Vikramaditya Vishnuvardhana
+			
+		}
+		
+		last_names = { "Rama Raya" Rani Raya Bibi Wodeyar Gowda Nayaka Rayanna Ballala
+               
+		}
+	}
+	
+	jenna_kurumba = {
+		color = {60 90 170}
+		first_names = { Aliya Abbakka Amoghavarasha Basaveshwara Bijjala Guvida Harihara Kempe Krishnadeva Krisnaraja Mayuravarma Pulakesi Rani Chennamma Sagolli Tailapa Veera Vikramaditya Vishnuvardhana
+			
+		}
+		
+		last_names = { "Rama Raya" Rani Raya Bibi Wodeyar Gowda Nayaka Rayanna Ballala
+               
+		}
+	}
+	
+	badaga = {
+		color = {60 90 170}
+		first_names = { Aliya Abbakka Amoghavarasha Basaveshwara Bijjala Guvida Harihara Kempe Krishnadeva Krisnaraja Mayuravarma Pulakesi Rani Chennamma Sagolli Tailapa Veera Vikramaditya Vishnuvardhana
+			
+		}
+		
+		last_names = { "Rama Raya" Rani Raya Bibi Wodeyar Gowda Nayaka Rayanna Ballala
+               
+		}
+	}
+	
+	chetti = {
+		color = {60 90 170}
+		first_names = { Aliya Abbakka Amoghavarasha Basaveshwara Bijjala Guvida Harihara Kempe Krishnadeva Krisnaraja Mayuravarma Pulakesi Rani Chennamma Sagolli Tailapa Veera Vikramaditya Vishnuvardhana
+			
+		}
+		
+		last_names = { "Rama Raya" Rani Raya Bibi Wodeyar Gowda Nayaka Rayanna Ballala
+               
+		}
+	}
+	
+	toda = {
+		color = {60 90 170}
+		first_names = { Aliya Abbakka Amoghavarasha Basaveshwara Bijjala Guvida Harihara Kempe Krishnadeva Krisnaraja Mayuravarma Pulakesi Rani Chennamma Sagolli Tailapa Veera Vikramaditya Vishnuvardhana
+			
+		}
+		
+		last_names = { "Rama Raya" Rani Raya Bibi Wodeyar Gowda Nayaka Rayanna Ballala
+               
+		}
+	}
+	
+	koda = {
+		color = {60 90 170}
+		first_names = { Aliya Abbakka Amoghavarasha Basaveshwara Bijjala Guvida Harihara Kempe Krishnadeva Krisnaraja Mayuravarma Pulakesi Rani Chennamma Sagolli Tailapa Veera Vikramaditya Vishnuvardhana
+			
+		}
+		
+		last_names = { "Rama Raya" Rani Raya Bibi Wodeyar Gowda Nayaka Rayanna Ballala
+               
+		}
+	}
+	
+	kodava = {
+		color = {60 90 170}
+		first_names = { Aliya Abbakka Amoghavarasha Basaveshwara Bijjala Guvida Harihara Kempe Krishnadeva Krisnaraja Mayuravarma Pulakesi Rani Chennamma Sagolli Tailapa Veera Vikramaditya Vishnuvardhana
+			
+		}
+		
+		last_names = { "Rama Raya" Rani Raya Bibi Wodeyar Gowda Nayaka Rayanna Ballala
+               
+		}
+	}
+	
+	kurumba = {
+		color = {60 90 170}
+		first_names = { Aliya Abbakka Amoghavarasha Basaveshwara Bijjala Guvida Harihara Kempe Krishnadeva Krisnaraja Mayuravarma Pulakesi Rani Chennamma Sagolli Tailapa Veera Vikramaditya Vishnuvardhana
+			
+		}
+		
+		last_names = { "Rama Raya" Rani Raya Bibi Wodeyar Gowda Nayaka Rayanna Ballala
+               
+		}
+	}
+	
+	irula = {
+		color = {60 90 170}
+		first_names = { Aliya Abbakka Amoghavarasha Basaveshwara Bijjala Guvida Harihara Kempe Krishnadeva Krisnaraja Mayuravarma Pulakesi Rani Chennamma Sagolli Tailapa Veera Vikramaditya Vishnuvardhana
+			
+		}
+		
+		last_names = { "Rama Raya" Rani Raya Bibi Wodeyar Gowda Nayaka Rayanna Ballala
+               
+		}
+	}
+	
+	attapady_kurumba = {
+		color = {60 90 170}
+		first_names = { Aliya Abbakka Amoghavarasha Basaveshwara Bijjala Guvida Harihara Kempe Krishnadeva Krisnaraja Mayuravarma Pulakesi Rani Chennamma Sagolli Tailapa Veera Vikramaditya Vishnuvardhana
+			
+		}
+		
+		last_names = { "Rama Raya" Rani Raya Bibi Wodeyar Gowda Nayaka Rayanna Ballala
+               
+		}
+	}
+	
+	muduga = {
+		color = {60 90 170}
+		first_names = { Aliya Abbakka Amoghavarasha Basaveshwara Bijjala Guvida Harihara Kempe Krishnadeva Krisnaraja Mayuravarma Pulakesi Rani Chennamma Sagolli Tailapa Veera Vikramaditya Vishnuvardhana
+			
+		}
+		
+		last_names = { "Rama Raya" Rani Raya Bibi Wodeyar Gowda Nayaka Rayanna Ballala
+               
+		}
+	}
+	
+	#Tamil-Malayalam
+	tamil = {
+		color = {80 90 130}
+		first_names = { Ramayyan Seshayya Ramiengar Seshadri Shungrasoobyer Rajagopalachari Shanmukham Ramaswami Dheeran Subramania Chidambaram Sathyamurthy Vanchinathan Champakaraman
+			
+		}
+		
+		last_names = { Mudaliar Krishnamachari Rajapopalachari Sastri Dalawa
+               
+		}
+	}
+	
+	sankheti = {
+		color = {80 90 130}
+		first_names = { Ramayyan Seshayya Ramiengar Seshadri Shungrasoobyer Rajagopalachari Shanmukham Ramaswami Dheeran Subramania Chidambaram Sathyamurthy Vanchinathan Champakaraman
+			
+		}
+		
+		last_names = { Mudaliar Krishnamachari Rajapopalachari Sastri Dalawa
+               
+		}
+	}
+	
+	eravallan = {
+		color = {80 90 130}
+		first_names = { Ramayyan Seshayya Ramiengar Seshadri Shungrasoobyer Rajagopalachari Shanmukham Ramaswami Dheeran Subramania Chidambaram Sathyamurthy Vanchinathan Champakaraman
+			
+		}
+		
+		last_names = { Mudaliar Krishnamachari Rajapopalachari Sastri Dalawa
+               
+		}
+	}
+	
+	kaikadi = {
+		color = {80 90 130}
+		first_names = { Ramayyan Seshayya Ramiengar Seshadri Shungrasoobyer Rajagopalachari Shanmukham Ramaswami Dheeran Subramania Chidambaram Sathyamurthy Vanchinathan Champakaraman
+			
+		}
+		
+		last_names = { Mudaliar Krishnamachari Rajapopalachari Sastri Dalawa
+               
+		}
+	}
+	
+	kanikkaran = {
+		color = {80 90 130}
+		first_names = { Ramayyan Seshayya Ramiengar Seshadri Shungrasoobyer Rajagopalachari Shanmukham Ramaswami Dheeran Subramania Chidambaram Sathyamurthy Vanchinathan Champakaraman
+			
+		}
+		
+		last_names = { Mudaliar Krishnamachari Rajapopalachari Sastri Dalawa
+               
+		}
+	}
+	
+	malapandaram = {
+		color = {80 90 130}
+		first_names = { Ramayyan Seshayya Ramiengar Seshadri Shungrasoobyer Rajagopalachari Shanmukham Ramaswami Dheeran Subramania Chidambaram Sathyamurthy Vanchinathan Champakaraman
+			
+		}
+		
+		last_names = { Mudaliar Krishnamachari Rajapopalachari Sastri Dalawa
+               
+		}
+	}
+	
+	malamalasar = {
+		color = {80 90 130}
+		first_names = { Ramayyan Seshayya Ramiengar Seshadri Shungrasoobyer Rajagopalachari Shanmukham Ramaswami Dheeran Subramania Chidambaram Sathyamurthy Vanchinathan Champakaraman
+			
+		}
+		
+		last_names = { Mudaliar Krishnamachari Rajapopalachari Sastri Dalawa
+               
+		}
+	}
+	
+	malasar = {
+		color = {80 90 130}
+		first_names = { Ramayyan Seshayya Ramiengar Seshadri Shungrasoobyer Rajagopalachari Shanmukham Ramaswami Dheeran Subramania Chidambaram Sathyamurthy Vanchinathan Champakaraman
+			
+		}
+		
+		last_names = { Mudaliar Krishnamachari Rajapopalachari Sastri Dalawa
+               
+		}
+	}
+	
+	muthuvan = {
+		color = {80 90 130}
+		first_names = { Ramayyan Seshayya Ramiengar Seshadri Shungrasoobyer Rajagopalachari Shanmukham Ramaswami Dheeran Subramania Chidambaram Sathyamurthy Vanchinathan Champakaraman
+			
+		}
+		
+		last_names = { Mudaliar Krishnamachari Rajapopalachari Sastri Dalawa
+               
+		}
+	}
+	
+	paliyan = {
+		color = {80 90 130}
+		first_names = { Ramayyan Seshayya Ramiengar Seshadri Shungrasoobyer Rajagopalachari Shanmukham Ramaswami Dheeran Subramania Chidambaram Sathyamurthy Vanchinathan Champakaraman
+			
+		}
+		
+		last_names = { Mudaliar Krishnamachari Rajapopalachari Sastri Dalawa
+               
+		}
+	}
+	
+	yerukala = {
+		color = {80 90 130}
+		first_names = { Ramayyan Seshayya Ramiengar Seshadri Shungrasoobyer Rajagopalachari Shanmukham Ramaswami Dheeran Subramania Chidambaram Sathyamurthy Vanchinathan Champakaraman
+			
+		}
+		
+		last_names = { Mudaliar Krishnamachari Rajapopalachari Sastri Dalawa
+               
+		}
+	}
+	
+	malayalam = {
+		color = {100 90 110}
+		first_names = { Cheraman Swathi Thirunal Sri Sakthan Raja Moolam Marthanda Dharma Chithira Balarama Ayilyam Saamoothiri
+			
+		}
+		
+		last_names = { Varma Kesavadas Thampuran "Rama Varma" Perumal
+               
+		}
+	}
+	
+	karshoni = {
+		color = {120 90 100}
+		first_names = { Ramayyan Seshayya Ramiengar Seshadri Shungrasoobyer Rajagopalachari Shanmukham Ramaswami Dheeran Subramania Chidambaram Sathyamurthy Vanchinathan Champakaraman
+			
+		}
+		
+		last_names = { Mudaliar Krishnamachari Rajapopalachari Sastri Dalawa
+               
+		}
+	}
+	
+	judeo_malayalam = {
+		color = {100 90 130}
+		first_names = { Ramayyan Seshayya Ramiengar Seshadri Shungrasoobyer Rajagopalachari Shanmukham Ramaswami Dheeran Subramania Chidambaram Sathyamurthy Vanchinathan Champakaraman
+			
+		}
+		
+		last_names = { Mudaliar Krishnamachari Rajapopalachari Sastri Dalawa
+               
+		}
+	}
+	
+	arabi_malayalam = {
+		color = {100 130 110}
+		first_names = { Ramayyan Seshayya Ramiengar Seshadri Shungrasoobyer Rajagopalachari Shanmukham Ramaswami Dheeran Subramania Chidambaram Sathyamurthy Vanchinathan Champakaraman
+			
+		}
+		
+		last_names = { Mudaliar Krishnamachari Rajapopalachari Sastri Dalawa
+               
+		}
+	}
+	
+	aranadan = {
+		color = {70 90 110}
+		first_names = { Ramayyan Seshayya Ramiengar Seshadri Shungrasoobyer Rajagopalachari Shanmukham Ramaswami Dheeran Subramania Chidambaram Sathyamurthy Vanchinathan Champakaraman
+			
+		}
+		
+		last_names = { Mudaliar Krishnamachari Rajapopalachari Sastri Dalawa
+               
+		}
+	}
+	
+	byari = {
+		color = {120 90 130}
+		first_names = { Ramayyan Seshayya Ramiengar Seshadri Shungrasoobyer Rajagopalachari Shanmukham Ramaswami Dheeran Subramania Chidambaram Sathyamurthy Vanchinathan Champakaraman
+			
+		}
+		
+		last_names = { Mudaliar Krishnamachari Rajapopalachari Sastri Dalawa
+               
+		}
+	}
+	
+	kadar = {
+		color = {50 40 60}
+		first_names = { Ramayyan Seshayya Ramiengar Seshadri Shungrasoobyer Rajagopalachari Shanmukham Ramaswami Dheeran Subramania Chidambaram Sathyamurthy Vanchinathan Champakaraman
+			
+		}
+		
+		last_names = { Mudaliar Krishnamachari Rajapopalachari Sastri Dalawa
+               
+		}
+	}
+	
+	malaryan = {
+		color = {80 60 130}
+		first_names = { Ramayyan Seshayya Ramiengar Seshadri Shungrasoobyer Rajagopalachari Shanmukham Ramaswami Dheeran Subramania Chidambaram Sathyamurthy Vanchinathan Champakaraman
+			
+		}
+		
+		last_names = { Mudaliar Krishnamachari Rajapopalachari Sastri Dalawa
+               
+		}
+	}
+	
+	malavedan = {
+		color = {50 90 130}
+		first_names = { Ramayyan Seshayya Ramiengar Seshadri Shungrasoobyer Rajagopalachari Shanmukham Ramaswami Dheeran Subramania Chidambaram Sathyamurthy Vanchinathan Champakaraman
+			
+		}
+		
+		last_names = { Mudaliar Krishnamachari Rajapopalachari Sastri Dalawa
+               
+		}
+	}
+	
+	mulla_kurumba = {
+		color = {60 70 130}
+		first_names = { Ramayyan Seshayya Ramiengar Seshadri Shungrasoobyer Rajagopalachari Shanmukham Ramaswami Dheeran Subramania Chidambaram Sathyamurthy Vanchinathan Champakaraman
+			
+		}
+		
+		last_names = { Mudaliar Krishnamachari Rajapopalachari Sastri Dalawa
+               
+		}
+	}
+	
+	paniya = {
+		color = {70 115 130}
+		first_names = { Ramayyan Seshayya Ramiengar Seshadri Shungrasoobyer Rajagopalachari Shanmukham Ramaswami Dheeran Subramania Chidambaram Sathyamurthy Vanchinathan Champakaraman
+			
+		}
+		
+		last_names = { Mudaliar Krishnamachari Rajapopalachari Sastri Dalawa
+               
+		}
+	}
+	
+	ravula = {
+		color = {130 60 130}
+		first_names = { Ramayyan Seshayya Ramiengar Seshadri Shungrasoobyer Rajagopalachari Shanmukham Ramaswami Dheeran Subramania Chidambaram Sathyamurthy Vanchinathan Champakaraman
+			
+		}
+		
+		last_names = { Mudaliar Krishnamachari Rajapopalachari Sastri Dalawa
+               
+		}
+	}
+	
+	allar = {
+		color = {120 90 140}
+		first_names = { Ramayyan Seshayya Ramiengar Seshadri Shungrasoobyer Rajagopalachari Shanmukham Ramaswami Dheeran Subramania Chidambaram Sathyamurthy Vanchinathan Champakaraman
+			
+		}
+		
+		last_names = { Mudaliar Krishnamachari Rajapopalachari Sastri Dalawa
+               
+		}
+	}
+	
+	malakuravan = {
+		color = {90 110 130}
+		first_names = { Ramayyan Seshayya Ramiengar Seshadri Shungrasoobyer Rajagopalachari Shanmukham Ramaswami Dheeran Subramania Chidambaram Sathyamurthy Vanchinathan Champakaraman
+			
+		}
+		
+		last_names = { Mudaliar Krishnamachari Rajapopalachari Sastri Dalawa
+               
+		}
+	}
+	
+	vishavan = {
+		color = {60 90 135}
+		first_names = { Ramayyan Seshayya Ramiengar Seshadri Shungrasoobyer Rajagopalachari Shanmukham Ramaswami Dheeran Subramania Chidambaram Sathyamurthy Vanchinathan Champakaraman
+			
+		}
+		
+		last_names = { Mudaliar Krishnamachari Rajapopalachari Sastri Dalawa
+               
+		}
+	}
+	
+	kalanadi = {
+		color = {130 110 130}
+		first_names = { Ramayyan Seshayya Ramiengar Seshadri Shungrasoobyer Rajagopalachari Shanmukham Ramaswami Dheeran Subramania Chidambaram Sathyamurthy Vanchinathan Champakaraman
+			
+		}
+		
+		last_names = { Mudaliar Krishnamachari Rajapopalachari Sastri Dalawa
+               
+		}
+	}
+	
+	kunduvadi = {
+		color = {120 50 130}
+		first_names = { Ramayyan Seshayya Ramiengar Seshadri Shungrasoobyer Rajagopalachari Shanmukham Ramaswami Dheeran Subramania Chidambaram Sathyamurthy Vanchinathan Champakaraman
+			
+		}
+		
+		last_names = { Mudaliar Krishnamachari Rajapopalachari Sastri Dalawa
+               
+		}
+	}
+	
+	kurichiya = {
+		color = {80 80 150}
+		first_names = { Ramayyan Seshayya Ramiengar Seshadri Shungrasoobyer Rajagopalachari Shanmukham Ramaswami Dheeran Subramania Chidambaram Sathyamurthy Vanchinathan Champakaraman
+			
+		}
+		
+		last_names = { Mudaliar Krishnamachari Rajapopalachari Sastri Dalawa
+               
+		}
+	}
+	
+	pathiya = {
+		color = {70 150 130}
+		first_names = { Ramayyan Seshayya Ramiengar Seshadri Shungrasoobyer Rajagopalachari Shanmukham Ramaswami Dheeran Subramania Chidambaram Sathyamurthy Vanchinathan Champakaraman
+			
+		}
+		
+		last_names = { Mudaliar Krishnamachari Rajapopalachari Sastri Dalawa
+               
+		}
+	}
+	
+	thachanadan = {
+		color = {120 60 100}
+		first_names = { Ramayyan Seshayya Ramiengar Seshadri Shungrasoobyer Rajagopalachari Shanmukham Ramaswami Dheeran Subramania Chidambaram Sathyamurthy Vanchinathan Champakaraman
+			
+		}
+		
+		last_names = { Mudaliar Krishnamachari Rajapopalachari Sastri Dalawa
+               
+		}
+	}
+	
+	ullatan = {
+		color = {100 80 105}
+		first_names = { Ramayyan Seshayya Ramiengar Seshadri Shungrasoobyer Rajagopalachari Shanmukham Ramaswami Dheeran Subramania Chidambaram Sathyamurthy Vanchinathan Champakaraman
+			
+		}
+		
+		last_names = { Mudaliar Krishnamachari Rajapopalachari Sastri Dalawa
+               
+		}
+	}
+	
+	#Tulu
+	tulu = {
+		color = {100 90 140}
+		first_names = { Ramayyan Seshayya Ramiengar Seshadri Shungrasoobyer Rajagopalachari Shanmukham Ramaswami Dheeran Subramania Chidambaram Sathyamurthy Vanchinathan Champakaraman
+			
+		}
+		
+		last_names = { Mudaliar Krishnamachari Rajapopalachari Sastri Dalawa
+               
+		}
+	}
+	
+	bellari = {
+		color = {60 90 130}
+		first_names = { Ramayyan Seshayya Ramiengar Seshadri Shungrasoobyer Rajagopalachari Shanmukham Ramaswami Dheeran Subramania Chidambaram Sathyamurthy Vanchinathan Champakaraman
+			
+		}
+		
+		last_names = { Mudaliar Krishnamachari Rajapopalachari Sastri Dalawa
+               
+		}
+	}
+	
+	koraga = {
+		color = {80 120 130}
+		first_names = { Ramayyan Seshayya Ramiengar Seshadri Shungrasoobyer Rajagopalachari Shanmukham Ramaswami Dheeran Subramania Chidambaram Sathyamurthy Vanchinathan Champakaraman
+			
+		}
+		
+		last_names = { Mudaliar Krishnamachari Rajapopalachari Sastri Dalawa
+               
+		}
+	}
+	
+	kudiya = {
+		color = {80 70 150}
+		first_names = { Ramayyan Seshayya Ramiengar Seshadri Shungrasoobyer Rajagopalachari Shanmukham Ramaswami Dheeran Subramania Chidambaram Sathyamurthy Vanchinathan Champakaraman
+			
+		}
+		
+		last_names = { Mudaliar Krishnamachari Rajapopalachari Sastri Dalawa
+               
+		}
+	}
+	
+	#Unclassified
+	pattapu = {
+		color = {80 160 170}
+		first_names = { Ramayyan Seshayya Ramiengar Seshadri Shungrasoobyer Rajagopalachari Shanmukham Ramaswami Dheeran Subramania Chidambaram Sathyamurthy Vanchinathan Champakaraman
+			
+		}
+		
+		last_names = { Mudaliar Krishnamachari Rajapopalachari Sastri Dalawa
+               
+		}
+	}
+	
+	kakkala = {
+		color = {80 120 150}
+		first_names = { Ramayyan Seshayya Ramiengar Seshadri Shungrasoobyer Rajagopalachari Shanmukham Ramaswami Dheeran Subramania Chidambaram Sathyamurthy Vanchinathan Champakaraman
+			
+		}
+		
+		last_names = { Mudaliar Krishnamachari Rajapopalachari Sastri Dalawa
+               
+		}
+	}
+	
+	kumbaran = {
+		color = {140 90 170}
+		first_names = { Ramayyan Seshayya Ramiengar Seshadri Shungrasoobyer Rajagopalachari Shanmukham Ramaswami Dheeran Subramania Chidambaram Sathyamurthy Vanchinathan Champakaraman
+			
+		}
+		
+		last_names = { Mudaliar Krishnamachari Rajapopalachari Sastri Dalawa
+               
+		}
+	}
+	
+	bharia = {
+		color = {40 50 70}
+		first_names = { Ramayyan Seshayya Ramiengar Seshadri Shungrasoobyer Rajagopalachari Shanmukham Ramaswami Dheeran Subramania Chidambaram Sathyamurthy Vanchinathan Champakaraman
+			
+		}
+		
+		last_names = { Mudaliar Krishnamachari Rajapopalachari Sastri Dalawa
                
 		}
 	}

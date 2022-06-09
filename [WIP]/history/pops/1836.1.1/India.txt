@@ -9356,15 +9356,21 @@
 		size = 500
 	}
 
-	farmers = {
+	serfs = {
 		culture = tamil
 		religion = hindu
-		size = 300350
+		size = 250000
 	}
 	
 	farmers = {
 		culture = tamil
 		religion = hindu
+		size = 50350
+	}
+	
+	farmers = {
+		culture = tamil
+		religion = coptic
 		size = 4000
 	}
 
@@ -9435,16 +9441,52 @@
 		religion = hindu
 		size = 1000
 	}
+	
+	serfs = {
+		culture = tamil
+		religion = hindu
+		size = 245000
+	}
 
 	farmers = {
 		culture = tamil
 		religion = hindu
-		size = 355250
+		size = 54000
+	}
+	
+	farmers = {
+		culture = gujarati
+		religion = hindu
+		size = 6250
+	}
+	
+	farmers = {
+		culture = malapandaram
+		religion = hindu
+		size = 1500
+	}
+	
+	farmers = {
+		culture = ullatan
+		religion = hindu
+		size = 2500
+	}
+	
+	farmers = {
+		culture = paliyan
+		religion = hindu
+		size = 2000
+	}
+	
+	farmers = {
+		culture = malavedan
+		religion = hindu
+		size = 3250
 	}
 	
 	farmers = {
 		culture = tamil
-		religion = catholic
+		religion = coptic
 		size = 20250
 	}
 
@@ -9478,6 +9520,100 @@
 		size = 19300
 	}
 }
+
+#Tuttukkudi (1720000/430000 POPS)
+3774 = {
+	aristocrats = {
+		culture = tamil
+		religion = hindu
+		size = 45
+	}
+
+	clergymen = {
+		culture = tamil
+		religion = hindu
+		size = 50
+	}
+
+	artisans = {
+		culture = tamil
+		religion = hindu
+		size = 400
+	}
+
+	soldiers = {
+		culture = tamil
+		religion = hindu
+		size = 100
+	}
+
+	farmers = {
+		culture = tamil
+		religion = hindu
+		size = 5250
+	}
+	
+	aristocrats = {
+		culture = tamil
+		religion = coptic
+		size = 5
+	}
+
+	clergymen = {
+		culture = tamil
+		religion = coptic
+		size = 5
+	}
+
+	artisans = {
+		culture = tamil
+		religion = coptic
+		size = 40
+	}
+
+	soldiers = {
+		culture = tamil
+		religion = coptic
+		size = 10
+	}
+
+	farmers = {
+		culture = tamil
+		religion = coptic
+		size = 1250
+	}
+
+	aristocrats = {
+		culture = tamil
+		religion = sunni
+		size = 10
+	}
+
+	clergymen = {
+		culture = tamil
+		religion = sunni
+		size = 30
+	}
+
+	artisans = {
+		culture = tamil
+		religion = sunni
+		size = 80
+	}
+
+	soldiers = {
+		culture = tamil
+		religion = sunni
+		size = 300
+	}
+
+	farmers = {
+		culture = tamil
+		religion = sunni
+		size = 1300
+	}
+}
+
 #Coimbatore (2116000/529000 POPS)
 1311 = {
 	aristocrats = {
@@ -10034,7 +10170,7 @@
 
 	artisans = {
 		culture = malayalam
-		religion = catholic
+		religion = hindu
 		size = 7000
 	}
 
@@ -10053,133 +10189,127 @@
 	farmers = {
 		culture = malayalam
 		religion = hindu
-		size = 75000
+		size = 71000
+	}
+	
+	farmers = {
+		culture = paliyan
+		religion = hindu
+		size = 1000
+	}
+	
+	farmers = {
+		culture = ullatan
+		religion = hindu
+		size = 3000
 	}
 
 	aristocrats = {
-		culture = malayalam
+		culture = arabi_malayalam
 		religion = sunni
 		size = 300
 	}
 
 	clergymen = {
-		culture = malayalam
+		culture = arabi_malayalam
 		religion = sunni
 		size = 350
 	}
 
 	artisans = {
-		culture = malayalam
+		culture = arabi_malayalam
 		religion = sunni
 		size = 1500
 	}
 
 	soldiers = {
-		culture = malayalam
+		culture = arabi_malayalam
 		religion = sunni
 		size = 300
 	}
 
 	farmers = {
-		culture = malayalam
+		culture = arabi_malayalam
 		religion = sunni
 		size = 24550
 	}
 
 	clergymen = {
-		culture = malayalam
+		culture = arabi_malayalam
 		religion = shiite
 		size = 50
 	}
 
 	artisans = {
-		culture = malayalam
+		culture = arabi_malayalam
 		religion = shiite
 		size = 1100
 	}
 
 	farmers = {
-		culture = malayalam
+		culture = arabi_malayalam
 		religion = shiite
 		size = 950
 	}
 
 	aristocrats = {
-		culture = malayalam
-		religion = orthodox
+		culture = karshoni
+		religion = coptic
 		size = 100
 	}
 
 	clergymen = {
-		culture = malayalam
-		religion = orthodox
+		culture = karshoni
+		religion = coptic
 		size = 125
 	}
 
 	artisans = {
-		culture = malayalam
-		religion = orthodox
+		culture = karshoni
+		religion = coptic
 		size = 750
 	}
 
 	soldiers = {
-		culture = malayalam
-		religion = orthodox
+		culture = karshoni
+		religion = coptic
 		size = 100
 	}
 
 	farmers = {
-		culture = malayalam
-		religion = orthodox
+		culture = karshoni
+		religion = coptic
 		size = 10925
 	}
 
 	aristocrats = {
-		culture = malayalam
-		religion = catholic
+		culture = karshoni
+		religion = coptic
 		size = 100
 	}
 
 	clergymen = {
-		culture = malayalam
-		religion = catholic
+		culture = karshoni
+		religion = coptic
 		size = 125
 	}
 
 	artisans = {
-		culture = malayalam
-		religion = catholic
+		culture = karshoni
+		religion = coptic
 		size = 1100
 	}
 
 	soldiers = {
-		culture = malayalam
-		religion = catholic
+		culture = karshoni
+		religion = coptic
 		size = 100
 	}
 
 	farmers = {
-		culture = malayalam
-		religion = catholic
+		culture = karshoni
+		religion = coptic
 		size = 45675
-	}
-	
-	bureaucrats = {
-		culture = marathi
-		religion = catholic
-		size = 500
-	}
-	
-	clergymen = {
-		culture = marathi
-		religion = catholic
-		size = 125
-	}
-	
-	artisans = {
-		culture = marathi
-		religion = catholic
-		size = 6000
 	}
 
 	serfs = {
@@ -10188,6 +10318,187 @@
 		size = 54000
 	}
 }
+
+#Cochin (808000/202000 POPS)
+3771 = {
+	aristocrats = {
+		culture = malayalam
+		religion = hindu
+		size = 50
+	}
+
+	clergymen = {
+		culture = malayalam
+		religion = hindu
+		size = 150
+	}
+
+	artisans = {
+		culture = malayalam
+		religion = hindu
+		size = 100
+	}
+
+	farmers = {
+		culture = malayalam
+		religion = hindu
+		size = 6000
+	}
+
+	aristocrats = {
+		culture = arabi_malayalam
+		religion = sunni
+		size = 30
+	}
+
+	clergymen = {
+		culture = arabi_malayalam
+		religion = sunni
+		size = 30
+	}
+
+	artisans = {
+		culture = arabi_malayalam
+		religion = sunni
+		size = 150
+	}
+
+	soldiers = {
+		culture = arabi_malayalam
+		religion = sunni
+		size = 30
+	}
+
+	farmers = {
+		culture = arabi_malayalam
+		religion = sunni
+		size = 2550
+	}
+
+	aristocrats = {
+		culture = karshoni
+		religion = coptic
+		size = 100
+	}
+
+	clergymen = {
+		culture = karshoni
+		religion = coptic
+		size = 125
+	}
+
+	artisans = {
+		culture = karshoni
+		religion = coptic
+		size = 750
+	}
+
+	soldiers = {
+		culture = karshoni
+		religion = coptic
+		size = 100
+	}
+
+	farmers = {
+		culture = karshoni
+		religion = coptic
+		size = 8925
+	}
+}
+
+#Kollam (476000/119000 POPS)
+3773 = {
+	aristocrats = {
+		culture = malayalam
+		religion = hindu
+		size = 85
+	}
+
+	clergymen = {
+		culture = malayalam
+		religion = hindu
+		size = 85
+	}
+
+	artisans = {
+		culture = malayalam
+		religion = hindu
+		size = 250
+	}
+
+	soldiers = {
+		culture = malayalam
+		religion = hindu
+		size = 100
+	}
+
+	farmers = {
+		culture = malayalam
+		religion = hindu
+		size = 6675
+	}
+
+	aristocrats = {
+		culture = arabi_malayalam
+		religion = sunni
+		size = 150
+	}
+
+	clergymen = {
+		culture = arabi_malayalam
+		religion = sunni
+		size = 150
+	}
+
+	artisans = {
+		culture = arabi_malayalam
+		religion = sunni
+		size = 1100
+	}
+
+	soldiers = {
+		culture = arabi_malayalam
+		religion = sunni
+		size = 150
+	}
+
+	farmers = {
+		culture = arabi_malayalam
+		religion = sunni
+		size = 1550
+	}
+
+	aristocrats = {
+		culture = karshoni
+		religion = coptic
+		size = 75
+	}
+
+	clergymen = {
+		culture = karshoni
+		religion = coptic
+		size = 75
+	}
+
+	artisans = {
+		culture = karshoni
+		religion = coptic
+		size = 650
+	}
+
+	soldiers = {
+		culture = karshoni
+		religion = coptic
+		size = 75
+	}
+
+	farmers = {
+		culture = karshoni
+		religion = coptic
+		size = 1125
+	}
+}
+
 #Trivandrum (476000/119000 POPS)
 1319 = {
 	aristocrats = {
@@ -10241,123 +10552,152 @@
 	farmers = {
 		culture = malayalam
 		religion = hindu
-		size = 56675
+		size = 10675
+	}
+	
+	farmers = {
+		culture = malavedan
+		religion = hindu
+		size = 1675
+	}
+	
+	farmers = {
+		culture = malapandaram
+		religion = hindu
+		size = 2360
+	}
+	
+	farmers = {
+		culture = malakuravan
+		religion = hindu
+		size = 3675
+	}
+	
+	farmers = {
+		culture = kanikkaran
+		religion = hindu
+		size = 7890
 	}
 
 	aristocrats = {
-		culture = malayalam
+		culture = arabi_malayalam
 		religion = sunni
 		size = 150
 	}
 
 	clergymen = {
-		culture = malayalam
+		culture = arabi_malayalam
 		religion = sunni
 		size = 150
 	}
 
 	artisans = {
-		culture = malayalam
+		culture = arabi_malayalam
 		religion = sunni
 		size = 1100
 	}
 
 	soldiers = {
-		culture = malayalam
+		culture = arabi_malayalam
 		religion = sunni
 		size = 150
 	}
 
 	farmers = {
-		culture = malayalam
+		culture = arabi_malayalam
 		religion = sunni
 		size = 12550
 	}
 
 	clergymen = {
-		culture = malayalam
+		culture = arabi_malayalam
 		religion = shiite
 		size = 25
 	}
 
 	artisans = {
-		culture = malayalam
+		culture = arabi_malayalam
 		religion = shiite
 		size = 700
 	}
 
 	farmers = {
-		culture = malayalam
+		culture = arabi_malayalam
 		religion = shiite
 		size = 275
 	}
 
 	aristocrats = {
-		culture = malayalam
-		religion = orthodox
+		culture = karshoni
+		religion = coptic
 		size = 100
 	}
 
 	clergymen = {
-		culture = malayalam
-		religion = orthodox
+		culture = karshoni
+		religion = coptic
 		size = 125
 	}
 
 	artisans = {
-		culture = malayalam
-		religion = orthodox
+		culture = karshoni
+		religion = coptic
 		size = 850
 	}
 
 	soldiers = {
-		culture = malayalam
-		religion = orthodox
+		culture = karshoni
+		religion = coptic
 		size = 100
 	}
 
 	farmers = {
-		culture = malayalam
-		religion = orthodox
+		culture = karshoni
+		religion = coptic
 		size = 10825
 	}
 
 	aristocrats = {
-		culture = malayalam
-		religion = catholic
+		culture = karshoni
+		religion = coptic
 		size = 75
 	}
 
 	clergymen = {
-		culture = malayalam
-		religion = catholic
+		culture = karshoni
+		religion = coptic
 		size = 75
 	}
 
 	artisans = {
-		culture = malayalam
-		religion = catholic
+		culture = karshoni
+		religion = coptic
 		size = 650
 	}
 
 	soldiers = {
-		culture = malayalam
-		religion = catholic
+		culture = karshoni
+		religion = coptic
 		size = 75
 	}
 
-	farmers = {
-		culture = malayalam
-		religion = catholic
+	serfs = {
+		culture = karshoni
+		religion = coptic
 		size = 8125
 	}
 
 	serfs = {
 		culture = malayalam
 		religion = hindu
-		size = 34000
+		size = 50000
 	}
-
+	
+	serfs = {
+		culture = tamil
+		religion = hindu
+		size = 30000
+	}
 }
 #Himalaya Region (56000) #see Nepal.txt and Bhutan.txt for balance of region
 #under the rule of Sikkim in 1836  
