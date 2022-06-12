@@ -820,14 +820,7 @@ vassal = {
 }
 
 #Sur Empire
-vassal = {
-	first = SUR
-	second = BIH
-	start_date = 1836.1.1
-	end_date = 1937.1.1
-}
-
-vassal = {
+substate = {
 	first = SUR
 	second = ORI
 	start_date = 1836.1.1
@@ -836,28 +829,14 @@ vassal = {
 
 vassal = {
 	first = SUR
-	second = BNG
+	second = MYB
 	start_date = 1836.1.1
 	end_date = 1937.1.1
 }
 
 vassal = {
 	first = SUR
-	second = RHN
-	start_date = 1836.1.1
-	end_date = 1937.1.1
-}
-
-vassal = {
-	first = SUR
-	second = ASM
-	start_date = 1836.1.1
-	end_date = 1937.1.1
-}
-
-vassal = {
-	first = SUR
-	second = MNP
+	second = KNJ
 	start_date = 1836.1.1
 	end_date = 1937.1.1
 }
@@ -880,6 +859,43 @@ vassal = {
 vassal = {
 	first = OIR
 	second = NNI
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+#Mysore
+vassal = {
+	first = MYS
+	second = PKK
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+#Golconda
+substate = {
+	first = HYD
+	second = KNL
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+substate = {
+	first = HYD
+	second = DLT
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+vassal = {
+	first = HYD
+	second = BAS
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+vassal = {
+	first = HYD
+	second = JEY
 	start_date = 1836.1.1
 	end_date = 1937.1.1
 }

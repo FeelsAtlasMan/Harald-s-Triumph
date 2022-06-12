@@ -4492,6 +4492,36 @@ indo_aryan = {
                
 		}
 	}
+	
+	dakkhani = {
+		color = {155 135 80}
+		first_names = { 
+		    Lokendra Raghuraj Vijay Vishvanath Pheran Jugal Parbhu Narayan Ishvari Udit Prasan Mahip
+			Abbas Abolghasem Abdolhossein Abdolsamad Abdolazim Ahmad Ali Bahram
+			Ebrahim Esmail "Fath Ali" Fazlollah Firuz Hamzeh Hasan Hossein Kamran Karim "Lotf Ali" 
+			Mahmoud Mirza Massoud Mohammad "Moin ed-Din" "Mozzafer ed-Din" Murad Muhsin 
+			"Naser ed-Din" Nosret Reza
+		}
+		
+		last_names = { 	     
+			Airom Ansari Ayrum Buzarjomehri Davallu Esfahani Farhani 
+			Jahanbani Kashani Khan Khuzai  
+			Meshhedi Nakhchevani Pesyan Rokni Shafaei Shahbakhti 
+			Shirazi Tabrizi Tahmasebi Zahedi     
+		}
+	}
+	
+	lambadi = {
+		color = {155 135 80}
+		first_names = { Lokendra Raghuraj Vijay Vishvanath Pheran Jugal Parbhu Narayan Ishvari Udit Prasan Mahip
+			
+		}
+		
+		last_names = { Singh
+               
+		}
+	}
+	
 	gypsy = {
 	color = {16 102 163}
 		first_names = { Amberline Belcher Baul Bavol Bersh Beval Bidshika Brishen Camlo Chik Cam Chaine Chal  Chavula Danior Dukker Durriken Durril Dangerfield Garridan Gillie Guibran Goliath Gilderoy Hezekiah Jal Javert Jibben Jivin Ker Lel Lennor Lendar Lensar Mander Merripen Mestipen  Major Nehemiah Pal Pattin Pias Pov Rye Stiggur Shadrack Silvanus Tas Tobar Tobbar Tawno Tem Terkari Vandlo Wen Wesh Yarb }
@@ -5535,7 +5565,7 @@ dravidian = {
 	}
 	
 	holiya = {
-		color = {60 90 170}
+		color = {90 90 170}
 		first_names = { Aliya Abbakka Amoghavarasha Basaveshwara Bijjala Guvida Harihara Kempe Krishnadeva Krisnaraja Mayuravarma Pulakesi Rani Chennamma Sagolli Tailapa Veera Vikramaditya Vishnuvardhana
 			
 		}
@@ -5546,7 +5576,7 @@ dravidian = {
 	}
 	
 	urali = {
-		color = {60 90 170}
+		color = {60 60 170}
 		first_names = { Aliya Abbakka Amoghavarasha Basaveshwara Bijjala Guvida Harihara Kempe Krishnadeva Krisnaraja Mayuravarma Pulakesi Rani Chennamma Sagolli Tailapa Veera Vikramaditya Vishnuvardhana
 			
 		}
@@ -5557,7 +5587,7 @@ dravidian = {
 	}
 	
 	sholaga = {
-		color = {60 90 170}
+		color = {50 60 140}
 		first_names = { Aliya Abbakka Amoghavarasha Basaveshwara Bijjala Guvida Harihara Kempe Krishnadeva Krisnaraja Mayuravarma Pulakesi Rani Chennamma Sagolli Tailapa Veera Vikramaditya Vishnuvardhana
 			
 		}
@@ -5568,7 +5598,7 @@ dravidian = {
 	}
 	
 	betta_kurumba = {
-		color = {60 90 170}
+		color = {60 80 170}
 		first_names = { Aliya Abbakka Amoghavarasha Basaveshwara Bijjala Guvida Harihara Kempe Krishnadeva Krisnaraja Mayuravarma Pulakesi Rani Chennamma Sagolli Tailapa Veera Vikramaditya Vishnuvardhana
 			
 		}
@@ -5578,9 +5608,8 @@ dravidian = {
 		}
 	}
 	
-	
 	alu_kurumba = {
-		color = {60 90 170}
+		color = {60 90 130}
 		first_names = { Aliya Abbakka Amoghavarasha Basaveshwara Bijjala Guvida Harihara Kempe Krishnadeva Krisnaraja Mayuravarma Pulakesi Rani Chennamma Sagolli Tailapa Veera Vikramaditya Vishnuvardhana
 			
 		}
@@ -5591,7 +5620,7 @@ dravidian = {
 	}
 	
 	jenna_kurumba = {
-		color = {60 90 170}
+		color = {60 30 170}
 		first_names = { Aliya Abbakka Amoghavarasha Basaveshwara Bijjala Guvida Harihara Kempe Krishnadeva Krisnaraja Mayuravarma Pulakesi Rani Chennamma Sagolli Tailapa Veera Vikramaditya Vishnuvardhana
 			
 		}
@@ -5602,7 +5631,7 @@ dravidian = {
 	}
 	
 	badaga = {
-		color = {60 90 170}
+		color = {30 90 130}
 		first_names = { Aliya Abbakka Amoghavarasha Basaveshwara Bijjala Guvida Harihara Kempe Krishnadeva Krisnaraja Mayuravarma Pulakesi Rani Chennamma Sagolli Tailapa Veera Vikramaditya Vishnuvardhana
 			
 		}
@@ -5613,7 +5642,7 @@ dravidian = {
 	}
 	
 	chetti = {
-		color = {60 90 170}
+		color = {60 90 200}
 		first_names = { Aliya Abbakka Amoghavarasha Basaveshwara Bijjala Guvida Harihara Kempe Krishnadeva Krisnaraja Mayuravarma Pulakesi Rani Chennamma Sagolli Tailapa Veera Vikramaditya Vishnuvardhana
 			
 		}
@@ -5623,8 +5652,9 @@ dravidian = {
 		}
 	}
 	
+	#Toda-Koda
 	toda = {
-		color = {60 90 170}
+		color = {60 70 100}
 		first_names = { Aliya Abbakka Amoghavarasha Basaveshwara Bijjala Guvida Harihara Kempe Krishnadeva Krisnaraja Mayuravarma Pulakesi Rani Chennamma Sagolli Tailapa Veera Vikramaditya Vishnuvardhana
 			
 		}
@@ -5635,7 +5665,7 @@ dravidian = {
 	}
 	
 	koda = {
-		color = {60 90 170}
+		color = {40 50 80}
 		first_names = { Aliya Abbakka Amoghavarasha Basaveshwara Bijjala Guvida Harihara Kempe Krishnadeva Krisnaraja Mayuravarma Pulakesi Rani Chennamma Sagolli Tailapa Veera Vikramaditya Vishnuvardhana
 			
 		}
@@ -5645,8 +5675,9 @@ dravidian = {
 		}
 	}
 	
+	#Kodava
 	kodava = {
-		color = {60 90 170}
+		color = {50 60 150}
 		first_names = { Aliya Abbakka Amoghavarasha Basaveshwara Bijjala Guvida Harihara Kempe Krishnadeva Krisnaraja Mayuravarma Pulakesi Rani Chennamma Sagolli Tailapa Veera Vikramaditya Vishnuvardhana
 			
 		}
@@ -5657,7 +5688,7 @@ dravidian = {
 	}
 	
 	kurumba = {
-		color = {60 90 170}
+		color = {60 90 120}
 		first_names = { Aliya Abbakka Amoghavarasha Basaveshwara Bijjala Guvida Harihara Kempe Krishnadeva Krisnaraja Mayuravarma Pulakesi Rani Chennamma Sagolli Tailapa Veera Vikramaditya Vishnuvardhana
 			
 		}
@@ -5667,8 +5698,9 @@ dravidian = {
 		}
 	}
 	
+	#Irula
 	irula = {
-		color = {60 90 170}
+		color = {60 130 170}
 		first_names = { Aliya Abbakka Amoghavarasha Basaveshwara Bijjala Guvida Harihara Kempe Krishnadeva Krisnaraja Mayuravarma Pulakesi Rani Chennamma Sagolli Tailapa Veera Vikramaditya Vishnuvardhana
 			
 		}
@@ -5679,7 +5711,7 @@ dravidian = {
 	}
 	
 	attapady_kurumba = {
-		color = {60 90 170}
+		color = {80 70 150}
 		first_names = { Aliya Abbakka Amoghavarasha Basaveshwara Bijjala Guvida Harihara Kempe Krishnadeva Krisnaraja Mayuravarma Pulakesi Rani Chennamma Sagolli Tailapa Veera Vikramaditya Vishnuvardhana
 			
 		}
@@ -5690,7 +5722,7 @@ dravidian = {
 	}
 	
 	muduga = {
-		color = {60 90 170}
+		color = {80 90 140}
 		first_names = { Aliya Abbakka Amoghavarasha Basaveshwara Bijjala Guvida Harihara Kempe Krishnadeva Krisnaraja Mayuravarma Pulakesi Rani Chennamma Sagolli Tailapa Veera Vikramaditya Vishnuvardhana
 			
 		}
@@ -5713,7 +5745,7 @@ dravidian = {
 	}
 	
 	sankheti = {
-		color = {80 90 130}
+		color = {80 90 150}
 		first_names = { Ramayyan Seshayya Ramiengar Seshadri Shungrasoobyer Rajagopalachari Shanmukham Ramaswami Dheeran Subramania Chidambaram Sathyamurthy Vanchinathan Champakaraman
 			
 		}
@@ -5724,7 +5756,7 @@ dravidian = {
 	}
 	
 	eravallan = {
-		color = {80 90 130}
+		color = {60 90 130}
 		first_names = { Ramayyan Seshayya Ramiengar Seshadri Shungrasoobyer Rajagopalachari Shanmukham Ramaswami Dheeran Subramania Chidambaram Sathyamurthy Vanchinathan Champakaraman
 			
 		}
@@ -5735,7 +5767,7 @@ dravidian = {
 	}
 	
 	kaikadi = {
-		color = {80 90 130}
+		color = {80 130 130}
 		first_names = { Ramayyan Seshayya Ramiengar Seshadri Shungrasoobyer Rajagopalachari Shanmukham Ramaswami Dheeran Subramania Chidambaram Sathyamurthy Vanchinathan Champakaraman
 			
 		}
@@ -5746,7 +5778,7 @@ dravidian = {
 	}
 	
 	kanikkaran = {
-		color = {80 90 130}
+		color = {80 120 170}
 		first_names = { Ramayyan Seshayya Ramiengar Seshadri Shungrasoobyer Rajagopalachari Shanmukham Ramaswami Dheeran Subramania Chidambaram Sathyamurthy Vanchinathan Champakaraman
 			
 		}
@@ -5757,7 +5789,7 @@ dravidian = {
 	}
 	
 	malapandaram = {
-		color = {80 90 130}
+		color = {120 90 150}
 		first_names = { Ramayyan Seshayya Ramiengar Seshadri Shungrasoobyer Rajagopalachari Shanmukham Ramaswami Dheeran Subramania Chidambaram Sathyamurthy Vanchinathan Champakaraman
 			
 		}
@@ -5768,7 +5800,7 @@ dravidian = {
 	}
 	
 	malamalasar = {
-		color = {80 90 130}
+		color = {80 120 110}
 		first_names = { Ramayyan Seshayya Ramiengar Seshadri Shungrasoobyer Rajagopalachari Shanmukham Ramaswami Dheeran Subramania Chidambaram Sathyamurthy Vanchinathan Champakaraman
 			
 		}
@@ -5779,7 +5811,7 @@ dravidian = {
 	}
 	
 	malasar = {
-		color = {80 90 130}
+		color = {110 90 150}
 		first_names = { Ramayyan Seshayya Ramiengar Seshadri Shungrasoobyer Rajagopalachari Shanmukham Ramaswami Dheeran Subramania Chidambaram Sathyamurthy Vanchinathan Champakaraman
 			
 		}
@@ -5790,7 +5822,7 @@ dravidian = {
 	}
 	
 	muthuvan = {
-		color = {80 90 130}
+		color = {110 120 170}
 		first_names = { Ramayyan Seshayya Ramiengar Seshadri Shungrasoobyer Rajagopalachari Shanmukham Ramaswami Dheeran Subramania Chidambaram Sathyamurthy Vanchinathan Champakaraman
 			
 		}
@@ -5801,7 +5833,7 @@ dravidian = {
 	}
 	
 	paliyan = {
-		color = {80 90 130}
+		color = {70 40 110}
 		first_names = { Ramayyan Seshayya Ramiengar Seshadri Shungrasoobyer Rajagopalachari Shanmukham Ramaswami Dheeran Subramania Chidambaram Sathyamurthy Vanchinathan Champakaraman
 			
 		}
@@ -5812,7 +5844,7 @@ dravidian = {
 	}
 	
 	yerukala = {
-		color = {80 90 130}
+		color = {90 70 140}
 		first_names = { Ramayyan Seshayya Ramiengar Seshadri Shungrasoobyer Rajagopalachari Shanmukham Ramaswami Dheeran Subramania Chidambaram Sathyamurthy Vanchinathan Champakaraman
 			
 		}
@@ -5822,6 +5854,7 @@ dravidian = {
 		}
 	}
 	
+	#Malayalam
 	malayalam = {
 		color = {100 90 110}
 		first_names = { Cheraman Swathi Thirunal Sri Sakthan Raja Moolam Marthanda Dharma Chithira Balarama Ayilyam Saamoothiri
