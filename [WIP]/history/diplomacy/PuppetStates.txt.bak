@@ -819,86 +819,8 @@ vassal = {
 	end_date = 1937.1.1
 }
 
-#Dehli
-vassal = {
-	first = MUG
-	second = SIN
-	start_date = 1836.1.1
-	end_date = 1937.1.1
-}
-
-vassal = {
-	first = MUG
-	second = KUT
-	start_date = 1836.1.1
-	end_date = 1937.1.1
-}
-
-vassal = {
-	first = MUG
-	second = AWA
-	start_date = 1836.1.1
-	end_date = 1937.1.1
-}
-
-vassal = {
-	first = MUG
-	second = JAI
-	start_date = 1836.1.1
-	end_date = 1937.1.1
-}
-
-vassal = {
-	first = MUG
-	second = JOD
-	start_date = 1836.1.1
-	end_date = 1937.1.1
-}
-
-vassal = {
-	first = MUG
-	second = MEW
-	start_date = 1836.1.1
-	end_date = 1937.1.1
-}
-
-vassal = {
-	first = MUG
-	second = JAS
-	start_date = 1836.1.1
-	end_date = 1937.1.1
-}
-
-vassal = {
-	first = MUG
-	second = BHP
-	start_date = 1836.1.1
-	end_date = 1937.1.1
-}
-
-vassal = {
-	first = MUG
-	second = BIK
-	start_date = 1836.1.1
-	end_date = 1937.1.1
-}
-
-vassal = {
-	first = MUG
-	second = GJR
-	start_date = 1836.1.1
-	end_date = 1937.1.1
-}
-
 #Sur Empire
-vassal = {
-	first = SUR
-	second = BIH
-	start_date = 1836.1.1
-	end_date = 1937.1.1
-}
-
-vassal = {
+substate = {
 	first = SUR
 	second = ORI
 	start_date = 1836.1.1
@@ -907,31 +829,25 @@ vassal = {
 
 vassal = {
 	first = SUR
-	second = BNG
+	second = MYB
 	start_date = 1836.1.1
 	end_date = 1937.1.1
 }
 
 vassal = {
 	first = SUR
-	second = RHN
+	second = GRO
 	start_date = 1836.1.1
 	end_date = 1937.1.1
 }
 
 vassal = {
 	first = SUR
-	second = ASM
+	second = CKM
 	start_date = 1836.1.1
 	end_date = 1937.1.1
 }
 
-vassal = {
-	first = SUR
-	second = MNP
-	start_date = 1836.1.1
-	end_date = 1937.1.1
-}
 
 #Oirats
 vassal = {
@@ -951,6 +867,43 @@ vassal = {
 vassal = {
 	first = OIR
 	second = NNI
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+#Mysore
+vassal = {
+	first = MYS
+	second = PKK
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+#Golconda
+substate = {
+	first = HYD
+	second = KNL
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+substate = {
+	first = HYD
+	second = DLT
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+vassal = {
+	first = HYD
+	second = BAS
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+vassal = {
+	first = HYD
+	second = JEY
 	start_date = 1836.1.1
 	end_date = 1937.1.1
 }
@@ -1433,6 +1386,21 @@ vassal = {
 	start_date = 1836.1.1
 	end_date = 1937.1.1
 }
+
+vassal = {
+	first = SHA
+	second = MKW
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+vassal = {
+	first = SHA
+	second = KLY
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
 vassal = {
 	first = SHA
 	second = MGN

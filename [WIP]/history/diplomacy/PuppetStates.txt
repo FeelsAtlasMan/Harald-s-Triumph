@@ -836,10 +836,18 @@ vassal = {
 
 vassal = {
 	first = SUR
-	second = KNJ
+	second = GRO
 	start_date = 1836.1.1
 	end_date = 1937.1.1
 }
+
+vassal = {
+	first = SUR
+	second = CKM
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
 
 #Oirats
 vassal = {
@@ -1353,6 +1361,14 @@ vassal = {
 	start_date = 1836.1.1
 	end_date = 1937.1.1
 }
+
+vassal = {
+	first = NEP
+	second = MST
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
 vassal = {
 	first = OIR
 	second = KHT
@@ -1378,6 +1394,21 @@ vassal = {
 	start_date = 1836.1.1
 	end_date = 1937.1.1
 }
+
+vassal = {
+	first = SHA
+	second = MKW
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+vassal = {
+	first = SHA
+	second = KLY
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
 vassal = {
 	first = SHA
 	second = MGN
