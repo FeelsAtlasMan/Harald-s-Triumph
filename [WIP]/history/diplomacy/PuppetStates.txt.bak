@@ -1,7 +1,7 @@
 #Timurd Vassals/Substates
 substate = {
 	first = TIM
-	second = PNJ
+	second = MTN
 	start_date = 1836.1.1
 	end_date = 1937.1.1
 }
@@ -26,6 +26,28 @@ vassal = {
 	start_date = 1836.1.1
 	end_date = 1937.1.1
 }
+
+vassal = {
+	first = TIM
+	second = CLS
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+vassal = {
+	first = TIM
+	second = KAS
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+vassal = {
+	first = TIM
+	second = CMB
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
 
 vassal = {
 	first = TIM
@@ -1361,6 +1383,28 @@ vassal = {
 	start_date = 1836.1.1
 	end_date = 1937.1.1
 }
+
+vassal = {
+	first = NEP
+	second = MST
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+vassal = {
+	first = NEP
+	second = SHI
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+vassal = {
+	first = NEP
+	second = MNI
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
 vassal = {
 	first = OIR
 	second = KHT
