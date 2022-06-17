@@ -53744,19 +53744,19 @@
 
 1322 = {
     text_position = {
-        x = 4061.000000
-        y = 895.000000
+        x = 4061.250000
+        y = 907.050000
     }
 
     text_scale = 2.500000
     unit = {
-        x = 4059.000000
-        y = 899.000000
+        x = 4058.800000
+        y = 914.050000
     }
 
     city = {
-        x = 4062.465000
-        y = 898.430000
+        x = 4057.100000
+        y = 914.000000
     }
 
     factory = {
@@ -53786,18 +53786,22 @@
         }
 
         naval_base = {
-            x = 4052.600098
-            y = 898.000000
+            x = 4055.500000
+            y = 912.500000
         }
 
+    }
+
+    building_rotation = {
+        naval_base = 4.747550
     }
 
 } # Kandy
 
 1323 = {
     text_position = {
-        x = 4069.000000
-        y = 868.000000
+        x = 4070.118333
+        y = 876.288333
     }
 
     text_scale = 2.899999
@@ -53807,8 +53811,8 @@
     }
 
     city = {
-        x = 4065.630000
-        y = 869.510000
+        x = 4063.883333
+        y = 871.916667
     }
 
     factory = {
@@ -53822,8 +53826,8 @@
     }
 
     military_construction = {
-        x = 4066.000000
-        y = 866.000000
+        x = 4067.108333
+        y = 871.200000
     }
 
     building_position = {
@@ -53837,6 +53841,15 @@
             y = 875.000000
         }
 
+        naval_base = {
+            x = 4077.715000
+            y = 889.116667
+        }
+
+    }
+
+    building_rotation = {
+        naval_base = 3.126594
     }
 
 } # Trincomalee
@@ -53850,18 +53863,18 @@
     text_rotation = 5.148721
     text_scale = 1.900000
     unit = {
-        x = 4079.000000
-        y = 880.000000
+        x = 4072.000000
+        y = 894.750000
     }
 
     city = {
-        x = 4082.270000
-        y = 871.800000
+        x = 4072.550000
+        y = 897.050000
     }
 
     factory = {
-        x = 4070.899902
-        y = 897.000000
+        x = 4071.500000
+        y = 897.100000
     }
 
     building_construction = {
@@ -53870,24 +53883,24 @@
     }
 
     military_construction = {
-        x = 4081.300049
-        y = 874.400024
+        x = 4070.000000
+        y = 898.850000
     }
 
     building_position = {
         fort = {
-            x = 4071.699951
-            y = 858.200012
+            x = 4071.050000
+            y = 895.450000
         }
 
         railroad = {
-            x = 4082.100098
-            y = 866.900024
+            x = 4071.800000
+            y = 896.900000
         }
 
         naval_base = {
-            x = 4084.100098
-            y = 865.799988
+            x = 4074.700000
+            y = 896.800000
         }
 
     }
@@ -134134,9 +134147,8 @@
         y = 1539.126667
     }
 
-}
+} # Mississippi Delta
 
-# Mississippi Delta
 3604 = {
     text_position = {
         x = 1392.050000
@@ -134150,9 +134162,8 @@
         y = 1449.250000
     }
 
-}
+} # Lower Mississippi
 
-# Lower Mississippi
 3605 = {
     text_position = {
         x = 1386.546667
@@ -134166,9 +134177,8 @@
         y = 1494.346667
     }
 
-}
+} # Upper Mississippi
 
-# Upper Mississippi
 3606 = {
     text_position = {
         x = 1407.826667
@@ -134182,9 +134192,8 @@
         y = 1577.110000
     }
 
-}
+} # Illinois
 
-# Illinois
 3607 = {
     text_position = {
         x = 1406.900000
@@ -134197,9 +134206,8 @@
         y = 1637.740000
     }
 
-}
+} # Voskopoja
 
-# Voskopoja
 3674 = {
     text_position = {
         x = 3132.722222
@@ -134218,9 +134226,8 @@
         y = 1448.027778
     }
 
-}
+} # Vodena
 
-# Vodena
 3675 = {
     text_position = {
         x = 3155.962963
@@ -134247,9 +134254,8 @@
 
     }
 
-}
+} # Athos
 
-# Athos
 3676 = {
     text_position = {
         x = 3183.361111
@@ -134268,9 +134274,8 @@
         y = 1439.805556
     }
 
-}
+} # Plodiv
 
-# Plodiv
 3677 = {
     text_position = {
         x = 3188.374074
@@ -134312,9 +134317,8 @@
 
     }
 
-}
+} # Durazzo
 
-# Durazzo
 3678 = {
     text_position = {
         x = 3108.250000
@@ -134332,9 +134336,8 @@
         y = 1460.888889
     }
 
-}
+} # Scutari
 
-# Scutari
 3679 = {
     text_position = {
         x = 3110.083333
@@ -134353,9 +134356,8 @@
         y = 1471.083333
     }
 
-}
+} # Sweibrucken
 
-# Sweibrucken
 3694 = {
     text_position = {
         x = 2919.400000
@@ -134364,9 +134366,8 @@
 
     text_rotation = 5.886852
     text_scale = 1.2
-}
+} # Worms
 
-# Worms
 3695 = {
     text_position = {
         x = 2932.400000
@@ -134374,9 +134375,8 @@
     }
 
     text_scale = 1.4
-}
+} # Speyer
 
-# Speyer
 3696 = {
     text_position = {
         x = 2936.500000
@@ -134384,9 +134384,8 @@
     }
 
     text_scale = 0.9
-}
+} # Schweinfurt
 
-# Schweinfurt
 3697 = {
     text_position = {
         x = 2967.0
@@ -134394,9 +134393,8 @@
     }
 
     text_scale = 1.0
-}
+} # Bamberg
 
-# Bamberg
 3698 = {
     text_position = {
         x = 2980.400000
@@ -134405,9 +134403,8 @@
 
     text_rotation = 0.888237
     text_scale = 1.5
-}
+} # Sulzbach
 
-# Sulzbach
 3699 = {
     text_position = {
         x = 2991.400000
@@ -134416,9 +134413,8 @@
 
     text_rotation = 0.888237
     text_scale = 1.4
-}
+} # Amberg
 
-# Amberg
 3700 = {
     text_position = {
         x = 2993.400000
@@ -134427,9 +134423,8 @@
 
     text_rotation = 0.888237
     text_scale = 1.7
-}
+} # Ansbasch
 
-# Ansbasch
 3701 = {
     text_position = {
         x = 2972.100000
@@ -134438,9 +134433,8 @@
 
     text_rotation = 5.902679
     text_scale = 2.0
-}
+} # Passau
 
-# Passau
 3702 = {
     text_position = {
         x = 3014.600000
@@ -134449,9 +134443,8 @@
 
     text_rotation = 0.978237
     text_scale = 2.2
-}
+} # Rothenburg
 
-# Rothenburg
 3703 = {
     text_position = {
         x = 2966.500000
@@ -134460,9 +134453,8 @@
 
     text_rotation = 0.760668
     text_scale = 0.9
-}
+} # Freising
 
-# Freising
 3704 = {
     text_position = {
         x = 2988.500000
@@ -134471,9 +134463,8 @@
 
     text_rotation = 0.908237
     text_scale = 1.0
-}
+} # Neuburg
 
-# Neuburg
 3705 = {
     text_position = {
         x = 2973.400000
@@ -134481,9 +134472,8 @@
     }
 
     text_scale = 1.9
-}
+} # Kempten
 
-# Kempten
 3706 = {
     text_position = {
         x = 2967.500000
@@ -134492,9 +134482,8 @@
 
     text_rotation = 0.760668
     text_scale = 2.2
-}
+} # Meimmingen
 
-# Meimmingen
 3707 = {
     text_position = {
         x = 2966.100000
@@ -134503,9 +134492,8 @@
 
     text_rotation = 0.760668
     text_scale = 1.0
-}
+} # Ravensburg
 
-# Ravensburg
 3708 = {
     text_position = {
         x = 2954.5
@@ -134513,9 +134501,8 @@
     }
 
     text_scale = 1.9
-}
+} # Bar-le-Duc
 
-# Bar-le-Duc
 3710 = {
     text_position = {
         x = 2893.0
@@ -134524,9 +134511,8 @@
 
     text_rotation = 1.108917
     text_scale = 1.3
-}
+} # Bockenheim
 
-# Bockenheim
 3711 = {
     text_position = {
         x = 2919
@@ -134535,9 +134521,8 @@
 
     text_rotation = 1.108917
     text_scale = 0.8
-}
+} # Briey
 
-# Briey
 3712 = {
     text_position = {
         x = 2901.0
@@ -134546,14 +134531,12 @@
 
     text_rotation = 1.046684
     text_scale = 1.6
-}
+} # Toul
 
-# Toul
 3713 = {
     text_scale = 1.5
-}
+} # Hagenau
 
-# Hagenau
 3714 = {
     text_position = {
         x = 2929.1
@@ -134602,9 +134585,8 @@
 
     }
 
-}
+} # Novi Grad
 
-# Novi Grad
 3716 = {
     text_position = {
         x = 3061.853704
@@ -134623,9 +134605,8 @@
         y = 1532.252778
     }
 
-}
+} # Kannal
 
-# Kannal
 3717 = {
     text_position = {
         x = 3048.722222
@@ -134662,9 +134643,8 @@
 
     }
 
-}
+} # Nemethely
 
-# Nemethely
 3718 = {
     text_position = {
         x = 3046.694444
@@ -134678,9 +134658,8 @@
         y = 1582.555556
     }
 
-}
+} # Shahzadpur
 
-# Shahzadpur
 3738 = {
     text_position = {
         x = 3046.694444
@@ -134694,9 +134673,8 @@
         y = 1582.555556
     }
 
-}
+} # Nawanshahr
 
-# Nawanshahr
 3739 = {
     text_position = {
         x = 3046.694444
@@ -134710,9 +134688,8 @@
         y = 1582.555556
     }
 
-}
+} # Jalandhar
 
-# Jalandhar
 3740 = {
     text_position = {
         x = 3046.694444
@@ -134726,9 +134703,8 @@
         y = 1582.555556
     }
 
-}
+} # Hisar
 
-# Hisar
 3741 = {
     text_position = {
         x = 3046.694444
@@ -134742,9 +134718,8 @@
         y = 1582.555556
     }
 
-}
+} # Patiala
 
-# Patiala
 3742 = {
     text_position = {
         x = 3046.694444
@@ -134758,9 +134733,8 @@
         y = 1582.555556
     }
 
-}
+} # Khanlar
 
-# Khanlar
 3749 = {
     text_position = {
         x = 3522.450000
@@ -134774,9 +134748,8 @@
         y = 1446.600000
     }
 
-}
+} # Istisu
 
-# Istisu
 3750 = {
     text_position = {
         x = 3521.536667
@@ -134795,9 +134768,8 @@
         y = 1435.980000
     }
 
-}
+} # Julfa
 
-# Julfa
 3751 = {
     text_position = {
         x = 3517.550000
@@ -134826,9 +134798,8 @@
         y = 1430.150000
     }
 
-}
+} # Kelbajar
 
-# Kelbajar
 3752 = {
     text_position = {
         x = 3530.600000
@@ -134847,9 +134818,8 @@
         y = 1437.050000
     }
 
-}
+} # Lahij
 
-# Lahij
 3753 = {
     text_position = {
         x = 3555.100000
@@ -134890,9 +134860,8 @@
 
     }
 
-}
+} # Rustawi
 
-# Rustawi
 3754 = {
     text_position = {
         x = 3504.450000
@@ -134933,9 +134902,8 @@
 
     }
 
-}
+} # Jamborg
 
-# Jamborg
 3755 = {
     text_position = {
         x = 3248.650000
@@ -134981,9 +134949,8 @@
 
     }
 
-}
+} # Cheleken
 
-# Cheleken
 3756 = {
     text_position = {
         x = 3504.450000
@@ -135024,9 +134991,8 @@
 
     }
 
-}
+} # Dasht-e Yomud
 
-# Dasht-e Yomud
 3757 = {
     text_position = {
         x = 3652.415000
@@ -135047,9 +135013,8 @@
 
     }
 
-}
+} # Tagta
 
-# Tagta
 3758 = {
     text_position = {
         x = 3740.116667
@@ -135068,10 +135033,29 @@
         y = 1459.293333
     }
 
-}
+} # Karmana
 
-# Karmana
 3759 = {
+    text_position = {
+        x = 3789.713333
+        y = 1467.490000
+    }
+
+    text_rotation = 5.387911
+    text_scale = 5.0
+    unit = {
+        x = 3795.726667
+        y = 1469.540000
+    }
+
+    city = {
+        x = 3830.303333
+        y = 1457.513333
+    }
+
+} # Karmana
+
+3760 = {
     text_position = {
         x = 3789.713333
         y = 1467.490000
@@ -135091,7 +135075,213 @@
 
 }
 
-# Lake Trichonida
+3761 = {
+    text_position = {
+        x = 3789.713333
+        y = 1467.490000
+    }
+
+    text_rotation = 5.387911
+    text_scale = 5.0
+    unit = {
+        x = 3795.726667
+        y = 1469.540000
+    }
+
+    city = {
+        x = 3830.303333
+        y = 1457.513333
+    }
+
+}
+
+3762 = {
+    text_position = {
+        x = 3789.713333
+        y = 1467.490000
+    }
+
+    text_rotation = 5.387911
+    text_scale = 5.0
+    unit = {
+        x = 3795.726667
+        y = 1469.540000
+    }
+
+    city = {
+        x = 3830.303333
+        y = 1457.513333
+    }
+
+}
+
+3763 = {
+    text_position = {
+        x = 3789.713333
+        y = 1467.490000
+    }
+
+    text_rotation = 5.387911
+    text_scale = 5.0
+    unit = {
+        x = 3795.726667
+        y = 1469.540000
+    }
+
+    city = {
+        x = 3830.303333
+        y = 1457.513333
+    }
+
+}
+
+3764 = {
+    text_position = {
+        x = 3789.713333
+        y = 1467.490000
+    }
+
+    text_rotation = 5.387911
+    text_scale = 5.0
+    unit = {
+        x = 3795.726667
+        y = 1469.540000
+    }
+
+    city = {
+        x = 3830.303333
+        y = 1457.513333
+    }
+
+}
+
+3765 = {
+    text_position = {
+        x = 3789.713333
+        y = 1467.490000
+    }
+
+    text_rotation = 5.387911
+    text_scale = 5.0
+    unit = {
+        x = 3795.726667
+        y = 1469.540000
+    }
+
+    city = {
+        x = 3830.303333
+        y = 1457.513333
+    }
+
+}
+
+3766 = {
+    text_position = {
+        x = 4061.390000
+        y = 866.550000
+    }
+
+    text_rotation = 5.444457
+    text_scale = 3.0
+    unit = {
+        x = 4062.650000
+        y = 867.390000
+    }
+
+    city = {
+        x = 4065.940000
+        y = 867.810000
+    }
+
+}
+
+3767 = {
+    text_position = {
+        x = 4061.300000
+        y = 895.650000
+    }
+
+    text_rotation = 0.161030
+    text_scale = 2.0
+    unit = {
+        x = 4060.700000
+        y = 895.900000
+    }
+
+    building_position = {
+        naval_base = {
+            x = 4052.450000
+            y = 894.650000
+        }
+
+    }
+
+}
+
+3768 = {
+    text_position = {
+        x = 4080.300000
+        y = 877.300000
+    }
+
+    text_rotation = 5.054739
+    text_scale = 1.7
+    unit = {
+        x = 4079.750000
+        y = 876.350000
+    }
+
+    city = {
+        x = 4081.100000
+        y = 877.800000
+    }
+
+    building_position = {
+        naval_base = {
+            x = 4082.800000
+            y = 879.800000
+        }
+
+    }
+
+    building_rotation = {
+        naval_base = 3.116598
+    }
+
+}
+
+3769 = {
+    text_position = {
+        x = 3789.713333
+        y = 1467.490000
+    }
+
+    text_rotation = 5.387911
+    text_scale = 5.0
+    unit = {
+        x = 4054.800000
+        y = 900.900000
+    }
+
+    city = {
+        x = 4052.750000
+        y = 903.300000
+    }
+
+    building_position = {
+        naval_base = {
+            x = 4052.250000
+            y = 902.150000
+        }
+
+    }
+
+    building_rotation = {
+        naval_base = 4.727463
+    }
+
+} # Lake Trichonida
+
 3691 = {
     text_position = {
         x = 3142.464286
@@ -135100,9 +135290,8 @@
 
     text_rotation = 0.385158
     text_scale = 0.4
-}
+} # Lake Pamvotida
 
-# Lake Pamvotida
 3690 = {
     text_position = {
         x = 3131.035714
@@ -135111,9 +135300,8 @@
 
     text_rotation = 5.600626
     text_scale = 0.34
-}
+} # Lake Ohrid
 
-# Lake Ohrid
 3680 = {
     text_position = {
         x = 3128.571429
@@ -135121,9 +135309,8 @@
     }
 
     text_scale = 0.55
-}
+} # Lake Scutari
 
-# Lake Scutari
 3687 = {
     text_position = {
         x = 3108.059259
@@ -135131,15 +135318,13 @@
     }
 
     text_rotation = 5.380055
-}
+} # Lake Prespa
 
-# Lake Prespa
 3681 = {
     text_rotation = 5.842006
     text_scale = 0.6
-}
+} # Lake Kastoria
 
-# Lake Kastoria
 3682 = {
     text_position = {
         x = 3136.678571
@@ -135148,9 +135333,8 @@
 
     text_rotation = 0.614422
     text_scale = 0.35
-}
+} # Lake Vegoritida
 
-# Lake Vegoritida
 3683 = {
     text_position = {
         x = 3143.035714
@@ -135158,9 +135342,8 @@
     }
 
     text_rotation = 0.385158
-}
+} # Lake Dojran
 
-# Lake Dojran
 3684 = {
     text_position = {
         x = 3163.178571
@@ -135169,9 +135352,8 @@
 
     text_rotation = 5.458661
     text_scale = 0.50
-}
+} # Lake Koronia
 
-# Lake Koronia
 3686 = {
     text_position = {
         x = 3166.357143
@@ -135180,9 +135362,8 @@
 
     text_rotation = 5.686838
     text_scale = 0.45
-}
+} # Lake Volvi
 
-# Lake Volvi
 3685 = {
     text_position = {
         x = 3171.464286
@@ -135191,9 +135372,8 @@
 
     text_rotation = 0
     text_scale = 0.5
-}
+} # Wallachian Lakes
 
-# Wallachian Lakes
 3688 = {
     text_position = {
         x = 3171.428571
@@ -135201,14 +135381,12 @@
     }
 
     text_scale = 0.0001
-}
+} # Danube Delta
 
-# Danube Delta
 3689 = {
     text_scale = 0.0001
-}
+} # Lake Yliki
 
-# Lake Yliki
 3692 = {
     text_position = {
         x = 3169.000000
@@ -135216,9 +135394,8 @@
     }
 
     text_scale = 0.3
-}
+} # Daryacheh-ye Namak
 
-# Daryacheh-ye Namak
 3728 = {
     text_position = {
         x = 3614.150000
@@ -135226,9 +135403,8 @@
     }
 
     text_scale = 0.9
-}
+} # Hoz-e Soltan
 
-# Hoz-e Soltan
 3729 = {
     text_position = {
         x = 3599.300000
@@ -135237,9 +135413,8 @@
 
     text_rotation = 0.353486
     text_scale = 0.2
-}
+} # Namakzar
 
-# Namakzar
 3731 = {
     text_position = {
         x = 3690.760000
@@ -135247,9 +135422,8 @@
     }
 
     text_scale = 1
-}
+} # Daryacheh-e Haj Aligholi
 
-# Daryacheh-e Haj Aligholi
 3730 = {
     text_position = {
         x = 3655.900000
@@ -135257,9 +135431,8 @@
     }
 
     text_scale = 0.88
-}
+} # Talab-e Anzali
 
-# Talab-e Anzali
 3727 = {
     text_position = {
         x = 3578.000000
@@ -135268,9 +135441,8 @@
 
     text_rotation = 0.010050
     text_scale = 0.3
-}
+} # Daryacheh-ye Bakhtegan
 
-# Daryacheh-ye Bakhtegan
 3737 = {
     text_position = {
         x = 3645.225000
@@ -135279,9 +135451,8 @@
 
     text_rotation = 5.558212
     text_scale = 0.8
-}
+} # Daryacheh-ye Tashk
 
-# Daryacheh-ye Tashk
 3736 = {
     text_position = {
         x = 3640.950000
@@ -135290,9 +135461,8 @@
 
     text_rotation = 6.018697
     text_scale = 0.7
-}
+} # Hamun-e Jaz Murian
 
-# Hamun-e Jaz Murian
 3735 = {
     text_position = {
         x = 3724.750000
@@ -135300,9 +135470,8 @@
     }
 
     text_scale = 0.5
-}
+} # Hamun-e Helmand
 
-# Hamun-e Helmand
 3732 = {
     text_position = {
         x = 3763.329630
@@ -135311,9 +135480,8 @@
 
     text_rotation = 5.808302
     text_scale = 0.9
-}
+} # Hamun-e Lora
 
-# Hamun-e Lora
 3734 = {
     text_position = {
         x = 3802.850000
@@ -135322,9 +135490,8 @@
 
     text_rotation = 0.920288
     text_scale = 0.6
-}
+} # Hamun-e Meshkel
 
-# Hamun-e Meshkel
 3733 = {
     text_position = {
         x = 3781.500000

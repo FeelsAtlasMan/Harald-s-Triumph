@@ -11609,23 +11609,47 @@
 		religion = sunni
 		size = 2550
 	}
+	
+	aristocrats = {
+		culture = judeo_malayalam
+		religion = jewish
+		size = 10
+	}
+
+	clergymen = {
+		culture = judeo_malayalam
+		religion = jewish
+		size = 25
+	}
+
+	artisans = {
+		culture = judeo_malayalam
+		religion = jewish
+		size = 300
+	}
+
+	farmers = {
+		culture = judeo_malayalam
+		religion = jewish
+		size = 925
+	}
 
 	aristocrats = {
 		culture = karshoni
 		religion = coptic
-		size = 100
+		size = 90
 	}
 
 	clergymen = {
 		culture = karshoni
 		religion = coptic
-		size = 125
+		size = 100
 	}
 
 	artisans = {
 		culture = karshoni
 		religion = coptic
-		size = 750
+		size = 450
 	}
 
 	soldiers = {
@@ -11637,7 +11661,7 @@
 	farmers = {
 		culture = karshoni
 		religion = coptic
-		size = 8925
+		size = 8000
 	}
 }
 
