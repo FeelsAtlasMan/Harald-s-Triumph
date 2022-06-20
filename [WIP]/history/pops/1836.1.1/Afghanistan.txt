@@ -1257,39 +1257,45 @@
 	}
 
 	clergymen = {
-		culture = kashmiri
+		culture = pashai
 		religion = animist
 		size = 175
 	}
 
 	artisans = {
-		culture = kashmiri
+		culture = pashai
 		religion = animist
 		size = 550
 	}
 
 	soldiers = {
-		culture = kashmiri
+		culture = pashai
 		religion = animist
-		size = 500
+		size = 600
 	}
 
 	farmers = {
-		culture = kashmiri
+		culture = pashai
 		religion = animist
-		size = 9000
-	}
-	
-	soldiers = {
-		culture = nuristani
-		religion = animist
-		size = 100
+		size = 12000
 	}
 	
 	farmers = {
-		culture = nuristani
+		culture = savi
 		religion = animist
-		size = 4000
+		size = 1000
+	}
+	
+	farmers = {
+		culture = parya
+		religion = sunni
+		size = 200
+	}
+	
+	farmers = {
+		culture = kunar
+		religion = animist
+		size = 2000
 	}
 
 	slaves = {
@@ -1331,57 +1337,147 @@
 	}
 
 	clergymen = {
-		culture = kashmiri
+		culture = kunar
 		religion = animist
 		size = 15
 	}
 
 	artisans = {
-		culture = kashmiri
+		culture = kunar
 		religion = animist
 		size = 50
 	}
 
 	soldiers = {
-		culture = kashmiri
+		culture = kunar
 		religion = animist
 		size = 50
 	}
 
 	farmers = {
-		culture = kashmiri
+		culture = kunar
 		religion = animist
 		size = 3000
 	}
 	
+	farmers = {
+		culture = kohistani
+		religion = animist
+		size = 1000
+	}
+	
 	aristocrats = {
-		culture = pashtun
-		religion = sunni
+		culture = kamkatavari
+		religion = animist
 		size = 10
 	}
 
 	clergymen = {
-		culture = nuristani
+		culture = kamkatavari
 		religion = animist
 		size = 50
 	}
 
 	artisans = {
-		culture = nuristani
+		culture = kamkatavari
 		religion = animist
 		size = 80
 	}
 	
 	soldiers = {
-		culture = nuristani
+		culture = kamkatavari
 		religion = animist
 		size = 100
 	}
 	
 	farmers = {
-		culture = nuristani
+		culture = kamkatavari
 		religion = animist
-		size = 12000
+		size = 9000
+	}
+	
+	farmers = {
+		culture = vasivari
+		religion = animist
+		size = 1000
+	}
+	
+	aristocrats = {
+		culture = ashkunu
+		religion = animist
+		size = 10
+	}
+
+	clergymen = {
+		culture = ashkunu
+		religion = animist
+		size = 50
+	}
+
+	artisans = {
+		culture = ashkunu
+		religion = animist
+		size = 80
+	}
+	
+	soldiers = {
+		culture = ashkunu
+		religion = animist
+		size = 100
+	}
+	
+	farmers = {
+		culture = ashkunu
+		religion = animist
+		size = 6000
+	}
+	
+	aristocrats = {
+		culture = waigali
+		religion = animist
+		size = 10
+	}
+
+	clergymen = {
+		culture = waigali
+		religion = animist
+		size = 50
+	}
+
+	artisans = {
+		culture = waigali
+		religion = animist
+		size = 80
+	}
+	
+	soldiers = {
+		culture = waigali
+		religion = animist
+		size = 100
+	}
+	
+	farmers = {
+		culture = waigali
+		religion = animist
+		size = 3000
+	}
+
+    farmers = {
+		culture = tregami
+		religion = animist
+		size = 500
+	}
+	
+	farmers = {
+		culture = zamyaki
+		religion = animist
+		size = 100
+	}
+	
+	farmers = {
+		culture = gujari
+		religion = sunni
+		size = 1000
 	}
 }
 #Ghazni (324000/81000 POPS)

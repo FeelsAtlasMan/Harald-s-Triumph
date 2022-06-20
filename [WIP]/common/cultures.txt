@@ -4403,8 +4403,60 @@ kafiri = {
 	leader = arab
 	is_overseas = no
 	unit = MiddleEasternGC
-	nuristani = {
+	#Northern
+	kamkatavari = {
 		color = {110 200 220}
+		first_names = {
+			Ali Azim Jafar Mohammad Riza
+		}
+		last_names = {
+			Beg Khan
+		}
+	}
+	
+	vasivari = {
+		color = {110 180 220}
+		first_names = {
+			Ali Azim Jafar Mohammad Riza
+		}
+		last_names = {
+			Beg Khan
+		}
+	}
+	
+	#Southern
+	ashkunu = {
+		color = {90 180 200}
+		first_names = {
+			Ali Azim Jafar Mohammad Riza
+		}
+		last_names = {
+			Beg Khan
+		}
+	}
+	
+	tregami = {
+		color = {110 170 190}
+		first_names = {
+			Ali Azim Jafar Mohammad Riza
+		}
+		last_names = {
+			Beg Khan
+		}
+	}
+	
+	zamyaki = {
+		color = {130 180 190}
+		first_names = {
+			Ali Azim Jafar Mohammad Riza
+		}
+		last_names = {
+			Beg Khan
+		}
+	}
+	
+	waigali = {
+		color = {155 175 190}
 		first_names = {
 			Ali Azim Jafar Mohammad Riza
 		}
@@ -4417,184 +4469,6 @@ kafiri = {
 indo_aryan = {
 	leader = indian
 	unit = IndianGC
-	assamese = {
-		color = {195 195 60}
-		first_names = { Chandraka Purandar Ruchinath Kaganath Dhekial Jogeshwar Sudingphaa Kamaleswar Daman Hao Jama Patalang
-			
-		}
-		
-		last_names = { Singha Aideo Dogoi Bora Khan Purnananda Phukan               
-		}
-	}
-
-	bihari = {
-		color = {135 135 80}
-		first_names = { Maharshi Mahavira Ashtravakra Chanakya Ashoka Samudragupta Vachaspati Vatsyayana Asvaghosa Udayanacharaya
-			
-		}
-		
-		last_names = { Singh Valmiki Janak Jarasandh Mishra 
-               
-		}
-	}
-	oriya = {
-		color = {145 145 70 }
-		first_names = { Dibvyasimhadeva Harekrushnadeva Gopinathdeva Padmanavadeva Birakishoredeva Mukundadeva Ramachandradeva
-			
-		}
-		
-		last_names = { Deva Das Rao Mohaptra Mishra
-               
-		}
-	}
-	
-	#Insular Indic
-	sinhala = {
-		color = {75 40 40}
-		first_names = { Kirtisri Vikrama Sri Vijaya Viraparakkama Vimala Rajasingha Senarat  Anagarika Wimalaratne
-			
-		}
-		
-		last_names = { Dharmasurya Narendrasimha Rajasimha Rajadhirajasimha Doraisami
-               
-		}
-	}
-	
-	vedda = {
-		color = {55 30 30}
-		first_names = { Kirtisri Vikrama Sri Vijaya Viraparakkama Vimala Rajasingha Senarat  Anagarika Wimalaratne
-			
-		}
-		
-		last_names = { Dharmasurya Narendrasimha Rajasimha Rajadhirajasimha Doraisami
-               
-		}
-	}
-	
-	dhivehi = {
-		color = {35 10 10}
-		first_names = { Kirtisri Vikrama Sri Vijaya Viraparakkama Vimala Rajasingha Senarat  Anagarika Wimalaratne
-			
-		}
-		
-		last_names = { Dharmasurya Narendrasimha Rajasimha Rajadhirajasimha Doraisami
-               
-		}
-	}
-	
-	hindi = {
-		color = {155 135 80}
-		first_names = { Lokendra Raghuraj Vijay Vishvanath Pheran Jugal Parbhu Narayan Ishvari Udit Prasan Mahip
-			
-		}
-		
-		last_names = { Singh
-               
-		}
-	}
-	
-	dakkhani = {
-		color = {155 135 80}
-		first_names = { 
-		    Lokendra Raghuraj Vijay Vishvanath Pheran Jugal Parbhu Narayan Ishvari Udit Prasan Mahip
-			Abbas Abolghasem Abdolhossein Abdolsamad Abdolazim Ahmad Ali Bahram
-			Ebrahim Esmail "Fath Ali" Fazlollah Firuz Hamzeh Hasan Hossein Kamran Karim "Lotf Ali" 
-			Mahmoud Mirza Massoud Mohammad "Moin ed-Din" "Mozzafer ed-Din" Murad Muhsin 
-			"Naser ed-Din" Nosret Reza
-		}
-		
-		last_names = { 	     
-			Airom Ansari Ayrum Buzarjomehri Davallu Esfahani Farhani 
-			Jahanbani Kashani Khan Khuzai  
-			Meshhedi Nakhchevani Pesyan Rokni Shafaei Shahbakhti 
-			Shirazi Tabrizi Tahmasebi Zahedi     
-		}
-	}
-	
-	lambadi = {
-		color = {155 135 80}
-		first_names = { Lokendra Raghuraj Vijay Vishvanath Pheran Jugal Parbhu Narayan Ishvari Udit Prasan Mahip
-			
-		}
-		
-		last_names = { Singh
-               
-		}
-	}
-	
-	gypsy = {
-	color = {16 102 163}
-		first_names = { Amberline Belcher Baul Bavol Bersh Beval Bidshika Brishen Camlo Chik Cam Chaine Chal  Chavula Danior Dukker Durriken Durril Dangerfield Garridan Gillie Guibran Goliath Gilderoy Hezekiah Jal Javert Jibben Jivin Ker Lel Lennor Lendar Lensar Mander Merripen Mestipen  Major Nehemiah Pal Pattin Pias Pov Rye Stiggur Shadrack Silvanus Tas Tobar Tobbar Tawno Tem Terkari Vandlo Wen Wesh Yarb }
-		
-		last_names = { Petulengro Vardo-mescro Chumomisto Gry Balorengre Purrum Bedra-kero Camlo Mokkado Baremescre Baryor Beshaley Kaulo }
-		radicalism = 1
-	}
-	
-	gujarati = {
-		color = {175 165 80}
-		first_names = { Chetan Fakirbhai Jivraj Madhavsingh Khemchand Manubhai Bharatsingh Balwantry Chabildas Maniraj 
-			
-		}
-		
-		last_names = { Pansara Vaghela Solanki Modhvadia Mehta Baro Parmar
-               
-		}
-	}
-	marathi = {
-		color = {175 205 80}
-		first_names = { Venkatji Shahuji Pratapsinha Rajaram Shivaji Shambhaji Balaji Bajirao Madhava Narayan Raghunath Sawai 
-			
-		}
-		
-		last_names = { "Appa Sahib" "Bowa Sahib" Phadnis Narayan Rao Ballal "Baji Rao" Bhat
-               
-		}
-	}
-
-	rajput = {
-		color = {175 135 80}
-		first_names = { Sardar Fateh Muhammad Malik Umar Hayat Rai Hussain Veer Durga Bhai Rao Harsha Bhagwant "Mirza Raja" Jawapala Sawai
-			
-		}
-		
-		last_names = { "ur Rahman" Bhatti Tiwana Qaim Kunwar "Bachittar Singh" Shekha
-               
-		}
-		radicalism = 10
-	}
-	bengali = {
-		color = {165 165 70}
-		first_names = { Murshid Quli Shujauddin Alauddin Alivardi Sirajuddaula "Mir Muhammad" Najimuddin Reza Saifuddaula Zainul Ahmad Mansur Mubarak Hasan Wasif Waris
-			
-		}
-		
-		last_names = { Jafar Muhammad Sarfaraz Ali "Qasim Ali" Najabut Bahadur Mirza
-               
-		}
-	}
-	rohingya  = {
-		color = {185 185 75}
-		first_names = { Murshid Quli Shujauddin Alauddin Alivardi Sirajuddaula "Mir Muhammad" Najimuddin Reza Saifuddaula Zainul Ahmad Mansur Mubarak Hasan Wasif Waris
-			
-		}
-		
-		last_names = { Jafar Muhammad Sarfaraz Ali "Qasim Ali" Najabut Bahadur Mirza
-               
-		}
-	}
-	
-	#Paharic
-	nepali = {
-		color = {155 105 105}
-		first_names = { Bhimsen Amar Ranjur Bhakti Jang Renaudip Shamsher "Bir Shamsher" "Deva Shamsher" "Chandra Shamsher" "Bhim Shamsher" 
-			
-		}
-		
-		last_names = { Thapa "Singh Thapa" Singh Rana "Bahadur Rana" 
-               
-		}
-	}
-	
 	#Dardic
 	#Kashmiri
 	kashmiri = {
@@ -4610,7 +4484,7 @@ indo_aryan = {
 	
 	#Shina Group
 	shina = {
-		color = {155 135 170}
+		color = {135 135 170}
 		first_names = { Atta Sher Muhammad Abdullah Vakil Kifayat Rahmatullah Mir Mirza Juma Mulla Mirdad Madad Azad Haji Karimdad
 			
 		}
@@ -4621,7 +4495,7 @@ indo_aryan = {
 	}
 	
 	brokskat = {
-		color = {155 135 170}
+		color = {135 105 170}
 		first_names = { Atta Sher Muhammad Abdullah Vakil Kifayat Rahmatullah Mir Mirza Juma Mulla Mirdad Madad Azad Haji Karimdad
 			
 		}
@@ -4632,7 +4506,7 @@ indo_aryan = {
 	}
 	
 	kundal_shahi = {
-		color = {155 135 170}
+		color = {135 135 150}
 		first_names = { Atta Sher Muhammad Abdullah Vakil Kifayat Rahmatullah Mir Mirza Juma Mulla Mirdad Madad Azad Haji Karimdad
 			
 		}
@@ -4643,7 +4517,7 @@ indo_aryan = {
 	}
 	
 	ushojo = {
-		color = {155 135 170}
+		color = {135 115 150}
 		first_names = { Atta Sher Muhammad Abdullah Vakil Kifayat Rahmatullah Mir Mirza Juma Mulla Mirdad Madad Azad Haji Karimdad
 			
 		}
@@ -4654,7 +4528,7 @@ indo_aryan = {
 	}
 	
 	kalkoti = {
-		color = {155 135 170}
+		color = {115 115 150}
 		first_names = { Atta Sher Muhammad Abdullah Vakil Kifayat Rahmatullah Mir Mirza Juma Mulla Mirdad Madad Azad Haji Karimdad
 			
 		}
@@ -4665,7 +4539,7 @@ indo_aryan = {
 	}
 	
 	palula = {
-		color = {155 135 170}
+		color = {115 135 160}
 		first_names = { Atta Sher Muhammad Abdullah Vakil Kifayat Rahmatullah Mir Mirza Juma Mulla Mirdad Madad Azad Haji Karimdad
 			
 		}
@@ -4676,7 +4550,7 @@ indo_aryan = {
 	}
 	
 	savi = {
-		color = {155 135 170}
+		color = {135 135 140}
 		first_names = { Atta Sher Muhammad Abdullah Vakil Kifayat Rahmatullah Mir Mirza Juma Mulla Mirdad Madad Azad Haji Karimdad
 			
 		}
@@ -4688,7 +4562,7 @@ indo_aryan = {
 	
 	#Chitrali Group
 	kalasha = {
-		color = {155 135 170}
+		color = {155 135 190}
 		first_names = { Atta Sher Muhammad Abdullah Vakil Kifayat Rahmatullah Mir Mirza Juma Mulla Mirdad Madad Azad Haji Karimdad
 			
 		}
@@ -4699,7 +4573,7 @@ indo_aryan = {
 	}
 	
 	khowar = {
-		color = {155 135 170}
+		color = {165 135 180}
 		first_names = { Atta Sher Muhammad Abdullah Vakil Kifayat Rahmatullah Mir Mirza Juma Mulla Mirdad Madad Azad Haji Karimdad
 			
 		}
@@ -4711,7 +4585,7 @@ indo_aryan = {
 	
 	#Kohistani (fuck that shit)
 	kohistani = {
-		color = {155 135 170}
+		color = {155 155 170}
 		first_names = { Atta Sher Muhammad Abdullah Vakil Kifayat Rahmatullah Mir Mirza Juma Mulla Mirdad Madad Azad Haji Karimdad
 			
 		}
@@ -4723,7 +4597,7 @@ indo_aryan = {
 	
 	#Pashai
 	pashai = {
-		color = {155 135 170}
+		color = {145 135 190}
 		first_names = { Atta Sher Muhammad Abdullah Vakil Kifayat Rahmatullah Mir Mirza Juma Mulla Mirdad Madad Azad Haji Karimdad
 			
 		}
@@ -4735,7 +4609,7 @@ indo_aryan = {
 	
 	#Kunar
 	kunar = {
-		color = {155 135 170}
+		color = {115 135 170}
 		first_names = { Atta Sher Muhammad Abdullah Vakil Kifayat Rahmatullah Mir Mirza Juma Mulla Mirdad Madad Azad Haji Karimdad
 			
 		}
@@ -4744,6 +4618,242 @@ indo_aryan = {
                
 		}
 	}
+	
+	#Paharic
+	#Eastern/Nepalic
+	nepali = {
+		color = {155 105 105}
+		first_names = { Bhimsen Amar Ranjur Bhakti Jang Renaudip Shamsher "Bir Shamsher" "Deva Shamsher" "Chandra Shamsher" "Bhim Shamsher" 
+			
+		}
+		
+		last_names = { Thapa "Singh Thapa" Singh Rana "Bahadur Rana" 
+               
+		}
+	}
+	
+	jumla = {
+		color = {165 95 115}
+		first_names = { Bhimsen Amar Ranjur Bhakti Jang Renaudip Shamsher "Bir Shamsher" "Deva Shamsher" "Chandra Shamsher" "Bhim Shamsher" 
+			
+		}
+		
+		last_names = { Thapa "Singh Thapa" Singh Rana "Bahadur Rana" 
+               
+		}
+	}
+	
+	dotyali = {
+		color = {175 85 125}
+		first_names = { Bhimsen Amar Ranjur Bhakti Jang Renaudip Shamsher "Bir Shamsher" "Deva Shamsher" "Chandra Shamsher" "Bhim Shamsher" 
+			
+		}
+		
+		last_names = { Thapa "Singh Thapa" Singh Rana "Bahadur Rana" 
+               
+		}
+	}
+	
+	#Central
+	kumaoni = {
+		color ={135 85 105}
+		first_names = { Bhimsen Amar Ranjur Bhakti Jang Renaudip Shamsher "Bir Shamsher" "Deva Shamsher" "Chandra Shamsher" "Bhim Shamsher" 
+			
+		}
+		
+		last_names = { Thapa "Singh Thapa" Singh Rana "Bahadur Rana" 
+               
+		}
+	}
+	
+	garhwali = {
+		color ={135 105 105}
+		first_names = { Bhimsen Amar Ranjur Bhakti Jang Renaudip Shamsher "Bir Shamsher" "Deva Shamsher" "Chandra Shamsher" "Bhim Shamsher" 
+			
+		}
+		
+		last_names = { Thapa "Singh Thapa" Singh Rana "Bahadur Rana" 
+               
+		}
+	}
+	
+	#Western
+	jaunsari = {
+		color ={145 105 85}
+		first_names = { Bhimsen Amar Ranjur Bhakti Jang Renaudip Shamsher "Bir Shamsher" "Deva Shamsher" "Chandra Shamsher" "Bhim Shamsher" 
+			
+		}
+		
+		last_names = { Thapa "Singh Thapa" Singh Rana "Bahadur Rana" 
+               
+		}
+	}
+	
+	mahasu = {
+		color ={115 105 85}
+		first_names = { Bhimsen Amar Ranjur Bhakti Jang Renaudip Shamsher "Bir Shamsher" "Deva Shamsher" "Chandra Shamsher" "Bhim Shamsher" 
+			
+		}
+		
+		last_names = { Thapa "Singh Thapa" Singh Rana "Bahadur Rana" 
+               
+		}
+	}
+	
+	kulvi = {
+		color ={145 105 135}
+		first_names = { Bhimsen Amar Ranjur Bhakti Jang Renaudip Shamsher "Bir Shamsher" "Deva Shamsher" "Chandra Shamsher" "Bhim Shamsher" 
+			
+		}
+		
+		last_names = { Thapa "Singh Thapa" Singh Rana "Bahadur Rana" 
+               
+		}
+	}
+	
+	mandeali = {
+		color ={145 95 75}
+		first_names = { Bhimsen Amar Ranjur Bhakti Jang Renaudip Shamsher "Bir Shamsher" "Deva Shamsher" "Chandra Shamsher" "Bhim Shamsher" 
+			
+		}
+		
+		last_names = { Thapa "Singh Thapa" Singh Rana "Bahadur Rana" 
+               
+		}
+	}
+	
+	bilaspuri = {
+		color ={125 105 75}
+		first_names = { Bhimsen Amar Ranjur Bhakti Jang Renaudip Shamsher "Bir Shamsher" "Deva Shamsher" "Chandra Shamsher" "Bhim Shamsher" 
+			
+		}
+		
+		last_names = { Thapa "Singh Thapa" Singh Rana "Bahadur Rana" 
+               
+		}
+	}
+	
+	gaddi = {
+		color ={165 115 125}
+		first_names = { Bhimsen Amar Ranjur Bhakti Jang Renaudip Shamsher "Bir Shamsher" "Deva Shamsher" "Chandra Shamsher" "Bhim Shamsher" 
+			
+		}
+		
+		last_names = { Thapa "Singh Thapa" Singh Rana "Bahadur Rana" 
+               
+		}
+	}
+	
+	chinali = {
+		color ={105 95 95}
+		first_names = { Bhimsen Amar Ranjur Bhakti Jang Renaudip Shamsher "Bir Shamsher" "Deva Shamsher" "Chandra Shamsher" "Bhim Shamsher" 
+			
+		}
+		
+		last_names = { Thapa "Singh Thapa" Singh Rana "Bahadur Rana" 
+               
+		}
+	}
+	
+	lahul_lolar = {
+		color ={95 75 85}
+		first_names = { Bhimsen Amar Ranjur Bhakti Jang Renaudip Shamsher "Bir Shamsher" "Deva Shamsher" "Chandra Shamsher" "Bhim Shamsher" 
+			
+		}
+		
+		last_names = { Thapa "Singh Thapa" Singh Rana "Bahadur Rana" 
+               
+		}
+	}
+	
+	chambeali = {
+		color ={135 125 115}
+		first_names = { Bhimsen Amar Ranjur Bhakti Jang Renaudip Shamsher "Bir Shamsher" "Deva Shamsher" "Chandra Shamsher" "Bhim Shamsher" 
+			
+		}
+		
+		last_names = { Thapa "Singh Thapa" Singh Rana "Bahadur Rana" 
+               
+		}
+	}
+	
+	bhattiyali = {
+		color ={110 65 85}
+		first_names = { Bhimsen Amar Ranjur Bhakti Jang Renaudip Shamsher "Bir Shamsher" "Deva Shamsher" "Chandra Shamsher" "Bhim Shamsher" 
+			
+		}
+		
+		last_names = { Thapa "Singh Thapa" Singh Rana "Bahadur Rana" 
+               
+		}
+	}
+	
+	churahi = {
+		color ={135 95 125}
+		first_names = { Bhimsen Amar Ranjur Bhakti Jang Renaudip Shamsher "Bir Shamsher" "Deva Shamsher" "Chandra Shamsher" "Bhim Shamsher" 
+			
+		}
+		
+		last_names = { Thapa "Singh Thapa" Singh Rana "Bahadur Rana" 
+               
+		}
+	}
+	
+	pangwali = {
+		color ={175 145 145}
+		first_names = { Bhimsen Amar Ranjur Bhakti Jang Renaudip Shamsher "Bir Shamsher" "Deva Shamsher" "Chandra Shamsher" "Bhim Shamsher" 
+			
+		}
+		
+		last_names = { Thapa "Singh Thapa" Singh Rana "Bahadur Rana" 
+               
+		}
+	}
+	
+	bhadrawahi  = {
+		color ={165 125 125}
+		first_names = { Bhimsen Amar Ranjur Bhakti Jang Renaudip Shamsher "Bir Shamsher" "Deva Shamsher" "Chandra Shamsher" "Bhim Shamsher" 
+			
+		}
+		
+		last_names = { Thapa "Singh Thapa" Singh Rana "Bahadur Rana" 
+               
+		}
+	}
+	
+	bhadrawahi  = {
+		color ={135 105 135}
+		first_names = { Bhimsen Amar Ranjur Bhakti Jang Renaudip Shamsher "Bir Shamsher" "Deva Shamsher" "Chandra Shamsher" "Bhim Shamsher" 
+			
+		}
+		
+		last_names = { Thapa "Singh Thapa" Singh Rana "Bahadur Rana" 
+               
+		}
+	}
+	
+	dogri  = {
+		color ={155 135 155} 
+		first_names = { Bhimsen Amar Ranjur Bhakti Jang Renaudip Shamsher "Bir Shamsher" "Deva Shamsher" "Chandra Shamsher" "Bhim Shamsher" 
+			
+		}
+		
+		last_names = { Thapa "Singh Thapa" Singh Rana "Bahadur Rana" 
+               
+		}
+	}
+	
+	kangri  = {
+		color ={135 115 135}
+		first_names = { Bhimsen Amar Ranjur Bhakti Jang Renaudip Shamsher "Bir Shamsher" "Deva Shamsher" "Chandra Shamsher" "Bhim Shamsher" 
+			
+		}
+		
+		last_names = { Thapa "Singh Thapa" Singh Rana "Bahadur Rana" 
+               
+		}
+	}
+	
 	
 	#Sindhi-Panjabi
 	#Sindhic
@@ -4908,6 +5018,210 @@ indo_aryan = {
 		}
 		
 		last_names = { Singh Kunwar Bahadur Dhillon Nalwa Ahluwalia Ramgarhia Mal Mulraj
+               
+		}
+	}
+	
+	
+	
+	assamese = {
+		color = {195 195 60}
+		first_names = { Chandraka Purandar Ruchinath Kaganath Dhekial Jogeshwar Sudingphaa Kamaleswar Daman Hao Jama Patalang
+			
+		}
+		
+		last_names = { Singha Aideo Dogoi Bora Khan Purnananda Phukan               
+		}
+	}
+
+	bihari = {
+		color = {135 135 80}
+		first_names = { Maharshi Mahavira Ashtravakra Chanakya Ashoka Samudragupta Vachaspati Vatsyayana Asvaghosa Udayanacharaya
+			
+		}
+		
+		last_names = { Singh Valmiki Janak Jarasandh Mishra 
+               
+		}
+	}
+	oriya = {
+		color = {145 145 70 }
+		first_names = { Dibvyasimhadeva Harekrushnadeva Gopinathdeva Padmanavadeva Birakishoredeva Mukundadeva Ramachandradeva
+			
+		}
+		
+		last_names = { Deva Das Rao Mohaptra Mishra
+               
+		}
+	}
+	
+	#Insular Indic
+	sinhala = {
+		color = {75 40 40}
+		first_names = { Kirtisri Vikrama Sri Vijaya Viraparakkama Vimala Rajasingha Senarat  Anagarika Wimalaratne
+			
+		}
+		
+		last_names = { Dharmasurya Narendrasimha Rajasimha Rajadhirajasimha Doraisami
+               
+		}
+	}
+	
+	vedda = {
+		color = {55 30 30}
+		first_names = { Kirtisri Vikrama Sri Vijaya Viraparakkama Vimala Rajasingha Senarat  Anagarika Wimalaratne
+			
+		}
+		
+		last_names = { Dharmasurya Narendrasimha Rajasimha Rajadhirajasimha Doraisami
+               
+		}
+	}
+	
+	dhivehi = {
+		color = {35 10 10}
+		first_names = { Kirtisri Vikrama Sri Vijaya Viraparakkama Vimala Rajasingha Senarat  Anagarika Wimalaratne
+			
+		}
+		
+		last_names = { Dharmasurya Narendrasimha Rajasimha Rajadhirajasimha Doraisami
+               
+		}
+	}
+	
+	hindi = {
+		color = {155 135 80}
+		first_names = { Lokendra Raghuraj Vijay Vishvanath Pheran Jugal Parbhu Narayan Ishvari Udit Prasan Mahip
+			
+		}
+		
+		last_names = { Singh
+               
+		}
+	}
+	
+	dakkhani = {
+		color = {155 135 80}
+		first_names = { 
+		    Lokendra Raghuraj Vijay Vishvanath Pheran Jugal Parbhu Narayan Ishvari Udit Prasan Mahip
+			Abbas Abolghasem Abdolhossein Abdolsamad Abdolazim Ahmad Ali Bahram
+			Ebrahim Esmail "Fath Ali" Fazlollah Firuz Hamzeh Hasan Hossein Kamran Karim "Lotf Ali" 
+			Mahmoud Mirza Massoud Mohammad "Moin ed-Din" "Mozzafer ed-Din" Murad Muhsin 
+			"Naser ed-Din" Nosret Reza
+		}
+		
+		last_names = { 	     
+			Airom Ansari Ayrum Buzarjomehri Davallu Esfahani Farhani 
+			Jahanbani Kashani Khan Khuzai  
+			Meshhedi Nakhchevani Pesyan Rokni Shafaei Shahbakhti 
+			Shirazi Tabrizi Tahmasebi Zahedi     
+		}
+	}
+	
+	lambadi = {
+		color = {155 135 80}
+		first_names = { Lokendra Raghuraj Vijay Vishvanath Pheran Jugal Parbhu Narayan Ishvari Udit Prasan Mahip
+			
+		}
+		
+		last_names = { Singh
+               
+		}
+	}
+	
+	domaaki = {
+		color = {155 135 80}
+		first_names = { Lokendra Raghuraj Vijay Vishvanath Pheran Jugal Parbhu Narayan Ishvari Udit Prasan Mahip
+			
+		}
+		
+		last_names = { Singh
+               
+		}
+	}
+	
+	parya = {
+		color = {155 135 80}
+		first_names = { Lokendra Raghuraj Vijay Vishvanath Pheran Jugal Parbhu Narayan Ishvari Udit Prasan Mahip
+			
+		}
+		
+		last_names = { Singh
+               
+		}
+	}
+	
+	gypsy = {
+	color = {16 102 163}
+		first_names = { Amberline Belcher Baul Bavol Bersh Beval Bidshika Brishen Camlo Chik Cam Chaine Chal  Chavula Danior Dukker Durriken Durril Dangerfield Garridan Gillie Guibran Goliath Gilderoy Hezekiah Jal Javert Jibben Jivin Ker Lel Lennor Lendar Lensar Mander Merripen Mestipen  Major Nehemiah Pal Pattin Pias Pov Rye Stiggur Shadrack Silvanus Tas Tobar Tobbar Tawno Tem Terkari Vandlo Wen Wesh Yarb }
+		
+		last_names = { Petulengro Vardo-mescro Chumomisto Gry Balorengre Purrum Bedra-kero Camlo Mokkado Baremescre Baryor Beshaley Kaulo }
+		radicalism = 1
+	}
+	
+	gujarati = {
+		color = {175 165 80}
+		first_names = { Chetan Fakirbhai Jivraj Madhavsingh Khemchand Manubhai Bharatsingh Balwantry Chabildas Maniraj 
+			
+		}
+		
+		last_names = { Pansara Vaghela Solanki Modhvadia Mehta Baro Parmar
+               
+		}
+	}
+	
+	
+	marathi = {
+		color = {175 205 80}
+		first_names = { Venkatji Shahuji Pratapsinha Rajaram Shivaji Shambhaji Balaji Bajirao Madhava Narayan Raghunath Sawai 
+			
+		}
+		
+		last_names = { "Appa Sahib" "Bowa Sahib" Phadnis Narayan Rao Ballal "Baji Rao" Bhat
+               
+		}
+	}
+
+	rajput = {
+		color = {175 135 80}
+		first_names = { Sardar Fateh Muhammad Malik Umar Hayat Rai Hussain Veer Durga Bhai Rao Harsha Bhagwant "Mirza Raja" Jawapala Sawai
+			
+		}
+		
+		last_names = { "ur Rahman" Bhatti Tiwana Qaim Kunwar "Bachittar Singh" Shekha
+               
+		}
+		radicalism = 10
+	}
+	
+	gujari = {
+		color = {175 135 80}
+		first_names = { Sardar Fateh Muhammad Malik Umar Hayat Rai Hussain Veer Durga Bhai Rao Harsha Bhagwant "Mirza Raja" Jawapala Sawai
+			
+		}
+		
+		last_names = { "ur Rahman" Bhatti Tiwana Qaim Kunwar "Bachittar Singh" Shekha
+               
+		}
+	}
+	
+	bengali = {
+		color = {165 165 70}
+		first_names = { Murshid Quli Shujauddin Alauddin Alivardi Sirajuddaula "Mir Muhammad" Najimuddin Reza Saifuddaula Zainul Ahmad Mansur Mubarak Hasan Wasif Waris
+			
+		}
+		
+		last_names = { Jafar Muhammad Sarfaraz Ali "Qasim Ali" Najabut Bahadur Mirza
+               
+		}
+	}
+	rohingya  = {
+		color = {185 185 75}
+		first_names = { Murshid Quli Shujauddin Alauddin Alivardi Sirajuddaula "Mir Muhammad" Najimuddin Reza Saifuddaula Zainul Ahmad Mansur Mubarak Hasan Wasif Waris
+			
+		}
+		
+		last_names = { Jafar Muhammad Sarfaraz Ali "Qasim Ali" Najabut Bahadur Mirza
                
 		}
 	}
@@ -5128,6 +5442,7 @@ tibetic = {
 		}
 		radicalism = 10
 	}
+	
     amdo = {
 		color = {130 70 120}
 		first_names = { 
@@ -5171,6 +5486,261 @@ tibetic = {
                Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi 
 		}
 		radicalism = 10
+	}
+	
+	#Western
+	#Ladakhi-Balti
+	balti = {
+		color = {140 90 60}
+		first_names = { 
+			Tsarong Chamba Trimon Penor Gendün Jamphel Norbhu Mipham Tsepon Andruk Namgang 
+		}
+		
+		last_names = { 
+               Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi 
+		}
+	}	
+	
+	purgi = {
+		color = {140 70 60}
+		first_names = { 
+			Tsarong Chamba Trimon Penor Gendün Jamphel Norbhu Mipham Tsepon Andruk Namgang 
+		}
+		
+		last_names = { 
+               Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi 
+		}
+	}
+	
+	zangskari = {
+		color = {120 50 60}
+		first_names = { 
+			Tsarong Chamba Trimon Penor Gendün Jamphel Norbhu Mipham Tsepon Andruk Namgang 
+		}
+		
+		last_names = { 
+               Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi 
+		}
+	}		
+	
+	byangskat  = {
+		color = {100 50 60}
+		first_names = { 
+			Tsarong Chamba Trimon Penor Gendün Jamphel Norbhu Mipham Tsepon Andruk Namgang 
+		}
+		
+		last_names = { 
+               Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi 
+		}
+	}	
+	
+	ladakhi = {
+		color = {100 30 60}
+		first_names = { 
+			Tsarong Chamba Trimon Penor Gendün Jamphel Norbhu Mipham Tsepon Andruk Namgang 
+		}
+		
+		last_names = { 
+               Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi 
+		}
+	}	
+	
+	#Lahuli-Spiti
+	bhodi_kinnauri = {
+		color = {100 50 60}
+		first_names = { 
+			Tsarong Chamba Trimon Penor Gendün Jamphel Norbhu Mipham Tsepon Andruk Namgang 
+		}
+		
+		last_names = { 
+               Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi 
+		}
+	}
+	
+	spiti = {
+		color = {95 70 60}
+		first_names = { 
+			Tsarong Chamba Trimon Penor Gendün Jamphel Norbhu Mipham Tsepon Andruk Namgang 
+		}
+		
+		last_names = { 
+               Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi 
+		}
+	}
+	
+	lahuli = {
+		color = {90 90 60}
+		first_names = { 
+			Tsarong Chamba Trimon Penor Gendün Jamphel Norbhu Mipham Tsepon Andruk Namgang 
+		}
+		
+		last_names = { 
+               Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi 
+		}
+	}
+}
+
+#West Himalayish
+kanauric = {
+	leader = asian
+	is_overseas = no
+	unit = AsianGC
+	#Kinnauric
+	kinnauri = {
+		color = {80 90 50}
+		first_names = { 
+			Tsarong Chamba Trimon Penor Gendün Jamphel Norbhu Mipham Tsepon Andruk Namgang 
+		}
+		
+		last_names = { 
+               Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi 
+		}
+	}
+	
+	chitkuli = {
+		color = {70 80 40}
+		first_names = { 
+			Tsarong Chamba Trimon Penor Gendün Jamphel Norbhu Mipham Tsepon Andruk Namgang 
+		}
+		
+		last_names = { 
+               Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi 
+		}
+	}
+	
+	kanashi = {
+		color = {100 130 80}
+		first_names = { 
+			Tsarong Chamba Trimon Penor Gendün Jamphel Norbhu Mipham Tsepon Andruk Namgang 
+		}
+		
+		last_names = { 
+               Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi 
+		}
+	}
+	
+	jangshung = {
+		color = {80 110 90}
+		first_names = { 
+			Tsarong Chamba Trimon Penor Gendün Jamphel Norbhu Mipham Tsepon Andruk Namgang 
+		}
+		
+		last_names = { 
+               Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi 
+		}
+	}
+	
+	shumcho = {
+		color = {80 70 50}
+		first_names = { 
+			Tsarong Chamba Trimon Penor Gendün Jamphel Norbhu Mipham Tsepon Andruk Namgang 
+		}
+		
+		last_names = { 
+               Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi 
+		}
+	}
+	
+	#Lahaulic
+	pattani = {
+		color = {80 110 65}
+		first_names = { 
+			Tsarong Chamba Trimon Penor Gendün Jamphel Norbhu Mipham Tsepon Andruk Namgang 
+		}
+		
+		last_names = { 
+               Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi 
+		}
+	}
+	
+	tinani = {
+		color = {80 90 60}
+		first_names = { 
+			Tsarong Chamba Trimon Penor Gendün Jamphel Norbhu Mipham Tsepon Andruk Namgang 
+		}
+		
+		last_names = { 
+               Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi 
+		}
+	}
+	
+	#Central
+	bunan = {
+		color = {80 110 65}
+		first_names = { 
+			Tsarong Chamba Trimon Penor Gendün Jamphel Norbhu Mipham Tsepon Andruk Namgang 
+		}
+		
+		last_names = { 
+               Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi 
+		}
+	}
+	
+	rongpa = {
+		color = {80 90 60}
+		first_names = { 
+			Tsarong Chamba Trimon Penor Gendün Jamphel Norbhu Mipham Tsepon Andruk Namgang 
+		}
+		
+		last_names = { 
+               Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi 
+		}
+	}
+	
+	sunam = {
+		color = {80 90 60}
+		first_names = { 
+			Tsarong Chamba Trimon Penor Gendün Jamphel Norbhu Mipham Tsepon Andruk Namgang 
+		}
+		
+		last_names = { 
+               Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi 
+		}
+	}
+	
+	#Almora
+	rangkas = {
+		color = {80 90 60}
+		first_names = { 
+			Tsarong Chamba Trimon Penor Gendün Jamphel Norbhu Mipham Tsepon Andruk Namgang 
+		}
+		
+		last_names = { 
+               Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi 
+		}
+	}
+	
+	darmiya = {
+		color = {80 90 60}
+		first_names = { 
+			Tsarong Chamba Trimon Penor Gendün Jamphel Norbhu Mipham Tsepon Andruk Namgang 
+		}
+		
+		last_names = { 
+               Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi 
+		}
+	}
+	
+	byangsi = {
+		color = {80 90 60}
+		first_names = { 
+			Tsarong Chamba Trimon Penor Gendün Jamphel Norbhu Mipham Tsepon Andruk Namgang 
+		}
+		
+		last_names = { 
+               Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi 
+		}
+	}
+	
+	chaudangsi = {
+		color = {80 90 60}
+		first_names = { 
+			Tsarong Chamba Trimon Penor Gendün Jamphel Norbhu Mipham Tsepon Andruk Namgang 
+		}
+		
+		last_names = { 
+               Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi 
+		}
 	}
 }
 

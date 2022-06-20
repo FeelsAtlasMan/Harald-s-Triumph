@@ -174,8 +174,6 @@ From;To;Type;Through;Data;Comment
 1226;1594;impassable;0;0;scary mountain
 1210;1594;impassable;0;0;scary mountain
 1208;1594;impassable;0;0;scary mountain
-1226;1598;impassable;0;0;scary mountain
-1226;1591;impassable;0;0;scary mountain
 
 #Alps
 2669;735;impassable;0;0;Sondrio-Bozen
@@ -337,21 +335,16 @@ From;To;Type;Through;Data;Comment
 1139;3635;impassable;0;0;Sirjan-Darab
 1139;3390;impassable;0;0;Sirjan-Abadeh
 
-#Central Iranian Range
-3391;3389;impassable;0;0;Lar-Jahrom
-3391;1139;impassable;0;0;Lar-Sirjan
-
-1139;3635;impassable;0;0;Sirjan-Darab
-1139;3390;impassable;0;0;Sirjan-Abadeh
-
 #Suleyman and Hindukush
 1221;3340;impassable;0;0;Kalat-Sibi
-1221;1289;impassable;0;0;Kalat-Sukkur 
-1219;1289;impassable;0;0;Quetta-Sukkur
-1219;1228;impassable;0;0;Quetta-Multan
+1221;1289;impassable;0;0;Kalat-Shikarpur 
+3839;1228;impassable;0;0;Loralai-Shikarpur
+3839;3838;impassable;0;0;Loralai-Muzaffargarh
+3839;1221;impassable;0;0;Loralai-Kalat
+3840;3838;impassable;0;0;Zhob-Muzaffargarh
 1222;1289;impassable;0;0;Bela-Sukkur
 1217;1218;impassable;0;0;Ghazni-Peshawar
-1217;3393;impassable;0;0;Ghazni-Dera
+3840;3393;impassable;0;0;Zhob-Dera
 
 1216;2591;impassable;0;0;Jalalabad-Qonduz
 1216;1210;impassable;0;0;Jalalabad-Faizabad
@@ -364,6 +357,16 @@ From;To;Type;Through;Data;Comment
 1226;3313;impassable;0;0;Leh-Yarkant
 1226;3622;impassable;0;0;Leh-Sarikol
 
+#Pamir
+1207;3619;impassable;0;0;Kulob-Gharm
+1210;3619;impassable;0;0;Faizabad-Gharm
+3618;3620;impassable;0;0;Ayni-Uroteppa
+3619;3620;impassable;0;0;Gharm-Uroteppa
+3619;1203;impassable;0;0;Gharm-Osh
+3621;1203;impassable;0;0;Murghab-Osh
+3621;1594;impassable;0;0;Murghab-Kashgar
+
+#India
 #Western Ghats
 1318;1310;impassable;0;0;Cochin-Madurai
 1318;1311;impassable;0;0;Cochin-Coimbatore
@@ -372,6 +375,39 @@ From;To;Type;Through;Data;Comment
 3810;1302;impassable;0;0;Ratnagiri-Belgaum
 1297;1301;impassable;0;0;Raigad-Kolhapur
 3861;1298;impassable;0;0;Navsari-Nasik
+
+#Eastern Ghats
+3263;3794;impassable;0;0;Srikakulam-Bhawanipatna
+3263;3792;impassable;0;0;Srikakulam-Jaypur
+
+#Gondwana
+1277;1276;impassable;0;0;Nagpur-Hoshangabad
+1277;1278;impassable;0;0;Nagpur-Amarati
+1275;1274;impassable;0;0;Jubbalpur-Rewa
+
+#Aravalli-Range
+1269;3402;impassable;0;0;Udaipur-Mandsaur
+
+#Himalayas
+1224;1226;impassable;0;0;Srinagar-Leh
+1235;1226;impassable;0;0;Shimla-Leh
+1226;1598;impassable;0;0;Leh-Khotan
+1226;3765;impassable;0;0;Leh-Aksai Chin
+3833;1226;impassable;0;0;Chamba-Leh
+1238;3831;impassable;0;0;Dehra Dun-Zhongba
+3859;3831;impassable;0;0;Kumaroan-Zhongba
+3853;3831;impassable;0;0;Doti-Zhongba
+1327;3831;impassable;0;0;Jumla-Zhongba
+3855;1589;impassable;0;0;Pokhara-Shigatse
+3856;1589;impassable;0;0;Dolakha-Shigatse
+3858;1589;impassable;0;0;Biratnagar-Shigatse
+
+#Rakhine Mountains
+3745;1339;impassable;0;0;Hakha-Monywa
+3745;1337;impassable;0;0;Hakha-Prome
+3745;1336;impassable;0;0;Hakha-Magwe
+3745;1335;impassable;0;0;Hakha-Sittwe
+
 
 #Tien Shan
 3615;1189;impassable;0;0;Namagan-Bishkek
@@ -382,21 +418,6 @@ From;To;Type;Through;Data;Comment
 1597;1595;impassable;0;0;Aksu-Ili
 1597;3664;impassable;0;0;Aksu-Kyzylsu
 3312;1595;impassable;0;0;Qarashehir-Ili
-
-
-#Pamir
-1207;3619;impassable;0;0;Kulob-Gharm
-1210;3619;impassable;0;0;Faizabad-Gharm
-3618;3620;impassable;0;0;Ayni-Uroteppa
-3619;3620;impassable;0;0;Gharm-Uroteppa
-3619;1203;impassable;0;0;Gharm-Osh
-3621;1203;impassable;0;0;Murghab-Osh
-3621;1594;impassable;0;0;Murghab-Kashgar
-
-
-#Kashmir
-1224;1226;impassable;0;0;Srinagar-Leh
-1235;1226;impassable;0;0;Shimla-Leh
 
 
 #Alaskan Panhandle
