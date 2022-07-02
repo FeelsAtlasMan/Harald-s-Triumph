@@ -262,6 +262,7 @@
 		size = 600
 	}
 }
+
 #Ngari (304000/76000 POPS)
 1592 = {
 	aristocrats = {
@@ -291,9 +292,250 @@
 	farmers = {
 		culture = u_tsang
 		religion = gelugpa
-		size = 29175
+		size = 2175
+	}
+	
+	serfs = {
+		culture = u_tsang
+		religion = gelugpa
+		size = 26000
+	}
+	
+	farmers = {
+		culture = tinani
+		religion = gelugpa
+		size = 85
+	}
+	
+	serfs = {
+		culture = tinani
+		religion = gelugpa
+		size = 375
+	}
+	
+	farmers = {
+		culture = bunan
+		religion = gelugpa
+		size = 85
+	}
+	
+	serfs = {
+		culture = bunan
+		religion = gelugpa
+		size = 475
 	}
 }
+
+#Aksai Chin (304000/76000 POPS)
+3765 = {
+	aristocrats = {
+		culture = ladakhi
+		religion = gelugpa
+		size = 5
+	}
+
+	clergymen = {
+		culture = ladakhi
+		religion = gelugpa
+		size = 5
+	}
+
+	artisans = {
+		culture = ladakhi
+		religion = gelugpa
+		size = 30
+	}
+
+	soldiers = {
+		culture = ladakhi
+		religion = gelugpa
+		size = 10
+	}
+
+	farmers = {
+		culture = ladakhi
+		religion = gelugpa
+		size = 75
+	}
+	
+	serfs = {
+		culture = ladakhi
+		religion = gelugpa
+		size = 260
+	}
+	
+	aristocrats = {
+		culture = uighur
+		religion = sunni
+		size = 5
+	}
+	
+	clergymen = {
+		culture = uighur
+		religion = sunni
+		size = 5
+	}
+	
+	artisans = {
+		culture = uighur
+		religion = sunni
+		size = 5
+	}
+	
+	soldiers = {
+		culture = uighur
+		religion = sunni
+		size = 85
+	}
+	
+	farmers = {
+		culture = uighur
+		religion = sunni
+		size = 385
+	}
+}
+
+#Kunlun (304000/76000 POPS)
+3764 = {
+	aristocrats = {
+		culture = u_tsang
+		religion = gelugpa
+		size = 5
+	}
+
+	clergymen = {
+		culture = u_tsang
+		religion = gelugpa
+		size = 5
+	}
+
+	artisans = {
+		culture = u_tsang
+		religion = gelugpa
+		size = 30
+	}
+
+	soldiers = {
+		culture = u_tsang
+		religion = gelugpa
+		size = 10
+	}
+	
+	farmers = {
+		culture = u_tsang
+		religion = gelugpa
+		size = 260
+	}
+	
+	aristocrats = {
+		culture = uighur
+		religion = sunni
+		size = 5
+	}
+	
+	clergymen = {
+		culture = uighur
+		religion = sunni
+		size = 5
+	}
+	
+	artisans = {
+		culture = uighur
+		religion = sunni
+		size = 5
+	}
+	
+	soldiers = {
+		culture = uighur
+		religion = sunni
+		size = 5
+	}
+	
+	farmers = {
+		culture = uighur
+		religion = sunni
+		size = 35
+	}
+}
+
+#Zhongba (304000/76000 POPS)
+3831 = {
+	aristocrats = {
+		culture = u_tsang
+		religion = gelugpa
+		size = 15
+	}
+
+	clergymen = {
+		culture = u_tsang
+		religion = gelugpa
+		size = 55
+	}
+
+	artisans = {
+		culture = u_tsang
+		religion = gelugpa
+		size = 130
+	}
+
+	soldiers = {
+		culture = u_tsang
+		religion = gelugpa
+		size = 110
+	}
+	
+	farmers = {
+		culture = u_tsang
+		religion = gelugpa
+		size = 1260
+	}
+	
+	serfs = {
+		culture = u_tsang
+		religion = gelugpa
+		size = 11260
+	}
+}
+
+#Rudok (304000/76000 POPS)
+3866 = {
+	aristocrats = {
+		culture = u_tsang
+		religion = gelugpa
+		size = 15
+	}
+
+	clergymen = {
+		culture = u_tsang
+		religion = gelugpa
+		size = 55
+	}
+
+	artisans = {
+		culture = u_tsang
+		religion = gelugpa
+		size = 30
+	}
+
+	soldiers = {
+		culture = u_tsang
+		religion = gelugpa
+		size = 110
+	}
+	
+	farmers = {
+		culture = u_tsang
+		religion = gelugpa
+		size = 260
+	}
+	
+	serfs = {
+		culture = u_tsang
+		religion = gelugpa
+		size = 2260
+	}
+}
+
 #Tawang (836000/209000 POPS) #now NEFA in India  asian_minor = Chin 
 1593 = {
 	aristocrats = {

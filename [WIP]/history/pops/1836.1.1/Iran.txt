@@ -4177,42 +4177,118 @@
 		size = 1900
 	}
 }
+
 #Dasht-e Kavir (48000/12000 POPS)
 3386 = {	
-	artisans = {
-		culture = khuri
+    clergymen = {
+		culture = persian
 		religion = sunni
-		size = 400
+		size = 10
+	}    
+	
+	artisans = {
+		culture = persian
+		religion = sunni
+		size = 10
 	}
 
 	farmers = {
-		culture = khuri
-		religion = sunni
-		size = 1000
-	}
-	
-	artisans = {
 		culture = persian
 		religion = sunni
 		size = 100
 	}
-
-	farmers = {
+	
+	serfs = {
 		culture = persian
 		religion = sunni
-		size = 200
+		size = 500
+	}
+	
+	clergymen = {
+		culture = raji
+		religion = shiite
+		size = 20
 	}
 	
 	artisans = {
 		culture = raji
 		religion = shiite
-		size = 350
+		size = 30
 	}
 
 	farmers = {
 		culture = raji
 		religion = shiite
-		size = 900
+		size = 280
+	}
+	
+	serfs = {
+		culture = raji
+		religion = shiite
+		size = 1020
+	}
+}
+
+#Khur
+3763 = {	
+    clergymen = {
+		culture = khuri
+		religion = sunni
+		size = 5
+	}
+    
+	artisans = {
+		culture = khuri
+		religion = sunni
+		size = 40
+	}
+
+	farmers = {
+		culture = khuri
+		religion = sunni
+		size = 100
+	}
+	
+	serfs = {
+		culture = khuri
+		religion = sunni
+		size = 1300
+	}
+	
+	clergymen = {
+		culture = persian
+		religion = sunni
+		size = 2
+	}
+	
+	artisans = {
+		culture = persian
+		religion = sunni
+		size = 10
+	}
+
+	farmers = {
+		culture = persian
+		religion = sunni
+		size = 100
+	}
+	
+	clergymen = {
+		culture = raji
+		religion = shiite
+		size = 2
+	}
+	
+	artisans = {
+		culture = raji
+		religion = shiite
+		size = 30
+	}
+
+	farmers = {
+		culture = raji
+		religion = shiite
+		size = 90
 	}
 	
 	farmers = {
@@ -4221,6 +4297,7 @@
 		size = 100
 	}
 }
+
 #Isfahan Region (700000)
 #under the rule of the Timurid Empire in 1836
 #Isfahan (388000/97500 POPS)

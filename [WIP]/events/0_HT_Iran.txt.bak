@@ -1,0 +1,789 @@
+#####88000
+#Invasion of Tabriz
+country_event = {
+    id = 88001
+    title = "Invasion of Tabriz"
+    desc = "EVTDESC88001"
+	picture = "capturing_khiva"
+
+    trigger = {
+        tag = TKO
+    }
+	
+	fire_only_once = yes
+
+    mean_time_to_happen = { days = 365 }
+
+    option = {
+	    TKO = { casus_belli = { target = AZB type = conquest months = 12 } }
+        name = "Destroy the Timurid Remnant!"
+		AZB = { all_core = { add_core = THIS } }
+        war = {
+	            target = AZB
+	            attacker_goal = { casus_belli = conquest }
+	            defender_goal = { casus_belli = conquest }
+	            call_ally = no
+        }
+		all_core = { limit = { is_core = AZB } add_core = THIS }
+        ai_chance = { factor = 100 }
+    }
+	
+	option = {
+        name = "Now is not the time"
+		all_core = { limit = { is_core = AZB } add_core = THIS }
+        ai_chance = { factor = 0 }
+    }
+}
+
+#The Demands of the Turks
+country_event = {
+    id = 88002
+    title = "The Demands of the Turks"
+    desc = "EVTDESC88002"
+	picture = "deputation_to_milos"
+
+    is_triggered_only = yes
+
+    option = {
+        name = "We have no other choice..."
+        TKO = { create_vassal = THIS }
+        ai_chance = { factor = 100 }
+    }
+	
+	option = {
+        name = "The Turks of no Authority over us!"
+		TKO = { casus_belli = { target = THIS type = create_vassal months = 12 } }
+		TKO = {
+		    war = {
+	            target = THIS
+	            attacker_goal = { casus_belli = create_vassal }
+	            defender_goal = { casus_belli = status_quo }
+	            call_ally = no
+            }
+		}
+        ai_chance = { factor = 0 }
+    }
+}
+
+#Farhad Khan Zohrabi
+country_event = {
+    id = 88003
+    title = "Farhad Khan Zohrabi"
+    desc = "EVTDESC88003"
+	picture = "farhad_khan"
+
+    fire_only_once = yes
+	trigger = {
+	    tag = FRS
+	}
+
+    option = {
+        name = "Truly a great man"
+        add_country_modifier = {
+	        name = farhad_khan
+	        duration = 36500
+        }
+		define_general = {
+	        name = "Farhad Khan Zohrabi"
+	        personality = implacable
+	        background = natural_born_leader
+        }
+        ai_chance = { factor = 100 }
+    }
+}
+
+#Farhad Khan offers his protection
+country_event = {
+    id = 88004
+    title = "Farhad Khan offers his protection"
+    desc = "EVTDESC88004"
+	picture = "kashmir_selling"
+
+    is_triggered_only = yes
+
+    option = {
+        name = "It is our only hope..."
+        FRS = { country_event = 88005 }
+        ai_chance = { factor = 100 }
+    }
+	
+	option = {
+        name = "We dont need Farhad Khan!"
+		prestige = 5
+        ai_chance = { factor = 0 }
+    }
+}
+
+#The Lurs have sworn their fealty - Zohrabids
+country_event = {
+    id = 88005
+    title = "Farhad Khan Zohrabi"
+    desc = "EVTDESC88005"
+	picture = "iranian_tribesmen"
+
+    is_triggered_only = yes
+
+    option = {
+        name = "Great!"
+        create_vassal = LUR 
+		relation = {
+	        who = KRM
+	        value = -100
+        }
+        ai_chance = { factor = 100 }
+    }
+	
+	option = {
+        name = "We dont want to anger the Beghdilids"
+        prestige = -5
+		relation = {
+	        who = 	LUR
+	        value = -100
+        }
+        ai_chance = { factor = 0 }
+    }
+}
+
+#The Treaty of Qazvin
+country_event = {
+    id = 88006
+    title = "The Treaty of Qazvin"
+    desc = "EVTDESC88006"
+	picture = "iranian_tribesmen"
+
+    fire_only_once = yes
+	major = yes
+	
+	trigger = {
+	    tag = FRS
+		KRM = { has_country_flag = got_cut_down }
+		truce_with = KRM
+	}
+
+    option = {
+        name = "We have been victorious!" 	
+		KRM = {
+		    any_country = {
+		        limit = { vassal_of = KRM NOT = { tag = DUL } NOT = { tag = RMZ } NOT = { tag = KLS } NOT = { tag = BHT } NOT = { tag = BTL } NOT = { tag = ANK } NOT = { tag = CND } NOT = { tag = KHL } NOT = { tag = URF } NOT = { tag = MFQ } }
+	            country_event = 88009
+			}
+		}
+		MFQ = { country_event = 88010 }
+		890 = { add_core = FRS }
+		892 = { add_core = FRS }
+		923 = { add_core = FRS }
+		927 = { add_core = FRS }
+        TUR_3630 = { add_core = FRS }
+		TUR_935 = { add_core = FRS }
+		TUR_931 = { add_core = FRS }
+		PER_1117 = { add_core = FRS }
+		TKO = { all_core = { add_core = FRS } }
+		AKK = { all_core = { add_core = FRS } }
+		KHZ = { all_core = { add_core = FRS } }
+		KRM = {
+		    any_owned = {
+		        limit = { is_core = FRS }
+	            secede_province = FRS  
+			}
+		}
+		badboy = 5
+        ai_chance = { factor = 100 }
+    }
+}
+
+#The Treaty of Diyarbakir
+country_event = {
+    id = 88007
+    title = "The Treaty of Diyarbakir"
+    desc = "EVTDESC88007"
+	picture = "iranian_tribesmen"
+
+    fire_only_once = yes
+	major = yes
+	
+	trigger = {
+	    tag = KRM
+		FRS = { has_country_flag = got_cut_down }
+		truce_with = FRS
+	}
+
+    option = {
+        name = "We have been victorious!"	
+		TKO = { all_core = { add_core = THIS } }
+		inherit = TKO
+        926 = { add_core = THIS }
+		923 = { add_core = THIS }
+		927 = { add_core = THIS }
+		3633 = { add_core = THIS }
+		3631 = { add_core = THIS }
+		1123 = { add_core = THIS }
+		1122 = { add_core = THIS }
+		1107 = { add_core = THIS }
+		3382 = { add_core = THIS }
+		1137 = { remove_core = THIS }
+		1134 = { remove_core = THIS }
+		FRS = { 
+		    all_core = {
+		        limit = { is_core = KRM }
+	            secede_province = KRM  
+			}
+		}
+		FRS = {
+		    any_country = {
+		        limit = { vassal_of = FRS NOT = { tag = AJM } }
+	            country_event = 88008 
+			}
+		}
+		badboy = 5
+        ai_chance = { factor = 100 }
+    }
+}
+
+#fuck event modding (debug event vassals)
+country_event = {
+    id = 88008
+    title = "Farhad Khan defeated"
+    desc = "With Farhad Khan defeated by the Beghdilids we are now forced to either keep fighting or accept Turkoman vassalage..."
+	picture = "iranian_tribesmen"
+
+    is_triggered_only = yes
+
+    option = {
+        name = "Accept the Beghdilid Overlordship"	
+		FRS = { release_vassal = THIS }
+		all_core = { remove_core = KRM }
+		KRM = { create_vassal = THIS }
+		all_core = { add_core = KRM }
+        ai_chance = { factor = 95 }
+    }
+	
+	option = {
+        name = "Fight for our independence!"	
+		FRS = { release_vassal = THIS }
+		KRM = { casus_belli = { target = THIS type = conquest months = 12 } }
+		KRM = { 
+		    war = {
+	            target = THIS
+	            attacker_goal = { casus_belli = conquest }
+	            defender_goal = { casus_belli = status_quo }
+	            call_ally = no
+            } 
+		}
+        ai_chance = { factor = 5 }
+    }
+}
+
+#fuck event modding (debug event vassals)
+country_event = {
+    id = 88009
+    title = "The Beghdilids defeated"
+    desc = "With the Beghdilids defeated by Farhad Khan we are now forced to either keep fighting or accept Zohrabid vassalage..."
+	picture = "iranian_tribesmen"
+
+    is_triggered_only = yes
+
+    option = {
+        name = "Accept the Zohrabid Overlordship"	
+		KRM = { release_vassal = THIS }
+		all_core = { remove_core = FRS }
+		FRS = { create_vassal = THIS }
+		all_core = { add_core = FRS }
+        ai_chance = { factor = 95 }
+    }
+	
+	option = {
+        name = "Fight for our independence!"	
+		KRM = { release_vassal = THIS }
+		FRS = { casus_belli = { target = THIS type = conquest months = 12 } }
+		FRS = { 
+		    war = {
+	            target = THIS
+	            attacker_goal = { casus_belli = conquest }
+	            defender_goal = { casus_belli = status_quo }
+	            call_ally = no
+            } 
+		}
+        ai_chance = { factor = 5 }
+    }
+}
+
+#fuck event modding (debug event vassals)
+country_event = {
+    id = 88010
+    title = "The Beghdilids defeated"
+    desc = "With the Beghdilids defeated by Farhad Khan we are now forced to either keep fighting or accept Zohrabid vassalage..."
+	picture = "iranian_tribesmen"
+
+    is_triggered_only = yes
+
+    option = {
+        name = "Accept the Zohrabid Overlordship"	
+		KRM = { release_vassal = THIS }
+		930 = { remove_core = FRS }
+		933 = { remove_core = FRS }
+		932 = { remove_core = FRS }
+		929 = { remove_core = FRS }
+		934 = { remove_core = FRS }
+		FRS = { create_vassal = THIS }
+		930 = { add_core = FRS }
+		933 = { add_core = FRS }
+		932 = { add_core = FRS }
+		929 = { add_core = FRS }
+		934 = { add_core = FRS }
+        ai_chance = { factor = 40 }
+    }
+	
+	option = {
+        name = "Fight for our independence!"	
+		KRM = { release_vassal = THIS }
+		FRS = { casus_belli = { target = THIS type = conquest months = 12 } }
+		FRS = { 
+		    war = {
+	            target = THIS
+	            attacker_goal = { casus_belli = conquest }
+	            defender_goal = { casus_belli = status_quo }
+	            call_ally = no
+            } 
+		}
+        ai_chance = { factor = 60 }
+    }
+}
+
+#Omani Raids on French treaty ports!
+country_event = {
+    id = 88011
+    title = "Piracy in the Persian Gulf"
+    desc = "EVTDESC88011"
+	picture = "persian_gulf_trading"
+
+    trigger = {
+	    tag = FRA
+		FRS = { has_country_flag = gained_kerman }
+		has_global_flag = timurd_succ_war
+		FRS = { war = no }
+	}
+	
+	mean_time_to_happen = {
+	    months = 20
+	}
+	
+	fire_only_once = yes
+
+    option = {
+        name = "This situation is unacceptable, the Persians have to uphold their promises!"	
+		FRS = { country_event = 88012 }
+        ai_chance = { factor = 100 }
+    }
+	
+	option = {
+        name = "This situation is unacceptable, trading in Persia is no longer profitable."	
+		FRS = { country_event = 88013 }
+		3637 = { secede_province = FRS }
+        ai_chance = { factor = 0 }
+    }
+}
+
+#The French demand that we uphold our ends of the Hormuz Convention
+country_event = {
+    id = 88012
+    title = "The French demand that we uphold the Hormuz Convention!"
+    desc = "EVTDESC88012"
+	picture = "western_deligation"
+
+    is_triggered_only = yes
+
+    option = {
+        name = "This Treaty is essential for the flow of commerce, we have to uphold our promises!"	
+		OMA = { country_event = 88014 }
+        ai_chance = { factor = 100 }
+    }
+	
+	option = {
+        name = "We have more important issues."	
+		remove_country_modifier = french_traders
+		3637 = { trade_goods = fish }
+		FRA = { 3637 = { secede_province = FRS } }
+        ai_chance = { factor = 100 }
+    }
+}
+
+#French traders are leaving Iran
+country_event = {
+    id = 88013
+    title = "French traders are leaving Iran!"
+    desc = "EVTDESC88013"
+	picture = "persian_gulf_trading"
+
+    is_triggered_only = yes
+
+    option = {
+        name = "Terrible!"	
+		remove_country_modifier = french_traders
+		3637 = { trade_goods = fish }
+		FRA = { 3637 = { secede_province = FRS } }
+		set_country_flag = french_traders_leaving_iran
+        ai_chance = { factor = 100 }
+    }
+}
+
+#The Zohrabi Ultimatum
+country_event = {
+    id = 88014
+    title = "The Zohrabi Ultimatum"
+    desc = "EVTDESC88014"
+	#picture = "persian_gulf_trading"
+
+    is_triggered_only = yes
+
+    option = {
+        name = "We will handle the pirates..."	
+		FRS = { country_event = 88015 }
+        ai_chance = { factor = 90 }
+    }
+	
+	option = {
+        name = "What are they going to do? They dont even have a navy!"	
+		FRS = { casus_belli = { target = THIS type = cut_down_to_size months = 12 } } 
+		FRS = { 
+		    war = {
+	            target = THIS
+	            attacker_goal = { casus_belli = cut_down_to_size }
+	            defender_goal = { casus_belli = status_quo }
+	            call_ally = no
+            } 
+		}
+        ai_chance = { factor = 10 }
+    }
+}
+
+#The Omanis have accepted!
+country_event = {
+    id = 88015
+    title = "The Omanis have accepted"
+    desc = "EVTDESC88015"
+	picture = "deputation_to_milos"
+
+    is_triggered_only = yes
+
+    option = {
+        name = "Great!"	
+		FRA = { country_event = 88016 }
+		set_country_flag = handled_pirates
+        ai_chance = { factor = 100 }
+    }
+}
+
+#The Pirate threat has been dealt with FRS
+country_event = {
+    id = 88016
+    title = "The Pirate threat has been dealt with"
+    desc = "EVTDESC88016"
+	picture = "cyprus_convention"
+
+    is_triggered_only = yes
+
+    option = {
+        name = "Great!"	
+		relation = {
+	        who = FRS
+	        value = 100
+        }
+		FRS = { set_country_flag = protected_french_trading_rights }
+        ai_chance = { factor = 100 }
+    }
+}
+
+#The Pirate threat has been dealt with FRA
+country_event = {
+    id = 88017
+    title = "The Pirate threat has been dealt with"
+    desc = "EVTDESC88016"
+	picture = "cyprus_convention"
+
+    trigger = {
+	    tag = FRA
+		FRS = { truce_with = OMA }
+		OMA = { has_country_flag = got_cut_down }
+		FRS = { war = no }
+	}
+	
+	fire_only_once = yes
+
+    option = {
+        name = "Great!"	
+		relation = {
+	        who = FRS
+	        value = 100
+        }
+		FRS = { set_country_flag = protected_french_trading_rights }
+        ai_chance = { factor = 100 }
+    }
+}
+
+#The Anglo-Norse support our cause!
+country_event = {
+    id = 88018
+    title = "The Anglo-Norse support our cause!"
+    desc = "EVTDESC88018"
+	picture = "western_alliances"
+
+    trigger = {
+	    tag = FRS
+		has_country_flag = secured_anglo_trading_rights
+	}
+	
+	mean_time_to_happen = {
+	    months = 3
+	}
+	
+	fire_only_once = yes
+
+    option = {
+        name = "Great!"	
+		relation = {
+	        who = NRD
+	        value = 120
+        }
+		set_country_flag = anglo_norse_support_frs
+        ai_chance = { factor = 100 }
+    }
+}
+
+#Choosing between Anglos and French
+country_event = {
+    id = 88019
+    title = "Deciding on Western Alliances"
+    desc = "EVTDESC88019"
+	picture = "western_alliances"
+
+    is_triggered_only = yes
+	
+    option = {
+        name = "The Anglo-Norse are an obvious choice"	
+		relation = {
+	        who = NRD
+	        value = 200
+        }
+		NRD = {
+		    diplomatic_influence = {
+	           who = FRS
+	           value = 4
+            }
+		}
+		create_alliance = NRD
+		set_country_flag = has_western_alliance
+        ai_chance = { factor = 80 }
+    }
+	
+	  option = {
+        name = "The French offer a stronger alliance"	
+		relation = {
+	        who = FRA
+	        value = 200
+        }
+		FRA = {
+		    diplomatic_influence = {
+	           who = FRS
+	           value = 4
+            }
+		}
+		create_alliance = FRA
+		set_country_flag = has_western_alliance
+        ai_chance = { factor = 20 }
+    }
+}
+
+#Western Investors in FRS!
+country_event = {
+    id = 88020
+    title = "Western Investors in the Zohrabi Empire!"
+    desc = "EVTDESC88020"
+	picture = "mining"
+
+    trigger = {
+	    tag = FRS
+		has_country_flag = has_western_alliance
+	}
+	
+	mean_time_to_happen = {
+	    months = 5
+	}
+	
+	fire_only_once = yes
+
+    option = {
+        name = "They are more than welcome!"	
+		3456 = { trade_goods = precious_metal }
+		3635 = { trade_goods = sulphur }
+		1122 = { trade_goods = sulphur }
+		1143 = { trade_goods = coal }
+		economic_reform = yes_firearms_production
+		set_country_flag = western_investments_frs
+        ai_chance = { factor = 100 }
+    }
+}
+
+#Reincorporation of Khorasan 
+country_event = {
+    id = 88021
+    title = "Reincorporation of Khorasan"
+    desc = "EVTDESC88021"
+	picture = "khorasan_trolled"
+
+     trigger = {
+        is_core = FRS
+        OR = {
+			is_core = MSM #Mishmast
+            is_core = BYT #Nishapur
+            is_core = QRI #Qara'i
+			is_core = KST #Khozeimi
+			is_core = AFS #Afsharids
+			is_core = MHL #Moghols
+			is_core = BRL #Baharlu
+            is_core = JYL #Jayalerids
+            AND = {
+                OR = {
+					province_id = 3612 #Turkmensahra
+					province_id = 1150 #Bojnurd
+					province_id = 1204 #Ashqabad
+				}
+                is_core = TKM #Yomuds
+            }
+        }
+		has_country_flag = subjegated_khorasan
+        owned_by = PER
+    }
+	
+	mean_time_to_happen = {
+	    months = 2
+	}
+
+    option = {
+        name = "Great!"	
+		state_scope = {
+            any_owned = {
+                remove_core = MSM
+                remove_core = BYT
+                remove_core = QRI
+                remove_core = KST
+                remove_core = AFS
+                remove_core = MHL
+                remove_core = BRL
+				remove_core = JYL
+				remove_core = TKM
+            }
+        }
+        ai_chance = { factor = 100 }
+    }
+}
+
+#Deciding on the future of Zoroastrians
+country_event = {
+    id = 88022
+    title = "Deciding on the future of Zoroastrians"
+    desc = "EVTDESC88022"
+	picture = "deliberation"
+
+    is_triggered_only = yes
+
+    option = {
+        name = "Respect their rights"	
+        add_accepted_culture = dari
+		YZD = { all_core = { add_core = THIS } }
+		set_country_flag = respected_zoroastrians
+        ai_chance = { factor = 30 }
+    }
+	
+	option = {
+        name = "They shall either convert or be expected to be put to the sword!"	
+        prestige = 10
+		YZD = { all_core = { add_core = THIS } }
+		set_country_flag = disrespected_zoroastrians
+        ai_chance = { factor = 70 }
+    }
+}
+
+#Deciding on the future of Zoroastrians - Yazd is owned; opt1
+country_event = {
+    id = 88023
+    title = "Our promises"
+    desc = "EVTDESC88023"
+	picture = "deliberation"
+
+    trigger = {
+	    YZD = { all_core = { owned_by = THIS } }
+		has_country_flag = respected_zoroastrians
+	}
+	
+	fire_only_once = yes
+
+    option = {
+        name = "We uphold our promises"	
+		any_pop = { limit = { has_pop_religion = zoroastrian } militancy = -8 }
+		any_owned_province = { 
+		    limit = {
+			    region = PER_1139
+				province_id = 1140
+			}
+			add_province_modifier = {
+		        name = zoroastrian_autonomy
+			    duration = 3650
+		    }
+		}
+        ai_chance = { factor = 100 }
+    }
+}
+
+#Deciding on the future of Zoroastrians - when Yazd is owned; opt2
+country_event = {
+    id = 88024
+    title = "Our demands"
+    desc = "EVTDESC88024"
+	picture = "deliberation"
+
+    trigger = {
+	    YZD = { all_core = { owned_by = THIS } }
+		has_country_flag = disrespected_zoroastrians
+	}
+	
+	fire_only_once = yes
+
+    option = {
+        name = "We uphold our demands"	
+		any_pop = { limit = { has_pop_religion = zoroastrian } militancy = 8 consciousness = 1 }
+		any_owned = { 
+		    limit = {
+			    has_pop_religion = zoroastrian
+			}
+			reduce_pop = 0.7
+		}
+		any_pop = { limit = { has_pop_religion = zoroastrian consciousness = 1.5 } move_pop = 1296 }
+        ai_chance = { factor = 100 }
+    }
+}
+
+country_event = {
+    id = 88025
+    title = "Wakil-e Mardom"
+    desc = "EVTDESC88025"
+	picture = "protector_of_the_people"
+	
+	trigger = {
+		tag = FRS
+		has_country_flag = zoroastrian_matters
+		has_country_flag = subjegated_khorasan
+		all_core = { owned_by = THIS }
+		NOT = { has_country_flag = protector_of_the_people_title }
+		war = no
+	}
+	
+	fire_only_once = yes
+		
+	effect = {
+	    prestige = 30
+		militancy = -5
+		consciousness = -3
+		set_country_flag = protector_of_the_people_title
+		ai_chance = { factor = 100 }
+	}	
+}

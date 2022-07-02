@@ -787,3 +787,64 @@ country_event = {
 		ai_chance = { factor = 100 }
 	}	
 }
+
+
+
+#Caucasian Turkomans
+#If Irevan is independent, unify the Turkoman
+country_event = {
+    id = 278013
+    title = "EVTNAME278013"
+    desc = "EVTDESC278013"
+    picture = "iranian_tribesmen"
+
+    trigger = {
+        tag = IRV
+        war = no
+        is_vassal = no
+        OR = {
+            IRV = { ai = yes }
+            3651 = { owned_by = IRV }
+        }
+    }
+
+    mean_time_to_happen = { months = 3 }
+
+    option = {
+        name = "Strength in Unity"
+        any_country = {
+            limit = { 
+                exists = yes
+                OR = {
+                    tag = NKH
+                    tag = KRB
+                    tag = MKU
+                }
+            }
+            country_event = { id = 278014 }
+        }
+        ai_chance = { factor = 100 }
+    }
+}
+
+#The rest of Turkoman Khanates can chose to be integrated or not
+country_event = {
+    id = 278014
+    title = "EVTNAME278014"
+    desc = "EVTDESC278014"
+    picture = "assault_on_russian_lands"
+
+    is_triggered_only = yes
+
+    option = {
+        name = "The Turkoman Shall Unite"
+        FROM = { inherit = THIS }
+        ai_chance = { factor = 100 }
+    }
+
+    option = {
+        name = "We refuse!"
+        prestige = 5
+        ai_chance = { factor = 0 }
+    }
+}
