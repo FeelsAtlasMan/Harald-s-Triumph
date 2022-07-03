@@ -5069,6 +5069,17 @@ indo_aryan = {
 		}
 	}
 	
+	maithili = {
+		color = {135 105 80}
+		first_names = { Maharshi Mahavira Ashtravakra Chanakya Ashoka Samudragupta Vachaspati Vatsyayana Asvaghosa Udayanacharaya
+			
+		}
+		
+		last_names = { Singh Valmiki Janak Jarasandh Mishra 
+               
+		}
+	}
+	
 	kumali = {
 		color = {135 105 80}
 		first_names = { Maharshi Mahavira Ashtravakra Chanakya Ashoka Samudragupta Vachaspati Vatsyayana Asvaghosa Udayanacharaya
@@ -5092,6 +5103,17 @@ indo_aryan = {
 	}
 	
 	bote = {
+		color = {135 105 80}
+		first_names = { Maharshi Mahavira Ashtravakra Chanakya Ashoka Samudragupta Vachaspati Vatsyayana Asvaghosa Udayanacharaya
+			
+		}
+		
+		last_names = { Singh Valmiki Janak Jarasandh Mishra 
+               
+		}
+	}
+	
+	dhanwar = {
 		color = {135 105 80}
 		first_names = { Maharshi Mahavira Ashtravakra Chanakya Ashoka Samudragupta Vachaspati Vatsyayana Asvaghosa Udayanacharaya
 			
@@ -5275,6 +5297,18 @@ indo_aryan = {
 		radicalism = 10
 	}
 	
+	marwari = {
+		color = {175 135 80}
+		first_names = { Sardar Fateh Muhammad Malik Umar Hayat Rai Hussain Veer Durga Bhai Rao Harsha Bhagwant "Mirza Raja" Jawapala Sawai
+			
+		}
+		
+		last_names = { "ur Rahman" Bhatti Tiwana Qaim Kunwar "Bachittar Singh" Shekha
+               
+		}
+		radicalism = 10
+	}
+	
 	gujari = {
 		color = {175 135 80}
 		first_names = { Sardar Fateh Muhammad Malik Umar Hayat Rai Hussain Veer Durga Bhai Rao Harsha Bhagwant "Mirza Raja" Jawapala Sawai
@@ -5282,6 +5316,18 @@ indo_aryan = {
 		}
 		
 		last_names = { "ur Rahman" Bhatti Tiwana Qaim Kunwar "Bachittar Singh" Shekha
+               
+		}
+	}
+	
+	#Eastern
+	kamtapuri = {
+		color = {165 165 70}
+		first_names = { Murshid Quli Shujauddin Alauddin Alivardi Sirajuddaula "Mir Muhammad" Najimuddin Reza Saifuddaula Zainul Ahmad Mansur Mubarak Hasan Wasif Waris
+			
+		}
+		
+		last_names = { Jafar Muhammad Sarfaraz Ali "Qasim Ali" Najabut Bahadur Mirza
                
 		}
 	}
@@ -5296,6 +5342,7 @@ indo_aryan = {
                
 		}
 	}
+	
 	rohingya  = {
 		color = {185 185 75}
 		first_names = { Murshid Quli Shujauddin Alauddin Alivardi Sirajuddaula "Mir Muhammad" Najimuddin Reza Saifuddaula Zainul Ahmad Mansur Mubarak Hasan Wasif Waris
@@ -5308,18 +5355,34 @@ indo_aryan = {
 	}
 }
 
-#Isolated Languages
+#Isolated Languages of Asia
 burushaskic = {
 	leader = arab
 	is_overseas = no
 	unit = MiddleEasternGC
 	burushaski = {
-		color = {10 60 120}
+		color = {10 160 120}
 		first_names = {
 			Ali Azim Jafar Mohammad Riza
 		}
 		last_names = {
 			Beg Khan
+		}
+	}
+}
+
+kusunda_group = { #maybe Tibeto-Burman?
+	leader = arab
+	is_overseas = no
+	unit = MiddleEasternGC
+	kusunda = { 
+		color = {160 60 120}
+		first_names = { Bhimsen Amar Ranjur Bhakti Jang Renaudip Shamsher "Bir Shamsher" "Deva Shamsher" "Chandra Shamsher" "Bhim Shamsher" 
+			
+		}
+		
+		last_names = { Thapa "Singh Thapa" Singh Rana "Bahadur Rana" 
+               
 		}
 	}
 }
@@ -5681,6 +5744,17 @@ tibetic = {
 		}
 	}
 	
+	thudam = {
+		color = {210 120 25}
+		first_names = { 
+			Tsarong Chamba Trimon Penor Gendün Jamphel Norbhu Mipham Tsepon Andruk Namgang 
+		}
+		
+		last_names = { 
+               Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi 
+		}
+	}
+	
 	walungge = {
 		color = {170 110 15}
 		first_names = { 
@@ -5715,6 +5789,18 @@ tibetic = {
 		}
 	}	
 	
+	#Southern
+	chocangacakha = {
+		color = {255 140 45}
+		first_names = { 
+			Tsarong Chamba Trimon Penor Gendün Jamphel Norbhu Mipham Tsepon Andruk Namgang 
+		}
+		
+		last_names = { 
+               Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi 
+		}
+	}	
+	
 	dzongkha = {
 		color = {250 130 45}
 		first_names = { 
@@ -5726,7 +5812,95 @@ tibetic = {
 		}
 	}	
 	
-	#Western
+	layapkha = {
+		color = {240 120 45}
+		first_names = { 
+			Tsarong Chamba Trimon Penor Gendün Jamphel Norbhu Mipham Tsepon Andruk Namgang 
+		}
+		
+		last_names = { 
+               Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi 
+		}
+	}
+	
+	lunanakha = {
+		color = {230 110 45}
+		first_names = { 
+			Tsarong Chamba Trimon Penor Gendün Jamphel Norbhu Mipham Tsepon Andruk Namgang 
+		}
+		
+		last_names = { 
+               Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi 
+		}
+	}
+	
+	groma = {
+		color = {220 100 45}
+		first_names = { 
+			Tsarong Chamba Trimon Penor Gendün Jamphel Norbhu Mipham Tsepon Andruk Namgang 
+		}
+		
+		last_names = { 
+               Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi 
+		}
+	}	
+	
+	drenjongke = {
+		color = {210 90 45}
+		first_names = { 
+			Tsarong Chamba Trimon Penor Gendün Jamphel Norbhu Mipham Tsepon Andruk Namgang 
+		}
+		
+		last_names = { 
+               Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi 
+		}
+	}	
+	
+	lakha = {
+		color = {190 70 45}
+		first_names = { 
+			Tsarong Chamba Trimon Penor Gendün Jamphel Norbhu Mipham Tsepon Andruk Namgang 
+		}
+		
+		last_names = { 
+               Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi 
+		}
+	}	
+	
+	khamba = {
+		color = {170 50 45}
+		first_names = { 
+			Tsarong Chamba Trimon Penor Gendün Jamphel Norbhu Mipham Tsepon Andruk Namgang 
+		}
+		
+		last_names = { 
+               Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi 
+		}
+	}
+
+    brokpake = {
+		color = {150 50 45}
+		first_names = { 
+			Tsarong Chamba Trimon Penor Gendün Jamphel Norbhu Mipham Tsepon Andruk Namgang 
+		}
+		
+		last_names = { 
+               Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi 
+		}
+	}
+
+    brokkat = {
+		color = {130 30 25}
+		first_names = { 
+			Tsarong Chamba Trimon Penor Gendün Jamphel Norbhu Mipham Tsepon Andruk Namgang 
+		}
+		
+		last_names = { 
+               Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi 
+		}
+	}		
+	
+	#Western Archaic
 	#Ladakhi-Balti
 	balti = {
 		color = {250 180 5}
@@ -5808,6 +5982,115 @@ tibetic = {
 	
 	lahuli = {
 		color = {230 160 55}
+		first_names = { 
+			Tsarong Chamba Trimon Penor Gendün Jamphel Norbhu Mipham Tsepon Andruk Namgang 
+		}
+		
+		last_names = { 
+               Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi 
+		}
+	}
+}
+
+#East Bodish-Tshangla
+east_bodish = {
+	leader = asian
+	is_overseas = no
+	unit = AsianGC
+	#East Bodish
+	#Olekha
+	olekha = {
+		color = {205 20 235}
+		first_names = { 
+			Tsarong Chamba Trimon Penor Gendün Jamphel Norbhu Mipham Tsepon Andruk Namgang 
+		}
+		
+		last_names = { 
+               Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi 
+		}
+	}
+	
+	#East Bodish Proper
+    dakpakha = {
+		color = {225 30 215}
+		first_names = { 
+			Tsarong Chamba Trimon Penor Gendün Jamphel Norbhu Mipham Tsepon Andruk Namgang 
+		}
+		
+		last_names = { 
+               Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi 
+		}
+	}
+	
+	dzalakha = {
+		color = {245 40 225}
+		first_names = { 
+			Tsarong Chamba Trimon Penor Gendün Jamphel Norbhu Mipham Tsepon Andruk Namgang 
+		}
+		
+		last_names = { 
+               Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi 
+		}
+	}
+	
+	bumthangkha = {
+		color = {245 10 205}
+		first_names = { 
+			Tsarong Chamba Trimon Penor Gendün Jamphel Norbhu Mipham Tsepon Andruk Namgang 
+		}
+		
+		last_names = { 
+               Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi 
+		}
+	}
+	
+	khengkha = {
+		color = {255 30 215}
+		first_names = { 
+			Tsarong Chamba Trimon Penor Gendün Jamphel Norbhu Mipham Tsepon Andruk Namgang 
+		}
+		
+		last_names = { 
+               Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi 
+		}
+	}
+	
+	kurtopkha = {
+		color = {245 60 235}
+		first_names = { 
+			Tsarong Chamba Trimon Penor Gendün Jamphel Norbhu Mipham Tsepon Andruk Namgang 
+		}
+		
+		last_names = { 
+               Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi 
+		}
+	}
+	
+	chalikha = {
+		color = {205 40 195}
+		first_names = { 
+			Tsarong Chamba Trimon Penor Gendün Jamphel Norbhu Mipham Tsepon Andruk Namgang 
+		}
+		
+		last_names = { 
+               Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi 
+		}
+	}
+	
+	nyenkha = {
+		color = {185 40 185}
+		first_names = { 
+			Tsarong Chamba Trimon Penor Gendün Jamphel Norbhu Mipham Tsepon Andruk Namgang 
+		}
+		
+		last_names = { 
+               Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi 
+		}
+	}
+	
+	#Tsanglic
+	tshangla = {
+		color = {215 45 225}
 		first_names = { 
 			Tsarong Chamba Trimon Penor Gendün Jamphel Norbhu Mipham Tsepon Andruk Namgang 
 		}
@@ -5925,40 +6208,6 @@ tamangic = {
 	
 	tamang = {
 		color = {145 40 245}
-		first_names = { 
-			Tsarong Chamba Trimon Penor Gendün Jamphel Norbhu Mipham Tsepon Andruk Namgang 
-		}
-		
-		last_names = { 
-               Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi 
-		}
-	}
-	
-	#Newaric
-	newari = {
-		color = {105 20 255}
-		first_names = { 
-			Tsarong Chamba Trimon Penor Gendün Jamphel Norbhu Mipham Tsepon Andruk Namgang 
-		}
-		
-		last_names = { 
-               Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi 
-		}
-	}
-	
-	baraamu = {
-		color = {85 20 205}
-		first_names = { 
-			Tsarong Chamba Trimon Penor Gendün Jamphel Norbhu Mipham Tsepon Andruk Namgang 
-		}
-		
-		last_names = { 
-               Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi 
-		}
-	}
-	
-	thangmi = {
-		color = {65 20 205}
 		first_names = { 
 			Tsarong Chamba Trimon Penor Gendün Jamphel Norbhu Mipham Tsepon Andruk Namgang 
 		}
@@ -6177,6 +6426,7 @@ himalayish = {
 	leader = asian
 	is_overseas = no
 	unit = AsianGC
+	#Mahakiranti
 	#Kham-Magar-Chepangic
 	parbate_kham = {
 		color = {200 10 45}
@@ -6202,6 +6452,17 @@ himalayish = {
 	
 	sheshi_kham = {
 		color = {220 20 35}
+		first_names = { 
+			Tsarong Chamba Trimon Penor Gendün Jamphel Norbhu Mipham Tsepon Andruk Namgang 
+		}
+		
+		last_names = { 
+               Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi 
+		}
+	}
+	
+	dura = {
+		color = {165 20 45}
 		first_names = { 
 			Tsarong Chamba Trimon Penor Gendün Jamphel Norbhu Mipham Tsepon Andruk Namgang 
 		}
@@ -6243,6 +6504,432 @@ himalayish = {
                Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi 
 		}
 	}
+	
+	#Newaric
+	newari = {
+		color = {205 20 55}
+		first_names = { 
+			Tsarong Chamba Trimon Penor Gendün Jamphel Norbhu Mipham Tsepon Andruk Namgang 
+		}
+		
+		last_names = { 
+               Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi 
+		}
+	}
+	
+	baraamu = {
+		color = {185 20 25}
+		first_names = { 
+			Tsarong Chamba Trimon Penor Gendün Jamphel Norbhu Mipham Tsepon Andruk Namgang 
+		}
+		
+		last_names = { 
+               Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi 
+		}
+	}
+	
+	thangmi = {
+		color = {165 20 25}
+		first_names = { 
+			Tsarong Chamba Trimon Penor Gendün Jamphel Norbhu Mipham Tsepon Andruk Namgang 
+		}
+		
+		last_names = { 
+               Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi 
+		}
+	}
+	
+	#Kiranti
+	#Western Kiranti
+	jerung = { #
+		color = {205 60 55}
+		first_names = { 
+			Tsarong Chamba Trimon Penor Gendün Jamphel Norbhu Mipham Tsepon Andruk Namgang 
+		}
+		
+		last_names = { 
+               Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi 
+		}
+	}
+	
+	wambule = { #
+		color = {200 55 55}
+		first_names = { 
+			Tsarong Chamba Trimon Penor Gendün Jamphel Norbhu Mipham Tsepon Andruk Namgang 
+		}
+		
+		last_names = { 
+               Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi 
+		}
+	}
+	
+	bahing = { #
+		color = {195 50 55}
+		first_names = { 
+			Tsarong Chamba Trimon Penor Gendün Jamphel Norbhu Mipham Tsepon Andruk Namgang 
+		}
+		
+		last_names = { 
+               Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi 
+		}
+	}
+	
+	sunwar = { #
+		color = {190 45 55}
+		first_names = { 
+			Tsarong Chamba Trimon Penor Gendün Jamphel Norbhu Mipham Tsepon Andruk Namgang 
+		}
+		
+		last_names = { 
+               Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi 
+		}
+	}
+	
+	wayu = { #
+		color = {185 40 55}
+		first_names = { 
+			Tsarong Chamba Trimon Penor Gendün Jamphel Norbhu Mipham Tsepon Andruk Namgang 
+		}
+		
+		last_names = { 
+               Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi 
+		}
+	}
+	
+	thulung = { #
+		color = {180 35 55}
+		first_names = { 
+			Tsarong Chamba Trimon Penor Gendün Jamphel Norbhu Mipham Tsepon Andruk Namgang 
+		}
+		
+		last_names = { 
+               Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi 
+		}
+	}
+	
+	tilung = { #
+		color = {175 30 55}
+		first_names = { 
+			Tsarong Chamba Trimon Penor Gendün Jamphel Norbhu Mipham Tsepon Andruk Namgang 
+		}
+		
+		last_names = { 
+               Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi 
+		}
+	}
+	
+	dumi = { #
+		color = {170 25 55}
+		first_names = { 
+			Tsarong Chamba Trimon Penor Gendün Jamphel Norbhu Mipham Tsepon Andruk Namgang 
+		}
+		
+		last_names = { 
+               Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi 
+		}
+	}
+	
+	khaling = { #
+		color = {165 20 55}
+		first_names = { 
+			Tsarong Chamba Trimon Penor Gendün Jamphel Norbhu Mipham Tsepon Andruk Namgang 
+		}
+		
+		last_names = { 
+               Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi 
+		}
+	}
+	
+	koi = { #
+		color = {160 15 55}
+		first_names = { 
+			Tsarong Chamba Trimon Penor Gendün Jamphel Norbhu Mipham Tsepon Andruk Namgang 
+		}
+		
+		last_names = { 
+               Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi 
+		}
+	}
+	
+	#Central 
+	chukwa = { #
+		color = {200 60 50}
+		first_names = { 
+			Tsarong Chamba Trimon Penor Gendün Jamphel Norbhu Mipham Tsepon Andruk Namgang 
+		}
+		
+		last_names = { 
+               Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi 
+		}
+	}
+	
+	kulung = { #
+		color = {195 60 45}
+		first_names = { 
+			Tsarong Chamba Trimon Penor Gendün Jamphel Norbhu Mipham Tsepon Andruk Namgang 
+		}
+		
+		last_names = { 
+               Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi 
+		}
+	}
+	
+	nachering = { #
+		color = {190 60 40}
+		first_names = { 
+			Tsarong Chamba Trimon Penor Gendün Jamphel Norbhu Mipham Tsepon Andruk Namgang 
+		}
+		
+		last_names = { 
+               Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi 
+		}
+	}
+	
+	saam = { #also in Sikkim
+		color = {185 60 35}
+		first_names = { 
+			Tsarong Chamba Trimon Penor Gendün Jamphel Norbhu Mipham Tsepon Andruk Namgang 
+		}
+		
+		last_names = { 
+               Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi 
+		}
+	}
+	
+	sampang = { #
+		color = {180 60 30}
+		first_names = { 
+			Tsarong Chamba Trimon Penor Gendün Jamphel Norbhu Mipham Tsepon Andruk Namgang 
+		}
+		
+		last_names = { 
+               Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi 
+		}
+	}
+	
+	bantawa = { #
+		color = {175 60 25}
+		first_names = { 
+			Tsarong Chamba Trimon Penor Gendün Jamphel Norbhu Mipham Tsepon Andruk Namgang 
+		}
+		
+		last_names = { 
+               Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi 
+		}
+	}
+	
+	waling = { #
+		color = {170 60 20}
+		first_names = { 
+			Tsarong Chamba Trimon Penor Gendün Jamphel Norbhu Mipham Tsepon Andruk Namgang 
+		}
+		
+		last_names = { 
+               Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi 
+		}
+	}
+	
+	camling = { #
+		color = {165 60 15}
+		first_names = { 
+			Tsarong Chamba Trimon Penor Gendün Jamphel Norbhu Mipham Tsepon Andruk Namgang 
+		}
+		
+		last_names = { 
+               Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi 
+		}
+	}
+	
+	dungmali = { #
+		color = {160 60 10}
+		first_names = { 
+			Tsarong Chamba Trimon Penor Gendün Jamphel Norbhu Mipham Tsepon Andruk Namgang 
+		}
+		
+		last_names = { 
+               Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi 
+		}
+	}
+	
+	puma = { #
+		color = {155 60 5}
+		first_names = { 
+			Tsarong Chamba Trimon Penor Gendün Jamphel Norbhu Mipham Tsepon Andruk Namgang 
+		}
+		
+		last_names = { 
+               Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi 
+		}
+	}
+	
+	#Eastern
+	athpariya = { #
+		color = {200 55 50}
+		first_names = { 
+			Tsarong Chamba Trimon Penor Gendün Jamphel Norbhu Mipham Tsepon Andruk Namgang 
+		}
+		
+		last_names = { 
+               Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi 
+		}
+	}
+	
+	belhariya = { #
+		color = {195 50 45}
+		first_names = { 
+			Tsarong Chamba Trimon Penor Gendün Jamphel Norbhu Mipham Tsepon Andruk Namgang 
+		}
+		
+		last_names = { 
+               Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi 
+		}
+	}
+	
+	chhulung = { #
+		color = {190 45 40}
+		first_names = { 
+			Tsarong Chamba Trimon Penor Gendün Jamphel Norbhu Mipham Tsepon Andruk Namgang 
+		}
+		
+		last_names = { 
+               Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi 
+		}
+	}
+	
+	chintang = { #
+		color = {185 40 35}
+		first_names = { 
+			Tsarong Chamba Trimon Penor Gendün Jamphel Norbhu Mipham Tsepon Andruk Namgang 
+		}
+		
+		last_names = { 
+               Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi 
+		}
+	}
+	
+	yakkha = { #
+		color = {180 35 30}
+		first_names = { 
+			Tsarong Chamba Trimon Penor Gendün Jamphel Norbhu Mipham Tsepon Andruk Namgang 
+		}
+		
+		last_names = { 
+               Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi 
+		}
+	}
+	
+	lohorung = { #
+		color = {175 30 25}
+		first_names = { 
+			Tsarong Chamba Trimon Penor Gendün Jamphel Norbhu Mipham Tsepon Andruk Namgang 
+		}
+		
+		last_names = { 
+               Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi 
+		}
+	}
+	
+	yamphu = { #
+		color = {170 25 20}
+		first_names = { 
+			Tsarong Chamba Trimon Penor Gendün Jamphel Norbhu Mipham Tsepon Andruk Namgang 
+		}
+		
+		last_names = { 
+               Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi 
+		}
+	}
+	
+	mewahang = { #
+		color = {165 20 15}
+		first_names = { 
+			Tsarong Chamba Trimon Penor Gendün Jamphel Norbhu Mipham Tsepon Andruk Namgang 
+		}
+		
+		last_names = { 
+               Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi 
+		}
+	}
+	
+	#Limbu
+	limbu = { #also in Sikkim
+		color = {215 60 55}
+		first_names = { 
+			Tsarong Chamba Trimon Penor Gendün Jamphel Norbhu Mipham Tsepon Andruk Namgang 
+		}
+		
+		last_names = { 
+               Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi 
+		}
+	}
+	
+	#Lepcha/Rong
+	lepcha = {
+		color = {215 60 125}
+		first_names = { 
+			Tsarong Chamba Trimon Penor Gendün Jamphel Norbhu Mipham Tsepon Andruk Namgang 
+		}
+		
+		last_names = { 
+               Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi 
+		}
+	}
+	
+	#Lhokpu
+	lhokpu = {
+		color = {215 160 65}
+		first_names = { 
+			Tsarong Chamba Trimon Penor Gendün Jamphel Norbhu Mipham Tsepon Andruk Namgang 
+		}
+		
+		last_names = { 
+               Dzasa Wangyal Shatra Lungshar Rinpoche Chöphel Shakabpa Tashi 
+		}
+	}
+}
+
+gongduk_group = {
+	leader = asian
+	is_overseas = no
+	unit = AsianGC
+	gongduk = {
+		color = {255 210 255}
+		first_names = { Sama Sinwa U Zan Hta Duwa Ding Ga Hkyeng
+			
+		}
+		
+		last_names = { Ratang Nawng Sin Lahpai Lahtaw Maran Marip Nhkum
+               
+		}
+	}
+
+}
+
+dhimalish = {
+	leader = asian
+	is_overseas = no
+	unit = AsianGC
+	dhimal = {
+		color = {55 10 255}
+		first_names = { Sama Sinwa U Zan Hta Duwa Ding Ga Hkyeng
+			
+		}
+		
+		last_names = { Ratang Nawng Sin Lahpai Lahtaw Maran Marip Nhkum
+               
+		}
+	}
+	
+	toto = {
+		color = {35 10 235}
+		first_names = { Sama Sinwa U Zan Hta Duwa Ding Ga Hkyeng
+			
+		}
+		
+		last_names = { Ratang Nawng Sin Lahpai Lahtaw Maran Marip Nhkum
+               
+		}
+	}
 }
 
 kamarupan = {
@@ -6259,7 +6946,8 @@ kamarupan = {
                
 		}
 	}
-	boro_garo = {
+	
+	boro = {
 		color = {235 80 55}
 		first_names = { Sama Sinwa U Zan Hta Duwa Ding Ga Hkyeng
 			
@@ -6269,6 +6957,18 @@ kamarupan = {
                
 		}
 	}
+	
+	garo = {
+		color = {235 80 55}
+		first_names = { Sama Sinwa U Zan Hta Duwa Ding Ga Hkyeng
+			
+		}
+		
+		last_names = { Ratang Nawng Sin Lahpai Lahtaw Maran Marip Nhkum
+               
+		}
+	}
+	
     kuki_chin = {
 		color = {205 60 35}
 		first_names = { 
@@ -9640,7 +10340,7 @@ zamucoan_group  = {
 	}
 }
 
-#Isolates or Minor Families
+#Isolates or Minor Families of SA
 #Shucuru-Payacu
 shucuru_payacu_group  = {
 	leader = nativeamerican

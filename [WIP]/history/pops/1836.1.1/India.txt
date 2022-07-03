@@ -14406,74 +14406,134 @@
 #Animist - Lepcha Mun
 1328 = {
 	aristocrats = {
-		culture = dzongkha
+		culture = drenjongke
 		religion = gelugpa
 		size = 50
 	}
 
 	bureaucrats = {
-		culture = dzongkha
+		culture = drenjongke
 		religion = gelugpa
 		size = 20
 	}
 
 	officers = {
-		culture = dzongkha
+		culture = drenjongke
 		religion = gelugpa
 		size = 15
 	}
 
 	clergymen = {
-		culture = dzongkha
+		culture = drenjongke
 		religion = gelugpa
 		size = 20
 	}
 
 	artisans = {
-		culture = dzongkha
+		culture = drenjongke
 		religion = gelugpa
 		size = 100
 	}
 
 	soldiers = {
-		culture = dzongkha
+		culture = drenjongke
 		religion = gelugpa
-		size = 1100
+		size = 100
 	}
 
 	farmers = {
-		culture = dzongkha
+		culture = drenjongke
 		religion = gelugpa
 		size = 695
 	}
 	
+	serfs = {
+		culture = drenjongke
+		religion = gelugpa
+		size = 1000
+	}
+	
 	farmers = {
-		culture = rungic
+		culture = lepcha
+		religion = animist
+		size = 200
+	}
+	
+	serfs = {
+		culture = lepcha
 		religion = animist
 		size = 500
 	}
 	
 	farmers = {
-		culture = rungic
+		culture = lepcha
 		religion = gelugpa
-		size = 1500
+		size = 300
+	}
+	
+	serfs = {
+		culture = lepcha
+		religion = gelugpa
+		size = 1000
 	}
 	
 	farmers = {
 		culture = nepali
 		religion = hindu
-		size = 365
-	}
-	
-	farmers = {
-		culture = nepali
-		religion = hindu
-		size = 1500
+		size = 100
 	}
 	
 	serfs = {
 		culture = nepali
 		religion = hindu
+		size = 150
+	}
+	
+	farmers = {
+		culture = limbu
+		religion = animist
+		size = 100
+	}
+	
+	serfs = {
+		culture = limbu
+		religion = animist
 		size = 300
+	}
+	
+	farmers = {
+		culture = saam
+		religion = animist
+		size = 100
+	}
+	
+	serfs = {
+		culture = saam
+		religion = animist
+		size = 50
+	}
+	
+	farmers = {
+		culture = groma
+		religion = gelugpa
+		size = 100
+	}
+	
+	serfs = {
+		culture = groma
+		religion = gelugpa
+		size = 300
+	}
+	
+	farmers = {
+		culture = u_tsang
+		religion = gelugpa
+		size = 100
+	}
+	
+	serfs = {
+		culture = u_tsang
+		religion = gelugpa
+		size = 500
 	}
 }
