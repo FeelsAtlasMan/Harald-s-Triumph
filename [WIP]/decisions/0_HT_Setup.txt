@@ -1480,6 +1480,9 @@ political_decisions = {
 			MOL_673 = { add_province_modifier = { name = small_baby_boom duration = 2555 } }
 			
 			SER_794 = { add_province_modifier = { name = baby_boom duration = 3650 } }
+			806 = { add_province_modifier = { name = highlander_raids duration = 36500 } }
+			819 = { add_province_modifier = { name = highlander_raids duration = 36500 } }
+			3675 = { add_province_modifier = { name = highlander_raids duration = 36500 } }
 			
 			any_country = { limit = { civilized = no foreign_weapons = yes_foreign_weapons NOT = { has_country_flag = using_foreign_weapons } }
 				set_country_flag = using_foreign_weapons

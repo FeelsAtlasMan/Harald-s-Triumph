@@ -2018,52 +2018,104 @@
 		size = 3300
 	}
 }
-#Tirgu Jiu (172000/43000 POPS)  
-665 = {
+
+#Giurgiu (260000/65000 POPS)  
+3870 = {
 	aristocrats = {
-		culture = romanian
+		culture = bulgarian
 		religion = orthodox
-		size = 750 
+		size = 40 
+	}
+
+	bureaucrats = {
+		culture = bulgarian
+		religion = orthodox
+		size = 30 
 	}
 
 	clergymen = {
-		culture = romanian
+		culture = bulgarian
 		religion = orthodox
-		size = 400 
+		size = 60 
 	}
 
 	artisans = {
-		culture = romanian
+		culture = bulgarian
 		religion = orthodox
-		size = 1000
+		size = 4000
 	}
 
 	soldiers = {
-		culture = romanian
-		religion = orthodox
-		size = 1000
-	}
-
-	farmers = {
-		culture = romanian
-		religion = orthodox
-		size = 50000 
-	}
-	
-	artisans = {
-		culture = pecenak
-		religion = orthodox
-		size = 950
-	}
-
-	soldiers = {
-		culture = pecenak
+		culture = bulgarian
 		religion = orthodox
 		size = 100
 	}
 
 	farmers = {
-		culture = pecenak
+		culture = bulgarian
+		religion = orthodox
+		size = 3650
+	}
+	
+	slaves = {
+		culture = gypsy
+		religion = orthodox
+		size = 1500
+	}
+}
+
+#Severin
+665 = {
+	aristocrats = {
+		culture = romanian
+		religion = orthodox
+		size = 550 
+	}
+	
+	bureaucrats = {
+		culture = romanian
+		religion = orthodox
+		size = 100 
+	}
+
+	clergymen = {
+		culture = romanian
+		religion = orthodox
+		size = 300 
+	}
+
+	artisans = {
+		culture = romanian
+		religion = orthodox
+		size = 1000
+	}
+
+	soldiers = {
+		culture = romanian
+		religion = orthodox
+		size = 1000
+	}
+
+	farmers = {
+		culture = romanian
+		religion = orthodox
+		size = 20000 
+	}
+	
+	artisans = {
+		culture = bulgarian
+		religion = orthodox
+		size = 950
+	}
+
+	soldiers = {
+		culture = bulgarian
+		religion = orthodox
+		size = 100
+	}
+
+	farmers = {
+		culture = bulgarian
 		religion = orthodox
 		size = 3000 
 	}
@@ -2089,21 +2141,196 @@
 	farmers = {
 		culture = siebenburger
 		religion = catholic
-		size = 5850 
+		size = 850 
 	}
 	
-	artisans = {
+	farmers = {
 		culture = shtokavian
 		religion = orthodox
-		size = 10212 
+		size = 1212 
 	}
 	
 	slaves = {
 		culture = gypsy
 		religion = orthodox
-		size = 4000
+		size = 1000
 	}
 }
+
+#Tirgu Jiu  
+3868 = {
+	aristocrats = {
+		culture = romanian
+		religion = orthodox
+		size = 150 
+	}
+	
+	clergymen = {
+		culture = romanian
+		religion = orthodox
+		size = 200 
+	}
+
+	artisans = {
+		culture = romanian
+		religion = orthodox
+		size = 300
+	}
+
+	soldiers = {
+		culture = romanian
+		religion = orthodox
+		size = 1000
+	}
+
+	farmers = {
+		culture = romanian
+		religion = orthodox
+		size = 15000 
+	}
+	
+	artisans = {
+		culture = bulgarian
+		religion = orthodox
+		size = 950
+	}
+
+	soldiers = {
+		culture = bulgarian
+		religion = orthodox
+		size = 100
+	}
+
+	farmers = {
+		culture = bulgarian
+		religion = orthodox
+		size = 6000 
+	}
+
+	clergymen = {
+		culture = siebenburger
+		religion = catholic
+		size = 20 
+	}
+
+	artisans = {
+		culture = siebenburger
+		religion = catholic
+		size = 105
+	}
+
+	soldiers = {
+		culture = siebenburger
+		religion = catholic
+		size = 110
+	}
+
+	farmers = {
+		culture = siebenburger
+		religion = catholic
+		size = 1250 
+	}
+
+	slaves = {
+		culture = gypsy
+		religion = orthodox
+		size = 2000
+	}
+}
+
+#Tirgu Jiu  
+3869 = {
+	aristocrats = {
+		culture = romanian
+		religion = orthodox
+		size = 150 
+	}
+	
+	clergymen = {
+		culture = romanian
+		religion = orthodox
+		size = 200 
+	}
+
+	artisans = {
+		culture = romanian
+		religion = orthodox
+		size = 300
+	}
+
+	soldiers = {
+		culture = romanian
+		religion = orthodox
+		size = 1000
+	}
+
+	farmers = {
+		culture = romanian
+		religion = orthodox
+		size = 10000 
+	}
+	
+	aristocrats = {
+		culture = bulgarian
+		religion = orthodox
+		size = 150 
+	}
+	
+	clergymen = {
+		culture = bulgarian
+		religion = orthodox
+		size = 200 
+	}
+	
+	artisans = {
+		culture = bulgarian
+		religion = orthodox
+		size = 950
+	}
+
+	soldiers = {
+		culture = bulgarian
+		religion = orthodox
+		size = 1100
+	}
+
+	farmers = {
+		culture = bulgarian
+		religion = orthodox
+		size = 13000 
+	}
+
+	clergymen = {
+		culture = hungarian
+		religion = catholic
+		size = 20 
+	}
+
+	artisans = {
+		culture = hungarian
+		religion = catholic
+		size = 105
+	}
+
+	soldiers = {
+		culture = hungarian
+		religion = catholic
+		size = 110
+	}
+
+	farmers = {
+		culture = hungarian
+		religion = catholic
+		size = 1250 
+	}
+
+	slaves = {
+		culture = gypsy
+		religion = orthodox
+		size = 2000
+	}
+}
+
 #Craiova (196000/49000 POPS)  
 666 = {
 	aristocrats = {
@@ -2171,7 +2398,7 @@
 	aristocrats = {
 		culture = bulgarian
 		religion = orthodox
-		size = 750 
+		size = 350 
 	}
 
 	clergymen = {
@@ -2195,7 +2422,7 @@
 	farmers = {
 		culture = bulgarian
 		religion = orthodox
-		size = 44000
+		size = 20000
 	}
 	
 	artisans = {
@@ -2213,13 +2440,7 @@
 	farmers = {
 		culture = romanian
 		religion = orthodox
-		size = 8025
-	}
-
-	farmers = {
-		culture = shtokavian
-		religion = orthodox
-		size = 1500 
+		size = 18025
 	}	
 	
 	slaves = {
@@ -2228,6 +2449,7 @@
 		size = 7000
 	}
 }
+
 #Braila (272000/68000 POPS)  
 668 = {
 	aristocrats = {
