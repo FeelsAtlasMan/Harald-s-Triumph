@@ -257,7 +257,7 @@ political_decisions = {
 	    #picture = ever_victorious
 		potential = {
 		    tag = PNB
-			has_country_flag = new_era_for_humr 
+			owns = 2446
 			has_country_flag = inner_cerrado_pacified
 			NOT = { capital = 2446 }
 		}
