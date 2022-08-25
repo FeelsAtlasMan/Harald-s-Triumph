@@ -321,7 +321,7 @@ country_event = {
 country_event = {
         id = 690012
         title = "$FROMCOUNTRY$ agreed to take part in the Conference"
-        desc = "EVTDESC690011"
+        desc = "EVTDESC690012"
 		picture = "banquet"
         
         is_triggered_only = yes
@@ -336,7 +336,7 @@ country_event = {
 country_event = {
         id = 690013
         title = "$FROMCOUNTRY$ rejected to take part in the Conference"
-        desc = "EVTDESC690011"
+        desc = "EVTDESC690013"
 		picture = "banquet"
         
         is_triggered_only = yes
