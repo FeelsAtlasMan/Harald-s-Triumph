@@ -1,0 +1,252 @@
+#French Antilles (319200)
+#Ruled by France 1836
+#Martinique (190800/27450 POPS)
+2228 = {
+	aristocrats = {
+		culture = french
+		religion = catholic
+		size = 750
+	}
+
+	bureaucrats = {
+		culture = french
+		religion = catholic
+		size = 100
+	}
+
+	clergymen = {
+		culture = french
+		religion = catholic
+		size = 50
+	}
+
+	artisans = {
+		culture = french
+		religion = catholic
+		size = 900
+	}
+
+	soldiers = {
+		culture = french
+		religion = catholic
+		size = 250
+	}
+
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 400
+	}
+
+	clergymen = {
+		culture = ineri
+		religion = catholic
+		size = 125
+	}
+
+	artisans = {
+		culture = ineri
+		religion = catholic
+		size = 1250
+	}
+
+	soldiers = {
+		culture = ineri
+		religion = catholic
+		size = 250
+	}
+
+	farmers = {
+		culture = ineri
+		religion = catholic
+		size = 3400
+	}
+	
+	slaves = {
+		culture = ineri
+		religion = catholic
+		size = 2000
+	}
+
+	slaves = {
+		culture = kreol
+		religion = catholic
+		size = 18000
+	}
+}
+#Guadeloupe (128400/32100 POPS)
+2230 = {
+	aristocrats = {
+		culture = french
+		religion = catholic
+		size = 850
+	}
+
+	clergymen = {
+		culture = french
+		religion = catholic
+		size = 50
+	}
+
+	artisans = {
+		culture = french
+		religion = catholic
+		size = 1300
+	}
+
+	soldiers = {
+		culture = french
+		religion = catholic
+		size = 300
+	}
+
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 600
+	}
+
+	clergymen = {
+		culture = ineri
+		religion = catholic
+		size = 150
+	}
+
+	artisans = {
+		culture = ineri
+		religion = catholic
+		size = 1500
+	}
+
+	soldiers = {
+		culture = ineri
+		religion = catholic
+		size = 300
+	}
+
+	farmers = {
+		culture = ineri
+		religion = catholic
+		size = 3050
+	}
+	
+	slaves = {
+		culture = ineri
+		religion = catholic
+		size = 4000
+	}
+
+	slaves = {
+		culture = kreol
+		religion = catholic
+		size = 20000
+	}
+
+}
+
+#Marigot - Former Baffin Island (4000/1000 POPS)
+45 = {
+	
+	aristocrats = {
+		culture = maghrebi
+		religion = sunni
+		size = 100
+	}
+	
+	clergymen = {
+		culture = maghrebi
+		religion = sunni
+		size = 225
+	}
+
+	artisans = {
+		culture = maghrebi
+		religion = sunni
+		size = 6055
+	}
+	
+	farmers = {
+		culture = maghrebi
+		religion = sunni
+		size = 40500
+	}
+	
+	clergymen = {
+		culture = north_german
+		religion = protestant
+		size = 175
+	}
+
+	artisans = {
+		culture = north_german
+		religion = protestant
+		size = 655
+	}
+	
+	farmers = {
+		culture = north_german
+		religion = protestant
+		size = 4500
+	}
+	
+	clergymen = {
+		culture = french
+		religion = catholic
+		size = 125
+	}
+
+	artisans = {
+		culture = french
+		religion = catholic
+		size = 1055
+	}
+	
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 10500
+	}
+	
+	clergymen = {
+		culture = taino
+		religion = sunni
+		size = 25
+	}
+
+	artisans = {
+		culture = taino
+		religion = sunni
+		size = 655
+	}
+	
+	farmers = {
+		culture = taino
+		religion = sunni
+		size = 15200
+	}
+	
+	artisans = {
+		culture = kreol
+		religion = sunni
+		size = 550
+	}
+
+	farmers = {
+		culture = kreol
+		religion = sunni
+		size = 12000
+	}
+	
+	artisans = {
+		culture = macoris
+		religion = sunni
+		size = 355
+	}
+	
+	farmers = {
+		culture = macoris
+		religion = sunni
+		size = 6500
+	}
+
+}

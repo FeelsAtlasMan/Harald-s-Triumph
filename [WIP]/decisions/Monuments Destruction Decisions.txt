@@ -9,7 +9,7 @@ political_decisions = {
 			}
 			is_greater_power = yes
 			425 = {
-				has_province_modifier = the_eiffel_tower
+				#has_province_modifier = the_eiffel_tower
 				controlled_by = THIS
 				owner = { war_with = THIS }
 			}
@@ -102,7 +102,7 @@ political_decisions = {
 			set_global_flag = bigben_destroyed 
 			badboy = 15
 			prestige = -5
-			300 = { owner = { country_event = 152009875 } clr_province_flag = big_ben_built }
+			300 = { owner = { country_event = 152009875 } }
 		}
 		ai_will_do = { factor = 0 }
 	}

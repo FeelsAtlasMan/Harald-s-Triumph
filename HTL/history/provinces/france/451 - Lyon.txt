@@ -1,0 +1,12 @@
+owner = BRG
+controller = BRG
+add_core = BRG
+trade_goods = iron
+life_rating = 40
+terrain = lyon
+railroad = 1
+state_building = {
+	level = 1
+	building = winery
+	upgrade = yes
+}

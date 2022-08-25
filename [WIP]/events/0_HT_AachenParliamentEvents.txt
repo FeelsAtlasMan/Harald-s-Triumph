@@ -114,20 +114,19 @@ country_event = {
 	option = {
 		name = "EVTOPTB666004"
 		prestige = 10
-		bad_boy = 4
+		badboy = 4
 		set_country_flag = swabia_continues
 		any_greater_power = {
 				limit = {
 				tag = SAX
 				}
-	    war = {
-	        target = THIS
-	        attacker_goal = { casus_belli = liberate_country  country = BRG}
-	        defender_goal = { casus_belli = status_quo }
-	        call_ally = no
+			war = {
+				target = THIS
+				attacker_goal = { casus_belli = liberate_country  country = BRG}
+				defender_goal = { casus_belli = status_quo }
+				call_ally = no
             }
+		}
 		ai_chance = { factor = 20 }
 	}
-	
-   }
 }	

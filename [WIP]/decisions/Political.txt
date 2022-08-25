@@ -376,7 +376,7 @@ political_decisions = {
 			add_tax_relative_income = -0.1
 			plurality = -50
 			set_country_flag = preparations_to_kill
-			random_owned = { limit = { owner = { has_country_modifier = signed_the_geneva_convention  } } owner = { badboy = 3 } }
+			#random_owned = { limit = { owner = { has_country_modifier = signed_the_geneva_convention  } } owner = { badboy = 3 } }
 			any_owned = { limit = { has_province_modifier = national_assimilation } owner = { country_event = 2611 } }
 			random_list = {
 				33 = { add_country_modifier = { name = preparations_to_kill duration = 365 } }
@@ -929,7 +929,7 @@ political_decisions = {
 		
 		allow = {
 			war = no
-			has_country_modifier = signed_the_geneva_convention
+			#has_country_modifier = signed_the_geneva_convention
 			invention = mission_to_civilize
 			NOT = { citizenship_policy = residency }
 			NOT = { ruling_party_ideology = reactionary }
@@ -978,7 +978,7 @@ political_decisions = {
 				AND = { tag = NET owns = 375 NOT = { capital = 375 } }
 				AND = { tag = POL owns = 706 NOT = { capital = 706 } }
 				AND = { tag = BUL owns = 809 NOT = { capital = 809 } }
-				AND = { tag = HUN owns = 641 NOT = { capital = 641 } }
+				#AND = { tag = HUN owns = 641 NOT = { capital = 641 } }
 				AND = { tag = NYE owns = 1178 NOT = { capital = 1178 } }
 				AND = { tag = YEM owns = 1178 NOT = { capital = 1178 } }
 				AND = { tag = LIT owns = 360 NOT = { capital = 360 } }
@@ -994,7 +994,6 @@ political_decisions = {
 				AND = { tag = LXA owns = 1357 NOT = { capital = 1357 } }
 				AND = { tag = CNG owns = 1983 NOT = { capital = 1983 } NOT = { has_global_flag = congo_renamed } }
 				AND = { tag = KAM owns = 1082 NOT = { capital = 1082 } }
-				AND = { tag = UKR owns = 958 NOT = { capital = 958 } }
 				AND = { tag = CUB owns = 2209 NOT = { capital = 2209 } }
 				AND = { tag = GRE owns = 860 NOT = { capital = 860 } state_n_government = 1 prestige = 40 860 = { is_core = THIS } }
 				AND = { tag = PHL owns = 1455 NOT = { capital = 1455 } }
@@ -1049,7 +1048,7 @@ political_decisions = {
 				owner = { capital = 860 860 = { any_pop = { limit = { has_pop_religion = orthodox } militancy = -2 } } }
 			}
 			random_owned = { limit = { owner = { tag = CUB } } owner = { capital = 2209 } }
-			random_owned = { limit = { owner = { tag = UKR } } owner = { capital = 958 } }
+			#random_owned = { limit = { owner = { tag = UKR } } owner = { capital = 958 } }
 			random_owned = { limit = { owner = { tag = KAM } } owner = { capital = 1082 } }
 			random_owned = { limit = { owner = { tag = CNG } } owner = { capital = 1983 } }
 			random_owned = { limit = { owner = { tag = LXA } } owner = { capital = 1357 } }
@@ -1264,7 +1263,7 @@ political_decisions = {
 					NOT = { TUR = { has_country_flag = southern_macedonia_exchange } }
 				}
 				AND = {
-					NOT = { TUR_823 = { NOT = { owned_by = THIS } } }
+					#NOT = { TUR_823 = { NOT = { owned_by = THIS } } }
 					NOT = { EGY_843 = { NOT = { owned_by = THIS } } }
 					has_country_flag = southern_macedonia_exchange
 					has_country_flag = thessalia_exchange
@@ -1622,19 +1621,19 @@ political_decisions = {
 						}
 					}
 				}
-			random_country = {
-				limit = {
-					tag = TUR
-					NOT = { has_country_flag = eastern_macedonia_exchange }
-					owns = 828
-					owns = 859
-					owns = 858
-					owns = 860
-					owns = 861
-				}
-				set_country_flag = eastern_macedonia_exchange
-				country_event = { id = 986510 days = 5 }
-			}
+			#random_country = {
+			#	limit = {
+			#		tag = TUR
+			#		NOT = { has_country_flag = eastern_macedonia_exchange }
+			#		owns = 828
+			#		owns = 859
+			#		owns = 858
+			#		owns = 860
+			#		owns = 861
+			#	}
+			#	set_country_flag = eastern_macedonia_exchange
+			#	country_event = { id = 986510 days = 5 }
+			#}
 		}
 		
 		random_owned = {

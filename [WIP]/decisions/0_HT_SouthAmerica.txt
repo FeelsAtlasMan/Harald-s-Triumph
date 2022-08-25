@@ -61,7 +61,9 @@ political_decisions = {
 		    BRZ = { all_core = { remove_core = BRZ } }
 			BAH = { all_core = { add_core = THIS } }
 		    BAH = { all_core = { remove_core = BAH } }
-			militancy = -8
+			any_pop = {
+				militancy = -8
+			}
 			war_exhaustion = -100
 			economic_reform = yes_land_reform
 			economic_reform = yes_admin_reform
@@ -76,6 +78,7 @@ political_decisions = {
 		potential = {
 		    tag = PNB
 			has_country_flag = new_era_for_humr 
+			TPB = { exists = yes }
 			NOT = { has_country_flag = pacified_the_cerrado }
 		}
 		
@@ -86,7 +89,12 @@ political_decisions = {
 		
 		effect = {
 			TPB = { all_core = { add_core = THIS } }
-			 war = {
+            casus_belli = {
+                target = TPB
+                type = conquest
+                months = 60
+            }			
+			war = {
 	            target = TPB
 	            attacker_goal = { casus_belli = conquest }
 	            defender_goal = { casus_belli = status_quo }
@@ -227,7 +235,7 @@ political_decisions = {
 		allow = {
 			OR = {
 			   civilized = yes
-			   military_reform = yes_military_constructions
+			   #military_reform = yes_military_constructions
 			}
 			war = no
 		}
@@ -249,7 +257,7 @@ political_decisions = {
 	    #picture = ever_victorious
 		potential = {
 		    tag = PNB
-			has_country_flag = new_era_for_humr 
+			owns = 2446
 			has_country_flag = inner_cerrado_pacified
 			NOT = { capital = 2446 }
 		}
@@ -448,7 +456,7 @@ political_decisions = {
 		effect = {
 			2417 = { add_core = INC }
 			3480 = { add_core = INC }
-			2407 = { add_core = INC }
+			2407 = { add_core = INC secede_province = THIS }
 			2401 = { add_core = INC }
 			2263 = { add_core = INC }
 			2235 = { add_core = INC }
@@ -456,7 +464,6 @@ political_decisions = {
 			2549 = { add_core = INC }
 			2404 = { add_core = INC }
 			2405 = { add_core = INC }
-			secede_province = 2407
 			set_country_flag = inca_amassuna_claims_proc
 		}
 		ai_will_do = { factor = 1 }

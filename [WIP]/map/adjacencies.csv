@@ -174,31 +174,61 @@ From;To;Type;Through;Data;Comment
 1226;1594;impassable;0;0;scary mountain
 1210;1594;impassable;0;0;scary mountain
 1208;1594;impassable;0;0;scary mountain
-1226;1598;impassable;0;0;scary mountain
-1226;1591;impassable;0;0;scary mountain
 
 #Alps
-
-#727;735;impassable;0;0;Bergamo-Bozen
-#727;734;impassable;0;0;Bergamo-Trent
-#732;735;impassable;0;0;Treviso-Bozen
-#732;615;impassable;0;0;Treviso-Lienz
-#732;618;impassable;0;0;Treviso-Klagenfurth
-#733;618;impassable;0;0;Udine-Klagenfurt
 2669;735;impassable;0;0;Sondrio-Bozen
 2669;734;impassable;0;0;Sondrio-Trent
-2669;611;impassable;0;0;Sondrio-Chur
-2669;2568;impassable;0;0;Sondrio-Lugano
+2669;727;impassable;0;0;Sondrio-Bergamo
+611;2568;impassable;0;0;Chur-Lugano
+611;727;impassable;0;0;Chur-Bergamo
 3262;734;impassable;0;0;Belluno-Trent
 3262;735;impassable;0;0;Belluno-Bozen
 3262;615;impassable;0;0;Belluno-Lienz
 3262;618;impassable;0;0;Belluno-Klagenfurt
-#727;611;impassable;0;0;Bergamo-Chur
-#727;2568;impassable;0;0;Bergamo-Lugano
 722;605;impassable;0;0;Novara-Bern
 2568;722;impassable;0;0;Lugano-Novara
 609;722;impassable;0;0;Sitten-Novara
 606;722;impassable;0;0;Lucerne-Novara
+
+#Carpathian Mauntains
+636;704;impassable;0;0;Banska Bystrica-Nowy Sad
+636;2584;impassable;0;0;Banska Bystrica-Bielsko
+638;705;impassable;0;0;Presov-Przemysl
+3278;3332;impassable;0;0;Jaroslaw-Chust
+953;3332;impassable;0;0;Halyc-Chust
+705;3332;impassable;0;0;Przemysl-Chust
+953;3333;impassable;0;0;Halyc-Maramos
+662;3333;impassable;0;0;Cernauti-Maramos
+672;660;impassable;0;0;Bacau-Maramos
+659;668;impassable;0;0;Brasso-Braila
+659;667;impassable;0;0;Brasso-Tirgoviste
+665;656;impassable;0;0;Tirgo Jiu-Deva
+665;653;impassable;0;0;Tirgo Jiu-Resicabanya
+
+#Balkans
+789;3299;impassable;0;0;Livno-Trevnik
+788;783;impassable;0;0;Mostar-Sarajevo
+788;787;impassable;0;0;Mostar-Foca
+2569;787;impassable;0;0;Niksic-Foca
+2583;2577;impassable;0;0;Cetinje-Pljevlja
+
+850;807;impassable;0;0;Orosh-Strpce
+
+3677;812;impassable;0;0;Plovdiv-Pleven
+816;812;impassable;0;0;Stara Zagora-Pleven
+816;813;impassable;0;0;Stara Zagora-Shumen
+
+808;809;impassable;0;0;Kavala-Plodiv
+808;3677;impassable;0;0;Kavala-Plodiv
+823;3677;impassable;0;0;Kavala-Plodiv
+823;815;impassable;0;0;Kavala-Kardzhali
+
+853;820;impassable;0;0;Gjirokaster-Grebena
+824;820;impassable;0;0;Janina-Grebena
+825;820;impassable;0;0;Arta-Grebena
+825;833;impassable;0;0;Arta-Trikkala
+837;833;impassable;0;0;Missolonghi-Trikkala
+837;836;impassable;0;0;Missolonghi-Lamia
 
 #Caucasus
 #Caucasus Major
@@ -210,11 +240,14 @@ From;To;Type;Through;Data;Comment
 1095;3349;impassable;0;0;Sukhumi-Ashuwa
 1095;3397;impassable;0;0;Sukhumi-Elbrus
 
+1092;1056;impassable;0;0;Kutaisi-Pyatigorsk
+
 3364;3318;impassable;0;0;Mtsekhi-Nasran
 3364;1055;impassable;0;0;Mtsekhi-Sölsha Gala
 
 3363;1053;impassable;0;0;Kakheti-Gunib
-3364;1055;impassable;0;0;Kakheti-Sölsha Gala
+3363;3315;impassable;0;0;Kakheti-Aghwali
+3363;1055;impassable;0;0;Kakheti-Sölsha Gala
 
 3366;1053;impassable;0;0;Ilisu-Gunib
 
@@ -239,14 +272,34 @@ From;To;Type;Through;Data;Comment
 3369;3367;impassable;0;0;Ashtarak-Qazakh
 3369;1105;impassable;0;0;Ashtarak-Ganjeh
 
-1110;3368;impassable;0;0;Kapan-Shusha
+1100;3368;impassable;0;0;Kapan-Shusha
 
-#Iranian Mountain Ranges
+
+#Anatolia
+3377;882;impassable;0;0;Bayburt-Trebizond
+3377;3371;impassable;0;0;Bayburt-Rizini
+1093;1090;impassable;0;0;Akhaltsikhe-Tblisi
+
+876;880;impassable;0;0;Ankara-Kastamonu
+876;881;impassable;0;0;Ankara-Bolu
+
+895;3658;impassable;0;0;Mersin-Karaman
+895;3337;impassable;0;0;Mersin-Aksaray
+3339;3337;impassable;0;0;Quzan-Aksaray
+3339;878;impassable;0;0;Quzan-Kayseri
+3339;3417;impassable;0;0;Quzan-Elbestan
+
+
+#Iranian Plateau
 #Zagros
 890;3651;impassable;0;0;Van-Maku
 
 892;1109;impassable;0;0;Bay-Khvoy
 892;3652;impassable;0;0;Bay-Salamis
+
+924;3652;impassable;0;0;Amedi-Salamis
+
+928;3652;impassable;0;0;Soran-Salamis
 
 3629;1118;impassable;0;0;Sulaymaniyeh-Sanandaj
 3629;1117;impassable;0;0;Sulaymaniyeh-Saqqez
@@ -258,6 +311,9 @@ From;To;Type;Through;Data;Comment
 
 1134;3634;impassable;0;0;Dehkord-Shushtar
 1134;3388;impassable;0;0;Dehkord-Behbanan
+
+1122;1120;impassable;0;0;Hamadan-Khorramabad
+1122;1117;impassable;0;0;Hamadan-Sanandaj
 
 #Albruz
 1107;1112;impassable;0;0;Lankara-Ardabil
@@ -272,8 +328,99 @@ From;To;Type;Through;Data;Comment
 1115;3611;impassable;0;0;Amol-Semnan
 1115;1126;impassable;0;0;Amol-Damghan
 
-#Alaskan Panhandle
+#Central Iranian Range
+3391;3389;impassable;0;0;Lar-Jahrom
+3391;1139;impassable;0;0;Lar-Sirjan
 
+1139;3635;impassable;0;0;Sirjan-Darab
+1139;3390;impassable;0;0;Sirjan-Abadeh
+
+#Suleyman and Hindukush
+1221;3340;impassable;0;0;Kalat-Sibi
+1221;1289;impassable;0;0;Kalat-Shikarpur 
+3839;1228;impassable;0;0;Loralai-Shikarpur
+3839;3838;impassable;0;0;Loralai-Muzaffargarh
+3839;1221;impassable;0;0;Loralai-Kalat
+3840;3838;impassable;0;0;Zhob-Muzaffargarh
+1222;1289;impassable;0;0;Bela-Sukkur
+1217;1218;impassable;0;0;Ghazni-Peshawar
+3840;3393;impassable;0;0;Zhob-Dera
+
+1216;2591;impassable;0;0;Jalalabad-Qonduz
+1216;1210;impassable;0;0;Jalalabad-Faizabad
+3624;1210;impassable;0;0;Nuristan-Faizabad
+3624;3394;impassable;0;0;Nuristan-Kohistan
+1223;1210;impassable;0;0;Chitral-Faizabad
+1223;3625;impassable;0;0;Chitral-Wakhan
+1223;3623;impassable;0;0;Chitral-Gilgit
+3395;3625;impassable;0;0;Karimabad-Wakhan
+1226;3313;impassable;0;0;Leh-Yarkant
+1226;3622;impassable;0;0;Leh-Sarikol
+
+#Pamir
+1207;3619;impassable;0;0;Kulob-Gharm
+1210;3619;impassable;0;0;Faizabad-Gharm
+3618;3620;impassable;0;0;Ayni-Uroteppa
+3619;3620;impassable;0;0;Gharm-Uroteppa
+3619;1203;impassable;0;0;Gharm-Osh
+3621;1203;impassable;0;0;Murghab-Osh
+3621;1594;impassable;0;0;Murghab-Kashgar
+
+#India
+#Western Ghats
+1318;1310;impassable;0;0;Cochin-Madurai
+1318;1311;impassable;0;0;Cochin-Coimbatore
+3772;1314;impassable;0;0;Palakkad-Nilgiri
+1317;1314;impassable;0;0;Kolizhode-Nilgiri
+3810;1302;impassable;0;0;Ratnagiri-Belgaum
+1297;1301;impassable;0;0;Raigad-Kolhapur
+3861;1298;impassable;0;0;Navsari-Nasik
+
+#Eastern Ghats
+3263;3794;impassable;0;0;Srikakulam-Bhawanipatna
+3263;3792;impassable;0;0;Srikakulam-Jaypur
+
+#Gondwana
+1277;1276;impassable;0;0;Nagpur-Hoshangabad
+1277;1278;impassable;0;0;Nagpur-Amarati
+1275;1274;impassable;0;0;Jubbalpur-Rewa
+
+#Aravalli-Range
+1269;3402;impassable;0;0;Udaipur-Mandsaur
+
+#Himalayas
+1224;1226;impassable;0;0;Srinagar-Leh
+1235;1226;impassable;0;0;Shimla-Leh
+1226;1598;impassable;0;0;Leh-Khotan
+1226;3765;impassable;0;0;Leh-Aksai Chin
+3833;1226;impassable;0;0;Chamba-Leh
+1238;3831;impassable;0;0;Dehra Dun-Zhongba
+3859;3831;impassable;0;0;Kumaroan-Zhongba
+3853;3831;impassable;0;0;Doti-Zhongba
+1327;3831;impassable;0;0;Jumla-Zhongba
+3855;1589;impassable;0;0;Pokhara-Shigatse
+3856;1589;impassable;0;0;Dolakha-Shigatse
+3858;1589;impassable;0;0;Biratnagar-Shigatse
+
+#Rakhine Mountains
+3745;1339;impassable;0;0;Hakha-Monywa
+3745;1337;impassable;0;0;Hakha-Prome
+3745;1336;impassable;0;0;Hakha-Magwe
+3745;1335;impassable;0;0;Hakha-Sittwe
+
+
+#Tien Shan
+3615;1189;impassable;0;0;Namagan-Bishkek
+1203;1190;impassable;0;0;Osh-Naryn
+1594;1190;impassable;0;0;Kashgar-Naryn
+1597;1190;impassable;0;0;Aksu-Naryn
+1597;1186;impassable;0;0;Aksu-Zhetysu
+1597;1595;impassable;0;0;Aksu-Ili
+1597;3664;impassable;0;0;Aksu-Kyzylsu
+3312;1595;impassable;0;0;Qarashehir-Ili
+
+
+#Alaskan Panhandle
 2;6;impassable;0;0;
 2;17;impassable;0;0;
 1;15;impassable;0;0;
@@ -281,7 +428,6 @@ From;To;Type;Through;Data;Comment
 1;17;impassable;0;0;
 
 #Siberia
-
 2687;2682;impassable;0;0;Northern urals
 2689;2682;impassable;0;0;Northern urals
 2689;1062;impassable;0;0;Northern urals
@@ -297,58 +443,11 @@ From;To;Type;Through;Data;Comment
 2655;2651;impassable;0;0;Yenisei-Yakut
 2675;2651;impassable;0;0;Yenisei-Yakut
 
-#Sulaiman-Hindukush
-
-1221;1289;impassable;0;0;Southern Sulaiman 
-1221;3340;impassable;0;0;Southern Sulaiman
-1222;1289;impassable;0;0;Southern Sulaiman
-1219;1218;impassable;0;0;Northern Sulaiman
-1219;1289;impassable;0;0;Northern Sulaiman
-1219;1228;impassable;0;0;Northern Sulaiman
-1217;1218;impassable;0;0;Northern Sulaiman
-1217;3393;impassable;0;0;Northern Sulaiman
-1216;2591;impassable;0;0;Hindukush
-1216;1210;impassable;0;0;Hindukush
-1223;1210;impassable;0;0;Hindukush
-1223;1208;impassable;0;0;Hindukush
-1225;1208;impassable;0;0;Hindukush
-1225;3313;impassable;0;0;Hindukush
-
-#Tien Shan
-
-1203;1189;impassable;0;0;Osh-Bishkek
-1203;1190;impassable;0;0;Osh-Naryn
-1202;1189;impassable;0;0;Kokand-Bishkek
-1195;1189;impassable;0;0;Tashkent-Bishkek
-1594;1190;impassable;0;0;Kashgar-Naryn
-1597;1190;impassable;0;0;Aksu-Naryn
-1597;1186;impassable;0;0;Aksu-Zhetysu
-1597;1595;impassable;0;0;Aksu-Ili
-3312;1595;impassable;0;0;Qarashehir-Ili
-1219;1228;impassable;0;0;Northern Sulaiman
-1217;1218;impassable;0;0;Northern Sulaiman
-1217;3393;impassable;0;0;Northern Sulaiman
-1216;2591;impassable;0;0;Hindukush
-1216;1210;impassable;0;0;Hindukush
-1223;1210;impassable;0;0;Hindukush
-1223;1208;impassable;0;0;Hindukush
-1225;1208;impassable;0;0;Hindukush
-1225;3313;impassable;0;0;Hindukush
-
-#Carpathian Mauntains
-638;705;impassable;0;0;Hindukush
-638;705;impassable;0;0;Hindukush
-3278;3332;impassable;0;0;Hindukush
-953;3332;impassable;0;0;Hindukush
-705;3332;impassable;0;0;Hindukush
-953;3333;impassable;0;0;Hindukush
-662;3333;impassable;0;0;Hindukush
-
 #Pyrennes
 496;460;impassable;0;0;Hindukush
+493;460;impassable;0;0;Hindukush
 496;457;impassable;0;0;Hindukush
 500;457;impassable;0;0;Hindukush
-463;3252;impassable;0;0;Hindukush
 #
 # The canals
 #
@@ -358,6 +457,11 @@ From;To;Type;Through;Data;Comment
 2773;2774;canal;860;4;Bosphorus Strait
 2772;2773;canal;859;5;Dardanelles Strait
 2715;2716;canal;3361;7;White Sea Canal
+#517;2590;canal;2746;8;Strait of Gibraltar
 #2724;2723;canal;301;6;English Channel
+3372;3373;canal;1039;9;Don Volga Portage
+3607;3115;canal;163;8;Shikaakwa Canal
+3113;3114;canal;54;6;Aamjiwnaang Canal
+3112;3113;canal;55;10;Tinawatwa Canal
 
 -1;-1;;-1;-1;

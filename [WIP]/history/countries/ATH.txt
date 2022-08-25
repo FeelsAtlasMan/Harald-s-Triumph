@@ -4,11 +4,13 @@
 
 capital = 834
 primary_culture = greek
+culture = arvanitika
 religion = orthodox
-government = absolute_monarchy
+government = colonial_company
 plurality = 10
 nationalvalue = nv_liberty
-literacy = "0.5"
+literacy = 0.14
+non_state_culture_literacy = 0.14
 civilized = yes 
 prestige = 1
 schools = traditional_academic

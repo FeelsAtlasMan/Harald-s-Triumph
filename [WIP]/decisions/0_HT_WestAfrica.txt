@@ -68,7 +68,7 @@ political_decisions = {
 		#picture = become_toucouleur
 		potential = {
 			tag = SGH
-			NOT = { set_country_flag = reestablished_songhai }
+			NOT = { has_country_flag = reestablished_songhai }
 		}
 
 		allow = {
@@ -85,7 +85,7 @@ political_decisions = {
 			prestige = 50
 			FRA_1798 = { add_core = THIS }
 			FRA_1801 = { add_core = THIS }
-			FRA_1788 = { add_core = THIS }
+			#FRA_1788 = { add_core = THIS }
 			FRA_1803 = { add_core = THIS }
 			1807 = { add_core = THIS }
 			1881 = { add_core = THIS }
@@ -552,7 +552,7 @@ political_decisions = {
 		}
 
 		effect = {
-			country_event = sus
+			country_event = 4040404
 			set_country_flag = became_the_sus_imposter
 		}
 

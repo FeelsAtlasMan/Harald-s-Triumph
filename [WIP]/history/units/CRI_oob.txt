@@ -1,15 +1,15 @@
 #Relations
 
-UKR = { 
+DON = { 
 	value = -150
 	truce_until = "1838.1.12"
 }
 
-RYA = { 
+UMN = { 
 	value = -150
 }
 
-AKH = { 
+YDN = { 
 	value = 50
 }
 
@@ -64,188 +64,56 @@ leader = {
 }
 
 army = {
-	name = "Dniester Tribes"
-	location = 969
+	name = "1. Army"
+	location = 973
 	regiment = {
 		name= "Cavalry"
 		type = cavalry
-		home = 676
+		home = 965
 	}
 	regiment = {
 		name= "Cavalry"
 		type = cavalry
-		home = 969
+		home = 973
 	}
 	regiment = {
 		name= "Cavalry"
 		type = cavalry
-		home = 969
-	}
-	regiment = {
-		name= "Cavalry"
-		type = cavalry
-		home = 969
-	}
-	regiment = {
-		name= "Cavalry"
-		type = cavalry
-		home = 678
-	}
-	regiment = {
-		name= "Cavalry"
-		type = cavalry
-		home = 678
-	}
-	regiment = {
-		name= "Infantry"
-		type = infantry
-		home = 678
+		home = 965
 	}
 }
 
 army = {
-	name = "Dnieper Tribes"
-	location = 970
-	regiment = {
-		name= "Cavalry"
-		type = cavalry
-		home = 970
-	}
-	regiment = {
-		name= "Cavalry"
-		type = cavalry
-		home = 971
-	}
-	regiment = {
-		name= "Cavalry"
-		type = cavalry
-		home = 971
-	}
-	regiment = {
-		name= "Cavalry"
-		type = cavalry
-		home = 972
-	}
-	regiment = {
-		name= "Cavalry"
-		type = cavalry
-		home = 972
-	}
-	regiment = {
-		name= "Cavalry"
-		type = cavalry
-		home = 968
-	}
-	regiment = {
-		name= "Infantry"
-		type = infantry
-		home = 968
-	}
-}
-
-army = {
-	name = "1.Raiders of the Faysi"
-	location = 972
-	regiment = {
-		name= "Cavalry"
-		type = cavalry
-		home = 969
-	}
-	regiment = {
-		name= "Cavalry"
-		type = cavalry
-		home = 676
-	}
-	regiment = {
-		name= "Cavalry"
-		type = cavalry
-		home = 676
-	}
-}
-
-army = {
-	name = "2.Raiders of the Faysi"
-	location = 978
-	regiment = {
-		name= "Cavalry"
-		type = cavalry
-		home = 978
-	}
-	regiment = {
-		name= "Cavalry"
-		type = cavalry
-		home = 978
-	}
-	regiment = {
-		name= "Cavalry"
-		type = cavalry
-		home = 978
-	}
-}
-
-
-army = {
-	name = "Don Tribes"
-	location = 979
-	regiment = {
-		name= "Cavalry"
-		type = cavalry
-		home = 979
-	}
-	regiment = {
-		name= "Cavalry"
-		type = cavalry
-		home = 979
-	}
-	regiment = {
-		name= "Cavalry"
-		type = cavalry
-		home = 980
-	}
-	regiment = {
-		name= "Cavalry"
-		type = cavalry
-		home = 980
-	}
-	regiment = {
-		name= "Cavalry"
-		type = cavalry
-		home = 980
-	}
-	regiment = {
-		name= "Cavalry"
-		type = cavalry
-		home = 1047
-	}
-	regiment = {
-		name= "Infantry"
-		type = infantry
-		home = 980
-	}
-}
-
-army = {
-	name = "Army of the Khan"
+	name = "2. Army"
 	location = 964
 	regiment = {
 		name= "Guard"
 		type = guard
 		home = 964
 	}
+
 	regiment = {
-		name= "Guard"
-		type = guard
+		name= "Cavalry"
+		type = cavalry
 		home = 964
 	}
+
 	regiment = {
-		name= "Guard"
-		type = guard
-		home = 967
+		name= "Cavalry"
+		type = cavalry
+		home = 965
 	}
+
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+		home = 973
+	}
+
 	regiment = {
 		name= "Artillery"
 		type = artillery
-		home = 967
+		home = 966
 	}
 }
 

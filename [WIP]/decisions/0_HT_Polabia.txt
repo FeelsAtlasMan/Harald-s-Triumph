@@ -9,7 +9,7 @@ political_decisions = {
 		allow = {
 			positivism = 1
 			early_railroad = 1
-			industry_score = 25			
+			industrial_score = 25			
 		}
 		effect = {
 			set_country_flag = polabian_tech_school
@@ -18,14 +18,13 @@ political_decisions = {
 			546 = {
 				naval_base = 1
 				fort = 1
-				railroad = 1
+				infrastructure = 1
 			}
-			politica_reform = unitary
+			political_reform = unitary
 			add_country_modifier = {
 				name = successful_industrialist
 				duration = 3600
 			}
-			ai_will_do = { factor = 1 }
 		}
 	}
 	
@@ -69,7 +68,6 @@ political_decisions = {
 			SAX = {
 				country_event = 178000
 			}
-			ai_will_do = { factor = 1 }
 		}
 	}
 	

@@ -1,40 +1,30 @@
 #Relations
 MUS = { 
-	value = 150
+	value = -150
 }
 
-UKR = { 
+RTH = { 
 	value = 100
 }
 
-SMK = { 
+DON = { 
 	value = 150
+}
+
+PEN = { 
+	value = 150
+}
+
+UMN = { 
+	value = 150
+}
+
+KZN = { 
+	value = -150
 }
 
 CRI = { 
 	value = -150
-}
-
-AKH = { 
-	value = -150
-}
-
-leader = {
-	name = "Maxim Petliura"
-	date = 1820.1.1
-	type = land
-	personality = steadfast
-	background = aristocrat
-	prestige = 0.2
-}
-
-leader = {
-	name = "Yuri Kuropatkin"
-	date = 1820.1.1
-	type = land
-	personality = perverse
-	background = aristocrat
-	prestige = 0.2
 }
 
 leader = {
@@ -47,44 +37,30 @@ leader = {
 }
 
 army = {
-	name = "1. Army of Kursk"
+	name = "Army of Kursk"
 	location = 977
 	regiment = {
-		name= "1. Hussars"
-		type = hussar
+		name= "Cavalry"
+		type = cavalry
 		home = 977
 	}
 	regiment = {
-		name= "2. Hussars"
-		type = hussar
+		name= "Cavalry"
+		type = cavalry
 		home = 977
 	}
 	regiment = {
-		name= "3. Hussars"
-		type = hussar
+		name= "Cavalry"
+		type = cavalry
 		home = 977
 	}
 	regiment = {
-		name= "4. Hussars"
-		type = hussar
+		name= "Cavalry"
+		type = cavalry
 		home = 1018
 	}
 }
 
-army = {
-	name = "2. Army of Kursk"
-	location = 1019
-	regiment = {
-		name= "1. Hussars"
-		type = hussar
-		home = 1018
-	}
-	regiment = {
-		name= "2. Hussars"
-		type = hussar
-		home = 1018
-	}
-}
 
 
 

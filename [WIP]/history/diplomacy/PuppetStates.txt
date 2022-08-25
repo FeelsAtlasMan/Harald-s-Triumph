@@ -1,7 +1,7 @@
 #Timurd Vassals/Substates
 substate = {
 	first = TIM
-	second = PNJ
+	second = MTN
 	start_date = 1836.1.1
 	end_date = 1937.1.1
 }
@@ -26,6 +26,28 @@ vassal = {
 	start_date = 1836.1.1
 	end_date = 1937.1.1
 }
+
+vassal = {
+	first = TIM
+	second = CLS
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+vassal = {
+	first = TIM
+	second = KAS
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+vassal = {
+	first = TIM
+	second = CMB
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
 
 vassal = {
 	first = TIM
@@ -295,13 +317,6 @@ vassal = {
 
 vassal = {
 	first = TIM
-	second = IRQ
-	start_date = 1836.1.1
-	end_date = 1937.1.1
-}
-
-vassal = {
-	first = TIM
 	second = RDL
 	start_date = 1836.1.1
 	end_date = 1937.1.1
@@ -478,14 +493,7 @@ substate = {
 	end_date = 1937.1.1
 }
 
-#Hungary and Romania
-vassal = {
-	first = HUN
-	second = MOL
-	start_date = 1836.1.1
-	end_date = 1937.1.1
-}
-
+#Hungary
 substate = {
 	first = HUN
 	second = BZN
@@ -500,24 +508,16 @@ substate = {
 	end_date = 1937.1.1
 }
 
-#Slavic Bans
-vassal = {
+substate = {
 	first = HUN
-	second = BBO
+	second = CMN
 	start_date = 1836.1.1
 	end_date = 1937.1.1
 }
 
 vassal = {
 	first = HUN
-	second = SER
-	start_date = 1836.1.1
-	end_date = 1937.1.1
-}
-
-vassal = {
-	first = HUN
-	second = BSV
+	second = MOL
 	start_date = 1836.1.1
 	end_date = 1937.1.1
 }
@@ -531,19 +531,41 @@ substate = {
 
 substate = {
 	first = HUN
-	second = BCR
+	second = CRO
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+substate = {
+	first = HUN
+	second = SLO
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+substate = {
+	first = HUN
+	second = JSZ
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+
+vassal = {
+	first = HUN
+	second = BOS
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+vassal = {
+	first = HUN
+	second = BSV
 	start_date = 1836.1.1
 	end_date = 1937.1.1
 }
 
 #East Coast Company and Hudson Bay Company
-vassal = {
-	first = NRD
-	second = RPL
-	start_date = 1836.1.1
-	end_date = 1937.1.1
-}
-
 vassal = {
 	first = NRD
 	second = CAL
@@ -613,6 +635,7 @@ substate = {
 	start_date = 1836.1.1
 	end_date = 1937.1.1
 }
+
 #Russia
 vassal = {
 	first = MUS
@@ -620,36 +643,137 @@ vassal = {
 	start_date = 1836.1.1
 	end_date = 1937.1.1
 }
+
 vassal = {
 	first = MUS
 	second = NOV
 	start_date = 1836.1.1
 	end_date = 1937.1.1
 }
+
 vassal = {
 	first = MUS
 	second = VYA
 	start_date = 1836.1.1
 	end_date = 1937.1.1
 }
+
 vassal = {
 	first = MUS
 	second = GAL
 	start_date = 1836.1.1
 	end_date = 1937.1.1
 }
+
 vassal = {
 	first = MUS
 	second = NNO
 	start_date = 1836.1.1
 	end_date = 1937.1.1
 }
+
 vassal = {
 	first = MUS
 	second = VLA
 	start_date = 1836.1.1
 	end_date = 1937.1.1
 }
+
+vassal = {
+	first = MUS
+	second = KOM
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+#Kazan
+vassal = {
+	first = KZN
+	second = KMS
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+vassal = {
+	first = KZN
+	second = NOG
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+vassal = {
+	first = KZN
+	second = ERZ
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+vassal = {
+	first = KZN
+	second = CHV
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+vassal = {
+	first = KZN
+	second = MRL
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+vassal = {
+	first = KZN
+	second = BSR
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+vassal = {
+	first = KZN
+	second = UDM
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+vassal = {
+	first = KZN
+	second = CHR
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+vassal = {
+	first = KZN
+	second = BSK
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+
+
+#Sibir 
+vassal = {
+	first = SIB
+	second = BLG
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+vassal = {
+	first = SIB
+	second = KHN
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+vassal = {
+	first = SIB
+	second = KDA
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
 #Oirat Tributes
 vassal = {
 	first = OIR
@@ -661,6 +785,13 @@ vassal = {
 vassal = {
 	first = OIR
 	second = BRY
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+vassal = {
+	first = OIR
+	second = TNT
 	start_date = 1836.1.1
 	end_date = 1937.1.1
 }
@@ -710,86 +841,16 @@ vassal = {
 	end_date = 1937.1.1
 }
 
-#Dehli
+#Bhutan
 vassal = {
-	first = MUG
-	second = SIN
-	start_date = 1836.1.1
-	end_date = 1937.1.1
-}
-
-vassal = {
-	first = MUG
-	second = KUT
-	start_date = 1836.1.1
-	end_date = 1937.1.1
-}
-
-vassal = {
-	first = MUG
-	second = AWA
-	start_date = 1836.1.1
-	end_date = 1937.1.1
-}
-
-vassal = {
-	first = MUG
-	second = JAI
-	start_date = 1836.1.1
-	end_date = 1937.1.1
-}
-
-vassal = {
-	first = MUG
-	second = JOD
-	start_date = 1836.1.1
-	end_date = 1937.1.1
-}
-
-vassal = {
-	first = MUG
-	second = MEW
-	start_date = 1836.1.1
-	end_date = 1937.1.1
-}
-
-vassal = {
-	first = MUG
-	second = JAS
-	start_date = 1836.1.1
-	end_date = 1937.1.1
-}
-
-vassal = {
-	first = MUG
-	second = BHP
-	start_date = 1836.1.1
-	end_date = 1937.1.1
-}
-
-vassal = {
-	first = MUG
-	second = BIK
-	start_date = 1836.1.1
-	end_date = 1937.1.1
-}
-
-vassal = {
-	first = MUG
-	second = GJR
+	first = BHU
+	second = CBH
 	start_date = 1836.1.1
 	end_date = 1937.1.1
 }
 
 #Sur Empire
-vassal = {
-	first = SUR
-	second = BIH
-	start_date = 1836.1.1
-	end_date = 1937.1.1
-}
-
-vassal = {
+substate = {
 	first = SUR
 	second = ORI
 	start_date = 1836.1.1
@@ -798,28 +859,36 @@ vassal = {
 
 vassal = {
 	first = SUR
-	second = BNG
+	second = MYB
 	start_date = 1836.1.1
 	end_date = 1937.1.1
 }
 
 vassal = {
 	first = SUR
-	second = RHN
+	second = GRO
 	start_date = 1836.1.1
 	end_date = 1937.1.1
 }
 
 vassal = {
 	first = SUR
-	second = ASM
+	second = CKM
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+#Gwalior
+vassal = {
+	first = GWA
+	second = MEW
 	start_date = 1836.1.1
 	end_date = 1937.1.1
 }
 
 vassal = {
-	first = SUR
-	second = MNP
+	first = GWA
+	second = JOD
 	start_date = 1836.1.1
 	end_date = 1937.1.1
 }
@@ -842,6 +911,43 @@ vassal = {
 vassal = {
 	first = OIR
 	second = NNI
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+#Mysore
+vassal = {
+	first = MYS
+	second = PKK
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+#Golconda
+substate = {
+	first = HYD
+	second = KNL
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+substate = {
+	first = HYD
+	second = DLT
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+vassal = {
+	first = HYD
+	second = BAS
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+vassal = {
+	first = HYD
+	second = JEY
 	start_date = 1836.1.1
 	end_date = 1937.1.1
 }
@@ -1029,6 +1135,12 @@ vassal = {
 vassal = {
 	first = RTH
 	second = DRU
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+vassal = {
+	first = RTH
+	second = UMN
 	start_date = 1836.1.1
 	end_date = 1937.1.1
 }
@@ -1293,6 +1405,28 @@ vassal = {
 	start_date = 1836.1.1
 	end_date = 1937.1.1
 }
+
+vassal = {
+	first = NEP
+	second = MST
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+vassal = {
+	first = NEP
+	second = SHI
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+vassal = {
+	first = NEP
+	second = MNI
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
 vassal = {
 	first = OIR
 	second = KHT
@@ -1318,6 +1452,21 @@ vassal = {
 	start_date = 1836.1.1
 	end_date = 1937.1.1
 }
+
+vassal = {
+	first = SHA
+	second = MKW
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+vassal = {
+	first = SHA
+	second = KLY
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
 vassal = {
 	first = SHA
 	second = MGN
@@ -1508,6 +1657,76 @@ vassal = {
 vassal = {
 	first = SHN
 	second = CGH
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+#Bulgaria
+vassal = {
+	first = BYZ
+	second = MTH
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+vassal = {
+	first = BYZ
+	second = THY
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+vassal = {
+	first = BYZ
+	second = ATH
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+vassal = {
+	first = BYZ
+	second = EPI
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+vassal = {
+	first = BYZ
+	second = MRE
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+vassal = {
+	first = BYZ
+	second = AOM
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+#League of Gjirokastra
+vassal = {
+	first = ZNB
+	second = GRP
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+vassal = {
+	first = ZNB
+	second = MRD
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+vassal = {
+	first = ZNB
+	second = THP
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+vassal = {
+	first = ZNB
+	second = ZHR
 	start_date = 1836.1.1
 	end_date = 1937.1.1
 }

@@ -83,6 +83,7 @@ country_event = {
 	}
 	
 	option = {
+		name = "EVT182102OPTA"
 		all_core = {
 			limit = {
 				owned_by = THIS
@@ -117,23 +118,23 @@ country_event = {
 		379 = { add_core = BRB }
 		change_tag = BRB
 		FROM = {
-			diplomatice_influence = {
+			diplomatic_influence = {
 				who = THIS
 				value = 400
 			}
-			diplomatice_influence = {
+			diplomatic_influence = {
 				who = LIG
 				value = 400
 			}
-			diplomatice_influence = {
+			diplomatic_influence = {
 				who = LBG
 				value = 400
 			}
-			diplomatice_influence = {
+			diplomatic_influence = {
 				who = LUX
 				value = 400
 			}
-			diplomatice_influence = {
+			diplomatic_influence = {
 				who = WLL
 				value = 400
 			}
@@ -179,7 +180,6 @@ country_event = {
 		}
 		government = democracy
 		NOT = { has_country_flag = HRE_country }
-		government = democracy
 	}
 	
 	option = {
@@ -217,5 +217,21 @@ country_event = {
 			value = -100
 		}
 		ai_chance = { factor = 0 }
+	}
+}
+
+country_event = {
+	id = 182107
+	title = "The Shadow County"
+	desc = "EVTDESC182107"
+	picture = "polish_uprising_aus"
+	
+	fire_only_once = yes
+	
+	trigger = {
+	    tag = BRB
+	}
+	option = {
+		name = "Freiheit, Gleichheit, Brüderlichkeit?"
 	}
 }

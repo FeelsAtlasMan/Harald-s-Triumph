@@ -666,15 +666,11 @@ country_event = {
 			NOT = { is_culture_group = american_cultures }
 		}
 		OR = {
-			NOT = { tag = BAN }
 			sphere_owner = { neighbour = THIS }
 		}
 		NOT = {
 			tag = AUS
 			tag = DES
-			tag = FSA
-			tag = UIL
-			tag = UNB
 			tag = UBD
 			tag = INO
 			tag = IRE
@@ -682,7 +678,6 @@ country_event = {
 			tag = LIE
 			tag = VLG
 			tag = SIE
-			tag = BAN
 			tag = SMR
 			tag = LEG
 			AND = {
@@ -1052,7 +1047,7 @@ country_event = {
 		
 	trigger = {
 		government = theocracy
-		NOT = { tag = MON }
+		NOT = { tag = HRZ }
 		NOT = { tag = ITA }
 		NOT = { tag = PAP }
 		NOT = { tag = TIB }

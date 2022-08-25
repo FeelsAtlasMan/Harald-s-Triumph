@@ -23,7 +23,7 @@
 	farmers = {
 		culture = turkish
 		religion = sunni
-		size = 9000
+		size = 14000
 	}
 
 	clergymen = {
@@ -83,7 +83,7 @@
 	farmers = {
 		culture = armenian
 		religion = coptic
-		size = 21200
+		size = 16200
 	}
 	
 	artisans = {
@@ -366,11 +366,157 @@
 	farmers = {
 		culture = turkish
 		religion = sunni
-		size = 3325
+		size = 6325
 	}
 }
+
+#Istisu (44000/11000 POPS)
+3750 = {
+	aristocrats = {
+		culture = armenian
+		religion = coptic
+		size = 75
+	}
+
+	clergymen = {
+		culture = armenian
+		religion = coptic
+		size = 75
+	}
+
+	artisans = {
+		culture = armenian
+		religion = coptic
+		size = 200
+	}
+
+	soldiers = {
+		culture = armenian
+		religion = coptic
+		size = 75
+	}
+
+	farmers = {
+		culture = armenian
+		religion = coptic
+		size = 975
+	}
+
+	aristocrats = {
+		culture = turkish
+		religion = sunni
+		size = 105
+	}
+
+	clergymen = {
+		culture = turkish
+		religion = sunni
+		size = 75
+	}
+
+	soldiers = {
+		culture = turkish
+		religion = sunni
+		size = 1025
+	}
+
+	farmers = {
+		culture = turkish
+		religion = sunni
+		size = 8325
+	}
+}
+
 #Nakhichevan (60000/15000 POPS) #now part of Azerbaijan 
 1101 = {
+	aristocrats = {
+		culture = armenian
+		religion = coptic
+		size = 75
+	}
+
+	clergymen = {
+		culture = armenian
+		religion = coptic
+		size = 125
+	}
+
+	artisans = {
+		culture = armenian
+		religion = coptic
+		size = 350
+	}
+
+	soldiers = {
+		culture = armenian
+		religion = coptic
+		size = 300
+	}
+
+	farmers = {
+		culture = armenian
+		religion = coptic
+		size = 4750
+	}
+	
+	clergymen = {
+		culture = deylemi
+		religion = sunni
+		size = 25
+	}
+
+	soldiers = {
+		culture = deylemi
+		religion = sunni
+		size = 10
+	}
+
+	farmers = {
+		culture = deylemi
+		religion = sunni
+		size = 900
+	}
+
+	aristocrats = {
+		culture = turkish
+		religion = sunni
+		size = 300
+	}
+
+	clergymen = {
+		culture = turkish
+		religion = sunni
+		size = 225
+	}
+
+	soldiers = {
+		culture = turkish
+		religion = sunni
+		size = 1100
+	}
+
+	farmers = {
+		culture = turkish
+		religion = sunni
+		size = 10000
+	}
+	
+	soldiers = {
+		culture = kurmanji
+		religion = sunni
+		size = 100
+	}
+
+	farmers = {
+		culture = kurmanji
+		religion = sunni
+		size = 700
+	}
+
+}
+
+#Jolfa
+3751 = {
 	aristocrats = {
 		culture = armenian
 		religion = coptic
@@ -398,7 +544,7 @@
 	farmers = {
 		culture = armenian
 		religion = coptic
-		size = 23750
+		size = 10750
 	}
 
 	aristocrats = {
@@ -422,9 +568,20 @@
 	farmers = {
 		culture = turkish
 		religion = sunni
-		size = 16000
+		size = 6000
+	}
+    
+	soldiers = {
+		culture = kurmanji
+		religion = sunni
+		size = 100
 	}
 
+	farmers = {
+		culture = kurmanji
+		religion = sunni
+		size = 600
+	}
 }
 
 #Grand Junction - now Igdir 

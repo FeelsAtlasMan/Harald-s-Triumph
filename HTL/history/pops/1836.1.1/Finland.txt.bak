@@ -1,0 +1,712 @@
+#Ostrobothnia Region (120000)
+#under the rule of Russia in 1836
+#Oulu (64000/16000 POPS)
+336 = {
+	bureaucrats = {
+		culture = finnish
+		religion = catholic
+		size = 150
+	}
+
+	officers = {
+		culture = finnish
+		religion = catholic
+		size = 25
+	}
+
+	clergymen = {
+		culture = finnish
+		religion = catholic
+		size = 150
+	}
+
+	artisans = {
+		culture = finnish
+		religion = catholic
+		size = 800
+	}
+
+	soldiers = {
+		culture = finnish
+		religion = catholic
+		size = 150
+	}
+
+	farmers = {
+		culture = finnish
+		religion = catholic
+		size = 14725
+	}
+}
+#Kajaani (16000/4000 POPS)
+337 = {
+	clergymen = {
+		culture = finnish
+		religion = catholic
+		size = 50
+	}
+
+	artisans = {
+		culture = finnish
+		religion = catholic
+		size = 200
+	}
+
+	soldiers = {
+		culture = finnish
+		religion = catholic
+		size = 25
+	}
+
+	farmers = {
+		culture = finnish
+		religion = catholic
+		size = 3725
+	}
+}
+#Tornio (40000/10000 POPS)
+338 = {
+	clergymen = {
+		culture = finnish
+		religion = catholic
+		size = 100
+	}
+
+	artisans = {
+		culture = finnish
+		religion = catholic
+		size = 475
+	}
+
+	soldiers = {
+		culture = finnish
+		religion = catholic
+		size = 100
+	}
+
+	farmers = {
+		culture = finnish
+		religion = catholic
+		size = 4425
+	}
+
+	farmers = {
+		culture = sami
+		religion = catholic
+		size = 4000
+	}
+	
+	farmers = {
+		culture = eastern_sami
+		religion = catholic
+		size = 1075
+	}
+}
+#Karelia Region (524000)
+#under the rule of Russia in 1836
+#Viipuri (192000/48000 POPS) #now part of Russia
+339 = {
+	officers = {
+		culture = karelian
+		religion = catholic
+		size = 100
+	}
+
+	clergymen = {
+		culture = karelian
+		religion = catholic
+		size = 400
+	}
+
+	artisans = {
+		culture = karelian
+		religion = catholic
+		size = 2150
+	}
+
+	soldiers = {
+		culture = karelian
+		religion = catholic
+		size = 400
+	}
+
+	farmers = {
+		culture = karelian
+		religion = catholic
+		size = 42700
+	}
+
+	clergymen = {
+		culture = savonian
+		religion = catholic
+		size = 50
+	}
+
+	artisans = {
+		culture = savonian
+		religion = catholic
+		size = 250
+	}
+
+	soldiers = {
+		culture = savonian
+		religion = catholic
+		size = 50
+	}
+
+	farmers = {
+		culture = savonian
+		religion = catholic
+		size = 4650
+	}
+
+	aristocrats = {
+		culture = swedish
+		religion = catholic
+		size = 50
+	}
+
+	bureaucrats = {
+		culture = swedish
+		religion = catholic
+		size = 200
+	}
+
+	officers = {
+		culture = swedish
+		religion = catholic
+		size = 50
+	}
+
+	clergymen = {
+		culture = swedish
+		religion = catholic
+		size = 25
+	}
+
+	artisans = {
+		culture = swedish
+		religion = catholic
+		size = 50
+	}
+
+	soldiers = {
+		culture = swedish
+		religion = catholic
+		size = 100
+	}
+}
+#Kotka (64000/16000 POPS)
+340 = {
+	clergymen = {
+		culture = finnish
+		religion = catholic
+		size = 125
+	}
+
+	artisans = {
+		culture = finnish
+		religion = catholic
+		size = 750
+	}
+
+	soldiers = {
+		culture = finnish
+		religion = catholic
+		size = 150
+	}
+
+	farmers = {
+		culture = finnish
+		religion = catholic
+		size = 7000
+	}
+	
+	farmers = {
+		culture = karelian
+		religion = catholic
+		size = 2975
+	}
+
+	clergymen = {
+		culture = swedish
+		religion = catholic
+		size = 115
+	}
+
+	artisans = {
+		culture = swedish
+		religion = catholic
+		size = 750
+	}
+
+	soldiers = {
+		culture = swedish
+		religion = catholic
+		size = 210
+	}
+
+	farmers = {
+		culture = swedish
+		religion = catholic
+		size = 3925
+	}
+}
+#Mikkeli (116000/29000 POPS)
+341 = {
+	clergymen = {
+		culture = savonian
+		religion = catholic
+		size = 275
+	}
+
+	artisans = {
+		culture = savonian
+		religion = catholic
+		size = 1450
+	}
+
+	soldiers = {
+		culture = savonian
+		religion = catholic
+		size = 275
+	}
+
+	farmers = {
+		culture = savonian
+		religion = catholic
+		size = 27025
+	}
+}
+#Kuopio (152000/38000 POPS)
+342 = {
+	clergymen = {
+		culture = savonian
+		religion = catholic
+		size = 350
+	}
+
+	artisans = {
+		culture = savonian
+		religion = catholic
+		size = 1850
+	}
+
+	soldiers = {
+		culture = savonian
+		religion = catholic
+		size = 350
+	}
+
+	farmers = {
+		culture = savonian
+		religion = catholic
+		size = 30425
+	}
+
+	clergymen = {
+		culture = swedish
+		religion = catholic
+		size = 15
+	}
+
+	artisans = {
+		culture = swedish
+		religion = catholic
+		size = 550
+	}
+
+	soldiers = {
+		culture = swedish
+		religion = catholic
+		size = 310
+	}
+
+	farmers = {
+		culture = swedish
+		religion = catholic
+		size = 4325
+	}
+}
+#Finland Region (812000)
+#under the rule of Russia in 1836
+#Helsinki (132000/33000 POPS)
+343 = {
+	officers = {
+		culture = finnish
+		religion = catholic
+		size = 50
+	}
+
+	bureaucrats = {
+		culture = finnish
+		religion = catholic
+		size = 150
+	}
+
+	clergymen = {
+		culture = finnish
+		religion = catholic
+		size = 150
+	}
+
+	artisans = {
+		culture = finnish
+		religion = catholic
+		size = 2250
+	}
+
+	soldiers = {
+		culture = finnish
+		religion = catholic
+		size = 1100
+	}
+
+	farmers = {
+		culture = finnish
+		religion = catholic
+		size = 33400
+	}
+
+	aristocrats = {
+		culture = swedish
+		religion = catholic
+		size = 550
+	}
+
+	bureaucrats = {
+		culture = swedish
+		religion = catholic
+		size = 325
+	}
+
+	officers = {
+		culture = swedish
+		religion = catholic
+		size = 150
+	}
+
+	clergymen = {
+		culture = swedish
+		religion = catholic
+		size = 600
+	}
+
+	artisans = {
+		culture = swedish
+		religion = catholic
+		size = 4750
+	}
+
+	soldiers = {
+		culture = swedish
+		religion = catholic
+		size = 2000
+	}
+
+	farmers = {
+		culture = swedish
+		religion = catholic
+		size = 20325
+	}
+}
+#Hameenlinna (44000/11000 POPS)
+344 = {
+	clergymen = {
+		culture = savonian
+		religion = catholic
+		size = 50
+	}
+
+	artisans = {
+		culture = savonian
+		religion = catholic
+		size = 200
+	}
+
+	soldiers = {
+		culture = savonian
+		religion = catholic
+		size = 100
+	}
+
+	farmers = {
+		culture = savonian
+		religion = catholic
+		size = 5000
+	}
+	
+	clergymen = {
+		culture = finnish
+		religion = catholic
+		size = 50
+	}
+
+	artisans = {
+		culture = finnish
+		religion = catholic
+		size = 300
+	}
+
+	soldiers = {
+		culture = finnish
+		religion = catholic
+		size = 100
+	}
+
+	farmers = {
+		culture = finnish
+		religion = catholic
+		size = 4350
+	}
+
+	aristocrats = {
+		culture = swedish
+		religion = catholic
+		size = 75
+	}
+
+	clergymen = {
+		culture = swedish
+		religion = catholic
+		size = 25
+	}
+
+	artisans = {
+		culture = swedish
+		religion = catholic
+		size = 75
+	}
+
+	soldiers = {
+		culture = swedish
+		religion = catholic
+		size = 25
+	}
+
+	farmers = {
+		culture = swedish
+		religion = catholic
+		size = 800
+	}
+}
+#Turku (280000/70000 POPS)
+345 = {
+	clergymen = {
+		culture = finnish
+		religion = catholic
+		size = 275
+	}
+
+	artisans = {
+		culture = finnish
+		religion = catholic
+		size = 950
+	}
+
+	soldiers = {
+		culture = finnish
+		religion = catholic
+		size = 800
+	}
+
+	farmers = {
+		culture = finnish
+		religion = catholic
+		size = 34475
+	}
+
+	aristocrats = {
+		culture = swedish
+		religion = catholic
+		size = 950
+	}
+
+	clergymen = {
+		culture = swedish
+		religion = catholic
+		size = 1400
+	}
+
+	artisans = {
+		culture = swedish
+		religion = catholic
+		size = 4550
+	}
+
+	soldiers = {
+		culture = swedish
+		religion = catholic
+		size = 3425
+	}
+
+	farmers = {
+		culture = swedish
+		religion = catholic
+		size = 30225
+	}
+}
+#Vaasa (272000/68000 POPS)
+346 = {
+	clergymen = {
+		culture = finnish
+		religion = catholic
+		size = 430
+	}
+
+	artisans = {
+		culture = finnish
+		religion = catholic
+		size = 2400
+	}
+
+	soldiers = {
+		culture = finnish
+		religion = catholic
+		size = 1000
+	}
+
+	farmers = {
+		culture = finnish
+		religion = catholic
+		size = 37925
+	}
+	
+	clergymen = {
+		culture = savonian
+		religion = catholic
+		size = 45
+	}
+
+	artisans = {
+		culture = savonian
+		religion = catholic
+		size = 200
+	}
+
+	soldiers = {
+		culture = savonian
+		religion = catholic
+		size = 100
+	}
+
+	farmers = {
+		culture = savonian
+		religion = catholic
+		size = 7000
+	}
+
+	aristocrats = {
+		culture = swedish
+		religion = catholic
+		size = 1100
+	}
+
+	clergymen = {
+		culture = swedish
+		religion = catholic
+		size = 150
+	}
+
+	artisans = {
+		culture = swedish
+		religion = catholic
+		size = 3100
+	}
+
+	soldiers = {
+		culture = swedish
+		religion = catholic
+		size = 1175
+	}
+
+	farmers = {
+		culture = swedish
+		religion = catholic
+		size = 23675
+	}
+}
+#Tampere (84000/21000 POPS)
+347 = {
+	clergymen = {
+		culture = finnish
+		religion = catholic
+		size = 150
+	}
+
+	artisans = {
+		culture = finnish
+		religion = catholic
+		size = 1100
+	}
+
+	soldiers = {
+		culture = finnish
+		religion = catholic
+		size = 200
+	}
+
+	farmers = {
+		culture = finnish
+		religion = catholic
+		size = 18650
+	}
+
+	aristocrats = {
+		culture = swedish
+		religion = catholic
+		size = 250
+	}
+
+	clergymen = {
+		culture = swedish
+		religion = catholic
+		size = 25
+	}
+
+	artisans = {
+		culture = swedish
+		religion = catholic
+		size = 100
+	}
+
+	soldiers = {
+		culture = swedish
+		religion = catholic
+		size = 25
+	}
+
+	farmers = {
+		culture = swedish
+		religion = catholic
+		size = 600
+	}
+}
+#Svealand Region (11000)
+#under the rule of Russia in 1836
+#Aland Islands (11000 POPS)
+348 = {
+	clergymen = {
+		culture = swedish
+		religion = catholic
+		size = 35
+	}
+
+	artisans = {
+		culture = swedish
+		religion = catholic
+		size = 150
+	}
+
+	soldiers = {
+		culture = swedish
+		religion = catholic
+		size = 25
+	}
+
+	farmers = {
+		culture = swedish
+		religion = catholic
+		size = 2390
+	}
+}

@@ -115,7 +115,7 @@ political_decisions = {
 			primary_culture = tuscan
 			OR = {
 				tag = TUS
-				tag = LUC
+				#tag = LUC
 				tag = SNA
 			}
 			NOT = { tag = ITA }
@@ -452,24 +452,7 @@ political_decisions = {
 			change_tag = GOD
 		}
 	}
-	
-	surrender_to_lom = {
-		picture = lombard_league
-		potential = {
-			exists = LOM
-			tag = PAP
-			exists = yes
-		}
-		allow = {
-			war = no
-		}
-		effect = {
-			all_core = {
-				remove_core = THIS
-			}
-			annex_to = LOM
-		}
-	}
+
 	sell_brindisi_ANC = {
 		picture = brindisi
 		potential = {

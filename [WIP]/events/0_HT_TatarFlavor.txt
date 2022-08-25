@@ -38,7 +38,7 @@ country_event = {
 #Raiding results
 country_event = {
     id = 666421
-    itle = "EVTNAME666421"
+    title = "EVTNAME666421"
     desc = "EVTDESC666421"
 	picture = "abd_al_qadir"
        
@@ -52,14 +52,11 @@ country_event = {
         canned_food = 10
         wine = 10
         luxury_clothes = 5
-		clothes = 40
+		regular_clothes = 40
         machine_parts = 5
         grain = 100
         wool = 50
 		treasury = 5000
-		random_neighbor_province = {
-		reduce_pop = 1
-		}
 		set_country_flag = recently_raided
 	}
 
@@ -438,7 +435,7 @@ country_event = {
 
 	option = {
 		name = "EVT666444OPTA"
-	    alliance_with = SHN
+	    create_alliance = SHN
 		1554 = { secede_province = TAR }
 		1082 = { secede_province = TAR }
 		1083 = { secede_province = TAR }
@@ -478,7 +475,7 @@ country_event = {
 
 	option = {
 		name = "EVT666446OPTA"
-	    alliance_with = SHN
+	    create_alliance = SHN
 		2617 = { secede_province = TAR }
 		1084 = { secede_province = TAR }
 		1083 = { secede_province = TAR }
@@ -515,7 +512,7 @@ country_event = {
 
 	option = {
 		name = "EVT666447OPTA"
-	    alliance_with = SHN
+	    create_alliance = SHN
 		2617 = { secede_province = TAR }
 		1084 = { secede_province = TAR }
 		prestige = -20
@@ -530,7 +527,7 @@ country_event = {
 				 attacker_goal = { casus_belli = demand_concession_casus_belli state_province_id = 1086 }
 				 attacker_goal = { casus_belli = demand_concession_casus_belli state_province_id = 1479 }
 				 attacker_goal = { casus_belli = demand_concession_casus_belli state_province_id = 1552 }
-				 attacker_goal = { casus_belli = treaty_port_casus_belli TAG = SHN }
+				 attacker_goal = { casus_belli = treaty_port_casus_belli }
 				 defender_goal = { casus_belli = acquire_state state_province_id = 1072 }
 	             call_ally = no
               }
@@ -548,19 +545,19 @@ country_event = {
 		fire_only_once = yes
 		
 		trigger = {
-                    tag = TAR
-                    has_recently_lost_war = yes
-					OR = {
-					  AND = {
-					   truce_with = MUS
-					   NOT = { has_recently_lost_war = MUS }
-		              }
-					  AND = {
-					   truce_with = MSS
-					   NOT = { has_recently_lost_war = MSS }
-					  }
-					  has_country_flag = rejecting_help
-					}
+			tag = TAR
+			has_recently_lost_war = yes
+			OR = {
+				AND = {
+					truce_with = MUS
+					NOT = { MUS = { has_recently_lost_war = yes } }
+				}
+				AND = {
+					truce_with = MSS
+					NOT = { MSS = { has_recently_lost_war = yes } }
+				}
+				has_country_flag = rejecting_help
+			}
         }
 
 

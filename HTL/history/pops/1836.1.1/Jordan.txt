@@ -1,0 +1,434 @@
+#Suriye Region (36000)  #see Syria.txt & Lebanon.txt for balance of region
+#under the rule of Egypt in 1836  
+#Amman (20000/5000 POPS) #now part of Jordan
+908 = {
+	aristocrats = {
+		culture = levantine
+		religion = sunni
+		size = 25
+	}
+
+	clergymen = {
+		culture = levantine
+		religion = sunni
+		size = 40
+	}
+
+	artisans = {
+		culture = levantine
+		religion = sunni
+		size = 100
+	}
+
+	soldiers = {
+		culture = levantine
+		religion = sunni
+		size = 460
+	}
+
+	farmers = {
+		culture = levantine
+		religion = sunni
+		size = 475
+	}
+	
+	aristocrats = {
+		culture = levantine
+		religion = sunni
+		size = 50
+	}
+
+	clergymen = {
+		culture = levantine
+		religion = sunni
+		size = 100
+	}
+
+	artisans = {
+		culture = levantine
+		religion = sunni
+		size = 125
+	}
+
+	soldiers = {
+		culture = levantine
+		religion = sunni
+		size = 825
+	}
+
+	farmers = {
+		culture = levantine
+		religion = sunni
+		size = 2075
+	}
+	
+	clergymen = {
+		culture = assyrian
+		religion = coptic
+		size = 20
+	}
+
+	artisans = {
+		culture = assyrian
+		religion = coptic
+		size = 30
+	}
+
+	farmers = {
+		culture = assyrian
+		religion = coptic
+		size = 200
+	}
+	
+	clergymen = {
+		culture = levantine
+		religion = orthodox
+		size = 20
+	}
+
+	artisans = {
+		culture = levantine
+		religion = orthodox
+		size = 70
+	}
+	
+	soldiers = {
+		culture = levantine
+		religion = orthodox
+		size = 260
+	}
+
+	farmers = {
+		culture = levantine
+		religion = orthodox
+		size = 200
+	}
+	
+	clergymen = {
+		culture = levantine
+		religion = druze
+		size = 50
+	}
+	
+	soldiers = {
+		culture = levantine
+		religion = druze
+		size = 140
+	}
+	
+	farmers = {
+		culture = levantine
+		religion = druze
+		size = 300
+	}
+}
+#Al-Kerak (16000/4000 POPS) #now part of Jordan
+909 = {
+	aristocrats = {
+		culture = levantine
+		religion = sunni
+		size = 35
+	}
+
+	clergymen = {
+		culture = levantine
+		religion = sunni
+		size = 25
+	}
+
+	artisans = {
+		culture = levantine
+		religion = sunni
+		size = 100
+	}
+
+	soldiers = {
+		culture = levantine
+		religion = sunni
+		size = 875
+	}
+
+	farmers = {
+		culture = levantine
+		religion = sunni
+		size = 815
+	}
+
+	aristocrats = {
+		culture = bedouin
+		religion = sunni
+		size = 15
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = sunni
+		size = 15
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = sunni
+		size = 35
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = sunni
+		size = 825
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = sunni
+		size = 810
+	}
+	
+	clergymen = {
+		culture = bedouin
+		religion = orthodox
+		size = 100
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = orthodox
+		size = 100
+	}
+	
+	soldiers = {
+		culture = bedouin
+		religion = sunni
+		size = 225
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = orthodox
+		size = 300
+	}
+}
+#Ma'an (16000/4000 POPS)
+3416 = {
+	aristocrats = {
+		culture = levantine
+		religion = sunni
+		size = 35
+	}
+
+	clergymen = {
+		culture = levantine
+		religion = sunni
+		size = 25
+	}
+
+	artisans = {
+		culture = levantine
+		religion = sunni
+		size = 100
+	}
+
+	soldiers = {
+		culture = levantine
+		religion = sunni
+		size = 875
+	}
+
+	farmers = {
+		culture = levantine
+		religion = sunni
+		size = 415
+	}
+
+	aristocrats = {
+		culture = najdi_arabic
+		religion = sunni
+		size = 15
+	}
+
+	clergymen = {
+		culture = najdi_arabic
+		religion = sunni
+		size = 15
+	}
+
+	artisans = {
+		culture = najdi_arabic
+		religion = sunni
+		size = 35
+	}
+
+	soldiers = {
+		culture = najdi_arabic
+		religion = sunni
+		size = 825
+	}
+
+	farmers = {
+		culture = najdi_arabic
+		religion = sunni
+		size = 1210
+	}
+	
+	soldiers = {
+		culture = najdi_arabic
+		religion = sunni
+		size = 225
+	}
+
+}
+#Badiyat al-Sham Region (40000)  #see Syria.txt, Iraq.txt & Saudi Arabia.txt for balance of region
+#under the "rule" of Egypt in 1836  
+#Azraq (12000/3000 POPS) #now part of Jordan 
+910 = {
+	aristocrats = {
+		culture = najdi_arabic
+		religion = sunni
+		size = 5
+	}
+
+	clergymen = {
+		culture = najdi_arabic
+		religion = sunni
+		size = 5
+	}
+
+	artisans = {
+		culture = najdi_arabic
+		religion = sunni
+		size = 25
+	}
+
+	soldiers = {
+		culture = najdi_arabic
+		religion = sunni
+		size = 1000
+	}
+
+	farmers = {
+		culture = najdi_arabic
+		religion = sunni
+		size = 960
+	}
+}
+#Sakaka (28000/7000 POPS) #now part of Ha'il
+911 = {
+	aristocrats = {
+		culture = najdi_arabic
+		religion = sunni
+		size = 25
+	}
+
+	clergymen = {
+		culture = najdi_arabic
+		religion = sunni
+		size = 50
+	}
+
+	artisans = {
+		culture = najdi_arabic
+		religion = sunni
+		size = 150
+	}
+
+	soldiers = {
+		culture = najdi_arabic
+		religion = sunni
+		size = 3025
+	}
+
+	farmers = {
+		culture = najdi_arabic
+		religion = sunni
+		size = 19750
+	}
+
+	aristocrats = {
+		culture = najdi_arabic
+		religion = shiite
+		size = 15
+	}
+
+	clergymen = {
+		culture = najdi_arabic
+		religion = shiite
+		size = 5
+	}
+
+	artisans = {
+		culture = najdi_arabic
+		religion = shiite
+		size = 20
+	}
+
+	soldiers = {
+		culture = najdi_arabic
+		religion = shiite
+		size = 550
+	}
+
+	farmers = {
+		culture = najdi_arabic
+		religion = shiite
+		size = 375
+	}
+
+	soldiers = {
+		culture = najdi_arabic
+		religion = coptic
+		size = 150
+	}
+
+	farmers = {
+		culture = najdi_arabic
+		religion = coptic
+		size = 175
+	}
+}
+#Palestine Region (20000)  #see Israel-Palestine.txt for balance of region
+#under the rule of Egypt in 1836  
+#Aqaba (20000/5000 POPS) #now part of Ha'il 
+922 = {
+	soldiers = {
+		culture = najdi_arabic
+		religion = shiite
+		size = 25
+	}
+
+	farmers = {
+		culture = najdi_arabic
+		religion = shiite
+		size = 100
+	}
+
+	aristocrats = {
+		culture = najdi_arabic
+		religion = sunni
+		size = 25
+	}
+
+	clergymen = {
+		culture = najdi_arabic
+		religion = sunni
+		size = 25
+	}
+
+	artisans = {
+		culture = najdi_arabic
+		religion = sunni
+		size = 150
+	}
+
+	soldiers = {
+		culture = najdi_arabic
+		religion = sunni
+		size = 1025
+	}
+
+	farmers = {
+		culture = najdi_arabic
+		religion = sunni
+		size = 2775
+	}
+
+}

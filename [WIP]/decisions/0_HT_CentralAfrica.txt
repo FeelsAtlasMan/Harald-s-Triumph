@@ -201,7 +201,7 @@ political_decisions = {
 			inherit = UTT
 			UJJ = { all_core = { add_core = THIS } }
 			UTT = { all_core = { add_core = THIS } }
-			BEL_2043 = { add_core = THIS }
+			#BEL_2043 = { add_core = THIS }
 			set_country_flag =  annexed_tanganyika 
 			badboy = 20
 		}
@@ -267,7 +267,7 @@ political_decisions = {
 			remove_accepted_culture = somali
 			remove_accepted_culture = yao
 			remove_accepted_culture = malagasy
-			remove_accepted_culture = comorian
+			#remove_accepted_culture = comorian
 			remove_accepted_culture = makua
 			treasury = -100000
 			add_country_modifier = {
@@ -330,7 +330,7 @@ political_decisions = {
 		}
 
 		effect = {
-            BEL_2043 = { add_core = THIS }
+            #BEL_2043 = { add_core = THIS }
 			2021 = { add_core = THIS }
 			2023 = { add_core = THIS }
 			add_accepted_culture = konzo
@@ -387,7 +387,7 @@ political_decisions = {
 	}
 	
 	#Defeat the Chokwe
-	reform_lunda_administration = {
+	reform_lunda_administration_two = {
 	    picture = hausa_expansion4
 	    potential = {
 			tag = LUN
@@ -441,7 +441,7 @@ political_decisions = {
 			inherit = MTB
 			set_global_flag = united_zaire
 			add_accepted_culture = kimbundu
-			primary_culture = kongo
+			#primary_culture = kongo
 		}
 
 		ai_will_do = {
@@ -484,36 +484,12 @@ political_decisions = {
 	                      duration = 3650
             }
 			capital_scope = { 
-			      add_country_modifier = {
-	                      name = foreign_trading_post
-	                      duration = 365
-                  }
+			    add_province_modifier = {
+	                name = foreign_trading_post
+	                duration = 365
+                }
 			}
 			set_country_flag = united_zaire
-		}
-
-		ai_will_do = {
-		    factor = 1
-		}
-	}
-	
-	#Defeat the Chokwe
-	reform_lunda_administration = {
-	    picture = hausa_expansion4
-	    potential = {
-			tag = LUN
-			NOT = { has_country_flag = chokwe_war }
-			has_country_flag = reformed_lunda
-		}
-
-		allow = {
-			war = no
-			LUN = { all_core = { owned_by = THIS } }
-		}
-
-		effect = {
-            CKW = { all_core = { add_core = THIS } }
-			set_country_flag = chokwe_war
 		}
 
 		ai_will_do = {
@@ -549,7 +525,7 @@ political_decisions = {
 		effect = {
 			PER = { all_core = { add_core = SWA } }
 			set_country_flag =  invaded_iran_swa 
-			infamy = 25
+			badboy = 25
 		}
 
 		ai_will_do = {

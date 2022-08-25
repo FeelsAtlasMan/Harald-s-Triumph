@@ -205,7 +205,6 @@ political_decisions = {
 			NOT = {
 				has_country_flag = unite_with_romania
 				tag = ROM
-				tag = MDV
 				tag = URP
 			}
 		}
@@ -410,7 +409,7 @@ political_decisions = {
 		effect = {
 			WAL = { all_core = { remove_core = WAL } }
 			MOL = { all_core = { remove_core = MOL } }
-			MOL_676 = { remove_core = WAL remove_core = MOL }
+			#MOL_676 = { remove_core = WAL remove_core = MOL }
 		}
 		
 		ai_will_do = { factor = 1 }

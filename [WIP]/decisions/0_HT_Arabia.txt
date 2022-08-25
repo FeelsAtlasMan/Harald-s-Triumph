@@ -31,19 +31,19 @@ political_decisions = {
 	claim_upper_euphrates = {
 	    picture = "map_iraq"
 		potential = {
-			tag = IRQ
+			tag = MFQ
 			NOT = { has_country_flag = claimed_urfa }
 		}
 		
 		allow = {
-			IRQ = { all_core = { owned_by = THIS } }
+			MFQ = { all_core = { owned_by = THIS } }
 			war = no
 			is_vassal = no
 		}
 		effect = {
 			URF_920 = { add_core = THIS }
 			TUR_893 = { add_core = THIS }
-			TUR_923 = { add_core = THIS }
+			#TUR_923 = { add_core = THIS }
 			prestige = 5
 			badboy = 5
 			set_country_flag = claimed_urfa
@@ -60,13 +60,13 @@ political_decisions = {
 	end_anizzah_raids = {
 	    picture = "map_arabia"
 		potential = {
-			tag = IRQ
+			tag = MFQ
 			has_country_flag = claimed_urfa
 			NOT = { has_country_flag = ended_anizzah_raids }
 		}
 		
 		allow = {
-			IRQ = { all_core = { owned_by = THIS } }
+			MFQ = { all_core = { owned_by = THIS } }
 			war = no
 			is_vassal = no
 		}
@@ -87,13 +87,13 @@ political_decisions = {
 	claim_al_sham = {
 	    picture = "map_arabia"
 		potential = {
-			tag = IRQ
+			tag = MFQ
 			has_country_flag = ended_anizzah_raids
 			NOT = { has_country_flag = claimed_levante }
 		}
 		
 		allow = {
-			IRQ = { all_core = { owned_by = THIS } }
+			MFQ = { all_core = { owned_by = THIS } }
 			war = no
 			is_vassal = no
 		}
@@ -114,18 +114,18 @@ political_decisions = {
 	push_to_taurus = {
 	    picture = "map_arabia"
 		potential = {
-			tag = IRQ
+			tag = MFQ
 			has_country_flag = claimed_levante
 			NOT = { has_country_flag = claimed_cilicia }
 		}
 		
 		allow = {
-			IRQ = { all_core = { owned_by = THIS } }
+			MFQ = { all_core = { owned_by = THIS } }
 			war = no
 			is_vassal = no
 		}
 		effect = {
-			TUR_894 = { all_core = { add_core = THIS } }
+			TUR_894 = { add_core = THIS }
 			badboy = 4
 			set_country_flag = claimed_cilicia
 		}
@@ -142,18 +142,18 @@ political_decisions = {
 	cilicia_expedition = {
 	    picture = "greater_armenia"
 		potential = {
-			tag = IRQ
+			tag = MFQ
 			has_country_flag = claimed_levante
 			NOT = { has_country_flag = claimed_cilicia }
 		}
 		
 		allow = {
-			IRQ = { all_core = { owned_by = THIS } }
+			MFQ = { all_core = { owned_by = THIS } }
 			war = no
 			is_vassal = no
 		}
 		effect = {
-			TUR_894 = { all_core = { add_core = THIS } }
+			TUR_894 = { add_core = THIS }
 			badboy = 4
 			set_country_flag = claimed_cilicia
 		}
@@ -187,13 +187,13 @@ political_decisions = {
 			     has_country_flag = abb_mamluk_advisors
 			     has_country_flag = abb_western_administration
 		         has_country_flag = abb_australia
-				 AI = yes
+				 ai = yes
 		      }
 			  AND = {
 			     has_country_flag = abb_western_advisors
 			     has_country_flag = abb_mamluk_administration
 		         has_country_flag = abb_australia
-				 AI = yes
+				 ai = yes
 		      }
 			  AND = {
 			     has_country_flag = abb_western_advisors
@@ -202,27 +202,29 @@ political_decisions = {
 		           has_country_flag = sold_australia
 				   has_country_flag = lost_australia
 				 }
-				 AI = yes
+				 ai = yes
 		      }
 		  }
 		}
 		effect = {
-		   remove_accepted_culture = mamluki
-		   clr_country_flag = shadow_caliphate
-		   set_country_flag = dethrowned_mamluks
-		   prestige = 10
-		   any_pop = {
-		         limit = {
-				       culture = mamluki
-					   culture = abaza
-					   culture = circassian
-				 }
-				 militancy = 9
-		   }
+			remove_accepted_culture = mamluki
+			clr_country_flag = shadow_caliphate
+			set_country_flag = dethrowned_mamluks
+			prestige = 10
+			any_pop = {
+		        limit = {
+					OR = {
+						culture = mamluki
+						culture = abaza
+						culture = circassian
+					}
+				}
+			militancy = 9
+			}
 		}
 		ai_will_do = {
 		    factor = 1
-			}
+		}
 	}
 	
 	#Install Advisors
@@ -572,7 +574,7 @@ political_decisions = {
 			TUR_893 = { add_core = THIS } 
 			URF_920 = { add_core = THIS } 
 			TUR_894 = { add_core = THIS } 
-			TUR_923 = { add_core = THIS } 
+			#TUR_923 = { add_core = THIS } 
 			TUR_931 = { add_core = THIS } 
 			TUR_935 = { add_core = THIS } 
 			PER_1132 = { add_core = THIS }
@@ -943,7 +945,7 @@ political_decisions = {
 		    TUR_893 = { add_core = THIS } 
 			URF_920 = { add_core = THIS } 
 			TUR_894 = { add_core = THIS } 
-			TUR_923 = { add_core = THIS } 
+			#TUR_923 = { add_core = THIS } 
 			TUR_931 = { add_core = THIS } 
 			TUR_935 = { add_core = THIS } 
 			PER_1132 = { add_core = THIS }
@@ -979,14 +981,14 @@ political_decisions = {
 		}
 		
 		effect = {
-		    PER_1123 = { add_core = THIS } 
+		    #PER_1123 = { add_core = THIS } 
 			PER_1126 = { add_core = THIS } 
 			PER_1121 = { add_core = THIS } 
 			PER_1117 = { add_core = THIS } 
 			PER_1127 = { add_core = THIS }
 			PER_1139 = { add_core = THIS } 
-			PER_1120 = { add_core = THIS } 
-			PER_1136 = { add_core = THIS }
+			#PER_1120 = { add_core = THIS } 
+			#PER_1136 = { add_core = THIS }
 			PER_1142 = { add_core = THIS } 
 			PER_1140 = { add_core = THIS } 
 			PER_1135 = { add_core = THIS }
@@ -1064,7 +1066,7 @@ political_decisions = {
 			1052 = { add_core = THIS }
 			1103 = { add_core = THIS }
 			add_accepted_culture = tat
-			add_accepted_culture = adari
+			#add_accepted_culture = adari
 			set_country_flag = invaded_caucasus_abb
 			badboy = 12
 		}
@@ -1203,12 +1205,12 @@ political_decisions = {
 		}
 		effect = {
 		   add_accepted_culture = turkish
-		   add_accepted_culture = azeri
+		   #add_accepted_culture = azeri
 		   set_country_flag = turkish_mamluks
 		   TUR_894 = { add_core = THIS }
 	       TUR_873 = { add_core = THIS }
-	  	   TUR_878 = { add_core = THIS }
-		   TUR_3339 = { add_core = THIS }
+	  	   #TUR_878 = { add_core = THIS }
+		   #TUR_3339 = { add_core = THIS }
 		   TUR_876 = { add_core = THIS }
 		   #TUR_883 = { add_core = THIS }
 		   TUR_880 = { add_core = THIS }

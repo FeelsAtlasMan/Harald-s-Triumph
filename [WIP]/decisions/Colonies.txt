@@ -630,14 +630,6 @@ political_decisions = {
 					NOT = { has_province_modifier = plantation } 
 				}
 				any_owned_province = { 
-					is_core = PAK
-					NOT = { terrain = small_island }
-					NOT = { terrain = desert }
-					NOT = { terrain = semidesert }
-					NOT = { terrain = dryhills }
-					NOT = { has_province_modifier = plantation } 
-				}
-				any_owned_province = { 
 					is_core = KOR
 					NOT = { terrain = small_island }
 					NOT = { terrain = desert }
@@ -725,17 +717,6 @@ political_decisions = {
 				limit = {
 					NOT = { has_province_modifier = plantation }
 					is_core = SRI
-					NOT = { terrain = small_island }
-					NOT = { terrain = desert }
-					NOT = { terrain = semidesert }
-					NOT = { terrain = dryhills }
-				}
-				add_province_modifier = { name = plantation duration = -1 }
-			}
-			any_owned = {
-				limit = {
-					NOT = { has_province_modifier = plantation }
-					is_core = PAK
 					NOT = { terrain = small_island }
 					NOT = { terrain = desert }
 					NOT = { terrain = semidesert }
@@ -860,7 +841,7 @@ political_decisions = {
 			remove_country_modifier = uncivilized_isolationism
 			remove_country_modifier = trade_restrictions
 			remove_country_modifier = sayings_of_the_dutch
-			remove_country_modifier = rangaku
+			#remove_country_modifier = rangaku
 			remove_country_modifier = western_presence
 			remove_country_modifier = isolationist_foreign_naval_officers
 			remove_country_modifier = isolationist_foreign_naval_schools
@@ -875,8 +856,8 @@ political_decisions = {
 				remove_province_modifier = legation_quarter
 				remove_province_modifier = kettler_denkmal
 				remove_province_modifier = extraterritoriality_granted
-				remove_province_modifier = boxer_presence
-				remove_province_modifier = boxer_agitation
+				#remove_province_modifier = boxer_presence
+				#remove_province_modifier = boxer_agitation
 			}
 		}
 		

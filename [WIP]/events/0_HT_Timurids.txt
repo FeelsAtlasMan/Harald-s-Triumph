@@ -38,16 +38,22 @@ country_event = {
 
     option = { #resume as Timurids (Khorasan), recommanded
 	    name = "EVT9901OPTA"
+		    TIM = { all_core = { remove_core = TIM } }
+			change_tag = KHR
+			KHR = { government = french_bourbon }
 	        release_vassal = AJM
+			AJM = { government = french_bourbon }
 		    release_vassal = BUK
+			BUK = { government = french_bourbon }
 		    release_vassal = AZB
+			AZB = { government = french_bourbon }
 			release_vassal = IRQ
+			IRQ = { government = french_bourbon }
 			3391 = { secede_province = FRS }
 			1142 = { secede_province = FRS }
 			1141 = { secede_province = FRS }
 			1071 = { secede_province = FRS }
 			1138 = { secede_province = FRS }
-			change_tag = KHR
 			country_event = {
 			    id = 9905
 				days = 90
@@ -58,9 +64,14 @@ country_event = {
 	option = { #resume as Transoxiana, recommanded
 	    name = "EVT9901OPTB"
 	        release_vassal = AJM
+			AJM = { government = french_bourbon }
 		    release_vassal = BUK
+			BUK = { government = french_bourbon }
 		    release_vassal = AZB
+			AZB = { government = french_bourbon }
 			release_vassal = IRQ
+			IRQ = { government = french_bourbon }
+			KHR = { government = french_bourbon }
 			3391 = { secede_province = FRS }
 			1142 = { secede_province = FRS }
 			1141 = { secede_province = FRS }
@@ -78,10 +89,14 @@ country_event = {
 	
 	option = { #resume as Azerbaijan, hard
 	    name = "EVT9901OPTC"
-	        release_vassal = AJM
+	        AJM = { government = french_bourbon }
 		    release_vassal = BUK
+			BUK = { government = french_bourbon }
 		    release_vassal = AZB
+			AZB = { government = french_bourbon }
 			release_vassal = IRQ
+			IRQ = { government = french_bourbon }
+			KHR = { government = french_bourbon }
 			3391 = { secede_province = FRS }
 			1142 = { secede_province = FRS }
 			1141 = { secede_province = FRS }
@@ -99,10 +114,14 @@ country_event = {
 	
 	option = { #resume as Iraq, hard
 	    name = "EVT9901OPTD"
-	        release_vassal = AJM
+	        AJM = { government = french_bourbon }
 		    release_vassal = BUK
+			BUK = { government = french_bourbon }
 		    release_vassal = AZB
+			AZB = { government = french_bourbon }
 			release_vassal = IRQ
+			IRQ = { government = french_bourbon }
+			KHR = { government = french_bourbon }
 			3391 = { secede_province = FRS }
 			1142 = { secede_province = FRS }
 			1141 = { secede_province = FRS }
@@ -139,26 +158,35 @@ country_event = {
 			release_vassal = BUK
 			release_vassal = PNJ
 			release_vassal = KMY
+			release = BHR
+			2664 = { secede_province = OMA }
 			set_global_flag = timurd_succ_war
 			FRS = { government = absolute_monarchy }
 			FRS = { create_alliance = AJM }
 			FRS = { create_vassal = AJM }
+			AJM = { government = french_bourbon }
 			any_country = {
 			    limit = { vassal_of = THIS OR = { primary_culture = kurmanji primary_culture = zaza primary_culture = sorani primary_culture = gorani } }
-				country_event = { id = 9907 }
+				country_event = 9907 
 			}
 			any_country = {
 			    limit = { vassal_of = THIS OR = { primary_culture = turkish tag = TTN } }
-				country_event = { id = 9908 }
+				country_event = 9908
 			}
 			any_country = { #All Nations, that are going to be independent
-			    limit = { vassal_of = THIS OR = { is_culture_group = kartvelian is_culture_group = caspian_caucasian tag = MZN tag = TLY tag = GLN tag = LUR tag = KHZ tag = MFQ tag = KWT tag = KSN tag = WKH tag = KFR tag = GLG tag = HNZ tag = ABK tag = TKM tag = MAK tag = KAL tag = BLA tag = SST tag = ALN tag = ASY tag = CRL } }
-				country_event = { id = 9909 }
+			    limit = { vassal_of = THIS OR = { is_culture_group = kartvelian is_culture_group = caspian_caucasian tag = MZN tag = TLY tag = GLN tag = LUR tag = KHZ tag = MFQ tag = KWT tag = KSN tag = WKH tag = KFR tag = GLG tag = HNZ tag = ABK tag = TKM tag = MAK tag = KAL tag = BLA tag = SST tag = ALN tag = ASY tag = CRL tag = KCN tag = GNJ } }
+				country_event = 9909
 			}
 			any_country = { #Tajiks and Pamiri states
 			    limit = { vassal_of = THIS OR = { tag = TAJ tag = HSR tag = RSH } }
-				country_event = { id = 9910 }
+				country_event = 9910
 			}
+			leave_alliance = PNJ
+			leave_alliance = KMY
+			THIS = { casus_belli = { target = FRS type = conquest months = 12 } }
+			THIS = { casus_belli = { target = AZB type = conquest months = 12 } }
+			THIS = { casus_belli = { target = IRQ type = conquest months = 12 } }
+			THIS = { casus_belli = { target = BUK type = conquest months = 12 } }
 		    war = {
 	            target = FRS
 	            attacker_goal = { casus_belli = conquest }
@@ -264,21 +292,21 @@ country_event = {
 	    name = "EVT9908OPTC"
 		FRS = { create_vassal = THIS }
 		government = absolute_monarchy
-		ai_chance = { factor = 5 }
+		ai_chance = { factor = 1 }
 	}
 	
 	option = { #accept the rule of Iraq
 	    name = "EVT9908OPTD"
 		IRQ = { create_vassal = THIS }
 		government = absolute_monarchy
-		ai_chance = { factor = 5 }
+		ai_chance = { factor = 1 }
 	}
 	
 	option = { #accept the rule of Azerbaijan
 	    name = "EVT9908OPTE"
 		AZB = { create_vassal = THIS }
 		government = absolute_monarchy
-		ai_chance = { factor = 30 }
+		ai_chance = { factor = 1 }
 	}
 	
 	option = { #use the power vacuum 
@@ -286,7 +314,7 @@ country_event = {
 		KHR = { release_vassal = THIS }
 		KHR = { leave_alliance = THIS }
 		government = absolute_monarchy
-		ai_chance = { factor = 65 }
+		ai_chance = { factor = 97 }
 	}
 }
 
@@ -400,6 +428,8 @@ country_event = {
 		1145 = { add_core = FRS }
 		3456 = { add_core = FRS }
 		war_exhaustion = 20
+		FRS = { set_country_flag = gained_kerman }
+		FRS = { add_country_modifier = { name = french_traders duration = 36500 } }
 		ai_chance = { factor = 100 }
 	}
 }
@@ -421,7 +451,7 @@ country_event = {
 		}
 		OR = {
             war_exhaustion = 20
-            national_provinces_occupied = 15
+            national_provinces_occupied = 0.15
 			1130 = { NOT = { controlled_by = THIS } }
 			1140 = { NOT = { owned_by = THIS } }
         }
@@ -432,6 +462,7 @@ country_event = {
 	option = { 
 	    name = "EVT9912OPTA"
 		release = YZD
+		THIS = { casus_belli = { target = YZD type = conquest months = 12 } }
 		war = {
 	            target = YZD
 	            attacker_goal = { casus_belli = conquest }
@@ -475,7 +506,7 @@ country_event = {
 		}
 		OR = {
             war_exhaustion = 25
-            national_provinces_occupied = 20
+            national_provinces_occupied = 0.20
         }
 	}
         
@@ -484,6 +515,7 @@ country_event = {
 	option = { 
 	    name = "EVT9913OPTA"
 		release = HRZ
+		THIS = { casus_belli = { target = HRZ type = conquest months = 12 } }
 		war = {
 	            target = HRZ
 	            attacker_goal = { casus_belli = conquest }
@@ -497,6 +529,7 @@ country_event = {
 	option = { 
 	    name = "EVT9913OPTB"
 		release = HRZ
+		THIS = { casus_belli = { target = HRZ type = conquest months = 12 } }
 		war = {
 	            target = HRZ
 	            attacker_goal = { casus_belli = conquest }
@@ -528,7 +561,7 @@ country_event = {
 		}
 		OR = {
             war_exhaustion = 30
-            national_provinces_occupied = 25
+            national_provinces_occupied = 0.25
         }
 	}
         
@@ -537,6 +570,7 @@ country_event = {
 	option = { 
 	    name = "EVT9914OPTA"
 		release = AFG
+		THIS = { casus_belli = { target = AFG type = conquest months = 12 } }
 		war = {
 	            target = AFG
 	            attacker_goal = { casus_belli = conquest }
@@ -550,6 +584,7 @@ country_event = {
 	option = { 
 	    name = "EVT9914OPTB"
 		release = AFG
+		THIS = { casus_belli = { target = AFG type = conquest months = 12 } }
 		war = {
 	            target = AFG
 	            attacker_goal = { casus_belli = conquest }
@@ -582,7 +617,7 @@ country_event = {
 		}
 		OR = {
             war_exhaustion = 35
-            national_provinces_occupied = 30
+            national_provinces_occupied = 0.30
         }
 	}
         
@@ -595,6 +630,8 @@ country_event = {
 		release = KHI
 		KND = { create_alliance = BDK }
 		KND = { create_vassal = BDK }
+		THIS = { casus_belli = { target = KND type = conquest months = 12 } }
+		THIS = { casus_belli = { target = KHI type = conquest months = 12 } }
 		war = {
 	            target = KND
 	            attacker_goal = { casus_belli = conquest }
@@ -618,6 +655,8 @@ country_event = {
 		release = KHI
 		KND = { create_alliance = BDK }
 		KND = { create_vassal = BDK }
+		THIS = { casus_belli = { target = KND type = conquest months = 12 } }
+		THIS = { casus_belli = { target = KHI type = conquest months = 12 } }
 		war = {
 	            target = KND
 	            attacker_goal = { casus_belli = conquest }
@@ -642,6 +681,8 @@ country_event = {
 		release = KHI
 		KND = { create_alliance = BDK }
 		KND = { create_vassal = BDK }
+		THIS = { casus_belli = { target = KND type = conquest months = 12 } }
+		THIS = { casus_belli = { target = KHI type = conquest months = 12 } }
 		war = {
 	            target = KND
 	            attacker_goal = { casus_belli = conquest }
@@ -682,7 +723,7 @@ country_event = {
 		}
 		OR = {
             war_exhaustion = 45
-            national_provinces_occupied = 35
+            national_provinces_occupied = 0.35
         }
 	}
         
@@ -695,6 +736,7 @@ country_event = {
 		1204 = { secede_province = TKM }
 		3399 = { secede_province = TKM }
 		3285 = { secede_province = TKM }
+		THIS = { casus_belli = { target = TKM type = conquest months = 12 } }
 		war = {
 	            target = TKM
 	            attacker_goal = { casus_belli = conquest }
@@ -729,7 +771,7 @@ country_event = {
 		}
 		OR = {
             war_exhaustion = 60
-            national_provinces_occupied = 55
+            national_provinces_occupied = 0.55
         }
 	}
         
@@ -764,6 +806,9 @@ country_event = {
 		release = KST
 		release = MHL
 		release = JYL
+		any_owned = { limit = { is_core = THIS NOT = { region = AFG_1212 } NOT = { region = PER_1148 } NOT = { region = PER_1147 } } remove_core = THIS }
+		add_core = 1212
+		government = bourgeois_dictatorship
 		any_country = {
 		    limit = { 
 			    war_with = THIS
@@ -783,6 +828,7 @@ country_event = {
 		release = KST
 		release = MHL
 		release = JYL
+		government = bourgeois_dictatorship
 		any_country = {
 		    limit = { 
 			    war_with = THIS
@@ -794,7 +840,7 @@ country_event = {
 	}
 	
 	option = { 
-	    name = "EVT9919OPTB"
+	    name = "EVT9919OPTC"
 		release = BYT
 		release = BRL
 		release = AFS
@@ -803,6 +849,7 @@ country_event = {
 		release = KST
 		release = MHL
 		release = JYL
+		government = bourgeois_dictatorship
 		any_country = {
 		    limit = { 
 			    war_with = THIS
@@ -814,7 +861,7 @@ country_event = {
 	}
 	
 	option = { 
-	    name = "EVT9919OPTB"
+	    name = "EVT9919OPTD"
 		release = BYT
 		release = BRL
 		release = AFS
@@ -823,6 +870,7 @@ country_event = {
 		release = KST
 		release = MHL
 		release = JYL
+		government = bourgeois_dictatorship
 		any_country = {
 		    limit = { 
 			    war_with = THIS
@@ -834,33 +882,13 @@ country_event = {
 	}
 	
 	option = { 
-	    name = "EVT9919OPTB"
-		release = BYT
-		release = BRL
-		release = AFS
-		release = QRI
-		release = MSM
-		release = KST
-		release = MHL
-		release = JYL
-		any_country = {
-		    limit = { 
-			    war_with = THIS
-			}
-			end_war = THIS
-		}
-		change_tag_no_core_switch = QRI
-		ai_chance = { factor = 0 }
-	}
-	
-	option = { 
-	    name = "EVT9919OPTC"
+	    name = "EVT9919OPTF"
 		country_event = 9924
 		ai_chance = { factor = 0 }
 	}
 }
 
-#Mishmast to Jayaler
+#Mishmast to Qara'i
 country_event = {
     id = 9924
     title = "EVTNAME9924"
@@ -878,6 +906,7 @@ country_event = {
 		release = KST
 		release = MHL
 		release = JYL
+		government = bourgeois_dictatorship
 		any_country = {
 		    limit = { 
 			    war_with = THIS
@@ -898,6 +927,7 @@ country_event = {
 		release = KST
 		release = MHL
 		release = JYL
+		government = bourgeois_dictatorship
 		any_country = {
 		    limit = { 
 			    war_with = THIS
@@ -918,6 +948,7 @@ country_event = {
 		release = KST
 		release = MHL
 		release = JYL
+		government = bourgeois_dictatorship
 		any_country = {
 		    limit = { 
 			    war_with = THIS
@@ -938,6 +969,7 @@ country_event = {
 		release = KST
 		release = MHL
 		release = JYL
+		government = bourgeois_dictatorship
 		any_country = {
 		    limit = { 
 			    war_with = THIS
@@ -945,6 +977,27 @@ country_event = {
 			end_war = THIS
 		}
 		change_tag_no_core_switch = JYL
+		ai_chance = { factor = 0 }
+	}
+	
+	option = { 
+	    name = "EVT9924OPTE"
+		release = BYT
+		release = BRL
+		release = AFS
+		release = QRI
+		release = MSM
+		release = KST
+		release = MHL
+		release = JYL
+		government = bourgeois_dictatorship
+		any_country = {
+		    limit = { 
+			    war_with = THIS
+			}
+			end_war = THIS
+		}
+		change_tag_no_core_switch = QRI
 		ai_chance = { factor = 0 }
 	}
 }
@@ -971,6 +1024,7 @@ country_event = {
 		end_war = IRQ
 		inherit = IRQ
 		prestige = 25
+		all_core = { limit = { is_core = IRQ } remove_core = IRQ add_core = MFQ }
 		any_country = {
 		    limit = { 
 			    OR = {
@@ -1086,6 +1140,7 @@ country_event = {
 			country_event = 9922
 		}
 		MFQ = { country_event = 9923 }
+		LUR = { country_event = 88004 }
 		ai_chance = { factor = 100 }
 	}
 }
@@ -1101,13 +1156,13 @@ country_event = {
 	option = { 
 	    name = "EVT9922OPTA" #Side with the Beghdilids
 		KRM = { create_vassal = THIS }
-		ai_chance = { factor = 30 }
+		ai_chance = { factor = 70 }
 	}
 	
 	option = { 
 	    name = "EVT9922OPTB" #Our current course is fine
-		KRM = { tag = THIS add_casus_belli = conquest months = 24 }
-		ai_chance = { factor = 70 }
+		KRM = { casus_belli = { target = THIS type = conquest months = 24 } }
+		ai_chance = { factor = 30 }
 	}
 }
 
@@ -1127,110 +1182,86 @@ country_event = {
 	
 	option = { 
 	    name = "EVT9923OPTB" #Let them come
-		KRM = { tag = THIS add_casus_belli = conquest months = 24 }
+		KRM = { casus_belli = { target = THIS type = conquest months = 24 } }
 		ai_chance = { factor = 5 }
 	}
 }
 
-#Shiite Refugees
+#The Tragic Death of Abu Sa'id Mirza
 country_event = {
-    id = 9902
-    title = "EVTNAME9902"
-    desc = "EVTDESC9902"
-	picture = "kazan_refugees"
-        
-    is_triggered_only = yes
-
-    option = {
-		name = "EVT9902OPTA"
-        1032 = { 
-		     any_pop = { 
-			      limit = {
-				        religion = shiite
-				  }
-		    reduce_pop = 0.9
-			move_pop = 1123 #Zanjan
-			}
+    id = 99241
+    title = "The Tragic Death of Abu Sa'id Mirza"
+    desc = "EVTDESC99241"
+	picture = "turkmen_tribes"
+	
+	fire_only_once = yes
+	
+	trigger = {
+	    1129 = { owned_by = AJM }
+		AJM = { vassal_of = FRS }
+		tag = FRS
+	}
+	
+	mean_time_to_happen = {
+	    days = 180
+	}
+	
+	option = { 
+	    name = "Install his son as a puppet in Tehran"
+		inherit = AJM
+		1121 = { secede_province = AJM }
+		create_vassal = AJM
+		AJM = { all_core = { add_core = THIS } }
+		AJM = { government = colonial_company }
+		any_pop = {
+			militancy = -2
 		}
-		1123 = {
-	          add_province_modifier = {
-		      name = kazan_refugees
-		      duration = 856
-	        }
-	    }
-		1033 = { 
-		     any_pop = { 
-			      limit = {
-				        religion = shiite
-				  }
-		    reduce_pop = 0.95
-			move_pop = 3319 #Tarki
-			}
-		}
-		3319 = {
-	          add_province_modifier = {
-		      name = kazan_refugees
-		      duration = 856
-	        }
-	    }
-		1034 = { 
-		     any_pop = { 
-			      limit = {
-				        religion = shiite
-				  }
-		    reduce_pop = 0.95
-			move_pop = 1112 #Ardabil
-			}
-		}
-		1112 = {
-	          add_province_modifier = {
-		      name = kazan_refugees
-		      duration = 856
-	        }
-	    }
-		1030 = { 
-		     any_pop = { 
-			      limit = {
-				        religion = shiite
-				  }
-		    reduce_pop = 0.9
-			move_pop = 1124 #Qazvin
-			}
-		}
-	   1124 = {
-	          add_province_modifier = {
-		      name = kazan_refugees
-		      duration = 856
-	        }
-	    }
+		set_country_flag = death_of_abu_said_mirza
+		ai_chance = { factor = 100 }
 	}
 }
 
-#Shiite Refugees (Candar)
+#Claiming the Timurid Legacy
 country_event = {
-    id = 9903
-    title = "EVTNAME9903"
-    desc = "EVTDESC9903"
-	picture = "kazan_refugees"
-        
-    is_triggered_only = yes
-
-    option = {
-		name = "EVT9903OPTA"
-        1042 = { 
-		     any_pop = { 
-			      limit = {
-				        religion = shiite
-				  }
-		    reduce_pop = 0.98
-			move_pop = 883 #Sinope
+    id = 99242
+    title = "Claiming the Timurid Legacy"
+    desc = "EVTDESC99242"
+	picture = "delhi_sultan"
+	
+	fire_only_once = yes
+	
+	trigger = {
+	    tag = FRS
+	    has_country_flag = death_of_abu_said_mirza
+		war = no
+		is_vassal = no
+		prestige = 30
+		TKO = { vassal_of = THIS }
+	}
+	
+	mean_time_to_happen = {
+	    days = 30
+	}
+	
+	option = { 
+	    name = "Iran will be whole once again!"
+		relation = {
+			    who = KHR
+				value = -200
 			}
-		}
-		883 = {
-	          add_province_modifier = {
-		      name = kazan_refugees
-		      duration = 856
-	        }
-	    }
+			relation = {
+			    who = BUK
+				value = -200
+			}
+			relation = {
+			    who = IRQ
+				value = -200
+			}
+			relation = {
+			    who = AZB
+				value = -200
+			}
+		set_country_flag = claimed_timurid_succession
+		ai_chance = { factor = 100 }
 	}
 }

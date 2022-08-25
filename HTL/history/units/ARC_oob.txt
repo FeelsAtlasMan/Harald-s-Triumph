@@ -1,0 +1,145 @@
+NRD = {
+	value = -100
+}
+
+SAX = {
+	value = -150
+}
+
+BAH = {
+	value = 75
+}
+
+INC = {
+	value = -200
+}
+
+PNB = {
+	value = -100
+}
+
+
+army = {
+	name = "Streitkräfte der Argentinischen Föderation"
+	location = 2348
+	regiment = {
+		name= "1. Infanteristen"
+		type = infantry
+		home = 2348
+	}
+	
+	regiment = {
+		name= "2. Infanteristen"
+		type = infantry
+		home = 2348
+	}
+	
+	regiment = {
+		name= "3. Infanteristen"
+		type = infantry
+		home = 2348
+	}
+	regiment = {
+		name= "4. Infanteristen"
+		type = infantry
+		home = 2379
+	}
+	regiment = {
+		name= "5. Infanteristen"
+		type = infantry
+		home = 2379
+	}
+}
+
+army = {
+	name = "Streitkräfte der Argentinischen Föderation"
+	location = 2325
+	regiment = {
+		name= "1. Infanteristen"
+		type = infantry
+		home = 2324
+	}
+	
+	regiment = {
+		name= "2. Infanteristen"
+		type = infantry
+		home = 2324
+	}
+	
+	regiment = {
+		name= "3. Infanteristen"
+		type = infantry
+		home = 2324
+	}
+	regiment = {
+		name= "4. Infanteristen"
+		type = infantry
+		home = 2325
+	}
+	regiment = {
+		name= "5. Infanteristen"
+		type = infantry
+		home = 2379
+	}
+}
+
+army = {
+	name = "Südlicher Grenzertrupp"
+	location = 2332
+	regiment = {
+		name= "1. Infanteristen"
+		type = infantry
+		home = 2328
+	}
+}
+
+army = {
+	name = "Nördlicher Grenzertrupp"
+	location = 2332
+	regiment = {
+		name= "1. Infanteristen"
+		type = infantry
+		home = 2326
+	}
+}
+
+army = {
+	name = "Nördlicher Grenzertrupp"
+	location = 2332
+	regiment = {
+		name= "1. Infanteristen"
+		type = infantry
+		home = 2322
+	}
+}
+
+army = {
+	name = "Guaranenlandtrupp"
+	location = 2339
+	regiment = {
+		name= "1. Infanteristen"
+		type = infantry
+		home = 2339
+	}
+	
+	regiment = {
+		name= "2. Infanteristen"
+		type = infantry
+		home = 2339
+	}
+	
+	regiment = {
+		name= "3. Infanteristen"
+		type = infantry
+		home = 2339
+	}
+}
+
+leader = {
+   name = "Friedrich Swallenbach"
+   type = land
+   date = 1836.1.1
+   background = aristocrat
+   personality = implacable
+}
+

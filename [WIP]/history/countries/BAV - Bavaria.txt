@@ -1,7 +1,5 @@
 capital = 599
 primary_culture = south_german
-culture = swiss_german
-culture = north_german
 religion = catholic
 government = absolute_monarchy
 plurality = 15.0
@@ -82,13 +80,10 @@ basic_chemistry = 1
 
 #Inventions
 
-schools = industrial_tech_school
-
 # Starting Consciousness
 consciousness = 2
 nonstate_consciousness = 0
 
-oob = "BAV_oob.txt"
 1861.1.1 = {
 	oob = "/1861/BAV_oob.txt"
 }

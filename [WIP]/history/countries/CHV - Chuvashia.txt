@@ -1,11 +1,11 @@
 capital = 3309
 primary_culture = chuvashian
 religion = orthodox
-government = democracy
+government = colonial_company
 plurality = 0.02
-nationalvalue = nv_order
+nationalvalue = nv_tradition
 literacy = 0.1
-civilized = yes
+civilized = no
 
 # Political reforms
 slavery = yes_slavery
@@ -33,9 +33,10 @@ penal_system = capital_punishment
 child_labor = child_labor_legal
 citizens_rights = primary_culture_only
 border_policy = open_borders
-centralization = unitary
+centralization = regionalism
 colonial_policy = no_colonies 
 
+oob = "CHV_oob.txt"
 
 ruling_party = TAR_conservative
 upper_house = {

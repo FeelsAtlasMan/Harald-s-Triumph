@@ -50,12 +50,12 @@ country_event = {
 
 	option = {
 		name = "EVTOPTA1000"
-		enable_ideology = socialist
+		enable_ideology = communist #now Socialist
 	}
 }
 
 #####################
-# Enable Communists
+# Enable Socialdemocrats
 #####################
 country_event = {
 	id = 1001
@@ -69,7 +69,7 @@ country_event = {
 	
 	trigger = {
 		NOT = {
-			is_ideology_enabled = communist 
+			is_ideology_enabled = socialist #now Socialdemocrats
 		}
 		year = 1870
 		civilized = yes
@@ -110,7 +110,7 @@ country_event = {
 
 	option = {
 		name = "EVTOPTA1001"
-		enable_ideology = communist
+		enable_ideology = socialist
 		random_list = {
 			34 = {
 			}
@@ -120,7 +120,7 @@ country_event = {
 				poor_strata = {
 					ideology = {
 						factor = 0.02
-						value = communist
+						value = socialist
 						}
 					}
 				}
@@ -131,7 +131,7 @@ country_event = {
 				poor_strata = {
 					ideology = {
 						factor = 0.04
-						value = communist
+						value = socialist
 						}
 					}
 				}

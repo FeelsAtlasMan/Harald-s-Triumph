@@ -46,6 +46,7 @@ political_decisions = {
 			890 = { add_core = THIS }
 			107 = { add_core = THIS }
 			3371 = { add_core = THIS }
+			3659 = { add_core = THIS }
 			882 = { add_core = THIS }
 			RUS_1098 = { add_core = THIS }
 			TUR_889 = { add_core = THIS }
@@ -76,7 +77,7 @@ political_decisions = {
 		}
 		effect = {
 		    badboy = 2
-			1054 = { add_core = THIS }
+			1056 = { add_core = THIS }
 			add_accepted_culture = scythian
 			set_country_flag =  owns_darial 
 		}
@@ -106,9 +107,7 @@ political_decisions = {
 		}
 		effect = {
 		    badboy = 8
-			1103 = { add_core = THIS }
-			3320 = { add_core = THIS }
-			RUS_1102 = { add_core = THIS }
+			ALW = { all_core = { add_core = GEO } }
 			add_accepted_culture = alvuanian
 			set_country_flag =  integrated_alvuanians 
 		}
@@ -121,6 +120,7 @@ political_decisions = {
 		}
 	}
 	
+	#Armenia
     claim_eastern_armenia = {
 	    picture = "unite_caucasus"
 		potential = {
@@ -138,8 +138,46 @@ political_decisions = {
 			1105 = { add_core = THIS }
 			1106 = { add_core = THIS }
 			RUS_1098 = { add_core = THIS }
-			badboy = 10
+			badboy = 5
 			set_country_flag =  claimed_eastern_armenia 
+		}
+		ai_will_do = {
+		    factor = 1
+			modifier = {
+			     factor = 0
+				 badboy = 0.75
+			}
+		}
+	}
+	
+	restoration_of_greater_armenia = {
+	    picture = "unite_caucasus"
+		potential = {
+	        tag = ARM
+			NOT = { has_country_flag = restorated_greater_armenia }
+			has_country_flag = claimed_eastern_armenia
+		}
+		allow = {
+			all_core = {
+			    owned_by = THIS
+			}
+		}
+		effect = {
+		    887 = { add_core = THIS }
+			1107 = { add_core = THIS }
+		    1109 = { add_core = THIS }
+			1110 = { add_core = THIS }
+			3379 = { add_core = THIS }
+			3380 = { add_core = THIS }
+			3434 = { add_core = THIS }
+			3651 = { add_core = THIS }
+			3652 = { add_core = THIS }
+			3654 = { add_core = THIS }
+			TUR_885 = { add_core = THIS }
+			TUR_890 = { add_core = THIS }
+			TUR_893 = { add_core = THIS }
+			badboy = 15
+			set_country_flag =  restorated_greater_armenia 
 		}
 		ai_will_do = {
 		    factor = 1
@@ -154,10 +192,6 @@ political_decisions = {
 	    picture = "greater_armenia"
 		potential = {
 	        tag = KCN
-			has_country_flag =  claimed_eastern_armenia 
-			1106 = { owned_by = THIS }
-			1105 = { owned_by = THIS }
-			RUS_1098 = { owned_by = THIS }
 			ARM = { exists = no }
 		}
 		allow = {
@@ -168,10 +202,160 @@ political_decisions = {
 		}
 		effect = {
 			change_tag = ARM 
+			all_core = { remove_core = KCN } 
 			prestige = 10
 		}
 		ai_will_do = {
 			factor = 1
+		}
+	}
+	
+	rebuilding_of_ani = {
+	    picture = "australia2nd"
+		potential = {
+	        tag = ARM
+			NOT = { has_country_flag = is_rebuilding_ani }
+		}
+		allow = {
+		    1105 = { owned_by = THIS }
+			1106 = { owned_by = THIS }
+			RUS_1098 = { owned_by = THIS }
+			is_vassal = no
+		}
+		effect = {
+			capital = 885 
+			885 = { change_province_name = "Ani" }
+			885 = { life_rating = 5 }
+			prestige = 10
+			set_country_flag = is_rebuilding_ani
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	#Larp Path 1
+	the_legacy_of_the_arsacids  = {
+	    picture = "unite_caucasus"
+		potential = {
+	        tag = ARM
+			NOT = { has_country_flag = legacy_of_arsacids }
+			NOT = { has_country_flag = legacy_of_tigranes }
+			has_country_flag = restorated_greater_armenia
+		}
+		allow = {
+			all_core = {
+			    owned_by = THIS
+			}
+			nationalism_n_imperialism = 1
+		}
+		effect = {
+		    1104 = { add_core = THIS }
+			3370 = { add_core = THIS }
+			RUS_1090 = { add_core = THIS }
+			add_accepted_culture = georgian
+			badboy = 5
+			set_country_flag =  legacy_of_arsacids 
+		}
+		ai_will_do = {
+		    factor = 1
+			modifier = {
+			     factor = 0
+				 badboy = 0.75
+			}
+		}
+	}
+	
+	the_neo_parthian_empire  = {
+	    picture = "neo_parthian_larp"
+		potential = {
+	        tag = ARM
+			has_country_flag = parthian_larp_media
+			has_country_flag = parthian_larp_tabarestan
+			has_country_flag = parthian_larp_mesopotamia
+			has_country_flag = parthian_larp_parthava
+			has_country_flag = parthian_larp_pars
+			NOT = { NPT = { exists = yes } }
+		}
+		allow = {
+			all_core = {
+			    owned_by = THIS
+			}
+			is_greater_power = yes
+			prestige = 100
+		}
+		effect = {
+		    change_tag = NPT
+			primary_culture = neo_parthian
+			all_core = { remove_core = ARM } 
+			1105 = { state_scope = { change_region_name = "Alwan" } }
+			PER_1145 = { add_core = this }
+		}
+		ai_will_do = {
+		    factor = 1
+		}
+	}
+	
+	neo_parthian_identity  = {
+	    picture = "neo_parthian_larp"
+		potential = {
+	        tag = NPT
+			NOT = { has_country_flag = forging_neo_parthian_identity  }
+		}
+		allow = {
+			revolution_n_counterrevolution = 1
+		}
+		effect = {
+		    set_country_flag = forging_neo_parthian_identity
+			add_accepted_culture = tat
+			add_accepted_culture = persian
+			add_accepted_culture = semnani
+			add_accepted_culture = mazanderani
+			add_accepted_culture = gilaki
+			add_accepted_culture = talysh
+			add_accepted_culture = raji
+			add_accepted_culture = armenian
+		}
+		ai_will_do = {
+		    factor = 1
+		}
+	}
+	
+	#Larp Path 2
+	the_legacy_of_the_tigranes  = {
+	    picture = "unite_caucasus"
+		potential = {
+	        tag = ARM
+			NOT = { has_country_flag = legacy_of_arsacids }
+			NOT = { has_country_flag = legacy_of_tigranes }
+			has_country_flag = restorated_greater_armenia
+		}
+		allow = {
+			all_core = {
+			    owned_by = THIS
+			}
+			nationalism_n_imperialism = 1
+		}
+		effect = {
+		    URF_920 = { add_core = THIS }
+			EGY_897 = { add_core = THIS }
+			888 = { add_core = THIS }
+			889 = { add_core = THIS }
+			894 = { add_core = THIS }
+			895 = { add_core = THIS }
+			3339 = { add_core = THIS }
+			3377 = { add_core = THIS }
+			3417 = { add_core = THIS }
+			add_accepted_culture = assyrian
+			badboy = 15
+			set_country_flag =  legacy_of_tigranes 
+		}
+		ai_will_do = {
+		    factor = 1
+			modifier = {
+			     factor = 0
+				 badboy = 0.75
+			}
 		}
 	}
 	
@@ -192,52 +376,7 @@ political_decisions = {
 		}
 	}
 	
-    claim_greater_armenia = {
-	    picture = "greater_armenia"
-		potential = {
-	        tag = ARM
-			is_greater_power = yes
-			NOT = { has_country_flag = claimed_greater_armenia }
-		}
-
-		allow = {
-		    war_policy = jingoism
-			romanticism = 1
-			nationalism_n_imperialism = 1
-			is_greater_power = yes
-			all_core = {
-				   owned_by = THIS
-				}
-		}
-		effect = {
-			EGY_897 = { add_core = THIS }
-			TUR_894 = { add_core = THIS }
-			TUR_893 = { add_core = THIS }
-			TUR_890 = { add_core = THIS }
-			3379 = { add_core = THIS }
-			3380 = { add_core = THIS }
-			3365 = { add_core = THIS }
-			3367 = { add_core = THIS }
-			3371 = { add_core = THIS }
-			1090 = { add_core = THIS }
-			1093 = { add_core = THIS }
-			886 = { add_core = THIS }
-			889 = { add_core = THIS }
-			879 = { add_core = THIS }
-			878 = { add_core = THIS }
-			prestige = 30
-			badboy = 24
-			set_country_flag = claimed_greater_armenia
-		}
-		ai_will_do = {
-		    factor = 1
-			modifier = {
-			     factor = 0
-				 badboy = 0.75
-			}
-		}
-	}
-	
+	#Ossetia
     restore_alania = {
 	    picture = "unite_caucasus"
 		potential = {
@@ -252,11 +391,18 @@ political_decisions = {
 				}
 		}
 		effect = {
-			3397 = { add_core = THIS }
 			1050 = { add_core = THIS }
 			3318 = { add_core = THIS }
+			3349 = { add_core = THIS }
+			3351 = { add_core = THIS }
+			3362 = { add_core = THIS }
+			3397 = { add_core = THIS }
+			3401 = { add_core = THIS }
+			3669 = { add_core = THIS }
+			3670 = { add_core = THIS }
+			3673 = { add_core = THIS }
 			prestige = 10
-			badboy = 4
+			badboy = 10
 			set_country_flag = alanian_kingdom
 		}
 		ai_will_do = {
@@ -264,6 +410,7 @@ political_decisions = {
 		}
 	}
 	
+	#####NC
 	unite_the_north_caucasus = {
 	    picture = "unite_caucasus"
 		potential = {
@@ -299,13 +446,23 @@ political_decisions = {
 			add_accepted_culture = tawlula
 			add_accepted_culture = dargin
 			add_accepted_culture = avar
-			add_accepted_culture = andi_didoic
+			add_accepted_culture = budukh_kryts
+			add_accepted_culture = aghul
+			add_accepted_culture = tabasaran
+			add_accepted_culture = rutul
+			add_accepted_culture = tsakhur
+			add_accepted_culture = khinalug
+			add_accepted_culture = andi
+			add_accepted_culture = tsezic
+			add_accepted_culture = lak_cauc
 			add_accepted_culture = ubykh
-			add_accepted_culture = abas
+			add_accepted_culture = abaza
 			add_accepted_culture = kabardian
 			add_accepted_culture = chechen
 			add_accepted_culture = ingush
 			CIR = { all_core = { add_core = THIS } }
+			ABZ = { all_core = { add_core = THIS } }
+			KBD = { all_core = { add_core = THIS } }
 			DAG = { all_core = { add_core = THIS } }
 			KMY = { all_core = { add_core = THIS } }
 			GMZ = { all_core = { add_core = THIS } }
@@ -317,6 +474,7 @@ political_decisions = {
 		}
 	}
 	
+	#Kumyk Khanate
 	proclaim_shamkhalate = {
 	    picture = "unite_caucasus"
 		potential = {
@@ -338,14 +496,11 @@ political_decisions = {
 		}
 	}
 	
+	#Daghestan OPMs
 	unite_daghestan = {
 	    picture = "unite_caucasus"
 		potential = {
-		    OR = {
-	           tag = DAG
-			   tag = GMZ
-			   tag = CHY
-			}
+		    is_culture_group = caspian_caucasian
 			NOT = { has_country_flag = united_daghestan }
 		}
 		allow = {
@@ -355,16 +510,82 @@ political_decisions = {
 			GMZ = { all_core = { owned_by = THIS } }
 		}
 		effect = {
+			add_accepted_culture = lezgic
+			add_accepted_culture = kumyk
+			add_accepted_culture = tawlula
 			add_accepted_culture = dargin
 			add_accepted_culture = avar
+			add_accepted_culture = budukh_kryts
+			add_accepted_culture = aghul
+			add_accepted_culture = tabasaran
+			add_accepted_culture = rutul
+			add_accepted_culture = tsakhur
+			add_accepted_culture = khinalug
+			add_accepted_culture = andi
+			add_accepted_culture = tsezic
+			add_accepted_culture = lak_cauc
 			add_accepted_culture = chechen
 			add_accepted_culture = ingush
-			add_accepted_culture = kumyk
 			prestige = 10
 			RUS_1052 = { add_core = THIS }
 			TIM_1055 = { add_core = THIS }
 			GMZ = { all_core = { add_core = THIS } }
 			set_country_flag = united_daghestan
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	#Circassia
+	throw_the_crimeans_out = {
+	    picture = "unite_caucasus"
+		potential = {
+		    tag = CIR
+			NOT = { has_country_flag = threw_the_crimeans_out }
+			CIR = { vassal_of = CRI }
+		}
+		allow = {
+		    AND = {
+			    foreign_artillery = yes_foreign_artillery
+				has_global_flag = timurd_succ_war
+			}
+		}
+		
+		effect = {
+			CRI = { release_vassal = CIR }
+			war = {
+	            target = CRI
+	            attacker_goal = { casus_belli = humiliate tag = CRI }
+	            defender_goal = { casus_belli = make_puppet tag = CIR }
+	            call_ally = no
+            }
+			
+			set_country_flag = threw_the_crimeans_out
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	greater_circassia = {
+	    picture = "unite_caucasus"
+		potential = {
+		    tag = CIR
+			NOT = { has_country_flag = claimed_greater_circassia }
+			CIR = { vassal_of = CRI }
+		}
+		allow = {
+		   nationalism_n_imperialism = 1
+		   civilized = yes
+		}
+		
+		effect = {
+			KBD_1500 = { add_core = THIS }
+			RUS_1048 = { add_core = THIS }
+			ABZ = { all_core = { add_core = CIR } }
+			1095 = { add_core = THIS }
+			set_country_flag = claimed_greater_circassia
 		}
 		ai_will_do = {
 			factor = 1

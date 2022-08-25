@@ -1,0 +1,520 @@
+country_event = {
+	id = 188000
+	title = "Tverite Struggle for Power"
+	desc = "EVTDESC188000"
+	picture = "revolution"
+	fire_only_once = yes
+	
+	trigger = {
+		tag = MUS
+		year = 1836
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+		
+	option = {
+		name = "Game Jover for us"
+		add_country_modifier = {
+			name = boyar_oligarchy
+			duration = -1
+		}
+		add_country_modifier = {
+			name = serf_republic_fugatives
+			duration = -1
+		}
+		set_variable = {
+			which = michail_absolutism
+			value = 1
+		}
+		set_variable = {
+			which = boyar_rebellion
+			value = 1
+		}
+	}
+}
+country_event = {
+	id = 188001
+	title = "Tverite Proposal"
+	desc = "EVTDESC188001"
+	picture = "revolution"
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = "Sigma Box"
+		random_owned = {
+			limit = {
+				owner = {
+					owns = 994
+					owns = 997
+				}
+			}
+			owner = {
+				994 = {
+					secede_province = MUS
+					add_core = MUS
+				}
+				997 = {
+					secede_province = MUS
+					add_core = MUS
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					IZH = { owns = 994 }
+					IZH = { owns = 997 }
+					IZH = { substate_of = THIS }
+				}
+			}
+			owner = {
+				994 = {
+					secede_province = MUS
+					add_core = MUS
+				}
+				997 = {
+					secede_province = MUS
+					add_core = MUS
+				}
+			}
+		}
+		994 = { ###994 - St.Petersburg/Noteburg should be switched for a new small province in Ingria
+			add_province_modifier = {
+				name = window_to_the_west
+				duration = -1
+			}
+		}
+	}
+	
+	option = {
+		name = "Kill yourself"
+		relation = {
+			who = MUS
+			value = -100
+		}
+		MUS = {
+			prestige = 15
+		}
+	}
+}
+country_event = {
+	id = 188002
+	title = "Nakaz Of $YEAR$"
+	desc = "EVTDESC188002"
+	picture = "revolution"
+	is_triggered_only = yes
+		
+	option = {
+		name = "Game Jover for my enemies"
+		random_owned = {
+			limit = {
+				owner = {
+					check_variable = {
+						which = michail_absolutism
+						value = 3
+					}
+				}
+			}
+			owner = {
+				political_reform = unitary
+				political_reform = party_appointed
+				political_reform = none_voting
+				add_country_modifier = {
+					name = nakaz
+					duration = -1
+				}
+				PLK = { all_core = { add_core = THIS } annex_to = THIS }
+				VYA = { all_core = { add_core = THIS } annex_to = THIS }
+				VLA = { all_core = { add_core = THIS } annex_to = THIS }
+				NNO = { all_core = { add_core = THIS } annex_to = THIS }
+				GAL = { all_core = { add_core = THIS } annex_to = THIS }
+				KOM = { all_core = { add_core = THIS } annex_to = THIS }
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					NOT = {
+						check_variable = {
+							which = michail_absolutism
+							value = 3
+						}
+					}
+				}
+			}
+			owner = {
+				government = prussian_constitutionalism
+				political_reform = federalism
+				political_reform = landed_voting
+				political_reform = culture_voting_only
+				political_reform = gerrymandering
+				political_reform = censored_press
+				PLK = { all_core = { add_core = THIS } annex_to = THIS }
+				VYA = { all_core = { add_core = THIS } annex_to = THIS }
+				VLA = { all_core = { add_core = THIS } annex_to = THIS }
+				NNO = { all_core = { add_core = THIS } annex_to = THIS }
+				GAL = { all_core = { add_core = THIS } annex_to = THIS }
+				KOM = { all_core = { add_core = THIS } annex_to = THIS }
+			}
+		}
+	}
+}
+country_event = {
+	id = 188003
+	title = "Imperial Rus"
+	desc = "EVTDESC188003"
+	major = yes
+	news = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = "W"
+		prestige = 25
+	}
+}
+
+country_event = {
+	id = 188004
+	title = "Skobelev Uprising!"
+	desc = "EVTDESC188004"
+	major = yes
+	news = yes
+	fire_only_once = yes
+	
+	trigger = {
+		debt_law = serfdom
+		owns = 977
+		owns = 1019
+		owns = 3360
+		NOT = { exists = KRC }
+	}
+		
+	option = {
+		name = "Oh SHIT oh FUCK"
+		any_owned = {
+			limit = {
+				OR = {
+					is_core = KRC
+					is_core = VOR
+					is_core = QAS
+					is_core = PEN
+					is_core = MVI
+					is_core = RYA
+				}
+			}
+			add_core = KRC
+			secede_province = KRC
+		}
+		KRC = {
+			government = democracy
+			war = {
+				target = MUS
+				attacker_goal = { casus_belli = status_quo }
+				defender_goal = { casus_belli = conquest_any }
+				call_ally = no		
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 188005
+	title = "The Baltic Question"
+	desc = "EVTDESC188005"
+	fire_only_once = yes
+	
+	trigger = {
+		debt_law = serfodm
+		owns = 354
+		owns = 349
+		owns = 996
+		NOT = { exists = EST }
+		NOT = { exists = IZH }
+		NOT = { exists = LAT }
+	}
+		
+	option = {
+		name = "Wdym you're litterly Russian"
+		any_owned = {
+			limit = {
+				OR = {
+					is_core = IZH
+					is_core = LAT
+					is_core = EST
+				}
+			}
+			add_province_modifier = {
+				name = russification
+				duration = 7300
+			}
+		}
+	}
+	
+	option = {
+		name = "Give em breathing room"
+		any_owned = {
+			limit = {
+				OR = {
+					is_core = IZH
+					is_core = LAT
+					is_core = EST
+				}
+			}
+			any_pop = {
+				militancy = -3
+				consciousness = -3
+			}
+		}
+		add_accepted_culture = ingrian
+	}
+}
+
+country_event = {
+	id = 188006
+	title = "Boyars Rebel!"
+	desc = "EVTDESC188006"
+	major = yes
+	news = yes
+	fire_only_once = yes
+	
+	trigger = {
+		check_variable = {
+			which = boyar_rebellion
+			value = 5
+		}
+	}
+	
+	immediate = {
+		add_country_modifier = {
+			name = boyar_rebel
+			duration = 1825
+		}
+	}
+	
+	option = {
+		name = "On God?"
+		set_country_flag = boyar_rev
+		release_vassal = PLK
+		release_vassal = VYA
+		release_vassal = VLA
+		release_vassal = NNO
+		release_vassal = GAL
+		release_vassal = KOM
+		PLK = {
+			war = {
+				target = MUS
+				attacker_goal = { casus_belli = become_independent }
+				defender_goal = { casus_belli = make_puppet }
+				call_ally = no		
+			}
+		}
+		VYA = {
+			war = {
+				target = MUS
+				attacker_goal = { casus_belli = become_independent }
+				defender_goal = { casus_belli = make_puppet }
+				call_ally = no		
+			}
+		}
+		VLA = {
+			war = {
+				target = MUS
+				attacker_goal = { casus_belli = become_independent }
+				defender_goal = { casus_belli = make_puppet }
+				call_ally = no		
+			}
+		}
+		NNO = {
+			war = {
+				target = MUS
+				attacker_goal = { casus_belli = become_independent }
+				defender_goal = { casus_belli = make_puppet }
+				call_ally = no		
+			}
+		}
+		GAL = {
+			war = {
+				target = MUS
+				attacker_goal = { casus_belli = become_independent }
+				defender_goal = { casus_belli = make_puppet }
+				call_ally = no		
+			}
+		}
+		KOM = {
+			war = {
+				target = MUS
+				attacker_goal = { casus_belli = become_independent }
+				defender_goal = { casus_belli = make_puppet }
+				call_ally = no		
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 188007
+	title = "Boyars Offer Peace"
+	desc = "EVTDESC188007"
+	fire_only_once = yes
+	
+	trigger = {
+		has_country_flag = boyar_rev
+		998 = {
+			NOT = { controlled_by = THIS }
+		}
+	}
+	
+	option = {
+		name = "Fine"
+		political_reform = serfdom
+		political_reform = confederalism
+		set_variable = {
+			which = michail_absolutism
+			value = 1
+		}
+		create_vassal = PLK
+		create_vassal = VYA
+		create_vassal = VLA
+		create_vassal = NNO
+		create_vassal = GAL
+		create_vassal = KOM
+	}
+	
+	option = {
+		name = "Kill Yourselves"
+		war_exhaustion = 5
+	}
+}
+############################################
+#########How to piss off Boyars 101#########
+############################################
+
+country_event = {
+	id = 188008
+	title = "Princess Yakaterina"
+	desc = "EVTDESC188008"
+	fire_only_once = yes
+	
+	trigger = {
+		year = 1839
+		tag = MUS
+	}
+	
+	option = {
+		name = "Marry her off to a Kurlandish Prince"
+		change_variable = {
+			which = boyar_rebellion
+			value = 2
+		}
+		change_variable = {
+			which = michail_absolutism
+			value = 2
+		}
+	}
+	
+	option = {
+		name = "Marry her off to a Perm Prince"
+		change_variable = {
+			which = boyar_rebellion
+			value = 1
+		}
+		change_variable = {
+			which = michail_absolutism
+			value = 1
+		}
+	}
+	
+	option = {
+		name = "Marry her off to a Boyar"
+	}
+}
+country_event = {
+	id = 188009
+	title = "Unification of Metropolitans?"
+	desc = "EVTDESC188009"
+	fire_only_once = yes
+	
+	trigger = {
+		year = 1842
+		tag = MUS
+	}
+	
+	option = {
+		name = "Patriarch should be appoited by the Tsar"
+		change_variable = {
+			which = michail_absolutism
+			value = 1
+		}
+		prestige = 15
+		any_pop = {
+			consciousness = 2
+		}
+	}
+	
+	option = {
+		name = "Patriarch Should be chosen"
+		any_pop = {
+			consciousness = 2
+		}
+	}
+}
+country_event = {
+	id = 188010
+	title = "A New Ruling Body"
+	desc = "EVTDESC188010"
+	fire_only_once = yes
+	
+	trigger = {
+		year = 1842
+		tag = MUS
+	}
+	
+	option = {
+		name = "If it were to exist, it should be purely administartive."
+		change_variable = {
+			which = michail_absolutism
+			value = 1
+		}
+	}
+	
+	option = {
+		name = "If it were to exist, boyars and burghers should be part of it."
+		random_owned = {
+			limit = {
+				owner = {
+					change_variable = {
+						which = boyar_rebellion
+						value = 2
+					}
+				}
+			}
+			owner = {
+				set_variable = {
+					which = boyar_rebellion
+					value = 2
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					NOT = {
+						change_variable = {
+							which = boyar_rebellion
+							value = 2
+						}
+					}
+				}
+			}
+			owner = {
+				set_variable = {
+					which = boyar_rebellion
+					value = 1
+				}
+			}
+		}
+	}
+}

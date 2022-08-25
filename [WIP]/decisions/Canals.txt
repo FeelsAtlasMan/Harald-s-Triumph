@@ -341,4 +341,126 @@ political_decisions = {
 			}
 		}
 	}
+	
+	build_don_volga_portage = {
+		picture = build_panama_canal
+		potential = {
+			owns = 1039			
+			NOT = { is_canal_enabled = 9 }
+			is_greater_power = yes		
+			NOT = { has_global_flag = don_volga_global }
+		}
+		allow = {
+			invention = machine_tools
+			invention = nitroglycerin		
+			iron_steamers = 1
+			money = 30000
+		}
+		effect = {
+			#treasury = -30000	
+			set_global_flag = don_volga_global
+			enable_canal = 9
+			prestige = 5
+			1039 = { set_province_flag = don_volga_portage }
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				war = yes
+			}
+		}
+	}
+
+	build_shikaakwa_canal = {
+		picture = build_panama_canal
+		potential = {
+			owns = 163			
+			NOT = { is_canal_enabled = 8 }
+			#is_greater_power = yes		
+			NOT = { has_global_flag = shikaakwa_global }
+		}
+		allow = {
+			invention = machine_tools
+			invention = nitroglycerin		
+			iron_steamers = 1
+			money = 30000
+		}
+		effect = {
+			#treasury = -30000	
+			set_global_flag = shikaakwa_global
+			enable_canal = 8
+			prestige = 5
+			163 = { set_province_flag = shikaakwa_canal }
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				war = yes
+			}
+		}
+	}	
+	
+	
+	build_aamjiwnaang_canal = {
+		picture = build_panama_canal
+		potential = {
+			owns = 54			
+			NOT = { is_canal_enabled = 6 }
+			#is_greater_power = yes		
+			NOT = { has_global_flag = aamjiwnaang_global }
+		}
+		allow = {
+			invention = machine_tools
+			invention = nitroglycerin		
+			iron_steamers = 1
+			money = 30000
+		}
+		effect = {
+			#treasury = -30000	
+			set_global_flag = aamjiwnaang_global
+			enable_canal = 6
+			prestige = 5
+			54 = { set_province_flag = aamjiwnaang_canal }
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				war = yes
+			}
+		}
+	}
+
+	build_tinawatwa_canal = {
+		picture = build_panama_canal
+		potential = {
+			owns = 55			
+			NOT = { is_canal_enabled = 10 }
+			#is_greater_power = yes		
+			NOT = { has_global_flag = tinawatwa_global }
+		}
+		allow = {
+			invention = machine_tools
+			invention = nitroglycerin		
+			iron_steamers = 1
+			money = 30000
+		}
+		effect = {
+			#treasury = -30000	
+			set_global_flag = tinawatwa_global
+			enable_canal = 10
+			prestige = 5
+			55 = { set_province_flag = tinawatwa_canal }
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				war = yes
+			}
+		}
+	}	
+	
 }

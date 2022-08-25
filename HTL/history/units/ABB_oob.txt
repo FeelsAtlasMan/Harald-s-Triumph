@@ -1,0 +1,294 @@
+SNR = {
+	value = -200
+}
+
+WAD = {
+	value = 70
+}
+
+GON = {
+	value = -75
+}
+
+SHW = {
+	value = -65
+}
+
+GEL = {
+	value = -60
+}
+
+MAJ = {
+	value = 60
+}
+
+TIM = {
+	value = -200
+}
+
+ATJ = {
+	value = 200
+}
+
+navy = {
+	name = "Abbasid Fleet"
+	location = 1751
+	ship = {
+		name= "Toushka"
+		type = manowar
+	}
+
+	ship = {
+		name= "Sharm El-Sheikh"
+		type = manowar
+	}
+
+	ship = {
+		name= "Damyat"
+		type = manowar
+	}
+
+	ship = {
+		name= "Rasheed"
+		type = manowar
+	}
+
+	ship = {
+		name= "El Suez"
+		type = manowar
+	}
+
+	ship = {
+		name= "El Aboukir"
+		type = frigate
+	}
+
+	ship = {
+		name= "Najim al Zafir"
+		type = frigate
+	}
+
+	ship = {
+		name= "Cairo"
+		type = frigate
+	}
+
+	ship = {
+		name= "Al Iskandariyah"
+		type = frigate
+	}
+
+	ship = {
+		name= "Aswan"
+		type = frigate
+	}
+
+	ship = {
+		name= "Port Said"
+		type = frigate
+	}
+
+	ship = {
+		name= "Marsa Matruh"
+		type = frigate
+	}
+
+	ship = {
+		name= "Bur Tawfiq"
+		type = frigate
+	}
+
+	ship = {
+		name= "Al Ghardaqah"
+		type = frigate
+	}
+
+	ship = {
+		name= "Bur Safajah"
+		type = frigate
+	}
+
+	ship = {
+		name= "1. transport flotilla"
+		type = clipper_transport
+	}
+
+    ship = {
+		name= "2. transport flotilla"
+		type = clipper_transport
+	}
+        
+    ship = {
+		name= "3. transport flotilla"
+		type = clipper_transport
+	}
+
+    ship = {
+		name= "4. transport flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "5. transport flotilla"
+		type = clipper_transport
+	}
+
+    ship = {
+		name= "6. transport flotilla"
+		type = clipper_transport
+	}
+        
+    ship = {
+		name= "7. transport flotilla"
+		type = clipper_transport
+	}
+
+    ship = {
+		name= "8. transport flotilla"
+		type = clipper_transport
+	}
+}
+
+army = {
+	name = "Army of Egypt"
+	location = 1745
+	regiment = {
+		name= "1.1 Sipahis"
+		type = cavalry
+		home = 1745
+	}
+
+	regiment = {
+		name= "2.1 Sipahis"
+		type = cavalry
+		home = 1745
+	}
+
+	regiment = {
+		name= "3.1 Sipahis"
+		type = cavalry
+		home = 1745
+	}
+
+	regiment = {
+		name= "1.1 Infantry"
+		type = infantry
+		home = 1745
+	}
+
+	regiment = {
+		name= "2.1 Infantry"
+		type = infantry
+		home = 1745
+	}
+
+	regiment = {
+		name= "3.1 Infantry"
+		type = infantry
+		home = 1750
+	}
+
+	regiment = {
+		name= "1.2 Infantry"
+		type = infantry
+		home = 1751
+	}
+
+	regiment = {
+		name= "2.2 Infantry"
+		type = infantry
+		home = 1751
+	}
+
+	regiment = {
+		name= "3.2 Infantry"
+		type = infantry
+		home = 1747
+	}
+}
+
+army = {
+	name = "Army of Palestine"
+	location = 917
+
+	regiment = {
+		name= "1.3 Infantry"
+		type = infantry
+		home = 1746
+	}
+
+	regiment = {
+		name= "2.3 Infantry"
+		type = infantry
+		home = 1752
+	}
+
+	regiment = {
+		name= "3.3 Infantry"
+		type = infantry
+		home = 1748
+	}
+
+	regiment = {
+		name= "1.4th Division"
+		type = infantry
+		home = 1749
+	}
+
+	regiment = {
+		name= "2.4th Division"
+		type = infantry
+		home = 1765
+	}
+
+	regiment = {
+		name= "3.4th Division"
+		type = infantry
+		home = 1764
+	}
+
+}
+
+army = {
+	name = "Garison of Mogadishu"
+	location = 1868
+	regiment = {
+		name= "3.5 Infantry"
+		type = irregular
+		home = 1868
+	}
+}
+
+army = {
+	name = "Garison of Dar al-Budjar"
+	location = 2497
+	regiment = {
+		name= "3.5 Infantry"
+		type = irregular
+		home = 1747
+	}
+        regiment = {
+		name= "3.5 Infantry"
+		type = irregular
+		home = 1746
+	}
+}
+
+leader = {
+	name = "Caliph al-Hakim"
+	type = land
+	date="1832.1.1"
+	personality = ballsy
+	background = natural_born_leader
+	prestige = 0.3
+}
+
+leader = {
+	name = "Mahmut ibn Arslen"
+	type = land
+	date="1832.1.1"
+	personality = balanced_p
+	background = drillmaster
+	prestige = 0.1
+}
+
