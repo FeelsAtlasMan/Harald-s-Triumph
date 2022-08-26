@@ -1002,6 +1002,16 @@ political_decisions = {
 				government = presidential_dictatorship
 			}
 			
+			BOH = {
+				3878 = { change_province_name = "Vidava" }
+				627 = { change_province_name = "Sedlec" }
+				625 = { change_province_name = "Praha" }
+				628 = { change_province_name = "Litomerice" }
+				688 = { change_province_name = "Opava" }
+				689 = { change_province_name = "Teshin" }
+				treasury = 25000
+			}
+			
 			
 			#################Class Literacy Setup######################
 			any_country = {

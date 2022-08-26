@@ -2063,6 +2063,12 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_terrainimg_daulatabad"
+		texturefile = "gfx\\interface\\terrain_daulatabad.tga"
+		norefcount = yes
+	}
+	
+	spriteType = {
 		name = "GFX_terrainimg_new_world_montane_tundra"
 		texturefile = "gfx\\interface\\terrain_new_world_montane_tundra.tga"
 		norefcount = yes

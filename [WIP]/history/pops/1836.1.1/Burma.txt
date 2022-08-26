@@ -382,37 +382,13 @@
 	farmers = {
 		culture = burmese
 		religion = theravada
-		size = 39600
+		size = 5960
 	}
-
-	aristocrats = {
-		culture = kachin
-		religion = animist
-		size = 50
-	}
-
-	clergymen = {
-		culture = kachin
-		religion = animist
-		size = 50
-	}
-
-	artisans = {
-		culture = kachin
-		religion = animist
-		size = 250
-	}
-
-	soldiers = {
-		culture = kachin
-		religion = animist
-		size = 50
-	}
-
-	slaves = {
-		culture = kachin
-		religion = animist
-		size = 5600
+	
+	serfs = {
+		culture = burmese
+		religion = theravada
+		size = 54000
 	}
 
 	aristocrats = {
@@ -442,7 +418,13 @@
 	farmers = {
 		culture = shan
 		religion = theravada
-		size = 6425
+		size = 1425
+	}
+	
+	serfs = {
+		culture = shan
+		religion = theravada
+		size = 10000
 	}
 }
 #Kyaukse (472000/118000 POPS)
@@ -492,7 +474,43 @@
 	farmers = {
 		culture = burmese
 		religion = theravada
-		size = 100500
+		size = 10500
+	}
+	
+	serfs = {
+		culture = burmese
+		religion = theravada
+		size = 90000
+	}
+	
+	clergymen = {
+		culture = asho_chin
+		religion = animist
+		size = 15
+	}
+
+	artisans = {
+		culture = asho_chin
+		religion = animist
+		size = 50
+	}
+	
+	soldiers = {
+		culture = asho_chin
+		religion = animist
+		size = 100
+	}
+
+	farmers = {
+		culture = asho_chin
+		religion = animist
+		size = 500
+	}
+	
+	serfs = {
+		culture = asho_chin
+		religion = animist
+		size = 1000
 	}
 
 	aristocrats = {
@@ -519,7 +537,7 @@
 		size = 50
 	}
 
-	slaves = {
+	serfs = {
 		culture = shan
 		religion = theravada
 		size = 4600
@@ -554,7 +572,61 @@
 	farmers = {
 		culture = burmese
 		religion = theravada
-		size = 26875
+		size = 6875
+	}
+	
+	serfs = {
+		culture = burmese
+		religion = theravada
+		size = 20000
+	}
+	
+	aristocrats = {
+		culture = asho_chin
+		religion = animist
+		size = 25
+	}
+
+	clergymen = {
+		culture = asho_chin
+		religion = animist
+		size = 30
+	}
+
+	artisans = {
+		culture = asho_chin
+		religion = animist
+		size = 50
+	}
+
+	soldiers = {
+		culture = asho_chin
+		religion = animist
+		size = 100
+	}
+
+	farmers = {
+		culture = asho_chin
+		religion = animist
+		size = 875
+	}
+	
+	serfs = {
+		culture = asho_chin
+		religion = animist
+		size = 5000
+	}
+	
+	farmers = {
+		culture = chinbon_chin
+		religion = animist
+		size = 175
+	}
+	
+	serfs = {
+		culture = chinbon_chin
+		religion = animist
+		size = 1000
 	}
 }
 #Prome (240000/60000 POPS)
@@ -586,9 +658,50 @@
 	farmers = {
 		culture = burmese
 		religion = theravada
-		size = 54850
+		size = 10000
+	}
+	
+	serfs = {
+		culture = burmese
+		religion = theravada
+		size = 44850
+	}
+    
+	aristocrats = {
+		culture = asho_chin
+		religion = animist
+		size = 25
 	}
 
+	clergymen = {
+		culture = asho_chin
+		religion = animist
+		size = 25
+	}
+
+	artisans = {
+		culture = asho_chin
+		religion = animist
+		size = 100
+	}
+
+	soldiers = {
+		culture = asho_chin
+		religion = animist
+		size = 100
+	}
+
+	farmers = {
+		culture = asho_chin
+		religion = animist
+		size = 1000
+	}
+	
+	serfs = {
+		culture = asho_chin
+		religion = animist
+		size = 4850
+	}
 }
 #Shan Region (680000)
 #Under Burma rule 1836
@@ -792,18 +905,18 @@
 }
 #Kachin Region (868000)
 #Under rule of Burma 1836
-#Haka (288000/72000 POPS)
+#Monywa (288000/72000 POPS)
 1339 = {
 	aristocrats = {
 		culture = burmese
 		religion = theravada
-		size = 50
+		size = 150
 	}
 
 	clergymen = {
 		culture = burmese
 		religion = theravada
-		size = 50
+		size = 250
 	}
 
 	artisans = {
@@ -821,125 +934,1554 @@
 	farmers = {
 		culture = burmese
 		religion = theravada
-		size = 3650
+		size = 23650
 	}
 
 	aristocrats = {
-		culture = shan 
-		religion = animist
-		size = 500
-	}
-
-	clergymen = {
-		culture = shan
-		religion = animist
-		size = 500
-	}
-
-	artisans = {
-		culture = shan
-		religion = animist
-		size = 3000
-	}
-
-	soldiers = {
-		culture = shan
-		religion = animist
-		size = 500
-	}
-
-	aristocrats = {
-		culture = kuki_chin
+		culture = chinbon_chin
 		religion = animist
 		size = 75
 	}
 
 	clergymen = {
-		culture = kuki_chin
+		culture = chinbon_chin
 		religion = animist
-		size = 350
+		size = 50
 	}
 
 	artisans = {
-		culture = kuki_chin
+		culture = chinbon_chin
 		religion = animist
-		size = 800
+		size = 80
 	}
 
 	soldiers = {
-		culture = kuki_chin
+		culture = chinbon_chin
 		religion = animist
 		size = 200
 	}
 
 	farmers = {
-		culture = kuki_chin
+		culture = chinbon_chin
 		religion = animist
-		size = 15575
+		size = 575
+	}
+	
+	serfs = {
+		culture = chinbon_chin
+		religion = animist
+		size = 4000
+	}
+	
+	aristocrats = {
+		culture = rungtu_chin
+		religion = animist
+		size = 75
+	}
+
+	clergymen = {
+		culture = rungtu_chin
+		religion = animist
+		size = 50
+	}
+
+	artisans = {
+		culture = rungtu_chin
+		religion = animist
+		size = 80
+	}
+
+	soldiers = {
+		culture = rungtu_chin
+		religion = animist
+		size = 200
+	}
+
+	farmers = {
+		culture = rungtu_chin
+		religion = animist
+		size = 1575
 	}
 }
 #Putao (216000/54000 POPS)
 1341 = {
 	aristocrats = {
-		culture = shan
+		culture = khamti
 		religion = theravada
-		size = 550
+		size = 50
 	}
 
 	clergymen = {
-		culture = shan
+		culture = khamti
 		religion = theravada
-		size = 550
+		size = 50
 	}
 
 	artisans = {
-		culture = shan
+		culture = khamti
 		religion = theravada
-		size = 2500
+		size = 100
 	}
 
 	soldiers = {
-		culture = shan
+		culture = khamti
 		religion = theravada
 		size = 550
 	}
 
 	farmers = {
-		culture = shan
+		culture = khamti
 		religion = theravada
-		size = 10000
+		size = 500
 	}
 	
+	serfs = {
+		culture = khamti
+		religion = theravada
+		size = 1000
+	}
+	
+	aristocrats = {
+		culture = kham
+		religion = theravada
+		size = 10
+	}
+
+	clergymen = {
+		culture = kham
+		religion = theravada
+		size = 10
+	}
+
+	artisans = {
+		culture = kham
+		religion = theravada
+		size = 10
+	}
+
+	soldiers = {
+		culture = kham
+		religion = theravada
+		size = 50
+	}
+
 	farmers = {
 		culture = kham
 		religion = theravada
-		size = 9850
+		size = 50
+	}
+	
+	serfs = {
+		culture = kham
+		religion = theravada
+		size = 300
+	}
+	
+	aristocrats = {
+		culture = rawang
+		religion = animist
+		size = 50
+	}
+
+	clergymen = {
+		culture = rawang
+		religion = animist
+		size = 50
+	}
+
+	artisans = {
+		culture = rawang
+		religion = animist
+		size = 100
+	}
+
+	soldiers = {
+		culture = rawang
+		religion = animist
+		size = 100
+	}
+	
+	farmers = {
+		culture = rawang
+		religion = animist
+		size = 1850
+	}
+	
+	serfs = {
+		culture = rawang
+		religion = animist
+		size = 6000
+	}
+	
+	aristocrats = {
+		culture = lisu
+		religion = animist
+		size = 50
+	}
+
+	clergymen = {
+		culture = lisu
+		religion = animist
+		size = 50
+	}
+
+	artisans = {
+		culture = lisu
+		religion = animist
+		size = 100
+	}
+
+	soldiers = {
+		culture = lisu
+		religion = animist
+		size = 100
+	}
+	
+	farmers = {
+		culture = lisu
+		religion = animist
+		size = 1850
+	}
+	
+	serfs = {
+		culture = lisu
+		religion = animist
+		size = 5000
+	}
+	
+	aristocrats = {
+		culture = kachin
+		religion = animist
+		size = 50
+	}
+	
+	bureaucrats = {
+		culture = kachin
+		religion = animist
+		size = 50
+	}
+
+	clergymen = {
+		culture = kachin
+		religion = animist
+		size = 50
+	}
+
+	artisans = {
+		culture = kachin
+		religion = animist
+		size = 100
+	}
+
+	soldiers = {
+		culture = kachin
+		religion = animist
+		size = 1000
 	}
 	
 	farmers = {
 		culture = kachin
 		religion = animist
-		size = 30000
+		size = 1000
+	}
+	
+	serfs = {
+		culture = kachin
+		religion = animist
+		size = 6000
+	}
+	
+	farmers = {
+		culture = drung
+		religion = animist
+		size = 100
+	}
+	
+	serfs = {
+		culture = drung
+		religion = animist
+		size = 800
 	}
 }
-#Myitkyina (364000/91000 POPS)
+
+#Kabaw Valley
+3813 = {
+    aristocrats = {
+		culture = meitei
+		religion = hindu
+		size = 50
+	}
+
+	clergymen = {
+		culture = meitei
+		religion = hindu
+		size = 30
+	}
+
+	artisans = {
+		culture = meitei
+		religion = hindu
+		size = 40
+	}
+
+	soldiers = {
+		culture = meitei
+		religion = hindu
+		size = 250
+	}
+
+	farmers = {
+		culture = meitei
+		religion = hindu
+		size = 450
+	}
+	
+	serfs = {
+		culture = meitei
+		religion = hindu
+		size = 2300
+	}
+	
+	farmers = {
+		culture = meitei
+		religion = sunni
+		size = 100
+	}
+	
+	serfs = {
+		culture = meitei
+		religion = sunni
+		size = 500
+	}
+	
+	farmers = {
+		culture = meitei
+		religion = theravada
+		size = 50
+	}
+	
+	serfs = {
+		culture = meitei
+		religion = theravada
+		size = 200
+	}
+	
+	farmers = {
+		culture = meitei
+		religion = animist
+		size = 200
+	}
+	
+	serfs = {
+		culture = meitei
+		religion = animist
+		size = 2000
+	}
+    
+	aristocrats = {
+		culture = anal_naga
+		religion = animist
+		size = 20
+	}
+
+	clergymen = {
+		culture = anal_naga
+		religion = animist
+		size = 30
+	}
+
+	artisans = {
+		culture = anal_naga
+		religion = animist
+		size = 30
+	}
+
+	soldiers = {
+		culture = anal_naga
+		religion = animist
+		size = 50
+	}
+
+	farmers = {
+		culture = anal_naga
+		religion = animist
+		size = 200
+	}
+	
+	serfs = {
+		culture = anal_naga
+		religion = animist
+		size = 3000
+	}
+	
+	aristocrats = {
+		culture = lamkang_naga
+		religion = animist
+		size = 5
+	}
+
+	clergymen = {
+		culture = lamkang_naga
+		religion = animist
+		size = 5
+	}
+
+	artisans = {
+		culture = lamkang_naga
+		religion = animist
+		size = 5
+	}
+
+	soldiers = {
+		culture = lamkang_naga
+		religion = animist
+		size = 10
+	}
+
+	farmers = {
+		culture = lamkang_naga
+		religion = animist
+		size = 20
+	}
+	
+	serfs = {
+		culture = lamkang_naga
+		religion = animist
+		size = 100
+	}
+	
+	aristocrats = {
+		culture = gangte
+		religion = animist
+		size = 5
+	}
+
+	clergymen = {
+		culture = gangte
+		religion = animist
+		size = 10
+	}
+
+	artisans = {
+		culture = gangte
+		religion = animist
+		size = 15
+	}
+
+	soldiers = {
+		culture = gangte
+		religion = animist
+		size = 10
+	}
+
+	farmers = {
+		culture = gangte
+		religion = animist
+		size = 60
+	}
+	
+	serfs = {
+		culture = gangte
+		religion = animist
+		size = 500
+	}
+	
+	aristocrats = {
+		culture = shan
+		religion = theravada
+		size = 5
+	}
+
+	clergymen = {
+		culture = shan
+		religion = theravada
+		size = 10
+	}
+
+	artisans = {
+		culture = shan
+		religion = theravada
+		size = 15
+	}
+
+	soldiers = {
+		culture = shan
+		religion = theravada
+		size = 10
+	}
+
+	farmers = {
+		culture = shan
+		religion = theravada
+		size = 60
+	}
+	
+	serfs = {
+		culture = shan
+		religion = theravada
+		size = 900
+	}
+}
+
+#Hakka/Chin State
+3745 = {
+    aristocrats = {
+		culture = falam_chin
+		religion = animist
+		size = 100
+	}
+
+	clergymen = {
+		culture = falam_chin
+		religion = animist
+		size = 100
+	}
+
+	artisans = {
+		culture = falam_chin
+		religion = animist
+		size = 140
+	}
+
+	soldiers = {
+		culture = falam_chin
+		religion = animist
+		size = 1050
+	}
+
+	farmers = {
+		culture = falam_chin
+		religion = animist
+		size = 1450
+	}
+	
+	serfs = {
+		culture = falam_chin
+		religion = animist
+		size = 8900
+	}
+	
+	aristocrats = {
+		culture = haka_chin
+		religion = animist
+		size = 120
+	}
+
+	clergymen = {
+		culture = haka_chin
+		religion = animist
+		size = 120
+	}
+
+	artisans = {
+		culture = haka_chin
+		religion = animist
+		size = 240
+	}
+
+	soldiers = {
+		culture = haka_chin
+		religion = animist
+		size = 1050
+	}
+
+	farmers = {
+		culture = haka_chin
+		religion = animist
+		size = 2150
+	}
+	
+	serfs = {
+		culture = haka_chin
+		religion = animist
+		size = 10200
+	}
+	
+	aristocrats = {
+		culture = zotung_chin
+		religion = animist
+		size = 10
+	}
+
+	clergymen = {
+		culture = zotung_chin
+		religion = animist
+		size = 10
+	}
+
+	artisans = {
+		culture = zotung_chin
+		religion = animist
+		size = 10
+	}
+
+	soldiers = {
+		culture = zotung_chin
+		religion = animist
+		size = 150
+	}
+
+	farmers = {
+		culture = zotung_chin
+		religion = animist
+		size = 350
+	}
+	
+	serfs = {
+		culture = zotung_chin
+		religion = animist
+		size = 1800
+	}
+	
+	aristocrats = {
+		culture = senthang_chin
+		religion = animist
+		size = 10
+	}
+
+	clergymen = {
+		culture = senthang_chin
+		religion = animist
+		size = 10
+	}
+
+	artisans = {
+		culture = senthang_chin
+		religion = animist
+		size = 10
+	}
+
+	soldiers = {
+		culture = senthang_chin
+		religion = animist
+		size = 150
+	}
+
+	farmers = {
+		culture = senthang_chin
+		religion = animist
+		size = 150
+	}
+	
+	serfs = {
+		culture = senthang_chin
+		religion = animist
+		size = 1900
+	}
+	
+	aristocrats = {
+		culture = lautu_chin
+		religion = animist
+		size = 20
+	}
+
+	clergymen = {
+		culture = lautu_chin
+		religion = animist
+		size = 20
+	}
+
+	artisans = {
+		culture = lautu_chin
+		religion = animist
+		size = 40
+	}
+
+	soldiers = {
+		culture = lautu_chin
+		religion = animist
+		size = 150
+	}
+
+	farmers = {
+		culture = lautu_chin
+		religion = animist
+		size = 150
+	}
+	
+	serfs = {
+		culture = lautu_chin
+		religion = animist
+		size = 1300
+	}
+	
+	aristocrats = {
+		culture = mara_chin
+		religion = animist
+		size = 20
+	}
+
+	clergymen = {
+		culture = mara_chin
+		religion = animist
+		size = 30
+	}
+
+	artisans = {
+		culture = mara_chin
+		religion = animist
+		size = 90
+	}
+
+	soldiers = {
+		culture = mara_chin
+		religion = animist
+		size = 4150
+	}
+
+	farmers = {
+		culture = mara_chin
+		religion = animist
+		size = 650
+	}
+	
+	serfs = {
+		culture = mara_chin
+		religion = animist
+		size = 2300
+	}
+	
+	aristocrats = {
+		culture = mizo
+		religion = animist
+		size = 20
+	}
+
+	clergymen = {
+		culture = mizo
+		religion = animist
+		size = 20
+	}
+
+	artisans = {
+		culture = mizo
+		religion = animist
+		size = 40
+	}
+
+	soldiers = {
+		culture = mizo
+		religion = animist
+		size = 150
+	}
+
+	farmers = {
+		culture = mizo
+		religion = animist
+		size = 150
+	}
+	
+	serfs = {
+		culture = mizo
+		religion = animist
+		size = 1300
+	}
+	
+	aristocrats = {
+		culture = sizang_chin
+		religion = animist
+		size = 10
+	}
+
+	clergymen = {
+		culture = sizang_chin
+		religion = animist
+		size = 10
+	}
+
+	artisans = {
+		culture = sizang_chin
+		religion = animist
+		size = 40
+	}
+
+	soldiers = {
+		culture = sizang_chin
+		religion = animist
+		size = 150
+	}
+
+	farmers = {
+		culture = sizang_chin
+		religion = animist
+		size = 150
+	}
+	
+	serfs = {
+		culture = sizang_chin
+		religion = animist
+		size = 1100
+	}
+	
+	aristocrats = {
+		culture = ngawn_chin
+		religion = animist
+		size = 10
+	}
+
+	clergymen = {
+		culture = ngawn_chin
+		religion = animist
+		size = 10
+	}
+
+	artisans = {
+		culture = ngawn_chin
+		religion = animist
+		size = 40
+	}
+
+	soldiers = {
+		culture = ngawn_chin
+		religion = animist
+		size = 150
+	}
+
+	farmers = {
+		culture = ngawn_chin
+		religion = animist
+		size = 150
+	}
+	
+	serfs = {
+		culture = ngawn_chin
+		religion = animist
+		size = 1100
+	}
+	
+    aristocrats = {
+		culture = zoukam
+		religion = animist
+		size = 20
+	}
+
+	clergymen = {
+		culture = zoukam
+		religion = animist
+		size = 20
+	}
+
+	artisans = {
+		culture = zoukam
+		religion = animist
+		size = 40
+	}
+
+	soldiers = {
+		culture = zoukam
+		religion = animist
+		size = 250
+	}
+
+	farmers = {
+		culture = zoukam
+		religion = animist
+		size = 450
+	}
+	
+	serfs = {
+		culture = zoukam
+		religion = animist
+		size = 1300
+	}
+	
+	aristocrats = {
+		culture = paite_chin
+		religion = animist
+		size = 20
+	}
+
+	clergymen = {
+		culture = paite_chin
+		religion = animist
+		size = 20
+	}
+
+	artisans = {
+		culture = paite_chin
+		religion = animist
+		size = 40
+	}
+
+	soldiers = {
+		culture = paite_chin
+		religion = animist
+		size = 250
+	}
+
+	farmers = {
+		culture = paite_chin
+		religion = animist
+		size = 450
+	}
+	
+	serfs = {
+		culture = paite_chin
+		religion = animist
+		size = 2900
+	}
+	
+	aristocrats = {
+		culture = daai_chin
+		religion = animist
+		size = 7
+	}
+
+	clergymen = {
+		culture = daai_chin
+		religion = animist
+		size = 7
+	}
+
+	artisans = {
+		culture = daai_chin
+		religion = animist
+		size = 20
+	}
+
+	soldiers = {
+		culture = daai_chin
+		religion = animist
+		size = 50
+	}
+
+	farmers = {
+		culture = daai_chin
+		religion = animist
+		size = 150
+	}
+	
+	serfs = {
+		culture = daai_chin
+		religion = animist
+		size = 1200
+	}
+	
+	aristocrats = {
+		culture = kaang_chin
+		religion = animist
+		size = 7
+	}
+
+	clergymen = {
+		culture = kaang_chin
+		religion = animist
+		size = 7
+	}
+
+	artisans = {
+		culture = kaang_chin
+		religion = animist
+		size = 20
+	}
+
+	soldiers = {
+		culture = kaang_chin
+		religion = animist
+		size = 50
+	}
+
+	farmers = {
+		culture = kaang_chin
+		religion = animist
+		size = 150
+	}
+	
+	serfs = {
+		culture = kaang_chin
+		religion = animist
+		size = 900
+	}
+	
+	aristocrats = {
+		culture = mun_chin
+		religion = animist
+		size = 7
+	}
+
+	clergymen = {
+		culture = mun_chin
+		religion = animist
+		size = 7
+	}
+
+	artisans = {
+		culture = mun_chin
+		religion = animist
+		size = 20
+	}
+
+	soldiers = {
+		culture = mun_chin
+		religion = animist
+		size = 50
+	}
+
+	farmers = {
+		culture = mun_chin
+		religion = animist
+		size = 150
+	}
+	
+	serfs = {
+		culture = mun_chin
+		religion = animist
+		size = 600
+	}
+	
+	aristocrats = {
+		culture = nga_la_chin
+		religion = animist
+		size = 7
+	}
+
+	clergymen = {
+		culture = nga_la_chin
+		religion = animist
+		size = 7
+	}
+
+	artisans = {
+		culture = nga_la_chin
+		religion = animist
+		size = 20
+	}
+
+	soldiers = {
+		culture = nga_la_chin
+		religion = animist
+		size = 50
+	}
+
+	farmers = {
+		culture = nga_la_chin
+		religion = animist
+		size = 150
+	}
+	
+	serfs = {
+		culture = nga_la_chin
+		religion = animist
+		size = 400
+	}
+	
+	aristocrats = {
+		culture = gangte
+		religion = animist
+		size = 10
+	}
+
+	clergymen = {
+		culture = gangte
+		religion = animist
+		size = 10
+	}
+
+	artisans = {
+		culture = gangte
+		religion = animist
+		size = 10
+	}
+
+	soldiers = {
+		culture = gangte
+		religion = animist
+		size = 50
+	}
+
+	farmers = {
+		culture = gangte
+		religion = animist
+		size = 150
+	}
+	
+	serfs = {
+		culture = gangte
+		religion = animist
+		size = 500
+	}
+
+	farmers = {
+		culture = laamtuk_thet
+		religion = animist
+		size = 10
+	}
+	
+	serfs = {
+		culture = laamtuk_thet
+		religion = animist
+		size = 100
+	}
+	
+	farmers = {
+		culture = bualkhaw_chin
+		religion = animist
+		size = 20
+	}
+	
+	serfs = {
+		culture = bualkhaw_chin
+		religion = animist
+		size = 130
+	}
+	
+	farmers = {
+		culture = zyphe
+		religion = animist
+		size = 60
+	}
+	
+	serfs = {
+		culture = zyphe
+		religion = animist
+		size = 230
+	}
+	
+	farmers = {
+		culture = laitu_chin
+		religion = animist
+		size = 60
+	}
+	
+	serfs = {
+		culture = laitu_chin
+		religion = animist
+		size = 530
+	}
+	
+	farmers = {
+		culture = songlai_chin
+		religion = animist
+		size = 50
+	}
+	
+	serfs = {
+		culture = songlai_chin
+		religion = animist
+		size = 200
+	}
+	
+	farmers = {
+		culture = thaiphum_chin
+		religion = animist
+		size = 10
+	}
+	
+	serfs = {
+		culture = thaiphum_chin
+		religion = animist
+		size = 80
+	}
+}
+
+#Paletwa
+3873 = {
+	soldiers = {
+		culture = bawm_chin
+		religion = animist
+		size = 20
+	}
+
+	farmers = {
+		culture = bawm_chin
+		religion = animist
+		size = 50
+	}
+	
+	serfs = {
+		culture = bawm_chin
+		religion = animist
+		size = 300
+	}
+	
+	aristocrats = {
+		culture = mara_chin
+		religion = animist
+		size = 10
+	}
+
+	clergymen = {
+		culture = mara_chin
+		religion = animist
+		size = 10
+	}
+
+	artisans = {
+		culture = mara_chin
+		religion = animist
+		size = 20
+	}
+
+	soldiers = {
+		culture = mara_chin
+		religion = animist
+		size = 100
+	}
+
+	farmers = {
+		culture = mara_chin
+		religion = animist
+		size = 100
+	}
+	
+	farmers = {
+		culture = mara_chin
+		religion = animist
+		size = 1000
+	}
+	
+	aristocrats = {
+		culture = khumi_chin
+		religion = animist
+		size = 60
+	}
+
+	clergymen = {
+		culture = khumi_chin
+		religion = animist
+		size = 70
+	}
+
+	artisans = {
+		culture = khumi_chin
+		religion = animist
+		size = 120
+	}
+
+	soldiers = {
+		culture = khumi_chin
+		religion = animist
+		size = 600
+	}
+
+	farmers = {
+		culture = khumi_chin
+		religion = animist
+		size = 900
+	}
+	
+	farmers = {
+		culture = khumi_chin
+		religion = animist
+		size = 9000
+	}
+	
+	aristocrats = {
+		culture = mro_chin
+		religion = animist
+		size = 20
+	}
+
+	clergymen = {
+		culture = mro_chin
+		religion = animist
+		size = 30
+	}
+
+	artisans = {
+		culture = mro_chin
+		religion = animist
+		size = 60
+	}
+
+	soldiers = {
+		culture = mro_chin
+		religion = animist
+		size = 200
+	}
+
+	farmers = {
+		culture = mro_chin
+		religion = animist
+		size = 400
+	}
+	
+	serfs = {
+		culture = mro_chin
+		religion = animist
+		size = 4000
+	}
+
+	farmers = {
+		culture = anu_hkongso
+		religion = animist
+		size = 40
+	}
+	
+	serfs = {
+		culture = anu_hkongso
+		religion = animist
+		size = 400
+	}
+	
+	farmers = {
+		culture = laitu_chin
+		religion = animist
+		size = 10
+	}
+	
+	serfs = {
+		culture = laitu_chin
+		religion = animist
+		size = 230
+	}
+	
+	farmers = {
+		culture = songlai_chin
+		religion = animist
+		size = 50
+	}
+	
+	serfs = {
+		culture = songlai_chin
+		religion = animist
+		size = 800
+	}
+}
+
+#Kalay
+3816 = {
+	soldiers = {
+		culture = senthang_chin
+		religion = animist
+		size = 20
+	}
+
+	farmers = {
+		culture = senthang_chin
+		religion = animist
+		size = 50
+	}
+	
+	serfs = {
+		culture = senthang_chin
+		religion = animist
+		size = 300
+	}
+	
+	soldiers = {
+		culture = zotung_chin
+		religion = animist
+		size = 20
+	}
+
+	farmers = {
+		culture = zotung_chin
+		religion = animist
+		size = 50
+	}
+	
+	serfs = {
+		culture = zotung_chin
+		religion = animist
+		size = 500
+	}
+	
+	aristocrats = {
+		culture = haka_chin
+		religion = animist
+		size = 80
+	}
+
+	clergymen = {
+		culture = haka_chin
+		religion = animist
+		size = 80
+	}
+
+	artisans = {
+		culture = haka_chin
+		religion = animist
+		size = 120
+	}
+
+	soldiers = {
+		culture = haka_chin
+		religion = animist
+		size = 300
+	}
+
+	farmers = {
+		culture = haka_chin
+		religion = animist
+		size = 700
+	}
+	
+	serfs = {
+		culture = haka_chin
+		religion = animist
+		size = 3200
+	}
+	
+	aristocrats = {
+		culture = tedim_chin
+		religion = animist
+		size = 80
+	}
+
+	clergymen = {
+		culture = tedim_chin
+		religion = animist
+		size = 80
+	}
+
+	artisans = {
+		culture = tedim_chin
+		religion = animist
+		size = 120
+	}
+
+	soldiers = {
+		culture = tedim_chin
+		religion = animist
+		size = 300
+	}
+
+	farmers = {
+		culture = tedim_chin
+		religion = animist
+		size = 700
+	}
+	
+	serfs = {
+		culture = tedim_chin
+		religion = animist
+		size = 4000
+	}
+	
+	aristocrats = {
+		culture = falam_chin
+		religion = animist
+		size = 60
+	}
+
+	clergymen = {
+		culture = falam_chin
+		religion = animist
+		size = 60
+	}
+
+	artisans = {
+		culture = falam_chin
+		religion = animist
+		size = 120
+	}
+
+	soldiers = {
+		culture = falam_chin
+		religion = animist
+		size = 200
+	}
+
+	farmers = {
+		culture = falam_chin
+		religion = animist
+		size = 650
+	}
+	
+	serfs = {
+		culture = falam_chin
+		religion = animist
+		size = 3200
+	}
+	
+	aristocrats = {
+		culture = shan
+		religion = theravada
+		size = 100
+	}
+	
+	bureaucrats = {
+		culture = shan
+		religion = theravada
+		size = 100
+	}
+
+	clergymen = {
+		culture = shan
+		religion = theravada
+		size = 100
+	}
+
+	artisans = {
+		culture = shan
+		religion = theravada
+		size = 220
+	}
+
+	soldiers = {
+		culture = shan
+		religion = theravada
+		size = 1100
+	}
+
+	farmers = {
+		culture = shan
+		religion = theravada
+		size = 1100
+	}
+	
+	farmers = {
+		culture = shan
+		religion = theravada
+		size = 9000
+	}
+	
+	aristocrats = {
+		culture = burmese
+		religion = theravada
+		size = 60
+	}
+
+	clergymen = {
+		culture = burmese
+		religion = theravada
+		size = 60
+	}
+
+	artisans = {
+		culture = burmese
+		religion = theravada
+		size = 120
+	}
+
+	soldiers = {
+		culture = burmese
+		religion = theravada
+		size = 100
+	}
+
+	farmers = {
+		culture = burmese
+		religion = theravada
+		size = 800
+	}
+	
+	farmers = {
+		culture = burmese
+		religion = theravada
+		size = 8000
+	}
+}
+
+#Myitkyina (364000/91000 POPS) #all Burmese in here = Loloish/Burmish languages, not actual Burmese! Some Shan currently represent Laing Tai atm; Hmong ignored for now
 1342 = {
 	aristocrats = {
 		culture = kachin
 		religion = animist
-		size = 400
+		size = 200
 	}
 
 	clergymen = {
 		culture = kachin
 		religion = animist
-		size = 400
+		size = 200
 	}
 
 	artisans = {
 		culture = kachin
 		religion = animist
-		size = 2000
+		size = 200
 	}
 
 	soldiers = {
@@ -951,19 +2493,25 @@
 	farmers = {
 		culture = kachin
 		religion = animist
-		size = 37800
+		size = 7800
+	}
+	
+	serfs = {
+		culture = kachin
+		religion = animist
+		size = 30000
 	}
 
 	aristocrats = {
 		culture = shan
 		religion = theravada
-		size = 250
+		size = 150
 	}
 
 	clergymen = {
 		culture = shan
 		religion = theravada
-		size = 250
+		size = 150
 	}
 
 	artisans = {
@@ -981,58 +2529,331 @@
 	farmers = {
 		culture = shan
 		religion = theravada
-		size = 21050
+		size = 1050
+	}
+	
+	serfs = {
+		culture = shan
+		religion = theravada
+		size = 10000
+	}
+	
+	aristocrats = {
+		culture = khamti
+		religion = theravada
+		size = 10
+	}
+
+	clergymen = {
+		culture = khamti
+		religion = theravada
+		size = 10
+	}
+
+	artisans = {
+		culture = khamti
+		religion = theravada
+		size = 120
+	}
+
+	soldiers = {
+		culture = khamti
+		religion = theravada
+		size = 20
+	}
+
+	farmers = {
+		culture = khamti
+		religion = theravada
+		size = 650
+	}
+	
+	serfs = {
+		culture = khamti
+		religion = theravada
+		size = 2500
+	}
+
+	aristocrats = {
+		culture = burmese
+		religion = animist
+		size = 30
+	}
+
+	clergymen = {
+		culture = burmese
+		religion = animist
+		size = 30
+	}
+
+	artisans = {
+		culture = burmese
+		religion = animist
+		size = 150
+	}
+	
+	soldiers = {
+		culture = burmese
+		religion = animist
+		size = 300
+	}
+
+	farmers = {
+		culture = burmese
+		religion = animist
+		size = 9950
+	}
+}
+
+#Mongkwang (364000/91000 POPS) #Some Shan currently represent Laing Tai (Red Shan) atm; Kadu/Kado and Kanan ignored for now
+3815 = {
+	aristocrats = {
+		culture = kachin
+		religion = animist
+		size = 20
+	}
+
+	clergymen = {
+		culture = kachin
+		religion = animist
+		size = 20
+	}
+
+	artisans = {
+		culture = kachin
+		religion = animist
+		size = 200
+	}
+
+	soldiers = {
+		culture = kachin
+		religion = animist
+		size = 400
+	}
+
+	farmers = {
+		culture = kachin
+		religion = animist
+		size = 800
+	}
+	
+	serfs = {
+		culture = kachin
+		religion = animist
+		size = 5000
+	}
+
+	aristocrats = {
+		culture = shan
+		religion = theravada
+		size = 150
+	}
+
+	clergymen = {
+		culture = shan
+		religion = theravada
+		size = 150
+	}
+
+	artisans = {
+		culture = shan
+		religion = theravada
+		size = 1200
+	}
+
+	soldiers = {
+		culture = shan
+		religion = theravada
+		size = 1250
+	}
+
+	farmers = {
+		culture = shan
+		religion = theravada
+		size = 2050
+	}
+	
+	serfs = {
+		culture = shan
+		religion = theravada
+		size = 20000
+	}
+	
+	aristocrats = {
+		culture = khamti
+		religion = theravada
+		size = 10
+	}
+
+	clergymen = {
+		culture = khamti
+		religion = theravada
+		size = 10
+	}
+
+	artisans = {
+		culture = khamti
+		religion = theravada
+		size = 120
+	}
+
+	soldiers = {
+		culture = khamti
+		religion = theravada
+		size = 20
+	}
+
+	farmers = {
+		culture = khamti
+		religion = theravada
+		size = 250
+	}
+	
+	serfs = {
+		culture = khamti
+		religion = theravada
+		size = 2000
+	}
+	
+	aristocrats = {
+		culture = kanan
+		religion = theravada
+		size = 10
+	}
+
+	clergymen = {
+		culture = kanan
+		religion = theravada
+		size = 10
+	}
+
+	artisans = {
+		culture = kanan
+		religion = theravada
+		size = 50
+	}
+	
+	soldiers = {
+		culture = kanan
+		religion = theravada
+		size = 100
+	}
+
+	farmers = {
+		culture = kanan
+		religion = theravada
+		size = 250
+	}
+	
+	serfs = {
+		culture = kanan
+		religion = theravada
+		size = 2000
+	}
+	
+	aristocrats = {
+		culture = kado
+		religion = theravada
+		size = 30
+	}
+
+	clergymen = {
+		culture = kado
+		religion = theravada
+		size = 30
+	}
+
+	artisans = {
+		culture = kado
+		religion = theravada
+		size = 150
+	}
+	
+	soldiers = {
+		culture = kado
+		religion = theravada
+		size = 300
+	}
+
+	farmers = {
+		culture = kado
+		religion = theravada
+		size = 950
+	}
+	
+	serfs = {
+		culture = kado
+		religion = theravada
+		size = 6000
 	}
 
 	aristocrats = {
 		culture = burmese
 		religion = theravada
-		size = 300
+		size = 30
 	}
 
 	clergymen = {
 		culture = burmese
 		religion = theravada
-		size = 300
+		size = 30
 	}
 
 	artisans = {
 		culture = burmese
 		religion = theravada
-		size = 1350
+		size = 150
 	}
-
-	bureaucrats = {
-		culture = burmese
-		religion = theravada
-		size = 100
-	}
-
+	
 	soldiers = {
 		culture = burmese
 		religion = theravada
-		size = 3000
-	}
-
-	soldiers = {
-		culture = burmese
-		religion = theravada
-		size = 1000
+		size = 300
 	}
 
 	farmers = {
 		culture = burmese
 		religion = theravada
-		size = 20950
+		size = 950
+	}
+	
+	serfs = {
+		culture = burmese
+		religion = theravada
+		size = 9000
+	}
+	
+	clergymen = {
+		culture = taman
+		religion = theravada
+		size = 10
 	}
 
-	slaves = {
-		culture = paulang_wa
-		religion = animist
-		size = 10000
+	artisans = {
+		culture = taman
+		religion = theravada
+		size = 50
+	}
+	
+	soldiers = {
+		culture = taman
+		religion = theravada
+		size = 30
 	}
 
+	farmers = {
+		culture = taman
+		religion = theravada
+		size = 50
+	}
+	
+	serfs = {
+		culture = taman
+		religion = theravada
+		size = 200
+	}
 }
+
 #Tenasserim Region - 604000
 #Under rule of Britain 1836
 #Moulmein (272000/68000 POPS)
@@ -1247,25 +3068,24 @@
 }
 #Arakan Region : 176000
 #Under rule of Britain 1836
-#Sittwe (176000/44000 POPS)
-1345 = {
-
+#Ramree (176000/44000 POPS)
+3872 = {
 	aristocrats = {
 		culture = rohingya
 		religion = sunni
-		size = 100
+		size = 10
 	}
 
 	clergymen = {
 		culture = rohingya
 		religion = sunni
-		size = 125
+		size = 15
 	}
 
 	artisans = {
 		culture = rohingya
 		religion = sunni
-		size = 2750
+		size = 50
 	}
 
 	soldiers = {
@@ -1277,68 +3097,486 @@
 	farmers = {
 		culture = rohingya 
 		religion = sunni
-		size = 14875
+		size = 175
+	}
+	
+	serfs = {
+		culture = rohingya 
+		religion = sunni
+		size = 875
 	}
 
 	aristocrats = {
-		culture = burmese
-		religion = theravada
-		size = 250
-	}
-
-	bureaucrats = {
-		culture = burmese
+		culture = rakhine
 		religion = theravada
 		size = 50
 	}
 
 	clergymen = {
-		culture = burmese
+		culture = rakhine
 		religion = theravada
-		size = 375
+		size = 75
 	}
 
 	artisans = {
-		culture = burmese
+		culture = rakhine
 		religion = theravada
-		size = 6250
+		size = 650
 	}
 
 	soldiers = {
-		culture = burmese
+		culture = rakhine
 		religion = theravada
 		size = 250
 	}
 
 	farmers = {
-		culture = burmese
+		culture = rakhine
 		religion = theravada
-		size = 15825
+		size = 1825
 	}
-
-	clergymen = { 
-		culture = kuki_chin 
+	
+	serfs = {
+		culture = rakhine
+		religion = theravada
+		size = 8000
+	}
+	
+	aristocrats = {
+		culture = asho_chin
 		religion = animist
-		size = 25
+		size = 70
 	}
 
+	clergymen = {
+		culture = asho_chin
+		religion = animist
+		size = 75
+	}
+
+	artisans = {
+		culture = asho_chin
+		religion = animist
+		size = 50
+	}
+
+	soldiers = {
+		culture = asho_chin
+		religion = animist
+		size = 250
+	}
+	
 	farmers = {
-		culture = kuki_chin
+		culture = asho_chin
 		religion = animist
 		size = 950
 	}
 
+	serfs = {
+		culture = asho_chin
+		religion = animist
+		size = 7950
+	}
+}
+
+#Ashto Hills (176000/44000 POPS)
+3874 = {
+	aristocrats = {
+		culture = chinbon_chin
+		religion = animist
+		size = 50
+	}
+
+	clergymen = {
+		culture = chinbon_chin
+		religion = animist
+		size = 75
+	}
+
+	artisans = {
+		culture = chinbon_chin
+		religion = animist
+		size = 50
+	}
+
+	soldiers = {
+		culture = chinbon_chin
+		religion = animist
+		size = 250
+	}
+
+	farmers = {
+		culture = chinbon_chin
+		religion = animist
+		size = 825
+	}
+	
+	serfs = {
+		culture = chinbon_chin
+		religion = animist
+		size = 5000
+	}
+	
+	aristocrats = {
+		culture = asho_chin
+		religion = animist
+		size = 70
+	}
+
+	clergymen = {
+		culture = asho_chin
+		religion = animist
+		size = 75
+	}
+
+	artisans = {
+		culture = asho_chin
+		religion = animist
+		size = 50
+	}
+
+	soldiers = {
+		culture = asho_chin
+		religion = animist
+		size = 250
+	}
+	
+	farmers = {
+		culture = asho_chin
+		religion = animist
+		size = 1950
+	}
+
+	serfs = {
+		culture = asho_chin
+		religion = animist
+		size = 9950
+	}
+	
+	aristocrats = {
+		culture = laitu_chin
+		religion = animist
+		size = 5
+	}
+
+	clergymen = {
+		culture = laitu_chin
+		religion = animist
+		size = 5
+	}
+
+	artisans = {
+		culture = laitu_chin
+		religion = animist
+		size = 5
+	}
+
+	soldiers = {
+		culture = laitu_chin
+		religion = animist
+		size = 5
+	}
+	
+	farmers = {
+		culture = laitu_chin
+		religion = animist
+		size = 50
+	}
+
+	serfs = {
+		culture = laitu_chin
+		religion = animist
+		size = 350
+	}
+}
+
+#Mrauk-U
+1345 = {
+	aristocrats = {
+		culture = rohingya
+		religion = sunni
+		size = 40
+	}
+	
+	bureaucrats = {
+		culture = rohingya
+		religion = sunni
+		size = 45
+	}
+
 	clergymen = {
 		culture = rohingya
+		religion = sunni
+		size = 45
+	}
+
+	artisans = {
+		culture = rohingya
+		religion = sunni
+		size = 150
+	}
+
+	soldiers = {
+		culture = rohingya
+		religion = sunni
+		size = 150
+	}
+
+	farmers = {
+		culture = rohingya 
+		religion = sunni
+		size = 875
+	}
+	
+	serfs = {
+		culture = rohingya 
+		religion = sunni
+		size = 4875
+	}
+	
+	aristocrats = {
+		culture = rakhine
 		religion = sunni
 		size = 50
 	}
 
-	farmers = {
-		culture = rohingya
+	clergymen = {
+		culture = rakhine
 		religion = sunni
-		size = 1950
+		size = 75
 	}
 
-}
+	artisans = {
+		culture = rakhine
+		religion = sunni
+		size = 1050
+	}
 
+	soldiers = {
+		culture = rakhine
+		religion = sunni
+		size = 250
+	}
+
+	farmers = {
+		culture = rakhine
+		religion = sunni
+		size = 825
+	}
+	
+	serfs = {
+		culture = rakhine
+		religion = sunni
+		size = 3000
+	}
+
+	aristocrats = {
+		culture = rakhine
+		religion = theravada
+		size = 200
+	}
+
+	clergymen = {
+		culture = rakhine
+		religion = theravada
+		size = 300
+	}
+
+	artisans = {
+		culture = rakhine
+		religion = theravada
+		size = 5000
+	}
+
+	soldiers = {
+		culture = rakhine
+		religion = theravada
+		size = 250
+	}
+
+	farmers = {
+		culture = rakhine
+		religion = theravada
+		size = 1825
+	}
+	
+	serfs = {
+		culture = rakhine
+		religion = theravada
+		size = 14000
+	}
+	
+	aristocrats = {
+		culture = mrung
+		religion = theravada
+		size = 20
+	}
+
+	clergymen = {
+		culture = mrung
+		religion = theravada
+		size = 30
+	}
+
+	artisans = {
+		culture = mrung
+		religion = theravada
+		size = 50
+	}
+
+	soldiers = {
+		culture = mrung
+		religion = theravada
+		size = 20
+	}
+
+	farmers = {
+		culture = mrung
+		religion = theravada
+		size = 125
+	}
+	
+	serfs = {
+		culture = mrung
+		religion = theravada
+		size = 1400
+	}
+	
+	aristocrats = {
+		culture = chak
+		religion = theravada
+		size = 20
+	}
+
+	clergymen = {
+		culture = chak
+		religion = theravada
+		size = 20
+	}
+
+	soldiers = {
+		culture = chak
+		religion = theravada
+		size = 150
+	}
+
+	farmers = {
+		culture = chak
+		religion = theravada
+		size = 250
+	}
+	
+	farmers = {
+		culture = chak
+		religion = theravada
+		size = 1200
+	}
+	
+	aristocrats = {
+		culture = mro_chin
+		religion = animist
+		size = 50
+	}
+
+	clergymen = {
+		culture = mro_chin
+		religion = animist
+		size = 75
+	}
+
+	artisans = {
+		culture = mro_chin
+		religion = animist
+		size = 250
+	}
+
+	soldiers = {
+		culture = mro_chin
+		religion = animist
+		size = 250
+	}
+	
+	farmers = {
+		culture = mro_chin
+		religion = animist
+		size = 950
+	}
+
+	serfs = {
+		culture = mro_chin
+		religion = animist
+		size = 4950
+	}
+	
+	aristocrats = {
+		culture = sumtu_chin
+		religion = animist
+		size = 10
+	}
+
+	clergymen = {
+		culture = sumtu_chin
+		religion = animist
+		size = 25
+	}
+
+	artisans = {
+		culture = sumtu_chin
+		religion = animist
+		size = 50
+	}
+
+	soldiers = {
+		culture = sumtu_chin
+		religion = animist
+		size = 50
+	}
+	
+	farmers = {
+		culture = sumtu_chin
+		religion = animist
+		size = 250
+	}
+
+	serfs = {
+		culture = sumtu_chin
+		religion = animist
+		size = 1050
+	}
+	
+	aristocrats = {
+		culture = laitu_chin
+		religion = animist
+		size = 10
+	}
+
+	clergymen = {
+		culture = laitu_chin
+		religion = animist
+		size = 25
+	}
+
+	artisans = {
+		culture = laitu_chin
+		religion = animist
+		size = 50
+	}
+
+	soldiers = {
+		culture = laitu_chin
+		religion = animist
+		size = 50
+	}
+	
+	farmers = {
+		culture = laitu_chin
+		religion = animist
+		size = 250
+	}
+
+	serfs = {
+		culture = laitu_chin
+		religion = animist
+		size = 2050
+	}
+}

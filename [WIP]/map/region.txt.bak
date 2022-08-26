@@ -230,7 +230,7 @@ FRA_458 = { 458 459 460 } #Aquitaine
 
 FRA_461 = { 461 463 464 449 } #Languedoc
 
-SAR_466 = { 465 466 472 3251} #Savoie
+SAR_466 = { 465 466 } #Savoie
 
 FRA_467 = { 467 468 469 470 471 } #Provence
 
@@ -278,9 +278,9 @@ PRU_544 = { 544 545 550 551 547 548 } #Mecklenburg
 
 PRU_546 = { 546 679 680 692 } #Pomerania
 
-PRU_554 = { 554 561 562 563 3256 } #Westthüringen
+PRU_554 = { 554 561 562 563 3256 3881 } #Westthüringen
 
-THU_556 = { 556 555 559 3255 560 } #Ostthüringen
+THU_556 = { 556 555 559 3255 560 3878 3879 3880 } #Ostthüringen
 
 SAX_558 = { 558 687 552 549 } #Lusatia
 
@@ -332,7 +332,7 @@ AUS_639 = { 639 640 642 643 644 } #Transdanubia
 
 AUS_623 = { 623 624 616 3294 } #Eastern Kunsag
 
-AUS_625 = { 625 626 629 630 3334 627 628 } #Bohemia
+AUS_625 = { 625 626 629 630 3334 627 628 3888 } #Bohemia
 
 BOH_631 = { 631 632 3335 } #Moravia
 
@@ -379,7 +379,9 @@ AUS_2538 = { 2538 791 792 3295 3296 } #Vojvodina
 
 ### Italy
 
-SAR_720 = { 720 721 722 723 724 725 3419 3420 3421 } #Piemonte
+SAR_720 = { 720 721 722 723 3419 3420 3421 3251 3890 3891 } #Piemonte
+
+SAR_724 = { 724 725 472 } #Liguria
 
 #MOD_739 = { 739 738 740 } #Emilia
 
@@ -400,7 +402,7 @@ SAR_765 = { 765 766 473 } #Sardinia & Corscia
 
 ### Balkans
 
-WAL_665 = { 664 665 666 668 667 669 3610 } #Wallachia
+WAL_665 = { 664 668 667 669 3610 3883 3884 } #Muntenia
 
 MOL_673 = { 673 672 670 671 663 662 } #Moldavia
 
@@ -410,15 +412,19 @@ TUR_788 = { 783 787 786 3299 } #Bosnia
 
 CRO_784 = { 784 785 789 3716 } #Krajina
 
-SER_794 = { 794 797 795 796 3304 } #Northern Serbia
+SER_794 = { 794 795 796 3304 3889 } #Serbia
+
+WAL_666 = { 665 666 3882 } #Oltenia
 
 MON_2582 = { 788 2583 2569 } #Montenegro - now Herzegovina
 
-TUR_803 = { 803 798 799 2577 804 } #Southern Serbia
+TUR_803 = { 798 803 2577 804 797 } #Southern Serbia - Rashka
+
+BOS_799 = { 799 3885 3886 3887 807 } #Moravia
 
 TUR_805 = { 805 821 822 3675 823 3676 } #Southern Macedonia
 
-TUR_806 = { 806 807 1780 819 808 3674 } #Northern Macedonia
+TUR_806 = { 806 1780 819 808 3674 } #Northern Macedonia
 
 TUR_809 = { 815 817 816 3677 } #Eastern Rumelia
 
@@ -438,7 +444,7 @@ TUR_853 = { 849 852 851 850 3678 3679 800 } #Albania
 
 TUR_855 = { 855 856 857 } #Cyprus
 
-TUR_860 = { 828 858 859 830 829 } #Thrace
+TUR_828 = { 828 858 859 830 829 } #Thrace
 
 TUR_860 = { 860 861 } #Istanbul
 
@@ -761,7 +767,9 @@ MUG_1236 = { 1236 1237 1239 3737 3738 } #Delhi
 
 MUG_1234 = { 1234 3739 3742 } #Haryana
 
-MUG_1244 = { 1242 1241 1243 1240 } #Awadh
+MUG_1244 = { 1242 1243 3876 1244 } #Awadh
+
+MUG_1240 = { 1240 1241 3875 } #Agra
 
 NEP_1327 = { 1327 3748 3854 3855 } #Jumla
 
@@ -769,9 +777,9 @@ NEP_3853 = { 3853 3747 3859 } #Doti
 
 NEP_1326 = { 1326 3856 3857 3858 } #Katmandu
 
-ENG_1247 = { 1247 1248 3850 3851 } #Bihar
+ENG_1247 = { 1247 1248 3850 } #Bihar
 
-ENG_1244 = { 1244 1245 1246 } #Fayzabad
+SUR_1246 = { 1246 1245 3851 3877 } #Bhojpur
 
 ENG_1251 = { 1251 1253 3798 3824 3825 3827 } #Bardhaman
 
@@ -779,15 +787,17 @@ ENG_1256 = { 1256 3821 3822 3823 3826 } #Sundarbans
 
 ENG_1255 = { 1255 3828 1250 3817 } #Rajshahi
 
-ENG_1257 = { 1257 3820 3811 1345 } #Chittagong
+ENG_1257 = { 1257 3820 3811 1345 3872 } #Chittagong
 
-ENG_1259 = { 1259 2566 3745 3813 } #Rakhine Mountains
+ENG_1259 = { 1259 2566 3745 3813 3342 3873 3874 } #Rakhine Mountains
 
 ENG_1252 = { 1254 3812 3829 3830 3744 } #East Bengal
 
-ENG_1258 = { 1258 1260 3342 3818 3819 3746 } #Assam
+ENG_1258 = { 1258 1260 3746 3869 3870 } #Assam
 
-ENG_1329 = { 1329 1252 3743 1328 } #Bhutan
+ENG_3871 = { 3871 3818 3819 } #Meghalaya
+
+ENG_1329 = { 1329 1252 3743 1328 3867 3868 } #Bhutan
 
 ENG_1261 = { 1261 1262 3792 3794 3795 3796 3797 3799 3800 3801 } #Orissa
 
