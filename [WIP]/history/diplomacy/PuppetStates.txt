@@ -1176,26 +1176,31 @@ vassal = {
 	end_date = 1937.1.1
 }
 
-#Oyo Empire
+#IFE Empire
 vassal = {
-	first = OYO
+	first = IFE
 	second = IBD
 	start_date = 1836.1.1
 	end_date = 1937.1.1
 }
 vassal = {
-	first = OYO
+	first = IFE
 	second = EGB
 	start_date = 1836.1.1
 	end_date = 1937.1.1
 }
 vassal = {
-	first = OYO
-	second = IFE
+	first = IFE
+	second = OYO
 	start_date = 1836.1.1
 	end_date = 1937.1.1
 }
-
+vassal = {
+	first = IFE
+	second = EKT
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
 #Hafsids
 vassal = {
 	first = TUN
