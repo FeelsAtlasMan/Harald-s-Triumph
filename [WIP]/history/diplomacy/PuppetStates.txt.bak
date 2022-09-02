@@ -488,6 +488,13 @@ substate = {
 
 substate = {
 	first = ABB
+	second = LBN
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+substate = {
+	first = ABB
 	second = HDJ
 	start_date = 1836.1.1
 	end_date = 1937.1.1
@@ -796,7 +803,7 @@ vassal = {
 	end_date = 1937.1.1
 }
 
-#Shun
+#Shun Feudatories
 substate = {
 	first = SHN
 	second = GXI
@@ -807,6 +814,62 @@ substate = {
 substate = {
 	first = SHN
 	second = GUI
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+substate = {
+	first = SHN
+	second = GMJ
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+substate = {
+	first = SHN
+	second = GNG
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+substate = {
+	first = SHN
+	second = NIA
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+substate = {
+	first = SHN
+	second = FJN
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+substate = {
+	first = SHN
+	second = CHO
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+substate = {
+	first = SHN
+	second = SEN
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+substate = {
+	first = SHN
+	second = HNN
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+substate = {
+	first = SHN
+	second = SZC
 	start_date = 1836.1.1
 	end_date = 1937.1.1
 }
@@ -841,6 +904,14 @@ vassal = {
 	end_date = 1937.1.1
 }
 
+#Bhutan
+vassal = {
+	first = BHU
+	second = CBH
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
 #Sur Empire
 substate = {
 	first = SUR
@@ -870,6 +941,20 @@ vassal = {
 	end_date = 1937.1.1
 }
 
+#Gwalior
+vassal = {
+	first = GWA
+	second = MEW
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+vassal = {
+	first = GWA
+	second = JOD
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
 
 #Oirats
 vassal = {
@@ -1705,6 +1790,57 @@ vassal = {
 vassal = {
 	first = ZNB
 	second = ZHR
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+#Pueblo States
+vassal = {
+	first = APC
+	second = ZNI
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+vassal = {
+	first = APC
+	second = ACO
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+vassal = {
+	first = APC
+	second = ISL
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+vassal = {
+	first = APC
+	second = CCT
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+#Geumguk
+vassal = {
+	first = MCK
+	second = NNY
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+vassal = {
+	first = MCK
+	second = AIN
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+vassal = {
+	first = MCK
+	second = EVK
 	start_date = 1836.1.1
 	end_date = 1937.1.1
 }
