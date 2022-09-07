@@ -5412,7 +5412,7 @@ indo_aryan = {
 		radicalism = 10
 	}
 	
-	kanjari = {
+	kanjari = { #
 		color = {175 135 80}
 		first_names = { Sardar Fateh Muhammad Malik Umar Hayat Rai Hussain Veer Durga Bhai Rao Harsha Bhagwant "Mirza Raja" Jawapala Sawai
 			
@@ -5537,7 +5537,7 @@ indo_aryan = {
 		}
 	}
 	
-	lambadi = {
+	lambadi = { #
 		color = {155 135 80}
 		first_names = { Lokendra Raghuraj Vijay Vishvanath Pheran Jugal Parbhu Narayan Ishvari Udit Prasan Mahip
 			
@@ -5561,7 +5561,7 @@ indo_aryan = {
 	
 	#Malvi-Nimbadi (Bhil)
 	malvi = { 
-		color = {155 135 80}
+		color = {125 135 155} 
 		first_names = { Lokendra Raghuraj Vijay Vishvanath Pheran Jugal Parbhu Narayan Ishvari Udit Prasan Mahip
 			
 		}
@@ -5571,8 +5571,8 @@ indo_aryan = {
 		}
 	}
 	
-	nimbadi = { 
-		color = {155 135 80}
+	nimadi = { #
+		color = {125 135 175} 
 		first_names = { Lokendra Raghuraj Vijay Vishvanath Pheran Jugal Parbhu Narayan Ishvari Udit Prasan Mahip
 			
 		}
@@ -5606,7 +5606,7 @@ indo_aryan = {
 	}
 	
 	dungra_bhil = { #
-		color = {155 135 80}
+		color = {125 105 155} 
 		first_names = { Lokendra Raghuraj Vijay Vishvanath Pheran Jugal Parbhu Narayan Ishvari Udit Prasan Mahip
 			
 		}
@@ -5617,7 +5617,7 @@ indo_aryan = {
 	}
 	
 	noiri = { #
-		color = {155 135 80}
+		color = {145 135 175} 
 		first_names = { Lokendra Raghuraj Vijay Vishvanath Pheran Jugal Parbhu Narayan Ishvari Udit Prasan Mahip
 			
 		}
@@ -5628,7 +5628,7 @@ indo_aryan = {
 	}
 	
 	vasavi = { #
-		color = {155 135 80}
+		color = {105 135 135} 
 		first_names = { Lokendra Raghuraj Vijay Vishvanath Pheran Jugal Parbhu Narayan Ishvari Udit Prasan Mahip
 			
 		}
@@ -5638,8 +5638,8 @@ indo_aryan = {
 		}
 	}
 	
-	bhili = {
-		color = {155 135 180}
+	bhili = { #
+		color = {105 155 165} 
 		first_names = { Lokendra Raghuraj Vijay Vishvanath Pheran Jugal Parbhu Narayan Ishvari Udit Prasan Mahip
 			
 		}
@@ -5650,7 +5650,7 @@ indo_aryan = {
 	}
 	
 	chodri = { #
-		color = {155 135 80}
+		color = {125 155 155} 
 		first_names = { Lokendra Raghuraj Vijay Vishvanath Pheran Jugal Parbhu Narayan Ishvari Udit Prasan Mahip
 			
 		}
@@ -5661,7 +5661,7 @@ indo_aryan = {
 	}
 	
 	dhodia_kukna = { #
-		color = {155 135 80}
+		color = {85 115 115} 
 		first_names = { Lokendra Raghuraj Vijay Vishvanath Pheran Jugal Parbhu Narayan Ishvari Udit Prasan Mahip
 			
 		}
@@ -5672,7 +5672,7 @@ indo_aryan = {
 	}
 	
 	gamit = { #
-		color = {155 135 80}
+		color = {145 165 175} 
 		first_names = { Lokendra Raghuraj Vijay Vishvanath Pheran Jugal Parbhu Narayan Ishvari Udit Prasan Mahip
 			
 		}
@@ -5694,7 +5694,7 @@ indo_aryan = {
 	}
 	
 	mawchi = { #
-		color = {155 135 80}
+		color = {85 155 145} 
 		first_names = { Lokendra Raghuraj Vijay Vishvanath Pheran Jugal Parbhu Narayan Ishvari Udit Prasan Mahip
 			
 		}
@@ -5705,7 +5705,7 @@ indo_aryan = {
 	}
 	
 	pardhi = { #
-		color = {155 135 80}
+		color = {125 135 125} 
 		first_names = { Lokendra Raghuraj Vijay Vishvanath Pheran Jugal Parbhu Narayan Ishvari Udit Prasan Mahip
 			
 		}
@@ -5715,8 +5715,8 @@ indo_aryan = {
 		}
 	}
 	
-	bhilali = {
-		color = {155 135 80}
+	bhilali = { #
+		color = {105 175 185} 
 		first_names = { Lokendra Raghuraj Vijay Vishvanath Pheran Jugal Parbhu Narayan Ishvari Udit Prasan Mahip
 			
 		}
@@ -5727,7 +5727,7 @@ indo_aryan = {
 	}
 	
 	nahali_baglani = { #
-		color = {155 135 80}
+		color = {65 75 105} 
 		first_names = { Lokendra Raghuraj Vijay Vishvanath Pheran Jugal Parbhu Narayan Ishvari Udit Prasan Mahip
 			
 		}
@@ -5738,7 +5738,7 @@ indo_aryan = {
 	}
 	
 	pauri_bareli = { #
-		color = {155 135 80}
+		color = {125 95 140} 
 		first_names = { Lokendra Raghuraj Vijay Vishvanath Pheran Jugal Parbhu Narayan Ishvari Udit Prasan Mahip
 			
 		}
@@ -5749,7 +5749,7 @@ indo_aryan = {
 	}
 	
 	rathwi_bareli = { #
-		color = {155 135 80}
+		color = {125 135 155} 
 		first_names = { Lokendra Raghuraj Vijay Vishvanath Pheran Jugal Parbhu Narayan Ishvari Udit Prasan Mahip
 			
 		}
@@ -5760,7 +5760,7 @@ indo_aryan = {
 	}
 	
 	palya_bareli = { #
-		color = {155 135 80}
+		color = {155 105 180}
 		first_names = { Lokendra Raghuraj Vijay Vishvanath Pheran Jugal Parbhu Narayan Ishvari Udit Prasan Mahip
 			
 		}
@@ -5771,7 +5771,7 @@ indo_aryan = {
 	}
 	
 	rathawi = { #
-		color = {155 135 80}
+		color = {105 165 180}
 		first_names = { Lokendra Raghuraj Vijay Vishvanath Pheran Jugal Parbhu Narayan Ishvari Udit Prasan Mahip
 			
 		}
@@ -5782,7 +5782,7 @@ indo_aryan = {
 	}
 	
 	vaagri_booli = { #
-		color = {155 135 80}
+		color = {125 75 155} 
 		first_names = { Lokendra Raghuraj Vijay Vishvanath Pheran Jugal Parbhu Narayan Ishvari Udit Prasan Mahip
 			
 		}
