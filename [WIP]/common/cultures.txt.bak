@@ -488,22 +488,6 @@ italian = {
 		"della Rovere" "di Borbone della Due Sicilia" Diaz Ferrari Filangieri Gironda Gravina Grifeo Lanza Lombardo
 		Lunardi Molinelli Orsini Ottaviani Pironti Scammacca Torlonia Turrisi Vernazza Zunica }
 	}
-	
-	romansh = { 
-		color = { 120 140 110 }
-		first_names = { Alessandro Alfonso Ambrogio Amedeo Andrea Angelo Antonio Benito Camillo Carlo
-		Cesare Costanzo Davide Enrico Ettore Fabrizio Faustino Federico Felice Ferdinando
-		Fiorenzo Francesco Gaetano Gennaro Girolamo Giulio Giuseppe Guglielmo Innocenzo Leopoldo
-		Luigi Marco Massimo Matteo Nicola Oreste Paolo Pasquale Pietro Prospero
-		Raffaele Roberto Ruggiero Silvio Simone Tancredi Ugo Umberto Vincenzo Vittorio }
-		
-		last_names = { Acton Albricci Badoglio Baldissera Baratieri Bava-Beccaris Cadorna Cagni Canevaro Capello
-		Caviglia Ceccherini Cialdini Cusani d'Absburgo-Toscana d'Austria-Este Dezza "di Borbone di Parma" "di Robilant" "di Savoia"
-		"di Savoia-Aosta" Emo Fanti Fara Filomarino Garibaldi Giardino Govone "La Màrmora" Mambretti 
-		Menabrea Orengo "Pacoret de Saint Bon" Pallavicino Pecori-Giraldi "Pellion di Persano" Pelloux Perruchetti Pianelli Porro
-		Presbitero Ramorino Ricotti-Magnani Sacchi Saletta Sanna Solari "Thaon di Revel" Vaccari Zupelli }
-	}
-	
 	union = ITA
 }
 
@@ -4466,6 +4450,7 @@ armenian_group = {
 	}
 }
 
+#Nuristani
 kafiri = {
 	leader = arab
 	is_overseas = no
@@ -4877,7 +4862,7 @@ indo_aryan = {
 		}
 	}
 	
-	bhadrawahi  = {
+	bhadrawahi = {
 		color ={165 125 125}
 		first_names = { Bhimsen Amar Ranjur Bhakti Jang Renaudip Shamsher "Bir Shamsher" "Deva Shamsher" "Chandra Shamsher" "Bhim Shamsher" 
 			
@@ -4888,18 +4873,7 @@ indo_aryan = {
 		}
 	}
 	
-	bhadrawahi  = {
-		color ={135 105 135}
-		first_names = { Bhimsen Amar Ranjur Bhakti Jang Renaudip Shamsher "Bir Shamsher" "Deva Shamsher" "Chandra Shamsher" "Bhim Shamsher" 
-			
-		}
-		
-		last_names = { Thapa "Singh Thapa" Singh Rana "Bahadur Rana" 
-               
-		}
-	}
-	
-	dogri  = {
+	dogri = {
 		color ={155 135 155} 
 		first_names = { Bhimsen Amar Ranjur Bhakti Jang Renaudip Shamsher "Bir Shamsher" "Deva Shamsher" "Chandra Shamsher" "Bhim Shamsher" 
 			
@@ -4910,7 +4884,7 @@ indo_aryan = {
 		}
 	}
 	
-	kangri  = {
+	kangri = {
 		color ={135 115 135}
 		first_names = { Bhimsen Amar Ranjur Bhakti Jang Renaudip Shamsher "Bir Shamsher" "Deva Shamsher" "Chandra Shamsher" "Bhim Shamsher" 
 			
@@ -5064,7 +5038,7 @@ indo_aryan = {
 		radicalism = 1
 	}
 	
-	domaaki = {
+	domaaki = { #
 		color = {155 135 80}
 		first_names = { Lokendra Raghuraj Vijay Vishvanath Pheran Jugal Parbhu Narayan Ishvari Udit Prasan Mahip
 			
@@ -5099,7 +5073,7 @@ indo_aryan = {
 	
 	#Sindhi-Panjabi
 	#Sindhic
-	sindi = {
+	sindi = { #
 		color = {155 135 110}
 		first_names = { "Morad Ali" "Nur Mohammad" Sobhdar Hosayn Shahdad Mohammad Nasir Morad Karim Gholam "Mir Fath"
 			
@@ -5110,8 +5084,8 @@ indo_aryan = {
 		}
 	}
 	
-	kutchi  = {
-		color = {145 130 105}
+	kutchi = { # 
+		color = {145 110 115}
 		first_names = { "Morad Ali" "Nur Mohammad" Sobhdar Hosayn Shahdad Mohammad Nasir Morad Karim Gholam "Mir Fath"
 			
 		}
@@ -5121,7 +5095,7 @@ indo_aryan = {
 		}
 	}
 	
-	luwati = {
+	luwati = { #
 		color = {135 125 100}
 		first_names = { "Morad Ali" "Nur Mohammad" Sobhdar Hosayn Shahdad Mohammad Nasir Morad Karim Gholam "Mir Fath"
 			
@@ -5132,7 +5106,7 @@ indo_aryan = {
 		}
 	}
 	
-	kholosi = {
+	kholosi = { #
 		color = {130 120 95}
 		first_names = { "Morad Ali" "Nur Mohammad" Sobhdar Hosayn Shahdad Mohammad Nasir Morad Karim Gholam "Mir Fath"
 			
@@ -5143,7 +5117,7 @@ indo_aryan = {
 		}
 	}
 	
-	memoni = {
+	memoni = { #
 		color = {125 115 90}
 		first_names = { "Morad Ali" "Nur Mohammad" Sobhdar Hosayn Shahdad Mohammad Nasir Morad Karim Gholam "Mir Fath"
 			
@@ -5154,7 +5128,7 @@ indo_aryan = {
 		}
 	}
 	
-	lasi = {
+	lasi = { #
 		color = {115 110 85}
 		first_names = { "Morad Ali" "Nur Mohammad" Sobhdar Hosayn Shahdad Mohammad Nasir Morad Karim Gholam "Mir Fath"
 			
@@ -5165,7 +5139,7 @@ indo_aryan = {
 		}
 	}
 	
-	jadgali = {
+	jadgali = { #
 		color = {110 105 80}
 		first_names = { "Morad Ali" "Nur Mohammad" Sobhdar Hosayn Shahdad Mohammad Nasir Morad Karim Gholam "Mir Fath"
 			
@@ -5176,7 +5150,7 @@ indo_aryan = {
 		}
 	}
 	
-	sindhi_bhil = {
+	sindhi_bhil = { #
 		color = {105 100 75}
 		first_names = { "Morad Ali" "Nur Mohammad" Sobhdar Hosayn Shahdad Mohammad Nasir Morad Karim Gholam "Mir Fath"
 			
@@ -5187,7 +5161,7 @@ indo_aryan = {
 		}
 	}
 	
-	khetrani = {
+	khetrani = { #
 		color = {135 115 120}
 		first_names = { "Morad Ali" "Nur Mohammad" Sobhdar Hosayn Shahdad Mohammad Nasir Morad Karim Gholam "Mir Fath"
 			
@@ -5209,7 +5183,7 @@ indo_aryan = {
 		}
 	}
 	
-	inku = {
+	inku = { #
 		color = {150 135 150}
 		first_names = { Ranjit Kharak Nau Nihal Chand Kaur Shir Dhalip Diwan Jassa Hari Bhuma Nawab Banda Baba Kapur
 			
@@ -5220,8 +5194,8 @@ indo_aryan = {
 		}
 	}
 	
-	pothwari = {
-		color = {150 135 145}
+	pothwari = { #
+		color = {130 135 145}
 		first_names = { Ranjit Kharak Nau Nihal Chand Kaur Shir Dhalip Diwan Jassa Hari Bhuma Nawab Banda Baba Kapur
 			
 		}
@@ -5231,8 +5205,8 @@ indo_aryan = {
 		}
 	}
 	
-	hindko = {
-		color = {160 140 150}
+	hindko = { #
+		color = {160 140 180}
 		first_names = { Ranjit Kharak Nau Nihal Chand Kaur Shir Dhalip Diwan Jassa Hari Bhuma Nawab Banda Baba Kapur
 			
 		}
@@ -5253,7 +5227,7 @@ indo_aryan = {
 		}
 	}
 	
-	sansi = {
+	sansi = { #
 		color = {170 130 160}
 		first_names = { Ranjit Kharak Nau Nihal Chand Kaur Shir Dhalip Diwan Jassa Hari Bhuma Nawab Banda Baba Kapur
 			
@@ -5266,8 +5240,8 @@ indo_aryan = {
 	
 	#Gujarati-Rajasthani
 	#Gujaratic
-	gujarati = {
-		color = {135 125 140}
+	gujarati = { #
+		color = {155 115 140}
 		first_names = { Chetan Fakirbhai Jivraj Madhavsingh Khemchand Manubhai Bharatsingh Balwantry Chabildas Maniraj 
 			
 		}
@@ -5288,7 +5262,7 @@ indo_aryan = {
 		}
 	}
 	
-    saurashtra = {
+    saurashtra = { #
 		color = {145 125 140}
 		first_names = { Chetan Fakirbhai Jivraj Madhavsingh Khemchand Manubhai Bharatsingh Balwantry Chabildas Maniraj 
 			
@@ -5299,8 +5273,8 @@ indo_aryan = {
 		}
 	}
 	
-	aer = {
-		color = {175 165 80}
+	aer = { #
+		color = {175 165 180}
 		first_names = { Chetan Fakirbhai Jivraj Madhavsingh Khemchand Manubhai Bharatsingh Balwantry Chabildas Maniraj 
 			
 		}
@@ -5310,8 +5284,8 @@ indo_aryan = {
 		}
 	}
 	
-	kochi_koli = {
-		color = {175 165 80}
+	kochi_koli = { #
+		color = {175 115 140}
 		first_names = { Chetan Fakirbhai Jivraj Madhavsingh Khemchand Manubhai Bharatsingh Balwantry Chabildas Maniraj 
 			
 		}
@@ -5321,8 +5295,8 @@ indo_aryan = {
 		}
 	}
 	
-	vaghri = {
-		color = {175 165 80}
+	vaghri = { #
+		color = {135 85 120}
 		first_names = { Chetan Fakirbhai Jivraj Madhavsingh Khemchand Manubhai Bharatsingh Balwantry Chabildas Maniraj 
 			
 		}
@@ -5332,8 +5306,8 @@ indo_aryan = {
 		}
 	}
 	
-	wadiyara_kholi = {
-		color = {175 165 80}
+	wadiyara_kholi = { #
+		color = {155 75 130}
 		first_names = { Chetan Fakirbhai Jivraj Madhavsingh Khemchand Manubhai Bharatsingh Balwantry Chabildas Maniraj 
 			
 		}
@@ -5345,6 +5319,54 @@ indo_aryan = {
 	
 	#Rajasthani
 	bagri = { #transition to Haryanvi
+		color = {135 115 120} 
+		first_names = { Sardar Fateh Muhammad Malik Umar Hayat Rai Hussain Veer Durga Bhai Rao Harsha Bhagwant "Mirza Raja" Jawapala Sawai
+			
+		}
+		
+		last_names = { "ur Rahman" Bhatti Tiwana Qaim Kunwar "Bachittar Singh" Shekha
+               
+		}
+		radicalism = 10
+	}
+	
+	jandavra = { #
+		color = {135 135 150}
+		first_names = { Sardar Fateh Muhammad Malik Umar Hayat Rai Hussain Veer Durga Bhai Rao Harsha Bhagwant "Mirza Raja" Jawapala Sawai
+			
+		}
+		
+		last_names = { "ur Rahman" Bhatti Tiwana Qaim Kunwar "Bachittar Singh" Shekha
+               
+		}
+		radicalism = 10
+	}
+	
+	dhatki = { #
+		color = {175 115 110}
+		first_names = { Sardar Fateh Muhammad Malik Umar Hayat Rai Hussain Veer Durga Bhai Rao Harsha Bhagwant "Mirza Raja" Jawapala Sawai
+			
+		}
+		
+		last_names = { "ur Rahman" Bhatti Tiwana Qaim Kunwar "Bachittar Singh" Shekha
+               
+		}
+		radicalism = 10
+	}
+	
+	dhundari = { #
+		color = {165 120 130} 
+		first_names = { Sardar Fateh Muhammad Malik Umar Hayat Rai Hussain Veer Durga Bhai Rao Harsha Bhagwant "Mirza Raja" Jawapala Sawai
+			
+		}
+		
+		last_names = { "ur Rahman" Bhatti Tiwana Qaim Kunwar "Bachittar Singh" Shekha
+               
+		}
+		radicalism = 10
+	}
+	
+	hadhoti = { #
 		color = {175 135 80}
 		first_names = { Sardar Fateh Muhammad Malik Umar Hayat Rai Hussain Veer Durga Bhai Rao Harsha Bhagwant "Mirza Raja" Jawapala Sawai
 			
@@ -5356,8 +5378,8 @@ indo_aryan = {
 		radicalism = 10
 	}
 	
-	jandavra = {
-		color = {175 135 80}
+	merwari = { #
+		color = {145 95 115} 
 		first_names = { Sardar Fateh Muhammad Malik Umar Hayat Rai Hussain Veer Durga Bhai Rao Harsha Bhagwant "Mirza Raja" Jawapala Sawai
 			
 		}
@@ -5368,8 +5390,8 @@ indo_aryan = {
 		radicalism = 10
 	}
 	
-	dhatki = {
-		color = {175 135 80}
+	mewari = { #
+		color = {135 115 125}
 		first_names = { Sardar Fateh Muhammad Malik Umar Hayat Rai Hussain Veer Durga Bhai Rao Harsha Bhagwant "Mirza Raja" Jawapala Sawai
 			
 		}
@@ -5380,8 +5402,8 @@ indo_aryan = {
 		radicalism = 10
 	}
 	
-	dhundari = {
-		color = {175 135 80}
+	kanjari = { #
+		color = {145 135 140}
 		first_names = { Sardar Fateh Muhammad Malik Umar Hayat Rai Hussain Veer Durga Bhai Rao Harsha Bhagwant "Mirza Raja" Jawapala Sawai
 			
 		}
@@ -5392,8 +5414,8 @@ indo_aryan = {
 		radicalism = 10
 	}
 	
-	hadhoti = {
-		color = {175 135 80}
+	gade_lohar = { #
+		color = {115 115 130}
 		first_names = { Sardar Fateh Muhammad Malik Umar Hayat Rai Hussain Veer Durga Bhai Rao Harsha Bhagwant "Mirza Raja" Jawapala Sawai
 			
 		}
@@ -5404,8 +5426,8 @@ indo_aryan = {
 		radicalism = 10
 	}
 	
-	merwari = {
-		color = {175 135 80}
+	godwari = { #
+		color = {145 135 120}
 		first_names = { Sardar Fateh Muhammad Malik Umar Hayat Rai Hussain Veer Durga Bhai Rao Harsha Bhagwant "Mirza Raja" Jawapala Sawai
 			
 		}
@@ -5416,8 +5438,19 @@ indo_aryan = {
 		radicalism = 10
 	}
 	
-	mewari = {
-		color = {175 135 80}
+	gujari = { #
+		color = {135 55 100}
+		first_names = { Sardar Fateh Muhammad Malik Umar Hayat Rai Hussain Veer Durga Bhai Rao Harsha Bhagwant "Mirza Raja" Jawapala Sawai
+			
+		}
+		
+		last_names = { "ur Rahman" Bhatti Tiwana Qaim Kunwar "Bachittar Singh" Shekha
+               
+		}
+	}
+	
+	marwari = { #
+		color = {135 135 95}
 		first_names = { Sardar Fateh Muhammad Malik Umar Hayat Rai Hussain Veer Durga Bhai Rao Harsha Bhagwant "Mirza Raja" Jawapala Sawai
 			
 		}
@@ -5428,67 +5461,8 @@ indo_aryan = {
 		radicalism = 10
 	}
 	
-	kanjari = {
-		color = {175 135 80}
-		first_names = { Sardar Fateh Muhammad Malik Umar Hayat Rai Hussain Veer Durga Bhai Rao Harsha Bhagwant "Mirza Raja" Jawapala Sawai
-			
-		}
-		
-		last_names = { "ur Rahman" Bhatti Tiwana Qaim Kunwar "Bachittar Singh" Shekha
-               
-		}
-		radicalism = 10
-	}
-	
-	gade_lohar = {
-		color = {175 135 80}
-		first_names = { Sardar Fateh Muhammad Malik Umar Hayat Rai Hussain Veer Durga Bhai Rao Harsha Bhagwant "Mirza Raja" Jawapala Sawai
-			
-		}
-		
-		last_names = { "ur Rahman" Bhatti Tiwana Qaim Kunwar "Bachittar Singh" Shekha
-               
-		}
-		radicalism = 10
-	}
-	
-	godwari = {
-		color = {175 135 80}
-		first_names = { Sardar Fateh Muhammad Malik Umar Hayat Rai Hussain Veer Durga Bhai Rao Harsha Bhagwant "Mirza Raja" Jawapala Sawai
-			
-		}
-		
-		last_names = { "ur Rahman" Bhatti Tiwana Qaim Kunwar "Bachittar Singh" Shekha
-               
-		}
-		radicalism = 10
-	}
-	
-	gujari = {
-		color = {175 135 80}
-		first_names = { Sardar Fateh Muhammad Malik Umar Hayat Rai Hussain Veer Durga Bhai Rao Harsha Bhagwant "Mirza Raja" Jawapala Sawai
-			
-		}
-		
-		last_names = { "ur Rahman" Bhatti Tiwana Qaim Kunwar "Bachittar Singh" Shekha
-               
-		}
-	}
-	
-	marwari = {
-		color = {175 135 80}
-		first_names = { Sardar Fateh Muhammad Malik Umar Hayat Rai Hussain Veer Durga Bhai Rao Harsha Bhagwant "Mirza Raja" Jawapala Sawai
-			
-		}
-		
-		last_names = { "ur Rahman" Bhatti Tiwana Qaim Kunwar "Bachittar Singh" Shekha
-               
-		}
-		radicalism = 10
-	}
-	
-	mewati = {
-		color = {175 135 80}
+	mewati = { #
+		color = {155 155 130}
 		first_names = { Sardar Fateh Muhammad Malik Umar Hayat Rai Hussain Veer Durga Bhai Rao Harsha Bhagwant "Mirza Raja" Jawapala Sawai
 			
 		}
@@ -5499,6 +5473,61 @@ indo_aryan = {
 	}
 	
 	parya = {
+		color = {155 135 120}
+		first_names = { Lokendra Raghuraj Vijay Vishvanath Pheran Jugal Parbhu Narayan Ishvari Udit Prasan Mahip
+			
+		}
+		
+		last_names = { Singh
+               
+		}
+	}
+	
+	shekawati = { #
+		color = {175 135 80}
+		first_names = { Sardar Fateh Muhammad Malik Umar Hayat Rai Hussain Veer Durga Bhai Rao Harsha Bhagwant "Mirza Raja" Jawapala Sawai
+			
+		}
+		
+		last_names = { "ur Rahman" Bhatti Tiwana Qaim Kunwar "Bachittar Singh" Shekha
+               
+		}
+	}
+	
+	kabutra = { #
+		color = {175 135 80}
+		first_names = { Sardar Fateh Muhammad Malik Umar Hayat Rai Hussain Veer Durga Bhai Rao Harsha Bhagwant "Mirza Raja" Jawapala Sawai
+			
+		}
+		
+		last_names = { "ur Rahman" Bhatti Tiwana Qaim Kunwar "Bachittar Singh" Shekha
+               
+		}
+	}
+	
+	bhaya = { #
+		color = {175 135 80}
+		first_names = { Sardar Fateh Muhammad Malik Umar Hayat Rai Hussain Veer Durga Bhai Rao Harsha Bhagwant "Mirza Raja" Jawapala Sawai
+			
+		}
+		
+		last_names = { "ur Rahman" Bhatti Tiwana Qaim Kunwar "Bachittar Singh" Shekha
+               
+		}
+	}
+	
+	goaria = { #
+		color = {175 135 80}
+		first_names = { Sardar Fateh Muhammad Malik Umar Hayat Rai Hussain Veer Durga Bhai Rao Harsha Bhagwant "Mirza Raja" Jawapala Sawai
+			
+		}
+		
+		last_names = { "ur Rahman" Bhatti Tiwana Qaim Kunwar "Bachittar Singh" Shekha
+               
+		}
+	}
+	
+	lambadi = { #
 		color = {155 135 80}
 		first_names = { Lokendra Raghuraj Vijay Vishvanath Pheran Jugal Parbhu Narayan Ishvari Udit Prasan Mahip
 			
@@ -5509,62 +5538,7 @@ indo_aryan = {
 		}
 	}
 	
-	shekawati = {
-		color = {175 135 80}
-		first_names = { Sardar Fateh Muhammad Malik Umar Hayat Rai Hussain Veer Durga Bhai Rao Harsha Bhagwant "Mirza Raja" Jawapala Sawai
-			
-		}
-		
-		last_names = { "ur Rahman" Bhatti Tiwana Qaim Kunwar "Bachittar Singh" Shekha
-               
-		}
-	}
-	
-	kabtura = {
-		color = {175 135 80}
-		first_names = { Sardar Fateh Muhammad Malik Umar Hayat Rai Hussain Veer Durga Bhai Rao Harsha Bhagwant "Mirza Raja" Jawapala Sawai
-			
-		}
-		
-		last_names = { "ur Rahman" Bhatti Tiwana Qaim Kunwar "Bachittar Singh" Shekha
-               
-		}
-	}
-	
-	bhaya = {
-		color = {175 135 80}
-		first_names = { Sardar Fateh Muhammad Malik Umar Hayat Rai Hussain Veer Durga Bhai Rao Harsha Bhagwant "Mirza Raja" Jawapala Sawai
-			
-		}
-		
-		last_names = { "ur Rahman" Bhatti Tiwana Qaim Kunwar "Bachittar Singh" Shekha
-               
-		}
-	}
-	
-	goaria = {
-		color = {175 135 80}
-		first_names = { Sardar Fateh Muhammad Malik Umar Hayat Rai Hussain Veer Durga Bhai Rao Harsha Bhagwant "Mirza Raja" Jawapala Sawai
-			
-		}
-		
-		last_names = { "ur Rahman" Bhatti Tiwana Qaim Kunwar "Bachittar Singh" Shekha
-               
-		}
-	}
-	
-	lambadi = {
-		color = {155 135 80}
-		first_names = { Lokendra Raghuraj Vijay Vishvanath Pheran Jugal Parbhu Narayan Ishvari Udit Prasan Mahip
-			
-		}
-		
-		last_names = { Singh
-               
-		}
-	}
-	
-	parkari_koli = {
+	parkari_koli = { #
 		color = {175 135 80}
 		first_names = { Sardar Fateh Muhammad Malik Umar Hayat Rai Hussain Veer Durga Bhai Rao Harsha Bhagwant "Mirza Raja" Jawapala Sawai
 			
@@ -5576,8 +5550,8 @@ indo_aryan = {
 	}
 	
 	#Malvi-Nimbadi (Bhil)
-	malvi = { 
-		color = {155 135 80}
+	malvi = { #
+		color = {125 135 155} 
 		first_names = { Lokendra Raghuraj Vijay Vishvanath Pheran Jugal Parbhu Narayan Ishvari Udit Prasan Mahip
 			
 		}
@@ -5587,8 +5561,8 @@ indo_aryan = {
 		}
 	}
 	
-	nimbadi = { 
-		color = {155 135 80}
+	nimadi = { #
+		color = {125 135 175} 
 		first_names = { Lokendra Raghuraj Vijay Vishvanath Pheran Jugal Parbhu Narayan Ishvari Udit Prasan Mahip
 			
 		}
@@ -5599,7 +5573,7 @@ indo_aryan = {
 	}
 	
 	#Bhil
-	bauria = { 
+	bauria = { #
 		color = {155 135 80}
 		first_names = { Lokendra Raghuraj Vijay Vishvanath Pheran Jugal Parbhu Narayan Ishvari Udit Prasan Mahip
 			
@@ -5610,7 +5584,7 @@ indo_aryan = {
 		}
 	}
 	
-	wagri = {
+	wagri = { #
 		color = {155 135 80}
 		first_names = { Lokendra Raghuraj Vijay Vishvanath Pheran Jugal Parbhu Narayan Ishvari Udit Prasan Mahip
 			
@@ -5622,7 +5596,7 @@ indo_aryan = {
 	}
 	
 	dungra_bhil = { #
-		color = {155 135 80}
+		color = {125 105 155} 
 		first_names = { Lokendra Raghuraj Vijay Vishvanath Pheran Jugal Parbhu Narayan Ishvari Udit Prasan Mahip
 			
 		}
@@ -5633,7 +5607,7 @@ indo_aryan = {
 	}
 	
 	noiri = { #
-		color = {155 135 80}
+		color = {145 135 175} 
 		first_names = { Lokendra Raghuraj Vijay Vishvanath Pheran Jugal Parbhu Narayan Ishvari Udit Prasan Mahip
 			
 		}
@@ -5644,7 +5618,7 @@ indo_aryan = {
 	}
 	
 	vasavi = { #
-		color = {155 135 80}
+		color = {105 135 135} 
 		first_names = { Lokendra Raghuraj Vijay Vishvanath Pheran Jugal Parbhu Narayan Ishvari Udit Prasan Mahip
 			
 		}
@@ -5654,8 +5628,8 @@ indo_aryan = {
 		}
 	}
 	
-	bhili = {
-		color = {155 135 180}
+	bhili = { #
+		color = {105 155 165} 
 		first_names = { Lokendra Raghuraj Vijay Vishvanath Pheran Jugal Parbhu Narayan Ishvari Udit Prasan Mahip
 			
 		}
@@ -5666,7 +5640,7 @@ indo_aryan = {
 	}
 	
 	chodri = { #
-		color = {155 135 80}
+		color = {125 155 155} 
 		first_names = { Lokendra Raghuraj Vijay Vishvanath Pheran Jugal Parbhu Narayan Ishvari Udit Prasan Mahip
 			
 		}
@@ -5677,7 +5651,7 @@ indo_aryan = {
 	}
 	
 	dhodia_kukna = { #
-		color = {155 135 80}
+		color = {85 115 115} 
 		first_names = { Lokendra Raghuraj Vijay Vishvanath Pheran Jugal Parbhu Narayan Ishvari Udit Prasan Mahip
 			
 		}
@@ -5688,7 +5662,7 @@ indo_aryan = {
 	}
 	
 	gamit = { #
-		color = {155 135 80}
+		color = {145 165 175} 
 		first_names = { Lokendra Raghuraj Vijay Vishvanath Pheran Jugal Parbhu Narayan Ishvari Udit Prasan Mahip
 			
 		}
@@ -5710,7 +5684,7 @@ indo_aryan = {
 	}
 	
 	mawchi = { #
-		color = {155 135 80}
+		color = {85 155 145} 
 		first_names = { Lokendra Raghuraj Vijay Vishvanath Pheran Jugal Parbhu Narayan Ishvari Udit Prasan Mahip
 			
 		}
@@ -5721,7 +5695,7 @@ indo_aryan = {
 	}
 	
 	pardhi = { #
-		color = {155 135 80}
+		color = {125 135 125} 
 		first_names = { Lokendra Raghuraj Vijay Vishvanath Pheran Jugal Parbhu Narayan Ishvari Udit Prasan Mahip
 			
 		}
@@ -5731,8 +5705,8 @@ indo_aryan = {
 		}
 	}
 	
-	bhilali = {
-		color = {155 135 80}
+	bhilali = { #
+		color = {105 175 185} 
 		first_names = { Lokendra Raghuraj Vijay Vishvanath Pheran Jugal Parbhu Narayan Ishvari Udit Prasan Mahip
 			
 		}
@@ -5743,7 +5717,7 @@ indo_aryan = {
 	}
 	
 	nahali_baglani = { #
-		color = {155 135 80}
+		color = {65 75 105} 
 		first_names = { Lokendra Raghuraj Vijay Vishvanath Pheran Jugal Parbhu Narayan Ishvari Udit Prasan Mahip
 			
 		}
@@ -5754,7 +5728,7 @@ indo_aryan = {
 	}
 	
 	pauri_bareli = { #
-		color = {155 135 80}
+		color = {125 95 140} 
 		first_names = { Lokendra Raghuraj Vijay Vishvanath Pheran Jugal Parbhu Narayan Ishvari Udit Prasan Mahip
 			
 		}
@@ -5765,7 +5739,7 @@ indo_aryan = {
 	}
 	
 	rathwi_bareli = { #
-		color = {155 135 80}
+		color = {125 135 155} 
 		first_names = { Lokendra Raghuraj Vijay Vishvanath Pheran Jugal Parbhu Narayan Ishvari Udit Prasan Mahip
 			
 		}
@@ -5776,7 +5750,7 @@ indo_aryan = {
 	}
 	
 	palya_bareli = { #
-		color = {155 135 80}
+		color = {155 105 180}
 		first_names = { Lokendra Raghuraj Vijay Vishvanath Pheran Jugal Parbhu Narayan Ishvari Udit Prasan Mahip
 			
 		}
@@ -5787,7 +5761,7 @@ indo_aryan = {
 	}
 	
 	rathawi = { #
-		color = {155 135 80}
+		color = {105 165 180}
 		first_names = { Lokendra Raghuraj Vijay Vishvanath Pheran Jugal Parbhu Narayan Ishvari Udit Prasan Mahip
 			
 		}
@@ -5798,7 +5772,7 @@ indo_aryan = {
 	}
 	
 	vaagri_booli = { #
-		color = {155 135 80}
+		color = {125 75 155} 
 		first_names = { Lokendra Raghuraj Vijay Vishvanath Pheran Jugal Parbhu Narayan Ishvari Udit Prasan Mahip
 			
 		}
@@ -5820,7 +5794,7 @@ indo_aryan = {
 		}
 	}
 	
-	khandeshi = {
+	khandeshi = { #
 		color = {120 165 180}
 		first_names = { Lokendra Raghuraj Vijay Vishvanath Pheran Jugal Parbhu Narayan Ishvari Udit Prasan Mahip
 			
@@ -5833,7 +5807,7 @@ indo_aryan = {
 	
 	
 	#Western Hindi	
-	ob_language = { #???
+	od_language = { #???
 		color = {155 135 80}
 		first_names = { Lokendra Raghuraj Vijay Vishvanath Pheran Jugal Parbhu Narayan Ishvari Udit Prasan Mahip
 			
@@ -5844,7 +5818,7 @@ indo_aryan = {
 		}
 	}
 	
-	ghera = {
+	ghera = { #
 		color = {155 135 80}
 		first_names = { Lokendra Raghuraj Vijay Vishvanath Pheran Jugal Parbhu Narayan Ishvari Udit Prasan Mahip
 			
@@ -5855,7 +5829,7 @@ indo_aryan = {
 		}
 	}
 	
-	gurgula = {
+	gurgula = { #
 		color = {155 135 80}
 		first_names = { Lokendra Raghuraj Vijay Vishvanath Pheran Jugal Parbhu Narayan Ishvari Udit Prasan Mahip
 			
@@ -5867,7 +5841,7 @@ indo_aryan = {
 	}
 	
 	haryanvi = { #transition from Punjabi
-		color = {155 135 80}
+		color = {165 135 140} 
 		first_names = { Lokendra Raghuraj Vijay Vishvanath Pheran Jugal Parbhu Narayan Ishvari Udit Prasan Mahip
 			
 		}
@@ -5888,7 +5862,7 @@ indo_aryan = {
 		}
 	}
 	
-	dakkhani = {
+	dakkhani = { #
 		color = {125 155 170}
 		first_names = { 
 		    Lokendra Raghuraj Vijay Vishvanath Pheran Jugal Parbhu Narayan Ishvari Udit Prasan Mahip
@@ -5941,7 +5915,7 @@ indo_aryan = {
 	
 	#Eastern Hindi
 	awadhi = { #
-		color = {135 115 170}
+		color = {105 115 180}
 		first_names = { Lokendra Raghuraj Vijay Vishvanath Pheran Jugal Parbhu Narayan Ishvari Udit Prasan Mahip
 			
 		}
@@ -5986,7 +5960,7 @@ indo_aryan = {
 	
 	#Biharic
 	bhojpuri = { #
-		color = {120 130 190}
+		color = {120 95 190}
 		first_names = { Maharshi Mahavira Ashtravakra Chanakya Ashoka Samudragupta Vachaspati Vatsyayana Asvaghosa Udayanacharaya
 			
 		}
@@ -5997,7 +5971,7 @@ indo_aryan = {
 	}
 	
 	magahi = { #
-		color = {120 150 190}
+		color = {120 130 200}
 		first_names = { Maharshi Mahavira Ashtravakra Chanakya Ashoka Samudragupta Vachaspati Vatsyayana Asvaghosa Udayanacharaya
 			
 		}
@@ -14332,7 +14306,7 @@ choco_group  = {
 }
 
 #Chibcha
-malibu_group  = {
+chibcha_group  = {
 	leader = nativeamerican
 	is_overseas = no
 	chibcha = { #Muisca -other groups in Colombia are extinct
