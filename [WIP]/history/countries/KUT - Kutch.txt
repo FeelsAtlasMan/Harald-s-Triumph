@@ -1,5 +1,6 @@
 capital = 1293
-primary_culture = gujarati
+primary_culture = kutchi
+culture = gujarati
 religion = sunni
 government = absolute_monarchy
 plurality = 0.0
@@ -8,7 +9,7 @@ literacy = 0.02
 non_state_culture_literacy = 0.01
 
 # Political reforms
-slavery = no_slavery
+slavery = yes_slavery
 upper_house_composition = appointed
 vote_franschise = none_voting
 public_meetings = no_meeting
@@ -33,7 +34,7 @@ penal_system = capital_punishment
 child_labor = child_labor_legal
 citizens_rights = primary_culture_only
 border_policy = open_borders
-centralization = unitary
+centralization = regionalism
 colonial_policy = no_colonies 
 
 
@@ -62,14 +63,3 @@ consciousness = 0
 nonstate_consciousness = 0
 
 oob = "KUT_oob.txt"
-1861.1.1 = {
-	oob = "/1861/KUT_oob.txt"
-	literacy = 0.04
-	non_state_culture_literacy = 0.02
-
-	#Military Reforms
-	foreign_weapons = yes_foreign_weapons
-	
-	#Technologies
-	flintlock_rifles = 1
-}

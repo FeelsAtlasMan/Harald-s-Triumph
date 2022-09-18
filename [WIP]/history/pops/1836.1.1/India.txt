@@ -2496,7 +2496,13 @@
 	farmers = {
 		culture = pamiri
 		religion = shiite
-		size = 1300
+		size = 1000
+	}
+	
+	serfs = {
+		culture = pamiri
+		religion = shiite
+		size = 300
 	}
 	
 	farmers = {
@@ -2532,16 +2538,22 @@
 	farmers = {
 		culture = burushaski
 		religion = shiite
-		size = 6500
+		size = 1500
 	}
 	
-	farmers = {
+	serfs = {
+		culture = burushaski
+		religion = shiite
+		size = 5000
+	}
+	
+	serfs = {
 		culture = shina
 		religion = shiite
 		size = 500
 	}
 	
-	farmers = {
+	serfs = {
 		culture = domaaki
 		religion = shiite
 		size = 225
@@ -38277,6 +38289,81 @@
 		culture = byari
 		religion = sunni
 		size = 18300
+	}
+}
+
+#Lakshadwip
+3897 = {
+	aristocrats = {
+		culture = byari
+		religion = sunni
+		size = 20
+	}
+
+	clergymen = {
+		culture = byari
+		religion = sunni
+		size = 30
+	}
+
+	artisans = {
+		culture = byari
+		religion = sunni
+		size = 50
+	}
+
+	soldiers = {
+		culture = byari
+		religion = sunni
+		size = 50
+	}
+
+	farmers = {
+		culture = byari
+		religion = sunni
+		size = 90
+	}
+	
+	serfs = {
+		culture = byari
+		religion = sunni
+		size = 800
+	}
+	
+	aristocrats = {
+		culture = dhivehi
+		religion = sunni
+		size = 10
+	}
+
+	clergymen = {
+		culture = dhivehi
+		religion = sunni
+		size = 10
+	}
+
+	artisans = {
+		culture = dhivehi
+		religion = sunni
+		size = 20
+	}
+
+	soldiers = {
+		culture = dhivehi
+		religion = sunni
+		size = 20
+	}
+
+	farmers = {
+		culture = dhivehi
+		religion = sunni
+		size = 60
+	}
+	
+	serfs = {
+		culture = dhivehi
+		religion = sunni
+		size = 390
 	}
 }
 

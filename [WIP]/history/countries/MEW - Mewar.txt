@@ -1,5 +1,8 @@
 capital = 1269
-primary_culture = rajput
+primary_culture = marwari
+culture = mewati
+culture = dhundari
+culture = shekawati
 religion = hindu
 government = colonial_company
 plurality = 0.0
@@ -33,7 +36,7 @@ penal_system = capital_punishment
 child_labor = child_labor_legal
 citizens_rights = primary_culture_only
 border_policy = open_borders
-centralization = unitary
+centralization = regionalism
 colonial_policy = no_colonies 
 
 set_country_flag = hindu_country
@@ -64,18 +67,3 @@ consciousness = 0
 nonstate_consciousness = 0
 
 oob = "MEW_oob.txt"
-1861.1.1 = {
-	oob = "/1861/MEW_oob.txt"
-	literacy = 0.10
-	non_state_culture_literacy = 0.05
-
-	#Military Reforms
-	foreign_training = yes_foreign_training
-	foreign_weapons = yes_foreign_weapons
-	foreign_officers = yes_foreign_officers
-
-	#Technologies
-	flintlock_rifles = 1
-	military_staff_system = 1
-
-}
