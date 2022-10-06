@@ -26627,12 +26627,7 @@
 } # Banska Bystrica
 
 636 = {
-    text_position = {
-        x = 3109.910000
-        y = 1607.253333
-    }
-
-    text_scale = 2.00000
+    text_scale = 1.3
     unit = {
         x = 3112.068750
         y = 1610.615625
@@ -26795,10 +26790,6 @@
 } # Budapest
 
 641 = {
-    text_position = {
-        x = 3110.900000
-        y = 1576.650000
-    }
 
     text_scale = 2.700000
     factory = {
@@ -26908,11 +26899,6 @@
     unit = {
         x = 3122.000000
         y = 1590.000000
-    }
-
-    text_position = {
-        x = 3122.600098
-        y = 1584.599976
     }
 
     text_scale = 3.099999
@@ -27026,10 +27012,6 @@
 } # Szeged
 
 649 = {
-    text_position = {
-        x = 3125.111111
-        y = 1555.277778
-    }
 
     text_rotation = 0.582455
     text_scale = 2.000000
@@ -27062,11 +27044,6 @@
     unit = {
         x = 3132.000000
         y = 1569.000000
-    }
-
-    text_position = {
-        x = 3131.399902
-        y = 1565.400024
     }
 
     text_rotation = 6.283184
@@ -120317,11 +120294,6 @@
 } # Jaszvar
 
 3303 = {
-    text_position = {
-        x = 3101.000000
-        y = 1557.150000
-    }
-
     text_rotation = 0.618506
     text_scale = 2.4
     unit = {
@@ -133140,11 +133112,6 @@
 }
 
 3649 = {
-    text_position = {
-        x = 3434.050000
-        y = 1413.850000
-    }
-
     text_scale = 2.0
     unit = {
         x = 3431.350000
@@ -137839,4 +137806,60 @@
 
     text_rotation = 5.711848
     text_scale = 0.8
+}
+
+3900 = {
+    text_scale = 1.3
+}
+
+3901 = {
+    text_scale = 1.3
+}
+
+3902 = {
+    text_scale = 1.3
+}
+
+3903 = {
+    text_scale = 1.3
+}
+
+3904 = {
+    text_scale = 1.3
+}
+
+3905 = {
+    text_scale = 1.3
+}
+
+3906 = {
+    text_scale = 1.3
+}
+
+3907 = {
+    text_scale = 1.3
+}
+
+3908 = {
+    text_scale = 1.3
+}
+
+3909 = {
+    text_scale = 1.3
+}
+
+3910 = {
+    text_scale = 1.3
+}
+
+3911 = {
+    text_scale = 1.3
+}
+
+3912 = {
+    text_scale = 1.3
+}
+
+3913 = {
+    text_scale = 1.3
 }
