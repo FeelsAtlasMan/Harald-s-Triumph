@@ -1,13 +1,15 @@
 capital = 1258
-primary_culture = asian_minor
+primary_culture = miji
+culture = nyishi
+culture = adi
 religion = animist
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_tradition
-literacy = 0.02
+literacy = 0.01
 
 # Political reforms
-slavery = no_slavery
+slavery = yes_slavery
 upper_house_composition = appointed
 vote_franschise = none_voting
 public_meetings = no_meeting
@@ -32,7 +34,7 @@ penal_system = capital_punishment
 child_labor = child_labor_legal
 citizens_rights = primary_culture_only
 border_policy = open_borders
-centralization = regionalism
+centralization = confederalism
 colonial_policy = no_colonies 
 
 set_country_flag = animism_country

@@ -1,5 +1,6 @@
 capital = 1222
 primary_culture = baluchi
+culture = brahui
 religion = sunni
 government = colonial_company
 plurality = 0.0
@@ -28,12 +29,12 @@ school_reforms = no_schools
 
 # New Reforms
 conscription = no_draft
-debt_law = peonage
+debt_law = serfdom
 penal_system = capital_punishment
 child_labor = child_labor_legal
 citizens_rights = primary_culture_only
 border_policy = open_borders
-centralization = unitary
+centralization = regionalism
 colonial_policy = no_colonies 
 
 
@@ -49,22 +50,16 @@ upper_house = {
 }
 
 set_country_flag = sunni_country
+
+foreign_training = yes_foreign_training
 foreign_weapons = yes_foreign_weapons
-
-# Technologies
+foreign_artillery = yes_foreign_artillery
 flintlock_rifles = 1
-
-# Inventions
+bronze_muzzle_loaded_artillery = 1
 
 # Starting Consciousness
 consciousness = 0
 nonstate_consciousness = 0
 
 oob = "MAK_oob.txt"
-1861.1.1 = {
-	oob = "/1861/MAK_oob.txt"
-	literacy = 0.04
-	non_state_culture_literacy = 0.02
-	foreign_weapons = yes_foreign_weapons
-	flintlock_rifles = 1
-}
+

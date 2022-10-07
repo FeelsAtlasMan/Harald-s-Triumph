@@ -1,0 +1,23 @@
+army = {
+	name = "Army of the Chao-Pha"
+	location = 1258
+	regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 1260
+	}
+
+	regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 1258
+	}
+
+	regiment = {
+		name= "Artillery"
+		type = artillery
+		home = 3870
+	}
+
+}
+

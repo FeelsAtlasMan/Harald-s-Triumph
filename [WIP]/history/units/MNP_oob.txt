@@ -1,0 +1,16 @@
+army = {
+	name = "Army of Manipur Raja"
+	location = 1259
+	regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 1259
+	}
+
+        regiment = {
+		name= "Artillery"
+		type = artillery
+		home = 1259
+	}
+}
+
