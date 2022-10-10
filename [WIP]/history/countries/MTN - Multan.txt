@@ -1,5 +1,6 @@
 capital = 1227
-primary_culture = sarakai
+primary_culture = classical_persian
+culture = sarakai
 culture = hindko
 culture = panjabi
 religion = sunni
@@ -9,7 +10,7 @@ nationalvalue = nv_tradition
 literacy = 0.02
 non_state_culture_literacy = 0.01
 
-ruling_party = PNJ_conservative
+ruling_party = KAS_conservative
 upper_house = {
 	fascist = 0
 	liberal = 15
@@ -25,29 +26,9 @@ upper_house = {
 consciousness = 0
 nonstate_consciousness = 0
 
-foreign_training = yes_foreign_training
-foreign_weapons = yes_foreign_weapons
-foreign_officers = yes_foreign_officers
-foreign_artillery = yes_foreign_artillery
-monetary_reform = yes_monetary_reform
-flintlock_rifles = 1
-bronze_muzzle_loaded_artillery = 1
+oob = "MTN_oob.txt"
 
-# Inventions
-#bottling_process = yes
-modern_winemaking = yes
-
-oob = "PAN_oob.txt"
-1861.1.1 = {
-	literacy = 0.12
-	non_state_culture_literacy = 0.05
-	
-	army_schools = yes_army_schools
-	foreign_officers = yes_foreign_officers
-}
-
-
-slavery = no_slavery
+slavery = yes_slavery
 upper_house_composition = appointed
 vote_franschise = none_voting
 public_meetings = no_meeting
@@ -71,7 +52,50 @@ penal_system = capital_punishment
 child_labor = child_labor_legal
 citizens_rights = culture_voting_only
 border_policy = open_borders
-centralization = unitary
+centralization = regionalism
 colonial_policy = no_colonies 
 
-set_country_flag = sikh_country
+#Unciv Technologies
+early_classical_theory_and_critique = 1
+#late_classical_theory = 1
+malthusian_thought = 1
+positivism = 1
+enlightenment_thought = 1
+#piston_steam_engine = 1
+#high_pressure_steam_engine = 1
+mechanized_mining = 1
+#freedom_of_trade = 1
+no_standard = 1
+#ad_hoc_money_bill_printing = 1
+#private_banks = 1
+#stock_exchange = 1
+#late_enlightenment_philosophy = 1
+#basic_chemistry = 1
+#experimental_railroad = 1
+#early_railroad = 1
+#guild_based_production = 1
+#organized_factories = 1
+#mechanical_production = 1
+#interchangeable_parts = 1
+
+flintlock_rifles = 1
+#muzzle_loaded_rifles = 1
+post_napoleonic_thought = 1
+#strategic_mobility = 1
+#military_staff_system = 1
+#military_plans = 1
+army_command_principle = 1
+#army_professionalism = 1
+#alphabetic_flag_signaling = 1
+#naval_plans = 1
+#naval_design_bureaus = 1
+#clipper_design = 1
+#steamers = 1
+#the_command_principle = 1
+#naval_professionalism = 1
+#post_nelsonian_thought = 1
+#battleship_column_doctrine = 1
+bronze_muzzle_loaded_artillery = 1
+iron_muzzle_loaded_artillery = 1
+
+set_country_flag = sunni_country

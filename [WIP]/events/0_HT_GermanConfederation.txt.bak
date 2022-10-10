@@ -1,0 +1,275 @@
+country_event = {
+	id = 800006
+	title = "Leadership in the Confederation lost"
+	desc = "We lost the leading role in German Confederation to $FROMCOUNTRY$!"
+	picture = hre_prince
+	is_triggered_only = yes
+	
+	option = {
+		name = "What a humiliation!"
+		FROM = {
+			country_event = 800007
+		}
+		clr_country_flag = leader_of_german_conf
+	}
+}
+
+country_event = {
+	id = 800007
+	title = "New Leader in the German Confederation"
+	desc = "We are the new Leader in the German Confederation"
+	major = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = "Amazing!"
+		set_country_flag = leader_of_german_conf
+		prestige = 20
+	}
+}
+
+country_event = {
+	id = 800008
+	title = "The Death of the Lord of Lobdeburg-Rudolstadt"
+	desc = "EVTDESC800008"
+	picture = "vogtland"
+	fire_only_once = yes
+	
+	trigger = {
+	    tag = THU
+	}
+	
+	mean_time_to_happen = {
+	    months = 8
+	}
+	
+	option = {
+		name = "Demand the return of Elsterberg!"
+		BOH = { country_event = 800009 }
+		SWG = { all_core = { add_core = THIS } }
+		inherit = SWG
+		SWG = { all_core = { remove_core = SWG } }
+		set_country_flag = claimed_elsterberg
+		prestige = 5
+		ai_chance = { factor = 100 }
+	}
+	
+	option = {
+		name = "This village is not worth the trouble"
+		3879 = { remove_core = THU }
+		SWG = { all_core = { add_core = THIS } }
+		inherit = SWG
+		SWG = { all_core = { remove_core = SWG } }
+		set_country_flag = gave_up_on_elsterberg
+		prestige = -2
+		badboy = -2
+		relation = {
+	         who = BOH
+	         value = 25
+        }
+		ai_chance = { factor = 0 }
+	}
+}
+
+country_event = {
+	id = 800009
+	title = "The Thuringians demand the return of Elsterberg!"
+	desc = "EVTDESC800009"
+	picture = "deliberation"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Let them try!"
+		THU = { country_event = 800010 }
+		prestige = 5
+		ai_chance = { factor = 95 }
+	}
+	
+	option = {
+		name = "Grant them their lands."
+		3879 = { annex_to = THU }
+		set_country_flag = gave_up_on_elsterberg_boh
+		badboy = -2
+		relation = {
+	         who = THU
+	         value = 100
+        }
+		ai_chance = { factor = 5 }
+	}
+}
+
+country_event = {
+	id = 800010
+	title = "The Bohemians have refused!"
+	desc = "EVTDESC800010"
+	picture = "deliberation"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "...take it by force then!"
+		war = {
+	        target = BOH
+	        attacker_goal = { casus_belli = humiliate }
+	        defender_goal = { casus_belli = humiliate }
+	        call_ally = no
+        }
+		set_country_flag = went_to_war_over_elsterberg
+		ai_chance = { factor = 55 }
+	}
+	
+	option = {
+		name = "...try to bribe them?"
+		BOH = { country_event = 800011 }
+		ai_chance = { factor = 45 }
+	}
+	
+	option = {
+		name = "...drop the issue."
+		3879 = { remove_core = THU }
+		set_country_flag = gave_up_on_elsterberg
+		relation = {
+	         who = BOH
+	         value = -50
+        }
+		badboy = -4
+		ai_chance = { factor = 0 }
+	}
+}
+
+country_event = {
+	id = 800011
+	title = "A Thuringian Bribe?"
+	desc = "EVTDESC800011"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Now we are talking!"
+		THU = { country_event = 800112 }
+		ai_chance = { factor = 15 }
+	}
+	
+	option = {
+		name = "This is getting ridicolous."
+		THU = { country_event = 800013 }
+		ai_chance = { factor = 75 }
+	}
+}
+
+country_event = {
+	id = 800112
+	title = "The Bohemians accepted our offer!"
+	desc = "EVTDESC800112"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Peace in our time..."
+		treasury = -50000
+		BOH = { treasury = 50000 }
+		relation = {
+	         who = BOH
+	         value = 25
+        }
+		prestige = 2
+	}
+}
+
+country_event = {
+	id = 800113
+	title = "The Bohemians rejected our offer!"
+	desc = "EVTDESC800113"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "To War!"
+		war = {
+	        target = BOH
+	        attacker_goal = { casus_belli = humiliate }
+	        defender_goal = { casus_belli = humiliate }
+	        call_ally = no
+        }
+		set_country_flag = went_to_war_over_elsterberg
+		ai_chance = { factor = 95 }
+	}
+	
+	option = {
+		name = "Finally drop the issue."
+		3879 = { remove_core = THU }
+		set_country_flag = gave_up_on_elsterberg
+		relation = {
+	         who = BOH
+	         value = -25
+        }
+		badboy = -4
+		prestige = -10
+		ai_chance = { factor = 5 }
+	}
+}
+
+country_event = {
+	id = 800114
+	title = "We have won!" #Thuringia
+	desc = "EVTDESC800114"
+	
+	fire_only_once = yes
+	
+	trigger = {
+	   tag = THU
+	   BOH = { has_country_flag = humiliate_succ }
+	   BOH = { truce_with = THU }
+	}
+	
+	option = {
+		name = "Take the entire Vogtland!"
+		badboy = 8
+		3879 = { secede_province = THU }
+		3878 = { secede_province = THU }
+		set_country_flag = took_entire_vogtland
+		BOH = { clr_country_flag = humiliate_succ }
+		ai_chance = { factor = 0 }
+	}
+	
+	option = {
+		name = "We are satisfied with just Elsterberg."
+		3879 = { secede_province = THU }
+		set_country_flag = won_elsterberg
+		BOH = { clr_country_flag = humiliate_succ }
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 800115
+	title = "We have won!" #Bohemia
+	desc = "EVTDESC800115"
+	
+	fire_only_once = yes
+	
+	trigger = {
+	   tag = BOH
+	   THU = { has_country_flag = humiliate_succ }
+	   THU = { truce_with = BOH }
+	}
+	
+	option = {
+		name = "Demand all lands of Lobdeburg-Rudolstadt!"
+		badboy = 8
+		3880 = { secede_province = BOH }
+		3881 = { secede_province = BOH }
+		3879 = { remove_core = BOH }
+		set_country_flag = took_lobdeburg
+		THU = { clr_country_flag = humiliate_succ }
+		ai_chance = { factor = 0 }
+	}
+	
+	option = {
+		name = "We are satisfied with the Status Quo"
+		3879 = { remove_core = BOH }
+		THU = { clr_country_flag = humiliate_succ }
+		ai_chance = { factor = 100 }
+	}
+}

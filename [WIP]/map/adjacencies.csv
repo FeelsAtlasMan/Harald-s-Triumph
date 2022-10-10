@@ -144,6 +144,10 @@ From;To;Type;Through;Data;Comment
 #1088;1074;sea;2838;0;Shumshu-Petropavlovsk Strait
 1679;1678;sea;2845;0;Amari-Okinawa Strait
 1637;1635;sea;2829;0;Cheju-Kwangju Strait
+3825;3828;land;3896;0;Zafarabad-Rangpur Ganga Crossing
+1224;3820;land;3895;0;Dakha-Bhalwa Ganga Crossing
+3826;3820;land;3895;0;Faridpur-Bhalwa Ganga Crossing
+3821;3820;land;2796;0;Shujabad-Bhalwa Ganga Crossing
 #
 # Oceanian Straits
 #
@@ -179,6 +183,7 @@ From;To;Type;Through;Data;Comment
 2669;735;impassable;0;0;Sondrio-Bozen
 2669;734;impassable;0;0;Sondrio-Trent
 2669;727;impassable;0;0;Sondrio-Bergamo
+2669;728;impassable;0;0;Sondrio-Brescia
 611;2568;impassable;0;0;Chur-Lugano
 611;727;impassable;0;0;Chur-Bergamo
 3262;734;impassable;0;0;Belluno-Trent
@@ -186,9 +191,18 @@ From;To;Type;Through;Data;Comment
 3262;615;impassable;0;0;Belluno-Lienz
 3262;618;impassable;0;0;Belluno-Klagenfurt
 722;605;impassable;0;0;Novara-Bern
-2568;722;impassable;0;0;Lugano-Novara
-609;722;impassable;0;0;Sitten-Novara
 606;722;impassable;0;0;Lucerne-Novara
+3272;722;impassable;0;0;Brig-Novara
+3272;721;impassable;0;0;Brig-Aosta
+609;721;impassable;0;0;Hariodinga-Aosta
+3420;465;impassable;0;0;Asti-Waslijng
+3420;469;impassable;0;0;Asti-Digne
+720;469;impassable;0;0;Torino-Digne
+3251;469;impassable;0;0;Alba-Digne
+3251;471;impassable;0;0;Alba-Freja
+594;3262;impassable;0;0;Brixen-Belluno
+733;615;impassable;0;0;Udine-Lienz
+733;3297;impassable;0;0;Udine-Lienz
 
 #Carpathian Mauntains
 636;704;impassable;0;0;Banska Bystrica-Nowy Sad

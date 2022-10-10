@@ -1,6 +1,8 @@
 capital = 1319
-primary_culture = malayalam
-religion = hindu
+primary_culture = arabi_malayalam
+culture = byari
+culture = malayalam
+religion = sunni
 government = colonial_company
 plurality = 0.0
 nationalvalue = nv_tradition
@@ -8,7 +10,7 @@ literacy = 0.01
 non_state_culture_literacy = 0.01
 
 # Political reforms
-slavery = no_slavery
+slavery = yes_slavery
 upper_house_composition = appointed
 vote_franschise = none_voting
 public_meetings = no_meeting
@@ -34,11 +36,11 @@ penal_system = capital_punishment
 child_labor = child_labor_legal
 citizens_rights = primary_culture_only
 border_policy = open_borders
-centralization = unitary
+centralization = regionalism
 colonial_policy = no_colonies 
 
 
-set_country_flag = hindu_country
+set_country_flag = sunni_country
 
 ruling_party = TRA_conservative
 upper_house = {
@@ -67,7 +69,7 @@ modern_winemaking = yes
 consciousness = 0
 nonstate_consciousness = 0
 
-oob = "TRA_oob.txt"
+oob = "PKK_oob.txt"
 1861.1.1 = {
 	oob = "/1861/TRA_oob.txt"
 }
