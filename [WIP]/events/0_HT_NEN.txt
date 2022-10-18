@@ -1,10 +1,10 @@
 #########################################################
-#							                            #
-#      		     Lozania Events		                    #
-#							                            #
+#														#
+#      			   Lozania Events						#
+#														#
 #########################################################
 
-#Lozania Introduction - 3 part event
+#Lozania Introduction
 country_event = { 
 	id = 606001
 	title = "The Lozania Colony"
@@ -91,13 +91,11 @@ country_event = {
 		   which = native_anger
 		   value = 1
 	    }
-		country_event = { id = 606005 days = 30 }
 	}
 	
 	option = { 
 		name = "Allow them to live under Lozanian law."
 		any_pop = { limit = { pop_type = aristocrats } militancy = 1 }
-	    country_event = { id = 606005 days = 30 }
 	}
 }
 
