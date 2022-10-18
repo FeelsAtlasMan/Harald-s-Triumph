@@ -1,14 +1,14 @@
 capital = 1223
-primary_culture = khowar
+primary_culture = kashmiri
 religion = shiite
 government = colonial_company
 plurality = 0.0
-nationalvalue = nv_tradition
+nationalvalue = nv_order
 literacy = 0.01
 non_state_culture_literacy = 0.01
 
 # Political reforms
-slavery = yes_slavery
+slavery = no_slavery
 upper_house_composition = appointed
 vote_franschise = none_voting
 public_meetings = no_meeting
@@ -47,7 +47,7 @@ upper_house = {
 	socialist = 0
 	communist = 0
 }
-set_country_flag = shiite_country
+set_country_flag = sunni_country
 oob = "CRL_oob.txt"
 
 

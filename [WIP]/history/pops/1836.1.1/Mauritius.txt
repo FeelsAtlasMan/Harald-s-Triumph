@@ -88,81 +88,10 @@
 }
 #Diego Garcia (700/175 POPS) 
 2128 = {
-    aristocrats = {
-		culture = dhivehi
-		religion = sunni
-		size = 5
-	}
-
-    clergymen = {
-		culture = dhivehi
-		religion = sunni
-		size = 5
-	}
-
-	artisans = {
-		culture = dhivehi
-		religion = sunni
-		size = 10
-	}
-
-	soldiers = {
-		culture = dhivehi
-		religion = sunni
-		size = 20
-	}
-	
 	farmers = {
-		culture = dhivehi
-		religion = sunni
-		size = 75
-	}
-	
-	aristocrats = {
-		culture = misri
-		religion = sunni
-		size = 5
-	}
-
-    clergymen = {
-		culture = misri
-		religion = sunni
-		size = 5
-	}
-
-	artisans = {
-		culture = misri
-		religion = sunni
-		size = 5
-	}
-
-	soldiers = {
-		culture = misri
-		religion = sunni
-		size = 5
-	}
-	
-	farmers = {
-		culture = misri
-		religion = sunni
-		size = 15
-	}
-	
-	slaves = {
-		culture = rufiji
-		religion = animist
-		size = 25
-	}
-	
-	slaves = {
-		culture = malagasy
-		religion = animist
-		size = 50
-	}
-	
-	slaves = {
-		culture = tamil
+		culture = sinhala
 		religion = hindu
-		size = 60
+		size = 175
 	}
+
 }

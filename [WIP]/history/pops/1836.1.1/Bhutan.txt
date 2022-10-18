@@ -414,31 +414,31 @@
 	}
 	
 	clergymen = {
-		culture = chocangacakha
+		culture = chochangachakha
 		religion = gelugpa
 		size = 50
 	}
 
 	artisans = {
-		culture = chocangacakha
+		culture = chochangachakha
 		religion = gelugpa
 		size = 50
 	}
 
 	soldiers = {
-		culture = chocangacakha
+		culture = chochangachakha
 		religion = gelugpa
 		size = 100
 	}
 
 	farmers = {
-		culture = chocangacakha
+		culture = chochangachakha
 		religion = gelugpa
 		size = 300
 	}
     
 	serfs = {
-		culture = chocangacakha 
+		culture = chochangachakha 
 		religion = gelugpa
 		size = 1700
 	} 
@@ -466,41 +466,17 @@
 		religion = gelugpa
 		size = 300
 	}
-	
-	aristocrats = {
-		culture = dakpakha
-		religion = gelugpa
-		size = 20
-	}
-	
-	clergymen = {
-		culture = dakpakha
-		religion = gelugpa
-		size = 20
-	}
-
-	artisans = {
-		culture = dakpakha
-		religion = gelugpa
-		size = 50
-	}
-
-	soldiers = {
-		culture = dakpakha
-		religion = gelugpa
-		size = 100
-	}
     
-	farmers = {
-		culture = dakpakha 
+	serfs = {
+		culture = brokpake 
 		religion = gelugpa
 		size = 1000
 	} 
 	
-	serfs = {
+	farmers = {
 		culture = dakpakha 
 		religion = gelugpa
-		size = 900
+		size = 600
 	} 
 	
     farmers = {
@@ -579,29 +555,5 @@
 		culture = boro
 		religion = animist
 		size = 650
-	}
-	
-	farmers = {
-		culture = chug
-		religion = animist
-		size = 100
-	}
-
-	serfs = {
-		culture = chug
-		religion = animist
-		size = 150
-	}
-	
-	farmers = {
-		culture = lish
-		religion = animist
-		size = 100
-	}
-
-	serfs = {
-		culture = lish
-		religion = animist
-		size = 250
 	}
 }

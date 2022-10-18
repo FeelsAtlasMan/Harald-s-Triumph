@@ -1,16 +1,10 @@
 capital = 143
 primary_culture = lenape
-culture = nanticocke
-culture = tutelo
-culture = tuscarora_nottoway
-culture = iroquios
-culture = mohican
-culture = shawnee
-religion = animist
+religion = protestant
 government = democracy
 plurality = 0.05
-nationalvalue = nv_tradition
-literacy = 0.10
+nationalvalue = nv_liberty
+literacy = 0.12  non_state_culture_literacy = 0.01  #literacy = 0.50
 civilized = no
 
 ruling_party = "Tribal Council"
@@ -48,47 +42,15 @@ penal_system = capital_punishment
 child_labor = child_labor_legal
 citizens_rights = primary_culture_only
 border_policy = closed_borders
-centralization = regionalism
+centralization = unitary
 colonial_policy = no_colonies 
 
+set_country_flag = protestant_country
 set_country_flag = unciv
+set_country_flag = new_world_nation
 
-# Technologies
-#post_napoleonic_thought = 1
-#flintlock_rifles = 1
-bronze_muzzle_loaded_artillery = 1
-#post_nelsonian_thought = 1
-private_banks = 1
-no_standard = 1
-guild_based_production = 1
-classicism_n_early_romanticism = 1
-late_enlightenment_philosophy = 1
+
+flintlock_rifles = 1
 enlightenment_thought = 1
-piston_steam_engine = 1
-mechanical_production = 1
-
-admin_reform = yes_admin_reform
-land_reform = land_reform_two
-#finance_reform = yes_finance_reform
-#finance_reform_two = yes_finance_reform_two
-#monetary_reform = yes_monetary_reform
-#monetary_reform_two = yes_monetary_reform_two
-education_reform = yes_western_science
-#research_reform = yes_research_reform
-#transport_improv = yes_transport_improv
-#firearms_production = yes_firearms_production
-#pre_indust = yes_pre_indust
-#industrial_construction = yes_industrial_construction
-
-foreign_training = yes_foreign_training
-foreign_weapons = yes_foreign_weapons
-military_constructions = yes_military_constructions
-foreign_officers = yes_foreign_officers
-army_schools = yes_army_schools
-#foreign_naval_officers = yes_foreign_naval_officers
-#naval_schools = yes_naval_schools
-#foreign_navies = yes_foreign_navies
-#western_shipyards = yes_western_shipyards
-#foreign_artillery = yes_foreign_artillery
 
 oob = "LNP_oob.txt"

@@ -28,6 +28,7 @@ country_event = {
 	trigger = {
 		tag = BYZ
 		has_country_flag = bulgarian_setup
+		has_country_flag = albanian_raids
 		average_militancy = 4
 	}
 	
@@ -60,21 +61,6 @@ country_event = {
 	          defender_goal = { casus_belli = status_quo }
 	          call_ally = no
         }
-		MCD = {
-		    capital_scope = {
-                sub_unit = { type = irregular value = current }
-                sub_unit = { type = irregular value = current }
-                sub_unit = { type = irregular value = current }
-                sub_unit = { type = artillery value = current }
-            }
-		}
-		MCD = {
-		    define_general = {
-	            name = Kliment Zlatev
-	            personality = resolute
-	            background = priest
-            }
-		}
 		set_country_flag = macedonian_peasent_revolt
 	}
 }
@@ -142,47 +128,17 @@ country_event = {
 	
 	major = yes
 	
-	mean_time_to_happen =  {
-	    months = 3
-    }
-	
 	trigger = {
 		tag = BYZ
-		has_country_flag = defeated_macedonian_peasent_revolt
+		MCD = { exists = no }
+		has_country_flag = macedonian_peasent_revolt
 	}
 	
 	option = {
-		name = "How could such a tragedy happen?"
-		prestige = -5
-		militancy = 2
-		consciousness = 4
-		set_country_flag = assassination_of_the_czar
-	}
-}
-
-#The Coronation of Alexander III
-country_event = {
-	id = 1122115
-	title = "The Coronation of Alexander III"
-	desc = "EVTDESC1122114"
-	fire_only_once = yes
-	
-	major = yes
-	
-	mean_time_to_happen =  {
-	    months = 3
-    }
-	
-	trigger = {
-		tag = BYZ
-		has_country_flag = defeated_macedonian_peasent_revolt
-	}
-	
-	option = {
-		name = "How could such a tragedy happen?"
-		prestige = -5
-		militancy = 2
-		consciousness = 4
-		set_country_flag = assassination_of_the_czar
+		name = "A deserved punishment!"
+		any_owned = { limit = { is_core = MCD controlled_by = THIS } reduce_pop = 0.96 }
+		any_owned = { limit = { is_core = MCD controlled_by = THIS } add_province_modifier = { name = highlander_raids duration = 36500 } }
+		any_owned = { limit = { is_core = MCD controlled_by = THIS } add_province_modifier = { name = war_torn duration = 3650 } }
+		set_country_flag = defeated_macedonian_peasent_revolt
 	}
 }

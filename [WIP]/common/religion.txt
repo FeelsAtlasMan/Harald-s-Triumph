@@ -55,11 +55,6 @@ muslim = {
 		color = { 0 0.8 0 }
 	}
 	
-	tawaniyya = {
-		icon = 30
-		color = { 0 0.8 0.3 }
-	}
-	
 	ibadi = {
 		icon = 17
 		color = { 0.1 0.4 0.6 }
@@ -101,7 +96,7 @@ gnostic_group = { #Mandean
 	}
 }
 
-eastern = { #Darmic
+eastern = {
 	mahayana = {
 		color = { 0.8 0.3 0 }
 		icon = 8
@@ -131,16 +126,11 @@ eastern = { #Darmic
 		color = { 0.3 0.8 0 }
 		icon = 13
 	}
-	
 	jain = {
 		color = { 0 0.1 0 }
 		icon = 	24
-	}	
+	}
 	
-	kiratism = {
-		color = { 0 0.4 0.2 }
-		icon = 	29
-	}	
 }
 
 pagan = {

@@ -332,165 +332,29 @@
 		size = 625  
 	}
 }
-
-#Cheb-Eger (579200/144800 POPS)
-3888 = {
-    aristocrats = {
-		culture = south_german
-		religion = catholic
-		size = 100 
-	}
-	
-	clergymen = {
-		culture = south_german
-		religion = catholic
-		size = 300 
-	}
-
-	artisans = {
-		culture = south_german
-		religion = catholic
-		size = 450
-	}
-
-	soldiers = {
-		culture = south_german
-		religion = catholic
-		size = 250
-	}
-	
-	farmers = {
-		culture = south_german
-		religion = catholic
-		size = 2000 
-	}
-	
-	serfs = {
-		culture = south_german
-		religion = catholic
-		size = 15000 
-	}
-	
-	aristocrats = {
-		culture = upper_franconian
-		religion = catholic
-		size = 60 
-	}
-	
-	clergymen = {
-		culture = upper_franconian
-		religion = catholic
-		size = 100 
-	}
-
-	artisans = {
-		culture = upper_franconian
-		religion = catholic
-		size = 250
-	}
-
-	soldiers = {
-		culture = upper_franconian
-		religion = catholic
-		size = 250
-	}
-	
-	farmers = {
-		culture = upper_franconian
-		religion = catholic
-		size = 1000 
-	}
-	
-	serfs = {
-		culture = upper_franconian
-		religion = catholic
-		size = 5000 
-	}
-
-	aristocrats = {
-		culture = czech
-		religion = catholic
-		size = 100 
-	}
-
-	clergymen = {
-		culture = czech
-		religion = catholic
-		size = 150
-	}
-
-	artisans = {
-		culture = czech
-		religion = catholic
-		size = 450
-	}
-
-	soldiers = {
-		culture = czech
-		religion = catholic
-		size = 650
-	}
-
-	farmers = {
-		culture = czech
-		religion = catholic
-		size = 2950 
-	}
-	
-	serfs = {
-		culture = czech
-		religion = catholic
-		size = 8000 
-	}
-
-	clergymen = {
-		culture = ashkenazi
-		religion = jewish
-		size = 20 
-	}
-
-	artisans = {
-		culture = ashkenazi
-		religion = jewish
-		size = 400
-	}
-
-	soldiers = {
-		culture = ashkenazi
-		religion = jewish
-		size = 25
-	}
-
-	farmers = {
-		culture = ashkenazi
-		religion = jewish
-		size = 925  
-	}
-}
-
 #Karlsbad (579200/144800 POPS)
 627 = {
 	clergymen = {
 		culture = south_german
-		religion = catholic
+		religion = protestant
 		size = 300 
 	}
 
 	artisans = {
 		culture = south_german
-		religion = catholic
+		religion = protestant
 		size = 450
 	}
 
 	soldiers = {
 		culture = south_german
-		religion = catholic
+		religion = protestant
 		size = 250
 	}
 	
 	farmers = {
 		culture = south_german
-		religion = catholic
+		religion = protestant
 		size = 10000 
 	}
 
@@ -554,7 +418,6 @@
 		size = 925  
 	}
 }
-
 #Aussig (317600/79400 POPS)
 628 = {
 	clergymen = {

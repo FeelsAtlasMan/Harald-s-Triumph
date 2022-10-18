@@ -1,13 +1,10 @@
 capital = 143
 primary_culture = caddoan
-culture = kitsai
-culture = wichita
-culture = nachez
-religion = animist
+religion = protestant
 government = democracy
 plurality = 0.05
-nationalvalue = nv_tradition
-literacy = 0.02
+nationalvalue = nv_liberty
+literacy = 0.12  non_state_culture_literacy = 0.01  #literacy = 0.50
 civilized = no
 prestige = 7
 
@@ -49,7 +46,9 @@ border_policy = closed_borders
 centralization = unitary
 colonial_policy = no_colonies 
 
+set_country_flag = protestant_country
 set_country_flag = unciv
+set_country_flag = new_world_nation
 
 flintlock_rifles = 1
 enlightenment_thought = 1

@@ -11,7 +11,7 @@
 	aristocrats = {
 		culture = shtokavian
 		religion = orthodox
-		size = 2650
+		size = 650
 	}
 
 	bureaucrats = {
@@ -37,7 +37,43 @@
 		religion = orthodox
 		size = 100
 	}
+
+	artisans = {
+		culture = shtokavian
+		religion = orthodox
+		size = 4000
+	}
+
+	farmers = {
+		culture = shtokavian
+		religion = orthodox
+		size = 34775
+	}
 	
+	aristocrats = {
+		culture = shtokavian
+		religion = orthodox
+		size = 100
+	}
+	
+	officers = {
+		culture = shtokavian
+		religion = orthodox
+		size = 100
+	}
+		
+	soldiers = {
+		culture = shtokavian
+		religion = orthodox
+		size = 250
+	}
+
+	clergymen = {
+		culture = shtokavian
+		religion = orthodox
+		size = 100
+	}
+
 	artisans = {
 		culture = shtokavian
 		religion = orthodox
@@ -47,15 +83,9 @@
 	farmers = {
 		culture = shtokavian
 		religion = orthodox
-		size = 3775
+		size = 14000
 	}
 	
-	serfs = {
-		culture = shtokavian
-		religion = orthodox
-		size = 21000
-	}
-
 	farmers = {
 		culture = gypsy
 		religion = orthodox
@@ -89,25 +119,19 @@
 	artisans = {
 		culture = shtokavian
 		religion = catholic
-		size = 3750
+		size = 4750
+	}
+
+	farmers = {
+		culture = shtokavian
+		religion = catholic
+		size = 11450
 	}
 	
 	soldiers = {
 		culture = shtokavian
 		religion = catholic
 		size = 1250
-	}
-
-	farmers = {
-		culture = shtokavian
-		religion = catholic
-		size = 550
-	}
-	
-	serfs = {
-		culture = shtokavian
-		religion = catholic
-		size = 7900
 	}
 	
 	clergymen = {
@@ -609,13 +633,7 @@
 	farmers = {
 		culture = shtokavian
 		religion = orthodox
-		size = 1925
-	}
-	
-	serfs = {
-		culture = shtokavian
-		religion = orthodox
-		size = 17000
+		size = 18925
 	}
 
 	soldiers = {
@@ -639,37 +657,7 @@
 	farmers = {
 		culture = shtokavian
 		religion = orthodox
-		size = 5300
-	}
-	
-	serfs = {
-		culture = shtokavian
-		religion = orthodox
-		size = 13000
-	}
-	
-	clergymen = {
-		culture = shtokavian
-		religion = catholic
-		size = 80
-	}
-
-	artisans = {
-		culture = shtokavian
-		religion = catholic
-		size = 100
-	}
-
-	farmers = {
-		culture = shtokavian
-		religion = catholic
-		size = 1300
-	}
-	
-	serfs = {
-		culture = shtokavian
-		religion = catholic
-		size = 7000
+		size = 15300
 	}
 	
 	farmers = {

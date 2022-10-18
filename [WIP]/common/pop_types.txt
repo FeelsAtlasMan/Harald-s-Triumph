@@ -1623,8 +1623,8 @@ assimilation_chance = {
 	
 	modifier = {
 		factor = 1
-		has_pop_culture = japanese
-		country = { primary_culture = ainu }
+		has_pop_culture = ainu
+		country = { primary_culture = japanese }
 	}
 	
 	modifier = {

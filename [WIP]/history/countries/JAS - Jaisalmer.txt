@@ -1,6 +1,5 @@
 capital = 1265
-primary_culture = marwari
-culture = dhatki
+primary_culture = rajput
 religion = sunni
 government = absolute_monarchy
 plurality = 0.0
@@ -9,7 +8,7 @@ literacy = 0.01
 non_state_culture_literacy = 0.01
 
 # Political reforms
-slavery = yes_slavery
+slavery = no_slavery
 upper_house_composition = appointed
 vote_franschise = none_voting
 public_meetings = no_meeting
@@ -34,10 +33,10 @@ penal_system = capital_punishment
 child_labor = child_labor_legal
 citizens_rights = primary_culture_only
 border_policy = open_borders
-centralization = regionalism
+centralization = unitary
 colonial_policy = no_colonies 
 
-set_country_flag = sunni_country
+set_country_flag = hindu_country
 
 ruling_party = JAS_conservative
 upper_house = {

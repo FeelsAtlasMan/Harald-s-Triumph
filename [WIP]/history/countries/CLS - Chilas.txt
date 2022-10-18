@@ -1,7 +1,6 @@
 capital = 1225
-primary_culture = kohistani
-culture = shina
-religion = shiite
+primary_culture = kashmiri
+religion = sunni
 government = colonial_company
 plurality = 0.0
 nationalvalue = nv_tradition
@@ -25,12 +24,15 @@ nonstate_consciousness = 0
 
 # Inventions
 #bottling_process = yes
-#modern_winemaking = yes
+modern_winemaking = yes
 
-oob = "CLS_oob.txt"
+oob = "KAS_oob.txt"
+1861.1.1 = {
+	oob = "/1861/KAS_oob.txt"
+}
 
 
-slavery = yes_slavery
+slavery = no_slavery
 upper_house_composition = appointed
 vote_franschise = none_voting
 public_meetings = no_meeting
@@ -54,8 +56,8 @@ penal_system = capital_punishment
 child_labor = child_labor_legal
 citizens_rights = primary_culture_only
 border_policy = open_borders
-centralization = regionalism
+centralization = unitary
 colonial_policy = no_colonies 
 
-set_country_flag = shiite_country
+set_country_flag = hindu_country
 

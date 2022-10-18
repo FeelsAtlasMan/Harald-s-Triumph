@@ -3,12 +3,12 @@ primary_culture = navajo
 religion = animist
 government = democracy
 plurality = 0.05
-nationalvalue = nv_tradition
-literacy = 0.01  
-civilized = no
+nationalvalue = nv_liberty
+literacy = 0.01  non_state_culture_literacy = 0.01  #literacy = 0.50
+civilized = yes
 prestige = 6
 
-ruling_party = "Nobility Faction"
+ruling_party = "Tribal Council"
 upper_house = {
 	fascist = 0
 	liberal = 26
@@ -43,7 +43,7 @@ penal_system = capital_punishment
 child_labor = child_labor_legal
 citizens_rights = primary_culture_only
 border_policy = closed_borders
-centralization = regionalism
+centralization = unitary
 colonial_policy = no_colonies 
 
 set_country_flag = animist_country
