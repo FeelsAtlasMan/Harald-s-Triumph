@@ -9,7 +9,7 @@ literacy = 0.01
 non_state_culture_literacy = 0.01
 
 # Political reforms
-slavery = no_slavery
+slavery = YES_slavery
 upper_house_composition = appointed
 vote_franschise = none_voting
 public_meetings = no_meeting
@@ -61,7 +61,7 @@ nonstate_consciousness = 0
 ##bottling_process = yes
 modern_winemaking = yes
 
-oob = "TIB_oob.txt"
+oob = "TPW_oob.txt"
 1861.1.1 = {
 	oob = "/1861/TIB_oob.txt"
 	literacy = 0.04
