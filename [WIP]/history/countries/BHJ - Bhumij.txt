@@ -1,14 +1,15 @@
 capital = 1279
-primary_culture = oriya
-religion = hindu
+primary_culture = mundar
+culture = santal
+religion = animist
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_tradition
 literacy = 0.01
-non_state_culture_literacy = 0.01
+#non_state_culture_literacy = 0.01
 
 # Political reforms
-slavery = no_slavery
+slavery = yes_slavery
 upper_house_composition = appointed
 vote_franschise = none_voting
 public_meetings = no_meeting
@@ -34,7 +35,7 @@ penal_system = capital_punishment
 child_labor = child_labor_legal
 citizens_rights = culture_voting_only
 border_policy = open_borders
-centralization = unitary
+centralization = confederalism
 colonial_policy = no_colonies 
 
 set_country_flag = hindu_country
@@ -50,12 +51,6 @@ upper_house = {
 	communist = 0
 }
 
-
-foreign_weapons = yes_foreign_weapons
-
-# Technologies
-flintlock_rifles = 1
-
 # Inventions
 #bottling_process = yes
 modern_winemaking = yes
@@ -64,24 +59,4 @@ modern_winemaking = yes
 consciousness = 0
 nonstate_consciousness = 0
 
-oob = "BAS_oob.txt"
-1861.1.1 = {
-	oob = "/1861/BAS_oob.txt"
-	literacy = 0.10
-	non_state_culture_literacy = 0.05
-}
-1861.1.1 = {
-
-	foreign_training = yes_foreign_training
-	foreign_weapons = yes_foreign_weapons
-	foreign_officers = yes_foreign_officers
-
-# Technologies
-military_staff_system = 1
-flintlock_rifles = 1
-
-# Inventions
-#bottling_process = yes
-modern_winemaking = yes
-
-}
+oob = "BHJ_oob.txt"
