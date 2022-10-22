@@ -328,29 +328,31 @@ AUS_612 = { 612 615 734 735 594 } #Tirol
 
 AUS_619 = { 619 620 621 617 3717 3718 3302 } #Western Kunsag
 
-AUS_639 = { 639 640 642 643 644 } #Transdanubia
+AUS_639 = { 639 623 624 640 642 643 644 779 3301 3303 } #Transdanubia
 
-AUS_623 = { 623 624 616 3294 } #Eastern Kunsag
+AUS_623 = { 616 3294 } #Eastern Kunsag
 
 AUS_625 = { 625 626 629 630 3334 627 628 3888 } #Bohemia
 
 BOH_631 = { 631 632 3335 } #Moravia
 
-AUS_633 = { 633 634 635 636 637 638 } #Slovakia
+AUS_633 = { 633 634 635 636 3901 3903 } #Western Slovakia
+
+AUS_637 = { 637 638 646 3900 3902 3912 } #Eastern Slovakia
 
 AUS_950 = { 950 3332 3333 } #Ungvar
 
-AUS_641 = { 641 645 646 } #Central Hungary
+AUS_641 = { 641 645 649 650 3904 3905 3906 } #Central Hungary
 
-AUS_652 = { 652 653 3300 } #Temes-Arad
+AUS_652 = { 652 653 3300 3907 } #Temes-Arad
 
-AUS_3301 = { 3301 3303 } #Jaszsag
+AUS_647 = { 647 651 648 3910 3911 3913 } #Partium
 
-AUS_647 = { 647 651 648 650 649 } #Partium
+AUS_654 = { 654 661 3609 } #Northern Transylvania
 
-AUS_654 = { 654 661 2533 660 3609 } #Northern Transylvania
+AUS_660 = { 660 663 2533 } #Szekelyland 
 
-AUS_657 = { 657 659 655 656 } #Southern Transylvania
+AUS_657 = { 657 659 655 656 3610 3908 3909 } #Southern Transylvania
 
 AUS_702 = { 703 704 714 3359 716 } #Galicia-Lodomeria
 
@@ -370,11 +372,11 @@ AUS_768 = { 767 768 618 3297 } #Slovenia
 
 AUS_771 = { 771 772 773 775 776 } #Croatia
 
-AUS_777 = { 779 793 777 } #Slavonia
+AUS_777 = { 777 791 793 } #Slavonia
 
 AUS_780 = { 780 781 782 774 2582 } #Dalmatia
 
-AUS_2538 = { 2538 791 792 3295 3296 } #Vojvodina
+AUS_2538 = { 2538 792 3295 3296 } #Vojvodina
 
 
 ### Italy
@@ -402,9 +404,9 @@ SAR_765 = { 765 766 473 } #Sardinia & Corscia
 
 ### Balkans
 
-WAL_665 = { 664 668 667 669 3610 3883 3884 } #Muntenia
+WAL_665 = { 664 668 667 669 3883 3884 } #Muntenia
 
-MOL_673 = { 673 672 670 671 663 662 } #Moldavia
+MOL_673 = { 673 672 670 671 662 } #Moldavia
 
 TUR_674 = { 674 675 818 814 813 811 } #Dobrudja
 
@@ -575,11 +577,11 @@ KHI_1193 = { 1193 1197 29 3661 3663 2612 1185 3759 } #Chimkand - now Syr Darya
  
 KHI_1202 = { 1202 1195 1203 1201 3615 3616 3620 } #Ferghana
 
-KHI_1208 = { 2591 1210 1211 } #Qonduz
+KHI_1208 = { 2591 1211 } #Qonduz
 
-TIM_3619 = { 3619 1208 3621 3625 } #Badakhshan
+TIM_3619 = { 1210 1208 3625 3899 } #Badakhshan
 
-TIM_1207 = { 1207 3617 3618 } #Khatlon
+TIM_1207 = { 1207 3617 3618 3619 } #Khatlon
 
 AFG_1217 = { 1217 1216 1209 3624 } #Kabulestan
 
@@ -843,7 +845,7 @@ MYS_1314 = { 3785 1313 1315 1308 3781 } #Mysore
 
 MYS_3770 = { 3770 1316 3783 3786 } #Mangaluru
 
-ENG_1317 = { 1317 1318 1319 3771 3772 3773 } #Travancore
+ENG_1317 = { 1317 1318 1319 3771 3772 3773 3897 } #Kerala
 
 ENG_1321 = { 1321 1322 1323 1324 1325 3766 3767 3768 3769 } #Ceylon
 
@@ -988,7 +990,7 @@ CHI_1578 = { 1578 1580 1582 1584 1585 1583 1579 1586 3567 3568 3569 3570 3571 35
 
 CHI_1579 = { 1577 1581 } #East Sichuan - now Chongqing
 
-CHI_1597 = { 1597 1598 2607 3311 3312 3313 1594 3474 3622 3764 3765 } #Uyghuristan
+CHI_1597 = { 1597 1598 2607 3311 3312 3313 1594 3474 3622 3764 3765 3621 3898 } #Uyghuristan
 
 CHI_1600 = { 1600 1595 1596 1599 } #Urumqui
 
