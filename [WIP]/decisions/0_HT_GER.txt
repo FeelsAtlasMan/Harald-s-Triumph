@@ -221,6 +221,14 @@ political_decisions = {
 				}
 				country_event = { id=11101 days=0 }
 			}
+			add_accepted_culture = north_german
+			add_accepted_culture = dutch
+            add_accepted_culture = rhine_meuse_franconian
+            add_accepted_culture = central_franconian
+            add_accepted_culture = thuringian
+            add_accepted_culture = upper_franconian
+            add_accepted_culture = south_german
+            add_accepted_culture = alemannic
 			capital = 576
 		}
 	}
