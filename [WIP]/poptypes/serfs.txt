@@ -53,7 +53,25 @@ luxury_needs = {
 	opium = 2
 }
 
-country_migration_target = { factor = 0 }
+country_migration_target = { 
+    factor = 0.01
+	modifier = {
+		factor = 4.0
+		#number_of_states = 2
+		has_country_flag = cossack_host
+		OR = {
+		    primary_culture = russian
+		    primary_culture = ukrainian
+		}
+		OR = {
+			government = democracy
+			government = presidential_dictatorship
+			government = hms_government
+			government = dominion
+			government = colonial_company
+		}
+	}
+}
 
 migration_target = { factor = 0 }
 	
@@ -71,13 +89,35 @@ promote_to = {
 
 ideologies = {
 
-	conservative = { factor = 5 }
+	conservative = { factor = 3 }
 	
 	reactionary = { factor = 1 }
 	
-	socialist = { factor = 2 }
+	socialist = { factor = 1 }
 
-	communist = { factor = 1 }
+	communist = { factor = 1 
+	modifier = {
+		factor = 1.5
+		consciousness = 6
+		}
+	modifier = {
+		factor = 1.8
+		consciousness = 7
+		}
+	modifier = {
+		factor = 2.1
+		consciousness = 8
+		}
+	modifier = {
+		factor = 2.4
+		consciousness = 9
+		}
+	modifier = {
+		factor = 1.5
+		country = { government = fascist_dictatorship }
+		}
+	}
+	}
 	
 	liberal = { factor = 1 
 	modifier = {
@@ -113,6 +153,10 @@ ideologies = {
 	modifier = {
 		factor = 1.5
 		consciousness = 9
+		}
+	modifier = {
+		factor = 0.5
+		country = { government = fascist_dictatorship }
 		}
 	}
 }

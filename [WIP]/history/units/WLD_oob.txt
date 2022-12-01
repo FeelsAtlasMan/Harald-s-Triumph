@@ -1,18 +1,11 @@
-AUS = {
-	value = 125
-}
-PRU = {
-	value = 125
-}
-
 army = {
-	name = "Waldecker Heer"
-	location = 3257
+	name = "Des Bischofs Heer"
+	location = 3267
 	
 	regiment = {
 		name = "Waldecksches Füselier-Bataillon"
 		type = infantry
-		home = 3257
+		home = 3267
 	}
 
 }

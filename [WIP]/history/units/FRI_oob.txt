@@ -1,0 +1,16 @@
+army = {
+	name = "Frisian Army"
+	location = 383
+	regiment = {
+		name= "Guards"
+		type = infantry
+		home = 383
+	}
+
+        regiment = {
+		name= "Guards"
+		type = hussar
+		home = 383
+	}
+}
+

@@ -168,11 +168,11 @@ RUS_343 = { 343 344 341 340 } #Helsinki
 
 RUS_345 = { 345 346 347 348 } #Turku
 
-DEN_367 = { 367 366 368 2557 } #Jylland
+DEN_367 = { 367 366 2557 } #Jylland
 
 HOL_369 = { 528 369 530 529 3258 } #Holstein
 
-SCH_370 = { 370 371 } #Schleswig
+SCH_370 = { 370 371 368 533 } #Schleswig
 
 DEN_372 = { 372 373 374 } #Sjaelland
 
@@ -183,7 +183,7 @@ NET_375 = { 376 375 377 378 } #Holland
 
 NET_382 = { 382 384 386 577 } #Geldern
 
-NET_385 = { 385 383 543 3259 533 } #Friesland
+NET_385 = { 385 383 543 3259 } #Friesland
 
 BEL_387 = { 387 390 391 3291 379 380 } #Brabant
 

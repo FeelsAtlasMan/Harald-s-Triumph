@@ -1,0 +1,393 @@
+#Sphere of Influence
+
+#Europe
+BRE = {
+	value = 200
+	level = 5
+	influence_value = 100
+}
+
+FRI = {
+	value = 200
+	level = 5
+	influence_value = 100
+}
+
+BRG = {
+	value = 150
+	level = 2
+	influence_value = 25
+}
+
+OLD = {
+	value = 200
+	level = 5
+	influence_value = 100
+}
+
+HOL = {
+	value = 200
+	level = 5
+	influence_value = 50
+}
+
+LIP = {
+	value = 200
+	level = 4
+	influence_value = 50
+}
+BRA = {
+	value = 200
+	level = 4
+	influence_value = 25
+}
+SCL = {
+	value = 200
+	level = 4
+	influence_value = 50
+}
+KOL = {
+	value = 200
+	level = 5
+	influence_value = 100
+}
+AAC = {
+	value = 200
+	level = 5
+	influence_value = 100
+}
+WLD = {
+	value = 200
+	level = 5
+	influence_value = 100
+}
+HES = {
+	value = 200
+	level = 4
+	influence_value = 25
+}
+HEK = {
+	value = 200
+	level = 4
+	influence_value = 0
+}
+FRM = {
+	value = 200
+	level = 4
+	influence_value = 0
+}
+
+NAS = {
+	value = 200
+	level = 4
+	influence_value = 25
+}
+
+LBG = {
+	value = 200
+	level = 5
+	influence_value = 100
+}
+
+BRB = {
+	value = -50
+	level = 3
+	influence_value = 10
+}
+
+HAM = {
+	value = 200
+	level = 5
+	influence_value = 100
+}
+
+LUB = {
+	value = 200
+	level = 5
+	influence_value = 100
+}
+
+ERF = {
+	value = 200
+	level = 4
+	influence_value = 0
+}
+
+PLB = {
+	value = 150
+	level = 4
+	influence_value = 0
+}
+
+LOR = {
+	value = 150
+	level = 3
+	influence_value = 20
+}
+
+WUR = {
+	value = 150
+	level = 3
+	influence_value = 5
+}
+
+BAV = {
+	value = 80
+	level = 3
+	influence_value = 0
+}
+
+THU = {
+	value = 150
+	level = 3
+	influence_value = 10
+}
+
+WUL = {
+	value = 150
+	level = 3
+	influence_value = 75
+}
+
+LUX = {
+	value = 100
+	level = 2
+	influence_value = 20
+}
+
+LIG = {
+	value = 100
+	level = 4
+	influence_value = 20
+}
+
+TRR= {
+	value = 100
+	level = 4
+	influence_value = 10
+}
+
+LUS = {
+	value = 100
+	level = 3
+	influence_value = 10
+}
+
+MSN = {
+	value = 100
+	level = 3
+	influence_value = 10
+}
+
+MSN = {
+	value = 100
+	level = 3
+	influence_value = 10
+}
+
+MAG = {
+	value = 100
+	level = 4
+	influence_value = 25
+}
+
+HNB = {
+	value = 100
+	level = 3
+	influence_value = 50
+}
+
+MAI = {
+	value = 150
+	level = 4
+	influence_value = 50
+}
+
+SMM = {
+	value = 200
+	level = 5
+	influence_value = 90
+}
+
+OSN = {
+	value = 200
+	level = 5
+	influence_value = 100
+}
+
+BAD = {
+	value = 180
+	level = 4
+	influence_value = 60
+}
+
+BAD = {
+	value = 180
+	level = 4
+	influence_value = 60
+}
+
+HGN = {
+	value = 100
+	level = 3
+}
+
+SPY = {
+	value = 100
+	level = 3
+}
+
+BAR = {
+	value = 100
+	level = 3
+	influence_value = 5
+}
+
+SAA = {
+	value = 100
+	level = 4
+}
+
+ZWB = {
+	value = 100
+	level = 4
+}
+
+SWG = {
+	value = 100
+	level = 3
+}
+
+BLL= {
+	value = 100
+	level = 3
+}
+
+leader = {
+	name = "Prinz Otto IX."
+	date = 1829.1.1
+	type = land
+	personality = tactful
+	background = nationalist
+	prestige = 0.8
+}
+
+leader = {
+	name = "von Ostfalen"
+	date = 1817.1.1
+	type = land
+	personality = cautious
+	background = school_of_defense
+	prestige = 0.9
+}
+
+army = {
+	name = "Königlik Säksise Armee"
+	location = 580
+	regiment = {
+		name= "1. Infanteriebrigade"
+		type = infantry
+		home = 580
+	}
+
+	regiment = {
+		name= "2. Infanteriebrigade"
+		type = infantry
+		home = 3281
+	}
+
+	regiment = {
+		name= "3. Infanteriebrigade"
+		type = infantry
+		home = 581
+	}
+
+    regiment = {
+		name= "1. Riterbrigade"
+		type = hussar
+		home = 3267
+	}
+	
+	regiment = {
+		name= "1. Artillerie"
+		type = artillery
+		home = 581
+	}
+
+    regiment = {
+		name= "2. Artillerie"
+		type = artillery
+		home = 3267
+	}
+}
+
+army = {
+	name = "Franse Grens Truppen"
+	location = 376
+	regiment = {
+		name= "1. Infanteriebrigade"
+		type = infantry
+		home = 376
+	}
+
+	regiment = {
+		name= "2. Infanteriebrigade"
+		type = infantry
+		home = 377
+	}
+
+	regiment = {
+		name= "3. Infanteriebrigade"
+		type = infantry
+		home = 375
+	}
+
+    regiment = {
+		name= "1. Riterbrigade"
+		type = hussar
+		home = 375
+	}
+	
+	regiment = {
+		name= "1. Artillerie"
+		type = artillery
+		home = 382
+	}
+}
+
+army = {
+	name = "Elbarmee"
+	location = 553
+	regiment = {
+		name= "1. Infanteriebrigade"
+		type = infantry
+		home = 553
+	}
+
+	regiment = {
+		name= "2. Infanteriebrigade"
+		type = infantry
+		home = 557
+	}
+
+	regiment = {
+		name= "3. Infanteriebrigade"
+		type = infantry
+		home = 532
+	}
+
+    regiment = {
+		name= "1. Riterbrigade"
+		type = hussar
+		home = 531
+	}
+	
+	regiment = {
+		name= "1. Artillerie"
+		type = artillery
+		home = 534
+	}
+}
+
+
+

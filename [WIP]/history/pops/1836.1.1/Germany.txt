@@ -316,10 +316,95 @@
 #Under rule of Britain 1836
 #Heligoland (1600/400 POPS)
 533 = {
+
+    aristocrats = {
+		culture = frisian
+		religion = catholic
+		size = 50
+	}
+
+	clergymen = {
+		culture = frisian
+		religion = catholic
+		size = 100
+	}
+
+	artisans = {
+		culture = frisian
+		religion = catholic
+		size = 50
+	}
+
+	soldiers = {
+		culture = frisian
+		religion = catholic
+		size = 200
+	}
+	
 	farmers = {
 		culture = frisian
 		religion = catholic
-		size = 400
+		size = 10400
+	}
+	
+	aristocrats = {
+		culture = danish
+		religion = catholic
+		size = 60
+	}
+
+	clergymen = {
+		culture = danish
+		religion = catholic
+		size = 20
+	}
+
+	artisans = {
+		culture = danish
+		religion = catholic
+		size = 100
+	}
+
+	soldiers = {
+		culture = danish
+		religion = catholic
+		size = 100
+	}
+	
+	farmers = {
+		culture = danish
+		religion = catholic
+		size = 1100
+	}
+	
+	aristocrats = {
+		culture = north_german
+		religion = catholic
+		size = 20
+	}
+
+	clergymen = {
+		culture = north_german
+		religion = catholic
+		size = 100
+	}
+
+	artisans = {
+		culture = north_german
+		religion = catholic
+		size = 150
+	}
+
+	soldiers = {
+		culture = north_german
+		religion = catholic
+		size = 100
+	}
+	
+	farmers = {
+		culture = north_german
+		religion = catholic
+		size = 2100
 	}
 
 }

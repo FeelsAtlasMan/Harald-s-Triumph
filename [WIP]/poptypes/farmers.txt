@@ -1597,71 +1597,29 @@ ideologies = {
 		}
 		modifier = {
 			factor = 1.1
-		 	revanchism = 0.01
-			NOT = { country = { has_country_flag = international_zone } }
-			OR = {
-				is_primary_culture = yes
-				is_accepted_culture = yes
-			}
-		}
-		modifier = {
-			factor = 1.1
-		 	revanchism = 0.02
-			NOT = { country = { has_country_flag = international_zone } }
-			OR = {
-				is_primary_culture = yes
-				is_accepted_culture = yes
-			}
-		}
-		modifier = {
-			factor = 1.1
-		 	revanchism = 0.03
-			NOT = { country = { has_country_flag = international_zone } }
-			OR = {
-				is_primary_culture = yes
-				is_accepted_culture = yes
-			}
-		}
-		modifier = {
-			factor = 1.1
-		 	revanchism = 0.04
-			NOT = { country = { has_country_flag = international_zone } }
-			OR = {
-				is_primary_culture = yes
-				is_accepted_culture = yes
-			}
-		}
-		modifier = {
-			factor = 1.1
-		 	revanchism = 0.05
-			NOT = { country = { has_country_flag = international_zone } }
-			OR = {
-				is_primary_culture = yes
-				is_accepted_culture = yes
-			}
-		}
-		modifier = {
-			factor = 1.5
 		 	revanchism = 0.10
 			NOT = { country = { has_country_flag = international_zone } }
+			NOT = { country = { government = proletarian_dictatorship } }
 			OR = {
 				is_primary_culture = yes
 				is_accepted_culture = yes
 			}
 		}
 		modifier = {
-			factor = 2
+			factor = 1.2
 		 	revanchism = 0.15
 			NOT = { country = { has_country_flag = international_zone } }
+			NOT = { country = { government = proletarian_dictatorship } }
 			OR = {
 				is_primary_culture = yes
 				is_accepted_culture = yes
 			}
 		}
 		modifier = {
-			factor = 3
+			factor = 1.4
 		 	revanchism = 0.20
 			NOT = { country = { has_country_flag = international_zone } }
+			NOT = { country = { government = proletarian_dictatorship } }
 			OR = {
 				is_primary_culture = yes
 				is_accepted_culture = yes
@@ -1670,14 +1628,17 @@ ideologies = {
 		modifier = {
 			factor = 1.1
 			NOT = { political_reform_want = 0.15}
+			NOT = { country = { government = proletarian_dictatorship } }
 		}
 		modifier = {
 			factor = 1.1
 			NOT = { political_reform_want = 0.05 }
+			NOT = { country = { government = proletarian_dictatorship } }
 		}
 		modifier = {
 			factor = 1.1
 			NOT = { political_reform_want = 0.10 }
+			NOT = { country = { government = proletarian_dictatorship } }
 		}	
 		modifier = {
 			factor = 2
@@ -1842,22 +1803,6 @@ ideologies = {
 
 		modifier = {
 			factor = 1.5
-			location = { is_core = SAF }
-			OR = {
-				is_accepted_culture = yes
-				is_primary_culture = yes
-				has_pop_culture = boer
-			}
-			country = { 
-				OR = { 
-					primary_culture = british
-					primary_culture = boer
-				}
-			}
-		}
-
-		modifier = {
-			factor = 1.5
 			location = { 
 				OR = { 
 					continent = central_africa
@@ -1962,21 +1907,21 @@ ideologies = {
 			}
 		}
 		
-		modifier = {
-			factor = 1.1
-			country = { civilized = yes }
-			is_state_religion = yes
-			OR = {
-				is_primary_culture = yes
-				is_accepted_culture = yes
-			}
-			OR = {
-				has_pop_religion = shiite
-				has_pop_religion = sunni
-				has_pop_religion = ibadi
-				has_pop_religion = shinto
-			}
-		}
+		#modifier = {
+		#	factor = 1.1
+		#	country = { civilized = yes }
+		#	is_state_religion = yes
+		#	OR = {
+		#		is_primary_culture = yes
+		#		is_accepted_culture = yes
+		#	}
+		#	OR = {
+		#		has_pop_religion = shiite
+		#		has_pop_religion = sunni
+		#		has_pop_religion = ibadi
+		#		has_pop_religion = shinto
+		#	}
+		#}
 		modifier = {
 			factor = 0.9
 			poor_strata_militancy = 5
@@ -2025,30 +1970,13 @@ ideologies = {
 				is_primary_culture = yes
 			}
 		}
-
+		
 		modifier = {
-			factor = 0.8
-			location = { is_overseas = yes is_colonial = no }
+			factor = 1.75
+			location = { is_colonial = yes }
 			OR = {
-				is_accepted_culture = yes
-				is_primary_culture = yes
-				has_pop_culture = boer
-			}
-		}
-
-		modifier = {
-			factor = 0.8
-			location = { is_core = SAF }
-			OR = {
-				is_accepted_culture = yes
-				is_primary_culture = yes
-				has_pop_culture = boer
-			}
-			country = { 
-				OR = { 
-					primary_culture = british
-					primary_culture = boer
-				}
+				is_accepted_culture = no
+				is_primary_culture = no
 			}
 		}
 
@@ -2183,25 +2111,32 @@ ideologies = {
 		}
 		
 		modifier = {
-			factor = 0.1
-			NOT = { militancy = 6 }
-		}
-		
-		modifier = {
 			factor = 1.5
-			country = { government = fascist_dictatorship }
+			country = { government = proletarian_dictatorship }
 			OR = {
 				is_accepted_culture = yes
 				is_primary_culture = yes
 			}
-			OR = {
-				nationalvalue = nv_autocracy
-				nationalvalue = nv_tradition
-			}
+			nationalvalue = nv_equality
 		}
 		modifier = {
 			factor = 2
 			ruling_party_ideology = communist 
+		}
+		modifier = {
+			factor = 2
+			consciousness = 9 
+			NOT = { country = { government = proletarian_dictatorship } }
+		}
+		modifier = {
+			factor = 1.8
+			consciousness = 8
+			NOT = { country = { government = proletarian_dictatorship } }
+		}
+		modifier = {
+			factor = 1.6
+			consciousness = 7
+			NOT = { country = { government = proletarian_dictatorship } }
 		}
 		modifier = {
 			factor = 1.1
@@ -2449,16 +2384,13 @@ ideologies = {
 			ruling_party_ideology = anarcho_liberal
 		}
 		modifier = {
-			factor = 1.4
+			factor = 1.5
 			country = { government = bourgeois_dictatorship }
 			OR = {
 				is_accepted_culture = yes
 				is_primary_culture = yes
 			}
-			OR = {
-				nationalvalue = nv_autocracy
-				nationalvalue = nv_tradition
-			}
+			nationalvalue = nv_liberty
 		}
 		
 		modifier = {

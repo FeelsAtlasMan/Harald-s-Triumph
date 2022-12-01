@@ -6,8 +6,11 @@
 proletarian_dictatorship = {
 	#which ideology of parties.
 	communist = yes
+	socialist = yes
+	religious_communist = yes
 	
-	election = no
+	election = yes
+	duration = 48
 	appoint_ruling_party = yes
 	flagType = communist
 }
@@ -42,6 +45,7 @@ dominion = {
 	communist = yes
 	anarcho_liberal = yes
 	fascist = yes
+	religious_communist = yes
 	
 	election = yes
 	duration = 48
@@ -53,7 +57,7 @@ bourgeois_dictatorship = { #Rev. republic
 	#which ideology of parties.
 	anarcho_liberal = yes
 	liberal = yes
-	conservative = yes
+	#conservative = yes
 	
 	election = yes
 	appoint_ruling_party = yes
@@ -98,7 +102,8 @@ hms_government = {
 	socialist = yes
 	conservative = yes
 	reactionary = yes
-	communist = yes
+	#communist = yes
+	#religious_communist = yes
 	anarcho_liberal = yes
 	fascist = yes
 	
@@ -117,7 +122,7 @@ democracy = {
 	communist = yes
 	anarcho_liberal = yes
 	fascist = yes
-	
+	religious_communist = yes
 	
 	election = yes
 	duration = 48
@@ -125,17 +130,28 @@ democracy = {
 	flagType = republic
 }
 
-tribal_confederation = {
+khanate = {
 	liberal = yes
-	socialist = yes
 	conservative = yes
 	reactionary = yes
-	anarcho_liberal = yes
+	
+	
+	election = no
+	appoint_ruling_party = yes
+	flagType = monarchy
+}
+
+tribal_confederation = {
+	liberal = yes
+	#socialist = yes
+	conservative = yes
+	reactionary = yes
+	#anarcho_liberal = yes
 	
 	
 	election = yes
 	duration = 96
-	appoint_ruling_party = yes
+	appoint_ruling_party = no
 	flagType = monarchy
 }
 
@@ -147,6 +163,7 @@ federal_democracy = {
 	communist = yes
 	anarcho_liberal = yes
 	fascist = yes
+	religious_communist = yes
 	
 	election = yes
 	duration = 48
@@ -158,22 +175,20 @@ theocracy = {
 	#which ideology of parties.
 	reactionary = yes
 	conservative = yes
+	fascist = yes
 	
 	election = no
 	appoint_ruling_party = yes
 }
  
-french_bourbon = {
+french_bourbon = { #2nd monarchy
 	liberal = yes
 	socialist = yes
 	conservative = yes
 	reactionary = yes
-	communist = yes
-	anarcho_liberal = yes
 	fascist = yes
 	
 	
-	election = yes
-	duration = 48
+	election = no
 	appoint_ruling_party = yes
 }
