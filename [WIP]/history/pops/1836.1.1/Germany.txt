@@ -5605,43 +5605,31 @@
 	aristocrats = {
 		culture = south_german
 		religion = catholic
-		size = 2100 
+		size = 500 
 	}
 
 	bureaucrats = {
 		culture = south_german
 		religion = catholic
-		size = 800 
+		size = 200 
 	}
 
 	officers = {
 		culture = south_german
 		religion = catholic
-		size = 400 
+		size = 100 
 	}
 
 	clergymen = {
 		culture = south_german
 		religion = catholic
-		size = 2050
+		size = 1050
 	}
 
 	artisans = {
 		culture = south_german
 		religion = catholic
-		size = 10000
-	}
-
-	artisans = {
-		culture = south_german
-		religion = catholic
-		size = 10000
-	}
-
-	artisans = {
-		culture = south_german
-		religion = catholic
-		size = 1100
+		size = 5000
 	}
 
 	soldiers = {
@@ -5653,7 +5641,7 @@
 	farmers = {
 		culture = south_german
 		religion = catholic
-		size = 105650
+		size = 35650
 	}
 
 	clergymen = {

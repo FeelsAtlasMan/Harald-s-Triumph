@@ -124,19 +124,85 @@
 	farmers = {
 		culture = slovene
 		religion = protestant
-		size = 30000
+		size = 10000
+	}
+	
+	serfs = {
+		culture = slovene
+		religion = protestant
+		size = 20000
+	}
+	
+	aristocrats = {
+		culture = slovene
+		religion = catholic
+		size = 225
+	}
+
+	bureaucrats = {
+		culture = slovene
+		religion = catholic
+		size = 25
+	}
+
+	officers = {
+		culture = slovene
+		religion = catholic
+		size = 10
+	}
+
+	clergymen = {
+		culture = slovene
+		religion = catholic
+		size = 200
+	}
+
+	artisans = {
+		culture = slovene
+		religion = catholic
+		size = 1000
+	}
+
+	soldiers = {
+		culture = slovene
+		religion = catholic
+		size = 1100
 	}
 	
 	farmers = {
 		culture = slovene
 		religion = catholic
-		size = 23150
+		size = 13150
 	}
 	
 	serfs = {
 		culture = slovene
 		religion = catholic
-		size = 18000
+		size = 28000
+	}
+	
+	aristocrats = {
+		culture = slovene
+		religion = catholic
+		size = 225
+	}
+
+	clergymen = {
+		culture = south_german
+		religion = catholic
+		size = 120
+	}
+
+	artisans = {
+		culture = south_german
+		religion = catholic
+		size = 1500
+	}
+	
+	farmers = {
+		culture = south_german
+		religion = catholic
+		size = 150
 	}
 	
 	serfs = {
@@ -175,37 +241,49 @@
 	farmers = {
 		culture = slovene
 		religion = protestant
-		size = 25000
+		size = 10000
+	}
+	
+	serfs = {
+		culture = slovene
+		religion = protestant
+		size = 15000
 	}
 	
 	aristocrats = {
 		culture = slovene
-		religion = protestant
+		religion = catholic
 		size = 200
 	}
 
 	clergymen = {
 		culture = slovene
-		religion = protestant
+		religion = catholic
 		size = 75
 	}
 
 	artisans = {
 		culture = slovene
-		religion = protestant
+		religion = catholic
 		size = 300
 	}
 
 	soldiers = {
 		culture = slovene
-		religion = protestant
+		religion = catholic
 		size = 125
 	}
 
 	farmers = {
 		culture = slovene
-		religion = protestant
-		size = 5000
+		religion = catholic
+		size = 2000
+	}
+	
+	serfs = {
+		culture = slovene
+		religion = catholic
+		size = 3000
 	}
 	
 	clergymen = {
@@ -229,10 +307,16 @@
 	farmers = {
 		culture = istro_romanian
 		religion = catholic
-		size = 500
+		size = 200
 	}
 	
-	farmers = {
+	serfs = {
+		culture = istro_romanian
+		religion = catholic
+		size = 300
+	}
+	
+	serfs = {
 		culture = gypsy
 		religion = catholic
 		size = 500

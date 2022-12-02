@@ -166,18 +166,6 @@
 #ruled by Mexico 1836
 #Loreto (4000/1000 POPS)
 2138 = {
-
-	soldiers = {
-		culture = mexicain
-		religion = catholic
-		size = 100
-	}
-
-	farmers = {
-		culture = mexicain
-		religion = catholic
-		size = 95
-	}
 	
 	clergymen = {
 		culture = cochimi
@@ -496,25 +484,25 @@
 	}
 	
 	clergymen = {
-		culture = native_american_minor #Kiowa
+		culture = kiowa #Kiowa
 		religion = animist
 		size = 100
 	}
 
 	artisans = {
-		culture = native_american_minor
+		culture = kiowa
 		religion = animist
 		size = 100
 	}
 
 	soldiers = {
-		culture = native_american_minor
+		culture = kiowa
 		religion = animist
 		size = 100
 	}
 
 	farmers = {
-		culture = native_american_minor
+		culture = kiowa
 		religion = animist
 		size = 4200
 	}
@@ -734,33 +722,39 @@
 #Reynosa (16000/4000 POPS)
 2148 = {
 	aristocrats = {
-		culture = pueblo
+		culture = zuni
 		religion = animist
 		size = 25
 	}
 
 	clergymen = {
-		culture = pueblo
+		culture = zuni
 		religion = animist
 		size = 36
 	}
 
 	artisans = {
-		culture = pueblo
+		culture = zuni
 		religion = animist
-		size = 575
+		size = 75
 	}
 
 	soldiers = {
-		culture = pueblo
+		culture = zuni
 		religion = animist
 		size = 12
 	}
+	
+	farmers = {
+		culture = zuni
+		religion = animist
+		size = 2000
+	}
 
 	farmers = {
-		culture = pueblo
+		culture = opata
 		religion = animist
-		size = 2500
+		size = 500
 	}
 
 	aristocrats = {

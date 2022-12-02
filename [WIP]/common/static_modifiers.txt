@@ -133,6 +133,7 @@ has_siege = {
 occupied = {
 	population_growth = -0.001
 	immigrant_attract = -1
+	pop_militancy_modifier = 0.001
 }
 
 nationalism = {
@@ -143,6 +144,7 @@ nationalism = {
 infrastructure = {
 	local_factory_throughput = 1		#each % of infra boost throughput 1%
 	local_rgo_output = 1			#each % of infra boost throughput 1%
+	immigrant_attract = 0.05
 	supply_limit = 4
 }
 
@@ -160,7 +162,7 @@ war = {
 	max_war_exhaustion = 100			#base max at war.
 	supply_consumption = -0.5
 	#war_exhaustion = 0.1
-	badboy = -0.1
+	badboy = -0.033
 	global_pop_consciousness_modifier = -0.03
 	import_cost = 0.01
 }
@@ -180,6 +182,7 @@ war_exhaustion = {
 	org_regain = -0.01
 	factory_throughput = -0.01
 	tax_efficiency = -0.002
+	tariff_efficiency_modifier = -0.002
 	administrative_efficiency_modifier = -0.002
 	cb_generation_speed_modifier = -0.01
 	RGO_throughput = -0.01
@@ -187,14 +190,7 @@ war_exhaustion = {
 
 
 badboy = {
-	#global_pop_consciousness_modifier = 0.001
-	cb_generation_speed_modifier = -0.03
-	war_exhaustion = 0.01
-	prestige = -0.01
-	diplomatic_points_modifier = -0.1
-	#global_immigrant_attract = -0.05
-	influence = -0.05
-	badboy = -0.01
+	global_pop_consciousness_modifier = 0.001
 }
 
 
@@ -234,10 +230,11 @@ civ_nation = {
 }
 
 unciv_nation = {
-	mobilisation_size = -0.2
+	mobilisation_size = -0.1
 	diplomatic_points_modifier = -0.25
 	cb_generation_speed_modifier = 0.8
 	supply_consumption = -0.15
+	badboy = -0.1
 }
 
 
@@ -272,9 +269,9 @@ total_blockaded = {
 
 in_bankrupcy = {
 	max_loan_modifier = -1.0
-	min_tariff = 0.75
-	min_tax = 0.45
-	max_military_spending = -0.2
+	#min_tariff = 0.75
+	#min_tax = 0.45
+	#max_military_spending = -0.2
 	#max_social_spending = 0.5
 	ruling_party_support = -0.75
 }

@@ -308,7 +308,7 @@
 	}
 
 	artisans = {
-		culture = sephardic
+		culture = ashkenazi
 		religion = jewish
 		size = 2000
 	}
@@ -424,7 +424,7 @@
 	}
 
 	artisans = {
-		culture = sephardic
+		culture = ashkenazi
 		religion = jewish
 		size = 250
 	}
@@ -516,11 +516,123 @@
 	}
 
 	artisans = {
-		culture = sephardic
+		culture = ashkenazi
 		religion = jewish
 		size = 750
 	}
 }
+
+#Vratsa
+802 = {
+    aristocrats = {
+        culture = bulgarian
+        religion = orthodox
+        size = 950
+    }
+
+    bureaucrats = {
+        culture = bulgarian
+        religion = orthodox
+        size = 150
+    }
+
+    officers = {
+        culture = bulgarian
+        religion = orthodox
+        size = 250
+    }
+
+    clergymen = {
+        culture = bulgarian
+        religion = orthodox
+        size = 100
+    }
+
+    artisans = {
+        culture = bulgarian
+        religion = orthodox
+        size = 900
+    }
+	
+    soldiers = {
+        culture = bulgarian
+        religion = orthodox
+        size = 200
+    }
+	
+	farmers = {
+        culture = bulgarian
+        religion = orthodox
+        size = 9420
+    }
+
+    serfs = {
+        culture = bulgarian
+        religion = orthodox
+        size = 12000
+    }
+	
+	clergymen = {
+        culture = thuringian
+        religion = catholic
+        size = 40
+    }
+
+    artisans = {
+        culture = thuringian
+        religion = catholic
+        size = 110
+    }
+	
+    soldiers = {
+        culture = thuringian
+        religion = catholic
+        size = 20
+    }
+	
+	farmers = {
+        culture = thuringian
+        religion = catholic
+        size = 520
+    }
+
+    clergymen = {
+        culture = romanian
+        religion = orthodox
+        size = 100
+    }
+
+    artisans = {
+        culture = romanian
+        religion = orthodox
+        size = 100
+    }
+
+    soldiers = {
+        culture = romanian
+        religion = orthodox
+        size = 100
+    }
+	
+	farmers = {
+        culture = romanian
+        religion = orthodox
+        size = 1000
+    }
+
+    serfs = {
+        culture = romanian
+        religion = orthodox
+        size = 3000
+    }
+
+    serfs = {
+        culture = gypsy
+        religion = orthodox
+        size = 4000
+    }
+}
+
 #Pleven (196000/49000 POPS)
 812 = {
 	aristocrats = {
@@ -893,7 +1005,7 @@
 	}
 
 	artisans = {
-		culture = sephardic
+		culture = ashkenazi
 		religion = jewish
 		size = 750
 	}

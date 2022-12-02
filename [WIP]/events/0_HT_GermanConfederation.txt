@@ -88,7 +88,7 @@ country_event = {
 	
 	option = {
 		name = "Grant them their lands."
-		3879 = { annex_to = THU }
+		3879 = { secede_province = THU }
 		set_country_flag = gave_up_on_elsterberg_boh
 		badboy = -2
 		relation = {

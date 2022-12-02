@@ -228,7 +228,7 @@ FRA_455 = { 455 457 456 450 462 } #Le Midi
 
 FRA_458 = { 458 459 460 } #Aquitaine
 
-FRA_461 = { 461 463 464 449 } #Languedoc
+FRA_461 = { 461 463 449 } #Languedoc
 
 #SAR_466 = { } #Savoie
 
@@ -239,27 +239,29 @@ FRA_467 = { 467 468 469 470 471 } #Provence
 
 SPA_474 = { 474 476 } #Galicia
 
-SPA_477 = { 477 479 480 481 482 483 475 478 } #Le�n-Castilla
+SPA_477 = { 477 482 475 } #Le�n
+
+SPA_479 = { 479 480 481 483 478 } #Old Castilla
 
 SPA_484 = { 484 485 486 } #Extremadura
 
 SPA_487 = { 487 488 489 490 491 } #Castilla la Nueva
 
-SPA_492 = { 492 493 494 495 496 497 } #Vasconia-Arag�n
+SPA_492 = { 495 496 497 3252 } #Aragon
 
-SPA_498 = { 498 499 500 501 502 3252 } #Catalonia
+SPA_493 = { 492 493 494 } #Tears of Navarre
+
+SPA_498 = { 498 499 500 501 502 464 } #Catalonia
 
 SPA_503 = { 503 504 505 506 507 508 } #Valencia
 
-SPA_512 = { 512 509 510 511 517 } #Andalucia
+SPA_512 = { 512 509 510 511 517 516 } #Andalucia
 
-SPA_513 = { 513 514 515 516 } #Granada
+SPA_513 = { 513 514 515 } #Granada
 
-POR_518 = { 518 519 520 } #Douro
+POR_518 = { 518 519 520 522 } #Douro
 
-POR_521 = { 521 522 523 524 } #Estremadura
-
-POR_525 = { 525 526 527 } #Alentejo
+POR_525 = { 525 526 527 523 524 521 } #Alentejo - al-Gharb
 
 POR_2134 = { 2134 2135 2136 } #Macaronesia
 

@@ -2247,7 +2247,7 @@ oghuz = {
 		}
 	}
 	
-	gagauz = {
+	salar = {
 		color = {220 180 70}
 		first_names = { 
 			Abdullah Abdulhamid Abdulkerim Abdulrahim Ahmet Akif Ali Arif 
@@ -2740,15 +2740,15 @@ arab = {
 	leader = arab
 	is_overseas = no
 	unit = MoroccoGC
-	maltese = { 
-		color = {100 150 120}
-		first_names = { Alessandru Beru Duminku Enrico Fernardu Frangisku Gabriel Ferlad Gorg Joseph
-		Karmenu Lawrenz Marju Mikiel Ninu Pawlu Rokku Saber Ugo Valent }
-		
-		last_names = { Abela Adami Azzopardi Boffa Borg Buhagiar Cassar Farrugia Frendo Gonzi
-		Howard Mifsud Mintoff Mizzi Muscat Olivier Puli Pullicino Strickland Vella }
-		primary = MLT
-	}
+	#maltese = { 
+	#	color = {100 150 120}
+	#	first_names = { Alessandru Beru Duminku Enrico Fernardu Frangisku Gabriel Ferlad Gorg Joseph
+	#	Karmenu Lawrenz Marju Mikiel Ninu Pawlu Rokku Saber Ugo Valent }
+	#	
+	#	last_names = { Abela Adami Azzopardi Boffa Borg Buhagiar Cassar Farrugia Frendo Gonzi
+	#	Howard Mifsud Mintoff Mizzi Muscat Olivier Puli Pullicino Strickland Vella }
+	#	primary = MLT
+	#}
 	
 	misri = {
 		color = {0 100 40}
@@ -15230,7 +15230,7 @@ american_cultures = {
 }
 
 neo_arabic_cultures = {
-leader = arabic
+leader = arab
 is_overseas = no
     amazuni = {
     color = {10 60 20}

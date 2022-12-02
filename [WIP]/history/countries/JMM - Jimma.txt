@@ -1,9 +1,9 @@
-capital = 1587
-primary_culture = salar
-#culture = yughur
-culture = uyghur
-religion = sunni
-government = colonial_company
+capital = 1862
+primary_culture = kefficho
+culture = oromo
+culture = silte
+religion = coptic
+government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_tradition
 literacy = 0.01
@@ -13,7 +13,7 @@ non_state_culture_literacy = 0.01
 slavery = yes_slavery
 upper_house_composition = appointed
 vote_franschise = none_voting
-public_meetings = no_meeting
+public_meetings = yes_meeting
 press_rights = state_press
 trade_unions = no_trade_unions
 voting_system = first_past_the_post
@@ -30,48 +30,32 @@ school_reforms = no_schools
 
 
 # New Reforms
-conscription = no_draft
-debt_law = serfdom
+conscription = one_year_draft
+debt_law = peonage
 penal_system = capital_punishment
 child_labor = child_labor_legal
 citizens_rights = primary_culture_only
-border_policy = closed_borders
+border_policy = open_borders
 centralization = unitary
 colonial_policy = no_colonies 
 
-set_country_flag = sunni_country
+set_country_flag = coptic_country
 
-ruling_party = UYG_conservative
+ruling_party = ETH_conservative
 upper_house = {
 	fascist = 0
-	liberal = 9
-	conservative = 75
-	reactionary = 16
+	liberal = 13
+	conservative = 69
+	reactionary = 18
 	anarcho_liberal = 0
 	socialist = 0
 	communist = 0
 }
 
-set_country_flag = theocratic_government
+set_country_flag = lacking_writing_system
 
 # Starting Consciousness
 consciousness = 0
 nonstate_consciousness = 0
 
-# Inventions
-##bottling_process = yes
-modern_winemaking = yes
-
-oob = "DRG_oob.txt"
-1861.1.1 = {
-	oob = "/1861/TIB_oob.txt"
-	literacy = 0.04
-	non_state_culture_literacy = 0.07 #Chinese
-
-	#Military Reforms
-	foreign_weapons = yes_foreign_weapons
-	
-	#Technologies
-	flintlock_rifles = 1
-
-}
+oob = "KAF_oob.txt"
