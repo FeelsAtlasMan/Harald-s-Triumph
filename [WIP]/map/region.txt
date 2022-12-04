@@ -276,7 +276,7 @@ HAN_534 = { 534 536 537 585 3267 } #Hannover
 
 HAN_540 = { 539 540 541 535 531 } #Engern
 
-PRU_544 = { 544 545 550 551 547 548 } #Mecklenburg
+PRU_544 = { 544 545 550 551 547 548 3921 3922 3923 } #Mecklenburg
 
 PRU_546 = { 546 679 680 692 } #Pomerania
 
@@ -314,9 +314,9 @@ SWI_607 = { 607 608 609 3250 3271 } #R�gion L�manique
 
 SWI_603 = { 611 2669 } #Churrätien
  
-PRU_682 = { 682 683 } #Lower Silesia
+PRU_682 = { 682 683 3914 3915 3916 3917 3918 } #Lower Silesia
 
-BOH_684 = { 684 688 2584 685 689 } #Upper Silesia
+BOH_684 = { 684 688 2584 685 689 3920 } #Upper Silesia
 
 PRU_690 = { 690 691 694 693 } #Westpreu�en
 
@@ -328,17 +328,23 @@ PRU_701 = { 701 699 700 681 } #Greater Poland
 
 AUS_612 = { 612 615 734 735 594 } #Tirol
 
-AUS_619 = { 619 620 621 617 3717 3718 3302 } #Western Kunsag
+AUS_619 = { 619 620 621 3717 3302 } #Western Kunsag
 
 AUS_639 = { 639 623 624 640 642 643 644 779 3301 3303 } #Transdanubia
 
-AUS_623 = { 616 3294 } #Eastern Kunsag
+AUS_623 = { 616 617 3294 3718 } #Eastern Kunsag
 
-AUS_625 = { 625 626 629 630 3334 627 628 3888 } #Bohemia
+AUS_625 = { 625 3334 3926 } #Central Bohemia
 
-BOH_631 = { 631 632 3335 } #Moravia
+AUS_626 = { 626 3926 3927 3928 3919 } #North Bohemia
+
+AUS_627 = { 627 628 3888 } #Southern Ore Mountains (Kursne Hore)
+
+AUS_629 = { 629 630 3924 3925 } #South Bohemia
 
 AUS_633 = { 633 634 635 636 3901 3903 } #Western Slovakia
+
+BOH_631 = { 631 632 3335 3929 } #Moravia
 
 AUS_637 = { 637 638 646 3900 3902 3912 } #Eastern Slovakia
 
