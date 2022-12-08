@@ -528,6 +528,70 @@
 		size = 3000
 	}
 }
+
+#Arar
+3892 = {
+	aristocrats = {
+		culture = najdi_arabic
+		religion = sunni
+		size = 20
+	}
+
+	clergymen = {
+		culture = najdi_arabic
+		religion = sunni
+		size = 20
+	}
+
+	artisans = {
+		culture = najdi_arabic
+		religion = sunni
+		size = 10
+	}
+
+	soldiers = {
+		culture = najdi_arabic
+		religion = sunni
+		size = 1000
+	}
+
+	farmers = {
+		culture = najdi_arabic
+		religion = sunni
+		size = 350
+	}
+	
+	aristocrats = {
+		culture = najdi_arabic
+		religion = shiite
+		size = 10
+	}
+
+	clergymen = {
+		culture = najdi_arabic
+		religion = shiite
+		size = 10
+	}
+
+	artisans = {
+		culture = najdi_arabic
+		religion = shiite
+		size = 10
+	}
+
+	soldiers = {
+		culture = najdi_arabic
+		religion = shiite
+		size = 200
+	}
+
+	farmers = {
+		culture = najdi_arabic
+		religion = shiite
+		size = 120
+	}
+}
+
 #Sharawah (28000/7000 POPS)
 1161 = {
 	aristocrats = {

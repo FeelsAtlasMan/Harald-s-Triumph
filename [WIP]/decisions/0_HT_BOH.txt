@@ -4,7 +4,7 @@ political_decisions = {
 		picture = warsaw_vienna_railway
 		potential = {
 			tag = BOH
-			FRI = { exists = yes }
+			#FRI = { exists = yes }
 			NOT = { has_country_flag = built_the_prauge_vistula_railway }
 		}
 		allow = {

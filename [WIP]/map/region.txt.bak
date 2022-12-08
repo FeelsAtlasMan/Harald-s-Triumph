@@ -168,11 +168,11 @@ RUS_343 = { 343 344 341 340 } #Helsinki
 
 RUS_345 = { 345 346 347 348 } #Turku
 
-DEN_367 = { 367 366 368 2557 } #Jylland
+DEN_367 = { 367 366 2557 } #Jylland
 
 HOL_369 = { 528 369 530 529 3258 } #Holstein
 
-SCH_370 = { 370 371 } #Schleswig
+SCH_370 = { 370 371 368 533 } #Schleswig
 
 DEN_372 = { 372 373 374 } #Sjaelland
 
@@ -183,7 +183,7 @@ NET_375 = { 376 375 377 378 } #Holland
 
 NET_382 = { 382 384 386 577 } #Geldern
 
-NET_385 = { 385 383 543 3259 533 } #Friesland
+NET_385 = { 385 383 543 3259 } #Friesland
 
 BEL_387 = { 387 390 391 3291 379 380 } #Brabant
 
@@ -228,7 +228,7 @@ FRA_455 = { 455 457 456 450 462 } #Le Midi
 
 FRA_458 = { 458 459 460 } #Aquitaine
 
-FRA_461 = { 461 463 464 449 } #Languedoc
+FRA_461 = { 461 463 449 } #Languedoc
 
 #SAR_466 = { } #Savoie
 
@@ -239,27 +239,29 @@ FRA_467 = { 467 468 469 470 471 } #Provence
 
 SPA_474 = { 474 476 } #Galicia
 
-SPA_477 = { 477 479 480 481 482 483 475 478 } #Le�n-Castilla
+SPA_477 = { 477 482 475 } #Le�n
+
+SPA_479 = { 479 480 481 483 478 } #Old Castilla
 
 SPA_484 = { 484 485 486 } #Extremadura
 
 SPA_487 = { 487 488 489 490 491 } #Castilla la Nueva
 
-SPA_492 = { 492 493 494 495 496 497 } #Vasconia-Arag�n
+SPA_492 = { 495 496 497 3252 } #Aragon
 
-SPA_498 = { 498 499 500 501 502 3252 } #Catalonia
+SPA_493 = { 492 493 494 } #Tears of Navarre
+
+SPA_498 = { 498 499 500 501 502 464 } #Catalonia
 
 SPA_503 = { 503 504 505 506 507 508 } #Valencia
 
-SPA_512 = { 512 509 510 511 517 } #Andalucia
+SPA_512 = { 512 509 510 511 517 516 } #Andalucia
 
-SPA_513 = { 513 514 515 516 } #Granada
+SPA_513 = { 513 514 515 } #Granada
 
-POR_518 = { 518 519 520 } #Douro
+POR_518 = { 518 519 520 522 } #Douro
 
-POR_521 = { 521 522 523 524 } #Estremadura
-
-POR_525 = { 525 526 527 } #Alentejo
+POR_525 = { 525 526 527 523 524 521 } #Alentejo - al-Gharb
 
 POR_2134 = { 2134 2135 2136 } #Macaronesia
 
@@ -274,7 +276,7 @@ HAN_534 = { 534 536 537 585 3267 } #Hannover
 
 HAN_540 = { 539 540 541 535 531 } #Engern
 
-PRU_544 = { 544 545 550 551 547 548 } #Mecklenburg
+PRU_544 = { 544 545 550 551 547 548 3921 3922 3923 } #Mecklenburg
 
 PRU_546 = { 546 679 680 692 } #Pomerania
 
@@ -312,9 +314,9 @@ SWI_607 = { 607 608 609 3250 3271 } #R�gion L�manique
 
 SWI_603 = { 611 2669 } #Churrätien
  
-PRU_682 = { 682 683 } #Lower Silesia
+PRU_682 = { 682 683 3914 3915 3916 3917 3918 } #Lower Silesia
 
-BOH_684 = { 684 688 2584 685 689 } #Upper Silesia
+BOH_684 = { 684 688 2584 685 689 3920 } #Upper Silesia
 
 PRU_690 = { 690 691 694 693 } #Westpreu�en
 
@@ -326,17 +328,23 @@ PRU_701 = { 701 699 700 681 } #Greater Poland
 
 AUS_612 = { 612 615 734 735 594 } #Tirol
 
-AUS_619 = { 619 620 621 617 3717 3718 3302 } #Western Kunsag
+AUS_619 = { 619 620 621 3717 3302 } #Western Kunsag
 
 AUS_639 = { 639 623 624 640 642 643 644 779 3301 3303 } #Transdanubia
 
-AUS_623 = { 616 3294 } #Eastern Kunsag
+AUS_623 = { 616 617 3294 3718 } #Eastern Kunsag
 
-AUS_625 = { 625 626 629 630 3334 627 628 3888 } #Bohemia
+AUS_625 = { 625 3334 3926 } #Central Bohemia
 
-BOH_631 = { 631 632 3335 } #Moravia
+AUS_626 = { 626 3926 3927 3928 3919 } #Sudeten
+
+AUS_627 = { 627 628 3888 } #Southern Ore Mountains (Kursne Hore)
+
+AUS_629 = { 629 630 3924 3925 } #South Bohemia
 
 AUS_633 = { 633 634 635 636 3901 3903 } #Western Slovakia
+
+BOH_631 = { 631 632 3335 3929 } #Moravia
 
 AUS_637 = { 637 638 646 3900 3902 3912 } #Eastern Slovakia
 

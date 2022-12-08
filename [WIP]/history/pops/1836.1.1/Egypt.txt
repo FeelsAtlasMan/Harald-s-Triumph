@@ -1168,31 +1168,31 @@
 #Farafra (8000/2000 POPS)
 3411 = {
 	aristocrats = {
-		culture = libi
+		culture = saidi_arabic
 		religion = sunni
 		size = 25
 	}
 
 	clergymen = {
-		culture = libi
+		culture = saidi_arabic
 		religion = sunni
 		size = 50
 	}
 
 	artisans = {
-		culture = libi
+		culture = saidi_arabic
 		religion = sunni
 		size = 100
 	}
 
 	soldiers = {
-		culture = libi
+		culture = saidi_arabic
 		religion = sunni
 		size = 825
 	}
 
 	farmers = {
-		culture = libi
+		culture = saidi_arabic
 		religion = sunni
 		size = 3000
 	}
@@ -1200,35 +1200,69 @@
 #Egyptian Desert (8000/2000 POPS)
 3405 = {
 	aristocrats = {
-		culture = libi
+		culture = chadic_arabic
 		religion = sunni
 		size = 2
 	}
 
 	clergymen = {
-		culture = libi
+		culture = chadic_arabic
 		religion = sunni
 		size = 5
 	}
 
 	artisans = {
-		culture = libi
+		culture = chadic_arabic
 		religion = sunni
 		size = 10
 	}
 
 	soldiers = {
-		culture = libi
+		culture = chadic_arabic
 		religion = sunni
 		size = 25
 	}
 
 	farmers = {
-		culture = libi
+		culture = chadic_arabic
 		religion = sunni
 		size = 100
 	}
 }
+
+#Salimah
+3760 = {
+	aristocrats = {
+		culture = chadic_arabic
+		religion = sunni
+		size = 20
+	}
+
+	clergymen = {
+		culture = chadic_arabic
+		religion = sunni
+		size = 25
+	}
+
+	artisans = {
+		culture = chadic_arabic
+		religion = sunni
+		size = 20
+	}
+
+	soldiers = {
+		culture = chadic_arabic
+		religion = sunni
+		size = 125
+	}
+
+	farmers = {
+		culture = chadic_arabic
+		religion = sunni
+		size = 1200
+	}
+}
+
 #Bawiti (12000/3000 POPS)
 1759 = {
 	aristocrats = {
