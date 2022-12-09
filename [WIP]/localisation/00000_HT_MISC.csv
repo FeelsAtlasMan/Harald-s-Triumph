@@ -1,5 +1,7 @@
 land_reform_two;Title and Deed system;;;;;;;;;;;;;x;;;;;;;;;;;
 land_reform_two_desc;The state guarantees private property and land development rights;;;;;;;;;;;;;x;;;;;;;;;;;
+land_reform_two;Title and Deed system;;;;;;;;;;;;;x;;;;;;;;;;;
+land_reform_two_desc;The state guarantees private property and land development rights;;;;;;;;;;;;;x;;;;;;;;;;;
 admin_reform_two;Foreign-Trained Civil Service;;;;;;;;;;;;;x;;;;;;;;;;;
 admin_reform_two_desc;The national administration is now run by western-educated bureaucrats;;;;;;;;;;;;;x;;;;;;;;;;;
 education_reform_two;Universities;;;;;;;;;;;;;x;;;;;;;;;;;
@@ -168,11 +170,10 @@ PV_POP_NATIONALITY;Language;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 NATIONALITY_DISTTITLE;Language;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 baby_boom_assimilation;Baby Boom;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 NATIONALITY_DISTTITLE;Language;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-anarcho_liberal_focus;Party loyalty towards ?YJacobins?! ;Loyaut?? envers le parti ??YJacobins??! ;Parteiloyalit??t gegen??ber ??YJacobins??! ;;;;;;;;;;;
+anarcho_liberal_focus;Party loyalty towards Jacobins;;;;;;;;;;;;;
 anarcho_liberal;Radical;Radical;Radical;;Radical;;;;;;;;;x
 bourgeois_dictatorship;Revolutionary Republic;x
 bourgeois_dictatorship_ruler;Consul;x
-tribal_confederation;Tribal Confederation;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 opium;Narcotics;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 illigitimate_crown;Illigitimate Crown;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 illigitimate_crown_desc;Our crown is seen as illigitimate.;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
@@ -197,6 +198,11 @@ mamluk_estates_desc;;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 anglo_saxon_integration;Anglo Saxon Integration;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 anglo_saxon_integration_desc;We have begun the process of intergrating the anglo saxons;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 french_bourbon;Absolute Monarchy;;;;;;;;;;;;;x;;;;
+french_bourbon_ruler;King;;;;;;;;;;;;;x;;;;
+khanate;Khanate;;;;;;;;;;;;;
+khanate_ruler;Khan;;;;;;;;;;;;;
+tribal_confederation;Tribal Confederation;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+tribal_confederation_ruler;Chief;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 vassal_interactions_title;Open Vassal Interactions Menu;;;;;;;;;;;;;
 vassal_interactions_desc;This decision fires an event which will allow you to free or return cores to your vassals.;;;;;;;;;;;;;
 farhad_khan;Farhad Khan;;;;;;;;;;;;;

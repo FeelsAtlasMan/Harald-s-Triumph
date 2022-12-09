@@ -39,8 +39,8 @@ country_event = {
     option = { #resume as Timurids (Khorasan), recommanded
 	    name = "EVT9901OPTA"
 		    TIM = { all_core = { remove_core = TIM } }
-			change_tag = KHR
 			KHR = { government = french_bourbon }
+			change_tag = KHR
 	        release_vassal = AJM
 			AJM = { government = french_bourbon }
 		    release_vassal = BUK
@@ -63,6 +63,9 @@ country_event = {
 	
 	option = { #resume as Transoxiana, recommanded
 	    name = "EVT9901OPTB"
+		    TIM = { all_core = { remove_core = TIM } }
+			KHR = { government = french_bourbon }
+		    change_tag = KHR 
 	        release_vassal = AJM
 			AJM = { government = french_bourbon }
 		    release_vassal = BUK
@@ -78,7 +81,7 @@ country_event = {
 			1071 = { secede_province = FRS }
 			1138 = { secede_province = FRS }
 			change_tag_no_core_switch = BUK
-			TIM = { 
+			KHR = { 
 			    country_event = {
 			        id = 9905
 				    days = 90
@@ -89,6 +92,10 @@ country_event = {
 	
 	option = { #resume as Azerbaijan, hard
 	    name = "EVT9901OPTC"
+		    TIM = { all_core = { remove_core = TIM } }
+			KHR = { government = french_bourbon }
+		    change_tag = KHR 
+		    release_vassal = AJM
 	        AJM = { government = french_bourbon }
 		    release_vassal = BUK
 			BUK = { government = french_bourbon }
@@ -114,6 +121,10 @@ country_event = {
 	
 	option = { #resume as Iraq, hard
 	    name = "EVT9901OPTD"
+		    TIM = { all_core = { remove_core = TIM } }
+			KHR = { government = french_bourbon }
+		    change_tag = KHR
+		    release_vassal = AJM
 	        AJM = { government = french_bourbon }
 		    release_vassal = BUK
 			BUK = { government = french_bourbon }
@@ -158,6 +169,10 @@ country_event = {
 			release_vassal = BUK
 			release_vassal = PNJ
 			release_vassal = KMY
+			release_vassal = MTN
+			release_vassal = KAS
+			release_vassal = CMB 
+			release_vassal = CLS
 			release = BHR
 			2664 = { secede_province = OMA }
 			set_global_flag = timurd_succ_war
@@ -183,6 +198,10 @@ country_event = {
 			}
 			leave_alliance = PNJ
 			leave_alliance = KMY
+			leave_alliance = MTN
+			leave_alliance = KAS
+			leave_alliance = CMB
+			leave_alliance = CLS
 			THIS = { casus_belli = { target = FRS type = conquest months = 12 } }
 			THIS = { casus_belli = { target = AZB type = conquest months = 12 } }
 			THIS = { casus_belli = { target = IRQ type = conquest months = 12 } }
