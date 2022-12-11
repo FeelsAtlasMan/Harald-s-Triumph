@@ -691,7 +691,7 @@ ideological_thought = {
 	year = 1836
 	cost = 7200
 
-	max_national_focus = 1 
+	max_national_focus = 2 
 		
 	ai_chance = {
 		factor = 15
@@ -763,7 +763,7 @@ state_n_government = {
 	year = 1840
 	cost = 10800
 
-	max_national_focus = 1 
+	max_national_focus = 2 
 	ai_chance = {
 		factor = 25
 		modifier = {
@@ -821,7 +821,7 @@ nationalism_n_imperialism = {
 	year = 1850
 	cost = 14400
 
-	max_national_focus = 1
+	max_national_focus = 2
 	#colonial_life_rating = -10 
 	cb_creation_speed = 0.1
 	
@@ -914,7 +914,7 @@ revolution_n_counterrevolution = {
 	year = 1870
 	cost = 18000
 
-	max_national_focus = 1
+	max_national_focus = 2
 	diplomatic_points = 0.25
 	ai_chance = {
 		factor = 35
@@ -953,7 +953,7 @@ mass_politics = {
 	year = 1900
 	cost = 21600
 
-	max_national_focus = 1 
+	max_national_focus = 2 
 	ai_chance = {
 		factor = 2
 		modifier = {
