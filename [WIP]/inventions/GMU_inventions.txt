@@ -10,10 +10,10 @@ early_archaeology = {
 			factor = 1
 			invention = i_empiricism
 		}
-		modifier = {
-			factor = 2
-			has_country_modifier = local_excavations
-		}
+		#modifier = {
+		#	factor = 2
+		#	has_country_modifier = local_excavations
+		#}
 		modifier = {
 			factor = 2
 			has_country_modifier = egyptian_excavations
@@ -49,10 +49,10 @@ modern_archaeology = {
 			factor = 1
 			has_country_modifier = mycenaean_excavations
 		}
-		modifier = {
-			factor = 1
-			has_country_modifier = pompeji_excavations
-		}
+		#modifier = {
+		#	factor = 1
+		#	has_country_modifier = pompeji_excavations
+		#}
 	}
 	effect = {
 		shared_prestige = 7.5

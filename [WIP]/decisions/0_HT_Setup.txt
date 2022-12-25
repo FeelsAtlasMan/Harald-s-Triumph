@@ -227,97 +227,6 @@ political_decisions = {
 				}
 			}
 			
-			PRU = {
-				any_pop = {
-					limit = { has_pop_culture = ashkenazi }
-					literacy = 0.45
-				}
-				any_pop = {
-					limit = { has_pop_culture = veleti has_pop_religion = protestant }
-					literacy = 0.1
-				}
-				any_pop = {
-					limit = { has_pop_culture = north_german has_pop_religion = catholic }
-					literacy = -0.05
-				}
-				any_pop = {
-					limit = { has_pop_culture = south_german has_pop_religion = protestant }
-					literacy = 0.05
-				}
-				any_pop = {
-					limit = { has_pop_culture = south_german has_pop_religion = catholic }
-					literacy = -0.1
-				}
-				any_pop = {
-					limit = { has_pop_culture = czech }
-					literacy = 0.25
-				}
-				any_pop = {
-					limit = { has_pop_culture = polish }
-					literacy = 0.05
-				}
-				any_pop = {
-					limit = { has_pop_culture = french }
-					literacy = 0.35
-				}
-				any_pop = {
-					limit = { has_pop_culture = lithuanian }
-					literacy = 0.50
-				}
-				
-				565 = { any_pop = { limit = { has_pop_religion = catholic } literacy = -0.05 } }
-				564 = { any_pop = { limit = { has_pop_religion = catholic } literacy = -0.05 } }
-				
-				add_country_modifier = {
-					name = zollervein
-					duration = -1
-				}
-				
-				add_country_modifier = {
-					name = global_baby_boom
-					duration = 3650
-				}
-				
-				FRM = {
-					any_owned = {
-						add_province_modifier = {
-							name = baby_boom
-							duration = 3650
-						}
-					}
-				}
-				SCL = {
-					any_owned = {
-						add_province_modifier = {
-							name = baby_boom
-							duration = 3650
-						}
-					}
-				}
-				HAM = {
-					any_owned = {
-						add_province_modifier = {
-							name = baby_boom
-							duration = 3650
-						}
-					}
-				}
-				HAN = {
-					any_owned = {
-						add_province_modifier = {
-							name = small_baby_boom
-							duration = 3650
-						}
-					}
-					534 = {
-						add_province_modifier = {
-							name = baby_boom
-							duration = 2555
-						}
-					}
-				}
-			}
-			
 			KRM = {
 				enable_canal = 4
 				enable_canal = 5
@@ -417,19 +326,19 @@ political_decisions = {
 				1716 = { add_province_modifier = { name = baby_boom duration = 365 } }
 				3409 = { add_province_modifier = { name = small_baby_boom duration = 3650 } }
 				3409 = { add_province_modifier = { name = baby_boom duration = 365 } }
-				#2609 = { add_province_modifier = { name = small_baby_boom duration = 3650 } } #Timbuktu
+				2609 = { add_province_modifier = { name = small_baby_boom duration = 3650 } } #Timbuktu
 				#2609 = { add_province_modifier = { name = baby_boom duration = 365 } }        #Timbuktu
-				#1717 = { add_province_modifier = { name = small_baby_boom duration = 3650 } } #Timbuktu
+				1717 = { add_province_modifier = { name = small_baby_boom duration = 3650 } } #Timbuktu
 				#1717 = { add_province_modifier = { name = baby_boom duration = 365 } }        #Timbuktu
-				#1781 = { add_province_modifier = { name = small_baby_boom duration = 3650 } } #Timbuktu
+				1781 = { add_province_modifier = { name = small_baby_boom duration = 3650 } } #Timbuktu
 				#1781 = { add_province_modifier = { name = baby_boom duration = 365 } }        #Timbuktu
-				#3407 = { add_province_modifier = { name = small_baby_boom duration = 3650 } } #Timbuktu
+				3407 = { add_province_modifier = { name = small_baby_boom duration = 3650 } } #Timbuktu
 				#3407 = { add_province_modifier = { name = baby_boom duration = 365 } }        #Timbuktu
-				#1773 = { add_province_modifier = { name = small_baby_boom duration = 3650 } } #Mauretania
+				1773 = { add_province_modifier = { name = small_baby_boom duration = 3650 } } #Mauretania
 				#1773 = { add_province_modifier = { name = baby_boom duration = 365 } }        #Mauretania
-				#3403 = { add_province_modifier = { name = small_baby_boom duration = 3650 } } #Mauretania
+				3403 = { add_province_modifier = { name = small_baby_boom duration = 3650 } } #Mauretania
 				#3403 = { add_province_modifier = { name = baby_boom duration = 365 } }        #Mauretania
-				#3408 = { add_province_modifier = { name = small_baby_boom duration = 3650 } } #Mauretania
+				3408 = { add_province_modifier = { name = small_baby_boom duration = 3650 } } #Mauretania
 				#3408 = { add_province_modifier = { name = baby_boom duration = 365 } }        #Mauretania
 			}
 			
@@ -1008,7 +917,16 @@ political_decisions = {
 				625 = { change_province_name = "Praha" }
 				628 = { change_province_name = "Litomerice" }
 				688 = { change_province_name = "Opava" }
-				689 = { change_province_name = "Teshin" }
+				689 = { change_province_name = "Tešín" }
+				3334 = { add_province_modifier = { name = kutna_hora_mine duration = 10000 } }
+				any_pop = { limit = { is_culture_group = continental_west_germanic } literacy = 0.5 }
+				any_pop = { limit = { has_pop_culture = silesian } literacy = 0.5 }
+				any_pop = { limit = { has_pop_culture = sorbian } literacy = 0.41 }
+				any_pop = { limit = { has_pop_culture = polish } literacy = 0.37 }
+				any_pop = { limit = { has_pop_culture = kashubian } literacy = 0.34 }
+				any_pop = { limit = { has_pop_culture = pruthenian } literacy = 0.34 }
+				any_pop = { limit = { has_pop_culture = ashkenazi } literacy = 0.8 }
+				any_pop = { limit = { has_pop_culture = gypsy } literacy = 0.01 }
 				treasury = 25000
 			}
 			
