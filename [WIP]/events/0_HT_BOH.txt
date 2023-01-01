@@ -21,3 +21,70 @@ country_event = {
 		set_country_flag = ascention_of_dobrovka
 	}
 }
+
+country_event = {
+	id = 130802
+	title = "The Bohemian Haskalah"
+	desc = "EVTDESC130802"
+	fire_only_once = yes
+	
+	trigger = {
+		tag = BOH
+		GLM = { has_country_flag = belz_pogrom }
+		war = no
+	}
+	
+	mean_time_to_happen = {
+		months = 6
+	}
+	
+	option = {
+		name = "Interesting"
+		prestige = 3
+		any_pop = { limit = { has_pop_religion = jewish } consciousness = 4 }
+		set_global_flag = bohemian_haskalah
+	}
+}
+
+province_event = {
+	id = 130803
+	title = "The Decline of Kutna Hora"
+	desc = "EVTDESC130803"
+	fire_only_once = yes
+	
+	trigger = {
+		tag = BOH
+		3334 = { has_province_modifier = kutna_hora_mine }
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "Encourage cattle farming!"
+		trade_goods = cattle
+		add_province_modifier = {
+	        name = local_economic_downturn
+	        duration = 160
+        }
+	}
+	
+	option = {
+		name = "Support the wheat farmers!"
+		trade_goods = grain
+		add_province_modifier = {
+	        name = local_economic_downturn
+	        duration = 160
+        }
+	}
+	
+	option = {
+		name = "Subsidise the vineyards!"
+		trade_goods = fruit
+		add_province_modifier = {
+	        name = local_economic_downturn
+	        duration = 160
+        }
+	}
+}

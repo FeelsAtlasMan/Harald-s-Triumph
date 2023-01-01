@@ -20,6 +20,7 @@ country_event = {
 		}
     }
 }
+
 country_event = {
 	id = 102501
 	title = "Wielkopolska rises against us!"
@@ -34,22 +35,17 @@ country_event = {
 			limit = {
 				is_core = PZN
 			}
-			secede_province = PZN
+			secede_province = CPL
 		}
-		PZN = {
-			add_country_modifier = {
-				name = polish_uprising_mobilization
-				duration = 2700
-			}
-		}
-		war = {
-			target = PZN
-			attacker_goal = {
-				casus_belli = annex_core_country
-			}
-			defender_goal = {
-				casus_belli = status_quo
-			}
+		CPL = { 
+		    capital_scope = {
+                sub_unit = { type = infantry value = current }
+                sub_unit = { type = infantry value = current }
+                sub_unit = { type = cavalry value = current }
+                sub_unit = { type = cavalry value = current }
+                sub_unit = { type = artillery value = current }
+			    sub_unit = { type = artillery value = current }
+            }
 		}
     }
 }
@@ -67,25 +63,48 @@ country_event = {
 			limit = {
 				is_core = PML
 			}
-			secede_province = PML
+			secede_province = CPL
 		}
-		PML = {
-			add_country_modifier = {
-				name = polish_uprising_mobilization
-				duration = 2700
-			}
-		}
-		war = {
-			target = PML
-			attacker_goal = {
-				casus_belli = annex_core_country
-			}
-			defender_goal = {
-				casus_belli = status_quo
-			}
+		CPL = { 
+		    capital_scope = {
+                sub_unit = { type = infantry value = current }
+                sub_unit = { type = infantry value = current }
+			    sub_unit = { type = artillery value = current }
+            }
 		}
     }
 }
+
+country_event = {
+	id = 102503
+	title = "The Seizure of Chelmland!"
+	desc = "EVTDESC102503"
+	picture = "streetriot"
+	
+	trigger = {
+		tag = CPL
+		war_with = BOH
+	}
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "There is nothing we can do right now..."
+		any_owned = {
+			limit = {
+				is_core = GLM
+			}
+			secede_province = GLM
+		}
+		GLM = { country_event = 102506 days = 16 }
+		set_country_flag = seizure_of_chelm
+    }
+}
+
 country_event = {
 	id = 102504
 	title = "Malopolska rises against us!"
@@ -100,22 +119,17 @@ country_event = {
 			limit = {
 				is_core = KRA
 			}
-			secede_province = KRA
+			secede_province = CPL
 		}
-		KRA = {
-			add_country_modifier = {
-				name = polish_uprising_mobilization
-				duration = 2700
-			}
-		}
-		war = {
-			target = KRA
-			attacker_goal = {
-				casus_belli = annex_core_country
-			}
-			defender_goal = {
-				casus_belli = status_quo
-			}
+		CPL = { 
+		    capital_scope = {
+                sub_unit = { type = infantry value = current }
+                sub_unit = { type = infantry value = current }
+                sub_unit = { type = cavalry value = current }
+                sub_unit = { type = cavalry value = current }
+                sub_unit = { type = artillery value = current }
+			    sub_unit = { type = artillery value = current }
+            }
 		}
     }
 }
@@ -150,5 +164,39 @@ country_event = {
 				casus_belli = status_quo
 			}
 		}
+    }
+}
+
+country_event = {
+	id = 102506
+	title = "S'brent! briderlekh, s'brent!"
+	desc = "EVTDESC102506"
+	major = yes
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {
+		name = "We have to step in immediately!"
+		RUS_3353 = { any_pop = { limit = { has_pop_culture = ashkenazi } reduce_pop = 0.8 } }
+		RUS_3353 = { any_pop = { limit = { has_pop_culture = ashkenazi } ideology = { factor = 0.8 value = liberal } } }
+		RUS_3353 = { any_pop = { limit = { has_pop_culture = polish } reduce_pop = 0.99 } }
+		3959 = { any_pop = { limit = { has_pop_culture = ashkenazi } reduce_pop = 0.95 } }
+		any_pop = { limit = { has_pop_culture = ashkenazi } consciousness = 6 militancy = 7 }
+		any_pop = { limit = { has_pop_culture = polish } consciousness = 4 militancy = 7 }
+		set_country_flag = belz_pogrom
+		ai_chance = { factor = 0 }
+    }
+	
+	option = {
+		name = "Let them run wild"
+		RUS_3353 = { any_pop = { limit = { has_pop_culture = ashkenazi } reduce_pop = 0.6 } }
+		RUS_3353 = { any_pop = { limit = { has_pop_culture = ashkenazi } ideology = { factor = 0.8 value = liberal } } }
+		RUS_3353 = { any_pop = { limit = { has_pop_culture = polish } reduce_pop = 0.95 } }
+		RUS_3353 = { any_pop = { limit = { has_pop_culture = polish } consciousness = 8 militancy = 5 } }
+		any_pop = { limit = { has_pop_culture = ashkenazi } consciousness = 6 militancy = 7 }
+		any_pop = { limit = { has_pop_culture = polish } consciousness = 4 militancy = 7 }
+		set_country_flag = belz_pogrom
+		ai_chance = { factor = 100 }
     }
 }

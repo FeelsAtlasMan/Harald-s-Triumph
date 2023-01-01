@@ -28,7 +28,10 @@ country_event = {
 	trigger = {
 		tag = BYZ
 		has_country_flag = bulgarian_setup
-		average_militancy = 4
+		OR = {
+		    TUR_805 = { pop_militancy = 4 }
+			TUR_806 = { pop_militancy = 4 }
+		}
 	}
 	
 	option = {

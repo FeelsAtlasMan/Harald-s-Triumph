@@ -276,11 +276,6 @@ silver_mine = {
 	icon = 11
 }
 
-kutna_hora_mine = {
-	local_RGO_output = -0.5
-	icon = 11
-}
-
 peacetime_mobilization = {
 	ruling_party_support = -0.40
 	loan_interest = 1
@@ -804,6 +799,7 @@ kettler_denkmal = {
 local_economic_downturn = {
 	local_RGO_output = -0.2
 	pop_consciousness_modifier = 0.15
+	immigrant_push = 0.25
 	icon = 12
 }
 
@@ -1893,6 +1889,13 @@ zoroastrian_autonomy = {
 	pop_consciousness_modifier = 0.01
 	pop_militancy_modifier = -0.05
 	icon = 2
+}
+
+institutionalised_sharia = {
+	literacy_con_impact = -0.5
+	issue_change_speed = -0.5
+	suppression_points_modifier = 0.5	
+	icon = 5
 }
 
 #######################

@@ -10,9 +10,13 @@ political_decisions = {
 		allow = {
 			war = no
 			OR = {
-				year = 1840
-				BEL = { exists = yes }
+				year = 1844
+				AND = {
+				    BEL = { exists = yes }
+					NOT = { government = absolute_monarchy )
+				}
 				NOT = { BOH = { brigades_compare = 1 } }
+			    }
 			}
 		}
 		effect = {
@@ -21,6 +25,7 @@ political_decisions = {
 				name = polish_uprising_mobilization
 				duration = 2700
 			}
+			any_pop = { limit = { is_primary_culture = yes } }
 			set_country_flag = lunched_masovian_uprising
 		}
 	}
