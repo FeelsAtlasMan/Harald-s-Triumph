@@ -3922,14 +3922,14 @@ unciv_reactionary_rebels = {
 	government = {
 		proletarian_dictatorship = absolute_monarchy
 		presidential_dictatorship = presidential_dictatorship
-		bourgeois_dictatorship = absolute_monarchy
+		bourgeois_dictatorship = bourgeois_dictatorship
 		fascist_dictatorship = absolute_monarchy
 		absolute_monarchy = absolute_monarchy
 		prussian_constitutionalism = absolute_monarchy
 		hms_government = absolute_monarchy
 		french_bourbon = french_bourbon
-		dominion = absolute_monarchy
-		democracy = absolute_monarchy
+		dominion = dominion
+		democracy = democracy
 		theocracy = theocracy
 		colonial_company = colonial_company
 	}

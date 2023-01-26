@@ -1898,6 +1898,20 @@ institutionalised_sharia = {
 	icon = 5
 }
 
+upland_canal = {
+	population_growth = 0.0005
+	local_RGO_output = 0.10
+	immigrant_attract = 0.10
+	icon = 9
+}
+
+danzig_harbour = {
+	immigrant_attract = 0.10
+	farm_RGO_size = 0.1
+	mine_RGO_size = 0.1
+	icon = 19
+}
+
 #######################
 ####Tver Flava#########
 #######################

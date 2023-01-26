@@ -194,39 +194,6 @@ political_decisions = {
 				}
 			}
 			
-			POR = {
-				1498 = { add_province_modifier = { name = colonial_exploitation duration = 7300 } }
-				relation = { who = ZUL value = 400 }
-				relation = { who = XHO value = 400 }
-				relation = { who = SUA value = 400 }
-				relation = { who = MAT value = 400 }
-				relation = { who = GAZ value = -400 }
-				relation = { who = AGC value = -400 }
-				any_pop = {
-					limit = {
-						OR = {
-							has_pop_religion = theravada
-							has_pop_religion = hindu
-							has_pop_religion = sunni
-							has_pop_religion = shiite
-							has_pop_religion = mahayana
-							has_pop_culture = malayalam
-						}
-					}
-					literacy = -0.03
-				}
-				
-				any_pop = {
-					limit = { has_pop_religion = animist }
-					literacy = -0.99
-				}
-				
-				any_pop = {
-					limit = { location = { is_colonial = yes } is_primary_culture = no }
-					literacy = -0.99
-				}
-			}
-			
 			KRM = {
 				enable_canal = 4
 				enable_canal = 5
@@ -290,14 +257,37 @@ political_decisions = {
 				
 				any_pop = { limit = { has_pop_religion = catholic NOT = { has_pop_culture = assyrian} } literacy = 0.01 }
 				any_pop = { limit = { OR = { has_pop_culture = greek has_pop_culture = armenian } } literacy = 0.05 }
-				1745 = { add_province_modifier = { name = mamluk_estates duration = 36500 } }
-				1746 = { add_province_modifier = { name = mamluk_estates duration = 36500 } }
-				1747 = { add_province_modifier = { name = mamluk_estates duration = 36500 } }
-				1748 = { add_province_modifier = { name = mamluk_estates duration = 36500 } }
-				1749 = { add_province_modifier = { name = mamluk_estates duration = 36500 } }
-				1750 = { add_province_modifier = { name = mamluk_estates duration = 36500 } }
-				1751 = { add_province_modifier = { name = mamluk_estates duration = 36500 } }
 			}
+			
+			1745 = { add_province_modifier = { name = mamluk_estates duration = 36500 } }
+			1746 = { add_province_modifier = { name = mamluk_estates duration = 36500 } }
+			1747 = { add_province_modifier = { name = mamluk_estates duration = 36500 } }
+			1748 = { add_province_modifier = { name = mamluk_estates duration = 36500 } }
+			1749 = { add_province_modifier = { name = mamluk_estates duration = 36500 } }
+			1750 = { add_province_modifier = { name = mamluk_estates duration = 36500 } }
+			1751 = { add_province_modifier = { name = mamluk_estates duration = 36500 } }
+			1696 = { add_province_modifier = { name = small_baby_boom duration = 3650 } }
+			1696 = { add_province_modifier = { name = baby_boom duration = 365 } }
+			1716 = { add_province_modifier = { name = small_baby_boom duration = 3650 } }
+			1716 = { add_province_modifier = { name = baby_boom duration = 365 } }
+			3409 = { add_province_modifier = { name = small_baby_boom duration = 3650 } }
+			3409 = { add_province_modifier = { name = baby_boom duration = 365 } }
+			2609 = { add_province_modifier = { name = small_baby_boom duration = 3650 } } #Timbuktu
+			#2609 = { add_province_modifier = { name = baby_boom duration = 365 } }        #Timbuktu
+			1717 = { add_province_modifier = { name = small_baby_boom duration = 3650 } } #Timbuktu
+			#1717 = { add_province_modifier = { name = baby_boom duration = 365 } }        #Timbuktu
+			1781 = { add_province_modifier = { name = small_baby_boom duration = 3650 } } #Timbuktu
+			#1781 = { add_province_modifier = { name = baby_boom duration = 365 } }        #Timbuktu
+			3407 = { add_province_modifier = { name = small_baby_boom duration = 3650 } } #Timbuktu
+			#3407 = { add_province_modifier = { name = baby_boom duration = 365 } }        #Timbuktu
+			1773 = { add_province_modifier = { name = small_baby_boom duration = 3650 } } #Mauretania
+			#1773 = { add_province_modifier = { name = baby_boom duration = 365 } }        #Mauretania
+			3403 = { add_province_modifier = { name = small_baby_boom duration = 3650 } } #Mauretania
+			#3403 = { add_province_modifier = { name = baby_boom duration = 365 } }        #Mauretania
+			3408 = { add_province_modifier = { name = small_baby_boom duration = 3650 } } #Mauretania
+			#3408 = { add_province_modifier = { name = baby_boom duration = 365 } }        #Mauretania
+			1720 = { add_province_modifier = { name = small_baby_boom duration = 3650 } }
+			1720 = { add_province_modifier = { name = baby_boom duration = 365 } }
 			
 			MOR = {
 				any_pop = {
@@ -320,26 +310,6 @@ political_decisions = {
 					}
 					add_province_modifier = { name = baby_boom duration = 365 }
 				}
-				1696 = { add_province_modifier = { name = small_baby_boom duration = 3650 } }
-				1696 = { add_province_modifier = { name = baby_boom duration = 365 } }
-				1716 = { add_province_modifier = { name = small_baby_boom duration = 3650 } }
-				1716 = { add_province_modifier = { name = baby_boom duration = 365 } }
-				3409 = { add_province_modifier = { name = small_baby_boom duration = 3650 } }
-				3409 = { add_province_modifier = { name = baby_boom duration = 365 } }
-				2609 = { add_province_modifier = { name = small_baby_boom duration = 3650 } } #Timbuktu
-				#2609 = { add_province_modifier = { name = baby_boom duration = 365 } }        #Timbuktu
-				1717 = { add_province_modifier = { name = small_baby_boom duration = 3650 } } #Timbuktu
-				#1717 = { add_province_modifier = { name = baby_boom duration = 365 } }        #Timbuktu
-				1781 = { add_province_modifier = { name = small_baby_boom duration = 3650 } } #Timbuktu
-				#1781 = { add_province_modifier = { name = baby_boom duration = 365 } }        #Timbuktu
-				3407 = { add_province_modifier = { name = small_baby_boom duration = 3650 } } #Timbuktu
-				#3407 = { add_province_modifier = { name = baby_boom duration = 365 } }        #Timbuktu
-				1773 = { add_province_modifier = { name = small_baby_boom duration = 3650 } } #Mauretania
-				#1773 = { add_province_modifier = { name = baby_boom duration = 365 } }        #Mauretania
-				3403 = { add_province_modifier = { name = small_baby_boom duration = 3650 } } #Mauretania
-				#3403 = { add_province_modifier = { name = baby_boom duration = 365 } }        #Mauretania
-				3408 = { add_province_modifier = { name = small_baby_boom duration = 3650 } } #Mauretania
-				#3408 = { add_province_modifier = { name = baby_boom duration = 365 } }        #Mauretania
 			}
 			
 			ZYD = {
@@ -382,8 +352,6 @@ political_decisions = {
 					}
 					add_province_modifier = { name = baby_boom duration = 365 }
 				}
-				1720 = { add_province_modifier = { name = small_baby_boom duration = 3650 } }
-				1720 = { add_province_modifier = { name = baby_boom duration = 365 } }
 			}
 			
 			BBB = {
@@ -426,8 +394,9 @@ political_decisions = {
 					}
 					add_province_modifier = { name = baby_boom duration = 365 }
 				}
-				1711 = { add_province_modifier = { name = small_baby_boom duration = 3650 } }
 			}
+			
+			1711 = { add_province_modifier = { name = small_baby_boom duration = 3650 } }
 			
 			TRZ = {
 				any_owned = {
@@ -436,29 +405,30 @@ political_decisions = {
 					}
 					add_province_modifier = { name = small_baby_boom duration = 3650 }
 				}
-				1773 = { add_province_modifier = { name = baby_boom duration = 365 } }
-				3403 = { add_province_modifier = { name = baby_boom duration = 365 } }
-				1775 = { add_province_modifier = { name = baby_boom duration = 365 } }
-				1773 = { add_province_modifier = { name = baby_boom duration = 365 } }
-				1776 = { add_province_modifier = { name = baby_boom duration = 365 } }
-				1777 = { add_province_modifier = { name = baby_boom duration = 365 } }
 			}
+			
+			1773 = { add_province_modifier = { name = baby_boom duration = 365 } }
+			3403 = { add_province_modifier = { name = baby_boom duration = 365 } }
+			1775 = { add_province_modifier = { name = baby_boom duration = 365 } }
+			1773 = { add_province_modifier = { name = baby_boom duration = 365 } }
+			1776 = { add_province_modifier = { name = baby_boom duration = 365 } }
+			1777 = { add_province_modifier = { name = baby_boom duration = 365 } }
+			2609 = { add_province_modifier = { name = baby_boom duration = 365 } }
+			3406 = { add_province_modifier = { name = baby_boom duration = 365 } }
+			1781 = { add_province_modifier = { name = baby_boom duration = 365 } }
+			1717 = { add_province_modifier = { name = baby_boom duration = 365 } }
+			3407 = { add_province_modifier = { name = baby_boom duration = 365 } }
+			2609 = { add_province_modifier = { name = small_baby_boom duration = 3650 } }
+			3406 = { add_province_modifier = { name = small_baby_boom duration = 3650 } }
+			1781 = { add_province_modifier = { name = small_baby_boom duration = 3650 } }
+			1717 = { add_province_modifier = { name = small_baby_boom duration = 3650 } }
+			3407 = { add_province_modifier = { name = small_baby_boom duration = 3650 } }
 			
 			TMB = {
 				any_pop = {
 					limit = { has_pop_culture = maghrebi  }
 					literacy = 0.19
 				}
-				2609 = { add_province_modifier = { name = baby_boom duration = 365 } }
-				3406 = { add_province_modifier = { name = baby_boom duration = 365 } }
-				1781 = { add_province_modifier = { name = baby_boom duration = 365 } }
-				1717 = { add_province_modifier = { name = baby_boom duration = 365 } }
-				3407 = { add_province_modifier = { name = baby_boom duration = 365 } }
-				2609 = { add_province_modifier = { name = small_baby_boom duration = 3650 } }
-				3406 = { add_province_modifier = { name = small_baby_boom duration = 3650 } }
-				1781 = { add_province_modifier = { name = small_baby_boom duration = 3650 } }
-				1717 = { add_province_modifier = { name = small_baby_boom duration = 3650 } }
-				3407 = { add_province_modifier = { name = small_baby_boom duration = 3650 } }
 			}
 			
 			#kurdish setup
@@ -516,11 +486,12 @@ political_decisions = {
 				any_pop = { limit = { has_pop_culture = greek } literacy = 0.07 }
 			}
 			
+			1008 = { set_province_flag = moscow_city }
+			1008 = { any_pop = { literacy = 0.1 } }
+			994 = { any_pop = { literacy = 0.1 } }
+			
 			RUS = {
 				treasury = 25000
-				1008 = { set_province_flag = moscow_city }
-				1008 = { any_pop = { literacy = 0.1 } }
-				994 = { any_pop = { literacy = 0.1 } }
 				any_pop = { limit = { has_pop_culture = ashkenazi } literacy = 0.54 }
 				any_pop = { limit = { has_pop_culture = mongol } literacy = 0.01 }
 				any_pop = {
@@ -782,8 +753,14 @@ political_decisions = {
 				any_pop = { limit = { OR = { has_pop_culture = georgian has_pop_culture = russian } } literacy = 0.02 }
 			}
 			
+			425 = { any_pop = { literacy = 0.05 } }
+			460 = { any_pop = { limit = { OR = { is_accepted_culture = yes is_primary_culture = yes } } literacy = 0.05 } }
+			451 = { any_pop = { limit = { OR = { is_accepted_culture = yes is_primary_culture = yes } } literacy = 0.1 } }
+			468 = { any_pop = { limit = { OR = { is_accepted_culture = yes is_primary_culture = yes } } literacy = 0.05 } }
+			467 = { any_pop = { limit = { OR = { is_accepted_culture = yes is_primary_culture = yes } } literacy = 0.05 } }
+			473 = { any_pop = { limit = { OR = { is_accepted_culture = yes is_primary_culture = yes } } literacy = -0.25 } }
+			
 			FRA = {
-				425 = { any_pop = { literacy = 0.05 } }
 				any_pop = { 
 					limit = {
 						is_primary_culture = yes 
@@ -804,11 +781,6 @@ political_decisions = {
 				FRA_411 = { any_pop = { limit = { OR = { is_accepted_culture = yes is_primary_culture = yes } } literacy = 0.1 } }
 				FRA_425 = { any_pop = { limit = { OR = { is_accepted_culture = yes is_primary_culture = yes } } literacy = 0.05 } }
 				FRA_418 = { any_pop = { limit = { OR = { is_accepted_culture = yes is_primary_culture = yes } } literacy = 0.1 } }
-				460 = { any_pop = { limit = { OR = { is_accepted_culture = yes is_primary_culture = yes } } literacy = 0.05 } }
-				451 = { any_pop = { limit = { OR = { is_accepted_culture = yes is_primary_culture = yes } } literacy = 0.1 } }
-				468 = { any_pop = { limit = { OR = { is_accepted_culture = yes is_primary_culture = yes } } literacy = 0.05 } }
-				467 = { any_pop = { limit = { OR = { is_accepted_culture = yes is_primary_culture = yes } } literacy = 0.05 } }
-				473 = { any_pop = { limit = { OR = { is_accepted_culture = yes is_primary_culture = yes } } literacy = -0.25 } }
 				FRA_445 = { any_pop = { limit = { OR = { is_accepted_culture = yes is_primary_culture = yes } } literacy = -0.2 } }
 				FRA_448 = { any_pop = { limit = { OR = { is_accepted_culture = yes is_primary_culture = yes } } literacy = -0.2 } }
 				FRA_435 = { any_pop = { limit = { OR = { is_accepted_culture = yes is_primary_culture = yes } } literacy = -0.15 } }
@@ -834,49 +806,23 @@ political_decisions = {
 				relation = { who = TOO value = -400 }
 			}
 			
-			PAP = {
-				749 = { any_pop = { literacy = 0.08 } }
-				750 = { any_pop = { literacy = 0.05 } }
-				741 = { any_pop = { literacy = 0.06 } }
-				742 = { any_pop = { literacy = 0.06 } }
-				743 = { any_pop = { literacy = 0.06 } }
-			}
+			749 = { any_pop = { literacy = 0.08 } }
+			750 = { any_pop = { literacy = 0.05 } }
+			741 = { any_pop = { literacy = 0.06 } }
+			742 = { any_pop = { literacy = 0.06 } }
+			743 = { any_pop = { literacy = 0.06 } }
+			724 = { any_pop = { literacy = -0.1 } }
+			725 = { any_pop = { literacy = -0.1 } }
 			
 			SAR = {
-				724 = { any_pop = { literacy = -0.1 } }
-				725 = { any_pop = { literacy = -0.1 } }
 				any_pop = { limit = { has_pop_culture = french } literacy = 0.4 }
 			}
 			
 			SWI = {
 				any_pop = { limit = { culture = ashkenazi } literacy = 0.70 }
 			}
-			
-			CLM = {
-				CLM_1723 = { any_pop = { limit = { has_pop_culture = central_american } literacy = 0.02 } } #Panama
-				2247 = { any_pop = { limit = { is_primary_culture = yes } literacy = 0.05 } }
-				add_country_modifier = {
-					name = america_new_world
-					duration = 3650
-				}
-			}
-			
-			VNZ = {
-				2264 = { any_pop = { limit = { is_primary_culture = yes } literacy = 0.05 } } 
-				add_country_modifier = {
-					name = global_baby_boom
-					duration = 3650
-				}
-			}
-			
-			GRE = {
-				any_pop = { limit = { has_pop_culture = south_german } literacy = 0.5 }
-				any_owned = { add_province_modifier = { name = baby_boom duration = 3650 } }
-				SER = { any_owned = { add_province_modifier = { name = small_baby_boom duration = 1825 } } }
-			}
-			
-			EGY = {
-				913 = { #Beirut
+            
+			913 = { #Beirut
 					any_pop = {
 						limit = { 
 							NOT = { has_pop_culture = armenian } 
@@ -887,10 +833,9 @@ political_decisions = {
 						}
 						literacy = 0.15 
 					} 
-				}
-				912 = { any_pop = { limit = { has_pop_religion = shiite } militancy = 5 } } #Baalbeck
-				915 = { any_pop = { limit = { has_pop_religion = shiite } militancy = 5 } } #Sidon
-			}
+			      }
+			912 = { any_pop = { limit = { has_pop_religion = shiite } militancy = 5 } } #Baalbeck
+			915 = { any_pop = { limit = { has_pop_religion = shiite } militancy = 5 } } #Sidon
 			
 			SHN = {
 				add_country_modifier = {
@@ -912,13 +857,6 @@ political_decisions = {
 			}
 			
 			BOH = {
-				3878 = { change_province_name = "Vidava" }
-				627 = { change_province_name = "Sedlec" }
-				625 = { change_province_name = "Praha" }
-				628 = { change_province_name = "Litomerice" }
-				688 = { change_province_name = "Opava" }
-				689 = { change_province_name = "Tešín" }
-				3334 = { add_province_modifier = { name = kutna_hora_mine duration = 10000 } }
 				any_pop = { limit = { is_culture_group = continental_west_germanic } literacy = 0.5 }
 				any_pop = { limit = { has_pop_culture = silesian } literacy = 0.5 }
 				any_pop = { limit = { has_pop_culture = sorbian } literacy = 0.41 }
@@ -929,6 +867,14 @@ political_decisions = {
 				any_pop = { limit = { has_pop_culture = gypsy } literacy = 0.01 }
 				treasury = 25000
 			}
+			
+			3878 = { change_province_name = "Vidava" }
+			627 = { change_province_name = "Sedlec" }
+			625 = { change_province_name = "Praha" }
+			628 = { change_province_name = "Litomerice" }
+			688 = { change_province_name = "Opava" }
+			689 = { change_province_name = "Tešín" }
+			3334 = { add_province_modifier = { name = kutna_hora_mine duration = 10000 } }
 			
 			
 			#################Class Literacy Setup######################
@@ -1255,12 +1201,6 @@ political_decisions = {
 				ENG_260 = { any_pop = { ideology = { factor = 0.6 value = liberal } } }
 				ENG_263 = { any_pop = { ideology = { factor = 0.6 value = liberal } } }
 			}
-			
-			#################Setup SWI######################
-			SWI = { 603 = { aristocrats  = { money = 12000 } } }
-			SWI = { any_pop = { limit = { has_pop_religion = protestant } ideology = { factor = 0.5 value = liberal } } }
-			SWI = { any_pop = { limit = { has_pop_religion = catholic } ideology = { factor = 0.5 value = conservative } } }
-			#################Setup SWI######################
 			
 			#################Belgian War of Independence######################
 			NET = { war_exhaustion = 40 }

@@ -1,0 +1,21 @@
+political_decisions = {
+
+	liquidation_of_dnipro_host = {
+		picture = st_micheal
+		potential = {
+			tag = RTH
+			NOT = { has_country_flag = liquidation_of_dnipro_host }
+		}
+		allow = {
+			state_n_government = 1
+			UMN = { vassal_of = THIS }
+		}
+		effect = {
+			set_country_flag = liquidation_of_dnipro_host
+			prestige = 5
+			badboy = 3
+			inherit = UMN
+		}
+		ai_will_do = { factor = 1 }
+	}
+}

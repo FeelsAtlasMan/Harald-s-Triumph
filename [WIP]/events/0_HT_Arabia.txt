@@ -1340,6 +1340,7 @@ country_event = {
 	
 	trigger = {
 	     ABB = { NOT = { has_country_flag = shadow_caliphate } }
+		 civilized = yes
 		 tag = ABB
 	}
 	

@@ -33,17 +33,17 @@ HOL = {
 
 LIP = {
 	value = 200
-	level = 4
+	level = 5
 	influence_value = 50
 }
 BRA = {
 	value = 200
-	level = 4
+	level = 5
 	influence_value = 25
 }
 SCL = {
 	value = 200
-	level = 4
+	level = 5
 	influence_value = 50
 }
 KOL = {
@@ -63,23 +63,23 @@ WLD = {
 }
 HES = {
 	value = 200
-	level = 4
+	level = 5
 	influence_value = 25
 }
 HEK = {
 	value = 200
-	level = 4
+	level = 5
 	influence_value = 0
 }
 FRM = {
 	value = 200
-	level = 4
+	level = 5
 	influence_value = 0
 }
 
 NAS = {
 	value = 200
-	level = 4
+	level = 5
 	influence_value = 25
 }
 
@@ -91,7 +91,7 @@ LBG = {
 
 BRB = {
 	value = -50
-	level = 3
+	level = 5
 	influence_value = 10
 }
 
@@ -109,61 +109,121 @@ LUB = {
 
 ERF = {
 	value = 200
-	level = 4
+	level = 5
 	influence_value = 0
 }
 
 PLB = {
 	value = 150
 	level = 4
-	influence_value = 0
+	influence_value = 10
+}
+
+SWG = {
+	value = 150
+	level = 5
+	influence_value = 20
+}
+
+BMB = {
+	value = 150
+	level = 5
+	influence_value = 20
+}
+
+FSN = {
+	value = 150
+	level = 5
+	influence_value = 20
+}
+
+ROT = {
+	value = 150
+	level = 5
+	influence_value = 20
+}
+
+ANS = {
+	value = 150
+	level = 5
+	influence_value = 20
+}
+
+NRM = {
+	value = 150
+	level = 5
+	influence_value = 20
+}
+
+BAY = {
+	value = 150
+	level = 5
+	influence_value = 20
+}
+
+ZWB = {
+	value = 150
+	level = 5
+	influence_value = 20
+}
+
+SAA = {
+	value = 150
+	level = 5
+	influence_value = 20
 }
 
 LOR = {
 	value = 150
-	level = 3
+	level = 5
 	influence_value = 20
 }
 
 WUR = {
 	value = 150
-	level = 3
+	level = 5
 	influence_value = 5
 }
 
 BAV = {
 	value = 80
-	level = 3
+	level = 5
 	influence_value = 0
 }
 
 THU = {
 	value = 150
-	level = 3
+	level = 5
 	influence_value = 10
 }
 
 WUL = {
 	value = 150
-	level = 3
+	level = 5
 	influence_value = 75
 }
 
 LUX = {
 	value = 100
-	level = 2
+	level = 3
 	influence_value = 20
 }
 
 LIG = {
 	value = 100
-	level = 4
+	level = 5
+	influence_value = 20
+}
+
+BLL = {
+	value = 100
+	level = 5
 	influence_value = 20
 }
 
 TRR= {
 	value = 100
-	level = 4
+	level = 5
 	influence_value = 10
 }
 
@@ -179,27 +239,21 @@ MSN = {
 	influence_value = 10
 }
 
-MSN = {
-	value = 100
-	level = 3
-	influence_value = 10
-}
-
 MAG = {
 	value = 100
-	level = 4
+	level = 5
 	influence_value = 25
 }
 
 HNB = {
 	value = 100
-	level = 3
+	level = 5
 	influence_value = 50
 }
 
 MAI = {
 	value = 150
-	level = 4
+	level = 5
 	influence_value = 50
 }
 
@@ -217,61 +271,35 @@ OSN = {
 
 BAD = {
 	value = 180
-	level = 4
-	influence_value = 60
-}
-
-BAD = {
-	value = 180
-	level = 4
+	level = 5
 	influence_value = 60
 }
 
 BGU = {
 	value = 120
-	level = 3
+	level = 5
 	influence_value = 60
 }
 
 HGN = {
 	value = 100
-	level = 3
+	level = 5
 }
 
 KNZ = {
 	value = 100
-	level = 3
+	level = 5
 }
 
 SPY = {
 	value = 100
-	level = 3
+	level = 5
 }
 
 BAR = {
 	value = 100
-	level = 3
+	level = 5
 	influence_value = 5
-}
-
-SAA = {
-	value = 100
-	level = 4
-}
-
-ZWB = {
-	value = 100
-	level = 4
-}
-
-SWG = {
-	value = 100
-	level = 3
-}
-
-BLL= {
-	value = 100
-	level = 3
 }
 
 leader = {

@@ -989,15 +989,6 @@ CPL_democracy;Masovia;;;;;;;;;;;;x
 GER_absolute_monarchy;The Kingdom of Germany;;;;;;;;;;;;x
 GER_hms_government;The Kingdom of Germany;;;;;;;;;;;;x
 GER_prussian_constitutionalism;The Kingdom of Germany;;;;;;;;;;;;x
-AST;Suori Jöro;;;;;;;;;;;;x
-AST_absolute_monarchy;Suori Jöro;;;;;;;;;;;;x
-AST_hms_government;Suori Jöro;;;;;;;;;;;;x
-AST_prussian_constitutionalism;Suori Jöro;;;;;;;;;;;;x
-AST_democracy;Suori Jöro;;;;;;;;;;;;x
-AST_proleterian_dictatorship;Suori Jöro;;;;;;;;;;;;x
-AST_fascist_dictatorship;Suori Jöro;;;;;;;;;;;;x
-AST_colonial_company;Suori Jöro;;;;;;;;;;;;x
-AST_dominion;Suori Jöro;;;;;;;;;;;;x
 VGR_ADJ;Vagr;Vagr;Vagr;;;;;;;;;;;x;
 VGR;Vagrland;Vagrland;Vagrland;;;;;;;;;;;x;
 VGR_proletarian_dictatorship;Vagrland;Vagrland;Vagrland;;;;;;;;;;;x;
@@ -1901,6 +1892,20 @@ NPT_fascist_dictatorship;Eranshahr;;;;;;;;;;;;;x;
 NPT_fascist_dictatorship_ADJ;Iranian;;;;;;;;;;;;;x;
 NPT_democracy;Iran;;;;;;;;;;;;;x;
 NPT_democracy_ADJ;Iranian;;;;;;;;;;;;;x;
+MOL;Siretovia;;;;;;;;;;;;;x
+MOL_ADJ;Siretovian;;;;;;;;;;;;;x
+MOL_absolute_monarchy;Siretovia;;;;;;;;;;;;;x
+MOL_prussian_constitutionalism;Siretovian;;;;;;;;;;;;;x
+MOL_hms_government;Siretovia;;;;;;;;;;;;;x
+MOL_proletarian_dictatorship;Siretovian Peoples Republic;;;;;;;;;;;;;x;
+MOL_proletarian_dictatorship_ADJ;Siretovian;;;;;;;;;;;;;x;
+MOL_presidential_dictatorship;Siretovia;;;;;;;;;;;;;x;
+MOL_bourgeois_dictatorship;Siretovia;;;;;;;;;;;;;x;
+MOL_bourgeois_dictatorship_ADJ;Siretovian;;;;;;;;;;;;;x;
+MOL_fascist_dictatorship;Siretovia;;;;;;;;;;;;;x;
+MOL_fascist_dictatorship_ADJ;Siretovian;;;;;;;;;;;;;x;
+NPT_democracy;Siretovia;;;;;;;;;;;;;x;
+NPT_democracy_ADJ;Siretovian;;;;;;;;;;;;;x;
 GAL;Galich;;;;;;;;;;;x;
 GAL_ADJ;Galichian;;;;;;;;;;;x;
 VYA;Vyazma;;;;;;;;;;;x;
@@ -1930,11 +1935,11 @@ DRU;Drutsk;;;;;;;;;;;x;
 DRU_ADJ;Drutskian;;;;;;;;;;;x;
 KOM;Komi;;;;;;;;;;;x;
 KOM_ADJ;Komi;;;;;;;;;;;x;
-UMN;Uman;;;;;;;;;;;x;
-UMN_absolute_monarchy;Uman Host;;;;;;;;;;;;x
-UMN_hms_government;Uman Host;;;;;;;;;;;;x
-UMN_prussian_constitutionalism;Uman Host;;;;;;;;;;;;x
-UMN_ADJ;Uman;;;;;;;;;;;x;
+UMN;Dnipro Host;;;;;;;;;;;x;
+UMN_absolute_monarchy;Dnipro Host;;;;;;;;;;;;x
+UMN_hms_government;Dnipro Host;;;;;;;;;;;;x
+UMN_prussian_constitutionalism;Dnipro Host;;;;;;;;;;;;x
+UMN_ADJ;Dnipro;;;;;;;;;;;x;
 DON;Azov;;;;;;;;;;;;x
 DON_absolute_monarchy;Azov Host;;;;;;;;;;;;x
 DON_hms_government;Azov Host;;;;;;;;;;;;x
@@ -2222,3 +2227,6 @@ GUI_hms_government;Yang;;;;;;;;;;;;x
 GUI_prussian_constitutionalism;Yang;;;;;;;;;;;;x
 GUI_colonial_company;Yang;;;;;;;;;;;;x
 GUI_ADJ;Yang;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+AST;Antipodea;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+AST_colonial_company;Antipodea;;;;;;;;;;;;x
+AST_ADJ;Antipodean;;;;;;;;;;;;;;x;;;;;;;;;;;;;;

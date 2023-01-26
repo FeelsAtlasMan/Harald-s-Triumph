@@ -340,9 +340,9 @@ AUS_639 = { 639 623 624 640 642 643 644 779 3301 3303 } #Transdanubia
 
 AUS_623 = { 616 617 3294 3718 } #Eastern Kunsag
 
-AUS_625 = { 625 3334 3926 } #Central Bohemia
+AUS_625 = { 625 3334 3926 3927 } #Central Bohemia
 
-AUS_626 = { 626 3926 3927 3928 3919 } #Sudeten
+AUS_626 = { 626 3926 3928 3919 } #Sudeten
 
 AUS_627 = { 627 628 3888 } #Southern Ore Mountains (Kursne Hore)
 
@@ -420,7 +420,7 @@ SAR_765 = { 765 766 473 } #Sardinia & Corscia
 
 WAL_665 = { 664 668 667 669 3883 3884 } #Muntenia
 
-MOL_673 = { 673 672 670 671 } #Moldavia
+MOL_673 = { 673 672 670 671 3979 3980 3981 3982 3983 } #Moldavia/Siretovia
 
 TUR_674 = { 674 675 818 814 813 811 } #Dobrudja
 
@@ -639,29 +639,35 @@ RUS_718 = { 718 939 945 946 3936 } #Minsk
 
 RUS_943 = { 943 3356 1016 } #Smolensk
 
-RUS_947 = { 944 948 3331 949 941 942 } #Orsha
+RUS_947 = { 944 948 } #Orsha
 
-RUS_958 = { 958 959 960 } #Kiev
+RUS_942 = { 942 949 941 3994 3995 } #Mozyr
 
-RUS_954 = { 954 3343 3344 961 677 } #Southern Ukraine
+RUS_958 = { 958 961 3984 3985 3986 } #Kiev
 
-RUS_959 = { 955 956 957 } #Volyn
+RUS_954 = { 955 954 3343 677 3977 3978 } #Southern Ukraine
 
-RUS_964 = { 967 966 964 973 965 } #Crimea
+RUS_959 = { 956 957 959 3974 3975 3976 960 } #Volyn
+
+RUS_964 = { 967 966 964 3964 3965 } #Crimea
+
+RUS_964 = { 3961 3962 3963 973 965 } #Yedishkul
 
 RUS_968 = { 968 969 678 676 } #Yedisan
 
-RUS_955 = { 972 971 970 } #Yekaterinoslav
+RUS_955 = { 972 971 970 3344 3966 } #Yekaterinoslav
 
-RUS_977 = { 977 1017 1018 } #Kursk
+RUS_977 = { 977 1018 3324 3968 3989 } #Kursk
 
-RUS_978 = { 978 980 974 976 975 } #Kharkov
+RUS_3971 = { 3971 3969 1019 3327 } #Ostrogozhsk/Sloboda Ukraine
 
-RUS_963 = { 963 3321 3322 3323 } #Poltava
+RUS_978 = { 978 980 974 976 975 3991 3992 3993 } #Kharkov
 
-RUS_962 = { 962 3324 3325 } #Chernigov
+RUS_963 = { 963 3321 3967 3323 3322 3325 3996 } #Poltava
 
-RUS_1019 = { 1019 3327 3326 } #Voronezh
+RUS_1019 = { 3326 3970 3972 3973 } #Voronezh
+
+RUS_962 = { 962 3331 3987 3988 3990 } #Chernihiv
 
 RUS_979 = { 979 1047 1046 1045 1048 3672 } #Don Host Oblast
 
@@ -685,7 +691,7 @@ RUS_1008 = { 1008 1013 1012 1011 } #Moscow
 
 RUS_1025 = { 1025 3329 3328 3360 } #Tambov
 
-RUS_1010 = { 1010 1014 1015 } #Kaluga
+RUS_1010 = { 1010 1014 1015 1017 } #Kaluga
 
 RUS_3709 = { 3709 1027 1028 1029 1031 } #Outer Kazan - Mari El-Udmurtia
 

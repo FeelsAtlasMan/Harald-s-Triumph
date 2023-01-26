@@ -202,7 +202,7 @@ FRA_400 = { 400 399 393 388 389 } #French Flanders
 
 FRA_411 = { 411 413 414 412 3710 3712 3713 } #Lorraine
 
-FRA_432 = { 432 433 } #Franche-Comte
+FRA_467 = { 467 468 469 470 471 } #Provence
 
 FRA_418 = { 418 415 416 417 } #Normandie
 
@@ -232,7 +232,7 @@ FRA_461 = { 461 463 449 } #Languedoc
 
 #SAR_466 = { } #Savoie
 
-FRA_467 = { 467 468 469 470 471 } #Provence
+FRA_432 = { 432 433 } #Franche-Comte
 
 
 ### Spain & Portugal
@@ -278,7 +278,7 @@ HAN_540 = { 539 540 541 535 531 } #Engern
 
 PRU_544 = { 544 545 550 551 547 548 3921 3922 3923 } #Mecklenburg
 
-PRU_546 = { 546 679 680 692 } #Pomerania
+PRU_546 = { 546 679 680 3945 } #Pomerania
 
 PRU_554 = { 554 561 562 563 3256 3881 } #Westthüringen
 
@@ -313,16 +313,22 @@ SWI_606 = { 606 605 604 3272 603 } #Swiss Mittelland
 SWI_607 = { 607 608 609 3250 3271 } #R�gion L�manique
 
 SWI_603 = { 611 2669 } #Churrätien
- 
+
+PRU_695 = { 695 696 697 3431 3433 3938 } #Prusija
+
+##Poland & Bohemia
+
+RUS_715 = { 715 705 3953 3954 3955 } #Red Ruthenia
+
+PRU_701 = { 699 701 681 3941 692 717 } #Greater Poland
+
+PRU_690 = { 690 691 693 3944 3946 } #Pomerelia
+
+POL_700 = { 700 694 3422 3943 } #Kujawy
+
 PRU_682 = { 682 683 3914 3915 3916 3917 3918 } #Lower Silesia
 
 BOH_684 = { 684 688 2584 685 689 3920 } #Upper Silesia
-
-PRU_690 = { 690 691 694 693 } #Westpreu�en
-
-PRU_695 = { 695 696 697 698 3431 3432 3433 } #Prusija
-
-PRU_701 = { 701 699 700 681 } #Greater Poland
 
 ### Austria
 
@@ -334,9 +340,9 @@ AUS_639 = { 639 623 624 640 642 643 644 779 3301 3303 } #Transdanubia
 
 AUS_623 = { 616 617 3294 3718 } #Eastern Kunsag
 
-AUS_625 = { 625 3334 3926 } #Central Bohemia
+AUS_625 = { 625 3334 3926 3927 } #Central Bohemia
 
-AUS_626 = { 626 3926 3927 3928 3919 } #Sudeten
+AUS_626 = { 626 3926 3928 3919 } #Sudeten
 
 AUS_627 = { 627 628 3888 } #Southern Ore Mountains (Kursne Hore)
 
@@ -362,11 +368,11 @@ AUS_660 = { 660 663 2533 } #Szekelyland
 
 AUS_657 = { 657 659 655 656 3610 3908 3909 } #Southern Transylvania
 
-AUS_702 = { 703 704 714 3359 716 } #Galicia-Lodomeria
+AUS_702 = { 703 704 3359 3948 3949 } #Galicia-Lodomeria
 
-AUS_662 = { 702 951 952 953 3278 } #East Galicia
+AUS_662 = { 702 951 952 953 3278 3957 3958 3960 662 } #East Galicia
 
-RUS_715 = { 715 3353 705 } #West Galicia
+RUS_3353 = { 3353 3956 3959 } #Chełmszczyzna
 
 AUS_726 = { 726 727 728 2568 3418 } #Lombardia
 
@@ -414,7 +420,7 @@ SAR_765 = { 765 766 473 } #Sardinia & Corscia
 
 WAL_665 = { 664 668 667 669 3883 3884 } #Muntenia
 
-MOL_673 = { 673 672 670 671 662 } #Moldavia
+MOL_673 = { 673 672 670 671 3979 3980 3981 3982 3983 } #Moldavia/Siretovia
 
 TUR_674 = { 674 675 818 814 813 811 } #Dobrudja
 
@@ -497,11 +503,11 @@ TUR_894 = { 894 3339 895 3655 } #Adana
 
 EGY_897 = { 897 905 900 896 898 } #Aleppo
 
-EGY_903 = { 902 903 906 } #Syria
+EGY_903 = { 902 903 907 } #Syria
 
-EGY_907 = { 907 910 931 } #North Arabian Desert
+EGY_907 = { 911 910 931 } #North Arabian Desert
 
-EGY_908 = { 908 909 3416 } #Transjordan
+EGY_908 = { 908 909 3416 906 } #Transjordan
 
 EGY_915 = { 913 915 912 914 } #Lebanon
 
@@ -561,7 +567,7 @@ PER_1126 = { 1126 1116 3611 3612 3641 3763 } #Semnan va Golestan
 
 HDJ_1151 = { 1151 1152 1153 1154 } #Hedjaz
 
-NEJ_1156 = { 1160 1156 1158 911 922 3892 } #Hail
+NEJ_1156 = { 1160 1156 1158 922 3892 } #Hail
 
 NEJ_1157 = { 1157 1159 3441 1161 3442 } #Nejd
 
@@ -601,56 +607,67 @@ AFG_1212 = { 1212 3286 3287 3396 3454 3628 } #Eastern Khorasan
 
 AFG_3288 = { 3288 1213 3458 3627 } #Hazarestan
 
-
 ### Russia
 
 RUS_349 = { 349 350 351 352 353 } #Estonia
 
-RUS_354 = { 354 355 356 357 358 359 } #Latvia
+RUS_354 = { 354 355 356 3940 } #Latgalia
 
-RUS_361 = { 363 364 365 } #Samogatia
+RUS_358 = { 358 357 359 3939 } #Curonia
+
+RUS_363 = { 363 3931 3930 } #Aukshtaitiya
+
+RUS_361 = { 364 365 3432 698 3937 } #Samogitia
 
 RUS_360 = { 360 938 947 } #Dzukija
 
 RUS_339 = { 339 984 995 988 2587 983 982 3361 } #Karelia
 
-RUS_706 = { 706 708 713 3422 } #Western Masovia
+RUS_706 = { 706 708 709 711 3950 } #Masovia
 
-RUS_712 = { 712 717 710 } #Sieradz
+RUS_712 = { 712 710 3942 3947 } #Sieradz
 
-RUS_937 = { 937 940 941 942 } #Polesia
+RUS_716 = { 716 713 714 } #Sandomer
 
-RUS_707 = { 707 936 361 362 } #Yotvingia
+RUS_937 = { 937 940 3934 3935 } #Brest
 
-RUS_719 = { 719 709 711 } #Eastern Masovia-Podlachia
+RUS_707 = { 707 936 361 362 3933 3932 } #Yotvingia
 
-RUS_718 = { 718 939 945 946 } #Minsk
+RUS_719 = { 719 3951 3952 } #Podlachia
+
+RUS_718 = { 718 939 945 946 3936 } #Minsk
 
 RUS_943 = { 943 3356 1016 } #Smolensk
 
-RUS_947 = { 944 948 3331 949 } #Orsha
+RUS_947 = { 944 948 } #Orsha
 
-RUS_958 = { 958 959 960 } #Kiev
+RUS_942 = { 942 949 941 3994 3995 } #Mozyr
 
-RUS_954 = { 954 3343 3344 961 677 } #Southern Ukraine
+RUS_958 = { 958 961 3984 3985 3986 } #Kiev
 
-RUS_959 = { 955 956 957 } #Volyn
+RUS_954 = { 955 954 3343 677 3977 3978 } #Southern Ukraine
 
-RUS_964 = { 967 966 964 973 965 } #Crimea
+RUS_959 = { 956 957 959 3974 3975 3976 960 } #Volyn
+
+RUS_964 = { 967 966 964 3964 3965 } #Crimea
+
+RUS_964 = { 3961 3962 3963 973 965 } #Yedishkul
 
 RUS_968 = { 968 969 678 676 } #Yedisan
 
-RUS_955 = { 972 971 970 } #Yekaterinoslav
+RUS_955 = { 972 971 970 3344 3966 } #Yekaterinoslav
 
-RUS_977 = { 977 1017 1018 } #Kursk
+RUS_977 = { 977 1018 3324 3968 3989 } #Kursk
 
-RUS_978 = { 978 980 974 976 975 } #Kharkov
+RUS_3971 = { 3971 3969 1019 3327 } #Ostrogozhsk/Sloboda Ukraine
 
-RUS_963 = { 963 3321 3322 3323 } #Poltava
+RUS_978 = { 978 980 974 976 975 3991 3992 3993 } #Kharkov
 
-RUS_962 = { 962 3324 3325 } #Chernigov
+RUS_963 = { 963 3321 3967 3323 3322 3325 } #Poltava
 
-RUS_1019 = { 1019 3327 3326 } #Voronezh
+RUS_1019 = { 3326 3970 3972 3973 } #Voronezh
+
+RUS_962 = { 962 3331 3987 3988 3990 } #Chernihiv
 
 RUS_979 = { 979 1047 1046 1045 1048 3672 } #Don Host Oblast
 
@@ -674,7 +691,7 @@ RUS_1008 = { 1008 1013 1012 1011 } #Moscow
 
 RUS_1025 = { 1025 3329 3328 3360 } #Tambov
 
-RUS_1010 = { 1010 1014 1015 } #Kaluga
+RUS_1010 = { 1010 1014 1015 1017 } #Kaluga
 
 RUS_3709 = { 3709 1027 1028 1029 1031 } #Outer Kazan - Mari El-Udmurtia
 

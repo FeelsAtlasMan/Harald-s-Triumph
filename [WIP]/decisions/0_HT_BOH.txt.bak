@@ -1,0 +1,201 @@
+political_decisions = {
+	
+	build_the_prauge_vistula_railway = {
+		picture = warsaw_vienna_railway
+		potential = {
+			tag = BOH
+			#FRI = { exists = yes }
+			NOT = { has_country_flag = built_the_prauge_vistula_railway }
+		}
+		allow = {
+			war = no
+			OR = {
+				owns = 3334
+				3334 = { owner = { vassal_of = THIS } }
+			}
+			OR = {
+				owns = 703
+				703 = { owner = { vassal_of = THIS } }
+			}
+			OR = {
+				owns = 706
+				706 = { owner = { vassal_of = THIS } }
+			}
+			OR = {
+				owns = 690
+				690 = { owner = { vassal_of = THIS } }
+			}
+			iron_railroad = 1
+			money = 50000
+		}
+		effect = {
+			treasury = -50000
+			625 = { infrastructure = 1 }
+			3334 = { infrastructure = 1 }
+			631 = { infrastructure = 1 }
+			3335 = { infrastructure = 1 }
+			689 = { infrastructure = 1 }
+			2584 = { infrastructure = 1 }
+			703 = { infrastructure = 1 }
+			716 = { infrastructure = 1 }
+			713 = { infrastructure = 1 }
+			706 = { infrastructure = 1 }
+			708 = { infrastructure = 1 }
+			694 = { infrastructure = 1 }
+			691 = { infrastructure = 1 }
+			690 = { infrastructure = 1 }
+			set_country_flag = built_the_prauge_vistula_railway
+		}
+	}
+	
+	dobrovka_reforms = {
+		#picture = become_poland
+		potential = {
+			tag = BOH
+			has_country_flag = ascention_of_dobrovka
+			OR = {
+					has_country_flag = liberal_revolution_in_progress
+					has_country_flag = liberal_revolution_fired
+			}
+		}
+		allow = {
+			is_greater_power = yes
+			war = no
+			nationalism_n_imperialism = 1
+			CPL = { exists = no }
+		}
+		effect = {
+			prestige = 25
+			add_accepted_culture = polish
+			any_pop = {
+				limit = {
+					OR = {
+					pop_majority_ideology = liberal
+					pop_majority_ideology = anarcho_liberal
+					}
+				}
+				consciousness = -4
+				militancy = -5
+			}
+			remove_country_modifier = global_liberal_agitation
+		    clr_country_flag = liberal_revolution_fired
+		    clr_country_flag = liberal_revolution_in_progress
+		    set_country_flag = had_liberal_revolution
+		}
+	}
+	
+	incorporate_poland = {
+		picture = bohemia_poland
+		potential = {
+			tag = BOH
+			NOT = { has_country_flag = incorporated_poland }
+		}
+		allow = {
+			is_greater_power = yes
+			war = no
+			POL = { exists = no }
+			CPL = { exists = no }
+			KRA = { exists = no }
+			PZN = { exists = no }
+			SLS = { exists = no }
+		}
+		effect = {
+			prestige = 10
+			any_pop = {
+				limit = {
+					culture = polish
+				}
+				consciousness = -2
+			}
+			any_pop = {
+				limit = {
+					culture = czech
+				}
+				consciousness = 1
+			}
+			POL = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			set_country_flag = incorporated_poland
+		}
+	}
+	
+	develop_danzig = {
+		picture = danzig_harbour
+		potential = {
+			owns = 690
+			has_country_flag = incorporated_poland 
+			NOT = { has_country_flag = coming_of_danzig }
+		}
+		allow = {
+			is_greater_power = yes
+			war = no
+            paddle_streamers = 1
+			stock_exchange = 1
+		}
+		effect = {
+			690 = [ trade_goods = precious_goods }
+			690 = { add_province_modifier = { name = baby_boom duration = 356 } }
+			690 = { add_province_modifier = { name = danzig_harbour duration = -1 } }
+			capital = 690
+			build_factory_in_capital_state = steamer_shipyard
+			capital = 625
+			set_country_flag = coming_of_danzig
+		}
+	}
+	
+	construct_the_upland_canal = {
+		picture = upland_canal
+		potential = {
+			owns = 693
+			NOT = { has_country_flag = start_upland_canal_construction }
+		}
+		allow = {
+			OR = {
+				owns = 693
+				693 = { owner = { vassal_of = THIS } }
+			}
+			OR = {
+				owns = 696
+				696 = { owner = { vassal_of = THIS } }
+			}
+			OR = {
+				owns = 3431
+				3431 = { owner = { vassal_of = THIS } }
+			}
+			OR = {
+				owns = 3946
+				3946 = { owner = { vassal_of = THIS } }
+			}
+			OR = {
+			    AND = { compound_steam_engine = 1 paddle_streamers =1 }
+				date = 1860
+			}
+			treasury = 25000
+			war = no
+		}
+		effect = {
+			prestige = 10
+			treasury = -25000 small_baby_boom
+			693 = { add_province_modifier = { name = upland_canal duration = -1 } }
+			696 = { add_province_modifier = { name = upland_canal duration = -1 } }
+			3431 = { add_province_modifier = { name = upland_canal duration = -1 } }
+			3946 = { add_province_modifier = { name = upland_canal duration = -1 } }
+			693 = { add_province_modifier = { name = baby_boom duration = 356 } }
+			696 = { add_province_modifier = { name = small_baby_boom duration = 356 } }
+			3431 = { add_province_modifier = { name = small_baby_boom duration = 356 } }
+			3946 = { add_province_modifier = { name = small_baby_boom duration = 356 } }
+			set_country_flag = start_upland_canal_construction
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { treasury = 25000 }
+				war = yes
+			}
+		}
+	}
+}
