@@ -1894,23 +1894,6 @@ hellenic = {
 		}
 		radicalism = 10
 	}	
-	tatlar = {
-		color = { 160 210 245 }
-		first_names = { Adamantios Alexandros Anastasios Andreas Andra Antonios Aristidis Athanasios Augustinos Arbehan Bazile Benizelos Bram Charalambos
-		Charilaos Dalpheusse Dimitrios Diomidis Eleftherios Elyie Emmanouil Epameinontas Evripidis Freton Gennaios Georgios Ilias
-		Ionnis Kitsos Klovis Konstantinos Kyriakos Kyriakoulis Leonidas Makarios Markos Mikhael Militiadis
-		Nikolaos Odysseas Othon Panagiotis Pavlos Petros Sofoklis Sotiris Spyridion Spyros
-		Staikos Stefanos Stylianos Themistoklis Theodoros Tharyvoulos Tzannis Vasos Viktor Zinovios
-		}
-
-		last_names = { Charalambis Christakis-Zografos Danglis Dousmanis Foumis Gonatas Hatzianestis Kallergis Kanaris Katsimiros
-		Kolokotronis Kondylis Kountouriotis Kriezis Makriyannis Manos Mavrocordatos Mavrovouniotis Metaxas Mouskos
-		Nider Othonaios Palaskas Pangalos Papadiamantopoulos Papadopoulos Papagos Papoulas Parakevopouolos Plapoutas
-		Plastiras Sapountzakis Sarafis Smolenskis Sofoulis Soutsos Spyromilios Staikopoulos Stanotas "tes Elladas"
-		Trikoupis Tsakalotos Tsolakoglou Typaldos-Alfonsatos Tzavelas Vassos Venizelos Voulgaris Zaimis Zymvrakakis
-		}
-		radicalism = 5
-	}
 	cappadocian = {
 		color = { 50 120 155 }
 		first_names = { Adamantios Alexandros Anastasios Andreas Andra Antonios Aristidis Athanasios Augustinos Arbehan Bazile Benizelos Bram Charalambos
@@ -2757,6 +2740,24 @@ kipchak = {
 			Amirkhanov Faysi Gizzat Ibragimov Kamal Khusainov Tinchurin Tukay Yanbayev
 		}
 		radicalism = 10
+	}
+	
+	tatlar = {
+		color = { 160 210 205 }
+		first_names = { Adamantios Alexandros Anastasios Andreas Andra Antonios Aristidis Athanasios Augustinos Arbehan Bazile Benizelos Bram Charalambos
+		Charilaos Dalpheusse Dimitrios Diomidis Eleftherios Elyie Emmanouil Epameinontas Evripidis Freton Gennaios Georgios Ilias
+		Ionnis Kitsos Klovis Konstantinos Kyriakos Kyriakoulis Leonidas Makarios Markos Mikhael Militiadis
+		Nikolaos Odysseas Othon Panagiotis Pavlos Petros Sofoklis Sotiris Spyridion Spyros
+		Staikos Stefanos Stylianos Themistoklis Theodoros Tharyvoulos Tzannis Vasos Viktor Zinovios
+		}
+
+		last_names = { Charalambis Christakis-Zografos Danglis Dousmanis Foumis Gonatas Hatzianestis Kallergis Kanaris Katsimiros
+		Kolokotronis Kondylis Kountouriotis Kriezis Makriyannis Manos Mavrocordatos Mavrovouniotis Metaxas Mouskos
+		Nider Othonaios Palaskas Pangalos Papadiamantopoulos Papadopoulos Papagos Papoulas Parakevopouolos Plapoutas
+		Plastiras Sapountzakis Sarafis Smolenskis Sofoulis Soutsos Spyromilios Staikopoulos Stanotas "tes Elladas"
+		Trikoupis Tsakalotos Tsolakoglou Typaldos-Alfonsatos Tzavelas Vassos Venizelos Voulgaris Zaimis Zymvrakakis
+		}
+		radicalism = 5
 	}
 	
 	bashkir = {

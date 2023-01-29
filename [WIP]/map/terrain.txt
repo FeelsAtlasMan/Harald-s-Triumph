@@ -3177,6 +3177,17 @@ categories =  {
 		min_build_railroad = 3
 	}
 	
+	yedishkul = {
+		movement_cost = 1.0
+		color = { 211 201 184 }
+		farm_rgo_size = 0.0
+		farm_rgo_eff = -0.1
+		mine_rgo_size = 0.0
+		mine_rgo_eff = 0.0
+		supply_limit = 4
+
+	}
+	
 	plains = {
 		movement_cost = 1.0
 		color = { 241 221 184 }
