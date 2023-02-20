@@ -8,19 +8,24 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_icon_religion"
 		texturefile = "gfx\\interface\\icon_religion.dds"
-		noOfFrames = 30
+		noOfFrames = 27
 		norefcount = yes
 	}
 	spriteType = {
 		name = "GFX_modifier_icons"
 		texturefile = "gfx\\interface\\modifiers.tga"
-		noOfFrames = 20
+		noOfFrames = 21
 		loadType = "INGAME"
 	}
 	
 	spriteType = {
 		name = "GFX_checkbox_default"
 		textureFile = "gfx\\interface\\checkbox_default.tga"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_checkbox_small"
+		textureFile = "gfx\\interface\\checkbox_small.tga"
 		noOfFrames = 2
 	}
 	spriteType = {
@@ -75,6 +80,10 @@ spriteTypes = {
 		texturefile = "gfx\\interface\\button_standard_177.tga"
 	}
 	textSpriteType = {
+		name = "GFX_button_standard_144_red"
+		texturefile = "gfx\\interface\\button_standard_144_red.tga"
+	}
+	textSpriteType = {
 		name = "GFX_button_standard_144"
 		texturefile = "gfx\\interface\\button_standard_144.tga"
 	}
@@ -101,6 +110,10 @@ spriteTypes = {
 	textSpriteType = {
 		name = "GFX_sortbutton_292"
 		texturefile = "gfx\\interface\\sortbutton_292.tga"
+	}
+	textSpriteType = {
+		name = "GFX_sortbutton_240"
+		texturefile = "gfx\\interface\\sortbutton_240.tga"
 	}
 	textSpriteType = {
 		name = "GFX_sortbutton_224"
@@ -312,16 +325,16 @@ spriteTypes = {
 	
 	corneredTileSpriteType = {
 		name = "SandboxFloaterBackground"
-		size= {x=190 y=310 }		
-		textureFile ="gfx\\interface\\tiles_dialog_type2.tga"
-		borderSize = { x=94 y=94 }
+		size = {x = 190 y = 310 }		
+		textureFile = "gfx\\interface\\tiles_dialog_type2.tga"
+		borderSize = { x = 94 y = 94 }
 	}
 	
 	corneredTileSpriteType = {
 		name = "diplo_dialog"
-		size= {x=190 y=310 }		
-		textureFile ="gfx\\interface\\tiles_dialog_diplo.tga"
-		borderSize = { x=94 y=94 }
+		size = {x = 190 y = 310 }		
+		textureFile = "gfx\\interface\\tiles_dialog_diplo.tga"
+		borderSize = { x = 94 y = 94 }
 	}
 	
 	maskedShieldType = {
