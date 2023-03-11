@@ -1105,3 +1105,192 @@ silk_road = {
 	import_cost = -0.3
 	icon = 19
 }
+
+money_hoarder_0 = {
+	trigger = {
+		exists = yes
+		money = 2500000
+		ai = yes
+	}
+	tax_efficiency = -0.1
+	tariff_efficiency_modifier = -0.06
+	icon = 19
+}
+
+money_hoarder_1 = {
+	trigger = {
+		exists = yes
+		money = 5000000
+		ai = yes
+	}
+	tax_efficiency = -0.1
+	tariff_efficiency_modifier = -0.06
+	icon = 19
+}
+
+money_hoarder_2 = {
+	trigger = {
+		exists = yes
+		money = 7500000
+		ai = yes
+	}
+	tax_efficiency = -0.1
+	tariff_efficiency_modifier = -0.06
+	icon = 19
+}
+
+money_hoarder_3 = {
+	trigger = {
+		exists = yes
+		money = 10000000
+		ai = yes
+	}
+	tax_efficiency = -0.1
+	tariff_efficiency_modifier = -0.06
+	icon = 19
+}
+
+money_hoarder_4 = {
+	trigger = {
+		exists = yes
+		money = 15000000
+		ai = yes
+	}
+	tax_efficiency = -0.1
+	tariff_efficiency_modifier = -0.06
+	icon = 19
+}
+
+money_hoarder_5 = {
+	trigger = {
+		exists = yes
+		money = 20000000
+		ai = yes
+	}
+	tax_efficiency = -0.1
+	tariff_efficiency_modifier = -0.06
+	icon = 19
+}
+puppet_prestige = {
+	trigger = {
+		OR = {
+			is_vassal = yes
+			is_substate = yes
+		}
+	}
+	prestige = -5
+	icon = 19
+}
+unemployment_subsidy_1 = {
+	trigger = {
+		unemployment_subsidies = trinket_subsidies
+		social_spending = 0.7
+	}
+	global_immigrant_attract = 0.02
+	icon = 19
+}
+unemployment_subsidy_2 = {
+	trigger = {
+		unemployment_subsidies = low_subsidies
+		social_spending = 0.7
+	}
+	global_immigrant_attract = 0.04
+	icon = 19
+}
+unemployment_subsidy_3 = {
+	trigger = {
+		unemployment_subsidies = acceptable_subsidies
+		social_spending = 0.7
+	}
+	global_immigrant_attract = 0.05
+	icon = 19
+}
+unemployment_subsidy_4 = {
+	trigger = {
+		unemployment_subsidies = good_subsidies
+		social_spending = 0.7
+	}
+	global_immigrant_attract = 0.07
+	icon = 19
+}
+pensions_1 = {
+	trigger = {
+		pensions = trinket_pensions
+		social_spending = 0.7
+	}
+	global_immigrant_attract = 0.02
+	icon = 19
+}
+pensions_2 = {
+	trigger = {
+		pensions = low_pensions
+		social_spending = 0.7
+	}
+	global_immigrant_attract = 0.04
+	icon = 19
+}
+pensions_3 = {
+	trigger = {
+		pensions = acceptable_pensions
+		social_spending = 0.7
+	}
+	global_immigrant_attract = 0.05
+	icon = 19
+}
+pensions_4 = {
+	trigger = {
+		pensions = good_pensions
+		social_spending = 0.7
+	}
+	global_immigrant_attract = 0.07
+	icon = 19
+}
+schools_1 = {
+	trigger = {
+		school_reforms = low_schools
+		administration_spending = 0.5
+	}
+	education_efficiency_modifier = 0.05
+	icon = 19
+}
+schools_2 = {
+	trigger = {
+		school_reforms = acceptable_schools
+		administration_spending = 0.5
+	}
+	education_efficiency_modifier = 0.075
+	icon = 19
+}
+schools_3 = {
+	trigger = {
+		school_reforms = good_schools
+		administration_spending = 0.5
+	}
+	education_efficiency_modifier = 0.1
+	icon = 19
+}
+good_HC = {
+	trigger = {
+		health_care = good_health_care
+		administration_spending = 0.5
+	}
+	global_population_growth = 0.001
+	icon = 19
+}
+
+AI_buffs = {
+	trigger = {
+		ai = yes
+	}
+	supply_consumption = -0.5
+	research_points_modifier = 0.5
+	war_exhaustion = -0.05
+	leadership_modifier = 0.5
+	badboy = -0.05
+	research_points_modifier = 1.0
+	land_organisation = 0.25
+	naval_organisation = 0.25
+	administrative_efficiency_modifier = 0.25
+	tax_efficiency = 0.05
+	icon = 19
+}

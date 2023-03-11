@@ -80,10 +80,8 @@ very_hard_ai = {
 ##########################################################################
 
 overseas = {
-	farm_rgo_size = 0.5
-	mine_rgo_size = 0.5
 	assimilation_rate = -0.3
-	pop_militancy_modifier = -0.01
+	population_growth = 0.0001
 }
 
 coastal = {
@@ -111,6 +109,7 @@ land_province = {
 
 blockaded = {
 	war_exhaustion = 0.05
+	import_cost = 1.5
 }
 
 no_adjacent_controlled = {
@@ -133,6 +132,7 @@ has_siege = {
 occupied = {
 	population_growth = -0.001
 	immigrant_attract = -1
+	immigrant_push = 5
 	pop_militancy_modifier = 0.001
 }
 
@@ -145,7 +145,7 @@ infrastructure = {
 	local_factory_throughput = 1		#each % of infra boost throughput 1%
 	local_rgo_output = 1			#each % of infra boost throughput 1%
 	immigrant_attract = 0.05
-	supply_limit = 4
+	supply_limit = 5
 }
 
 
@@ -243,10 +243,16 @@ average_literacy = {
 	leadership = 1
 	self_unciv_economic_modifier = -0.5
 	self_unciv_military_modifier = -0.5
+	rich_income_modifier = 0.003
+	middle_income_modifier = 0.002
+	poor_income_modifier = 0.001
+	education_efficiency_modifier = -0.001
+	goods_demand = 0.01
 }
 
 plurality = { 
 	research_points_modifier = 0.01
+	global_pop_consciousness_modifier = 0.001
 }
 
 generalised_debt_default = {
@@ -263,7 +269,12 @@ total_occupation = {
 total_blockaded = {
 	war_exhaustion = 0.4	#increased by war exhaustion.  
 	global_population_growth = -0.0001
-	import_cost = 1
+	RGO_throughput = -0.5
+	factory_throughput = -0.75
+	rich_income_modifier = 0.25
+	middle_income_modifier = 0.5
+	poor_income_modifier = 0.75
+	import_cost = 5
 	prestige = -0.1
 }
 
