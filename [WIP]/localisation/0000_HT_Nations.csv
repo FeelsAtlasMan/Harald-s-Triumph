@@ -257,10 +257,15 @@ OIR_absolute_monarchy;Oirat Khaganate;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 OIR_hms_government;Oirat Khaganate;;;;;;;;;;;;x
 OIR_prussian_constitutionalism;Oirat Khaganate;;;;;;;;;;;;x
 OIR_ADJ;Oirat;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
-ALT;Altai Union;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
-ALT_absolute_monarchy;Tuva Uriankhai;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
-ALT_hms_government;Tuva Uriankhai;;;;;;;;;;;;x
-ALT_prussian_constitutionalism;Tuva Uriankhai;;;;;;;;;;;;x
+ALT;Altai;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+ALT_colonial_company;Telengit Ulus;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+ALT_colonial_company_ADJ;Telengit;;;;;;;;;;;;;x
+ALT_absolute_monarchy;Telengit Ulus;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+ALT_hms_government;Telengit Ulus;;;;;;;;;;;;;x
+ALT_prussian_constitutionalism;Telengit Ulus;;;;;;;;;;;;;x
+ALT_absolute_monarchy_ADJ;Telengit;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+ALT_hms_government_ADJ;Telengit;;;;;;;;;;;;;x
+ALT_prussian_constitutionalism_ADJ;Telengit;;;;;;;;;;;;;x
 ALT_ADJ;Altaic;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 BRY;Buryatia;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 BRY_absolute_monarchy;Buryat Khanate;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
@@ -468,11 +473,8 @@ MSS;Grand Duchy of Muscovy;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 MSS_ADJ;Muscovite;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 SLK;Piebald;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 SLK_ADJ;Piebald;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
-SHR;Shoria;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
-SHR_absolute_monarchy;Shor Khanate;;;;;;;;;;;;x
-SHR_hms_government;Shor Khanate;;;;;;;;;;;;x
-SHR_prussian_constitutionalism;Shor Khanate;;;;;;;;;;;;x
-SHR_ADJ;Shor;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+SHR;Khongorai;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+SHR_ADJ;Khongorai;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 SYN;Sayan;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 SYN_absolute_monarchy;Sayan Uriankhai;;;;;;;;;;;;x
 SYN_hms_government;Sayan Uriankhai;;;;;;;;;;;;x
@@ -1681,16 +1683,26 @@ HSN;Hsenwi;;;;;;;;;;;x;
 HSN_ADJ;Hsenwi;;;;;;;;;;;x;
 SHA;Taunggyi;;;;;;;;;;;x;
 SHA_ADJ;Taunggyi;;;;;;;;;;;x;
-UYG;Uyghurstan;;;;;;;;;;;;;x
+UYG;Uyghuristan;;;;;;;;;;;;;x
 UYG_ADJ;Uyghur;;;;;;;;;;;;;x
-UYG_absolute_monarchy;Moghulestan;;;;;;;;;;;;;x
-UYG_prussian_constitutionalism;Moghulestan;;;;;;;;;;;;;x
-UYG_colonial_company;Moghulestan;;;;;;;;;;;;;x
-UYG_hms_government;Moghulestan;;;;;;;;;;;;;x
-UYG_absolute_monarchy_ADJ;Moghulestan;;;;;;;;;;;;;x
-UYG_prussian_constitutionalism_ADJ;Moghulestan;;;;;;;;;;;;;x
-UYG_colonial_company_ADJ;Moghulestan;;;;;;;;;;;;;x
-UYG_hms_government_ADJ;Moghul;;;;;;;;;;;;;x
+UYG_absolute_monarchy;Altishahr Khanate;;;;;;;;;;;;;x
+UYG_prussian_constitutionalism;Altishahr Khanate;;;;;;;;;;;;;x
+UYG_colonial_company;Altishahr Khanate;;;;;;;;;;;;;x
+UYG_hms_government;Altishahr Khanate;;;;;;;;;;;;;x
+UYG_absolute_monarchy_ADJ;Altishahri;;;;;;;;;;;;;x
+UYG_prussian_constitutionalism_ADJ;Altishahri;;;;;;;;;;;;;x
+UYG_colonial_company_ADJ;Altishahri;;;;;;;;;;;;;x
+UYG_hms_government_ADJ;Altishahri;;;;;;;;;;;;;x
+UYG;Turpan;;;;;;;;;;;;;x
+UYG_ADJ;Turpani;;;;;;;;;;;;;x
+UYG_absolute_monarchy;Turpan Khanate;;;;;;;;;;;;;x
+UYG_prussian_constitutionalism;Turpan Khanate;;;;;;;;;;;;;x
+UYG_colonial_company;Turpan Khanate;;;;;;;;;;;;;x
+UYG_hms_government;Turpan Khanate;;;;;;;;;;;;;x
+UYG_absolute_monarchy_ADJ;Turpani;;;;;;;;;;;;;x
+UYG_prussian_constitutionalism_ADJ;Turpani;;;;;;;;;;;;;x
+UYG_colonial_company_ADJ;Turpani;;;;;;;;;;;;;x
+UYG_hms_government_ADJ;Turpani;;;;;;;;;;;;;x
 AFG;Pashtunistan;;;;;;;;;;;;;x
 AFG_ADJ;Pashtun;;;;;;;;;;;;;x
 AFG_absolute_monarchy;Zoraki Emirate;;;;;;;;;;;;;x
@@ -1966,12 +1978,12 @@ BSR;Besermyan;;;;;;;;;;;x;
 BSR_ADJ;Besermyan;;;;;;;;;;;x;
 UDM;Udmurtia;;;;;;;;;;;x;
 UDM_ADJ;Udmurtian;;;;;;;;;;;x;
-CHR;Cheremis;;;;;;;;;;;x;
-CHR_ADJ;Cheremis;;;;;;;;;;;x;
+CKH;Cheremis;;;;;;;;;;;x;
+CKH_ADJ;Cheremis;;;;;;;;;;;x;
 KDA;Koda;;;;;;;;;;;x;
 KDA_ADJ;Kodan;;;;;;;;;;;x;
-SKW;Skewbald;;;;;;;;;;;x;
-SKW_ADJ;Skewbald;;;;;;;;;;;x;
+SKW;Quk Khanate;;;;;;;;;;;x;
+SKW_ADJ;Quk;;;;;;;;;;;x;
 BLG;Belgorye;;;;;;;;;;;x;
 BLG_ADJ;Belgorye;;;;;;;;;;;x;
 AOS;Aosta;;;;;;;;;;;x;
@@ -2230,3 +2242,12 @@ GUI_ADJ;Yang;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 AST;Antipodea;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 AST_colonial_company;Antipodea;;;;;;;;;;;;x
 AST_ADJ;Antipodean;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+MGL_colonial_company;Khalkha;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+CHR;Chakhar;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+CHR_ADJ;Chakhar;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+TPN;Turpan Khanate;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+TPN_ADJ;Turpani;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+ORD;Ordos;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+ORD_ADJ;Ordos;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+JYL;Jalayer;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+JYL_ADJ;Jalayer;;;;;;;;;;;;;;x;;;;;;;;;;;;;;

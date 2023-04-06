@@ -274,6 +274,9 @@ From;To;Type;Through;Data;Comment
 
 3370;3314;impassable;0;0;Shirvan-Akhty
 
+3753;3314;impassable;0;0;Lahij-Akhty
+3753;3317;impassable;0;0;Lahij-Tsakhur
+
 #Caucasus Minor
 1093;1096;impassable;0;0;Akhaltsikhe-Batumi
 1093;1092;impassable;0;0;Akhaltsikhe-Kutaisi
@@ -285,6 +288,11 @@ From;To;Type;Through;Data;Comment
 
 3369;3367;impassable;0;0;Ashtarak-Qazakh
 3369;1105;impassable;0;0;Ashtarak-Ganjeh
+3369;3749;impassable;0;0;Ashtarak-Khanlar
+
+3750;3749;impassable;0;0;Istisu-Khanlar
+
+3751;3752;impassable;0;0;Julfa-Kelbajar
 
 1100;3368;impassable;0;0;Kapan-Shusha
 
@@ -353,12 +361,10 @@ From;To;Type;Through;Data;Comment
 1221;3340;impassable;0;0;Kalat-Sibi
 1221;1289;impassable;0;0;Kalat-Shikarpur 
 3839;1228;impassable;0;0;Loralai-Shikarpur
-3839;3838;impassable;0;0;Loralai-Muzaffargarh
 3839;1221;impassable;0;0;Loralai-Kalat
-3840;3838;impassable;0;0;Zhob-Muzaffargarh
 1222;1289;impassable;0;0;Bela-Sukkur
 1217;1218;impassable;0;0;Ghazni-Peshawar
-3840;3393;impassable;0;0;Zhob-Dera
+1217;3840;impassable;0;0;Ghazni-Zhob
 
 1216;2591;impassable;0;0;Jalalabad-Qonduz
 1216;1210;impassable;0;0;Jalalabad-Faizabad
@@ -367,18 +373,22 @@ From;To;Type;Through;Data;Comment
 1223;1210;impassable;0;0;Chitral-Faizabad
 1223;3625;impassable;0;0;Chitral-Wakhan
 1223;3623;impassable;0;0;Chitral-Gilgit
+1223;3899;impassable;0;0;Chitral-Eshkashem
+3624;3899;impassable;0;0;Nuristan-Eshkashem
+1216;3899;impassable;0;0;Jalalabad-Eshkashem
+1216;4046;impassable;0;0;Jalalabad-Warsuch
 3395;3625;impassable;0;0;Karimabad-Wakhan
 1226;3313;impassable;0;0;Leh-Yarkant
 1226;3622;impassable;0;0;Leh-Sarikol
 
 #Pamir
-1207;3619;impassable;0;0;Kulob-Gharm
-1210;3619;impassable;0;0;Faizabad-Gharm
-3618;3620;impassable;0;0;Ayni-Uroteppa
-3619;3620;impassable;0;0;Gharm-Uroteppa
-3619;1203;impassable;0;0;Gharm-Osh
-3621;1203;impassable;0;0;Murghab-Osh
 3621;1594;impassable;0;0;Murghab-Kashgar
+3621;4000;impassable;0;0;Murghab-Qyzyloy
+3898;4000;impassable;0;0;Qarakul-Qyzyloy
+1203;4000;impassable;0;0;Osh-Qyzyloy
+4043;3619;impassable;0;0;Vamar-Khomb
+4043;3898;impassable;0;0;Vamar-Qarakul
+3619;3898;impassable;0;0;Khomb-Qarakul
 
 #India
 #Western Ghats
@@ -423,16 +433,42 @@ From;To;Type;Through;Data;Comment
 3745;1335;impassable;0;0;Hakha-Sittwe
 
 
-#Tien Shan
-3615;1189;impassable;0;0;Namagan-Bishkek
+#Tien Shan+Turkestan Chain
+1594;3664;impassable;0;0;Kashgar-Kyzylsu
+4001;3664;impassable;0;0;Tumshuq-Kyzylsu
+1203;3664;impassable;0;0;Osh-Kyzylsu
 1203;1190;impassable;0;0;Osh-Naryn
-1594;1190;impassable;0;0;Kashgar-Naryn
-1597;1190;impassable;0;0;Aksu-Naryn
-1597;1186;impassable;0;0;Aksu-Zhetysu
-1597;1595;impassable;0;0;Aksu-Ili
-1597;3664;impassable;0;0;Aksu-Kyzylsu
-3312;1595;impassable;0;0;Qarashehir-Ili
-
+3616;1190;impassable;0;0;Andijon-Naryn
+3616;4060;impassable;0;0;Andijon-Tarkand
+4087;4060;impassable;0;0;AwliyaAta-Tarkand
+4061;4060;impassable;0;0;Pskem-Tarkand
+4061;3615;impassable;0;0;Pskem-Namagan
+4061;1201;impassable;0;0;Pskem-Khujand
+4061;4087;impassable;0;0;Pskem-AwliyaAta
+4061;4064;impassable;0;0;Pskem-Chimkand
+4086;4060;impassable;0;0;Merke-AwliyaAta
+1190;4087;impassable;0;0;Naryn-AwliyaAta
+1190;4086;impassable;0;0;Naryn-Merke
+1597;4087;impassable;0;0;Aksu-Monggolküre
+4002;4007;impassable;0;0;Kuchar-Monggolküre
+4002;1595;impassable;0;0;Kuchar-Qulja
+3312;1595;impassable;0;0;Qarashahr-Qulja
+3312;4009;impassable;0;0;Qarashahr-Chöchek
+3312;1600;impassable;0;0;Qarashahr-Urumshi
+3312;4005;impassable;0;0;Qarashahr-Turpan
+4011;4005;impassable;0;0;Gusheng-Turpan
+4010;4008;impassable;0;0;Bartola-Jarkand
+4010;4015;impassable;0;0;Bartola-Tamshybulak
+3618;3620;impassable;0;0;Ayni-Uroteppa
+3618;3617;impassable;0;0;Ayni-Hisar
+3618;4059;impassable;0;0;Ayni-Sukh
+4059;3617;impassable;0;0;Sukh-Hisar
+4050;3617;impassable;0;0;Qorganteppeh-Hisar
+4040;3617;impassable;0;0;Qarategin-Hisar
+4040;4059;impassable;0;0;Qarategin-Sukh
+4040;3898;impassable;0;0;Qarategin-Qarakul
+4063;4059;impassable;0;0;Qyzylsu-Sukh
+4063;4062;impassable;0;0;Qyzylsu-Marghelan
 
 #Alaskan Panhandle
 2;6;impassable;0;0;

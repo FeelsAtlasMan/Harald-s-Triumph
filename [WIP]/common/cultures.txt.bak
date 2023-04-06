@@ -1269,7 +1269,7 @@ east_slavic = {
     }
 	
 	cossack = {
-		color = {120 160 60}
+		color = {100 140 60}
 			first_names = { Alexei Andrei Anton Arkadiy Borys Dmitro Fyodor Hryhoriy Ivan Lavr Leonid Lev 
 							 Mikhail Mykola Nikita  Oleksandr Pavel Petro Roman Semyon Sergiy Valeriy 
 							 Viktor Volodimir Vladislav Yuriy }
@@ -1813,7 +1813,7 @@ yeniseic = {
 	leader = russian
 	unit = RussianGC
     yeniseic = {
-		color = {110 150 50}
+		color = {160 50 10}
 		first_names = { Peter Ipeelee Jose Steve David Jack Goo Germaine James Pitseolak Kenojuak Ernie Caubvick
 		}
 		last_names = { Alakannuark Arreak Ashoona Enuaraq Evaloarjuk Ipeelee Irgittuq Keenainak Kunuk Kusugak Maksagak Nutarak Paniloo Piugattuk Pudluk Tiktaalaaq Ungallaq
@@ -1894,23 +1894,6 @@ hellenic = {
 		}
 		radicalism = 10
 	}	
-	tatlar = {
-		color = { 160 210 245 }
-		first_names = { Adamantios Alexandros Anastasios Andreas Andra Antonios Aristidis Athanasios Augustinos Arbehan Bazile Benizelos Bram Charalambos
-		Charilaos Dalpheusse Dimitrios Diomidis Eleftherios Elyie Emmanouil Epameinontas Evripidis Freton Gennaios Georgios Ilias
-		Ionnis Kitsos Klovis Konstantinos Kyriakos Kyriakoulis Leonidas Makarios Markos Mikhael Militiadis
-		Nikolaos Odysseas Othon Panagiotis Pavlos Petros Sofoklis Sotiris Spyridion Spyros
-		Staikos Stefanos Stylianos Themistoklis Theodoros Tharyvoulos Tzannis Vasos Viktor Zinovios
-		}
-
-		last_names = { Charalambis Christakis-Zografos Danglis Dousmanis Foumis Gonatas Hatzianestis Kallergis Kanaris Katsimiros
-		Kolokotronis Kondylis Kountouriotis Kriezis Makriyannis Manos Mavrocordatos Mavrovouniotis Metaxas Mouskos
-		Nider Othonaios Palaskas Pangalos Papadiamantopoulos Papadopoulos Papagos Papoulas Parakevopouolos Plapoutas
-		Plastiras Sapountzakis Sarafis Smolenskis Sofoulis Soutsos Spyromilios Staikopoulos Stanotas "tes Elladas"
-		Trikoupis Tsakalotos Tsolakoglou Typaldos-Alfonsatos Tzavelas Vassos Venizelos Voulgaris Zaimis Zymvrakakis
-		}
-		radicalism = 5
-	}
 	cappadocian = {
 		color = { 50 120 155 }
 		first_names = { Adamantios Alexandros Anastasios Andreas Andra Antonios Aristidis Athanasios Augustinos Arbehan Bazile Benizelos Bram Charalambos
@@ -2504,6 +2487,16 @@ siberian_turkic = {
 		}
 	}
 	
+	dukhan = {
+		color = {105 35 75}
+		first_names = { 
+			Aysen Nyurgun Elley Aytal Manchaary
+		}
+		last_names = { 
+              Okhlopkov Shishigin Shtyrov Ondar Sivtsev 
+		}
+	}
+	
 	soyot = {
 		color = {95 35 80}
 		first_names = { 
@@ -2544,8 +2537,8 @@ siberian_turkic = {
 		}
 	}
     
-    altai = {
-		color = {135 75 100}
+    altai = { #Northern Altai
+		color = {100 30 80}
 		first_names = { 
 			Aysen Nyurgun Elley Aytal Manchaary
 		}
@@ -2554,18 +2547,8 @@ siberian_turkic = {
 		}
     }
    
-    teleut = {
-		color = {145 75 105}
-		first_names = { 
-			Aysen Nyurgun Elley Aytal Manchaary
-		}
-		last_names = { 
-              Okhlopkov Shishigin Shtyrov Ondar Sivtsev 
-		}
-   }
-   
    chulym = {
-		color = {65 55 5}
+		color = {85 55 35}
 		first_names = { 
 			Aysen Nyurgun Elley Aytal Manchaary
 		}
@@ -2621,6 +2604,16 @@ karluk = {
 			}
 	}
 	
+	ili_turki = {
+		color = {105 140 120}
+		first_names = { 
+			Afaq Ahmed Arshad Bahayeddin Burhan Daud Hakim Husayin Kemal Maqsud Muhammad Musa Rashidin Satuq Timur Yaqub
+			}
+		last_names = {
+			Beg Khan
+			}
+	}
+	
 	abdal = {
 		color = {90 120 195}
 		first_names = { 
@@ -2664,6 +2657,16 @@ kipchak = {
 	
 	kirgiz = {
 		color = {60 70 40}
+		first_names = {
+			Askar Chingiz Ishim Kasim Kurman Jangir Murat Nasiridin Sadyk Vali
+			}
+		last_names = {
+			Beg 
+			}
+	}
+	
+	oyrot = {
+		color = {60 40 40}
 		first_names = {
 			Askar Chingiz Ishim Kasim Kurman Jangir Murat Nasiridin Sadyk Vali
 			}
@@ -2757,6 +2760,24 @@ kipchak = {
 			Amirkhanov Faysi Gizzat Ibragimov Kamal Khusainov Tinchurin Tukay Yanbayev
 		}
 		radicalism = 10
+	}
+	
+	tatlar = {
+		color = { 160 210 205 }
+		first_names = { Adamantios Alexandros Anastasios Andreas Andra Antonios Aristidis Athanasios Augustinos Arbehan Bazile Benizelos Bram Charalambos
+		Charilaos Dalpheusse Dimitrios Diomidis Eleftherios Elyie Emmanouil Epameinontas Evripidis Freton Gennaios Georgios Ilias
+		Ionnis Kitsos Klovis Konstantinos Kyriakos Kyriakoulis Leonidas Makarios Markos Mikhael Militiadis
+		Nikolaos Odysseas Othon Panagiotis Pavlos Petros Sofoklis Sotiris Spyridion Spyros
+		Staikos Stefanos Stylianos Themistoklis Theodoros Tharyvoulos Tzannis Vasos Viktor Zinovios
+		}
+
+		last_names = { Charalambis Christakis-Zografos Danglis Dousmanis Foumis Gonatas Hatzianestis Kallergis Kanaris Katsimiros
+		Kolokotronis Kondylis Kountouriotis Kriezis Makriyannis Manos Mavrocordatos Mavrovouniotis Metaxas Mouskos
+		Nider Othonaios Palaskas Pangalos Papadiamantopoulos Papadopoulos Papagos Papoulas Parakevopouolos Plapoutas
+		Plastiras Sapountzakis Sarafis Smolenskis Sofoulis Soutsos Spyromilios Staikopoulos Stanotas "tes Elladas"
+		Trikoupis Tsakalotos Tsolakoglou Typaldos-Alfonsatos Tzavelas Vassos Venizelos Voulgaris Zaimis Zymvrakakis
+		}
+		radicalism = 5
 	}
 	
 	bashkir = {
@@ -4379,7 +4400,7 @@ iranian_turanian = {
 	
 	#Southeast Iranian
 	pashtun = {
-		color = {140 150 230}
+		color = {140 150 200}
 		
 		first_names = {
 			Abdallah "Abd al-Rahman" "Abd al-Quddus" Afzal Ahmad Akbar Akram Ayyub Fath "Firuz al-Din" "Habib Alllah" Haydar Humayun "Inayat Allah" Ishaq Jamal Kamran Kohandil Mahmud Mahsud Mihrdil Muhammad Murad Nadir "Nasr Allah" Omar Qaysar Shahpur "Sher Ali" Shuja Suleyman Timur Yaqub Zaman
@@ -4391,7 +4412,7 @@ iranian_turanian = {
 	}
 	
 	wanetsi = {
-		color = {150 130 220}
+		color = {150 130 190}
 		
 		first_names = {
 			Abdallah "Abd al-Rahman" "Abd al-Quddus" Afzal Ahmad Akbar Akram Ayyub Fath "Firuz al-Din" "Habib Alllah" Haydar Humayun "Inayat Allah" Ishaq Jamal Kamran Kohandil Mahmud Mahsud Mihrdil Muhammad Murad Nadir "Nasr Allah" Omar Qaysar Shahpur "Sher Ali" Shuja Suleyman Timur Yaqub Zaman
@@ -4402,6 +4423,7 @@ iranian_turanian = {
 		radicalism = 35
 	}
 	
+	#Ormuri
 	ormuri = {
 		color = {120 130 210}
 		
@@ -4414,29 +4436,8 @@ iranian_turanian = {
 		radicalism = 35
 	}
 	
-	pamiri = { #Wakhi
-		color = {100 110 190}
-		first_names = {
-			Abdullah Ahmad Azam Khudadad
-			Mehrab Mohammad Muhabbat 
-			Nasir Nawaz
-			Samandar Sherdil
-		}
-		last_names = {
-			Khan
-		}
-	}
-	
-	hazara = {
-		color = {80 90 170}
-		first_names = {
-			Ali Azim Jafar Mohammad Riza
-		}
-		last_names = {
-			Beg Khan
-		}
-	}
-	
+	#Pamir Languages
+	#Shughni-Yazgulyam
 	shugni = {
 		color = {60 70 150}
 		first_names = {
@@ -4450,6 +4451,97 @@ iranian_turanian = {
 		}
 	}
 	
+	wanji = {
+		color = {10 70 150}
+		first_names = {
+			Abdullah Ahmad Azam Khudadad
+			Mehrab Mohammad Muhabbat 
+			Nasir Nawaz
+			Samandar Sherdil
+		}
+		last_names = {
+			Khan
+		}
+	}
+	
+	yazgulyam = {
+		color = {50 60 110}
+		first_names = {
+			Abdullah Ahmad Azam Khudadad
+			Mehrab Mohammad Muhabbat 
+			Nasir Nawaz
+			Samandar Sherdil
+		}
+		last_names = {
+			Khan
+		}
+	}
+	
+	sarikoli = {
+		color = {10 40 150}
+		first_names = {
+			Abdullah Ahmad Azam Khudadad
+			Mehrab Mohammad Muhabbat 
+			Nasir Nawaz
+			Samandar Sherdil
+		}
+		last_names = {
+			Khan
+		}
+	}
+	
+	#Saka-Wachi
+	pamiri = { #Wakhi
+		color = {100 110 190}
+		first_names = {
+			Abdullah Ahmad Azam Khudadad
+			Mehrab Mohammad Muhabbat 
+			Nasir Nawaz
+			Samandar Sherdil
+		}
+		last_names = {
+			Khan
+		}
+	}
+	
+	khotani = { #Raskumi
+		color = {120 130 230}
+		first_names = {
+			Abdullah Ahmad Azam Khudadad
+			Mehrab Mohammad Muhabbat 
+			Nasir Nawaz
+			Samandar Sherdil
+		}
+		last_names = {
+			Khan
+		}
+	}
+	
+	#Yidgha-Munji
+	hazara = { #Yidgha
+		color = {80 90 170}
+		first_names = {
+			Ali Azim Jafar Mohammad Riza
+		}
+		last_names = {
+			Beg Khan
+		}
+	}
+	
+	munji = { 
+		color = {60 80 150}
+		first_names = {
+			Abdullah Ahmad Azam Khudadad
+			Mehrab Mohammad Muhabbat 
+			Nasir Nawaz
+			Samandar Sherdil
+		}
+		last_names = {
+			Khan
+		}
+	}
+	
+	#Sanglechi-Eshkashemi
 	sanglechi = {
 		color = {40 50 130}
 		first_names = {
@@ -4463,20 +4555,17 @@ iranian_turanian = {
 		}
 	}
 	
-	khotani = {
-		color = {20 30 110}
+	eshkashemi = {
+		color = {50 30 110}
 		first_names = {
-			Abbas Abolghasem Abdolhossein Abdolsamad Abdolazim Ahmad Ali Bahram
-			Ebrahim Esmail "Fath Ali" Fazlollah Hamzeh Hasan Hossein Kamran Karim "Lotf Ali" 
-			Mahmoud Massoud Mohammad "Moin ed-Din" "Mozzafer ed-Din" Murad Muhsin 
-			"Naser ed-Din" Nosret Reza
-			}
+			Abdullah Ahmad Azam Khudadad
+			Mehrab Mohammad Muhabbat 
+			Nasir Nawaz
+			Samandar Sherdil
+		}
 		last_names = {
-			Airom Ansari Ayrum Buzarjomehri Davallu Esfahani Farhani 
-			Jahanbani Kashani Khan Khuzai
-			Meshhedi Nakhchevani Pesyan Rokni Shafaei Shahbakhti 
-			Shirazi Tabrizi Tahmasebi Zahedi
-			}
+			Khan
+		}
 	}
 	
 	#Judeo-Iranian - includes multiple West Iranian Dialects and Languages

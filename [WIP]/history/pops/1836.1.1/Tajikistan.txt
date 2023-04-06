@@ -29,23 +29,23 @@
 	farmers = {
 		culture = chaghatay
 		religion = sunni
-		size = 13025
+		size = 8025
 	}
 	
 	soldiers = {
 		culture = qomani
 		religion = sunni
-		size = 1400
+		size = 400
 	}
 	
 	farmers = {
 		culture = qomani
 		religion = sunni
-		size = 3000
+		size = 2000
 	}
 
 	aristocrats = {
-		culture = persian
+		culture = dehgani
 		religion = sunni
 		size = 275
 	}
@@ -148,6 +148,216 @@
 		size = 3000
 	}
 }
+
+#Sukh
+4059 = {
+	aristocrats = {
+		culture = chaghatay
+		religion = sunni
+		size = 70
+	}
+
+	clergymen = {
+		culture = chaghatay
+		religion = sunni
+		size = 70
+	}
+
+	artisans = {
+		culture = chaghatay
+		religion = sunni
+		size = 220
+	}
+
+	soldiers = {
+	    culture = chaghatay
+		religion = sunni
+		size = 140
+	}
+
+	farmers = {
+		culture = chaghatay
+		religion = sunni
+		size = 3025
+	}
+
+	aristocrats = {
+		culture = dehgani
+		religion = sunni
+		size = 75
+	}
+
+	clergymen = {
+		culture = dehgani
+		religion = sunni
+		size = 150
+	}
+
+	artisans = {
+		culture = dehgani
+		religion = sunni
+		size = 1000
+	}
+
+	soldiers = {
+		culture = dehgani
+		religion = sunni
+		size = 100
+	}
+
+	farmers = {
+		culture = dehgani
+		religion = sunni
+		size = 9000
+	}
+	
+	aristocrats = {
+		culture = qara_kirgiz
+		religion = sunni
+		size = 75
+	}
+
+	clergymen = {
+		culture = qara_kirgiz
+		religion = sunni
+		size = 100
+	}
+
+	artisans = {
+		culture = qara_kirgiz
+		religion = sunni
+		size = 100
+	}
+	
+	soldiers = {
+		culture = qara_kirgiz
+		religion = sunni
+		size = 1000
+	}
+
+	farmers = {
+		culture = qara_kirgiz
+		religion = sunni
+		size = 7000
+	}
+	
+	soldiers = {
+		culture = qomani
+		religion = sunni
+		size = 500
+	}
+
+	farmers = {
+		culture = qomani
+		religion = sunni
+		size = 3000
+	}
+}
+
+#Marghilan
+4062 = {
+	aristocrats = {
+		culture = chaghatay
+		religion = sunni
+		size = 100
+	}
+
+	clergymen = {
+		culture = chaghatay
+		religion = sunni
+		size = 100
+	}
+
+	artisans = {
+		culture = chaghatay
+		religion = sunni
+		size = 820
+	}
+
+	soldiers = {
+	    culture = chaghatay
+		religion = sunni
+		size = 140
+	}
+
+	farmers = {
+		culture = chaghatay
+		religion = sunni
+		size = 5625
+	}
+
+	aristocrats = {
+		culture = dehgani
+		religion = sunni
+		size = 175
+	}
+
+	clergymen = {
+		culture = dehgani
+		religion = sunni
+		size = 150
+	}
+
+	artisans = {
+		culture = dehgani
+		religion = sunni
+		size = 1300
+	}
+
+	soldiers = {
+		culture = dehgani
+		religion = sunni
+		size = 100
+	}
+
+	farmers = {
+		culture = dehgani
+		religion = sunni
+		size = 9000
+	}
+	
+	aristocrats = {
+		culture = qara_kirgiz
+		religion = sunni
+		size = 10
+	}
+
+	clergymen = {
+		culture = qara_kirgiz
+		religion = sunni
+		size = 10
+	}
+
+	artisans = {
+		culture = qara_kirgiz
+		religion = sunni
+		size = 10
+	}
+	
+	soldiers = {
+		culture = qara_kirgiz
+		religion = sunni
+		size = 100
+	}
+
+	farmers = {
+		culture = qara_kirgiz
+		religion = sunni
+		size = 700
+	}
+	
+	soldiers = {
+		culture = qomani
+		religion = sunni
+		size = 50
+	}
+
+	farmers = {
+		culture = qomani
+		religion = sunni
+		size = 300
+	}
+}
 #Badakhshan Region (212000) 
 #under the rule of Kokand in 1836  
 #Kulob (120000/30000 POPS)   
@@ -155,49 +365,187 @@
 	aristocrats = {
 		culture = khorasani_persian
 		religion = sunni
-		size = 575
+		size = 375
 	}
 
 	clergymen = {
 		culture = khorasani_persian
 		religion = sunni
-		size = 275
+		size = 175
 	}
 
 	artisans = {
 		culture = khorasani_persian
 		religion = sunni
-		size = 1450
+		size = 750
 	}
 
 	soldiers = {
 		culture = khorasani_persian
 		religion = sunni
-		size = 1250
+		size = 850
 	}
 
 	farmers = {
 		culture = khorasani_persian
 		religion = sunni
-		size = 19000
+		size = 14000
 	}
-	
+    
+	aristocrats = {
+		culture = chaghatay
+		religion = sunni
+		size = 75
+	}
+
+	clergymen = {
+		culture = chaghatay
+		religion = sunni
+		size = 75
+	}
+
+	artisans = {
+		culture = chaghatay
+		religion = sunni
+		size = 150
+	}
+
+	soldiers = {
+		culture = chaghatay
+		religion = sunni
+		size = 650
+	}
+    	
 	farmers = {
 		culture = chaghatay
 		religion = sunni
+		size = 3000
+	}
+}
+
+#Qobadijan   
+4049 = {
+	aristocrats = {
+		culture = khorasani_persian
+		religion = sunni
+		size = 75
+	}
+
+	clergymen = {
+		culture = khorasani_persian
+		religion = sunni
+		size = 75
+	}
+
+	artisans = {
+		culture = khorasani_persian
+		religion = sunni
+		size = 350
+	}
+
+	soldiers = {
+		culture = khorasani_persian
+		religion = sunni
+		size = 550
+	}
+
+	farmers = {
+		culture = khorasani_persian
+		religion = sunni
 		size = 9000
 	}
-
-	slaves = {
-		culture = uzbek
+    
+	aristocrats = {
+		culture = chaghatay
 		religion = sunni
-		size = 2000
+		size = 75
 	}
 
-	slaves = {
-		culture = uighur
+	clergymen = {
+		culture = chaghatay
 		religion = sunni
-		size = 4000
+		size = 75
+	}
+
+	artisans = {
+		culture = chaghatay
+		religion = sunni
+		size = 150
+	}
+
+	soldiers = {
+		culture = chaghatay
+		religion = sunni
+		size = 650
+	}
+    	
+	farmers = {
+		culture = chaghatay
+		religion = sunni
+		size = 3700
+	}
+}
+
+#Qorganteppeh  
+4050 = {
+	aristocrats = {
+		culture = khorasani_persian
+		religion = sunni
+		size = 375
+	}
+
+	clergymen = {
+		culture = khorasani_persian
+		religion = sunni
+		size = 175
+	}
+
+	artisans = {
+		culture = khorasani_persian
+		religion = sunni
+		size = 750
+	}
+
+	soldiers = {
+		culture = khorasani_persian
+		religion = sunni
+		size = 850
+	}
+
+	farmers = {
+		culture = khorasani_persian
+		religion = sunni
+		size = 10000
+	}
+    
+	aristocrats = {
+		culture = chaghatay
+		religion = sunni
+		size = 5
+	}
+
+	clergymen = {
+		culture = chaghatay
+		religion = sunni
+		size = 5
+	}
+
+	artisans = {
+		culture = chaghatay
+		religion = sunni
+		size = 10
+	}
+
+	soldiers = {
+		culture = chaghatay
+		religion = sunni
+		size = 50
+	}
+    	
+	farmers = {
+		culture = chaghatay
+		religion = sunni
+		size = 500
 	}
 }
 
@@ -209,38 +557,44 @@
 		size = 175
 	}
 
+	bureaucrats = {
+		culture = khorasani_persian
+		religion = sunni
+		size = 75
+	}
+	
 	clergymen = {
 		culture = khorasani_persian
 		religion = sunni
-		size = 175
+		size = 275
 	}
 
 	artisans = {
 		culture = khorasani_persian
 		religion = sunni
-		size = 150
+		size = 750
 	}
 
 	soldiers = {
 		culture = khorasani_persian
 		religion = sunni
-		size = 1050
+		size = 1450
 	}
 
 	farmers = {
 		culture = khorasani_persian
 		religion = sunni
-		size = 9000
+		size = 15000
 	}
 	
 	farmers = {
-		culture = yaghnobi
+		culture = chaghatay
 		religion = sunni
 		size = 500
 	}
 
 	farmers = {
-		culture = chaghatay
+		culture = qara_kirgiz
 		religion = sunni
 		size = 200
 	}
@@ -251,61 +605,61 @@
 	aristocrats = {
 		culture = khorasani_persian
 		religion = sunni
-		size = 175
+		size = 75
 	}
 
 	clergymen = {
 		culture = khorasani_persian
 		religion = sunni
-		size = 175
+		size = 75
 	}
 
 	artisans = {
 		culture = khorasani_persian
 		religion = sunni
-		size = 550
+		size = 150
 	}
 
 	soldiers = {
 		culture = khorasani_persian
 		religion = sunni
-		size = 1050
+		size = 150
 	}
 
 	farmers = {
 		culture = khorasani_persian
 		religion = sunni
-		size = 9000
+		size = 5000
 	}
 	
 	aristocrats = {
 		culture = yaghnobi
 		religion = sunni
-		size = 75
+		size = 15
 	}
 
 	clergymen = {
 		culture = yaghnobi
 		religion = sunni
-		size = 75
+		size = 15
 	}
 
 	artisans = {
 		culture = yaghnobi
 		religion = sunni
-		size = 50
+		size = 20
 	}
 
 	soldiers = {
 		culture = yaghnobi
 		religion = sunni
-		size = 150
+		size = 50
 	}
 	
 	farmers = {
 		culture = yaghnobi
 		religion = sunni
-		size = 5500
+		size = 900
 	}
 	
 	aristocrats = {
@@ -329,13 +683,13 @@
 	soldiers = {
 		culture = chaghatay
 		religion = sunni
-		size = 150
+		size = 50
 	}
 
 	farmers = {
 		culture = chaghatay
 		religion = sunni
-		size = 1300
+		size = 300
 	}
 }
 
@@ -344,13 +698,19 @@
 	aristocrats = {
 		culture = khorasani_persian
 		religion = sunni
-		size = 175
+		size = 165
+	}
+	
+	bureaucrats = {
+		culture = khorasani_persian
+		religion = sunni
+		size = 75
 	}
 
 	clergymen = {
 		culture = khorasani_persian
 		religion = sunni
-		size = 175
+		size = 105
 	}
 
 	artisans = {
@@ -368,37 +728,196 @@
 	farmers = {
 		culture = khorasani_persian
 		religion = sunni
-		size = 14000
+		size = 15000
 	}
-	
+}
+
+#Qarategin  
+4040 = {
 	aristocrats = {
-		culture = shugni
-		religion = shiite
-		size = 75
+		culture = khorasani_persian
+		religion = sunni
+		size = 105
 	}
 
 	clergymen = {
-		culture = shugni
-		religion = shiite
-		size = 75
+		culture = khorasani_persian
+		religion = sunni
+		size = 85
 	}
 
 	artisans = {
-		culture = shugni
+		culture = khorasani_persian
+		religion = sunni
+		size = 200
+	}
+
+	soldiers = {
+		culture = khorasani_persian
+		religion = sunni
+		size = 850
+	}
+
+	farmers = {
+		culture = khorasani_persian
+		religion = sunni
+		size = 7000
+	}
+	
+	aristocrats = {
+		culture = qara_kirgiz
+		religion = sunni
+		size = 25
+	}
+
+	clergymen = {
+		culture = qara_kirgiz
+		religion = sunni
+		size = 15
+	}
+
+	artisans = {
+		culture = qara_kirgiz
+		religion = sunni
+		size = 10
+	}
+
+	soldiers = {
+		culture = qara_kirgiz
+		religion = sunni
+		size = 150
+	}
+
+	farmers = {
+		culture = qara_kirgiz
+		religion = sunni
+		size = 4000
+	}
+}
+
+#Vanji  
+4041 = {
+	aristocrats = {
+		culture = khorasani_persian
+		religion = sunni
+		size = 25
+	}
+
+	clergymen = {
+		culture = khorasani_persian
+		religion = sunni
+		size = 25
+	}
+
+	artisans = {
+		culture = khorasani_persian
+		religion = sunni
+		size = 20
+	}
+
+	soldiers = {
+		culture = khorasani_persian
+		religion = sunni
+		size = 150
+	}
+
+	farmers = {
+		culture = khorasani_persian
+		religion = sunni
+		size = 1000
+	}
+	
+	aristocrats = {
+		culture = yazgulyam
+		religion = sunni
+		size = 20
+	}
+
+	clergymen = {
+		culture = yazgulyam
+		religion = sunni
+		size = 20
+	}
+
+	artisans = {
+		culture = yazgulyam
+		religion = sunni
+		size = 30
+	}
+
+	soldiers = {
+		culture = yazgulyam
+		religion = sunni
+		size = 150
+	}
+
+	farmers = {
+		culture = yazgulyam
+		religion = sunni
+		size = 2000
+	}
+	
+	aristocrats = {
+		culture = wanji
+		religion = shiite
+		size = 10
+	}
+
+	clergymen = {
+		culture = wanji
+		religion = shiite
+		size = 10
+	}
+
+	artisans = {
+		culture = wanji
+		religion = shiite
+		size = 10
+	}
+
+	soldiers = {
+		culture = wanji
 		religion = shiite
 		size = 50
 	}
 
-	soldiers = {
-		culture = shugni
-		religion = shiite
-		size = 150
-	}
-	
 	farmers = {
-		culture = shugni
+		culture = wanji
 		religion = shiite
-		size = 5500
+		size = 700
+	}
+}
+
+#Raq  
+4042 = {
+	aristocrats = {
+		culture = khorasani_persian
+		religion = sunni
+		size = 100
+	}
+
+	clergymen = {
+		culture = khorasani_persian
+		religion = sunni
+		size = 100
+	}
+
+	artisans = {
+		culture = khorasani_persian
+		religion = sunni
+		size = 170
+	}
+
+	soldiers = {
+		culture = khorasani_persian
+		religion = sunni
+		size = 650
+	}
+
+	farmers = {
+		culture = khorasani_persian
+		religion = sunni
+		size = 12000
 	}
 }
 
@@ -407,13 +926,19 @@
 	aristocrats = {
 		culture = shugni
 		religion = shiite
-		size = 50
+		size = 150
+	}
+	
+	bureaucrats = {
+		culture = shugni
+		religion = shiite
+		size = 20
 	}
 
 	clergymen = {
 		culture = shugni
 		religion = shiite
-		size = 75
+		size = 95
 	}
 
 	artisans = {
@@ -431,43 +956,37 @@
 	farmers = {
 		culture = shugni
 		religion = shiite
-		size = 12450
-	}
-	
-	farmers = {
-		culture = pamiri
-		religion = shiite
-		size = 1450
+		size = 8450
 	}
 
 	aristocrats = {
 		culture = chaghatay
 		religion = sunni
-		size = 75
+		size = 15
 	}
 
 	clergymen = {
 		culture = chaghatay
 		religion = sunni
-		size = 75
+		size = 15
 	}
 
 	artisans = {
 		culture = chaghatay
 		religion = sunni
-		size = 175
+		size = 75
 	}
 
 	soldiers = {
 		culture = chaghatay
 		religion = sunni
-		size = 500
+		size = 50
 	}
 
 	farmers = {
 		culture = chaghatay
 		religion = sunni
-		size = 1650
+		size = 650
 	}
 	
 	aristocrats = {
@@ -503,13 +1022,184 @@
 	farmers = {
 		culture = khorasani_persian
 		religion = sunni
-		size = 4450
+		size = 1450
 	}
 
 	slaves = {
 		culture = qara_kirgiz
-		religion = sunni
+		religion = animist
+		size = 100
+	}
+}
+
+#Vamar   
+4043 = {
+	aristocrats = {
+		culture = shugni
+		religion = shiite
+		size = 90
+	}
+
+	clergymen = {
+		culture = shugni
+		religion = shiite
+		size = 75
+	}
+
+	artisans = {
+		culture = shugni
+		religion = shiite
+		size = 150
+	}
+	
+	soldiers = {
+		culture = shugni
+		religion = shiite
 		size = 1000
+	}
+
+	farmers = {
+		culture = shugni
+		religion = shiite
+		size = 7700
+	}
+	
+	aristocrats = {
+		culture = khorasani_persian
+		religion = sunni
+		size = 100
+	}
+	
+	clergymen = {
+		culture = khorasani_persian
+		religion = sunni
+		size = 75
+	}
+
+	artisans = {
+		culture = khorasani_persian
+		religion = sunni
+		size = 100
+	}
+
+	farmers = {
+		culture = khorasani_persian
+		religion = sunni
+		size = 1050
+	}
+}
+
+#Rashtqala   
+4044 = {
+	aristocrats = {
+		culture = shugni
+		religion = shiite
+		size = 90
+	}
+
+	clergymen = {
+		culture = shugni
+		religion = shiite
+		size = 75
+	}
+
+	artisans = {
+		culture = shugni
+		religion = shiite
+		size = 150
+	}
+	
+	soldiers = {
+		culture = shugni
+		religion = shiite
+		size = 100
+	}
+
+	farmers = {
+		culture = shugni
+		religion = shiite
+		size = 6500
+	}
+	
+	aristocrats = {
+		culture = khorasani_persian
+		religion = sunni
+		size = 40
+	}
+	
+	clergymen = {
+		culture = khorasani_persian
+		religion = sunni
+		size = 15
+	}
+
+	artisans = {
+		culture = khorasani_persian
+		religion = sunni
+		size = 50
+	}
+
+	farmers = {
+		culture = khorasani_persian
+		religion = sunni
+		size = 650
+	}
+}
+
+#Shewa   
+4045 = {
+	aristocrats = {
+		culture = shugni
+		religion = shiite
+		size = 90
+	}
+
+	clergymen = {
+		culture = shugni
+		religion = shiite
+		size = 75
+	}
+
+	artisans = {
+		culture = shugni
+		religion = shiite
+		size = 150
+	}
+	
+	soldiers = {
+		culture = shugni
+		religion = shiite
+		size = 100
+	}
+
+	farmers = {
+		culture = shugni
+		religion = shiite
+		size = 3500
+	}
+	
+	aristocrats = {
+		culture = khorasani_persian
+		religion = sunni
+		size = 40
+	}
+	
+	clergymen = {
+		culture = khorasani_persian
+		religion = sunni
+		size = 15
+	}
+
+	artisans = {
+		culture = khorasani_persian
+		religion = sunni
+		size = 50
+	}
+
+	farmers = {
+		culture = khorasani_persian
+		religion = sunni
+		size = 950
 	}
 }
 
@@ -674,61 +1364,91 @@
 	aristocrats = {
 		culture = sanglechi
 		religion = shiite
-		size = 95
+		size = 40
 	}
 
 	clergymen = {
 		culture = sanglechi
 		religion = shiite
-		size = 85
+		size = 40
 	}
 
 	artisans = {
 		culture = sanglechi
 		religion = shiite
-		size = 80
+		size = 40
 	}
 	
 	soldiers = {
 		culture = sanglechi
 		religion = shiite
-		size = 1030
+		size = 300
 	}
 
 	farmers = {
 		culture = sanglechi
 		religion = shiite
-		size = 9500
+		size = 3400
+	}
+	
+	aristocrats = {
+		culture = eshkashemi
+		religion = shiite
+		size = 55
+	}
+
+	clergymen = {
+		culture = eshkashemi
+		religion = shiite
+		size = 55
+	}
+
+	artisans = {
+		culture = eshkashemi
+		religion = shiite
+		size = 40
+	}
+	
+	soldiers = {
+		culture = eshkashemi
+		religion = shiite
+		size = 330
+	}
+
+	farmers = {
+		culture = eshkashemi
+		religion = shiite
+		size = 4100
 	}
 	
 	aristocrats = {
 		culture = khorasani_persian
 		religion = sunni
-		size = 45
+		size = 15
 	}
 
 	clergymen = {
 		culture = khorasani_persian
-		religion = shiite
-		size = 45
+		religion = sunni
+		size = 15
 	}
 
 	artisans = {
 		culture = khorasani_persian
 		religion = sunni
-		size = 280
+		size = 80
 	}
 	
 	soldiers = {
 		culture = khorasani_persian
 		religion = sunni
-		size = 530
+		size = 30
 	}
 
 	farmers = {
 		culture = khorasani_persian
 		religion = sunni
-		size = 3400
+		size = 400
 	}
 	
 	aristocrats = {

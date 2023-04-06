@@ -22,6 +22,13 @@ vassal = {
 
 vassal = {
 	first = TIM
+	second = BDK
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+vassal = {
+	first = TIM
 	second = LZG
 	start_date = 1836.1.1
 	end_date = 1937.1.1
@@ -798,6 +805,13 @@ vassal = {
 
 vassal = {
 	first = OIR
+	second = MGL
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+vassal = {
+	first = OIR
 	second = TNT
 	start_date = 1836.1.1
 	end_date = 1937.1.1
@@ -960,6 +974,13 @@ vassal = {
 vassal = {
 	first = OIR
 	second = XBI
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+vassal = {
+	first = OIR
+	second = TPN
 	start_date = 1836.1.1
 	end_date = 1937.1.1
 }
@@ -1239,26 +1260,31 @@ vassal = {
 	end_date = 1937.1.1
 }
 
-#Oyo Empire
+#IFE Empire
 vassal = {
-	first = OYO
+	first = IFE
 	second = IBD
 	start_date = 1836.1.1
 	end_date = 1937.1.1
 }
 vassal = {
-	first = OYO
+	first = IFE
 	second = EGB
 	start_date = 1836.1.1
 	end_date = 1937.1.1
 }
 vassal = {
-	first = OYO
-	second = IFE
+	first = IFE
+	second = OYO
 	start_date = 1836.1.1
 	end_date = 1937.1.1
 }
-
+vassal = {
+	first = IFE
+	second = EKT
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
 #Hafsids
 vassal = {
 	first = TUN
@@ -1292,6 +1318,18 @@ substate = {
 vassal = {
 	first = FRA
 	second = ATL
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+vassal = {
+	first = FRA
+	second = YTZ
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+vassal = {
+	first = FRA
+	second = NCY
 	start_date = 1836.1.1
 	end_date = 1937.1.1
 }

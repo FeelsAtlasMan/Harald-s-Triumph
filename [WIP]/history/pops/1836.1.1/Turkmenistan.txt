@@ -17,7 +17,7 @@
 	artisans = {
 		culture = khwarazm_persian
 		religion = sunni
-		size = 3500
+		size = 1500
 	}
 	
 	soldiers = {
@@ -41,25 +41,25 @@
 	farmers = {
 		culture = turkmen
 		religion = sunni
-		size = 6000
+		size = 8000
 	}
 	
 	aristocrats = {
 		culture = khwarazm_turkic
 		religion = sunni
-		size = 25
+		size = 125
 	}
 
 	clergymen = {
 		culture = khwarazm_turkic
 		religion = sunni
-		size = 25
+		size = 75
 	}
 
 	artisans = {
 		culture = khwarazm_turkic
 		religion = sunni
-		size = 100
+		size = 500
 	}
 
 	soldiers = {
@@ -71,7 +71,7 @@
 	farmers = {
 		culture = khwarazm_turkic
 		religion = sunni
-		size = 6825
+		size = 3825
 	}
 	
 }
@@ -338,12 +338,6 @@
 		religion = sunni
 		size = 6400
 	}
-
-	slaves = {
-		culture = khwarazm_persian
-		religion = sunni
-		size = 100
-	}
 	
 	aristocrats = {
 		culture = khwarazm_turkic
@@ -376,7 +370,7 @@
 	}
 }
 #under the rule of Bukhara in 1836  
-#Chardzhou (132000/33000 POPS)   
+#Qarshi  
 1206 = {
 	aristocrats = {
 		culture = chaghatay
@@ -405,19 +399,19 @@
 	farmers = {
 		culture = chaghatay
 		religion = sunni
-		size = 12000
+		size = 10000
 	}
 
 	soldiers = {
 		culture = turkmen
 		religion = sunni
-		size = 1250
+		size = 250
 	}
 
 	farmers = {
 		culture = turkmen
 		religion = sunni
-		size = 2025
+		size = 1025
 	}
 	
 	aristocrats = {
@@ -435,13 +429,13 @@
 	artisans = {
 		culture = dehgani
 		religion = sunni
-		size = 1000
+		size = 2000
 	}
 	
 	farmers = {
 		culture = dehgani
 		religion = sunni
-		size = 8825
+		size = 5825
 	}
 }
 
