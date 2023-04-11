@@ -788,49 +788,6 @@ vassal = {
 	end_date = 1937.1.1
 }
 
-#Oirat Tributes
-vassal = {
-	first = OIR
-	second = ALT
-	start_date = 1836.1.1
-	end_date = 1937.1.1
-}
-
-vassal = {
-	first = OIR
-	second = BRY
-	start_date = 1836.1.1
-	end_date = 1937.1.1
-}
-
-vassal = {
-	first = OIR
-	second = MGL
-	start_date = 1836.1.1
-	end_date = 1937.1.1
-}
-
-vassal = {
-	first = OIR
-	second = ORD
-	start_date = 1836.1.1
-	end_date = 1937.1.1
-}
-
-vassal = {
-	first = OIR
-	second = CHR
-	start_date = 1836.1.1
-	end_date = 1937.1.1
-}
-
-vassal = {
-	first = OIR
-	second = TNT
-	start_date = 1836.1.1
-	end_date = 1937.1.1
-}
-
 #Shun Feudatories
 substate = {
 	first = SHN
@@ -1008,6 +965,42 @@ vassal = {
 
 vassal = {
 	first = OIR
+	second = ALT
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+vassal = {
+	first = OIR
+	second = TNT
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+#Tüsheet Khanate
+vassal = {
+	first = MGL
+	second = BRY
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+vassal = {
+	first = MGL
+	second = ORD
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+vassal = {
+	first = MGL
+	second = CHR
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+vassal = {
+	first = MGL
 	second = NNI
 	start_date = 1836.1.1
 	end_date = 1937.1.1

@@ -6,25 +6,25 @@ USA_1 = { 1 2 6 17 } #Alaska
 
 ENG_9 = { 10 11 12 2595 2596 2598 7 8 } #Northwest Territories
 
-CAN_13 = { 18 2629 } #Columbia
+CAN_13 = { 18 2629 23 2597 } #Columbia
 
-ENG_22 = { 26 22 23 24 25 28 2597 } #Alberta
+ENG_22 = { 26 22 24 25 28 35 115 } #Alberta
 
-ENG_30 = { 30 31 32 33 34 35 } #Saskatchewan
+#ENG_30 = { } #Saskatchewan
 
-ENG_36 = { 42 36 37 38 39 40 41 } #Manitoba
+ENG_36 = { 36 37 38 39 40 31 32 33 34 } #Manitoba
 
 CAN_46 = { 46 57 55 56 52 53 54 } #Southern Ontario
 
-CAN_50 = { 49 50 51 47 48 2594 } #Northern Ontario
+CAN_50 = { 49 50 51 47 48 158 2594 } #Northern Ontario
 
-CAN_58 = { 58 65 62 61 63 64 66 67 } #Southern Quebec
+CAN_58 = { 58 65 61 63 64 } #Southern Quebec
 
 CAN_60 = { 9 59 2593 2626 2592 } #Northern Quebec
 
-ENG_68 = { 68 69 70 71 72 73 249 250 } #Maritimes
+ENG_68 = { 68 69 70 71 72 73 249 250 67 } #Maritimes
 
-ENG_74 = { 74 75 76 77 2625 } #Newfoundland
+ENG_74 = { 74 75 76 77 2625 62 } #Newfoundland
 
 ### United States
 
@@ -56,57 +56,61 @@ MEX_2148 = { 2148 3597 3598 3602 3603 128 } #New Mexico - Pueblo
 
 MEX_3600 = { 3600 3599 3601 105 2143 } #filler
 
-USA_106 = { 103 106 } #Colorado
+USA_106 = { 103 106 129 } #Colorado
 
-USA_111 = { 112 } #Wyoming
+#USA_111 = { } #Wyoming
 
-USA_116 = { 113 116 115 } #Montana
+USA_116 = { 113 116 112 122 124 } #Montana
 
-USA_118 = { 117 118 119 } #North Dakota
+USA_118 = { 117 118 119 157 30 41 42 120 121 } #North Dakota
 
-USA_121 = { 120 121 122 } #South Dakota
+#USA_121 = { } #South Dakota
 
-USA_124 = { 123 124 125 } #Nebraska
+#USA_124 = { } #Nebraska
 
-USA_126 = { 126 127 } #Kansas
+USA_126 = { 126 127 123 125 } #Kansas
 
-USA_129 = { 131 129 130 } #Oklahoma
+USA_129 = { 131 130 134 144 43 } #Oklahoma
 
-TEX_132 = { 133 43 132 134 137 138 } #Texas
+TEX_132 = { 133 132 137 138 } #Texas
 
-TEX_136 = { 136 135 2147 } #Texas
+TEX_136 = { 136 135 2147 } #filler
 
-USA_139 = { 139 140 141 142 } #Louisiana
+USA_139 = { 139 141 142 } #Louisiana
 
-USA_144 = { 143 144 145 } #Arkansas
+#USA_144 = { } #Arkansas
 
-USA_148 = { 146 148 147 149 150 } #Missouri
+USA_148 = { 146 148 147 149 150 145 } #Missouri
 
-USA_151 = { 151 152 153 154 } #Iowa
+USA_151 = { 151 152 153 154 155 156 } #Iowa
 
-USA_158 = { 155 156 157 158 } #Minnesota
+#USA_158 = { } #Minnesota
 
-USA_162 = { 159 160 161 162 } #Wisconsin
+USA_162 = { 159 160 161 162 163 177 } #Wisconsin
 
-USA_168 = { 163 168 167 166 165 164 } #Illinois
+USA_168 = { 168 167 166 165 164 169 170 } #Illinois
 
-USA_170 = { 169 170 172 171 } #Indiana
+#USA_170 = { } #Indiana
 
-USA_176 = { 173 174 175 176 177 } #Michigan
+USA_176 = { 173 174 175 176 171 } #Michigan
 
-USA_178 = { 178 179 180 183 182 181 227 } #Ohio
+USA_178 = { 178 217 218 227 } #Ohio
 
-USA_185 = { 184 185 186 187 } #Kentucky
+USA_179 = { 179 180 183 182 181 227 172 } #filler
 
-USA_188 = { 188 189 191 190 } #Tennessee
+USA_185 = { 184 185 186 187 143 } #Kentucky
 
-USA_194 = { 194 192 193 } #Mississippi
+USA_188 = { 191 190 201 2556 } #Tennessee
 
-USA_196 = { 195 196 197 } #Alabama
+USA_189 = { 188 189 193 195 } #filler
+
+USA_194 = { 194 192 140 } #Mississippi
+
+USA_196 = { 196 197 } #Alabama
 
 USA_200 = { 200 199 198 } #Florida
 
-USA_201 = { 201 202 204 2555 } #Georgia
+USA_201 = { 202 204 2555 } #Georgia
 
 USA_205 = { 205 206 } #South Carolina
 
@@ -114,13 +118,13 @@ NEN_207 = { 207 208 209 210 211 214 216 } #Freddrechs�je
 
 NEN_60 = { 60 212 213 215 220 221 2146 } #Patameck
 
-USA_218 = { 218 217 2556 } #Appalachien
+#USA_218 = { } #Appalachien
 
 NEN_219 = { 219 224 225 226 228 235 236 2627 } #Honsr�gge
 
 NEN_222 = { 222 223 229 230 231 } #Neu-Gr�nnen
 
-USA_232 = { 237 238 239  } #New York
+USA_232 = { 237 238 239 66 } #New York
 
 NEN_232 = { 232 233 234 241 242 243 244 245 } #Weldsteenk�st
 
@@ -1410,11 +1414,11 @@ CLM_1723 = { 2204 1723 2205 2206 2208 } #Panama - Banavie
 
 SPA_2209 = { 2209 2210 2211 2212 } #Cuba
 
-HAI_2213 = { 2213 2214 2215 2216 } #Hispanola
+HAI_2213 = { 2213 2214 2215 2216 2220 45 } #Hispanola
 
-ENG_203 = { 2217 203 2219 2218 2220 } #Caribbean Islands
+ENG_203 = { 2217 203 2219 2218 } #Caribbean Islands
 
-ENG_2224 = { 2224 2225 2226 2227 2230 2236 2223 2222 45 3246 } #West Indies
+ENG_2224 = { 2224 2225 2226 2227 2230 2236 2223 2222 3246 } #West Indies
 
 ENG_2228 = { 2228 2229 2231 2232 2233 2237 2238 2409 2234 } #Lesser Antilles
 
