@@ -403,6 +403,7 @@ country_event = {
 		remove_country_modifier = french_traders
 		3637 = { trade_goods = fish }
 		FRA = { 3637 = { secede_province = FRS } }
+		3637 = { add_core = FRS }
         ai_chance = { factor = 100 }
     }
 }
@@ -421,6 +422,7 @@ country_event = {
 		remove_country_modifier = french_traders
 		3637 = { trade_goods = fish }
 		FRA = { 3637 = { secede_province = FRS } }
+		3637 = { add_core = FRS }
 		set_country_flag = french_traders_leaving_iran
         ai_chance = { factor = 100 }
     }
@@ -533,7 +535,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-	    months = 3
+	    months = 2
 	}
 	
 	fire_only_once = yes
@@ -762,6 +764,7 @@ country_event = {
     }
 }
 
+#The Protector of the People
 country_event = {
     id = 88025
     title = "Wakil-e Mardom"
@@ -791,7 +794,7 @@ country_event = {
 
 
 #Caucasian Turkomans
-#If Irevan is independent, unify the Turkoman
+#If Irevan is independent, unify the Turkomans
 country_event = {
     id = 278013
     title = "EVTNAME278013"
@@ -819,6 +822,7 @@ country_event = {
                     tag = NKH
                     tag = KRB
                     tag = MKU
+					tag = GNJ
                 }
             }
             country_event = { id = 278014 }

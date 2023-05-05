@@ -11629,6 +11629,7 @@
 		size = 976450
 	}
 }
+
 #Longan (2796000/699000 POPS)
 1582 = {
 	aristocrats = {
@@ -11676,7 +11677,7 @@
 	farmers = {
 		culture = beifaren
 		religion = mahayana
-		size = 503250
+		size = 203250
 	}
 
 	aristocrats = {
@@ -11742,13 +11743,13 @@
 	aristocrats = {
 		culture = kham
 		religion = gelugpa
-		size = 750
+		size = 2750
 	}
 
 	clergymen = {
 		culture = kham
 		religion = gelugpa
-		size = 400
+		size = 1200
 	}
 
 	artisans = {
@@ -11760,13 +11761,13 @@
 	soldiers = {
 		culture = kham
 		religion = gelugpa
-		size = 400
+		size = 1400
 	}
 
 	farmers = {
 		culture = kham
 		religion = gelugpa
-		size = 35500
+		size = 185500
 	}
 }
 #Shunqing (4580000/1145000 POPS)
@@ -11958,7 +11959,7 @@
 	farmers = {
 		culture = beifaren
 		religion = mahayana
-		size = 300400
+		size = 200400
 	}
 	
 	farmers = {
@@ -11994,39 +11995,40 @@
 	farmers = {
 		culture = asian_minor
 		religion = animist
-		size = 99200
+		size = 59200
 	}
 
 	aristocrats = {
 		culture = kham
 		religion = gelugpa
-		size = 3650
+		size = 350
 	}
 
 	clergymen = {
 		culture = kham
 		religion = gelugpa
-		size = 1850
+		size = 350
 	}
 
 	artisans = {
 		culture = kham
 		religion = gelugpa
-		size = 9200
+		size = 600
 	}
 
 	soldiers = {
 		culture = kham
 		religion = gelugpa
-		size = 1850
+		size = 150
 	}
 
 	farmers = {
 		culture = kham
 		religion = gelugpa
-		size = 167400
+		size = 17400
 	}
 }
+
 #Yazhou (2528000/632000 POPS)
 1586 = {
 	aristocrats = {
@@ -12068,7 +12070,7 @@
 	farmers = {
 		culture = beifaren
 		religion = mahayana
-		size = 211325
+		size = 123000
 	}
 
 	aristocrats = {
@@ -12086,7 +12088,7 @@
 	artisans = {
 		culture = yi
 		religion = animist
-		size = 400
+		size = 40
 	}
 
 	soldiers = {
@@ -12098,13 +12100,13 @@
 	serfs = {
 		culture = yi
 		religion = animist
-		size = 7325
+		size = 10325
 	}
 	
 	farmers = {
 		culture = yi
 		religion = mahayana
-		size = 100000
+		size = 7000
 	}
 
 	aristocrats = {
@@ -12164,9 +12166,109 @@
 	farmers = {
 		culture = kham
 		religion = gelugpa
-		size = 248350
+		size = 148350
 	}
 }
+
+#Xinlong
+3894 = {
+	aristocrats = {
+		culture = beifaren
+		religion = mahayana
+		size = 825
+	}
+
+	clergymen = {
+		culture = beifaren
+		religion = mahayana
+		size = 225
+	}
+	
+	artisans = {
+		culture = beifaren
+		religion = mahayana
+		size = 900
+	}
+	
+	artisans = {
+		culture = beifaren
+		religion = mahayana
+		size = 200
+	}
+
+	soldiers = {
+		culture = beifaren
+		religion = mahayana
+		size = 2525
+	}
+
+	farmers = {
+		culture = beifaren
+		religion = mahayana
+		size = 8325
+	}
+
+	aristocrats = {
+		culture = asian_minor
+		religion = animist
+		size = 150
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = animist
+		size = 100
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = animist
+		size = 450
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = animist
+		size = 100
+	}
+
+	serfs = {
+		culture = asian_minor
+		religion = animist
+		size = 3200
+	}
+
+	aristocrats = {
+		culture = kham
+		religion = gelugpa
+		size = 950
+	}
+
+	clergymen = {
+		culture = kham
+		religion = gelugpa
+		size = 625
+	}
+
+	artisans = {
+		culture = kham
+		religion = gelugpa
+		size = 550
+	}
+
+	soldiers = {
+		culture = kham
+		religion = gelugpa
+		size = 1025
+	}
+
+	farmers = {
+		culture = kham
+		religion = gelugpa
+		size = 38350
+	}
+}
+
 #Yunnan Region (5652000)
 #under the rule of China in 1836
 #Kunming (3016000/754000 POPS)
@@ -12174,67 +12276,49 @@
 	aristocrats = {
 		culture = beifaren
 		religion = mahayana
-		size = 13500
+		size = 7500
 	}
 
 	bureaucrats = {
 		culture = beifaren
 		religion = mahayana
-		size = 2675
+		size = 1675
 	}
 
 	officers = {
-		culture = hanhui
-		religion = sunni
-		size = 1375
+		culture = beifaren
+		religion = mahayana
+		size = 775
 	}
 
 	clergymen = {
 		culture = beifaren
 		religion = mahayana
-		size = 5750
+		size = 2750
 	}
 
 	artisans = {
 		culture = beifaren
 		religion = mahayana
-		size = 11000
+		size = 7000
 	}
 	
 	artisans = {
 		culture = beifaren
 		religion = mahayana
-		size = 11000
-	}
-	
-	artisans = {
-		culture = beifaren
-		religion = mahayana
-		size = 3800
+		size = 6000
 	}
 
 	soldiers = {
 		culture = hanhui
 		religion = sunni
-		size = 3000
-	}
-
-	soldiers = {
-		culture = hanhui
-		religion = sunni
-		size = 12000
-	}
-
-	soldiers = {
-		culture = hanhui
-		religion = sunni
-		size = 775
+		size = 3775
 	}
 
 	farmers = {
 		culture = beifaren
 		religion = mahayana
-		size = 312825
+		size = 112825
 	}
 	
 	serfs = {
@@ -12246,13 +12330,13 @@
 	aristocrats = {
 		culture = hanhui
 		religion = sunni
-		size = 200
+		size = 100
 	}
 
 	clergymen = {
 		culture = hanhui
 		religion = sunni
-		size = 1100
+		size = 400
 	}
 
 	artisans = {
@@ -12270,7 +12354,7 @@
 	farmers = {
 		culture = hanhui
 		religion = sunni
-		size = 189100
+		size = 89100
 	}
 
 	aristocrats = {
@@ -12302,35 +12386,65 @@
 		religion = animist
 		size = 5475
 	}
+	
+	aristocrats = {
+		culture = mongol
+		religion = gelugpa
+		size = 20
+	}
+
+	clergymen = {
+		culture = mongol
+		religion = gelugpa
+		size = 10
+	}
+
+	artisans = {
+		culture = mongol
+		religion = gelugpa
+		size = 50
+	}
+
+	soldiers = {
+		culture = mongol
+		religion = gelugpa
+		size = 110
+	}
+
+	farmers = {
+		culture = mongol
+		religion = gelugpa
+		size = 600
+	}
 
 	aristocrats = {
 		culture = miao
 		religion = animist
-		size = 200
+		size = 20
 	}
 
 	clergymen = {
 		culture = miao
 		religion = animist
-		size = 100
+		size = 10
 	}
 
 	artisans = {
 		culture = miao
 		religion = animist
-		size = 500
+		size = 50
 	}
 
 	soldiers = {
 		culture = miao
 		religion = animist
-		size = 100
+		size = 10
 	}
 
 	farmers = {
 		culture = miao
 		religion = animist
-		size = 9000
+		size = 900
 	}
 
 	aristocrats = {
@@ -12368,25 +12482,179 @@
 		religion = animist
 		size = 10000
 	}
+}
 
-	bureaucrats = {
-		culture = manchu
+#Zhoatong
+3893 = {
+	aristocrats = {
+		culture = beifaren
 		religion = mahayana
-		size = 25
+		size = 6500
 	}
 
-	officers = {
-		culture = manchu
+	clergymen = {
+		culture = beifaren
 		religion = mahayana
-		size = 25
+		size = 2750
+	}
+
+	artisans = {
+		culture = beifaren
+		religion = mahayana
+		size = 7000
+	}
+	
+	artisans = {
+		culture = beifaren
+		religion = mahayana
+		size = 6000
 	}
 
 	soldiers = {
-		culture = manchu
+		culture = hanhui
+		religion = sunni
+		size = 3775
+	}
+
+	farmers = {
+		culture = beifaren
 		religion = mahayana
-		size = 250
+		size = 162825
+	}
+	
+	serfs = {
+		culture = beifaren
+		religion = mahayana
+		size = 150000
+	}
+
+	aristocrats = {
+		culture = hanhui
+		religion = sunni
+		size = 100
+	}
+
+	clergymen = {
+		culture = hanhui
+		religion = sunni
+		size = 400
+	}
+
+	artisans = {
+		culture = hanhui
+		religion = sunni
+		size = 11000
+	}
+	
+	artisans = {
+		culture = hanhui
+		religion = sunni
+		size = 500
+	}
+
+	farmers = {
+		culture = hanhui
+		religion = sunni
+		size = 59100
+	}
+
+	aristocrats = {
+		culture = asian_minor
+		religion = animist
+		size = 100
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = animist
+		size = 50
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = animist
+		size = 300
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = animist
+		size = 75
+	}
+
+	serfs = {
+		culture = asian_minor
+		religion = animist
+		size = 5475
+	}
+
+	aristocrats = {
+		culture = miao
+		religion = animist
+		size = 120
+	}
+
+	clergymen = {
+		culture = miao
+		religion = animist
+		size = 90
+	}
+
+	artisans = {
+		culture = miao
+		religion = animist
+		size = 150
+	}
+
+	soldiers = {
+		culture = miao
+		religion = animist
+		size = 210
+	}
+
+	farmers = {
+		culture = miao
+		religion = animist
+		size = 8900
+	}
+
+	aristocrats = {
+		culture = yi
+		religion = animist
+		size = 1125
+	}
+
+	clergymen = {
+		culture = yi
+		religion = animist
+		size = 525
+	}
+
+	artisans = {
+		culture = yi
+		religion = animist
+		size = 600
+	}
+
+	soldiers = {
+		culture = yi
+		religion = animist
+		size = 525
+	}
+
+	farmers = {
+		culture = yi
+		religion = animist
+		size = 7325
+	}
+	
+	serfs = {
+		culture = yi
+		religion = animist
+		size = 6000
 	}
 }
+
 #Dali (1216000/304000 POPS)
 1602 = {
 	aristocrats = {
