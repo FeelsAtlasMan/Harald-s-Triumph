@@ -896,6 +896,99 @@
 	aristocrats = {
 		culture = baluchi
 		religion = sunni
+		size = 50
+	}
+
+	clergymen = {
+		culture = baluchi
+		religion = sunni
+		size = 50
+	}
+
+	artisans = {
+		culture = baluchi
+		religion = sunni
+		size = 10
+	}
+
+	soldiers = {
+		culture = baluchi
+		religion = sunni
+		size = 500
+	}
+
+	farmers = {
+		culture = baluchi
+		religion = sunni
+		size = 3000
+	}
+	
+	aristocrats = {
+		culture = pashtun
+		religion = sunni
+		size = 5
+	}
+
+	clergymen = {
+		culture = pashtun
+		religion = sunni
+		size = 5
+	}
+
+	artisans = {
+		culture = pashtun
+		religion = sunni
+		size = 10
+	}
+
+	soldiers = {
+		culture = pashtun
+		religion = sunni
+		size = 10
+	}
+	
+	farmers = {
+		culture = pashtun
+		religion = sunni
+		size = 100
+	}
+	
+	aristocrats = {
+		culture = brahui
+		religion = sunni
+		size = 5
+	}
+
+	clergymen = {
+		culture = brahui
+		religion = sunni
+		size = 5
+	}
+
+	artisans = {
+		culture = brahui
+		religion = sunni
+		size = 10
+	}
+
+	soldiers = {
+		culture = brahui
+		religion = sunni
+		size = 10
+	}
+	
+	farmers = {
+		culture = brahui
+		religion = sunni
+		size = 100
+	}
+}
+
+#Nukshi
+4092 = {
+	aristocrats = {
+		culture = baluchi
+		religion = sunni
 		size = 250
 	}
 
@@ -920,35 +1013,35 @@
 	farmers = {
 		culture = baluchi
 		religion = sunni
-		size = 6000
+		size = 4000
 	}
 	
 	aristocrats = {
-		culture = persian
+		culture = dehwari
 		religion = sunni
 		size = 5
 	}
 
 	clergymen = {
-		culture = persian
+		culture = dehwari
 		religion = sunni
 		size = 5
 	}
 
 	artisans = {
-		culture = persian
+		culture = dehwari
 		religion = sunni
 		size = 10
 	}
 
 	soldiers = {
-		culture = persian
+		culture = dehwari
 		religion = sunni
 		size = 10
 	}
 
 	farmers = {
-		culture = persian
+		culture = dehwari
 		religion = sunni
 		size = 200
 	}
@@ -1010,7 +1103,7 @@
 	farmers = {
 		culture = brahui
 		religion = sunni
-		size = 500
+		size = 700
 	}
 }
 
@@ -1043,7 +1136,7 @@
 	farmers = {
 		culture = baluchi
 		religion = sunni
-		size = 11000
+		size = 8000
 	}
 	
 	aristocrats = {
@@ -1107,12 +1200,45 @@
 	}
 }
 
+#Panjgur
+4089 = {
+	aristocrats = {
+		culture = baluchi
+		religion = sunni
+		size = 150
+	}
+
+	clergymen = {
+		culture = baluchi
+		religion = sunni
+		size = 150
+	}
+
+	artisans = {
+		culture = baluchi
+		religion = sunni
+		size = 100
+	}
+
+	soldiers = {
+		culture = baluchi
+		religion = sunni
+		size = 500
+	}
+
+	farmers = {
+		culture = baluchi
+		religion = sunni
+		size = 3500
+	}
+}
+
 #Kalat (104000/26000 POPS)
 1221 = {
 	aristocrats = {
 		culture = baluchi
 		religion = sunni
-		size = 100
+		size = 400
 	}
 
 	bureaucrats = {
@@ -1148,7 +1274,7 @@
 	farmers = {
 		culture = baluchi
 		religion = sunni
-		size = 12500
+		size = 6500
 	}
 	
 	aristocrats = {
@@ -1169,13 +1295,64 @@
 		size = 500
 	}
 	
+	farmers = {
+		culture = brahui
+		religion = sunni
+		size = 9925
+	}
+
+	slaves = {
+		culture = swahili 
+		religion = animist
+		size = 100
+	}
+}
+
+#Khuzdar
+4090 = {
 	aristocrats = {
 		culture = baluchi
 		religion = sunni
 		size = 100
 	}
+	
+	clergymen = {
+		culture = baluchi
+		religion = sunni
+		size = 250
+	}
 
-	bureaucrats = {
+	artisans = {
+		culture = baluchi
+		religion = sunni
+		size = 250
+	}
+
+	soldiers = {
+		culture = baluchi
+		religion = sunni
+		size = 1000
+	}
+
+	farmers = {
+		culture = baluchi
+		religion = sunni
+		size = 12500
+	}
+	
+	aristocrats = {
+		culture = dehwari
+		religion = sunni
+		size = 150
+	}
+	
+	farmers = {
+		culture = dehwari
+		religion = sunni
+		size = 1200
+	}
+	
+	aristocrats = {
 		culture = baluchi
 		religion = sunni
 		size = 100
@@ -1184,15 +1361,10 @@
 	farmers = {
 		culture = brahui
 		religion = sunni
-		size = 11925
-	}
-
-	slaves = {
-		culture = swahili 
-		religion = animist
-		size = 1000
+		size = 8925
 	}
 }
+
 #Under the Rule of Makran 1836
 #Bela (124000/31000 POPS)
 1222 = {
@@ -37414,9 +37586,8 @@
 
 }
 
-#Pondicherry - now Makran (132000/33000 POPS)
+#Torbat
 1312 = {
-	
 	aristocrats = {
 		culture = baluchi
 		religion = sunni
@@ -37440,13 +37611,41 @@
 		religion = sunni
 		size = 18000
 	}
+}
+
+#Awaran
+4091 = {
+	aristocrats = {
+		culture = baluchi
+		religion = sunni
+		size = 70
+	}
+
+	clergymen = {
+		culture = baluchi
+		religion = sunni
+		size = 20
+	}
+
+	soldiers = {
+		culture = baluchi
+		religion = sunni
+		size = 140
+	}
+
+	farmers = {
+		culture = baluchi
+		religion = sunni
+		size = 8000
+	}
 	
 	farmers = {
 		culture = brahui
 		religion = sunni
-		size = 4250
+		size = 1000
 	}
 }
+
 #Mysore Region (3140000)
 #Ruled by Mysore 1836 (2004000)
 #Bangalore (716000/179000 POPS)

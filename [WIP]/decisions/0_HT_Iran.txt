@@ -79,6 +79,8 @@ political_decisions = {
 		}	
 	}
 	
+	
+	
 	#Zohrabid Flavour
 	patronisation_of_the_mawlawiyya = {
 	    picture = "mawlawiyya"
@@ -210,7 +212,8 @@ political_decisions = {
 		    war = no
 			is_vassal = no
 			prestige = 30
-			TKO = { exists = no }
+			TKO = { vassal_of = THIS }
+			NOT = { has_country_flag = TKO_rebellion }
 		}
 		
 		effect = {
@@ -227,6 +230,7 @@ political_decisions = {
 			3612 = { add_core = THIS }
 			1150 = { add_core = THIS }
 			1204 = { add_core = THIS }
+			3386 = { add_core = THIS }
 			3398 = { add_core = THIS }
 		    set_country_flag = subjegated_khorasan
 		}
