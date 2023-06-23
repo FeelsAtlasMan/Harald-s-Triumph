@@ -149,24 +149,24 @@ political_decisions = {
 	construct_the_upland_canal = {
 		picture = upland_canal
 		potential = {
-			owns = 693
+			693 = { owned_by = THIS }
 			NOT = { has_country_flag = start_upland_canal_construction }
 		}
 		allow = {
 			OR = {
-				owns = 693
+				693 = { owned_by = THIS }
 				693 = { owner = { vassal_of = THIS } }
 			}
 			OR = {
-				owns = 696
+				696 = { owned_by = THIS }
 				696 = { owner = { vassal_of = THIS } }
 			}
 			OR = {
-				owns = 3431
+				3431 = { owned_by = THIS }
 				3431 = { owner = { vassal_of = THIS } }
 			}
 			OR = {
-				owns = 3946
+				3946 = { owned_by = THIS }
 				3946 = { owner = { vassal_of = THIS } }
 			}
 			OR = {
@@ -178,7 +178,7 @@ political_decisions = {
 		}
 		effect = {
 			prestige = 10
-			treasury = -25000 small_baby_boom
+			treasury = -25000 
 			693 = { add_province_modifier = { name = upland_canal duration = -1 } }
 			696 = { add_province_modifier = { name = upland_canal duration = -1 } }
 			3431 = { add_province_modifier = { name = upland_canal duration = -1 } }

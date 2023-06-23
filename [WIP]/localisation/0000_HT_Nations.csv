@@ -222,6 +222,7 @@ WUL_ADJ;Würzburger;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 KZN_absolute_monarchy;Khanate of Qazan;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 KZN_hms_government;Khanate of Qazan;;;;;;;;;;;;x
 KZN_prussian_constitutionalism;Khanate of Qazan;;;;;;;;;;;;x
+KZN_khanate;Khanate of Qazan;;;;;;;;;;;;x
 KZN;Qazan;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 KZN_ADJ;Qazani;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 NEN;Lozania;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
@@ -238,6 +239,7 @@ WUR;Swabia;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 WUR_ADJ;Swabian;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 BOH;Bohemia;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 BOH_ADJ;Bohemian;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+CRI_khanate;Khanate of Crimea;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 CRI_absolute_monarchy;Khanate of Crimea;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 CRI_hms_government;Khanate of Crimea;;;;;;;;;;;;x
 CRI_prussian_constitutionalism;Khanate of Crimea;;;;;;;;;;;;x
@@ -247,12 +249,14 @@ AKH_prussian_constitutionalism;Khanate of Astrakhan;;;;;;;;;;;;x
 SIB_absolute_monarchy;Khanate of Qashliq;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 SIB_hms_government;Khanate of Qashliq;;;;;;;;;;;;x
 SIB_prussian_constitutionalism;Khanate of Qashliq;;;;;;;;;;;;x
+SIB_khanate;Khanate of Qashliq;;;;;;;;;;;;x
 URA;Great Perm;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 URA_absolute_monarchy;Great Perm;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 URA_hms_government;Great Perm;;;;;;;;;;;;x
 URA_prussian_constitutionalism;Great Perm;;;;;;;;;;;;x
 URA_ADJ;Permian;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 OIR;Dzungaristan;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+OIR_khanate;Dzungar Khanate;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 OIR_absolute_monarchy;Dzungar Khanate;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 OIR_hms_government;Dzungar Khanate;;;;;;;;;;;;x
 OIR_prussian_constitutionalism;Dzungar Khanate;;;;;;;;;;;;x
@@ -401,8 +405,8 @@ VLL;Vellore;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 VLL_ADJ;Nayakan;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 KLD;Keladi;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 KLD_ADJ;Nayakan;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
-ANK;Ankara;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
-ANK_ADJ;Ankaran;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+ANK;Suveydi Emirate;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+ANK_ADJ;Suveydi;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 BHN;Champassak;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 BHN_ADJ;Champassakan;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 TSI;Tambralinga;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
@@ -456,6 +460,7 @@ NOG_ADJ;Uly-Noghai;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 PLK;Pleskov;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 PLK_ADJ;Pleskovian;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 TYM_absolute_monarchy;Tymyr Khanate;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+TYM_khanate;Tymyr Khanate;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 TYM;Tymyr;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 TYM_ADJ;Tymyr;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 NNT;Nenetsia;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
@@ -771,7 +776,7 @@ PER_hms_government;Shahdom of Iran;;;;;;;;;;;;x
 PER_prussian_constitutionalism;Shahdom of Iran;;;;;;;;;;;;x
 PER_republic;Dschomhuri-ye Iran;;;;;;;;;;;;x
 PER_ADJ;Iranian;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
-TKO;Tourkistan;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+TKO;Tkistan;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 TKO_absolute_monarchy;Turkoman Empire;;;;;;;;;;;;x
 TKO_hms_government;Turkoman Empire;;;;;;;;;;;;x
 TKO_prussian_constitutionalism;Turkoman Empire;;;;;;;;;;;;x
@@ -2251,3 +2256,5 @@ ORD;Ordos;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 ORD_ADJ;Ordos;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 JYL;Jalayer;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 JYL_ADJ;Jalayer;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+PLV;Pulnavat;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+PLV_ADJ;Pulnavat;;;;;;;;;;;;;;x;;;;;;;;;;;;;;

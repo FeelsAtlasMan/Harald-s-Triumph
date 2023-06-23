@@ -5,7 +5,7 @@ political_decisions = {
 		potential = {
 			primary_culture = turkish
 			NOT = { tag = KRM }
-			TKO = { exists = no }
+			#TKO = { exists = no }
 		}
 		
 		allow = {
@@ -18,17 +18,17 @@ political_decisions = {
 		}
 		
 		effect = {
-			KRB = { all_core = { add_core = TKO } }
+			KRB = { all_core = { add_core = THIS } }
 			KRB = { all_core = { remove_core = KRB } }
-			GNJ = { all_core = { add_core = TKO } }
+			GNJ = { all_core = { add_core = THIS } }
 			GNJ = { all_core = { remove_core = GNJ } }
-			IRV = { all_core = { add_core = TKO } }
+			IRV = { all_core = { add_core = THIS } }
 			IRV = { all_core = { remove_core = IRV } }
-            MKU = { all_core = { add_core = TKO } }	
+            MKU = { all_core = { add_core = THIS } }	
 			MKU = { all_core = { remove_core = MKU } }
-			NKH = { all_core = { add_core = TKO } }	
+			NKH = { all_core = { add_core = THIS } }	
 			NKH = { all_core = { remove_core = NKH } }
-			change_tag = TKO
+			#change_tag = TKO
 			prestige = 20
 		}	
 	}
@@ -76,7 +76,59 @@ political_decisions = {
 	            defender_goal = { casus_belli = status_quo }
 	            call_ally = no
             }
-		}	
+		}
+        ai_will_do = {
+		    factor = 1
+			modifier = {
+			     factor = 0.75
+				 war_exhaustion = 10
+			}
+		}			
+	}
+	
+	acting_against_zohrabids = {
+	    #picture = "zoroastrian_matter"
+		potential = {
+			tag = IRV
+			IRV = { vassal_of = FRS }
+			NOT = { has_country_flag = acting_against_zohrabids }
+		}
+		
+		allow = {
+		    war = no
+		}
+		
+		effect = {
+		    #FRS = { country_event = 88026 }
+		    set_country_flag = acting_against_zohrabids
+		}
+        ai_will_do = {
+		    factor = 1
+		}		
+	}
+	
+	garner_support_ajam = {
+	    #picture = "zoroastrian_matter"
+		potential = {
+			tag = IRV
+			IRV = { vassal_of = FRS }
+			has_country_flag = acting_against_zohrabids
+		}
+		
+		allow = {
+		    war = no
+			NOT = { has_country_flag = agitated_lurs }
+			NOT = { has_country_flag = tightend_grip_over_legins }
+			NOT = { has_country_flag = privileges_offered_to_arabs }
+		}
+		
+		effect = {
+		    #FRS = { country_event = 88026 }
+		    set_country_flag = acting_against_zohrabids
+		}
+        ai_will_do = {
+		    factor = 1
+		}		
 	}
 	
 	
@@ -203,9 +255,13 @@ political_decisions = {
 	the_subjegation_of_khorasan = {
 	    picture = "khorasan_map"
 		potential = {
-			tag = FRS
+		    OR = {
+			   tag = FRS
+			   tag = TKO
+			}
 			has_country_flag = claimed_timurid_succession
 			NOT = { has_country_flag = subjegated_khorasan }
+			#has_country_flag = 
 		}
 		
 		allow = {
@@ -275,27 +331,30 @@ political_decisions = {
 		}		
 	}
 	
-	guarded_realms_of_iran = {
-	    picture = "greater_iran"
-		potential = {
-			tag = FRS
-			has_country_flag = western_investments_frs
-			has_country_flag = subjegated_khorasan
-			all_core = { owned_by = THIS }
-			NOT = { has_country_flag = protector_of_the_people_title }
-		}
-		
-		allow = {
-		    war = no
-		}
-		
-		effect = {
-		    set_country_flag = protector_of_the_people_title
-		}
-        ai_will_do = {
-		    factor = 1
-		}		
-	}
+	#guarded_realms_of_iran = {
+	 #   picture = "greater_iran"
+		#potential = {
+		#	tag = FRS
+		#	has_country_flag = western_investments_frs
+		#	has_country_flag = subjegated_khorasan
+		#	all_core = { owned_by = THIS }
+		#	NOT = { has_country_flag = protector_of_the_people_title }
+		#}
+		#
+		#allow = {
+		#    war = no
+		#}
+		#
+		#effect = {
+		#    set_country_flag = protector_of_the_people_title
+		#}
+        #ai_will_do = {
+		#    factor = 1
+		#}		
+	#}
+	
+	
+	
 	
 	#Unciv Mob. 
 	mobilize_tribesmen = {
@@ -329,6 +388,31 @@ political_decisions = {
 
 		ai_will_do = { factor = 1 }
 	}
+	
+	#Ayni Tribes
+	contain_zerafshan_tribes = {
+		picture = zerafshan_valley
+		potential = {
+			3618 = { owned_by = THIS }
+			has_global_flag  = ayni_autonomy_not_removed
+		}
+
+		allow = {
+			war = no
+			civilized = yes
+		}
+
+		effect = {
+		    3618 = { remove_province_modifier = ayni_autonomy }
+			clr_global_flag = ayni_autonomy_not_removed
+		}
+
+		ai_will_do = { factor = 1 }
+	}
+	
+	
+	
+	
 	
 	#Kurdish Flavour
 	greater_kurdistan = {

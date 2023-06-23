@@ -65,6 +65,8 @@ army_schools = yes_army_schools
 
 set_country_flag = orthodox_country
 
+oob = "KRT_oob.txt"
+
 ruling_party = GEO_conservative
 upper_house = {
 	fascist = 0

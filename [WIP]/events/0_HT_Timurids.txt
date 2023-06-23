@@ -39,10 +39,23 @@ country_event = {
     option = { #resume as Timurids (Khorasan), recommanded
 	    name = "EVT9901OPTA"
 		    TIM = { all_core = { remove_core = TIM } }
+			#change_tag = KHR
 			KHR = { government = french_bourbon }
 			change_tag = KHR
 	        release_vassal = AJM
 			AJM = { government = french_bourbon }
+			AZB = {
+			    relation = {
+			         who = KRM
+				     value = -200
+			    }
+			}
+			AZB = {
+			    relation = {
+			         who = TTN
+				     value = -200
+			    }
+			}
 		    release_vassal = BUK
 			BUK = { government = french_bourbon }
 		    release_vassal = AZB
@@ -58,20 +71,59 @@ country_event = {
 			    id = 9905
 				days = 90
 		    } 
+			AJM = {
+		        capital_scope = {
+                      sub_unit = { type = irregular value = current }
+                      sub_unit = { type = irregular value = current }
+                      sub_unit = { type = cavalry value = current }
+					  sub_unit = { type = cavalry value = current }
+                      sub_unit = { type = artillery value = current }
+                }
+		    }
+			BUK = {
+		        capital_scope = {
+                      sub_unit = { type = irregular value = current }
+                      sub_unit = { type = irregular value = current }
+                      sub_unit = { type = cavalry value = current }
+					  sub_unit = { type = cavalry value = current }
+                      sub_unit = { type = artillery value = current }
+                }
+		    }
+			IRQ = {
+		        capital_scope = {
+                      sub_unit = { type = irregular value = current }
+                      sub_unit = { type = irregular value = current }
+                      sub_unit = { type = cavalry value = current }
+					  sub_unit = { type = cavalry value = current }
+                      sub_unit = { type = artillery value = current }
+                }
+		    }
 		ai_chance = { factor = 100 }
 	}
 	
 	option = { #resume as Transoxiana, recommanded
 	    name = "EVT9901OPTB"
 		    TIM = { all_core = { remove_core = TIM } }
+			change_tag = KHR
 			KHR = { government = french_bourbon }
-		    change_tag = KHR 
 	        release_vassal = AJM
 			AJM = { government = french_bourbon }
 		    release_vassal = BUK
 			BUK = { government = french_bourbon }
 		    release_vassal = AZB
 			AZB = { government = french_bourbon }
+			AZB = {
+			    relation = {
+			         who = KRM
+				     value = -200
+			    }
+			}
+			AZB = {
+			    relation = {
+			         who = TTN
+				     value = -200
+			    }
+			}
 			release_vassal = IRQ
 			IRQ = { government = french_bourbon }
 			KHR = { government = french_bourbon }
@@ -87,20 +139,59 @@ country_event = {
 				    days = 90
 		        }
 			}
+			AJM = {
+		        capital_scope = {
+                      sub_unit = { type = irregular value = current }
+                      sub_unit = { type = irregular value = current }
+                      sub_unit = { type = cavalry value = current }
+					  sub_unit = { type = cavalry value = current }
+                      sub_unit = { type = artillery value = current }
+                }
+		    }
+			BUK = {
+		        capital_scope = {
+                      sub_unit = { type = irregular value = current }
+                      sub_unit = { type = irregular value = current }
+                      sub_unit = { type = cavalry value = current }
+					  sub_unit = { type = cavalry value = current }
+                      sub_unit = { type = artillery value = current }
+                }
+		    }
+			IRQ = {
+		        capital_scope = {
+                      sub_unit = { type = irregular value = current }
+                      sub_unit = { type = irregular value = current }
+                      sub_unit = { type = cavalry value = current }
+					  sub_unit = { type = cavalry value = current }
+                      sub_unit = { type = artillery value = current }
+                }
+		    }
 		ai_chance = { factor = 0 }
 	}
 	
 	option = { #resume as Azerbaijan, hard
 	    name = "EVT9901OPTC"
 		    TIM = { all_core = { remove_core = TIM } }
+			change_tag = KHR
 			KHR = { government = french_bourbon }
 		    change_tag = KHR 
-		    release_vassal = AJM
 	        AJM = { government = french_bourbon }
 		    release_vassal = BUK
 			BUK = { government = french_bourbon }
 		    release_vassal = AZB
 			AZB = { government = french_bourbon }
+			AZB = {
+			    relation = {
+			         who = KRM
+				     value = -200
+			    }
+			}
+			AZB = {
+			    relation = {
+			         who = TTN
+				     value = -200
+			    }
+			}
 			release_vassal = IRQ
 			IRQ = { government = french_bourbon }
 			KHR = { government = french_bourbon }
@@ -116,20 +207,59 @@ country_event = {
 				    days = 90
 		        }
 			}
+			AJM = {
+		        capital_scope = {
+                      sub_unit = { type = irregular value = current }
+                      sub_unit = { type = irregular value = current }
+                      sub_unit = { type = cavalry value = current }
+					  sub_unit = { type = cavalry value = current }
+                      sub_unit = { type = artillery value = current }
+                }
+		    }
+			BUK = {
+		        capital_scope = {
+                      sub_unit = { type = irregular value = current }
+                      sub_unit = { type = irregular value = current }
+                      sub_unit = { type = cavalry value = current }
+					  sub_unit = { type = cavalry value = current }
+                      sub_unit = { type = artillery value = current }
+                }
+		    }
+			IRQ = {
+		        capital_scope = {
+                      sub_unit = { type = irregular value = current }
+                      sub_unit = { type = irregular value = current }
+                      sub_unit = { type = cavalry value = current }
+					  sub_unit = { type = cavalry value = current }
+                      sub_unit = { type = artillery value = current }
+                }
+		    }
 		ai_chance = { factor = 0 }
 	}
 	
 	option = { #resume as Iraq, hard
 	    name = "EVT9901OPTD"
 		    TIM = { all_core = { remove_core = TIM } }
+			change_tag = KHR
 			KHR = { government = french_bourbon }
-		    change_tag = KHR
 		    release_vassal = AJM
 	        AJM = { government = french_bourbon }
 		    release_vassal = BUK
 			BUK = { government = french_bourbon }
 		    release_vassal = AZB
 			AZB = { government = french_bourbon }
+			AZB = {
+			    relation = {
+			         who = KRM
+				     value = -200
+			    }
+			}
+			AZB = {
+			    relation = {
+			         who = TTN
+				     value = -200
+			    }
+			}
 			release_vassal = IRQ
 			IRQ = { government = french_bourbon }
 			KHR = { government = french_bourbon }
@@ -145,6 +275,33 @@ country_event = {
 				    days = 120
 		        }
 			}
+			AJM = {
+		        capital_scope = {
+                      sub_unit = { type = irregular value = current }
+                      sub_unit = { type = irregular value = current }
+                      sub_unit = { type = cavalry value = current }
+					  sub_unit = { type = cavalry value = current }
+                      sub_unit = { type = artillery value = current }
+                }
+		    }
+			BUK = {
+		        capital_scope = {
+                      sub_unit = { type = irregular value = current }
+                      sub_unit = { type = irregular value = current }
+                      sub_unit = { type = cavalry value = current }
+					  sub_unit = { type = cavalry value = current }
+                      sub_unit = { type = artillery value = current }
+                }
+		    }
+			IRQ = {
+		        capital_scope = {
+                      sub_unit = { type = irregular value = current }
+                      sub_unit = { type = irregular value = current }
+                      sub_unit = { type = cavalry value = current }
+					  sub_unit = { type = cavalry value = current }
+                      sub_unit = { type = artillery value = current }
+                }
+		    }
 		ai_chance = { factor = 0 }
 	}
 }
@@ -233,6 +390,41 @@ country_event = {
 	}
 }
 
+#Kurdish States picking a side
+country_event = {
+    id = 9907
+    title = "EVTNAME9907"
+    desc = "EVTDESC9907"
+        
+    is_triggered_only = yes
+
+	option = { #use the power vacuum 
+	    name = "EVT9907OPTF"
+		KHR = { release_vassal = THIS }
+		KHR = { leave_alliance = THIS }
+		government = absolute_monarchy
+		set_country_flag = sided_with_nobody_kur
+		ai_chance = { factor = 65 }
+	}
+}
+
+#Turkoman States picking a side
+country_event = {
+    id = 9908
+    title = "EVTNAME9908"
+    desc = "EVTDESC9908"
+        
+    is_triggered_only = yes
+
+	option = { #use the power vacuum 
+	    name = "EVT9908OPTF"
+		KHR = { release_vassal = THIS }
+		KHR = { leave_alliance = THIS }
+		government = absolute_monarchy
+		ai_chance = { factor = 97 }
+	}
+}
+
 #All states that are declaring independece 100%
 country_event = {
     id = 9909
@@ -245,6 +437,29 @@ country_event = {
 	    name = "EVT9909OPTA"
 		KHR = { release_vassal = THIS }
 		KHR = { leave_alliance = THIS }
+		government = absolute_monarchy
+		ai_chance = { factor = 100 }
+	}
+}
+
+#Tajik States
+country_event = {
+    id = 9910
+    title = "EVTNAME9910"
+    desc = "EVTDESC9910"
+        
+    is_triggered_only = yes
+	
+	option = { #accept the rule of Transoxiana
+	    name = "EVT9910OPTB"
+		BUK = { create_vassal = THIS }
+		government = absolute_monarchy
+		ai_chance = { factor = 0 }
+	}
+	
+	option = { #use the power vacuum 
+	    name = "EVT9910OPTF"
+		KHR = { release_vassal = THIS }
 		government = absolute_monarchy
 		ai_chance = { factor = 100 }
 	}
@@ -335,6 +550,13 @@ country_event = {
 	            defender_goal = { casus_belli = status_quo }
 	            call_ally = no
             }
+		YZD = {
+		        capital_scope = {
+                      sub_unit = { type = irregular value = current }
+                      sub_unit = { type = cavalry value = current }
+                      sub_unit = { type = artillery value = current }
+                }
+		}
 		war_exhaustion = 2
 		ai_chance = { factor = 100 }
 	}
@@ -348,6 +570,13 @@ country_event = {
 	            defender_goal = { casus_belli = status_quo }
 	            call_ally = no
             }
+		YZD = {
+		        capital_scope = {
+                      sub_unit = { type = irregular value = current }
+                      sub_unit = { type = cavalry value = current }
+                      sub_unit = { type = artillery value = current }
+                }
+		}
 		war_exhaustion = 2
 		change_tag_no_core_switch = YZD
 		ai_chance = { factor = 0 }
@@ -388,6 +617,13 @@ country_event = {
 	            defender_goal = { casus_belli = status_quo }
 	            call_ally = no
             }
+		HRZ = {
+		        capital_scope = {
+                      sub_unit = { type = irregular value = current }
+                      sub_unit = { type = cavalry value = current }
+                      sub_unit = { type = artillery value = current }
+                }
+		}
 		war_exhaustion = 2
 		ai_chance = { factor = 100 }
 	}
@@ -402,6 +638,13 @@ country_event = {
 	            defender_goal = { casus_belli = status_quo }
 	            call_ally = no
             }
+		HRZ = {
+		        capital_scope = {
+                      sub_unit = { type = irregular value = current }
+                      sub_unit = { type = cavalry value = current }
+                      sub_unit = { type = artillery value = current }
+                }
+		}
 		war_exhaustion = 2
 		change_tag_no_core_switch = HRZ
 		ai_chance = { factor = 0 }
@@ -443,6 +686,13 @@ country_event = {
 	            defender_goal = { casus_belli = status_quo }
 	            call_ally = no
             }
+		AFG = {
+		        capital_scope = {
+                      sub_unit = { type = irregular value = current }
+                      sub_unit = { type = cavalry value = current }
+                      sub_unit = { type = artillery value = current }
+                }
+		}
 		war_exhaustion = 2
 		ai_chance = { factor = 100 }
 	}
@@ -457,6 +707,13 @@ country_event = {
 	            defender_goal = { casus_belli = status_quo }
 	            call_ally = no
             }
+		AFG = {
+		        capital_scope = {
+                      sub_unit = { type = irregular value = current }
+                      sub_unit = { type = cavalry value = current }
+                      sub_unit = { type = artillery value = current }
+                }
+		}
 		war_exhaustion = 2
 		change_tag_no_core_switch = AFG
 		ai_chance = { factor = 0 }
@@ -491,76 +748,97 @@ country_event = {
 	
 	option = { 
 	    name = "EVT9915OPTA"
-		release = KND
-		release = BDK
+		#release = KND
+		release_vassal = BDK
 		release = KHI
-		KND = { create_alliance = BDK }
-		KND = { create_vassal = BDK }
-		THIS = { casus_belli = { target = KND type = conquest months = 12 } }
+		#KND = { create_alliance = BDK }
+		#KND = { create_vassal = BDK }
+		#THIS = { casus_belli = { target = KND type = conquest months = 12 } }
 		THIS = { casus_belli = { target = KHI type = conquest months = 12 } }
-		war = {
-	            target = KND
-	            attacker_goal = { casus_belli = conquest }
-	            defender_goal = { casus_belli = status_quo }
-	            call_ally = no
-            }
+		#war = {
+	    #        target = KND
+	    #        attacker_goal = { casus_belli = conquest }
+	    #        defender_goal = { casus_belli = status_quo }
+	    #        call_ally = no
+        #   }
 		war = {
 	            target = KHI
 	            attacker_goal = { casus_belli = conquest }
 	            defender_goal = { casus_belli = status_quo }
 	            call_ally = no
             }
+		KHI = {
+		        capital_scope = {
+                      sub_unit = { type = irregular value = current }
+                      sub_unit = { type = cavalry value = current }
+                      sub_unit = { type = cavalry value = current }
+                }
+		}
 		war_exhaustion = 2
 		ai_chance = { factor = 100 }
 	}
 	
-	option = { 
-	    name = "EVT9915OPTB"
-		release = KND
-		release = BDK
-		release = KHI
-		KND = { create_alliance = BDK }
-		KND = { create_vassal = BDK }
-		THIS = { casus_belli = { target = KND type = conquest months = 12 } }
-		THIS = { casus_belli = { target = KHI type = conquest months = 12 } }
-		war = {
-	            target = KND
-	            attacker_goal = { casus_belli = conquest }
-	            defender_goal = { casus_belli = status_quo }
-	            call_ally = no
-            }
-		war = {
-	            target = KHI
-	            attacker_goal = { casus_belli = conquest }
-	            defender_goal = { casus_belli = status_quo }
-	            call_ally = no
-            }
-		war_exhaustion = 2
-		change_tag_no_core_switch = KND
-		ai_chance = { factor = 0 }
-	}
+	#option = { 
+	#    name = "EVT9915OPTB"
+	#	#release = KND
+	#	release_vassal = BDK
+	#	release = KHI
+	#	#KND = { create_alliance = BDK }
+	#	#KND = { create_vassal = BDK }
+	#	#THIS = { casus_belli = { target = KND type = conquest months = 12 } }
+	#	THIS = { casus_belli = { target = KHI type = conquest months = 12 } }
+	#	#war = {
+	#    #        target = KND
+	#    #        attacker_goal = { casus_belli = conquest }
+	#    #        defender_goal = { casus_belli = status_quo }
+	#    #        call_ally = no
+    #    #    }
+	#	war = {
+	#            target = KHI
+	#            attacker_goal = { casus_belli = conquest }
+	#            defender_goal = { casus_belli = status_quo }
+	#            call_ally = no
+    #        }
+	#	KHI = {
+	#	        capital_scope = {
+    #                  sub_unit = { type = irregular value = current }
+    #                  sub_unit = { type = cavalry value = current }
+    #                  sub_unit = { type = cavalry value = current }
+    #            }
+	#	}
+	#	war_exhaustion = 2
+	#	change_tag_no_core_switch = KND
+	#	ai_chance = { factor = 0 }
+	#}
 	
 	option = { 
 	    name = "EVT9915OPTC"
-		release = KND
-		release = BDK
+		#release = KND
+		release_vassal = BDK
 		release = KHI
-		KND = { create_alliance = BDK }
-		KND = { create_vassal = BDK }
-		THIS = { casus_belli = { target = KND type = conquest months = 12 } }
+		#KND = { create_alliance = BDK }
+		#KND = { create_vassal = BDK }
+		#THIS = { casus_belli = { target = KND type = conquest months = 12 } }
 		THIS = { casus_belli = { target = KHI type = conquest months = 12 } }
-		war = {
-	            target = KND
-	            attacker_goal = { casus_belli = conquest }
-	            defender_goal = { casus_belli = status_quo }
-	            call_ally = no
-            }
+		#war = {
+	    #        target = KND
+	    #        attacker_goal = { casus_belli = conquest }
+	    #        defender_goal = { casus_belli = status_quo }
+	    #        call_ally = no
+        #    }
 		war = {
 	            target = KHI
 	            attacker_goal = { casus_belli = conquest }
 	            defender_goal = { casus_belli = status_quo }
 	            call_ally = no
             }
+		KHI = {
+		        capital_scope = {
+                      sub_unit = { type = irregular value = current }
+                      sub_unit = { type = cavalry value = current }
+                      sub_unit = { type = cavalry value = current }
+                }
+		}
 		war_exhaustion = 2
 		change_tag_no_core_switch = KHI
 		ai_chance = { factor = 0 }
@@ -609,6 +887,12 @@ country_event = {
 	            defender_goal = { casus_belli = status_quo }
 	            call_ally = no
             }
+		TKM = {
+		        capital_scope = {
+                      sub_unit = { type = cavalry value = current }
+                      sub_unit = { type = cavalry value = current }
+                }
+		}
 		war_exhaustion = 2
 		ai_chance = { factor = 100 }
 	}
@@ -672,6 +956,7 @@ country_event = {
 		release = KST
 		release = MHL
 		release = JYL
+		set_global_flag = KHR_lost_succ_crisis
 		any_owned = { limit = { is_core = THIS NOT = { region = AFG_1212 } NOT = { region = PER_1148 } NOT = { region = PER_1147 } } remove_core = THIS }
 		add_core = 1212
 		government = bourgeois_dictatorship
@@ -715,6 +1000,7 @@ country_event = {
 		release = KST
 		release = MHL
 		release = JYL
+		set_global_flag = KHR_lost_succ_crisis
 		government = bourgeois_dictatorship
 		any_country = {
 		    limit = { 
@@ -736,6 +1022,7 @@ country_event = {
 		release = KST
 		release = MHL
 		release = JYL
+		set_global_flag = KHR_lost_succ_crisis
 		government = bourgeois_dictatorship
 		any_country = {
 		    limit = { 
@@ -772,6 +1059,7 @@ country_event = {
 		release = KST
 		release = MHL
 		release = JYL
+		set_global_flag = KHR_lost_succ_crisis
 		government = bourgeois_dictatorship
 		any_country = {
 		    limit = { 
@@ -793,6 +1081,7 @@ country_event = {
 		release = KST
 		release = MHL
 		release = JYL
+		set_global_flag = KHR_lost_succ_crisis
 		government = bourgeois_dictatorship
 		any_country = {
 		    limit = { 
@@ -814,6 +1103,7 @@ country_event = {
 		release = KST
 		release = MHL
 		release = JYL
+		set_global_flag = KHR_lost_succ_crisis
 		government = bourgeois_dictatorship
 		any_country = {
 		    limit = { 
@@ -835,6 +1125,7 @@ country_event = {
 		release = KST
 		release = MHL
 		release = JYL
+		set_global_flag = KHR_lost_succ_crisis
 		government = bourgeois_dictatorship
 		any_country = {
 		    limit = { 
@@ -856,6 +1147,7 @@ country_event = {
 		release = KST
 		release = MHL
 		release = JYL
+		set_global_flag = KHR_lost_succ_crisis
 		government = bourgeois_dictatorship
 		any_country = {
 		    limit = { 
@@ -890,6 +1182,9 @@ country_event = {
 		end_war = IRQ
 		inherit = IRQ
 		prestige = 25
+		893 = { remove_core = IRQ }
+		3654 = { remove_core = IRQ }
+		887 = { remove_core = IRQ }
 		all_core = { limit = { is_core = IRQ } remove_core = IRQ add_core = MFQ }
 		any_country = {
 		    limit = { 
@@ -898,6 +1193,7 @@ country_event = {
 				    primary_culture = kurmanji
 				    primary_culture = sorani
 				    primary_culture = gorani
+					primary_culture = assyrian
 				}
 				OR = {
 			        NOT = { has_country_flag = sided_with_azb_kur }
@@ -917,6 +1213,7 @@ country_event = {
 				    primary_culture = kurmanji
 				    primary_culture = sorani
 				    primary_culture = gorani
+					primary_culture = assyrian
 				}
 				OR = {
 				    NOT = { has_country_flag = sided_with_khr_kur }
@@ -936,6 +1233,7 @@ country_event = {
 				    primary_culture = kurmanji
 				    primary_culture = sorani
 				    primary_culture = gorani
+					primary_culture = assyrian
 				}
 				OR = {
 				    NOT = { has_country_flag = sided_with_azb_kur }
@@ -955,6 +1253,7 @@ country_event = {
 				    primary_culture = kurmanji
 				    primary_culture = sorani
 				    primary_culture = gorani
+					primary_culture = assyrian
 				}
 				OR = {
 				    NOT = { has_country_flag = sided_with_azb_kur }
@@ -974,6 +1273,7 @@ country_event = {
 				    primary_culture = kurmanji
 				    primary_culture = sorani
 				    primary_culture = gorani
+					primary_culture = assyrian
 				}
 				OR = {
 				    NOT = { has_country_flag = sided_with_azb_kur }
@@ -993,6 +1293,7 @@ country_event = {
 				    primary_culture = kurmanji
 				    primary_culture = sorani
 				    primary_culture = gorani
+                    primary_culture = assyrian
 				}
 				OR = {
 				    NOT = { has_country_flag = sided_with_azb_kur }
@@ -1028,6 +1329,14 @@ country_event = {
 	option = { 
 	    name = "EVT9922OPTB" #Our current course is fine
 		KRM = { casus_belli = { target = THIS type = conquest months = 24 } }
+		KRM = { 
+		    war = {
+	            target = THIS
+	            attacker_goal = { casus_belli = conquest }
+	            defender_goal = { casus_belli = status_quo }
+	            call_ally = no
+            }
+		}
 		ai_chance = { factor = 30 }
 	}
 }
@@ -1049,6 +1358,14 @@ country_event = {
 	option = { 
 	    name = "EVT9923OPTB" #Let them come
 		KRM = { casus_belli = { target = THIS type = conquest months = 24 } }
+		KRM = { 
+		    war = {
+	            target = MFQ
+	            attacker_goal = { casus_belli = conquest }
+	            defender_goal = { casus_belli = status_quo }
+	            call_ally = no
+            }
+		}
 		ai_chance = { factor = 5 }
 	}
 }
@@ -1106,12 +1423,12 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-	    days = 30
+	    days = 5
 	}
 	
 	option = { 
 	    name = "Iran will be whole once again!"
-		relation = {
+		    relation = {
 			    who = KHR
 				value = -200
 			}
@@ -1128,6 +1445,40 @@ country_event = {
 				value = -200
 			}
 		set_country_flag = claimed_timurid_succession
+		ai_chance = { factor = 100 }
+	}
+}
+
+#Kerman debug event
+country_event = {
+    id = 99243
+    title = "EVTNAME99243"
+    desc = "EVTDESC99243"
+	picture = "siege_of_herat"
+	
+	trigger = {
+	    tag = KHR
+		1140 = { owned_by = THIS }
+		war = no
+		has_global_flag = KHR_lost_succ_crisis
+	}
+        
+    fire_only_once = yes
+	
+	option = { 
+	    name = "EVT99243OPTA"
+		1140 = { secede_province = FRS }
+		1139 = { secede_province = FRS }
+		1143 = { secede_province = FRS }
+		1145 = { secede_province = FRS }
+		3456 = { secede_province = FRS }
+		1140 = { add_core = FRS }
+		1139 = { add_core = FRS }
+		1143 = { add_core = FRS }
+		1145 = { add_core = FRS }
+		3456 = { add_core = FRS }
+		FRS = { set_country_flag = gained_kerman }
+		FRS = { add_country_modifier = { name = french_traders duration = 36500 } }
 		ai_chance = { factor = 100 }
 	}
 }

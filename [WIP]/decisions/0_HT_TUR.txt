@@ -51,7 +51,7 @@ political_decisions = {
 		}
 		allow = {
 		    NOT = { has_country_modifier = uncivilized_isolationism }
-			#has_country_modifier = western_influences
+			has_country_modifier = western_influences
 			war = no
 		}
 		effect = {
@@ -138,6 +138,13 @@ political_decisions = {
 		}
 		effect = {
 			IRQ = { all_core = { add_core = THIS } }
+			THIS = { casus_belli = { target = IRQ type = conquest months = 12 } }
+		    war = {
+	             target = IRQ
+	             attacker_goal = { casus_belli = conquest }
+	             defender_goal = { casus_belli = status_quo }
+	             call_ally = yes
+            }
 			set_country_flag = beghdilid_invasion_of_iraq
 		}
 		ai_will_do = { factor = 1 }

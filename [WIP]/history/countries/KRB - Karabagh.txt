@@ -63,6 +63,8 @@ military_constructions = yes_military_constructions
 #western_shipyards = yes_western_shipyards
 #foreign_artillery = yes_foreign_artillery
 
+oob = "KRB_oob.txt"
+
 ruling_party = AZB_reactionary
 upper_house = {
 	fascist = 0

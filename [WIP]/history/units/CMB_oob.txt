@@ -1,0 +1,16 @@
+army = {
+	name = "Army"
+	location = 3833
+	regiment = {
+		name= "Inf"
+		type = irregular
+		home = 3833
+	}
+
+	regiment = {
+		name= "Inf"
+		type = irregular
+		home = 3833
+	}
+}
+

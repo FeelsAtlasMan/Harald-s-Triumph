@@ -261,11 +261,12 @@ political_decisions = {
 			add_core = 778
 			add_core = 774
 			add_core = 782
-			casus_belli = {
-				target = ANC
-				type = annex_core_country
-				months = 60
-			}
+			#casus_belli = {
+			#	target = ANC
+			#	type = annex_core_country
+			#	months = 60
+			#}
+			set_country_flag = riorganizzazione_done
 		}
 	}
 	
@@ -453,46 +454,46 @@ political_decisions = {
 		}
 	}
 
-	sell_brindisi_ANC = {
-		picture = brindisi
-		potential = {
-			tag = ANC
-			owns = 758
-			NOT = { has_country_flag = sold_brindisi }
-		}
-		allow = {
-			war = no
-			OR = {
-				average_consciousness = 3
-				AND = {
-					ai = yes
-					year = 1842
-				}
-			}
-		}
-		effect = {
-			SIC = { country_event = 181610 }
-			
-		}
-	}
+	#sell_brindisi_ANC = {
+	#	picture = brindisi
+	#	potential = {
+	#		tag = VEN
+	#		owns = 758
+	#		NOT = { has_country_flag = sold_brindisi }
+	#	}
+	#	allow = {
+	#		war = no
+	#		OR = {
+	#			average_consciousness = 3
+	#			AND = {
+	#				ai = yes
+	#				year = 1842
+	#			}
+	#		}
+	#	}
+	#	effect = {
+	#		SIC = { country_event = 181610 }
+	#		
+	#	}
+	#}
 	
-	sell_corsica_GEN = {
-		picture = genoa
-		potential = {
-			tag = GEN
-			NOT = {
-				owns = 473
-			}
-			NOT = { has_country_flag = sold_corsica }
-		}
-		allow = {
-			NOT = { owns = 473 }
-			war = no
-		}
-		effect = {
-			467 = { owner = { country_event = 181611 } }
-		}
-	}
+	#sell_corsica_GEN = {
+	#	picture = genoa
+	#	potential = {
+	#		tag = GEN
+	#		NOT = {
+	#			owns = 473
+	#		}
+	#		NOT = { has_country_flag = sold_corsica }
+	#	}
+	#	allow = {
+	#		NOT = { owns = 473 }
+	#		war = no
+	#	}
+	#	effect = {
+	#		467 = { owner = { country_event = 181611 } }
+	#	}
+	#}
 	
 	restore_kingdom_of_africa = {
 		picture = tunisia

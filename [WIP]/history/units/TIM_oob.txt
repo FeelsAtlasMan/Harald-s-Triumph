@@ -1,4 +1,12 @@
-MUG = {
+OIR = {
+	truce_until = 1837.1.1
+}
+
+KRM = {
+	truce_until = 1840.1.1
+}
+
+OIR = {
 	value = -150
 }
 
@@ -43,63 +51,31 @@ leader = {
 }
 
 army = {
-	name = "Artesh-e Qavqaz-e Avalin"
-	location = 1090 #Tblisi
-	regiment = {
-		name= "Infantery"
-		type = irregular
-		home = 1090
-	}
-
-	regiment = {
-		name= "Infantery"
-		type = irregular
-		home = 3367
-	}
-}
-
-army = {
-	name = "Artesh-e Qavqaz-e Dovomin"
-	location = 1052 #Darband
-	regiment = {
-		name= "Infantery"
-		type = irregular
-		home = 1052
-	}
-
-	regiment = {
-		name= "Infantery"
-		type = irregular
-		home = 1103
-	}
-	
+	name = "Artesh-e Jazireh"
+	location = 893 #Diyarbakir
 	regiment = {
 		name= "Cavalry"
 		type = cavalry
-		home = 3320
+		home = 893 
 	}
 
 	regiment = {
-		name= "Artillery"
-		type = artillery
-		home = 1052
-	}
-}
-
-army = {
-	name = "Artesh-e Qavqaz-e Sevomin"
-	location = 1098 #Tblisi
-	regiment = {
-		name= "Infantery"
-		type = irregular
-		home = 1098
+		name= "Cavalry"
+		type = cavalry
+		home = 887
 	}
 
 	regiment = {
 		name= "Infantery"
 		type = irregular
-		home = 3369
+		home = 920
 	}
+	
+	regiment = {
+		name= "Infantery"
+		type = irregular
+		home = 893 
+	}	
 }
 
 army = {
@@ -187,36 +163,48 @@ army = {
 }
 
 army = {
-	name = "Artesh-e Fars"
-	location = 1135 #Shiraz
+	name = "Artesh-e Mawarannahr"
+	location = 1199 #Samarqand
 	regiment = {
 		name= "Infantery"
 		type = infantry
-		home = 1135
+		home = 1199 
 	}
 
 	regiment = {
 		name= "Infantery"
 		type = infantry
-		home = 1137
+		home = 1199 
 	}
 	
 	regiment = {
 		name= "Infantery"
 		type = infantry
-		home = 3390
+		home = 1199 
 	}
 	
 	regiment = {
 		name= "Cavalry"
 		type = cavalry
-		home = 3387
+		home = 1198
 	}
-	
+
+        regiment = {
+		name= "Cavalry"
+		type = cavalry
+		home = 1198
+	}
+       
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+		home = 1198
+	}
+
 	regiment = {
 		name= "Artillery"
 		type = artillery
-		home = 1127
+		home = 4036
 	}
 }
 

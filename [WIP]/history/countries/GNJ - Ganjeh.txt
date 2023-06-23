@@ -64,6 +64,9 @@ military_constructions = yes_military_constructions
 #western_shipyards = yes_western_shipyards
 #foreign_artillery = yes_foreign_artillery
 
+
+oob = "GNJ_oob.txt"
+
 ruling_party = PER_reactionary
 upper_house = {
 	fascist = 0

@@ -38,36 +38,36 @@ province_event = {
 
 
 # World Cup.
-country_event = {
-	title = "EVTNAME5001"
-	desc = "EVTDESC5001"
-	news = yes
-	news_desc_long = "EVTDESC5001_NEWS_LONG"
-	news_desc_medium = "EVTDESC5001_NEWS_MEDIUM"
-	news_desc_short = "EVTDESC5001_NEWS_SHORT"
-	id = 5001
-	picture = "football"
-	
-	fire_only_once = yes
-	
-	trigger = {
-		tag = URU
-		year = 1930
-		month = 6
-		exists = ARG
-	}
-	mean_time_to_happen = {
-		months = 1
-	}
-	option = {
-		name = "EVTOPTA5001"
-		prestige = 5
-		poor_strata = {
-			consciousness = -1
-			militancy = -1
-		}
-	}
-}
+#country_event = {
+#	title = "EVTNAME5001"
+#	desc = "EVTDESC5001"
+#	news = yes
+#	news_desc_long = "EVTDESC5001_NEWS_LONG"
+#	news_desc_medium = "EVTDESC5001_NEWS_MEDIUM"
+#	news_desc_short = "EVTDESC5001_NEWS_SHORT"
+#	id = 5001
+#	picture = "football"
+#	
+#	fire_only_once = yes
+#	
+#	trigger = {
+#		tag = URU
+#		year = 1930
+#		month = 6
+#		exists = ARG
+#	}
+#	mean_time_to_happen = {
+#		months = 1
+#	}
+#	option = {
+#		name = "EVTOPTA5001"
+#		prestige = 5
+#		poor_strata = {
+#			consciousness = -1
+#			militancy = -1
+#		}
+#	}
+#}
 
 #Stanley Cup
 country_event = {

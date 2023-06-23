@@ -80,7 +80,7 @@ country_event = {
 	        call_ally = no
         }
 		prestige = 5
-		military_reform = foreign_officers
+		military_reform = yes_foreign_officers
 		ai_chance = { factor = 100 }
 	}
 	

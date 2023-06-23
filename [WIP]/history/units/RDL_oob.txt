@@ -1,10 +1,20 @@
 army = {
-	name = "Army of the Kurdish Emir"
-	location = 1118
+	name = "Army of the Amir of Ardalan"
+	location = 1117
 	regiment = {
 		name= "Kurdish Warriors"
-		type = irregular
-		home = 1118
+		type = infantry
+		home = 1117
+	}
+        regiment = {
+		name= "Kurdish Warriors"
+		type = cavalry
+		home = 1117
+	}
+        regiment = {
+		name= "Kurdish Warriors"
+		type = cavalry
+		home = 1117
 	}
 }
 

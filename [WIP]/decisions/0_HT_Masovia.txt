@@ -13,11 +13,10 @@ political_decisions = {
 				year = 1844
 				AND = {
 				    BEL = { exists = yes }
-					NOT = { government = absolute_monarchy )
+					NOT = { government = absolute_monarchy }
 				}
 				NOT = { BOH = { brigades_compare = 1 } }
-			    }
-			}
+		    }
 		}
 		effect = {
 			overlord = { release_vassal = CPL country_event = 102500 }

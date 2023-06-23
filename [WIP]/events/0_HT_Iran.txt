@@ -65,6 +65,10 @@ country_event = {
     }
 }
 
+##################################
+##########Zohrabid Flava##########
+##################################
+
 #Farhad Khan Zohrabi
 country_event = {
     id = 88003
@@ -117,7 +121,7 @@ country_event = {
 #The Lurs have sworn their fealty - Zohrabids
 country_event = {
     id = 88005
-    title = "Farhad Khan Zohrabi"
+    title = "The Lurs have sworn their fealty"
     desc = "EVTDESC88005"
 	picture = "iranian_tribesmen"
 
@@ -154,17 +158,13 @@ country_event = {
     fire_only_once = yes
 	major = yes
 	
-	trigger = {
-	    tag = FRS
-		KRM = { has_country_flag = got_cut_down }
-		truce_with = KRM
-	}
+	is_triggered_only = yes
 
     option = {
         name = "We have been victorious!" 	
 		KRM = {
 		    any_country = {
-		        limit = { vassal_of = KRM NOT = { tag = DUL } NOT = { tag = RMZ } NOT = { tag = KLS } NOT = { tag = BHT } NOT = { tag = BTL } NOT = { tag = ANK } NOT = { tag = CND } NOT = { tag = KHL } NOT = { tag = URF } NOT = { tag = MFQ } }
+		        limit = { vassal_of = KRM NOT = { tag = DUL } NOT = { tag = RMZ } NOT = { tag = KLS } NOT = { tag = BHT } NOT = { tag = BTL } NOT = { tag = ANK } NOT = { tag = CND } NOT = { tag = KHL } NOT = { tag = MFQ } }
 	            country_event = 88009
 			}
 		}
@@ -173,6 +173,7 @@ country_event = {
 		892 = { add_core = FRS }
 		923 = { add_core = FRS }
 		927 = { add_core = FRS }
+		3632 = { add_core = FRS }
         TUR_3630 = { add_core = FRS }
 		TUR_935 = { add_core = FRS }
 		TUR_931 = { add_core = FRS }
@@ -184,8 +185,10 @@ country_event = {
 		    any_owned = {
 		        limit = { is_core = FRS }
 	            secede_province = FRS  
+				remove_core = KRM
 			}
 		}
+		set_global_flag = treaty_of_qazvin
 		badboy = 5
         ai_chance = { factor = 100 }
     }
@@ -201,11 +204,7 @@ country_event = {
     fire_only_once = yes
 	major = yes
 	
-	trigger = {
-	    tag = KRM
-		FRS = { has_country_flag = got_cut_down }
-		truce_with = FRS
-	}
+	is_triggered_only = yes
 
     option = {
         name = "We have been victorious!"	
@@ -330,6 +329,8 @@ country_event = {
 		932 = { add_core = FRS }
 		929 = { add_core = FRS }
 		934 = { add_core = FRS }
+		933 = { remove_core = KRM }
+		930 = { remove_core = KRM }
         ai_chance = { factor = 40 }
     }
 	
@@ -345,6 +346,8 @@ country_event = {
 	            call_ally = no
             } 
 		}
+		933 = { remove_core = KRM }
+		930 = { remove_core = KRM }
         ai_chance = { factor = 60 }
     }
 }
@@ -773,8 +776,17 @@ country_event = {
 	
 	trigger = {
 		tag = FRS
-		has_country_flag = zoroastrian_matters
-		has_country_flag = subjegated_khorasan
+		OR = {
+		   AND = {
+		       has_country_flag = disrespected_zoroastrians
+			   1130 = { owned_by = THIS }
+		   }
+		   AND = {
+		       has_country_flag = respected_zoroastrians
+			   1130 = { owned_by = THIS }
+		   }
+		}
+		has_global_flag = treaty_of_qazvin
 		all_core = { owned_by = THIS }
 		NOT = { has_country_flag = protector_of_the_people_title }
 		war = no
@@ -790,6 +802,7 @@ country_event = {
 		ai_chance = { factor = 100 }
 	}	
 }
+
 
 
 
@@ -850,5 +863,24 @@ country_event = {
         name = "We refuse!"
         prestige = 5
         ai_chance = { factor = 0 }
+    }
+}
+
+#Ayni Autonomy fix
+country_event = {
+    id = 278015
+    title = "EVTNAME278015"
+    desc = "EVTDESC278015"
+
+    trigger = {
+	    NOT = { 3618 = { has_province_modifier = ayni_autonomy } }
+		has_global_flag  = ayni_autonomy_not_removed
+		3618 = { owned_by = THIS }
+	} 
+
+    option = {
+        name = "We will deal with them somehow..."
+        3618 = { add_province_modifier = { name = ayni_autonomy duration = 36500 } }
+        ai_chance = { factor = 100 }
     }
 }

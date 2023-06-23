@@ -2890,6 +2890,36 @@
 		religion = shiite
 		size = 3725
 	}
+	
+	aristocrats = {
+		culture = mashriqi
+		religion = sunni
+		size = 30
+	}
+
+	clergymen = {
+		culture = mashriqi
+		religion = sunni
+		size = 10
+	}
+
+	artisans = {
+		culture = mashriqi
+		religion = sunni
+		size = 40
+	}
+
+	soldiers = {
+		culture = mashriqi
+		religion = sunni
+		size = 100
+	}
+
+	farmers = {
+		culture = mashriqi
+		religion = sunni
+		size = 1400
+	}
 }
 
 #Dehloran

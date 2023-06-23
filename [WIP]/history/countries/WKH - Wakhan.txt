@@ -1,5 +1,5 @@
-capital = 1207
-primary_culture = sarikoli #change to Sarikoli later
+capital = 3622
+primary_culture = sarikoli
 religion = shiite
 government = colonial_company
 plurality = 0.0
@@ -35,6 +35,7 @@ border_policy = open_borders
 centralization = regionalism
 colonial_policy = no_colonies 
 
+oob = "WKH_oob.txt"
 
 ruling_party = TAJ_conservative
 upper_house = {

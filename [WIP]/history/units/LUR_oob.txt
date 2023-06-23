@@ -1,0 +1,15 @@
+army = {
+	name = "Army of the Khorshid Amir"
+	location = 1120
+	regiment = {
+		name= "Kurdish Warriors"
+		type = infantry
+		home = 1119
+	}
+        regiment = {
+		name= "Kurdish Warriors"
+		type = cavalry
+		home = 1120
+	}
+}
+

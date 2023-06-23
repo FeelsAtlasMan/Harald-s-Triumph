@@ -1,10 +1,10 @@
-capital = 1468
+capital = 1595
 primary_culture = oirat
 culture = hanhui
-culture = uyghur
-culture = kirghiz
+culture = uighur
+culture = kirgiz
 religion = sunni
-government = absolute_monarchy
+government = khanate
 plurality = 0.0
 nationalvalue = nv_tradition
 literacy = 0.01
@@ -40,8 +40,10 @@ border_policy = closed_borders
 centralization = federalism
 colonial_policy = no_colonies 
 
-set_country_flag = gelugpa_country
+set_country_flag = sunni_country
 set_country_flag = steppe_nation
+
+oob = "OIR_oob.txt"
 
 ruling_party = MGL_conservative
 last_election = 1834.1.1

@@ -2149,12 +2149,48 @@ ideologies = {
 		modifier = {
 			factor = 1.5
 			country = { government = proletarian_dictatorship }
-			OR = { is_accepted_culture = yes is_primary_culture = yes }
 			OR = {
-				nationalvalue = nv_autocracy
-				nationalvalue = nv_tradition
+				is_accepted_culture = yes
+				is_primary_culture = yes
 			}
+			nationalvalue = nv_equality
 		}
+		modifier = {
+			factor = 1.5
+			ruling_party_ideology = communist 
+		}
+		modifier = {
+			factor = 3
+			country = { war_exhaustion = 100 }
+		}
+		modifier = {
+			factor = 2
+			country = { war_exhaustion = 80 }
+		}
+		modifier = {
+			factor = 1.8
+			country = { war_exhaustion = 50 }
+		}
+		modifier = {
+			factor = 1.6
+			country = { war_exhaustion = 20 }
+		}
+		modifier = {
+			factor = 2
+			consciousness = 9 
+			NOT = { country = { government = proletarian_dictatorship } }
+		}
+		modifier = {
+			factor = 1.6
+			consciousness = 8
+			NOT = { country = { government = proletarian_dictatorship } }
+		}
+		modifier = {
+			factor = 1.2
+			consciousness = 7
+			NOT = { country = { government = proletarian_dictatorship } }
+		}
+
 		modifier = {
 			factor = 2
 			ruling_party_ideology = communist 

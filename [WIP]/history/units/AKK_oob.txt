@@ -1,0 +1,19 @@
+army = {
+	name = "Army of the Donboli Khan"
+	location = 890
+	regiment = {
+		name= "Kurdish Warriors"
+		type = infantry
+		home = 890
+	}
+        regiment = {
+		name= "Kurdish Warriors"
+		type = cavalry
+		home = 890
+	}
+        regiment = {
+		name= "Kurdish Warriors"
+		type = cavalry
+		home = 3652
+	}
+}

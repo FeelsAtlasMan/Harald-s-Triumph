@@ -1,9 +1,9 @@
-capital = 1093
+capital = 886
 primary_culture = georgian
 religion = orthodox
 government = colonial_company
 plurality = 0.0
-nationalvalue = nv_order
+nationalvalue = nv_tradition
 literacy = 0.1
 civilized = no
 
@@ -63,6 +63,8 @@ army_schools = yes_army_schools
 
 
 set_country_flag = orthodox_country
+
+oob = "SMZ_oob.txt"
 
 ruling_party = GEO_conservative
 upper_house = {

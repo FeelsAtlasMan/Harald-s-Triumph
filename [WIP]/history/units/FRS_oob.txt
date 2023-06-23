@@ -1,0 +1,40 @@
+army = {
+	name = "Army"
+	location = 1135
+	regiment = {
+		name= "Nezami"
+		type = infantry
+		home = 1135
+	}
+        regiment = {
+		name= "Nezami"
+		type = infantry
+		home = 1135
+	}
+        regiment = {
+		name= "Nezami-ye Jadid"
+		type = guard
+		home = 3390
+	}
+        regiment = {
+		name= "Bassari Tribesmen"
+		type = cavalry
+		home = 1135
+	}
+        regiment = {
+		name= "Bassari Tribesmen"
+		type = cavalry
+		home = 1135
+	}
+        regiment = {
+		name= "Zamburak"
+		type = artillery
+		home = 1137
+	}
+        regiment = {
+		name= "Zamburak"
+		type = artillery
+		home = 1137
+	}
+}
+

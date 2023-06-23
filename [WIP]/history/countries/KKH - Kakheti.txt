@@ -8,7 +8,7 @@ literacy = 0.1
 civilized = no
 
 # Political reforms
-slavery = no_slavery
+slavery = yes_slavery
 upper_house_composition = appointed
 vote_franschise = none_voting
 public_meetings = yes_meeting
@@ -63,6 +63,8 @@ army_schools = yes_army_schools
 
 
 set_country_flag = orthodox_country
+
+oob = "KKH_oob.txt"
 
 ruling_party = GEO_conservative
 upper_house = {

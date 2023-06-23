@@ -1912,6 +1912,22 @@ danzig_harbour = {
 	icon = 19
 }
 
+kutna_hora_mine = {
+	farm_RGO_size = 0.1
+	mine_RGO_size = 0.1
+	icon = 9
+}
+
+ayni_autonomy = {
+    assimilation_rate = -0.10
+	local_artisan_output = -0.05
+	local_RGO_output = -0.05
+	pop_consciousness_modifier = 0.01
+	pop_militancy_modifier = -0.05
+	icon = 2
+}
+
+
 #######################
 ####Tver Flava#########
 #######################

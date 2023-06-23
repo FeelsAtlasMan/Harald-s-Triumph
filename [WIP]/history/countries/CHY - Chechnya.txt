@@ -37,7 +37,9 @@ border_policy = open_borders
 centralization = unitary
 colonial_policy = no_colonies 
 
-set_country_flag = shiite_country
+oob = "CHY_oob.txt"
+
+set_country_flag = sunni_country
 
 foreign_weapons = yes_foreign_weapons
 foreign_artillery = yes_foreign_artillery

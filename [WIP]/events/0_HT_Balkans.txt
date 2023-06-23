@@ -119,8 +119,6 @@ country_event = {
 	desc = "EVTDESC1122113"
 	fire_only_once = yes
 	
-	major = yes
-	
 	trigger = {
 		tag = BYZ
 		MCD = { exists = no }

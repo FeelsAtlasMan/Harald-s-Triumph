@@ -1,9 +1,3 @@
-#Relations
-
-TIM = { 
-	value = 50
-}
-
 leader = {
 	name = "Aqbey Pasha"
 	date = 1820.1.1
@@ -14,22 +8,12 @@ leader = {
 }
 
 army = {
-	name = "Candar Ordusu"
-	location = 883
+	name = "Army of the Amir of Eghil"
+	location = 3648
 	regiment = {
-		name= "Sinope Kabileleri"
+		name= "Cavalry"
 		type = cavalry
-		home = 883
-	}
-	regiment = {
-		name= "Kastamonu Kabileleri"
-		type = cavalry
-		home = 880
-	}
-	regiment = {
-		name= "Giresun Kabileleri"
-		type = infantry
-		home = 884
+		home = 3648
 	}
 }
 

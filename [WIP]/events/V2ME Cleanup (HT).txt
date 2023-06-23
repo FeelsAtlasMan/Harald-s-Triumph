@@ -828,13 +828,13 @@ country_event = {
                     has_pop_religion = catholic
                     is_culture_group = american_cultures
                     location = { is_overseas = no }
-                    NOT = {
-                        has_pop_culture = texan
-                        type = craftsmen
-                        type = bureaucrats
-                        strata = rich
-                        strata = middle
-                    }
+                    #NOT = {
+                    #    has_pop_culture = texan
+                    #    type = craftsmen
+                    #    type = bureaucrats
+                    #    strata = rich
+                    #    strata = middle
+                    #}
 
                 }
                 random_list = {
@@ -863,10 +863,7 @@ country_event = {
             any_pop = {
                 limit = {
                     has_pop_religion = catholic
-                    OR = {
-                        has_pop_culture = cajun
-                        has_pop_culture = texan
-                    }
+                    has_pop_culture = cajun
                     NOT = { type = craftsmen }
                     location = { is_overseas = no }
                 }

@@ -485,39 +485,39 @@ TUR_860 = { 860 861 } #Istanbul
 
 TUR_863 = { 863 862 864 865 3378 } #Hudavendigar - now Asia Minor
 
-TUR_869 = { 869 870 872 } #Aydin - Smyrna
+TUR_869 = { 869 870 872 4106 871 } #Aydin - Smyrna
 
-TUR_873 = { 873 3337 3657 3658 } #Konya
+TUR_873 = { 873 3337 3658 3656 } #Konya
 
-TUR_875 = { 875 874 3656 } #Antalya
+TUR_875 = { 875 874 4107 } #Antalya
 
-TUR_876 = { 876 3336 877 } #Ankara
+TUR_876 = { 876 3336 877 3657 4110 } #Ankara
 
-TUR_867 = { 867 866 868 871 } #Southern Kapadokya - now Germiyan
+TUR_867 = { 867 866 868 } #Southern Kapadokya - now Germiyan
 
 TUR_879 = { 879 3338 3660 } #Northern Kapadokya - now Sivas
 
 TUR_880 = { 880 881 883 } #Kastamonu
 
-TUR_882 = { 882 884 3371 3659 } #Trabizond
+TUR_882 = { 882 884 3371 3659 4111 } #Trabizond
 
-TUR_889 = { 888 887 3377 3654 } #Rum
+TUR_889 = { 888 887 3377 4112 } #Rum
 
-DUL_3417 = { 3417 889 878 } #Dulkadir
+DUL_3417 = { 3417 889 878 896 } #Dulkadir
 
-TUR_893 = { 893 3648 3649 3650 } #Diyarbakir
+TUR_893 = { 893 3648 3649 3650 3376 2414 } #Diyarbakir
 
-TUR_885 = { 886 885 1099 1093 } #Samtskhe
+TUR_885 = { 886 1093 4103 4102 } #Samtskhe
 
 TIM_1110 = { 1110 1109 1111 3651 3652 3653 } #Van - now Western Azerbaijan
 
-TUR_890 = { 890 891 892 } #Diyarbakir - now Van
+TUR_890 = { 890 891 892 3654 } #Diyarbakir - now Van
 
-URF_920 = { 899 920 901 2414 3376 } #Al-Raqa - now Urfa
+URF_920 = { 899 920 901 3282 4109 } #Al-Raqa - now Urfa
 
 TUR_894 = { 894 3339 895 3655 } #Adana
 
-EGY_897 = { 897 905 900 896 898 } #Aleppo
+EGY_897 = { 897 905 900 898 4108 } #Aleppo
 
 EGY_903 = { 902 903 907 } #Syria
 
@@ -531,27 +531,27 @@ EGY_921 = { 917 921 919 918 916 } #Palestine
 
 TUR_3630 = { 3630 924 925 928 3629 } #Mosul - now Arbil
 
-TIM_923 = { 923 904 927 3282 3632 } #Mosul
+TIM_923 = { 923 904 927 3632 } #Mosul
 
-TUR_931 = { 926 929 934 3631 3633 } #Baghdad
+TUR_931 = { 926 929 934 3631 3633 4115 } #Baghdad
 
 TUR_935 = { 932 933 930 } #Basra
 
-RUS_1090 = { 1090 1091 3363 3364 3365 3367 3366 3754 } #Eastern Georgia
+RUS_1090 = { 1090 1091 3363 3364 3365 3366 3754 4100 4101 1054 } #Eastern Georgia
 
 RUS_1092 = { 1092 1094 1095 3274 1096 } #Western Georgia
 
-RUS_1098 = { 1098 107 1101 3369 3750 3751 } #Armenia - now Erivan
+RUS_1098 = { 1098 885 107 1101 3369 3750 3751 4104 } #Armenia - now Erivan
 
-RUS_1102 = { 1105 1104 1106 3368 3749 3752 3753 1100 } #Aran
+RUS_1102 = { 1105 1106 3368 3749 3752 1099 1100 3367 } #Aran/Qarabagh
 
-TIM_1102 = { 1102 3370 3434 1103 3320 } #Shirvan
+TIM_1102 = { 1052 1102 3370 1103 3320 3753 1104 3314 4113 4114 } #Shirvan
 
 #TIM_3320 = { } #Lezgistan
 
 PER_1112 = { 1108 1112 3379 3380 3381 } #Eastern Azerbaijan
 
-PER_1113 = { 1113 3383 1107 3639 } #Gilan
+PER_1113 = { 1113 3383 1107 3639 3434 } #Gilan
 
 PER_1116 = { 1114 1115 3638 } #Mazandaran
 
@@ -739,9 +739,9 @@ RUS_3350 = { 3668 3350 3349 3401 3669 3671 1049 1051 3348 } #Circassia
 
 KBD_1500 = { 1050 1056 3397 3670 } #Kabardia
 
-RUS_1052 = { 1052 1053 3314 3315 3316 3319 3317 3647 } #Avarestan
+RUS_1052 = { 1053 3315 3316 3319 3317 3647 } #Avarestan
 
-TIM_1055 = { 1055 1057 3318 1054 3362 3400 } #Northern Caucasus
+TIM_1055 = { 1055 1057 3318 3362 3400 } #Northern Caucasus
 
 RUS_1060 = { 1035 1034 1043 } #Eastern Tartary
 
@@ -793,7 +793,7 @@ RUS_2615 = { 2657 2680 2654 2694 2656 2655 2693 2692 2675 3722 } #Lower Yeniseys
 
 RUS_2618 = { 1072 2641 2618 2620 2638 2639 1073 2660 } #Upper Okhotsk - Magadan
 
-RUS_2653 = { 2690 1065 1062 2685 3721 2682 } #Khanty-Mansi
+RUS_2653 = { 2690 1065 1062 2685 3721 2682 4105 } #Khanty-Mansi
 
 RUS_2668 = { 2668 2643 2665 2667 2672 2621 2619 2642 } #North Yakutsk
 

@@ -1,0 +1,57 @@
+SIB = {
+	value = -200
+}
+
+army = {
+	name = "Army"
+	location = 1182
+	regiment = {
+		name= "1st Brigade"
+		type = irregular
+		home = 1182
+	}
+	
+	regiment = {
+		name= "2nd Cavalry"
+		type = cavalry
+		home = 1182
+	}
+	
+	regiment = {
+		name= "1st Cavalry"
+		type = cavalry
+		home = 1044
+	}
+}
+
+army = {
+	name = "Army"
+	location = 4070
+	regiment = {
+		name= "2nd Cavalry"
+		type = cavalry
+		home = 1062
+	}
+	
+	regiment = {
+		name= "1st Cavalry"
+		type = cavalry
+		home = 4068
+	}
+}
+
+army = {
+	name = "Army"
+	location = 4076
+	regiment = {
+		name= "2nd Cavalry"
+		type = cavalry
+		home = 1181
+	}
+	
+	regiment = {
+		name= "1st Cavalry"
+		type = cavalry
+		home = 4070
+	}
+}

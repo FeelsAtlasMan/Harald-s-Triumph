@@ -8,6 +8,8 @@ nationalvalue = nv_tradition
 literacy = 0.01
 non_state_culture_literacy = 0.01
 
+oob = "CLS_oob.txt"
+
 ruling_party = KAS_conservative
 upper_house = {
 	fascist = 0
@@ -28,7 +30,6 @@ nonstate_consciousness = 0
 #modern_winemaking = yes
 
 oob = "CLS_oob.txt"
-
 
 slavery = yes_slavery
 upper_house_composition = appointed

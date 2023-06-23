@@ -1,16 +1,13 @@
 capital = 2648
-primary_culture = dolgan
-culture = evenki
-culture = enets
-culture = nganasan
-religion = animist
-government = absolute_monarchy
+primary_culture = sibir_tatar
+religion = sunni
+government = khanate
 plurality = 0.0
-nationalvalue = nv_order
+nationalvalue = nv_tradition
 literacy = 0.01
 
 # Political reforms
-slavery = no_slavery
+slavery = yes_slavery
 upper_house_composition = appointed
 vote_franschise = none_voting
 public_meetings = no_meeting
@@ -35,11 +32,12 @@ penal_system = capital_punishment
 child_labor = child_labor_legal
 citizens_rights = primary_culture_only
 border_policy = open_borders
-centralization = unitary
+centralization = regionalism
 colonial_policy = no_colonies 
 
+oob = "TYM_oob.txt"
 
-set_country_flag = animist_country
+set_country_flag = sunni_country
 
 ruling_party = YAK_conservative
 upper_house = {
@@ -52,4 +50,3 @@ upper_house = {
 	communist = 0
 }
 
-set_country_flag = lacking_writing_system

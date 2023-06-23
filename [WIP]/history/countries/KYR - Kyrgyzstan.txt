@@ -1,13 +1,13 @@
 capital = 1189
-primary_culture = kirgiz
+primary_culture = qara_kirgiz
 religion = sunni
-government = absolute_monarchy
+government = khanate
 plurality = 0.0
 nationalvalue = nv_tradition
 literacy = 0.02
 
 # Political reforms
-slavery = no_slavery
+slavery = yes_slavery
 upper_house_composition = appointed
 vote_franschise = none_voting
 public_meetings = no_meeting
@@ -35,6 +35,7 @@ border_policy = open_borders
 centralization = unitary
 colonial_policy = no_colonies 
 
+oob = "KYR_oob.txt"
 
 ruling_party = KYR_conservative
 upper_house = {

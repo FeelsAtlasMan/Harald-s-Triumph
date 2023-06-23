@@ -1,0 +1,19 @@
+army = {
+	name = "Army"
+	location = 894
+	regiment = {
+		name= "Kayseri Kabileleri"
+		type = cavalry
+		home = 894
+	}
+	regiment = {
+		name= "Ankara Kabileleri"
+		type = infantry
+		home = 894
+	}
+
+}
+
+
+
+

@@ -1,43 +1,20 @@
-#Relations
-
-KRM = { 
-	value = 150
-}
-
-ABB = { 
-	value = -50
-}
-
-TIM = { 
-	value = -150
-}
-
-leader = {
-	name = "'Abbas Pasha"
-	date = 1820.1.1
-	type = land
-	personality = steadfast
-	background = aristocrat
-	prestige = 0.2
-}
-
 army = {
 	name = "Dulkadir Ordusu"
-	location = 894
+	location = 3417
 	regiment = {
 		name= "Adana Kabileleri"
 		type = cavalry
-		home = 894
+		home = 3417
 	}
 	regiment = {
 		name= "Adana Kabileleri"
 		type = cavalry
-		home = 894
+		home = 889
 	}
 	regiment = {
 		name= "Antep Kabileleri"
 		type = infantry
-		home = 898
+		home = 878
 	}
 }
 

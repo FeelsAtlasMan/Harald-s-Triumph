@@ -19,10 +19,7 @@ country_event = {
 		}
 		year = 1900
 		NOT = {
-			AND = {
-				has_country_modifier = ottomanism_reform
-				citizens_rights = all_voting_pops
-			}
+			citizens_rights = all_voting_pops
 			is_culture_group = arab
 			is_culture_group = iranian_turanian
 			has_country_flag = arab_revolt
@@ -735,80 +732,80 @@ country_event = {
 }
 
 #Arab Union
-country_event = {
-	id = 98725
-	title = "EVTNAME98725" #The Call for Arab Unity
-	desc = "EVTDESC98725"
-	picture = "arab_revolt"
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = "EVT98725OPTA"
-		any_country = {
-			limit = {
-				OR = {
-					primary_culture = mashriqi
-					primary_culture = bedouin
-					primary_culture = misri
-				}
-				NOT = { tag = THIS }
-			}
-			all_core = { add_core = ARU }
-		}
-		any_country = {
-			limit = {
-				NOT = { is_culture_group = arab }
-				any_owned_province = { is_core = THIS }
-			}
-			relation = { who = THIS value = -100 }
-			leave_alliance = THIS
-			casus_belli = {
-				target = THIS
-				type = free_peoples
-				months = 60
-			}
-			casus_belli = {
-				target = THIS
-				type = humiliate
-				months = 60
-			}
-			any_owned = {
-				limit = { is_core = THIS }
-				add_province_modifier = {
-					name = nationalist_agitation
-					duration = 1095
-				}
-				any_pop = {
-					limit = { is_culture_group = arab }
-					militancy = 5
-				}
-			}
-		}
-		PER_1132 = { remove_core = ARU }
-		any_country = {
-			limit = {
-				exists = yes
-				ai = yes
-				OR = {
-					primary_culture = mashriqi
-					primary_culture = bedouin
-					primary_culture = misri
-				}
-				OR = {
-					in_sphere = THIS
-					vassal_of = THIS
-					AND = {
-						is_vassal = no
-						part_of_sphere = no
-						relation = { who = THIS value = 100 }
-					}
-				}
-			}
-			country_event = 98650
-		}
-	}
-}
+#country_event = {
+#	id = 98725
+#	title = "EVTNAME98725" #The Call for Arab Unity
+#	desc = "EVTDESC98725"
+#	picture = "arab_revolt"
+#	
+#	is_triggered_only = yes
+#	
+#	option = {
+#		name = "EVT98725OPTA"
+#		any_country = {
+#			limit = {
+#				OR = {
+#					primary_culture = mashriqi
+#					primary_culture = bedouin
+#					primary_culture = misri
+#				}
+#				NOT = { tag = THIS }
+#			}
+#			all_core = { add_core = ARU }
+#		}
+#		any_country = {
+#			limit = {
+#				NOT = { is_culture_group = arab }
+#				any_owned_province = { is_core = THIS }
+#			}
+#			relation = { who = THIS value = -100 }
+#			leave_alliance = THIS
+#			casus_belli = {
+#				target = THIS
+#				type = free_peoples
+#				months = 60
+#			}
+#			casus_belli = {
+#				target = THIS
+#				type = humiliate
+#				months = 60
+#			}
+#			any_owned = {
+#				limit = { is_core = THIS }
+#				add_province_modifier = {
+#					name = nationalist_agitation
+#					duration = 1095
+#				}
+#				any_pop = {
+#					limit = { is_culture_group = arab }
+#					militancy = 5
+#				}
+#			}
+#		}
+#		PER_1132 = { remove_core = ARU }
+#		any_country = {
+#			limit = {
+#				exists = yes
+#				ai = yes
+#				OR = {
+#					primary_culture = mashriqi
+#					primary_culture = bedouin
+#					primary_culture = misri
+#				}
+#				OR = {
+#					in_sphere = THIS
+#					vassal_of = THIS
+#					AND = {
+#						is_vassal = no
+#						part_of_sphere = no
+#						relation = { who = THIS value = 100 }
+#					}
+#				}
+#			}
+#			country_event = 98650
+#		}
+#	}
+#}
 
 #Abbasid-Zaidi Conflict
 country_event = {

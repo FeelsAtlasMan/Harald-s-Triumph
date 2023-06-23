@@ -2,7 +2,7 @@ capital = 1599
 primary_culture = kazak
 culture = kirgiz
 religion = sunni
-government = absolute_monarchy
+government = khanate
 plurality = 0.0
 nationalvalue = nv_tradition
 literacy = 0.01
@@ -37,6 +37,7 @@ border_policy = closed_borders
 centralization = unitary
 colonial_policy = no_colonies 
 
+oob = "KML_oob.txt"
 
 ruling_party = KML_conservative
 upper_house = {

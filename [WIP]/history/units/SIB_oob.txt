@@ -1,0 +1,43 @@
+UZB = {
+	value = -200
+}
+
+army = {
+	name = "Army"
+	location = 1066
+	regiment = {
+		name= "1st Brigade"
+		type = irregular
+		home = 2614
+	}
+	
+	regiment = {
+		name= "2nd Cavalry"
+		type = cavalry
+		home = 1064
+	}
+	
+	regiment = {
+		name= "1st Cavalry"
+		type = cavalry
+		home = 4074
+	}
+}
+
+army = {
+	name = "Eushta Tatars"
+	location = 4031
+	regiment = {
+		name= "1st Brigade"
+		type = irregular
+		home = 4031
+	}
+	
+	regiment = {
+		name= "1st Cavalry"
+		type = cavalry
+		home = 2686
+	}
+}
+
+

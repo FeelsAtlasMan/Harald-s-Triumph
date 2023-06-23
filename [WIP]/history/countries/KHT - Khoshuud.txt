@@ -1,5 +1,5 @@
 capital = 1558
-primary_culture = kham
+primary_culture = tumed
 religion = gelugpa
 government = colonial_company
 plurality = 0.0
@@ -35,6 +35,7 @@ border_policy = open_borders
 centralization = regionalism
 colonial_policy = no_colonies 
 
+oob = "KHT_oob.txt"
 
 ruling_party = MGL_conservative
 upper_house = {

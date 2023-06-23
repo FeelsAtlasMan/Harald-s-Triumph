@@ -1,6 +1,5 @@
 capital = 1557
-primary_culture = oirat
-culture = amdo
+primary_culture = tumed
 religion = gelugpa
 government = colonial_company
 plurality = 0.0
@@ -35,6 +34,7 @@ border_policy = closed_borders
 centralization = unitary
 colonial_policy = no_colonies 
 
+oob = "XBI_oob.txt"
 
 ruling_party = XBI_reactionary_2
 upper_house = {

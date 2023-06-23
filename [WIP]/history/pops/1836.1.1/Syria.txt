@@ -289,36 +289,36 @@
 	}
 }
 
-#Hasakeh (256000/64000 POPS) #now part of Syria 
+#Hasakh
 901 = {
 	aristocrats = {
 		culture = kurmanji
 		religion = shiite
-		size = 150
+		size = 50
 	}
 
 	clergymen = {
 		culture = kurmanji
 		religion = shiite
-		size = 125
+		size = 25
 	}
 
 	artisans = {
 		culture = kurmanji
 		religion = shiite
-		size = 350
+		size = 50
 	}
 
 	soldiers = {
 		culture = kurmanji
 		religion = shiite
-		size = 750
+		size = 250
 	}
 
 	farmers = {
 		culture = kurmanji
 		religion = shiite
-		size = 3800
+		size = 800
 	}
 	
 	clergymen = {
@@ -348,7 +348,7 @@
 	farmers = {
 		culture = turkish
 		religion = sunni
-		size = 2750
+		size = 3750
 	}
 
 	aristocrats = {
@@ -372,37 +372,37 @@
 	farmers = {
 		culture = mashriqi
 		religion = sunni
-		size = 2500
+		size = 8500
 	}
 
 	aristocrats = {
-		culture = turkish
-		religion = sunni
-		size = 50
+		culture = assyrian
+		religion = coptic
+		size = 20
 	}
 
 	clergymen = {
 		culture = assyrian
 		religion = coptic
-		size = 100
+		size = 30
 	}
 
 	artisans = {
 		culture = assyrian
 		religion = coptic
-		size = 550
+		size = 150
 	}
 
 	farmers = {
 		culture = assyrian
 		religion = coptic
-		size = 4350
+		size = 1350
 	}
 	
 	farmers = {
 		culture = kurmanji
 		religion = yazidi
-		size = 975
+		size = 275
 	}
 }
 #Suriye Region (720000)  #see Jordan.txt & Lebanon.txt for balance of region
@@ -956,43 +956,43 @@
 	clergymen = {
 		culture = turkish
 		religion = shiite
-		size = 100
+		size = 10
 	}
 
 	artisans = {
 		culture = turkish
 		religion = shiite
-		size = 500
+		size = 50
 	}
 
 	soldiers = {
 		culture = turkish
 		religion = shiite
-		size = 400
+		size = 40
 	}
 
 	farmers = {
 		culture = turkish
 		religion = shiite
-		size = 1000
+		size = 300
 	}
 
 	aristocrats = {
 		culture = mashriqi
 		religion = sunni
-		size = 450
+		size = 100
 	}
 
 	clergymen = {
 		culture = mashriqi
 		religion = sunni
-		size = 350
+		size = 90
 	}
 
 	artisans = {
 		culture = mashriqi
 		religion = sunni
-		size = 1800
+		size = 70
 	}
 
 	soldiers = {
@@ -1004,7 +1004,7 @@
 	farmers = {
 		culture = mashriqi
 		religion = sunni
-		size = 10975
+		size = 3975
 	}
 	
 	clergymen = {
@@ -1082,18 +1082,18 @@
 	clergymen = {
 		culture = mashriqi
 		religion = coptic
-		size = 90
+		size = 20
 	}
 
 	artisans = {
 		culture = mashriqi
 		religion = coptic
-		size = 200
+		size = 50
 	}
 
 	farmers = {
 		culture = mashriqi
 		religion = coptic
-		size = 1800
+		size = 400
 	}
 }

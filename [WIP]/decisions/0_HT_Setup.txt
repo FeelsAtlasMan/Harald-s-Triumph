@@ -476,7 +476,7 @@ political_decisions = {
 					}
 					literacy = 0.1
 				}
-				
+				treasury = 25000
 				any_pop = { limit = { has_pop_culture = baluchi } literacy = -0.02 }
 				
 				any_pop = { limit = { OR = { has_pop_culture = georgian has_pop_culture = armenian } } literacy = 0.02 }
@@ -485,6 +485,9 @@ political_decisions = {
 				any_pop = { limit = { has_pop_religion = catholic NOT = { has_pop_culture = assyrian } } literacy = 0.01 }
 				any_pop = { limit = { has_pop_culture = greek } literacy = 0.07 }
 			}
+			
+			3618 = { add_province_modifier = { name = ayni_autonomy duration = 25550 } }
+			set_global_flag = ayni_autonomy_not_removed
 			
 			1008 = { set_province_flag = moscow_city }
 			1008 = { any_pop = { literacy = 0.1 } }
@@ -632,9 +635,6 @@ political_decisions = {
 						OR = {
 							type = slaves
 							is_culture_group = west_african
-							is_culture_group = central_african
-							is_culture_group = east_african
-							is_culture_group = southern_african
 							has_pop_culture = afro_american
 							has_pop_culture = dakota
 							#has_pop_culture = cherokee
@@ -769,13 +769,23 @@ political_decisions = {
 					literacy = 0.05
 				}
 				any_pop = { limit = { has_pop_culture = dutch } literacy = 0.39 }
-				any_pop = { limit = { has_pop_culture = breton } literacy = -0.1 }
+				any_pop = { limit = { has_pop_culture = breton } literacy = 0.1 }
 				any_pop = { limit = { has_pop_culture = south_german } literacy = 0.54 }
 				any_pop = { limit = { has_pop_culture = north_italian } literacy = 0.24 }
 				any_pop = { limit = { has_pop_culture = anglo_canadian } literacy = 0.44 }
 				any_pop = { limit = { has_pop_culture = afro_antillean } literacy = 0.01 }
 				any_pop = { limit = { has_pop_culture = basque } literacy = 0.19 }
 				any_pop = { limit = { has_pop_culture = catalan } literacy = 0.14 }
+				any_pop = { limit = { has_pop_culture = picard } literacy = 0.42 }
+				any_pop = { limit = { has_pop_culture = franco_burgundian } literacy = 0.42 }
+				any_pop = { limit = { has_pop_culture = amorican } literacy = 0.42 }
+				any_pop = { limit = { has_pop_culture = parlangian } literacy = 0.42 }
+				any_pop = { limit = { has_pop_culture = occitan } literacy = 0.42 }
+				any_pop = { limit = { has_pop_culture = gascon } literacy = 0.42 }
+				any_pop = { limit = { has_pop_culture = north_occitan } literacy = 0.42 }
+				any_pop = { limit = { has_pop_culture = norman } literacy = 0.42 }
+				any_pop = { limit = { has_pop_culture = burgundian } literacy = 0.42 }
+				any_pop = { limit = { has_pop_culture = arpitan } literacy = 0.22 }
 				FRA_420 = { any_pop = { literacy = -0.1 } }
 				FRA_409 = { any_pop = { limit = { OR = { is_accepted_culture = yes is_primary_culture = yes } } literacy = 0.1 } }
 				FRA_411 = { any_pop = { limit = { OR = { is_accepted_culture = yes is_primary_culture = yes } } literacy = 0.1 } }
@@ -1220,10 +1230,6 @@ political_decisions = {
 					NOT = { tag = SHN }
 					OR = {
 						capital_scope = { continent = africa } 
-						capital_scope = { continent = west_africa } 
-						capital_scope = { continent = central_africa } 
-						capital_scope = { continent = east_africa } 
-						capital_scope = { continent = south_west_africa }
 						capital_scope = { continent = oceania }
 						capital_scope = { continent = asia }
 					}

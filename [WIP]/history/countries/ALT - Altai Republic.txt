@@ -1,18 +1,16 @@
 capital = 1469
-primary_culture = tuvan
-culture = khaka
-culture = tofa
-culture = chulym
+primary_culture = oyrot
 culture = altai
+culture = kirgiz
 religion = animist
 government = colonial_company
 plurality = 0.02
-nationalvalue = nv_order
+nationalvalue = nv_tradition
 literacy = 0.1
 civilized = no
 
 # Political reforms
-slavery = no_slavery
+slavery = yes_slavery
 upper_house_composition = appointed
 vote_franschise = wealth_voting
 public_meetings = yes_meeting
@@ -37,9 +35,10 @@ penal_system = capital_punishment
 child_labor = child_labor_legal
 citizens_rights = culture_voting_only
 border_policy = open_borders
-centralization = unitary
+centralization = regionalism
 colonial_policy = no_colonies 
 
+oob = "ALT_oob.txt"
 
 ruling_party = ALT_conservative
 upper_house = {

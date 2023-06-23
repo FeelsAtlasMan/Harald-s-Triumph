@@ -285,6 +285,7 @@ country_event = {
 	option = {
 		name = "EVT278008OPTA" #Such a threat at our borders cant be tolerated! 
 		TKO = { country_event = 278009 }
+		THIS = { casus_belli = { target = TKO type = conquest months = 12 } } 
 		war = {
 	        target = TKO
 	        attacker_goal = { casus_belli = conquest }
@@ -296,7 +297,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "EVT278008OPTA" #What do we have to fear from them? 
+		name = "EVT278008OPTB" #What do we have to fear from them? 
 		prestige = -5
 		ai_chance = { factor = 0 }
 	}
@@ -318,7 +319,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "EVT278008OPTA" #We can deal with them on our own!
+		name = "EVT278009OPTB" #We can deal with them on our own!
 		prestige = 5
 		ai_chance = { factor = 0 }
 	}
@@ -334,13 +335,13 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = "EVT278009OPTA" #Offer them our help in return for recognising our claim to Iran! 
+		name = "EVT278010OPTA" #Offer them our help in return for recognising our claim to Iran! 
 		TKO = { country_event = 278011 }
 		ai_chance = { factor = 100 }
 	}
 	
 	option = {
-		name = "EVT278008OPTA" #We are not interested.
+		name = "EVT278010OPTA" #We are not interested.
 		prestige = -1
 		ai_chance = { factor = 0 }
 	}
@@ -358,23 +359,17 @@ country_event = {
 	option = {
 		name = "EVT278011OPTA" #We have no other choice
 		alliance_with = FRS
+		any_country = { limit = { vassal_of = THIS } country_event = 278012 } 
+		FRS = { create_vassal = THIS }
 		KRM = {
 		    war = {
 	            target = FRS
-	            attacker_goal = { casus_belli = cut_down_to_size }
-	            defender_goal = { casus_belli = cut_down_to_size }
-	            call_ally = no
+	            attacker_goal = { casus_belli = cut_down_to_size_no_add_wargoal }
+	            defender_goal = { casus_belli = cut_down_to_size_no_add_wargoal }
+	            call_ally = yes
 			}
         }
-		FRS = { create_vassal = THIS }
-		any_country = { limit = { vassal_of = THIS } country_event = 278012 } 
 		ai_chance = { factor = 100 }
-	}
-	
-	option = {
-		name = "EVT278011OPTA" #We refuse!
-		prestige = 5
-		ai_chance = { factor = 0 }
 	}
 }
 

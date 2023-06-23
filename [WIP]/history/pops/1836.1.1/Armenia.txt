@@ -2,6 +2,12 @@
 #under the rule of Russia in 1836
 #Erivan (128000/32000 POPS)
 1098 = {
+    aristocrats = {
+		culture = turkish
+		religion = sunni
+		size = 130
+	}
+	
 	bureaucrats = {
 		culture = turkish
 		religion = sunni
@@ -23,7 +29,7 @@
 	farmers = {
 		culture = turkish
 		religion = sunni
-		size = 14000
+		size = 7000
 	}
 
 	clergymen = {
@@ -49,19 +55,7 @@
 		religion = coptic
 		size = 700
 	}
-
-	bureaucrats = {
-		culture = armenian
-		religion = coptic
-		size = 20
-	}
-
-	officers = {
-		culture = armenian
-		religion = coptic
-		size = 50
-	}
-
+	
 	clergymen = {
 		culture = armenian
 		religion = coptic
@@ -83,31 +77,31 @@
 	farmers = {
 		culture = armenian
 		religion = coptic
-		size = 16200
+		size = 11200
 	}
 	
 	artisans = {
 		culture = armenian
 		religion = jewish
-		size = 2000
+		size = 500
 	}
 
 	aristocrats = {
 		culture = persian
 		religion = sunni
-		size = 800
+		size = 400
 	}
 	
 	bureaucrats = {
 		culture = persian
 		religion = sunni
-		size = 200
+		size = 90
 	}
 
 	officers = {
 		culture = persian
 		religion = sunni
-		size = 200
+		size = 50
 	}
 
 	clergymen = {
@@ -131,7 +125,7 @@
 	farmers = {
 		culture = persian
 		religion = sunni
-		size = 4050
+		size = 450
 	}
 
 	aristocrats = {
@@ -149,7 +143,7 @@
 	farmers = {
 		culture = kurmanji
 		religion = sunni
-		size = 5550
+		size = 1550
 	}
 	
 	farmers = {
@@ -164,6 +158,100 @@
 		size = 900
 	}
 }
+
+#Ighdir
+4104 = {
+    aristocrats = {
+		culture = turkish
+		religion = sunni
+		size = 100
+	}
+
+	clergymen = {
+		culture = turkish
+		religion = sunni
+		size = 50
+	}
+
+	soldiers = {
+		culture = turkish
+		religion = sunni
+		size = 275
+	}
+	
+	farmers = {
+		culture = turkish
+		religion = sunni
+		size = 2000
+	}
+
+	clergymen = {
+		culture = turkish
+		religion = shiite
+		size = 30
+	}
+
+	soldiers = {
+		culture = turkish
+		religion = shiite
+		size = 120
+	}
+	
+	farmers = {
+		culture = turkish
+		religion = shiite
+		size = 1400
+	}
+
+	aristocrats = {
+		culture = armenian
+		religion = coptic
+		size = 80
+	}
+	
+	clergymen = {
+		culture = armenian
+		religion = coptic
+		size = 50
+	}
+	
+	artisans = {
+		culture = armenian
+		religion = coptic
+		size = 100
+	}
+
+	soldiers = {
+		culture = armenian
+		religion = coptic
+		size = 50
+	}
+
+	farmers = {
+		culture = armenian
+		religion = coptic
+		size = 1900
+	}
+
+	aristocrats = {
+		culture = kurmanji
+		religion = sunni
+		size = 75
+	}
+
+	clergymen = {
+		culture = kurmanji
+		religion = sunni
+		size = 75
+	}
+
+	farmers = {
+		culture = kurmanji
+		religion = sunni
+		size = 1050
+	}
+}
+
 #Ashtarak (128000/32000 POPS)
 3369 = {
     aristocrats = {
@@ -244,6 +332,7 @@
 		size = 2850
 	}
 }
+
 #Gyumri (68000/17000 POPS)
 1099 = {
 	aristocrats = {
@@ -584,7 +673,7 @@
 	}
 }
 
-#Grand Junction - now Igdir 
+#Grand Junction - now Bayazid 
 107 = {
 	aristocrats = {
 		culture = turkish
@@ -613,7 +702,7 @@
 	clergymen = {
 		culture = turkish
 		religion = sunni
-		size = 100
+		size = 70
 	}
 
 	artisans = {
@@ -625,37 +714,43 @@
 	farmers = {
 		culture = turkish
 		religion = sunni
-		size = 3000
+		size = 2000
 	}
 	
 	aristocrats = {
 		culture = armenian
 		religion = coptic
-		size = 200
+		size = 150
 	}
 	
 	soldiers = {
 		culture = armenian
 		religion = coptic
-		size = 330
+		size = 230
 	}
 
 	clergymen = {
 		culture = armenian
 		religion = coptic
-		size = 100
+		size = 70
 	}
 
 	artisans = {
 		culture = armenian
 		religion = coptic
-		size = 500
+		size = 400
 	}
 
 	farmers = {
 		culture = armenian
 		religion = coptic
-		size = 9000
+		size = 2000
+	}
+	
+	aristocrats = {
+		culture = kurmanji
+		religion = sunni
+		size = 100
 	}
 
 	clergymen = {
@@ -664,15 +759,21 @@
 		size = 30
 	}
 
-	artisans = {
+	soldiers = {
 		culture = kurmanji
 		religion = sunni
-		size = 100
+		size = 300
 	}
 
 	farmers = {
 		culture = kurmanji
 		religion = sunni
-		size = 3000
+		size = 4700
+	}
+	
+	slaves = {
+		culture = assyrian
+		religion = coptic
+		size = 300
 	}
 }

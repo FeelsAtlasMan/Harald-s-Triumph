@@ -66,6 +66,8 @@ foreign_weapons = yes_foreign_weapons
 #western_shipyards = yes_western_shipyards
 #foreign_artillery = yes_foreign_artillery
 
+oob = "LUR_oob.txt"
+
 ruling_party = KDS_reactionary
 upper_house = {
 	fascist = 0
