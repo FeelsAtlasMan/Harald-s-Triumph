@@ -7,7 +7,8 @@ country_event = {
 	picture = "capturing_khiva"
 
     trigger = {
-        tag = TKO
+        tag = IRV
+		has_global_flag = turkoman_unification_true 
     }
 	
 	fire_only_once = yes
@@ -15,7 +16,7 @@ country_event = {
     mean_time_to_happen = { days = 365 }
 
     option = {
-	    TKO = { casus_belli = { target = AZB type = conquest months = 12 } }
+	    IRV = { casus_belli = { target = AZB type = conquest months = 12 } }
         name = "Destroy the Timurid Remnant!"
 		AZB = { all_core = { add_core = THIS } }
         war = {
@@ -46,14 +47,14 @@ country_event = {
 
     option = {
         name = "We have no other choice..."
-        TKO = { create_vassal = THIS }
+        IRV = { create_vassal = THIS }
         ai_chance = { factor = 100 }
     }
 	
 	option = {
         name = "The Turks of no Authority over us!"
-		TKO = { casus_belli = { target = THIS type = create_vassal months = 12 } }
-		TKO = {
+		IRV = { casus_belli = { target = THIS type = create_vassal months = 12 } }
+		IRV = {
 		    war = {
 	            target = THIS
 	            attacker_goal = { casus_belli = create_vassal }
@@ -178,7 +179,7 @@ country_event = {
 		TUR_935 = { add_core = FRS }
 		TUR_931 = { add_core = FRS }
 		PER_1117 = { add_core = FRS }
-		TKO = { all_core = { add_core = FRS } }
+		IRV = { all_core = { add_core = FRS } }
 		AKK = { all_core = { add_core = FRS } }
 		KHZ = { all_core = { add_core = FRS } }
 		KRM = {
@@ -208,8 +209,8 @@ country_event = {
 
     option = {
         name = "We have been victorious!"	
-		TKO = { all_core = { add_core = THIS } }
-		inherit = TKO
+		IRV = { all_core = { add_core = THIS } }
+		inherit = IRV
         926 = { add_core = THIS }
 		923 = { add_core = THIS }
 		927 = { add_core = THIS }
@@ -572,7 +573,13 @@ country_event = {
 		NRD = {
 		    diplomatic_influence = {
 	           who = FRS
-	           value = 4
+	           value = 5
+            }
+		}
+		FRA = {
+		    diplomatic_influence = {
+	           who = FRS
+	           value = -3
             }
 		}
 		create_alliance = NRD
@@ -589,7 +596,13 @@ country_event = {
 		FRA = {
 		    diplomatic_influence = {
 	           who = FRS
-	           value = 4
+	           value = 5
+            }
+		}
+		NRD = {
+		    diplomatic_influence = {
+	           who = FRS
+	           value = -3
             }
 		}
 		create_alliance = FRA
@@ -873,9 +886,10 @@ country_event = {
     desc = "EVTDESC278015"
 
     trigger = {
+	    tag = CLN
 	    NOT = { 3618 = { has_province_modifier = ayni_autonomy } }
 		has_global_flag  = ayni_autonomy_not_removed
-		3618 = { owned_by = THIS }
+		#3618 = { owned_by = THIS }
 	} 
 
     option = {

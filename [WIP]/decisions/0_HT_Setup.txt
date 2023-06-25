@@ -486,8 +486,34 @@ political_decisions = {
 				any_pop = { limit = { has_pop_culture = greek } literacy = 0.07 }
 			}
 			
-			3618 = { add_province_modifier = { name = ayni_autonomy duration = 25550 } }
+			3618 = { add_province_modifier = { name = ayni_autonomy duration = 25550 } } #Veshab/Ayni
+			1137 = { add_province_modifier = { name = luri_autonomy duration = 25550 } } #Yasuj
+			1134 = { add_province_modifier = { name = luri_autonomy duration = 25550 } } #Dehkord
+			4117 = { add_province_modifier = { name = luri_autonomy duration = 25550 } } #Golpayegan
+			4116 = { add_province_modifier = { name = luri_autonomy duration = 25550 } } #Izeh
+			3391 = { add_province_modifier = { name = lari_autonomy duration = 25550 } } #Lar
 			set_global_flag = ayni_autonomy_not_removed
+			set_global_flag = luri_autonomy_not_removed
+			set_global_flag = lari_autonomy_not_removed
+			
+			1125 = { add_province_modifier = { name = great_khorasan_road_1 duration = 25550 } } #Qom
+			1128 = { add_province_modifier = { name = great_khorasan_road_1 duration = 25550 } } #Arak
+			1122 = { add_province_modifier = { name = great_khorasan_road_1 duration = 25550 } } #Hamadan
+			1119 = { add_province_modifier = { name = great_khorasan_road_1 duration = 25550 } } #Kermanshah
+			4115 = { add_province_modifier = { name = great_khorasan_road_1 duration = 25550 } } #Khanaqin
+			926 = { add_province_modifier = { name = great_khorasan_road_1 duration = 25550 } } #Baghdad
+			
+			1121 = { add_province_modifier = { name = great_khorasan_road_1 duration = 25550 } } #Tehran
+			3638 = { add_province_modifier = { name = great_khorasan_road_1 duration = 25550 } } #Firuzkuh
+			1126 = { add_province_modifier = { name = great_khorasan_road_1 duration = 25550 } } #Semnan
+			3611 = { add_province_modifier = { name = great_khorasan_road_1 duration = 25550 } } #Damghan
+			3641 = { add_province_modifier = { name = great_khorasan_road_1 duration = 25550 } } #Bastam
+			1149 = { add_province_modifier = { name = great_khorasan_road_1 duration = 25550 } } #Sabzevar
+			3642 = { add_province_modifier = { name = great_khorasan_road_1 duration = 25550 } } #Nishapur
+			1147 = { add_province_modifier = { name = great_khorasan_road_1 duration = 25550 } } #Mashhad
+			3628 = { add_province_modifier = { name = great_khorasan_road_1 duration = 25550 } } #Guriyan
+			1212 = { add_province_modifier = { name = great_khorasan_road_1 duration = 25550 } } #Herat
+			set_global_flag = great_khorasan_road_1_exists
 			
 			1008 = { set_province_flag = moscow_city }
 			1008 = { any_pop = { literacy = 0.1 } }

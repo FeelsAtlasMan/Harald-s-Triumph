@@ -39,6 +39,104 @@ country_event = {
 	option = {
 		name = "Checking..."
 		
+		#Luri Autonomy
+        any_country = {
+            limit = {
+                has_global_flag = luri_autonomy_not_removed
+                any_owned_province = {
+                    OR = {
+                        province_id = 1137
+                        province_id = 1134
+                        province_id = 4116
+                        province_id = 4117
+                    }
+                    NOT = { has_province_modifier = luri_autonomy }
+                }
+            }
+            any_owned = {
+                limit = {
+                    OR = {
+                        province_id = 1137
+                        province_id = 1134
+                        province_id = 4116
+                        province_id = 4117
+                    }
+                    NOT = { has_province_modifier = luri_autonomy }
+                }
+                add_province_modifier = { name = luri_autonomy duration = 36500 }
+            }
+        }
+		
+		#Lari Autonomy
+        any_country = {
+            limit = {
+                has_global_flag = lari_autonomy_not_removed
+                any_owned_province = {
+                    province_id = 3391
+                    NOT = { has_province_modifier = lari_autonomy }
+                }
+            }
+            any_owned = {
+                limit = {
+                    province_id = 3391
+                    NOT = { has_province_modifier = lari_autonomy }
+                }
+                add_province_modifier = { name = lari_autonomy duration = 36500 }
+            }
+        }
+		
+		#Great Khorasan Road
+        any_country = {
+            limit = {
+                has_global_flag = great_khorasan_road_1_exists
+                any_owned_province = {
+                    OR = {
+			            province_id = 1125
+			            province_id = 1128
+			            province_id = 1122
+			            province_id = 1119
+			            province_id = 4115
+			            province_id = 926
+			            province_id = 1121
+			            province_id = 3638
+			            province_id = 1126
+			            province_id = 3611
+			            province_id = 3641
+			            province_id = 1149
+			            province_id = 3642
+			            province_id = 1147
+			            province_id = 3628
+			            province_id = 1212
+                    }
+                    NOT = { has_province_modifier = lari_autonomy }
+                }
+            }
+            any_owned = {
+                limit = {
+                    OR = {
+                        province_id = 1125
+			            province_id = 1128
+			            province_id = 1122
+			            province_id = 1119
+			            province_id = 4115
+			            province_id = 926
+			            province_id = 1121
+			            province_id = 3638
+			            province_id = 1126
+			            province_id = 3611
+			            province_id = 3641
+			            province_id = 1149
+			            province_id = 3642
+			            province_id = 1147
+			            province_id = 3628
+			            province_id = 1212
+                    }
+                    NOT = { has_province_modifier = great_khorasan_road_1 }
+                }
+                add_province_modifier = { name = lari_autonomy duration = 36500 }
+            }
+        }
+		
 		#removing sanctions
 		any_country = {
 			limit = {

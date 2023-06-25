@@ -278,16 +278,16 @@ country_event = {
 
 	trigger = {
 	    tag = KRM
-		1102 = { owned_by = TKO }
+		1102 = { owned_by = IRV }
 		has_country_flag = beghdilid_invasion_of_iraq
 	}
 	
 	option = {
 		name = "EVT278008OPTA" #Such a threat at our borders cant be tolerated! 
-		TKO = { country_event = 278009 }
-		THIS = { casus_belli = { target = TKO type = conquest months = 12 } } 
+		IRV = { country_event = 278009 }
+		THIS = { casus_belli = { target = IRV type = conquest months = 12 } } 
 		war = {
-	        target = TKO
+	        target = IRV
 	        attacker_goal = { casus_belli = conquest }
 	        defender_goal = { casus_belli = humiliate }
 	        call_ally = no
@@ -336,7 +336,7 @@ country_event = {
 	
 	option = {
 		name = "EVT278010OPTA" #Offer them our help in return for recognising our claim to Iran! 
-		TKO = { country_event = 278011 }
+		IRV = { country_event = 278011 }
 		ai_chance = { factor = 100 }
 	}
 	

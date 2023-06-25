@@ -29,6 +29,7 @@ political_decisions = {
 			NKH = { all_core = { add_core = THIS } }	
 			NKH = { all_core = { remove_core = NKH } }
 			#change_tag = TKO
+			set_global_flag = turkoman_unification_true
 			prestige = 20
 		}	
 	}
@@ -36,7 +37,8 @@ political_decisions = {
 	demand_georgian_tribute = {
 	    picture = "treaty_of_turkmanchay"
 		potential = {
-			tag = TKO
+			tag = IRV
+			has_global_flag = turkoman_unification_true 
 			NOT = { has_country_flag = georgian_tribute }
 		}
 		
@@ -56,7 +58,7 @@ political_decisions = {
 	crush_shirvan = {
 	    picture = "turkomen_palace"
 		potential = {
-			tag = TKO
+			tag = IRV
 			has_country_flag = georgian_tribute 
 			NOT = { has_country_flag = crush_shirvan }
 		}
@@ -241,7 +243,7 @@ political_decisions = {
 		    NRD = {
 		       diplomatic_influence = {
 	                who = FRS
-	                value = 4
+	                value = 5
                 }
 		    }
 		    create_alliance = NRD
@@ -257,7 +259,7 @@ political_decisions = {
 		potential = {
 		    OR = {
 			   tag = FRS
-			   tag = TKO
+			   tag = IRV
 			}
 			has_country_flag = claimed_timurid_succession
 			NOT = { has_country_flag = subjegated_khorasan }
@@ -268,7 +270,7 @@ political_decisions = {
 		    war = no
 			is_vassal = no
 			prestige = 30
-			TKO = { vassal_of = THIS }
+			IRV = { vassal_of = THIS }
 			NOT = { has_country_flag = TKO_rebellion }
 		}
 		

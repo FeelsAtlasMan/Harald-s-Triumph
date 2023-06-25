@@ -1419,7 +1419,7 @@ country_event = {
 		war = no
 		is_vassal = no
 		prestige = 30
-		TKO = { vassal_of = THIS }
+		IRV = { vassal_of = THIS }
 	}
 	
 	mean_time_to_happen = {

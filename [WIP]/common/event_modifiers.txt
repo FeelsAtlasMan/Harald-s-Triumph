@@ -1927,6 +1927,38 @@ ayni_autonomy = {
 	icon = 2
 }
 
+lari_autonomy = {
+    assimilation_rate = -0.10
+	local_artisan_output = -0.05
+	local_RGO_output = -0.05
+	pop_consciousness_modifier = 0.01
+	pop_militancy_modifier = -0.05
+	icon = 2
+}
+
+luri_autonomy = {
+    assimilation_rate = -0.10
+	local_artisan_output = -0.05
+	local_RGO_output = -0.05
+	pop_consciousness_modifier = 0.01
+	pop_militancy_modifier = -0.05
+	icon = 2
+}
+
+great_khorasan_road_1 = {
+	local_artisan_output = 0.05
+	local_RGO_output = 0.05
+	movement_cost = -0.10
+	supply_limit = 0.5
+	icon = 11
+}
+
+great_khorasan_road_2 = {
+	local_RGO_output = 0.20
+	movement_cost = -0.15
+	supply_limit = 0.10
+	icon = 11
+}
 
 #######################
 ####Tver Flava#########
