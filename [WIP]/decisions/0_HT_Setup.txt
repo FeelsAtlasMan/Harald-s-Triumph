@@ -497,7 +497,8 @@ political_decisions = {
 			set_global_flag = lari_autonomy_not_removed
 			
 			1125 = { add_province_modifier = { name = great_khorasan_road_1 duration = 25550 } } #Qom
-			1128 = { add_province_modifier = { name = great_khorasan_road_1 duration = 25550 } } #Arak
+			4124 = { add_province_modifier = { name = great_khorasan_road_1 duration = 25550 } } #Saveh
+			4123 = { add_province_modifier = { name = great_khorasan_road_1 duration = 25550 } } #Nahavand
 			1122 = { add_province_modifier = { name = great_khorasan_road_1 duration = 25550 } } #Hamadan
 			1119 = { add_province_modifier = { name = great_khorasan_road_1 duration = 25550 } } #Kermanshah
 			4115 = { add_province_modifier = { name = great_khorasan_road_1 duration = 25550 } } #Khanaqin

@@ -101,7 +101,7 @@ political_decisions = {
 		}
 		
 		effect = {
-		    #FRS = { country_event = 88026 }
+		    FRS = { country_event = 88026 }
 		    set_country_flag = acting_against_zohrabids
 		}
         ai_will_do = {
@@ -115,6 +115,7 @@ political_decisions = {
 			tag = IRV
 			IRV = { vassal_of = FRS }
 			has_country_flag = acting_against_zohrabids
+			has_global_flag = irv_frs_influence_battle
 		}
 		
 		allow = {
@@ -125,8 +126,9 @@ political_decisions = {
 		}
 		
 		effect = {
-		    #FRS = { country_event = 88026 }
-		    set_country_flag = acting_against_zohrabids
+		    --- = { country_event = 88027 }
+			--- = { country_event = 88028 }
+		    set_country_flag = tried_to_garner_support_ajam
 		}
         ai_will_do = {
 		    factor = 1

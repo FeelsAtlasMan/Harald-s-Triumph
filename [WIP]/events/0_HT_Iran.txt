@@ -807,16 +807,44 @@ country_event = {
 	
 	fire_only_once = yes
 		
+	option = {
+        name = "His plans need to be countered!"	
+		set_global_flag = irv_frs_influence_battle
+        ai_chance = { factor = 100 }
+    }	
+}
+
+#Suspicious News from Irevan
+country_event = {
+    id = 88026
+    title = "Suspicious News from Irevan"
+    desc = "EVTDESC88026"
+	#picture = "iranian_court_briefing"
+	
+	is_triggered_only = yes
+		
 	effect = {
-	    prestige = 30
-		militancy = -5
-		consciousness = -3
+	    
 		set_country_flag = protector_of_the_people_title
 		ai_chance = { factor = 100 }
 	}	
 }
 
-
+#A Message to Governour of Northern Ajam
+country_event = {
+    id = 88027
+    title = "A Message to Governour of Northern Ajam"
+    desc = "EVTDESC88027"
+	#picture = "protector_of_the_people"
+	
+	is_triggered_only = yes
+		
+	effect = {
+	    
+		set_country_flag = protector_of_the_people_title
+		ai_chance = { factor = 100 }
+	}	
+}
 
 
 #Caucasian Turkomans
