@@ -109,7 +109,7 @@ country_event = {
 			            province_id = 3628
 			            province_id = 1212
                     }
-                    NOT = { has_province_modifier = lari_autonomy }
+                    NOT = { has_province_modifier = great_khorasan_road_1 }
                 }
             }
             any_owned = {
@@ -135,7 +135,7 @@ country_event = {
                     }
                     NOT = { has_province_modifier = great_khorasan_road_1 }
                 }
-                add_province_modifier = { name = lari_autonomy duration = 36500 }
+                add_province_modifier = { name = great_khorasan_road_1 duration = 36500 }
             }
         }
 		

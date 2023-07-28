@@ -307,7 +307,7 @@ political_decisions = {
 	    picture = "zoroastrian_matter"
 		potential = {
 			tag = FRS
-			has_country_flag = claimed_timurid_succession
+			has_country_flag = death_of_abu_said_mirza
 			NOT = { has_country_flag = zoroastrian_matters }
 		}
 		
@@ -325,6 +325,41 @@ political_decisions = {
 		effect = {
 		    country_event = 88022
 		    set_country_flag = zoroastrian_matters
+		}
+        ai_will_do = {
+		    factor = 1
+			modifier = {
+			     factor = 0
+				 badboy = 0.75
+			}
+		}		
+	}
+	
+	the_caspian_campaign = {
+	    picture = "caspian_campaign"
+		potential = {
+			tag = FRS
+			has_country_flag = zoroastrian_matters
+			NOT = { has_country_flag = first_caspian_campaign }
+			BRL = { exists = yes }
+		}
+		
+		allow = {
+			war = no
+			YZD = { exists = no }
+			1130 = { owned_by = THIS }
+			1140 = { owned_by = THIS }
+		}
+		
+		effect = { 
+		    casus_belli = { target = BRL type = conquest months = 12 }
+		    war = {
+	            target = BRL
+	            attacker_goal = { casus_belli = conquest }
+	            defender_goal = { casus_belli = status_quo }
+	            call_ally = no
+            } 
+		    set_country_flag = first_caspian_campaign
 		}
         ai_will_do = {
 		    factor = 1

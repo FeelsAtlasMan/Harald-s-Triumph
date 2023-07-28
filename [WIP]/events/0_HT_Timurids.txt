@@ -67,6 +67,8 @@ country_event = {
 			1141 = { secede_province = FRS }
 			1071 = { secede_province = FRS }
 			1138 = { secede_province = FRS }
+			4129 = { secede_province = FRS }
+			4130 = { secede_province = FRS }
 			country_event = {
 			    id = 9905
 				days = 90
@@ -132,6 +134,8 @@ country_event = {
 			1141 = { secede_province = FRS }
 			1071 = { secede_province = FRS }
 			1138 = { secede_province = FRS }
+			4129 = { secede_province = FRS }
+			4130 = { secede_province = FRS }
 			change_tag_no_core_switch = BUK
 			KHR = { 
 			    country_event = {
@@ -200,6 +204,8 @@ country_event = {
 			1141 = { secede_province = FRS }
 			1071 = { secede_province = FRS }
 			1138 = { secede_province = FRS }
+			4129 = { secede_province = FRS }
+			4130 = { secede_province = FRS }
 			change_tag_no_core_switch = AZB
 			KHR = { 
 			    country_event = {
@@ -268,6 +274,8 @@ country_event = {
 			1141 = { secede_province = FRS }
 			1071 = { secede_province = FRS }
 			1138 = { secede_province = FRS }
+			4129 = { secede_province = FRS }
+			4130 = { secede_province = FRS }
 			change_tag_no_core_switch = IRQ
 			KHR = { 
 			    country_event = {
@@ -489,6 +497,8 @@ country_event = {
 					1143 = { controlled_by = FRS }
 					3456 = { controlled_by = FRS }
 					1145 = { controlled_by = FRS }
+					4127 = { controlled_by = FRS }
+			        4128 = { controlled_by = FRS }
 				}
 			}
 		}
@@ -503,11 +513,15 @@ country_event = {
 		1143 = { secede_province = FRS }
 		1145 = { secede_province = FRS }
 		3456 = { secede_province = FRS }
+		4127 = { secede_province = FRS }
+		4128 = { secede_province = FRS }
 		1140 = { add_core = FRS }
 		1139 = { add_core = FRS }
 		1143 = { add_core = FRS }
 		1145 = { add_core = FRS }
 		3456 = { add_core = FRS }
+		4127 = { add_core = FRS }
+		4128 = { add_core = FRS }
 		war_exhaustion = 20
 		FRS = { set_country_flag = gained_kerman }
 		FRS = { add_country_modifier = { name = french_traders duration = 36500 } }
@@ -1383,6 +1397,7 @@ country_event = {
 	    1129 = { owned_by = AJM }
 		AJM = { vassal_of = FRS }
 		tag = FRS
+		NOT = { war_with = TIM }
 	}
 	
 	mean_time_to_happen = {

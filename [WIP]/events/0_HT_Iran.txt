@@ -539,7 +539,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-	    months = 2
+	    months = 1
 	}
 	
 	fire_only_once = yes
@@ -570,16 +570,20 @@ country_event = {
 	        who = NRD
 	        value = 200
         }
+		relation = {
+	        who = FRA
+	        value = -100
+        }
 		NRD = {
 		    diplomatic_influence = {
 	           who = FRS
-	           value = 5
+	           value = 300
             }
 		}
 		FRA = {
 		    diplomatic_influence = {
 	           who = FRS
-	           value = -3
+	           value = -300
             }
 		}
 		create_alliance = NRD
@@ -593,16 +597,20 @@ country_event = {
 	        who = FRA
 	        value = 200
         }
+		relation = {
+	        who = NRD
+	        value = -100
+        }
 		FRA = {
 		    diplomatic_influence = {
 	           who = FRS
-	           value = 5
+	           value = 300
             }
 		}
 		NRD = {
 		    diplomatic_influence = {
 	           who = FRS
-	           value = -3
+	           value = -300
             }
 		}
 		create_alliance = FRA
@@ -648,7 +656,7 @@ country_event = {
     desc = "EVTDESC88021"
 	picture = "khorasan_trolled"
 
-     trigger = {
+    trigger = {
         is_core = FRS
         OR = {
 			is_core = MSM #Mishmast
@@ -657,7 +665,6 @@ country_event = {
 			is_core = KST #Khozeimi
 			is_core = AFS #Afsharids
 			is_core = MHL #Moghols
-			is_core = BRL #Baharlu
             is_core = JYL #Jayalerids
             AND = {
                 OR = {
@@ -686,7 +693,6 @@ country_event = {
                 remove_core = KST
                 remove_core = AFS
                 remove_core = MHL
-                remove_core = BRL
 				remove_core = JYL
 				remove_core = TKM
             }
@@ -808,8 +814,9 @@ country_event = {
 	fire_only_once = yes
 		
 	option = {
-        name = "His plans need to be countered!"	
-		set_global_flag = irv_frs_influence_battle
+        name = "Not a King, but a Protector!"	
+		set_global_flag = protector_of_the_people_title
+		inherit = AJM
         ai_chance = { factor = 100 }
     }	
 }
@@ -819,15 +826,15 @@ country_event = {
     id = 88026
     title = "Suspicious News from Irevan"
     desc = "EVTDESC88026"
-	#picture = "iranian_court_briefing"
+	picture = "iranian_court_briefing"
 	
 	is_triggered_only = yes
 		
-	effect = {
-	    
-		set_country_flag = protector_of_the_people_title
-		ai_chance = { factor = 100 }
-	}	
+	option = {
+        name = "His plans need to be countered!"	
+		set_global_flag = irv_frs_influence_battle
+        ai_chance = { factor = 100 }
+    }	
 }
 
 #A Message to Governour of Northern Ajam
@@ -835,17 +842,72 @@ country_event = {
     id = 88027
     title = "A Message to Governour of Northern Ajam"
     desc = "EVTDESC88027"
-	#picture = "protector_of_the_people"
+	picture = "message_to_ajam"
 	
 	is_triggered_only = yes
 		
-	effect = {
-	    
+	option = {
+	    name = "I'm sure gold will be enough to sway him"	
+		set_country_flag = irv_sent_gold_to_northern__ajam
+		ai_chance = { factor = 100 }
+	}	
+	
+	option = {
+	    name = "Offer him wide ranging autonomy within the new state"	
+		set_country_flag = irv_promised_autonomy_to_northern_ajam
+		ai_chance = { factor = 100 }
+	}
+
+	option = {
+	    name = "Maybe a bunch of fancy words are enough?"	
+		set_country_flag = irv_sent_fancy_letter_northern_ajam
+		ai_chance = { factor = 100 }
+	}
+}
+
+#A Message to Governour of Esfahan
+country_event = {
+    id = 88028
+    title = "A Message to Governour of Northern Ajam"
+    desc = "EVTDESC88027"
+	picture = "message_to_ajam"
+	
+	is_triggered_only = yes
+		
+	option = {
 		set_country_flag = protector_of_the_people_title
 		ai_chance = { factor = 100 }
 	}	
 }
 
+#Incorporation of Qumis
+country_event = {
+    id = 88029
+    title = "Incorporation of Qumis"
+    desc = "EVTDESC88029"
+	picture = "khorasan_trolled"
+	
+	trigger = {
+        is_core = BRL
+		BRL = { exists = no }
+		has_country_flag = first_caspian_campaign
+    }
+	
+	mean_time_to_happen = {
+	    months = 2
+	}
+
+    option = {
+        name = "Great!"	
+		state_scope = {
+            any_owned = {
+                remove_core = BRL
+				add_core = BRL
+            }
+        }
+        ai_chance = { factor = 100 }
+    }
+}
 
 #Caucasian Turkomans
 #If Irevan is independent, unify the Turkomans
