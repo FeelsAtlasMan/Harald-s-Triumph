@@ -348,13 +348,13 @@ BOH_684 = { 684 688 2584 685 689 3920 } #Upper Silesia
 
 ### Austria
 
-AUS_612 = { 612 615 734 735 594 } #Tirol
+AUS_612 = { 612 615 734 735 594 4142 } #Tirol
 
 AUS_619 = { 619 620 621 3717 3302 } #Western Kunsag
 
 AUS_639 = { 639 623 624 640 642 643 644 779 3301 3303 } #Transdanubia
 
-AUS_623 = { 616 617 3294 3718 } #Eastern Kunsag
+AUS_623 = { 616 617 3294 3718 4141 } #Eastern Kunsag - now Gradec
 
 AUS_625 = { 625 3334 3926 3927 } #Central Bohemia
 
@@ -394,17 +394,21 @@ AUS_726 = { 726 727 728 3418 } #Lombardia
 
 #AUS_733 = { 733 736 } #Friuli
 
-AUS_729 = { 729 730 731 732 733 3262 } #Venetia
+AUS_729 = { 729 730 731 732 733 3262 4154 } #Venetia
 
-AUS_736 = { 769 770 778 736 737 } #Istria
+AUS_736 = { 770 736 737 4155 4156 } #Istria 
 
-AUS_768 = { 767 768 618 3297 } #Slovenia
+AUS_768 = { 768 769 4139 } #Slovenia - now Kranjska
 
-AUS_771 = { 771 773 775 776 } #Croatia
+AUS_618 = { 618 767 3297 4143 4140 4153 } #Carinthia
 
-AUS_777 = { 777 791 793 772 } #Slavonia
+AUS_771 = { 771 775 776 4138 } #Old Croatia
 
-AUS_780 = { 780 781 782 774 2582 } #Dalmatia
+AUS_773 = { 773 774 778 4136 } #Mountainous Croatia
+
+AUS_777 = { 777 791 793 772 3716 } #Slavonia
+
+AUS_780 = { 780 781 782 2582 789 784 4137 } #Dalmatia
 
 AUS_2538 = { 2538 792 3295 3296 } #Vojvodina
 
@@ -434,37 +438,47 @@ SAR_765 = { 765 766 473 } #Sardinia & Corscia
 
 ### Balkans
 
-WAL_665 = { 664 668 667 669 3883 3884 } #Muntenia
+WAL_665 = { 664 668 667 669 3883 3884 4151 4152 } #Muntenia
 
 MOL_673 = { 673 672 670 671 3979 3980 3981 3982 3983 } #Moldavia/Siretovia
 
-TUR_674 = { 674 675 818 814 813 811 } #Dobrudja
+TUR_674 = { 674 675 814 } #Dobrudja
 
-TUR_788 = { 783 787 786 3299 } #Bosnia
+TUR_4144 = { 4144 813 811 818 } #Tarnovo
 
-CRO_784 = { 784 785 789 3716 } #Krajina
+TUR_788 = { 783 786 3299 785 } #Bosnia
 
-SER_794 = { 794 795 796 3304 3889 } #Serbia
+#CRO_784 = { } 
 
-WAL_666 = { 665 666 3882 } #Oltenia
+SER_794 = { 794 4133 796 3304 3889 } #Serbia
+
+WAL_666 = { 665 666 3882 4150 } #Oltenia
 
 MON_2582 = { 788 2583 2569 } #Montenegro - now Herzegovina
 
-TUR_803 = { 798 803 2577 804 797 } #Southern Serbia - Rashka
+TUR_803 = { 2577 797 787 } #Southern Serbia - Rashka
 
-BOS_799 = { 799 3885 3886 3887 807 } #Moravia
+BOS_799 = { 3886 3887 804 798 803 807 3885 } #Moravia
 
-TUR_805 = { 805 821 822 3675 823 3676 } #Southern Macedonia
+TUR_805 = { 805 821 822 3675 3676 4135 823 808 4134 806 } #Southern Macedonia - now Solun
 
-TUR_806 = { 806 1780 819 808 3674 } #Northern Macedonia
+BUL_1780 = { 1780 819 3674 849 4132 832 820 } #Ohrid
 
-TUR_809 = { 815 817 816 3677 } #Eastern Rumelia
+#TUR_806 = { 807 3885 } #Skopje
 
-TUR_810 = { 809 810 812 802 } #Bulgaria
+#TUR_823 = { 823 808 4134 } #Northern Macedonia - now Strumica
+
+TUR_809 = { 3677 816 4146 4145 } #Eastern Rumelia - now Plovdiv
+
+TUR_818 = { 817 858 4149 } #Eastern Rumelia - now Burgas
+
+TUR_810 = { 809 799 4147 4148 } #Sofya
+
+TUR_812 = { 812 810 802 795 } #Pleven
 
 GRE_826 = { 842 839 826 840 841 } #Peloponnese
 
-TUR_832 = { 832 831 833 820 836 } #Thessalia
+TUR_832 = { 831 833 836 } #Thessalia
 
 GRE_837 = { 834 835 838 } #Attica - Central Greece
 
@@ -472,11 +486,11 @@ ALB_824 = { 824 853 825 837 } #Epirus/Cham
 
 EGY_843 = { 848 843 844 846 847 845 } #Aegean Islands
 
-TUR_853 = { 849 852 851 850 3678 3679 800 } #Albania
+TUR_853 = { 852 851 850 3678 3679 800 } #Albania
 
 TUR_855 = { 855 856 857 } #Cyprus
 
-TUR_828 = { 828 858 859 830 829 } #Thrace
+TUR_828 = { 828 859 830 829 815 } #Thrace
 
 TUR_860 = { 860 861 } #Istanbul
 

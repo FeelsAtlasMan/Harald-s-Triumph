@@ -221,10 +221,9 @@ political_decisions = {
 				is_culture_group = north_germanic
 				is_culture_group = italian
 				is_culture_group = east_asian
-				is_culture_group = south_asian
+				#is_culture_group = south_asian
 				is_culture_group = western_slavic
 				is_culture_group = kartvelian
-				tag = URP
 			}
 		}
 		
@@ -374,170 +373,107 @@ political_decisions = {
 		}
 	}
 	
-	form_india = {
-	picture = form_india
-		potential = {
-			OR = {
-				is_culture_group = dravidian
-				is_culture_group = indo_aryan
-			}
-			NOT = { tag = MUG }
-			NOT = { tag = NEP }
-			NOT = { has_country_flag = mughal_reborn }
-			NOT = {
-				has_country_flag = post_colonial_country
-				exists = HND
-			}
-		}
-		
-		allow = {
-			prestige = 45
-			nationalism_n_imperialism = 1
-			war = no
-			HND = {
-				all_core = {
-					OR = {
-						owned_by = THIS
-						province_id = 1303
-						province_id = 1312
-						province_id = 1320
-						is_core = KAL
-						is_core = MAK
-						is_core = AFG
-						is_core = KAS
-						owner = {
-							in_sphere = THIS
-							OR = {
-								is_vassal = no
-								vassal_of = THIS
-							}
-							war = no
-							is_greater_power = no
-						}
-					}
-				}
-			}
-		}
-		
-		effect = {
-			prestige = 20
-			
-			clr_country_flag = sunni_country
-			clr_country_flag = shiite_country
-			clr_country_flag = ibadi_country
-			clr_country_flag = catholic_country
-			clr_country_flag = protestant_country
-			clr_country_flag = mormon_country
-			clr_country_flag = orthodox_country
-			clr_country_flag = coptic_country
-			clr_country_flag = jewish_country
-			clr_country_flag = yazidi_country
-			clr_country_flag = mahayana_country
-			clr_country_flag = gelugpa_country
-			clr_country_flag = theravada_country
-			clr_country_flag = hindu_country
-			clr_country_flag = shinto_country
-			clr_country_flag = sikh_country
-			clr_country_flag = animist_country
-			
-			religion = hindu
-			set_country_flag = hindu_country
-			
-			all_core = { remove_core = THIS }
-			1303 = { add_core = HND }
-			1312 = { add_core = HND }
-			change_tag = HND
-			any_country = {
-				limit = {
-					NOT = { is_greater_power = yes }
-					is_culture_group = dravidian
-					in_sphere = THIS
-					NOT = { has_country_flag = post_colonial_country }
-					OR = {
-						is_vassal = no
-						vassal_of = THIS
-					}
-				}
-				country_event = 11101
-			}
-			add_accepted_culture = hindi
-			add_accepted_culture = marathi
-			add_accepted_culture = rajput
-			add_accepted_culture = bihari
-			add_accepted_culture = bengali
-			add_accepted_culture = panjabi
-			add_accepted_culture = kashmiri
-			add_accepted_culture = manipuri
-			add_accepted_culture = assamese
-			add_accepted_culture = oriya
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	reichsland_elsass = {
-		potential = {
-			is_culture_group = continental_west_germanic
-			NOT = { tag = ALS }
-			owns = 410
-			owns = 409
-			owns = 412
-			NOT = { has_global_flag = germany_has_renamed_elsass }
-		}
-		
-		allow = {
-			prestige = 10
-		}
-		
-		effect = {
-			410 = {
-				change_province_name = "Kolmar"
-			}
-			409 = {
-				change_province_name = "Straﬂburg"
-				state_scope = {
-					change_region_name = "Elsaﬂ-Lothringen"
-				}
-			}
-			ALS = { government = colonial_company }
-			prestige = 5
-			set_global_flag = germany_has_renamed_elsass
-		}
-		
-		ai_will_do = { factor = 1 }
-	}
-	
-	restore_alsace = {
-		potential = {
-			primary_culture = french
-			is_greater_power = yes
-			capital = 425
-			has_global_flag = germany_has_renamed_elsass
-			owns = 410
-			owns = 409
-			owns = 412
-			war = no
-		}
-		
-		allow = {
-			prestige = 10
-		}
-		
-		effect = {
-			410 = { change_province_name = "Colmar" }
-			409 = {
-				change_province_name = "Strasbourg"
-				state_scope = { change_region_name = "Alsace-Lorraine" }
-			}
-			ALS = { government = democracy }
-			#remove_country_modifier = la_tache_noire
-			prestige = 10
-			clr_global_flag = germany_has_renamed_elsass
-		}
-		
-		ai_will_do = { factor = 1 }
-	}
+#	form_india = {
+#	picture = form_india
+#		potential = {
+#			OR = {
+#				is_culture_group = dravidian
+#				is_culture_group = indo_aryan
+#			}
+#			NOT = { tag = MUG }
+#			NOT = { tag = NEP }
+#			NOT = { has_country_flag = mughal_reborn }
+#			NOT = {
+#				has_country_flag = post_colonial_country
+#				exists = HND
+#			}
+#		}
+#		
+#		allow = {
+#			prestige = 45
+#			nationalism_n_imperialism = 1
+#			war = no
+#			HND = {
+#				all_core = {
+#					OR = {
+#						owned_by = THIS
+#						province_id = 1303
+#						province_id = 1312
+#						province_id = 1320
+#						is_core = KAL
+#						is_core = MAK
+#						is_core = AFG
+#						is_core = KAS
+#						owner = {
+#							in_sphere = THIS
+#							OR = {
+#								is_vassal = no
+#								vassal_of = THIS
+#							}
+#							war = no
+#							is_greater_power = no
+#						}
+#					}
+#				}
+#			}
+#		}
+#		
+#		effect = {
+#			prestige = 20
+#			
+#			clr_country_flag = sunni_country
+#			clr_country_flag = shiite_country
+#			clr_country_flag = ibadi_country
+#			clr_country_flag = catholic_country
+#			clr_country_flag = protestant_country
+#			clr_country_flag = mormon_country
+#			clr_country_flag = orthodox_country
+#			clr_country_flag = coptic_country
+#			clr_country_flag = jewish_country
+#			clr_country_flag = yazidi_country
+#			clr_country_flag = mahayana_country
+#			clr_country_flag = gelugpa_country
+#			clr_country_flag = theravada_country
+#			clr_country_flag = hindu_country
+#			clr_country_flag = shinto_country
+#			clr_country_flag = sikh_country
+#			clr_country_flag = animist_country
+#			
+#			religion = hindu
+#			set_country_flag = hindu_country
+#			
+#			all_core = { remove_core = THIS }
+#			1303 = { add_core = HND }
+#			1312 = { add_core = HND }
+#			change_tag = HND
+#			any_country = {
+#				limit = {
+#					NOT = { is_greater_power = yes }
+#					is_culture_group = dravidian
+#					in_sphere = THIS
+#					NOT = { has_country_flag = post_colonial_country }
+#					OR = {
+#						is_vassal = no
+#						vassal_of = THIS
+#					}
+#				}
+#				country_event = 11101
+#			}
+#			add_accepted_culture = hindi
+#			add_accepted_culture = marathi
+#			add_accepted_culture = rajput
+#			add_accepted_culture = bihari
+#			add_accepted_culture = bengali
+#			add_accepted_culture = panjabi
+#			add_accepted_culture = kashmiri
+#			add_accepted_culture = manipuri
+#			add_accepted_culture = assamese
+#			add_accepted_culture = oriya
+#		}
+#		ai_will_do = {
+#			factor = 1
+#		}
+#	}
 	
 	become_holstein = {
 		picture = gtfo

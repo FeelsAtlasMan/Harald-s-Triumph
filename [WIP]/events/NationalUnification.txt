@@ -9,15 +9,15 @@ country_event = {
 	trigger = {
 		war = no
 		has_country_flag = crown_from_the_gutter
-		NOT = { tag = LIE }
-		NOT = { tag = VLG }
+		#NOT = { tag = LIE }
+		#NOT = { tag = VLG }
 		NOT = { tag = SIE }
-		NOT = { tag = BAN }
+		#NOT = { tag = BAN }
 		NOT = { tag = SMR }
 		NOT = { has_country_flag = post_colonial_country }
 		NOT = {
 			cultural_union = { exists = yes }
-			is_culture_group = germanic
+			is_culture_group = continental_west_germanic
 		}
 	}
 
@@ -38,19 +38,19 @@ country_event = {
 			limit = { owner = { primary_culture = polish accepted_culture = czech } } owner = { remove_accepted_culture = czech }
 		}
 		random_owned = {
-			limit = { owner = { OR = { is_culture_group = italian is_culture_group = germanic } accepted_culture = french } }
+			limit = { owner = { OR = { is_culture_group = italian is_culture_group = continental_west_germanic } accepted_culture = french } }
 			owner = { remove_accepted_culture = french }
 		}
 		random_owned = { 
-			limit = { owner = { OR = { is_culture_group = italian is_culture_group = germanic } accepted_culture = south_german } }
+			limit = { owner = { OR = { is_culture_group = italian is_culture_group = continental_west_germanic } accepted_culture = south_german } }
 			owner = { remove_accepted_culture = south_german }
 		}
 		random_owned = { 
-			limit = { owner = { OR = { is_culture_group = italian is_culture_group = germanic } accepted_culture = british } }
+			limit = { owner = { OR = { is_culture_group = italian is_culture_group = continental_west_germanic } accepted_culture = british } }
 			owner = { remove_accepted_culture = british }
 		}
 		random_owned = { 
-			limit = { owner = { is_culture_group = germanic accepted_culture = polish } }
+			limit = { owner = { is_culture_group = continental_west_germanic accepted_culture = polish } }
 			owner = { remove_accepted_culture = polish }
 		}
 		random_owned = {
@@ -205,9 +205,9 @@ country_event = {
 					NOT = { tag = MOL }
 					NOT = { tag = SIE }
 					NOT = { tag = LUX }
-					NOT = { tag = LIE }
-					NOT = { tag = BAN }
-					NOT = { tag = VLG }
+					#NOT = { tag = LIE }
+					#NOT = { tag = BAN }
+					#NOT = { tag = VLG }
 					NOT = { tag = SMR }
 					NOT = { is_culture_group = south_asian }
 					NOT = { is_culture_group = scandinavian }
@@ -383,19 +383,19 @@ country_event = {
 		add_accepted_culture = south_italian
 		add_accepted_culture = north_italian
 		random_owned = { 
-			limit = { owner = { OR = { is_culture_group = italian is_culture_group = germanic } accepted_culture = french } }
+			limit = { owner = { OR = { is_culture_group = italian is_culture_group = continental_west_germanic } accepted_culture = french } }
 			owner = { remove_accepted_culture = french }
 		}
 		random_owned = { 
-			limit = { owner = { OR = { is_culture_group = italian is_culture_group = germanic } accepted_culture = south_german } }
+			limit = { owner = { OR = { is_culture_group = italian is_culture_group = continental_west_germanic } accepted_culture = south_german } }
 			owner = { remove_accepted_culture = south_german }
 		}
 		random_owned = { 
-			limit = { owner = { OR = { is_culture_group = italian is_culture_group = germanic } accepted_culture = british } }
+			limit = { owner = { OR = { is_culture_group = italian is_culture_group = continental_west_germanic } accepted_culture = british } }
 			owner = { remove_accepted_culture = british }
 		}
 		random_owned = { 
-			limit = { owner = { is_culture_group = germanic accepted_culture = polish } }
+			limit = { owner = { is_culture_group = continental_west_germanic accepted_culture = polish } }
 			owner = { remove_accepted_culture = polish }
 		}
 		random_owned = { 
@@ -727,7 +727,7 @@ country_event = {
 #			capital_scope = { continent = asia }
 #		}
 #		has_country_flag = crown_from_the_gutter
-#		is_culture_group = germanic
+#		is_culture_group = continental_west_germanic
 #		is_greater_power = yes
 #		OR = {
 #			AND = {
@@ -757,19 +757,19 @@ country_event = {
 #		clr_country_flag = crown_from_the_gutter
 #		set_global_flag = 3hurrahs
 #		random_owned = { 
-#			limit = { owner = { is_culture_group = germanic accepted_culture = polish } }
+#			limit = { owner = { is_culture_group = continental_west_germanic accepted_culture = polish } }
 #			owner = { remove_accepted_culture = polish }
 #		}
 #		random_owned = { 
-#			limit = { owner = { is_culture_group = germanic accepted_culture = french } }
+#			limit = { owner = { is_culture_group = continental_west_germanic accepted_culture = french } }
 #			owner = { remove_accepted_culture = french }
 #		}
 #		random_owned = { 
-#			limit = { owner = { is_culture_group = germanic accepted_culture = danish } }
+#			limit = { owner = { is_culture_group = continental_west_germanic accepted_culture = danish } }
 #			owner = { remove_accepted_culture = danish }
 #		}
 #		random_owned = { 
-#			limit = { owner = { is_culture_group = germanic accepted_culture = hungarian } }
+#			limit = { owner = { is_culture_group = continental_west_germanic accepted_culture = hungarian } }
 #			owner = { remove_accepted_culture = hungarian }
 #		}
 #		random_owned = {
@@ -840,7 +840,7 @@ country_event = {
 #		}
 #		any_country = {
 #			limit = {
-#				is_culture_group = germanic
+#				is_culture_group = continental_west_germanic
 #				exists = no
 #				NOT = { tag = AUS }
 #				NOT = { tag = KUK }
@@ -882,7 +882,7 @@ country_event = {
 #				exists = yes
 #				NOT = { tag = THIS }
 #				OR = {
-#					is_culture_group = germanic
+#					is_culture_group = continental_west_germanic
 #					tag = SCH
 #				}
 #				is_greater_power = no
@@ -985,6 +985,7 @@ country_event = {
 		NOT = { exists = YUG }
 		NOT = {
 			tag = BUL
+			tag = BYZ
 			tag = ALB
 			has_global_flag = yugoslavia_formed
 			has_country_flag = refused_yugoslavia_final
@@ -1008,7 +1009,7 @@ country_event = {
 					in_sphere = THIS
 					sphere_owner = {
 						is_sphere_leader_of = THIS
-						NOT = { is_culture_group = germanic }
+						NOT = { is_culture_group = continental_west_germanic }
 						NOT = { tag = TUR }
 						NOT = {
 							any_owned_province = { any_core = { is_culture_group = south_slavic } }
@@ -1071,7 +1072,7 @@ country_event = {
 		prestige = 20
 		all_core = { add_core = YUG }
 		SER = { all_core = { add_core = YUG } }
-		MON = { all_core = { add_core = YUG } }
+		MNT = { all_core = { add_core = YUG } }
 		CRO = { all_core = { add_core = YUG } }
 		BOS = { all_core = { add_core = YUG } }
 		SLO = { all_core = { add_core = YUG } }
@@ -1450,7 +1451,7 @@ country_event = {
 		sphere_owner = {
 			NOT = {
 				truce_with = THIS
-				is_culture_group = germanic
+				is_culture_group = continental_west_germanic
 				tag = TUR
 				tag = HUN
 			}

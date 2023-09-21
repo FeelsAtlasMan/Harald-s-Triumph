@@ -102,6 +102,18 @@ political_decisions = {
 		
 		effect = {
 		    FRS = { country_event = 88026 }
+			set_variable = {
+	              which = asked_ajam_gov
+	              value = 1
+            }
+			set_variable = {
+	              which = tried_agitating_lurs
+	              value = 1
+            }
+			set_variable = {
+	              which = tried_giving_privileges_to_arabs
+	              value = 1
+            }
 		    set_country_flag = acting_against_zohrabids
 		}
         ai_will_do = {
@@ -116,19 +128,21 @@ political_decisions = {
 			IRV = { vassal_of = FRS }
 			has_country_flag = acting_against_zohrabids
 			has_global_flag = irv_frs_influence_battle
+			NOT = { has_global_flag = tried_to_garner_support_ajam }
+			NOT = { has_country_flag = support_from_ajam_gov }
+			#NOT = { check_variable = { asked_ajam_gov = 3 } }
 		}
 		
 		allow = {
 		    war = no
-			NOT = { has_country_flag = agitated_lurs }
-			NOT = { has_country_flag = tightend_grip_over_legins }
-			NOT = { has_country_flag = privileges_offered_to_arabs }
+			NOT = { has_global_flag = agitated_lurs }
+			NOT = { has_global_flag = tightend_grip_over_legins }
+			NOT = { has_global_flag = privileges_offered_to_arabs }
 		}
 		
 		effect = {
 		    --- = { country_event = 88027 }
-			--- = { country_event = 88028 }
-		    set_country_flag = tried_to_garner_support_ajam
+		    set_global_flag = tried_to_garner_support_ajam
 		}
         ai_will_do = {
 		    factor = 1
@@ -407,7 +421,7 @@ political_decisions = {
 					KHR = { war_with = TIM }
 				}
 				AND = { 
-				    primary_culture = rajput
+				    #primary_culture = rajput
 					war_with = TIM 
 					NOT = { tag = MEW }
 				}

@@ -75,6 +75,7 @@ release_puppet_AI
 make_puppet
 swahili_domination
 tourkistan_acquire_state
+hausa_acquire_state
 install_fascism_make_puppet
 install_communism_make_puppet
 install_jacobin_puppet
@@ -5965,6 +5966,97 @@ tourkistan_acquire_state = {
 	po_demand_state = yes
 	
 	war_name = WAR_TOURKISTAN_REUNIFICATION
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.10
+		}
+	}
+}
+
+hausa_acquire_state = {
+	sprite_index = 2
+	months = 12
+	crisis = no
+
+	badboy_factor = 0
+	prestige_factor = 0
+	peace_cost_factor = 1
+	penalty_factor = 1
+
+	break_truce_prestige_factor = 1
+	break_truce_infamy_factor = 0
+	break_truce_militancy_factor = 0
+	truce_months = 6
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+	
+	always = yes
+
+	can_use = {
+		NOT = { is_our_vassal = THIS }
+		neighbour = THIS        
+		any_owned_province = {
+				NOT = { is_core = THIS }
+				OR = { 
+					is_core = HZZ #Zazzau
+					is_core = HZF #Zamfara
+					is_core = HKN #Kano
+					is_core = HKT #Katsina
+					is_core = HKB #Kebbi		
+					is_core = HJI #Hadejia
+					is_core = GBR #Gobir
+					is_core = BYR #Yauri
+					is_core = HDR #Daura
+					is_core = HBC #Bauchi					
+				}
+			}
+		THIS = {
+			OR = {
+			    primary_culture = hausa		
+				primary_culture = kainji	
+            }			
+			NOT = {
+				has_country_modifier = neutrality
+				war_policy = pacifism
+			}
+		}
+		is_vassal = no
+		OR = {
+			war_with = THIS
+			THIS = {
+				NOT = {
+					has_country_modifier = no_more_war
+				}
+			}
+		}
+	}
+	
+	allowed_states = {
+		any_owned_province = {
+			NOT = { is_core = THIS }
+			OR = { 
+				is_core = HZZ #Zazzau
+			    is_core = HZF #Zamfara
+				is_core = HKN #Kano
+				is_core = HKT #Katsina
+				is_core = HKB #Kebbi		
+				is_core = HJI #Hadejia
+				is_core = GBR #Gobir
+				is_core = BYR #Yauri
+				is_core = HDR #Daura
+				is_core = HBC #Bauchi				
+           }
+        }
+    }
+	
+	po_demand_state = yes
+	
+	war_name = WAR_HAUSA_REUNIFICATION
 	
 	on_add = {
 		move_issue_percentage = { 

@@ -15,7 +15,7 @@ country_event = {
 	trigger = {
 		civilized = no
 		NOT = { 
-			tag = EIC 
+			tag = FDA 
 			has_country_flag = spectator
 		}
 		NOT = {
@@ -109,7 +109,7 @@ country_event = {
 	
 	trigger = {
 		NOT = { 
-			tag = EIC 
+			tag = FDA 
 			has_country_flag = spectator
 		}
 		any_owned_province = { is_coastal = yes }
@@ -233,7 +233,7 @@ country_event = {
 	
 	trigger = {
 		NOT = { 
-			tag = EIC 
+			tag = FDA 
 			has_country_flag = spectator
 		}
 		civilized = no
@@ -360,7 +360,7 @@ country_event = {
 	
 	trigger = {
 		NOT = { 
-			tag = EIC 
+			tag = FDA 
 			has_country_flag = spectator
 			has_country_flag = treaty_of_macao
 		}
@@ -448,7 +448,7 @@ country_event = {
 	
 	trigger = {
 		NOT = { 
-			tag = EIC 
+			tag = FDA 
 			has_country_flag = spectator
 		}
 		civilized = no
@@ -693,7 +693,7 @@ country_event = {
 	
 	trigger = {
 		NOT = { 
-			tag = EIC 
+			tag = FDA 
 			has_country_flag = spectator
 		}
 		civilized = no
@@ -988,7 +988,7 @@ country_event = {
 	
 	trigger = {
 		NOT = { 
-			tag = EIC 
+			tag = FDA 
 			has_country_flag = spectator
 		}
 		any_owned_province = {
@@ -1098,7 +1098,7 @@ country_event = {
 	
 	trigger = {
 		NOT = { 
-			tag = EIC 
+			tag = FDA 
 			has_country_flag = spectator
 		}
 		civilized = no
@@ -1252,7 +1252,7 @@ country_event = {
 	
 	trigger = {
 		NOT = { 
-			tag = EIC 
+			tag = FDA 
 			has_country_flag = spectator
 		}
 		civilized = no
@@ -1387,7 +1387,7 @@ province_event = {
 			civilized = no
 			NOT = { 
 				OR = {
-					tag = EIC 
+					tag = FDA 
 					has_country_flag = spectator
 				}
 			}
@@ -1496,7 +1496,7 @@ province_event = {
 			NOT = { number_of_states = 5 }
 			NOT = { 
 				OR = {
-					tag = EIC 
+					tag = FDA 
 					has_country_flag = spectator
 				}
 			}
@@ -1618,7 +1618,7 @@ province_event = {
 			number_of_states = 5
 			NOT = {
 				OR = {
-					tag = EIC 
+					tag = FDA 
 					has_country_flag = spectator
 				}
 			}
@@ -1747,8 +1747,8 @@ country_event = {
 	
 	trigger = {
 		NOT = { 
-			tag = EIC 
- has_country_flag = spectator
+			tag = FDA 
+            has_country_flag = spectator
 		}
 		any_owned_province = {
 			has_province_modifier = local_opium_habit
@@ -1844,8 +1844,8 @@ country_event = {
 	
 	trigger = {
 		NOT = { 
-			tag = EIC 
- has_country_flag = spectator
+			tag = FDA 
+            has_country_flag = spectator
 		}
 		any_owned_province = { has_province_modifier = foreign_trading_post }
 		NOT = { has_country_modifier = sayings_of_the_dutch }
@@ -1894,7 +1894,7 @@ country_event = {
 	
 	trigger = {
 		NOT = { 
-			tag = EIC 
+			tag = FDA 
 			has_country_flag = spectator
 		}
 		any_owned_province = {
@@ -2000,7 +2000,7 @@ country_event = {
 
 	trigger = {
 		NOT = { 
-			tag = EIC 
+			tag = FDA 
 			has_country_flag = spectator
 		}
 		any_owned_province = { has_province_modifier = foreign_trading_post }
@@ -2058,7 +2058,7 @@ province_event = {
 		owner = {
 			NOT = { 
 				OR = {
-					tag = EIC 
+					tag = FDA 
 					has_country_flag = spectator
 				}
 			}
@@ -2141,8 +2141,8 @@ country_event = {
 	
 	trigger = {
 		NOT = { 
-			tag = EIC 
- has_country_flag = spectator
+			tag = FDA 
+            has_country_flag = spectator
 		}
 		civilized = no
 		has_country_modifier = western_influences
@@ -2206,7 +2206,7 @@ country_event = {
 	
 	trigger = {
 		NOT = { 
-			tag = EIC 
+			tag = FDA 
 			has_country_flag = spectator
 		}
 		has_country_flag = princes_recieve_foreign_education
@@ -2257,7 +2257,7 @@ country_event = {
 	
 	trigger = {
 		NOT = { 
-			tag = EIC 
+			tag = FDA 
 			has_country_flag = spectator
 		}
 		civilized = no
@@ -2371,7 +2371,7 @@ country_event = {
 	
 	trigger = {
 		NOT = { 
-			tag = EIC 
+			tag = FDA 
 			has_country_flag = spectator
 		}
 		war = yes
@@ -2427,7 +2427,7 @@ province_event = {
 		owner = {
 			NOT = { 
 				OR = {
-					tag = EIC 
+					tag = FDA 
 					has_country_flag = spectator
 				}
 			}
@@ -2520,7 +2520,7 @@ country_event = {
 	
 	trigger = {
 		NOT = { 
-			tag = EIC 
+			tag = FDA 
 			has_country_flag = spectator
 		}
 		any_owned_province = {
@@ -2808,7 +2808,7 @@ country_event = {
 	
 	trigger = {
 		NOT = { 
-			tag = EIC 
+			tag = FDA 
 			has_country_flag = spectator
 		}
 		civilized = no
@@ -2952,8 +2952,8 @@ country_event = {
 	
 	trigger = {
 		NOT = { 
-			tag = EIC 
- has_country_flag = spectator
+			tag = FDA 
+            has_country_flag = spectator
 		}
 		has_country_modifier = western_influences
 		NOT = { has_country_modifier = military_reform }
@@ -3040,7 +3040,7 @@ country_event = {
 	
 	trigger = {
 		NOT = { 
-			tag = EIC 
+			tag = FDA 
 			has_country_flag = spectator
 		}
 		OR = {
@@ -3053,9 +3053,9 @@ country_event = {
 		is_vassal = no
 		NOT = {
 			has_country_modifier = rangaku
-			tag = QNG
-			vassal_of = QNG
-			substate_of = QNG
+			tag = SHN
+			vassal_of = SHN
+			substate_of = SHN
 		}
 	}
 
@@ -3337,7 +3337,7 @@ country_event = {
 	
 	trigger = {
 		NOT = { 
-			tag = EIC 
+			tag = FDA 
 			has_country_flag = spectator
 		}
 		has_country_modifier = western_influences
@@ -3391,7 +3391,7 @@ country_event = {
 	
 	trigger = {
 		NOT = { 
-			tag = EIC 
+			tag = FDA 
 			has_country_flag = spectator
 		}
 		any_owned_province = {
@@ -3558,7 +3558,7 @@ country_event = {
 	
 	trigger = {
 		NOT = { 
-			tag = EIC 
+			tag = FDA 
 			has_country_flag = spectator
 		}
 		any_owned_province = {
@@ -3703,7 +3703,7 @@ country_event = {
 	
 	trigger = {
 		NOT = { 
-			tag = EIC 
+			tag = FDA 
 			has_country_flag = spectator
 			has_country_flag = treaty_of_macao
 		}
@@ -3901,8 +3901,8 @@ country_event = {
 	
 	trigger = {
 		NOT = { 
-			tag = EIC 
- has_country_flag = spectator
+			tag = FDA 
+            has_country_flag = spectator
 		}
 		civilized = no
 		has_country_modifier = western_influences
@@ -3939,8 +3939,8 @@ country_event = {
 	
 	trigger = {
 		NOT = { 
-			tag = EIC 
- has_country_flag = spectator
+			tag = FDA 
+            has_country_flag = spectator
 		}
 		civilized = no
 		has_country_modifier = uncivilized_isolationism
@@ -4033,210 +4033,6 @@ country_event = {
 	}
 }
 
-#Doctrine of Lapse 1/2
-country_event = {
-	id = 13357
-	title = "EVTNAME13357"
-	desc = "EVTDESC13357"
-	
-	picture = "Rebellion"
-	
-	trigger = {
-		OR = {
-			vassal_of = EIC
-			vassal_of = ENG
-		}
-		ai = yes
-		NOT = { tag = MUG }
-		NOT = { tag = RAJ }
-		NOT = { tag = HYD }
-		NOT = { tag = KAS }
-		NOT = { tag = GWA }
-		NOT = { tag = MYS }
-		NOT = { tag = AFG }
-		NOT = { tag = KAL }
-		NOT = { tag = MAK }
-		NOT = { tag = TRA }
-		NOT = { tag = CRL }
-		NOT = { tag = PNJ }
-		NOT = { tag = MNP }
-		NOT = { tag = BUN }
-		NOT = { tag = BLC }
-		NOT = { has_country_flag = no_british_doctrine }
-		OR = {
-			EIC = { ideological_thought = 1 exists = yes }
-			ENG = { ideological_thought = 1 exists = yes }
-		}
-		OR = {
-			primary_culture = assamese
-			primary_culture = baluchi
-			primary_culture = bengali
-			primary_culture = bihari
-			primary_culture = manipuri
-			primary_culture = nepali
-			primary_culture = oriya
-			primary_culture = sinhala
-			primary_culture = avadhi
-			primary_culture = kanauji
-			primary_culture = kashmiri
-			primary_culture = panjabi
-			primary_culture = gujarati
-			primary_culture = marathi
-			primary_culture = sindi
-			primary_culture = rajput
-			primary_culture = kannada
-			primary_culture = malayalam
-			primary_culture = tamil
-			primary_culture = telegu
-			tag = CRL
-		}
-	}
-	
-	mean_time_to_happen = {
-		months = 600
-		modifier = {
-			factor = 1.5
-			NOT = { average_militancy = 1 }
-		}
-		modifier = {
-			factor = 1.2
-			NOT = { average_militancy = 2 }
-		}
-		modifier = {
-			factor = 1.1
-			NOT = { average_militancy = 3 }
-		}
-		modifier = {
-			factor = 0.9
-			average_militancy = 4
-		}
-		modifier = {
-			factor = 0.8
-			average_militancy = 5
-		}
-		modifier = {
-			factor = 0.5
-			num_of_revolts = 1
-		}
-		modifier = {
-			factor = 0.001
-			tag = NAG
-			year = 1853
-		}
-		modifier = {
-			factor = 0.001
-			tag = AWA
-			year = 1856
-		}
-		modifier = {
-			factor = 0.9
-			NOT = {
-				prestige = 10
-			}
-		}
-		modifier = {
-			factor = 0.9
-			NOT = {
-				prestige = 5
-			}
-		}
-		modifier = {
-			factor = 0.01
-			NOT = {
-				government = absolute_monarchy
-				government = prussian_constitutionalism
-				government = hms_government
-			}
-		}
-	}
-	
-	option = {
-		name = "EVTOPTA13357"
-		tech_school = unciv_tech_school
-		set_country_flag = no_british_doctrine
-		any_pop = {
-			limit = { is_primary_culture = yes }
-			militancy = 4
-			consciousness = 1
-		}
-		overlord = { country_event = 13358 }
-		political_reform = peonage
-		any_owned = {
-			limit = {
-				has_pop_type = labourers
-				has_pop_type = serfs
-			}
-			any_pop = { limit = { type = serfs } pop_type = labourers }
-		}
-		any_owned = {
-			limit = {
-				has_pop_type = farmers
-				has_pop_type = serfs
-			}
-			any_pop = { limit = { type = serfs } pop_type = farmers }
-		}
-	}
-}
-
-# Doctrine of Lapse 2/2
-country_event = {
-	id = 13358
-	title = "EVTNAME13358"
-	desc = "EVTDESC13358"
-	news = yes
-	news_desc_long = "EVTDESC13358_NEWS_LONG"
-	news_desc_medium = "EVTDESC13358_NEWS_MEDIUM"
-	news_desc_short = "EVTDESC13358_NEWS_SHORT"	
-	
-	picture = "india"
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = "EVTOPTA13358"
-		prestige = 5
-		inherit = FROM
-		any_owned = {
-			limit = { is_core = HND }
-			any_pop = {
-				limit = { is_culture_group = south_asian }
-				militancy = 4
-				consciousness = 1
-			}
-			random_list = {
-				50 = {
-					add_province_modifier = {
-						name = nationalist_agitation
-						duration = 1825
-					}
-				}
-				25 = {
-					add_province_modifier = {
-						name = nationalist_agitation
-						duration = 365
-					}
-				}
-				25 = {
-				}
-			}
-		}
-		set_global_flag = doctrine_of_lapse_has_been_used
-		
-		ai_chance = { factor = 100 }
-	}
-	
-	option = {
-		name = "EVTOPTB13358"
-		prestige = -2
-		FROM = {
-			set_country_flag = no_british_doctrine
-			any_pop = {
-				militancy = -2
-			}
-		}
-	}
-}
-
 country_event = {
 	title = "westernize_nation_title"
 	desc = "westernize_nation_desc"
@@ -4252,7 +4048,7 @@ country_event = {
 	
 	trigger = {
 		NOT = {
-			tag = QNG
+			tag = SHN
 			tag = CHI
 			tag = TPG
 			AND = {
@@ -4561,8 +4357,8 @@ country_event = {
 						is_culture_group = east_asian
 						has_country_modifier = uncivilized_isolationism
 						has_country_modifier = sakoku
-						vassal_of = QNG
-						substate_of = QNG
+						vassal_of = SHN
+						substate_of = SHN
 					}
 					civilized = no
 					naval_schools = yes_naval_schools
@@ -4579,8 +4375,8 @@ country_event = {
 						is_culture_group = east_asian
 						has_country_modifier = uncivilized_isolationism
 						has_country_modifier = sakoku
-						vassal_of = QNG
-						substate_of = QNG
+						vassal_of = SHN
+						substate_of = SHN
 					}
 					civilized = no
 					foreign_officers = yes_foreign_officers
@@ -4598,8 +4394,8 @@ country_event = {
 						is_culture_group = east_asian
 						has_country_modifier = uncivilized_isolationism
 						has_country_modifier = sakoku
-						vassal_of = QNG
-						substate_of = QNG
+						vassal_of = SHN
+						substate_of = SHN
 					}
 					civilized = no
 					foreign_naval_officers = yes_foreign_naval_officers
@@ -4616,8 +4412,8 @@ country_event = {
 						is_culture_group = east_asian
 						has_country_modifier = uncivilized_isolationism
 						has_country_modifier = sakoku
-						vassal_of = QNG
-						substate_of = QNG
+						vassal_of = SHN
+						substate_of = SHN
 					}
 					civilized = no
 					foreign_training = yes_foreign_training

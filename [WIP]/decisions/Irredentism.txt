@@ -297,13 +297,11 @@ political_decisions = {
 		effect = {
 			set_country_flag = claimed_greater_serbia
 			prestige = 10
-			TUR_806 = { add_core = THIS }
-			TUR_853 = { add_core = THIS }
-			TUR_805 = { add_core = THIS }
 			TUR_832 = { add_core = THIS }
-			836 = { add_core = THIS }
-			837 = { add_core = THIS }
-			2582 = { add_core = THIS }
+			ALB_824 = { add_core = THIS }
+			BUL_1780 = { add_core = THIS }
+			TUR_805 = { add_core = THIS }
+			TUR_853 = { add_core = THIS }
 		}
 		
 		ai_will_do = {

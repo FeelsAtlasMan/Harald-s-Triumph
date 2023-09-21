@@ -53,10 +53,10 @@ political_decisions = {
 		potential = {
 			tag = BOH
 			has_country_flag = ascention_of_dobrovka
-			OR = {
-					has_country_flag = liberal_revolution_in_progress
-					has_country_flag = liberal_revolution_fired
-			}
+			#OR = {
+			#		has_country_flag = liberal_revolution_in_progress
+			#		has_country_flag = liberal_revolution_fired
+			#}
 		}
 		allow = {
 			is_greater_power = yes
@@ -170,7 +170,7 @@ political_decisions = {
 				3946 = { owner = { vassal_of = THIS } }
 			}
 			OR = {
-			    AND = { compound_steam_engine = 1 paddle_streamers =1 }
+			    AND = { compound_steam_engine = 1 paddle_streamers = 1 }
 				date = 1860
 			}
 			treasury = 25000

@@ -309,7 +309,105 @@
         religion = catholic
         size = 1205
     }
+}
 
+#Chakovec
+4141 = {
+    aristocrats = {
+        culture = kaykavian
+        religion = catholic
+        size = 125
+    }
+
+    clergymen = {
+        culture = kaykavian
+        religion = catholic
+        size = 135
+    }
+
+    artisans = {
+        culture = kaykavian
+        religion = catholic
+        size = 585
+    }
+
+    soldiers = {
+        culture = kaykavian
+        religion = catholic
+        size = 385
+    }
+
+    farmers = {
+        culture = kaykavian
+        religion = catholic
+        size = 710
+    }
+
+    serfs = {
+        culture = kaykavian
+        religion = catholic
+        size = 3500
+    }
+
+    farmers = {
+        culture = slovene
+        religion = catholic
+        size = 70
+    }
+
+    serfs = {
+        culture = slovene
+        religion = catholic
+        size = 300
+    }
+	
+	farmers = {
+        culture = cuman
+        religion = protestant
+        size = 150
+    }
+
+    serfs = {
+       culture = cuman
+        religion = protestant
+        size = 600
+    }
+
+    aristocrats = {
+        culture = hungarian
+        religion = protestant
+        size = 70
+    }
+
+    clergymen = {
+        culture = hungarian
+        religion = protestant
+        size = 65
+    }
+
+    artisans = {
+        culture = hungarian
+        religion = protestant
+        size = 180
+    }
+
+    soldiers = {
+        culture = hungarian
+        religion = protestant
+        size = 40
+    }
+
+    serfs = {
+        culture = hungarian
+        religion = protestant
+        size = 770
+    }
+	
+    serfs = {
+        culture = gypsy
+        religion = catholic
+        size = 260
+    }
 }
 
 #Pecs

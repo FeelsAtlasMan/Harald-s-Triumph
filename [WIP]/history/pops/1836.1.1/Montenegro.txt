@@ -17,7 +17,13 @@
 	farmers = {
 		culture = shtokavian
 		religion = orthodox
-		size = 10550
+		size = 2550
+	}
+	
+	serfs = {
+		culture = shtokavian
+		religion = orthodox
+		size = 8000
 	}
 	
 	aristocrats = {
@@ -53,84 +59,68 @@
 	farmers = {
 		culture = albanian
 		religion = catholic
-		size = 17825
+		size = 14000
+	}
+	
+	serfs = {
+		culture = albanian
+		religion = catholic
+		size = 3825
 	}
 }
+
 #Niksic (52000/13000 POPS) 
-2569 = {
-	clergymen = {
+2569 = {	
+    aristocrats = {
 		culture = shtokavian
 		religion = orthodox
-		size = 100
+		size = 500
 	}
 	
 	bureaucrats = {
 		culture = shtokavian
 		religion = orthodox
-		size = 50
+		size = 100
 	}
-
-	artisans = {
-		culture = shtokavian
-		religion = orthodox
-		size = 50
-	}
-	
-	farmers = {
-		culture = shtokavian
-		religion = orthodox
-		size = 1000
-	}
-	
-	farmers = {
-		culture = shtokavian
-		religion = orthodox
-		size = 1000
-	}
-
-	farmers = {
-		culture = shtokavian
-		religion = orthodox
-		size = 8400
-	}
-
-	aristocrats = {
-		culture = shtokavian
-		religion = orthodox
-		size = 250
-	}
-
+    
 	clergymen = {
 		culture = shtokavian
 		religion = orthodox
-		size = 25
+		size = 300
 	}
 
 	artisans = {
 		culture = shtokavian
 		religion = orthodox
-		size = 75
+		size = 1000
 	}
-
+	
 	soldiers = {
 		culture = shtokavian
 		religion = orthodox
-		size = 125
+		size = 1125
 	}
-
+	
 	farmers = {
 		culture = shtokavian
 		religion = orthodox
-		size = 6825
+		size = 14000
+	}
+
+	serfs = {
+		culture = shtokavian
+		religion = orthodox
+		size = 30400
 	}
 }
+
 #under the rule of Montenegro in 1836  
 #Cetinje (104000/26000 POPS) 
 2583 = {
 	aristocrats = {
 		culture = shtokavian
 		religion = orthodox
-		size = 100
+		size = 400
 	}
 	
 	bureaucrats = {
@@ -169,95 +159,66 @@
 		size = 16375
 	}
 	
-	farmers = {
+	serfs = {
 		culture = shtokavian
 		religion = orthodox
 		size = 6000
 	}
 	
-	farmers = {
+	serfs = {
 		culture = gypsy
 		religion = orthodox
 		size = 1000
 	}
 }
+
 #Kosovo-Sanjak Region (52000)  #see Serbia.txt for balance of region 
 #under the rule of Ottoman Empire in 1836  
 #Pljevlja (52000/13000 POPS) #now part of Montenegro
 2577 = {
-
 	soldiers = {
 		culture = shtokavian
 		religion = orthodox
-		size = 520
+		size = 1220
 	}
 
+    aristocrats = {
+		culture = shtokavian
+		religion = orthodox
+		size = 500
+	}
+	
 	clergymen = {
 		culture = shtokavian
 		religion = orthodox
-		size = 75
+		size = 450
 	}
 
 	artisans = {
 		culture = shtokavian
 		religion = orthodox
-		size = 250
+		size = 900
 	}
 	
 	farmers = {
 		culture = shtokavian
 		religion = orthodox
-		size = 3170
+		size = 6170
 	}
-
+	
 	serfs = {
 		culture = shtokavian
 		religion = orthodox
-		size = 5175
-	}
-
-	aristocrats = {
-		culture = shtokavian
-		religion = orthodox
-		size = 250
-	}
-
-	clergymen = {
-		culture = shtokavian
-		religion = orthodox
-		size = 100
-	}
-
-	artisans = {
-		culture = shtokavian
-		religion = orthodox
-		size = 300
-	}
-
-	soldiers = {
-		culture = shtokavian
-		religion = orthodox
-		size = 150
-	}
-
-	farmers = {
-		culture = shtokavian
-		religion = orthodox
-		size = 3000
+		size = 25175
 	}
 	
-	farmers = {
-		culture = shtokavian
-		religion = orthodox
-		size = 650
-	}
-	
-	farmers = {
+	serfs = {
 		culture = gypsy
 		religion = orthodox
-		size = 200
+		size = 400
 	}
 }
+
 #Dalmatia Region (64000) #see shtokaviania.txt for balance of region 
 #under the rule of Austria in 1836  
 #Kotor (64000/16000 POPS) 

@@ -1003,6 +1003,7 @@
 		size = 50300
 	}
 }
+
 #Udine (300000/75000 POPS)
 733 = {
 	aristocrats = {
@@ -1065,6 +1066,124 @@
 		size = 2200
 	}
 }
+
+#Tolmezzo
+4154 = {
+	aristocrats = {
+		culture = furlan
+		religion = catholic
+		size = 70
+	}
+
+	clergymen = {
+		culture = furlan
+		religion = catholic
+		size = 60
+	}
+
+	artisans = {
+		culture = furlan
+		religion = catholic
+		size = 200
+	}
+
+	soldiers = {
+		culture = furlan
+		religion = catholic
+		size = 150
+	}
+
+	farmers = {
+		culture = furlan
+		religion = catholic
+		size = 2000
+	}
+	
+	aristocrats = {
+		culture = venetian
+		religion = catholic
+		size = 20
+	}
+
+	clergymen = {
+		culture = venetian
+		religion = catholic
+		size = 20
+	}
+
+	artisans = {
+		culture = venetian
+		religion = catholic
+		size = 60
+	}
+
+	farmers = {
+		culture = venetian
+		religion = catholic
+		size = 500
+	}
+	
+	aristocrats = {
+		culture = south_german
+		religion = catholic
+		size = 50
+	}
+
+	clergymen = {
+		culture = south_german
+		religion = catholic
+		size = 50
+	}
+
+	artisans = {
+		culture = south_german
+		religion = catholic
+		size = 100
+	}
+
+	soldiers = {
+		culture = south_german
+		religion = catholic
+		size = 120
+	}
+
+	farmers = {
+		culture = south_german
+		religion = catholic
+		size = 900
+	}
+	
+	aristocrats = {
+		culture = slovene
+		religion = protestant
+		size = 40
+	}
+
+	clergymen = {
+		culture = slovene
+		religion = protestant
+		size = 30
+	}
+
+	artisans = {
+		culture = slovene
+		religion = protestant
+		size = 100
+	}
+
+	soldiers = {
+		culture = slovene
+		religion = protestant
+		size = 150
+	}
+	
+	farmers = {
+		culture = slovene
+		religion = protestant
+		size = 1200
+	}
+}
+
 #Tirol Region (368000) #see Austria.txt for balance of Region
 #under the rule of Austria in 1836  
 #Trent (276000/69000 POPS) #now part of Italy
@@ -1141,6 +1260,7 @@
 		size = 10075
 	}
 }
+
 #Bozen (92000/23000 POPS) #now part of Italy
 735 = {
 	aristocrats = {
@@ -1218,12 +1338,6 @@
 		religion = catholic
 		size = 200
 	}
-
-	bureaucrats = {
-		culture = south_german
-		religion = catholic
-		size = 450
-	}
 	
 	officers = {
 		culture = venetian
@@ -1279,12 +1393,13 @@
 		size = 6300
 	}
 }
+
 #Gorizia (180000/45000 POPS)
 737 = {
 	aristocrats = {
 		culture = venetian
 		religion = catholic
-		size = 700
+		size = 400
 	}
 
 	clergymen = {
@@ -1296,7 +1411,7 @@
 	artisans = {
 		culture = venetian
 		religion = catholic
-		size = 1250
+		size = 750
 	}
 
 	soldiers = {
@@ -1308,19 +1423,25 @@
 	farmers = {
 		culture = venetian
 		religion = catholic
-		size = 10800
+		size = 2800
+	}
+	
+	aristocrats = {
+		culture = slovene
+		religion = catholic
+		size = 200
 	}
 
 	clergymen = {
 		culture = slovene
 		religion = catholic
-		size = 300
+		size = 100
 	}
 
 	artisans = {
 		culture = slovene
 		religion = catholic
-		size = 1100
+		size = 300
 	}
 
 	soldiers = {
@@ -1332,13 +1453,67 @@
 	farmers = {
 		culture = slovene
 		religion = catholic
-		size = 10000
+		size = 8000
+	}
+	
+	aristocrats = {
+		culture = south_german
+		religion = catholic
+		size = 100
+	}
+
+	clergymen = {
+		culture = south_german
+		religion = catholic
+		size = 100
+	}
+
+	artisans = {
+		culture = south_german
+		religion = catholic
+		size = 200
+	}
+
+	soldiers = {
+		culture = south_german
+		religion = catholic
+		size = 325
+	}
+
+	farmers = {
+		culture = south_german
+		religion = catholic
+		size = 1800
+	}
+	
+	aristocrats = {
+		culture = furlan
+		religion = catholic
+		size = 300
+	}
+
+	clergymen = {
+		culture = furlan
+		religion = catholic
+		size = 125
+	}
+
+	artisans = {
+		culture = furlan
+		religion = catholic
+		size = 350
+	}
+
+	soldiers = {
+		culture = furlan
+		religion = catholic
+		size = 125
 	}
 	
 	farmers = {
 		culture = furlan
 		religion = catholic
-		size = 20000
+		size = 10000
 	}
 	
 	farmers = {
@@ -1346,8 +1521,224 @@
 		religion = catholic
 		size = 375
 	}
-
 }
+
+#Tarvis/Tarviso/Trbizh
+4153 = {
+	aristocrats = {
+		culture = south_german
+		religion = catholic
+		size = 80
+	}
+
+	clergymen = {
+		culture = south_german
+		religion = catholic
+		size = 60
+	}
+
+	artisans = {
+		culture = south_german
+		religion = catholic
+		size = 50
+	}
+
+	soldiers = {
+		culture = south_german
+		religion = catholic
+		size = 75
+	}
+
+	farmers = {
+		culture = south_german
+		religion = catholic
+		size = 1300
+	}
+	
+	aristocrats = {
+		culture = slovene
+		religion = catholic
+		size = 100
+	}
+
+	clergymen = {
+		culture = slovene
+		religion = catholic
+		size = 80
+	}
+
+	artisans = {
+		culture = slovene
+		religion = catholic
+		size = 70
+	}
+
+	soldiers = {
+		culture = slovene
+		religion = catholic
+		size = 125
+	}
+
+	farmers = {
+		culture = slovene
+		religion = catholic
+		size = 1600
+	}
+	
+	aristocrats = {
+		culture = furlan
+		religion = catholic
+		size = 40
+	}
+
+	clergymen = {
+		culture = furlan
+		religion = catholic
+		size = 25
+	}
+
+	artisans = {
+		culture = furlan
+		religion = catholic
+		size = 50
+	}
+
+	soldiers = {
+		culture = furlan
+		religion = catholic
+		size = 125
+	}
+	
+	farmers = {
+		culture = furlan
+		religion = catholic
+		size = 400
+	}
+}
+
+#Tolmein
+4156 = {
+	aristocrats = {
+		culture = venetian
+		religion = catholic
+		size = 100
+	}
+
+	clergymen = {
+		culture = venetian
+		religion = catholic
+		size = 75
+	}
+
+	artisans = {
+		culture = venetian
+		religion = catholic
+		size = 150
+	}
+
+	soldiers = {
+		culture = venetian
+		religion = catholic
+		size = 125
+	}
+
+	farmers = {
+		culture = venetian
+		religion = catholic
+		size = 1000
+	}
+	
+	aristocrats = {
+		culture = south_german
+		religion = catholic
+		size = 50
+	}
+
+	clergymen = {
+		culture = south_german
+		religion = catholic
+		size = 50
+	}
+
+	artisans = {
+		culture = south_german
+		religion = catholic
+		size = 200
+	}
+
+	soldiers = {
+		culture = south_german
+		religion = catholic
+		size = 25
+	}
+
+	farmers = {
+		culture = south_german
+		religion = catholic
+		size = 800
+	}
+	
+	aristocrats = {
+		culture = slovene
+		religion = catholic
+		size = 200
+	}
+
+	clergymen = {
+		culture = slovene
+		religion = catholic
+		size = 100
+	}
+
+	artisans = {
+		culture = slovene
+		religion = catholic
+		size = 500
+	}
+
+	soldiers = {
+		culture = slovene
+		religion = catholic
+		size = 325
+	}
+
+	farmers = {
+		culture = slovene
+		religion = catholic
+		size = 6000
+	}
+	
+	aristocrats = {
+		culture = furlan
+		religion = catholic
+		size = 200
+	}
+
+	clergymen = {
+		culture = furlan
+		religion = catholic
+		size = 125
+	}
+
+	artisans = {
+		culture = furlan
+		religion = catholic
+		size = 350
+	}
+
+	soldiers = {
+		culture = furlan
+		religion = catholic
+		size = 125
+	}
+	
+	farmers = {
+		culture = furlan
+		religion = catholic
+		size = 4000
+	}
+}
+
 #Emilia Region (1120000)
 #under the rule of Parma in 1836
 #Parma (472000/118000 POPS)

@@ -246,7 +246,7 @@ political_decisions = {
 				remove_core = THIS
 			}
 			change_tag = ENL
-			WES = { all_core = { add_core = THIS } }
+			WSX = { all_core = { add_core = THIS } }
 			SUX = { all_core = { add_core = THIS } }
 			ESX = { all_core = { add_core = THIS } }
 			KNT = { all_core = { add_core = THIS } }
@@ -369,33 +369,33 @@ political_decisions = {
 		allow = {
 			is_greater_power = yes
 			LOR = { all_core = { owned_by = THIS } }
-			BEL_394 = { owned_by = THIS }
-			LUX_397 = { owned_by = THIS }
-			NET_385 = { owned_by = THIS }
-			NET_379 = { owned_by = THIS }
-			NET_375 = { owned_by = THIS }
-			NET_382 = { owned_by = THIS }
-			PRU_575 = { owned_by = THIS }
 			FRA_409 = { owned_by = THIS }
-			FRA_432 = { owned_by = THIS }
-			SWI_606 = { owned_by = THIS }
-			SWI_607 = { owned_by = THIS }
+			FRA_411 = { owned_by = THIS }
+			BAD_571 = { owned_by = THIS }
+			PRU_572 = { owned_by = THIS }
+			LUX_397 = { owned_by = THIS }
+			BEL_394 = { owned_by = THIS }
 			BEL_387 = { owned_by = THIS }
+			PRU_575 = { owned_by = THIS }
+			PRU_578 = { owned_by = THIS }
+			NET_382 = { owned_by = THIS }
+			NET_375 = { owned_by = THIS }
+			NET_385 = { owned_by = THIS }
 		}
 		effect = {
 			LOR = { all_core = { add_core = SGF remove_core = THIS } }
-			BEL_394 = { add_core = SGF }
-			LUX_397 = { add_core = SGF }
-			NET_385 = { add_core = SGF }
-			NET_379 = { add_core = SGF }
-			NET_375 = { add_core = SGF }
-			NET_382 = { add_core = SGF }
-			PRU_575 = { add_core = SGF }
 			FRA_409 = { add_core = SGF }
-			FRA_432 = { add_core = SGF }
-			SWI_606 = { add_core = SGF }
-			SWI_607 = { add_core = SGF }
+			FRA_411 = { add_core = SGF }
+			BAD_571 = { add_core = SGF }
+			PRU_572 = { add_core = SGF }
+			LUX_397 = { add_core = SGF }
+			BEL_394 = { add_core = SGF }
 			BEL_387 = { add_core = SGF }
+			PRU_575 = { add_core = SGF }
+			PRU_578 = { add_core = SGF }
+			NET_382 = { add_core = SGF }
+			NET_375 = { add_core = SGF }
+			NET_385 = { add_core = SGF }
 			change_tag = SGF
 		}
 	}

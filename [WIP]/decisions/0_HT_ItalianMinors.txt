@@ -65,17 +65,16 @@ political_decisions = {
 		potential = {
 			primary_culture = north_italian
 			capital_scope = {
-				OR = {
-					region = SAR_720
-					region = SAR_466
-				}
+			    region = SAR_720
 			}
 			NOT = { tag = GEN }
 			NOT = { tag = ITA }
+			NOT = { tag = LOM }
 			NOT = { exists = PIE }
 		}
 		allow = {
 			owns = 720
+			owns = 721
 			owns = 723
 			num_of_cities = 5
 		}
@@ -86,7 +85,6 @@ political_decisions = {
 			}
 			change_tag = PIE
 			SAR_720 = { add_core = THIS }
-			SAR_466 = { add_core = THIS }
 			prestige = 25
 			government = absolute_monarchy
 			any_pop = {

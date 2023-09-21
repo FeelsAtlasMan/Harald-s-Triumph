@@ -235,6 +235,7 @@ country_event = {
 			}
 		}
 		badboy = 5
+		set_global_flag = treaty_of_diyarbakir
         ai_chance = { factor = 100 }
     }
 }
@@ -744,12 +745,14 @@ country_event = {
     option = {
         name = "We uphold our promises"	
 		any_pop = { limit = { has_pop_religion = zoroastrian } militancy = -8 }
-		any_owned_province = { 
-		    limit = {
-			    region = PER_1139
-				province_id = 1140
-			}
-			add_province_modifier = {
+		PER_1139 = {
+		    add_province_modifier = {
+		        name = zoroastrian_autonomy
+			    duration = 3650
+		    }
+		}
+		1140 = {
+		    add_province_modifier = {
 		        name = zoroastrian_autonomy
 			    duration = 3650
 		    }
@@ -837,7 +840,7 @@ country_event = {
     }	
 }
 
-#A Message to Governour of Northern Ajam
+#A Message to Governour of Northern Ajam ---
 country_event = {
     id = 88027
     title = "A Message to Governour of Northern Ajam"
@@ -847,25 +850,15 @@ country_event = {
 	is_triggered_only = yes
 		
 	option = {
-	    name = "I'm sure gold will be enough to sway him"	
-		set_country_flag = irv_sent_gold_to_northern__ajam
+	    name = "EventForNAjam"	
+		clr_global_flag = tried_to_garner_support_ajam
+		any_country = { limit = { tag = IRV NOT = { has_country_flag = support_from_ajam_gov } } country_event = 88028 }
+		any_country = { limit = { tag = IRV has_country_flag = support_from_ajam_gov } country_event = 88029 }
 		ai_chance = { factor = 100 }
 	}	
-	
-	option = {
-	    name = "Offer him wide ranging autonomy within the new state"	
-		set_country_flag = irv_promised_autonomy_to_northern_ajam
-		ai_chance = { factor = 100 }
-	}
-
-	option = {
-	    name = "Maybe a bunch of fancy words are enough?"	
-		set_country_flag = irv_sent_fancy_letter_northern_ajam
-		ai_chance = { factor = 100 }
-	}
 }
 
-#A Message to Governour of Esfahan
+#A Message to Governour of Northern Ajam
 country_event = {
     id = 88028
     title = "A Message to Governour of Northern Ajam"
@@ -875,10 +868,93 @@ country_event = {
 	is_triggered_only = yes
 		
 	option = {
-		set_country_flag = protector_of_the_people_title
+	    name = "More autonomy would surely be of interest to him..."	
+		--- = { country_event = 88038 }
+		ai_chance = { factor = 100 }
+	}	
+	
+	option = {
+	    name = "Maybe an high ranking position in the government will sway him?"	
+		#--- = { country_event = 88039 }
+		ai_chance = { factor = 100 }
+	}	
+	
+	option = {
+	    name = "Gold can solve a lot of problems..."	
+		#--- = { country_event = 88040 }
+		ai_chance = { factor = 100 }
+	}	
+	
+	option = {
+	    name = "I guess just asking him wouldn't hurt?"	
+		#--- = { country_event = 88041 }
+		ai_chance = { factor = 100 }
+	}
+}
+
+#Autonomy Option - Militancy Check
+country_event = {
+    id = 88038
+    title = "Miltancy Check for Ajam"
+    desc = "EVTDESC88038"
+	picture = "message_to_ajam"
+	
+	is_triggered_only = yes
+		
+	option = {
+	    name = "Militancy Check"	
+		random_country = {
+              limit = {
+                    PER_1121 = { militancy = 5 }
+                    PER_1127 = { militancy = 5 }
+              }
+              IRV = {
+                    country_event = 88039
+              }
+        }
+		random_country = {
+              limit = {
+                    NOT = { PER_1121 = { militancy = 5 } }
+                    NOT = { PER_1121 = { militancy = 5 } }
+              }
+              IRV = {
+                    country_event = 88040
+              }
+        }
 		ai_chance = { factor = 100 }
 	}	
 }
+
+#A Message to Governour of Northern Ajam
+country_event = {
+    id = 88039
+    title = "Test"
+    desc = "EVTDESC88038"
+	picture = "message_to_ajam"
+	
+	is_triggered_only = yes
+		
+	option = {
+	    name = "More autonomy would surely be of interest to him..."	
+		ai_chance = { factor = 100 }
+	}	
+}
+
+#A Message to Governour of Northern Ajam
+country_event = {
+    id = 88040
+    title = "Test"
+    desc = "EVTDESC88027"
+	picture = "message_to_ajam"
+	
+	is_triggered_only = yes
+		
+	option = {
+	    name = "suggon"	
+		ai_chance = { factor = 100 }
+	}	
+}
+
 
 #Incorporation of Qumis
 country_event = {
@@ -888,6 +964,10 @@ country_event = {
 	picture = "khorasan_trolled"
 	
 	trigger = {
+	    OR = {
+		   tag = FRS
+		   tag = PER
+		}
         is_core = BRL
 		BRL = { exists = no }
 		has_country_flag = first_caspian_campaign
@@ -902,9 +982,243 @@ country_event = {
 		state_scope = {
             any_owned = {
                 remove_core = BRL
-				add_core = BRL
+				add_core = THIS
             }
         }
+        ai_chance = { factor = 100 }
+    }
+}
+
+#France intervention: NRD joins war against KRM on FRS side
+country_event = {
+    id = 88030
+    title = "Intervention in the Near East?"
+    desc = "EVTDESC88030"
+	picture = "asian_administration"
+	
+	trigger = {
+        tag = FRA
+		NRD = { war_with = KRM }
+		NRD = { is_sphere_leader_of = FRS }
+		FRS = { war_with = KRM }
+		OR = {
+		    NOT = { has_global_flag = treaty_of_diyarbakir }
+			NOT = { has_global_flag = treaty_of_qazvin }
+	    }
+    }
+	
+	mean_time_to_happen = {
+	    days = 2
+	}
+
+    option = {
+        name = "We need to threaten intervention!"	
+		NRD = { country_event = 88031 }
+        ai_chance = { factor = 100 }
+    }
+	
+	option = {
+        name = "Why should we care?"	
+		KRM = {
+		    relation = {
+	             who = FRA
+	             value = -100
+		    }
+        }
+        ai_chance = { factor = 0 }
+    }
+}
+
+#France intervention: France threatens intervention; NRD event
+country_event = {
+    id = 88031
+    title = "French Ultimatum"
+    desc = "EVTDESC88031"
+	picture = "asian_administration"
+	
+	is_triggered_only = yes
+
+    option = {
+        name = "Accept the French demands"	
+		FRA = { country_event = 88032 }
+		KRM = { end_war = NRD }
+        ai_chance = { factor = 100 }
+    }
+	
+	option = {
+        name = "Why should we care?"
+        FRA = { country_event = 88033 }		
+        ai_chance = { factor = 0 }
+    }
+}
+
+#France intervention: France gets notified by NRD decision I
+country_event = {
+    id = 88032
+    title = "The Anglish accept our demands"
+    desc = "EVTDESC88032"
+	picture = "asian_administration"
+	
+	is_triggered_only = yes
+
+    option = {
+        name = "Great!"	
+	    relation = {
+	             who = KRM
+	             value = 150
+		}
+		diplomatic_influence = {
+	             who = KRM
+	             value = 150
+		}
+        ai_chance = { factor = 100 }
+    }
+}
+
+#France intervention: France gets notified by NRD decision II
+country_event = {
+    id = 88033
+    title = "The Anglish reject our demands"
+    desc = "EVTDESC88033"
+	picture = "asian_administration"
+	
+	is_triggered_only = yes
+
+    option = {
+        name = "To War!"	
+	    relation = {
+	             who = KRM
+	             value = 150
+		}
+		diplomatic_influence = {
+	             who = KRM
+	             value = 150
+		}
+		casus_belli = { target = NRD type = humiliate months = 12 }
+		NRD = { casus_belli = { target = FRA type = humiliate months = 12 } }
+		war = {
+	            target = NRD
+	            attacker_goal = { casus_belli = humiliate }
+	            defender_goal = { casus_belli = humiliate }
+	            call_ally = no
+        } 
+        ai_chance = { factor = 100 }
+    }
+}
+
+#NRD intervention: France joins war against KRM on FRS side
+country_event = {
+    id = 88034
+    title = "Intervention in the Near East?"
+    desc = "EVTDESC88034"
+	picture = "asian_administration"
+	
+	trigger = {
+        tag = NRD
+		FRA = { war_with = KRM }
+		FRA = { is_sphere_leader_of = FRS }
+		FRS = { war_with = KRM }
+		OR = {
+		    NOT = { has_global_flag = treaty_of_diyarbakir }
+			NOT = { has_global_flag = treaty_of_qazvin }
+	    }
+    }
+	
+	mean_time_to_happen = {
+	    days = 2
+	}
+
+    option = {
+        name = "We need to threaten intervention!"	
+		FRA = { country_event = 88035 }
+        ai_chance = { factor = 100 }
+    }
+	
+	option = {
+        name = "Why should we care?"	
+		KRM = {
+		    relation = {
+	             who = NRD
+	             value = -100
+		    }
+        }
+        ai_chance = { factor = 0 }
+    }
+}
+
+#NRD intervention: NRD threatens intervention; FRA event
+country_event = {
+    id = 88035
+    title = "Anglish Ultimatum"
+    desc = "EVTDESC88031"
+	picture = "asian_administration"
+	
+	is_triggered_only = yes
+
+    option = {
+        name = "Accept the Anglish demands"	
+		NRD = { country_event = 88036 }
+		KRM = { end_war = FRA }
+        ai_chance = { factor = 100 }
+    }
+	
+	option = {
+        name = "Why should we care?"
+        NRD = { country_event = 88037 }		
+        ai_chance = { factor = 0 }
+    }
+}
+
+#NRD intervention: NRD gets notified by FRA decision I
+country_event = {
+    id = 88036
+    title = "The Anglish accept our demands"
+    desc = "EVTDESC88036"
+	picture = "asian_administration"
+	
+	is_triggered_only = yes
+
+    option = {
+        name = "Great!"	
+	    relation = {
+	             who = NRD
+	             value = 150
+		}
+		diplomatic_influence = {
+	             who = NRD
+	             value = 150
+		}
+        ai_chance = { factor = 100 }
+    }
+}
+
+#NRD intervention: NRD gets notified by FRA decision II
+country_event = {
+    id = 88037
+    title = "The Anglish reject our demands"
+    desc = "EVTDESC88037"
+	picture = "asian_administration"
+	
+	is_triggered_only = yes
+
+    option = {
+        name = "To War!"	
+	    relation = {
+	             who = NRD
+	             value = 150
+		}
+		diplomatic_influence = {
+	             who = NRD
+	             value = 150
+		}
+		casus_belli = { target = FRA type = humiliate months = 12 }
+		FRA = { casus_belli = { target = NRD type = humiliate months = 12 } }
+		war = {
+	            target = FRA
+	            attacker_goal = { casus_belli = humiliate }
+	            defender_goal = { casus_belli = humiliate }
+	            call_ally = no
+        } 
         ai_chance = { factor = 100 }
     }
 }

@@ -39,7 +39,13 @@
 	farmers = {
 		culture = albanian
 		religion = orthodox
-		size = 10947
+		size = 8947
+	}
+	
+	serfs = {
+		culture = albanian
+		religion = orthodox
+		size = 2000
 	}
 	
 	aristocrats = {
@@ -81,10 +87,16 @@
 	farmers = {
 		culture = tosk
 		religion = orthodox
-		size = 10065
+		size = 8000
 	}
 	
-	farmers = {
+	serfs = {
+		culture = tosk
+		religion = orthodox
+		size = 2065
+	}
+	
+	serfs = {
 		culture = gypsy
 		religion = orthodox
 		size = 400
@@ -120,7 +132,13 @@
 	farmers = {
 		culture = albanian
 		religion = catholic
-		size = 27566
+		size = 20000
+	}
+	
+	serfs = {
+		culture = albanian
+		religion = catholic
+		size = 7566
 	}
 	
 	aristocrats = {
@@ -150,7 +168,13 @@
 	farmers = {
 		culture = albanian
 		religion = orthodox
-		size = 10127
+		size = 9000
+	}
+	
+	serfs = {
+		culture = albanian
+		religion = orthodox
+		size = 1127
 	}
 }
 
@@ -183,7 +207,13 @@
 	farmers = {
 		culture = albanian
 		religion = catholic
-		size = 30632
+		size = 27000
+	}
+	
+	serfs = {
+		culture = albanian
+		religion = catholic
+		size = 3632
 	}
 	
 	aristocrats = {
@@ -213,10 +243,16 @@
 	farmers = {
 		culture = tosk
 		religion = orthodox
-		size = 30000
+		size = 27000
 	}
 	
-	farmers = {
+	serfs = {
+		culture = tosk
+		religion = orthodox
+		size = 3000
+	}
+	
+	serfs = {
 		culture = gypsy
 		religion = orthodox
 		size = 2000
@@ -249,7 +285,13 @@
 	farmers = {
 		culture = aromanian
 		religion = orthodox
-		size = 6355
+		size = 2000
+	}
+	
+	serfs = {
+		culture = aromanian
+		religion = orthodox
+		size = 4355
 	}
 }
 
@@ -480,7 +522,13 @@
 	farmers = {
 		culture = tosk
 		religion = orthodox
-		size = 18947
+		size = 16000
+	}
+	
+	serfs = {
+		culture = tosk
+		religion = orthodox
+		size = 2947
 	}
 	
 	aristocrats = {
@@ -510,7 +558,13 @@
 	farmers = {
 		culture = aromanian
 		religion = orthodox
-		size = 2047
+		size = 247
+	}
+	
+	serfs = {
+		culture = aromanian
+		religion = orthodox
+		size = 1800
 	}
 	
 	clergymen = {
@@ -519,13 +573,19 @@
 		size = 143
 	}
 	
-	farmers = {
+	serfs = {
 		culture = tosk
 		religion = catholic
-		size = 3232
+		size = 3000
 	}
 	
 	farmers = {
+		culture = tosk
+		religion = catholic
+		size = 232
+	}
+	
+	serfs = {
 		culture = gypsy
 		religion = orthodox
 		size = 232
@@ -561,7 +621,13 @@
 	farmers = {
 		culture = tosk
 		religion = catholic
-		size = 1246
+		size = 1046
+	}
+	
+	serfs = {
+		culture = tosk
+		religion = catholic
+		size = 200
 	}
 	
 	clergymen = {
@@ -585,7 +651,13 @@
 	farmers = {
 		culture = aromanian
 		religion = orthodox
-		size = 1246
+		size = 246
+	}
+	
+	serfs = {
+		culture = aromanian
+		religion = orthodox
+		size = 1000
 	}
 	
 	aristocrats = {
@@ -615,7 +687,13 @@
 	farmers = {
 		culture = tosk
 		religion = orthodox
-		size = 41379
+		size = 35000
+	}
+	
+	serfs = {
+		culture = tosk
+		religion = orthodox
+		size = 6379
 	}
 	
 	soldiers = {
@@ -639,10 +717,16 @@
 	farmers = {
 		culture = greek
 		religion = orthodox
-		size = 8799
+		size = 1799
 	}
 	
-	farmers = {
+	serfs = {
+		culture = greek
+		religion = orthodox
+		size = 7000
+	}
+	
+	serfs = {
 		culture = gypsy
 		religion = orthodox
 		size = 799

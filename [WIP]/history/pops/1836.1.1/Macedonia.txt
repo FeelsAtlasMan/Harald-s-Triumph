@@ -5,126 +5,481 @@
 	aristocrats = {
 		culture = aromanian
 		religion = orthodox
-		size = 450
+		size = 40
 	}
 
 	clergymen = {
 		culture = aromanian
 		religion = orthodox
-		size = 325
+		size = 35
 	}
 
 	artisans = {
+		culture = aromanian
+		religion = orthodox
+		size = 100
+	}
+
+	farmers = {
+		culture = aromanian
+		religion = orthodox
+		size = 225
+	}
+	
+	serfs = {
+		culture = aromanian
+		religion = orthodox
+		size = 300
+	}
+
+	aristocrats = {
+		culture = makedonian
+		religion = orthodox
+		size = 525
+	}
+	
+	officers = {
+		culture = makedonian
+		religion = orthodox
+		size = 110
+	}
+	
+	soldiers = {
+		culture = makedonian
+		religion = orthodox
+		size = 200
+	}
+	
+	clergymen = {
+		culture = makedonian
+		religion = orthodox
+		size = 225
+	}
+
+	artisans = {
+		culture = makedonian
+		religion = orthodox
+		size = 4100
+	}
+
+	farmers = {
+		culture = makedonian
+		religion = orthodox
+		size = 2350
+	}
+	
+	serfs = {
+		culture = makedonian
+		religion = orthodox
+		size = 8000
+	}
+	
+	soldiers = {
+		culture = torlakian
+		religion = orthodox
+		size = 100
+	}
+	
+	clergymen = {
+		culture = torlakian
+		religion = orthodox
+		size = 50
+	}
+
+	artisans = {
+		culture = torlakian
+		religion = orthodox
+		size = 100
+	}
+
+	farmers = {
+		culture = torlakian
+		religion = orthodox
+		size = 350
+	}
+	
+	serfs = {
+		culture = torlakian
+		religion = orthodox
+		size = 2000
+	}
+	
+	aristocrats = {
+		culture = bulgarian
+		religion = orthodox
+		size = 100
+	}
+	
+	officers = {
+		culture = bulgarian
+		religion = orthodox
+		size = 40
+	}
+	
+	bureaucrats = {
+		culture = bulgarian
+		religion = orthodox
+		size = 70
+	}
+	
+	aristocrats = {
+		culture = albanian
+		religion = orthodox
+		size = 470
+	}
+
+	clergymen = {
+		culture = albanian
+		religion = orthodox
+		size = 110
+	}
+
+	artisans = {
+		culture = albanian
+		religion = orthodox
+		size = 600
+	}
+
+	farmers = {
+		culture = albanian
+		religion = orthodox
+		size = 10000
+	}
+	
+	serfs = {
+		culture = albanian
+		religion = orthodox
+		size = 2500
+	}
+	
+	serfs = {
+		culture = gypsy
+		religion = orthodox
+		size = 1200
+	}
+	
+	aristocrats = {
+		culture = greek
+		religion = orthodox
+		size = 70
+	}
+
+	clergymen = {
+		culture = greek
+		religion = orthodox
+		size = 110
+	}
+
+	artisans = {
+		culture = greek
+		religion = orthodox
+		size = 100
+	}
+
+	farmers = {
+		culture = greek
+		religion = orthodox
+		size = 200
+	}
+	
+	serfs = {
+		culture = greek
+		religion = orthodox
+		size = 300
+	}
+	
+	serfs = {
+		culture = gypsy
+		religion = orthodox
+		size = 1200
+	}
+
+	artisans = {
+		culture = ashkenazi
+		religion = jewish
+		size = 900
+	}
+
+	farmers = {
+		culture = ashkenazi
+		religion = jewish
+		size = 100
+	}
+}
+
+#Strumica
+4134 = {
+	aristocrats = {
+		culture = aromanian
+		religion = orthodox
+		size = 50
+	}
+
+	clergymen = {
+		culture = aromanian
+		religion = orthodox
+		size = 45
+	}
+
+	artisans = {
+		culture = aromanian
+		religion = orthodox
+		size = 100
+	}
+
+	farmers = {
+		culture = aromanian
+		religion = orthodox
+		size = 425
+	}
+	
+	serfs = {
 		culture = aromanian
 		religion = orthodox
 		size = 1000
 	}
 
-	soldiers = {
-		culture = aromanian
-		religion = orthodox
-		size = 2000
-	}
-
-	farmers = {
-		culture = aromanian
-		religion = orthodox
-		size = 15225
-	}
-
 	aristocrats = {
 		culture = makedonian
 		religion = orthodox
-		size = 2125
-	}
-	
-	officers = {
-		culture = makedonian
-		religion = orthodox
-		size = 110
+		size = 325
 	}
 	
 	soldiers = {
 		culture = makedonian
 		religion = orthodox
-		size = 200
+		size = 300
 	}
 	
 	clergymen = {
 		culture = makedonian
 		religion = orthodox
-		size = 125
+		size = 170
 	}
 
 	artisans = {
 		culture = makedonian
-		religion = orthodox
-		size = 3100
-	}
-
-	farmers = {
-		culture = makedonian
-		religion = orthodox
-		size = 46350
-	}
-	
-	aristocrats = {
-		culture = greek
-		religion = orthodox
-		size = 110
-	}
-	
-	officers = {
-		culture = greek
-		religion = orthodox
-		size = 110
-	}
-	
-	soldiers = {
-		culture = greek
 		religion = orthodox
 		size = 200
 	}
 
-	clergymen = {
-		culture = greek
+	farmers = {
+		culture = makedonian
 		religion = orthodox
-		size = 110
+		size = 2350
+	}
+	
+	serfs = {
+		culture = makedonian
+		religion = orthodox
+		size = 10000
+	}
+	
+	aristocrats = {
+		culture = thracian
+		religion = orthodox
+		size = 25
+	}
+	
+	clergymen = {
+		culture = thracian
+		religion = orthodox
+		size = 70
 	}
 
 	artisans = {
-		culture = greek
+		culture = thracian
 		religion = orthodox
-		size = 1200
+		size = 70
 	}
 
 	farmers = {
-		culture = greek
+		culture = thracian
 		religion = orthodox
-		size = 6200
+		size = 250
 	}
 	
+	serfs = {
+		culture = thracian
+		religion = orthodox
+		size = 1000
+	}
+	
+	aristocrats = {
+		culture = torlakian
+		religion = orthodox
+		size = 25
+	}
+	
+	clergymen = {
+		culture = torlakian
+		religion = orthodox
+		size = 70
+	}
+
+	artisans = {
+		culture = torlakian
+		religion = orthodox
+		size = 70
+	}
+
 	farmers = {
+		culture = torlakian
+		religion = orthodox
+		size = 200
+	}
+	
+	serfs = {
+		culture = torlakian
+		religion = orthodox
+		size = 550
+	}
+	
+	aristocrats = {
+		culture = albanian
+		religion = orthodox
+		size = 70
+	}
+
+	clergymen = {
+		culture = albanian
+		religion = orthodox
+		size = 80
+	}
+
+	artisans = {
+		culture = albanian
+		religion = orthodox
+		size = 30
+	}
+
+	farmers = {
+		culture = albanian
+		religion = orthodox
+		size = 200
+	}
+	
+	serfs = {
+		culture = albanian
+		religion = orthodox
+		size = 300
+	}
+	
+	serfs = {
 		culture = gypsy
 		religion = orthodox
-		size = 4200
-	}
-
-	artisans = {
-		culture = ashkenazi
-		religion = jewish
-		size = 700
-	}
-
-	farmers = {
-		culture = ashkenazi
-		religion = jewish
 		size = 300
 	}
 }
+
+#Veles
+4135 = {
+	aristocrats = {
+		culture = aromanian
+		religion = orthodox
+		size = 40
+	}
+
+	clergymen = {
+		culture = aromanian
+		religion = orthodox
+		size = 35
+	}
+
+	artisans = {
+		culture = aromanian
+		religion = orthodox
+		size = 100
+	}
+
+	farmers = {
+		culture = aromanian
+		religion = orthodox
+		size = 200
+	}
+	
+	serfs = {
+		culture = aromanian
+		religion = orthodox
+		size = 625
+	}
+
+	aristocrats = {
+		culture = makedonian
+		religion = orthodox
+		size = 725
+	}
+	
+	soldiers = {
+		culture = makedonian
+		religion = orthodox
+		size = 1000
+	}
+	
+	clergymen = {
+		culture = makedonian
+		religion = orthodox
+		size = 370
+	}
+
+	artisans = {
+		culture = makedonian
+		religion = orthodox
+		size = 1100
+	}
+
+	farmers = {
+		culture = makedonian
+		religion = orthodox
+		size = 8350
+	}
+	
+	serfs = {
+		culture = makedonian
+		religion = orthodox
+		size = 20000
+	}
+	
+	aristocrats = {
+		culture = albanian
+		religion = orthodox
+		size = 170
+	}
+
+	clergymen = {
+		culture = albanian
+		religion = orthodox
+		size = 80
+	}
+
+	artisans = {
+		culture = albanian
+		religion = orthodox
+		size = 100
+	}
+
+	farmers = {
+		culture = albanian
+		religion = orthodox
+		size = 3000
+	}
+	
+	serfs = {
+		culture = albanian
+		religion = orthodox
+		size = 500
+	}
+	
+	serfs = {
+		culture = gypsy
+		religion = orthodox
+		size = 600
+	}
+}
+
 #Monastir Region (268000) #see Greece.txt for balance of region 
 #under the rule of Ottoman Empire in 1836  
-#Bitola (268000/67000 POPS) 
+#Shtrpce (268000/67000 POPS) 
 807 = {
 	soldiers = {
 		culture = torlakian
@@ -147,7 +502,13 @@
 	farmers = {
 		culture = torlakian
 		religion = orthodox
-		size = 10075
+		size = 2000
+	}
+	
+	serfs = {
+		culture = torlakian
+		religion = orthodox
+		size = 8075
 	}
 	
 	soldiers = {
@@ -171,7 +532,13 @@
 	farmers = {
 		culture = albanian
 		religion = orthodox
-		size = 14000
+		size = 10000
+	}
+	
+	serfs = {
+		culture = albanian
+		religion = orthodox
+		size = 4000
 	}
 
 	aristocrats = {
@@ -207,10 +574,16 @@
 	farmers = {
 		culture = aromanian
 		religion = orthodox
-		size = 1100
+		size = 300
 	}
 	
-	farmers = {
+	serfs = {
+		culture = aromanian
+		religion = orthodox
+		size = 800
+	}
+	
+	serfs = {
 		culture = gypsy
 		religion = orthodox
 		size = 400
@@ -265,7 +638,43 @@
 	farmers = {
 		culture = albanian
 		religion = orthodox
-		size = 36062
+		size = 20000
+	}
+	
+	serfs = {
+		culture = albanian
+		religion = orthodox
+		size = 4062
+	}
+	
+	clergymen = {
+		culture = tosk
+		religion = orthodox
+		size = 35
+	}
+
+	artisans = {
+		culture = tosk
+		religion = orthodox
+		size = 40
+	}
+
+	soldiers = {
+		culture = tosk
+		religion = orthodox
+		size = 500
+	}
+
+	farmers = {
+		culture = tosk
+		religion = orthodox
+		size = 5400
+	}
+	
+	serfs = {
+		culture = tosk
+		religion = orthodox
+		size = 662
 	}
 	
 	clergymen = {
@@ -289,7 +698,13 @@
 	farmers = {
 		culture = aromanian
 		religion = orthodox
-		size = 6062
+		size = 362
+	}
+	
+	serfs = {
+		culture = aromanian
+		religion = orthodox
+		size = 2700
 	}
 	
 	soldiers = {
@@ -313,17 +728,23 @@
 	farmers = {
 		culture = makedonian
 		religion = orthodox
-		size = 10100
+		size = 2100
 	}
 	
-	farmers = {
+	serfs = {
+		culture = makedonian
+		religion = orthodox
+		size = 18000
+	}
+	
+	serfs = {
 		culture = gypsy
 		religion = orthodox
 		size = 700
 	}
 }
 
-#Kastoria
+#Voskopje
 3674 = {
 	clergymen = {
 		culture = tosk
@@ -346,7 +767,13 @@
 	farmers = {
 		culture = tosk
 		religion = orthodox
-		size = 7062
+		size = 6300
+	}
+	
+	serfs = {
+		culture = tosk
+		religion = orthodox
+		size = 762
 	}
 	
 	clergymen = {
@@ -370,7 +797,13 @@
 	farmers = {
 		culture = aromanian
 		religion = orthodox
-		size = 7062
+		size = 1062
+	}
+	
+	serfs = {
+		culture = aromanian
+		religion = orthodox
+		size = 6000
 	}
 	
 	soldiers = {
@@ -394,28 +827,34 @@
 	farmers = {
 		culture = makedonian
 		religion = orthodox
-		size = 3100
+		size = 310
 	}
 	
-	farmers = {
+	serfs = {
+		culture = makedonian
+		religion = orthodox
+		size = 2700
+	}
+	
+	serfs = {
 		culture = gypsy
 		religion = orthodox
 		size = 300
 	}
 }
 
-#Solon
+#Voden
 3675 = {
 	clergymen = {
 		culture = megleno_romanian
 		religion = orthodox
-		size = 125
+		size = 25
 	}
 
 	artisans = {
 		culture = megleno_romanian
 		religion = orthodox
-		size = 400
+		size = 40
 	}
 
 	soldiers = {
@@ -427,19 +866,25 @@
 	farmers = {
 		culture = megleno_romanian
 		religion = orthodox
-		size = 7062
+		size = 362
+	}
+	
+	serfs = {
+		culture = megleno_romanian
+		religion = orthodox
+		size = 2700
 	}
 	
 	clergymen = {
 		culture = aromanian
 		religion = orthodox
-		size = 125
+		size = 15
 	}
 
 	artisans = {
 		culture = aromanian
 		religion = orthodox
-		size = 400
+		size = 40
 	}
 
 	soldiers = {
@@ -451,13 +896,19 @@
 	farmers = {
 		culture = aromanian
 		religion = orthodox
-		size = 4062
+		size = 200
+	}
+	
+	serfs = {
+		culture = aromanian
+		religion = orthodox
+		size = 600
 	}
 	
 	aristocrats = {
 		culture = makedonian
 		religion = orthodox
-		size = 275
+		size = 3275
 	}
 
 	clergymen = {
@@ -481,13 +932,19 @@
 	farmers = {
 		culture = makedonian
 		religion = orthodox
-		size = 63100
+		size = 13100
+	}
+	
+	serfs = {
+		culture = makedonian
+		religion = orthodox
+		size = 40000
 	}
 	
 	aristocrats = {
 		culture = greek
 		religion = orthodox
-		size = 75
+		size = 275
 	}
 
 	clergymen = {
@@ -511,12 +968,159 @@
 	farmers = {
 		culture = greek
 		religion = orthodox
-		size = 4000
+		size = 2000
 	}
 	
-	farmers = {
+	serfs = {
+		culture = greek
+		religion = orthodox
+		size = 12000
+	}
+	
+	serfs = {
 		culture = gypsy
 		religion = orthodox
 		size = 2100
+	}
+}
+
+#Kostur
+4132 = {
+	clergymen = {
+		culture = aromanian
+		religion = orthodox
+		size = 15
+	}
+
+	artisans = {
+		culture = aromanian
+		religion = orthodox
+		size = 40
+	}
+
+	soldiers = {
+		culture = aromanian
+		religion = orthodox
+		size = 100
+	}
+
+	farmers = {
+		culture = aromanian
+		religion = orthodox
+		size = 200
+	}
+	
+	serfs = {
+		culture = aromanian
+		religion = orthodox
+		size = 1800
+	}
+	
+	clergymen = {
+		culture = tosk
+		religion = orthodox
+		size = 15
+	}
+
+	artisans = {
+		culture = tosk
+		religion = orthodox
+		size = 40
+	}
+
+	soldiers = {
+		culture = tosk
+		religion = orthodox
+		size = 100
+	}
+
+	farmers = {
+		culture = tosk
+		religion = orthodox
+		size = 1000
+	}
+	
+	serfs = {
+		culture = tosk
+		religion = orthodox
+		size = 300
+	}
+	
+	aristocrats = {
+		culture = makedonian
+		religion = orthodox
+		size = 275
+	}
+
+	clergymen = {
+		culture = makedonian
+		religion = orthodox
+		size = 210
+	}
+
+	artisans = {
+		culture = makedonian
+		religion = orthodox
+		size = 250
+	}
+	
+	soldiers = {
+		culture = makedonian
+		religion = orthodox
+		size = 375
+	}
+	
+	farmers = {
+		culture = makedonian
+		religion = orthodox
+		size = 1100
+	}
+	
+	serfs = {
+		culture = makedonian
+		religion = orthodox
+		size = 8000
+	}
+	
+	aristocrats = {
+		culture = greek
+		religion = orthodox
+		size = 75
+	}
+
+	clergymen = {
+		culture = greek
+		religion = orthodox
+		size = 90
+	}
+
+	artisans = {
+		culture = greek
+		religion = orthodox
+		size = 350
+	}
+	
+	soldiers = {
+		culture = greek
+		religion = orthodox
+		size = 175
+	}
+	
+	farmers = {
+		culture = greek
+		religion = orthodox
+		size = 500
+	}
+	
+	serfs = {
+		culture = greek
+		religion = orthodox
+		size = 5000
+	}
+	
+	serfs = {
+		culture = gypsy
+		religion = orthodox
+		size = 400
 	}
 }
