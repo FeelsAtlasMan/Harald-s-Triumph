@@ -1,7 +1,3 @@
-KRM = {
-	truce_until = 1840.1.1
-}
-
 #Sphere of Influence
 BSV = {
 	value = -150
@@ -50,7 +46,8 @@ MTH = {
 }
 ZNB = {
 	value = -200		
-	level = 1		
+	level = 1
+    truce_until = 1840.1.1	
 }
 GRP = {
 	value = -200		
@@ -71,6 +68,7 @@ ZHR = {
 KRM = {
 	value = -200
 	level = 1
+	truce_until = 1840.1.1
 }
 RTH = {
 	value = 175		

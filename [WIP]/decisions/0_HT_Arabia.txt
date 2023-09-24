@@ -170,7 +170,7 @@ political_decisions = {
 	
 	#Take direct control/ Remove Mamluks from Power
 	take_control_caliph = {
-	    #picture = "iraq_map"
+	    #picture = "map_iraq"
 		potential = {
 			tag = ABB
 			has_country_flag = shadow_caliphate 
@@ -482,7 +482,7 @@ political_decisions = {
 
 	#Reclaim Ifriqiya
 	reclaim_ifriqiya = {
-	    picture = "ifriqiya"
+	    picture = "italian_islands"
 		potential = {
 			tag = ABB
 		    has_country_flag = arab_caliphate
@@ -595,7 +595,7 @@ political_decisions = {
 	
 	#Liberate the Sicilian Muslims
 	liberate_sicily = {
-	    picture = "ifriqiya"
+	    picture = "italian_islands"
 		potential = {
 			tag = ABB
 		    has_country_flag = arab_caliphate
@@ -892,7 +892,7 @@ political_decisions = {
 	
 	#Control Tunesia and Sicily
 	control_tunis_sicily = {
-	    picture = "ifriqiya"
+	    picture = "italian_islands"
 		potential = {
 			tag = ABB
 		    has_country_flag = iranic_caliphate
@@ -966,7 +966,7 @@ political_decisions = {
 	
 	#Push past the Zagros
 	invade_iran_abb = {
-	    picture = "reunite_iran"
+	    picture = "iranzemin"
 		potential = {
 			tag = ABB
 		    has_country_flag = iranic_caliphate
@@ -1129,7 +1129,7 @@ political_decisions = {
 	
 	#Take direct control/ Remove Caliph from Power
 	take_control_mamluks = {
-	    #picture = "iraq_map"
+	    #picture = "map_iraq"
 		potential = {
 			tag = ABB
 			has_country_flag = shadow_caliphate 
@@ -1187,7 +1187,7 @@ political_decisions = {
 	
 	#The Conquest of Anatolia 
 	conquest_of_anatolia = {
-	    picture = "iraq_map"
+	    picture = "map_iraq"
 		potential = {
 			tag = MML
 			NOT = { has_country_flag = turkish_mamluks }

@@ -181,7 +181,6 @@ unreformed_gov = {
 			government = tribal_confederation
 		}
 	}
-	research_points_on_conquer = -0.85
 	research_points_modifier = -0.05
 	icon = 19
 }
@@ -197,8 +196,8 @@ the_british_raj = {
 			government = fascist_dictatorship
 			government = democracy
 		}
-		NOT = { is_culture_group = indo_iranian }
-		NOT = { is_culture_group = south_asian }
+		#NOT = { is_culture_group = indo_iranian }
+		#NOT = { is_culture_group = south_asian }
 		1227 = {
 			is_colonial = yes
 			owned_by = THIS
@@ -237,8 +236,8 @@ the_british_raj_ai = {
 			government = fascist_dictatorship
 			government = democracy
 		}
-		NOT = { is_culture_group = indo_iranian }
-		NOT = { is_culture_group = south_asian }
+		#NOT = { is_culture_group = indo_iranian }
+		#NOT = { is_culture_group = south_asian }
 		1227 = {
 			is_colonial = yes
 			owned_by = THIS
@@ -329,13 +328,9 @@ colonial_nation = {
 		any_owned_province = {
 			is_colonial = yes
 			OR = {
-				continent = east_africa
-				continent = west_africa
-				continent = central_africa
 				continent = africa
 				continent = indochina
 				continent = east_indies
-				continent = south_west_africa
 				continent = polynesia
 				continent = australia_new_zealand
 			}
@@ -400,12 +395,12 @@ substate_nation = {
 chinese_substate = {
 	trigger = {
 		OR = {
-			substate_of = QNG
-			vassal_of = QNG
+			substate_of = SHN
+			vassal_of = SHN
 		}
 		civilized = no
 		exists = yes
-		QNG = {	government = absolute_monarchy }
+		SHN = {	government = absolute_monarchy }
 		is_culture_group = east_asian
 	}
 	icon = 10
@@ -533,15 +528,6 @@ landlocked_nation = {
 	trigger = {
 		exists = yes
 		NOT = { total_num_of_ports = 1 }
-		NOT = { 
-			has_country_modifier = trek_boers 
-			primary_culture = north_german
-			primary_culture = south_german
-			primary_culture = swiss_german
-			primary_culture = siebenburger
-			primary_culture = dutch
-			is_culture_group = western_slavic
-		}
 	}
 
 	import_cost = 0.5
@@ -553,15 +539,6 @@ landlocked_nation_import = {
 	trigger = {
 		exists = yes
 		NOT = { total_num_of_ports = 1 }
-		OR = { 
-			has_country_modifier = trek_boers 
-			primary_culture = north_german
-			primary_culture = south_german
-			primary_culture = swiss_german
-			primary_culture = siebenburger
-			primary_culture = dutch
-			is_culture_group = western_slavic
-		}
 	}
 	import_cost = 0.5
 	icon = 8
@@ -655,12 +632,6 @@ help_ai_spain = { #Uncivs
 		civilized = no
 		ai = yes
 		NOT = { literacy = 0.1 }
-		OR = {
-			is_culture_group = south_asian
-			is_culture_group = southeast_asian
-			is_culture_group = iranian_turanian
-			is_culture_group = arab
-		}
 	}
 	icon = 10
 	tax_efficiency = 0.05

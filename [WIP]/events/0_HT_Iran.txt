@@ -968,7 +968,7 @@ country_event = {
 		   tag = FRS
 		   tag = PER
 		}
-        is_core = BRL
+        any_owned = { is_core = BRL }
 		BRL = { exists = no }
 		has_country_flag = first_caspian_campaign
     }
@@ -1255,7 +1255,7 @@ country_event = {
 					tag = GNJ
                 }
             }
-            country_event = { id = 278014 }
+            country_event = { id = 278014 days = 1 }
         }
         ai_chance = { factor = 100 }
     }

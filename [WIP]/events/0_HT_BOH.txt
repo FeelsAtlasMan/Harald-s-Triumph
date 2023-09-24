@@ -53,7 +53,7 @@ province_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		tag = BOH
+		3334 = { owned_by = BOH }
 		3334 = { has_province_modifier = kutna_hora_mine }
 	}
 	

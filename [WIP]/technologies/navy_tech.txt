@@ -156,8 +156,6 @@ battleship_column_doctrine = {
 			OR = {
 				tag = BEL
 				tag = SPA
-				tag = SPC
-				tag = CHL
 				tag = JAP
 			}
 		}
@@ -259,7 +257,6 @@ raider_group_doctrine = {
 			OR = {
 				tag = BEL
 				tag = SPA
-				tag = SPC
 				tag = JAP
 			}
 		}
@@ -362,7 +359,6 @@ blue_and_brown_water_schools = {
 			OR = {
 				tag = BEL
 				tag = SPA
-				tag = SPC
 				tag = JAP
 				tag = ENG
 			}

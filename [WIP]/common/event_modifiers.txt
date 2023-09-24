@@ -123,26 +123,6 @@ international_zone_modifier = {
 	icon = 7
 }
 
-isolationist_foreign_naval_officers = {
-	research_points_on_conquer = -0.25
-	icon = 16
-}
-
-isolationist_foreign_officers = {
-	research_points_on_conquer = -0.25
-	icon = 16
-}
-
-isolationist_foreign_naval_schools = {
-	research_points_on_conquer = -0.25
-	icon = 16
-}
-
-isolationist_foreign_training = {
-	research_points_on_conquer = -0.25
-	icon = 16
-}
-
 preparations_for_war = {
 	badboy = 0.01
 	icon = 16
@@ -1687,7 +1667,6 @@ the_eight_banners = {
 	cb_generation_speed_modifier = -1
 	war_exhaustion = -5
 	supply_consumption = -0.2
-	research_points_on_conquer = -0.5
 	tax_efficiency = -0.01
 	icon = 16
 }
@@ -1790,7 +1769,6 @@ fulani_jihad = {
 	mobilisation_economy_impact = -0.75
 	core_pop_militancy_modifier = -0.5
 	research_points_modifier = -0.3
-	research_points_on_conquer = 1
 	supply_consumption = -0.8
 	war_exhaustion = -0.20
 	icon = 17

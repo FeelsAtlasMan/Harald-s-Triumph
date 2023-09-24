@@ -126,23 +126,34 @@ political_decisions = {
 		picture = danzig_harbour
 		potential = {
 			owns = 690
-			has_country_flag = incorporated_poland 
-			NOT = { has_country_flag = coming_of_danzig }
+			#has_country_flag = incorporated_poland 
+			NOT = { has_global_flag = coming_of_danzig }
 		}
 		allow = {
 			is_greater_power = yes
 			war = no
-            paddle_streamers = 1
+            steamers = 1
 			stock_exchange = 1
 		}
 		effect = {
 			690 = { trade_goods = precious_goods }
 			690 = { add_province_modifier = { name = baby_boom duration = 356 } }
 			690 = { add_province_modifier = { name = danzig_harbour duration = -1 } }
-			capital = 690
-			build_factory_in_capital_state = steamer_shipyard
-			capital = 625
-			set_country_flag = coming_of_danzig
+			random_owned = {
+				limit = {
+					province_id = 690
+					state_scope = { NOT = { has_building = steamer_shipyard } }
+				}		
+				owner = { 
+					capital = 690
+					build_factory_in_capital_state = steamer_shipyard
+				}
+			}
+			random_owned = {
+				limit = { province_id = 625 } #Prague
+				THIS = { capital = 625 }
+			}
+			set_global_flag = coming_of_danzig
 		}
 	}
 	
@@ -170,10 +181,14 @@ political_decisions = {
 				3946 = { owner = { vassal_of = THIS } }
 			}
 			OR = {
-			    AND = { compound_steam_engine = 1 paddle_streamers = 1 }
-				date = 1860
+			    compound_steam_engines = 1
+				year = 1860
 			}
-			treasury = 25000
+			OR = {
+			    steamers = 1
+				year = 1860				
+			}
+			money = 25000
 			war = no
 		}
 		effect = {
@@ -193,7 +208,7 @@ political_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
-				NOT = { treasury = 25000 }
+				NOT = { money = 25000 }
 				war = yes
 			}
 		}

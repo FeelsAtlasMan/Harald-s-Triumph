@@ -415,23 +415,12 @@ migration_target = {
 	
 	modifier = {
 		factor = 0.5
-		OR = {
-			continent = west_africa
-			continent = east_africa
-			continent = central_africa
-			continent = south_west_africa
-		}
+		continent = africa
 	}
 	
 	modifier = {
 		factor = 0.01
-		OR = { 
-			continent = west_africa 
-			continent = east_africa
-			continent = central_africa
-			continent = africa
-			continent = south_west_africa
-		}
+		continent = africa
 		country = { primary_culture = russian }
 	}
 	
@@ -439,12 +428,8 @@ migration_target = {
 		factor = 0
 		is_overseas = yes
 		OR = { 
-			continent = west_africa 
-			continent = east_africa
-			continent = central_africa
 			continent = oceania #Near East
 			continent = africa
-			continent = south_west_africa
 		}
 		country = { colonial_policy = settlement primary_culture = russian }
 	}
@@ -477,7 +462,7 @@ migration_target = {
 			state_id = 350
 			state_id = 690
 			state_id = 699
-			continent = south_west_africa
+			continent = africa
 			state_id = 409
 			state_id = 411
 		}
@@ -507,8 +492,6 @@ migration_target = {
 		OR = { 
 			is_core = MEX
 			is_core = CAN
-			is_core = COL
-			is_core = RPL
 		}
 		country = { is_culture_group = american_cultures }
 	}
@@ -527,8 +510,7 @@ migration_target = {
 				continent = oceania #Near East
 				NOT = { state_id = 1755 }
 			}
-			continent = west_africa
-			continent = central_africa
+			continent = africa
 			is_core = MLW
 			state_id = 1842
 			state_id = 1836
@@ -578,7 +560,6 @@ migration_target = {
 	modifier = {
 		factor = 3.0
 		OR = { 
-			is_core = RHI
 			is_core = WAL
 			is_core = LUX
 			is_core = CAT
@@ -595,16 +576,13 @@ migration_target = {
 		factor = 3.0
 		OR = { 
 			continent = africa
-			continent = east_africa
 			is_core = SWI
 			is_core = FRA
 			is_core = BOR
 			is_core = DLM
 			is_core = CRO
 			is_core = ALB
-			is_core = TRE
 			is_core = AUS
-			is_core = FIU
 			is_core = SLO
 		}
 		country = { is_culture_group = italian }
@@ -1601,9 +1579,6 @@ ideologies = {
 			factor = 1.5
 			location = { 
 				OR = { 
-					continent = central_africa
-					continent = west_africa 
-					continent = east_africa
 					continent = asia
 					continent = africa
 				}
@@ -1779,9 +1754,6 @@ ideologies = {
 			factor = 0.5
 			location = { 
 				OR = { 
-					continent = central_africa
-					continent = west_africa 
-					continent = east_africa
 					continent = asia
 					continent = africa
 				}

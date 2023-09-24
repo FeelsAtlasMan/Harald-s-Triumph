@@ -22,8 +22,6 @@ political_decisions = {
 			KRB = { all_core = { remove_core = KRB } }
 			GNJ = { all_core = { add_core = THIS } }
 			GNJ = { all_core = { remove_core = GNJ } }
-			IRV = { all_core = { add_core = THIS } }
-			IRV = { all_core = { remove_core = IRV } }
             MKU = { all_core = { add_core = THIS } }	
 			MKU = { all_core = { remove_core = MKU } }
 			NKH = { all_core = { add_core = THIS } }	

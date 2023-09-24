@@ -1546,11 +1546,7 @@ telephone_switchboard = {
 cotton_gin = {
 	limit = {
 		high_pressure_steam_engine = 1
-		OR = {
-			year = 1860
-			has_global_flag = american_civil_war_has_happened
-			tag = USA
-		}
+		year = 1860
 	}
 	chance = {
 		base = 6

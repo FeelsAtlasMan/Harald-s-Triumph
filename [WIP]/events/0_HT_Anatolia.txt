@@ -358,7 +358,7 @@ country_event = {
 	
 	option = {
 		name = "EVT278011OPTA" #We have no other choice
-		alliance_with = FRS
+		create_alliance = FRS
 		any_country = { limit = { vassal_of = THIS } country_event = 278012 } 
 		FRS = { create_vassal = THIS }
 		KRM = {

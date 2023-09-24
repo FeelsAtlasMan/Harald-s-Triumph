@@ -1607,15 +1607,9 @@
 	}
 	
 	serfs = {
-		culture = pugri
-		religion = sunni
-		size = 1000
-	}
-	
-	serfs = {
 		culture = pothwari
 		religion = sunni
-		size = 8000
+		size = 9000
 	}
 	
 	artisans = {
@@ -3403,13 +3397,13 @@
 	
 	farmers = {
 		culture = kangri
-		religion = hindi
+		religion = hindu
 		size = 900
 	}
 	
 	serfs = {
 		culture = kangri
-		religion = hindi
+		religion = hindu
 		size = 3000
 	}
 	
@@ -17646,7 +17640,7 @@
 	}
 	
 	farmers = {
-		culture = mundari
+		culture = mundar
 		religion = animist
 		size = 300
 	}

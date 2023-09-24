@@ -1917,23 +1917,6 @@ country_event = {
 			}
 		}
 		
-		random_owned = {
-			limit = { owner = { foreign_naval_officers = yes_foreign_naval_officers } }
-			owner = { add_country_modifier = { name = isolationist_foreign_naval_officers duration = -1 } }
-		}
-		random_owned = {
-			limit = { owner = { foreign_training = yes_foreign_training } }
-			owner = { add_country_modifier = { name = isolationist_foreign_training duration = -1 } }
-		}
-		random_owned = {
-			limit = { owner = { naval_schools = yes_naval_schools } }
-			owner = { add_country_modifier = { name = isolationist_foreign_naval_schools duration = -1 } }
-		}
-		random_owned = {
-			limit = { owner = { foreign_training = yes_foreign_training } }
-			owner = { add_country_modifier = { name = isolationist_foreign_training duration = -1 } }
-		}
-		
 		any_country = {
 			limit = {
 				civilized = yes

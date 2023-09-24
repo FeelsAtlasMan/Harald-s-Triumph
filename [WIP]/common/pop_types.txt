@@ -212,10 +212,6 @@ promotion_chance = {
 			total_pops = 25000
 			or = {
 				continent = africa
-				continent = west_africa
-				continent = central_africa
-				continent = east_africa
-				continent = south_west_africa
 			}
 			culture = russian
 		}
@@ -643,9 +639,13 @@ migration_chance = {
 		factor = 10
 		THIS = { 
 			OR = {
-				has_pop_culture = north_german
+				has_pop_culture = dutch
+				has_pop_culture = rhine_meuse_franconian
+				has_pop_culture = central_franconian
+				has_pop_culture = thuringian
+				has_pop_culture = upper_franconian
 				has_pop_culture = south_german
-				has_pop_culture = swiss_german
+				has_pop_culture = alemannic
 			}
 		}
 		location = { 
@@ -654,9 +654,6 @@ migration_chance = {
 				state_id = 2568
 			}
 			NOT = { province_id = 3250 }
-		}
-		country = { 
-			primary_culture = swiss_german
 		}
 	}
 	
@@ -672,7 +669,6 @@ migration_chance = {
 			}
 			NOT = { province_id = 3250 }
 		}
-		country = { primary_culture = swiss_german }
 	}
 	
 	modifier = {
@@ -686,9 +682,6 @@ migration_chance = {
 			life_rating = 25
 			culture = russian
 			OR = { 
-				continent = west_africa 
-				continent = central_africa
-				continent = east_africa
 				continent = asia
 				continent = africa
 			}
@@ -708,9 +701,6 @@ migration_chance = {
 			NOT = { life_rating = 25 }
 			culture = russian
 			OR = { 
-				continent = west_africa 
-				continent = central_africa
-				continent = east_africa
 				continent = asia
 				continent = africa
 			}
@@ -1513,7 +1503,7 @@ assimilation_chance = {
 		factor = -20
 		OR = { 
 			is_culture_group = east_asian
-			is_culture_group = south_asian
+			#is_culture_group = south_asian
 		}
 		OR = {
 			location = { any_core = { is_accepted_culture = THIS is_cultural_union = yes } }
@@ -1669,17 +1659,9 @@ assimilation_chance = {
 		location = { continent = africa }
 		OR = {
 			is_culture_group = african_diaspora_cultures
-			is_culture_group = west_african
-			is_culture_group = central_african
-			is_culture_group = east_african
-			is_culture_group = southern_african
 		}
 		OR = {
 			NOT = { country = { is_culture_group = african_diaspora_cultures } }
-			NOT = { country = { is_culture_group = west_african } }
-			NOT = { country = { is_culture_group = central_african } }
-			NOT = { country = { is_culture_group = east_african } }
-			NOT = { country = { is_culture_group = southern_african } }
 			NOT = { country = { is_culture_group = arab } }
 		}
 	}

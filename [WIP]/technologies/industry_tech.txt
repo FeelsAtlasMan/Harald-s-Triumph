@@ -682,7 +682,6 @@ puddling = {
 				tag = BOR
 				tag = AUS
 				tag = KUK
-				tag = USA
 				tag = ENG
 			}
 		}
@@ -879,7 +878,6 @@ bessemer_process = {
 			OR = {
 				tag = FRA
 				tag = ENG
-				tag = USA
 				tag = NGF
 				tag = BOR
 				tag = GER
@@ -1142,7 +1140,7 @@ experimental_railroad = {
 		factor = 5
 		modifier = {
 			factor = 25
-			is_culture_group = germanic
+			is_culture_group = continental_west_germanic
 			is_greater_power = yes
 			literacy = 0.4
 		}
@@ -1188,7 +1186,7 @@ early_railroad = {
 		factor = 5
 		modifier = {
 			factor = 15
-			is_culture_group = germanic
+			is_culture_group = continental_west_germanic
 			is_greater_power = yes
 			literacy = 0.4
 		}

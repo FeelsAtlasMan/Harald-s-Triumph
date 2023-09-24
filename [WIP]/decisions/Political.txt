@@ -981,14 +981,12 @@ political_decisions = {
 				AND = { tag = YEM owns = 1178 NOT = { capital = 1178 } }
 				AND = { tag = LIT owns = 360 NOT = { capital = 360 } }
 				AND = { tag = EGY owns = 1745 NOT = { capital = 1745 } }
-				AND = { tag = NIC owns = 2197 NOT = { capital = 2197 } }
 				AND = { tag = ASH owns = 1907 NOT = { capital = 1907 } civilized = yes }
 				AND = { tag = ALD owns = 1700 NOT = { capital = 1700 } }
 				AND = { tag = MLI owns = 1794 NOT = { capital = 1794 } }
 				AND = { tag = HND owns = 1236 NOT = { capital = 1236 } }
 				AND = { tag = MUG owns = 1236 NOT = { capital = 1236 } }
 				AND = { tag = LXA owns = 1357 NOT = { capital = 1357 } }
-				AND = { tag = CNG owns = 1983 NOT = { capital = 1983 } NOT = { has_global_flag = congo_renamed } }
 				AND = { tag = KAM owns = 1082 NOT = { capital = 1082 } }
 				AND = { tag = CUB owns = 2209 NOT = { capital = 2209 } }
 				AND = { tag = GRE owns = 860 NOT = { capital = 860 } state_n_government = 1 prestige = 40 860 = { is_core = THIS } }
@@ -1002,9 +1000,7 @@ political_decisions = {
 				AND = { tag = UZB owns = 1195 NOT = { capital = 1195 } }
 				AND = { tag = TAJ owns = 1207 NOT = { capital = 1207 } }
 				AND = { tag = KYR owns = 1189 NOT = { capital = 1189 } }
-				AND = { tag = TUR owns = 876 NOT = { capital = 876 capital = 860 } }
 				AND = { tag = INO owns = 1413 NOT = { capital = 1413 } }
-				AND = { tag = ARG owns = 2348 NOT = { capital = 2348 capital = 2360 } }
 				AND = { tag = CRO owns = 771 NOT = { capital = 771 } }
 				AND = { tag = AUS owns = 619 NOT = { capital = 619 } }
 				AND = { tag = IRE owns = 263 NOT = { capital = 263 } }
@@ -1026,9 +1022,7 @@ political_decisions = {
 			random_owned = { limit = { owner = { tag = IRE } } owner = { capital = 263 } }
 			random_owned = { limit = { owner = { tag = AUS } } owner = { capital = 619 } }
 			random_owned = { limit = { owner = { tag = CRO } } owner = { capital = 771 } }
-			random_owned = { limit = { owner = { tag = ARG } } owner = { capital = 2348 } }
 			random_owned = { limit = { owner = { tag = INO } } owner = { capital = 1413 } }
-			random_owned = { limit = { owner = { tag = TUR } } owner = { capital = 876 } }
 			random_owned = { limit = { owner = { tag = KYR } } owner = { capital = 1189 } }
 			random_owned = { limit = { owner = { tag = TAJ } } owner = { capital = 1207 } }
 			random_owned = { limit = { owner = { tag = UZB } } owner = { capital = 1195 } }
@@ -1044,9 +1038,7 @@ political_decisions = {
 				owner = { capital = 860 860 = { any_pop = { limit = { has_pop_religion = orthodox } militancy = -2 } } }
 			}
 			random_owned = { limit = { owner = { tag = CUB } } owner = { capital = 2209 } }
-			#random_owned = { limit = { owner = { tag = UKR } } owner = { capital = 958 } }
 			random_owned = { limit = { owner = { tag = KAM } } owner = { capital = 1082 } }
-			random_owned = { limit = { owner = { tag = CNG } } owner = { capital = 1983 } }
 			random_owned = { limit = { owner = { tag = LXA } } owner = { capital = 1357 } }
 			random_owned = { limit = { owner = { tag = MUG } } owner = { capital = 1236 } }
 			random_owned = { limit = { owner = { tag = HND } } owner = { capital = 1236 } }
@@ -1055,7 +1047,6 @@ political_decisions = {
 			random_owned = { limit = { owner = { tag = YEM } } owner = { capital = 1178 } }
 			random_owned = { limit = { owner = { tag = LIT } } owner = { capital = 360 } }
 			random_owned = { limit = { owner = { tag = EGY } } owner = { capital = 1745 } }
-			random_owned = { limit = { owner = { tag = NIC } } owner = { capital = 2197 } }
 			random_owned = { limit = { owner = { tag = ASH } } owner = { capital = 1907 } }
 			random_owned = { limit = { owner = { tag = ALD } } owner = { capital = 1700 } }
 			random_owned = { limit = { owner = { tag = MLI } } owner = { capital = 1794 } }

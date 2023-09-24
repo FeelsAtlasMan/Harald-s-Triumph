@@ -354,7 +354,7 @@ country_event = {
 				country_event = 9908
 			}
 			any_country = { #All Nations, that are going to be independent
-			    limit = { vassal_of = THIS OR = { is_culture_group = kartvelian is_culture_group = caspian_caucasian tag = MZN tag = TLY tag = GLN tag = LUR tag = KHZ tag = MFQ tag = KWT tag = KSN tag = WKH tag = KFR tag = GLG tag = HNZ tag = ABK tag = TKM tag = MAK tag = KAL tag = BLA tag = SST tag = ALN tag = ASY tag = CRL tag = KCN tag = GNJ } }
+			    limit = { vassal_of = THIS OR = { is_culture_group = kartvelian is_culture_group = caspian_caucasian tag = MZN tag = TLY tag = GLN tag = LUR tag = KHZ tag = MFQ tag = KSN tag = WKH tag = KFR tag = GLG tag = HNZ tag = ABK tag = TKM tag = MAK tag = KAL tag = BLA tag = SST tag = ALN tag = ASY tag = CRL tag = KCN tag = GNJ } }
 				country_event = 9909
 			}
 			any_country = { #Tajiks and Pamiri states

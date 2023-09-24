@@ -2,11 +2,10 @@ test_irregular = {
 	limit = { 
 		civilized = no
 		NOT = {
-			tag = CSA
 			tag = JAP
 			tag = SAT
 			tag = CHO
-			tag = EIC
+			tag = FDA
 		}
 	 }
 	chance = {
@@ -20,7 +19,7 @@ test_irregular = {
 test_eic = {
 	limit = { 
 		civilized = no
-		tag = EIC
+		tag = FDA
 		ai = yes
 	 }
 	chance = {
@@ -40,7 +39,6 @@ test_naval = {
 			tag = GCF
 			tag = RUS
 			tag = JAP
-			tag = USA
 			tag = ITA
 			tag = ENG
 		}
@@ -59,7 +57,7 @@ test_naval = {
 
 qing_grain = {
 	limit = { 
-		tag = QNG
+		tag = SHN
 		civilized = no
 		ai = yes
 	 }
@@ -123,12 +121,6 @@ caste_privileges = {
 			year = 1855
 		}
 	}
-	effect = {
-		rebel_org_gain = {
-			faction = indian_sepoys
-			value = 0.25
-		}
-	}
 }
 
 
@@ -150,12 +142,6 @@ sati_abolished = {
 			year = 1860
 		}
 	}
-	effect = {
-		rebel_org_gain = {
-			faction = indian_sepoys
-			value = 0.25
-		}
-	}
 }
 
 pig_fat_cartridges = {
@@ -174,12 +160,6 @@ pig_fat_cartridges = {
 		modifier = {
 			factor = 5
 			year = 1865
-		}
-	}
-	effect = {
-		rebel_org_gain = {
-			faction = indian_sepoys
-			value = 0.25
 		}
 	}
 }
@@ -214,38 +194,6 @@ spirit_of_freedom = {
 	}
 }
 
-carlism = {
-	limit = {
-		classicism_n_early_romanticism = 1
-		OR = {
-			tag = SPA
-			tag = SPC
-		}
-	}
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = 3
-			ruling_party_ideology = reactionary
-		}
-		modifier = {
-			factor = 2
-			NOT = { government = absolute_monarchy }
-		}
-	}
-	effect = {
-		rebel_org_gain = {
-			faction = carlist_rebels
-			value = 0.75
-		}
-		rebel_org_gain = {
-			faction = christino_rebels
-			value = 0.75
-		}
-	}
-}
-
 the_dark_continent = {
 	limit = {
 		has_country_flag = existing_country
@@ -257,15 +205,6 @@ the_dark_continent = {
 		modifier = {
 			factor = -60
 			NOT = { year = 1890 }
-		}
-		modifier = {
-			factor = -100
-			NOT = { is_greater_power = yes }
-			is_our_vassal = CNG
-			OR = {
-				has_country_flag = congo_master
-				has_country_flag = historical_congo
-			}
 		}
 		modifier = {
 			factor = 20

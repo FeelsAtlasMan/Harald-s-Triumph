@@ -165,25 +165,11 @@ BRZ = {
     color3= { 183 176 194  }
 }
 
-# Bolivia
-BOL = {
-    color1= { 66 133 63  }
-    color2= { 151 41 43  }
-    color3= { 183 176 194  }
-}
-
 # Canada
 CAN = {
     color1= { 94 117 55  }
     color2= { 255 87 127  }
     color3= { 99 137 153  }
-}
-
-# Chile
-CHL = {
-    color1= { 143 42 39  }
-    color2= { 66 66 121  }
-    color3= { 80 79 88  }
 }
 
 # Paraguay
@@ -192,21 +178,6 @@ PRG = {
     color2= { 66 66 121  }
     color3= { 80 79 88  }
 }
-
-
-# Argentina
-ARG = {
-	color1= { 112 145 181  }
-    color2= { 255 255 255  }
-    color3= { 80 79 88  }
-}	
-	
-# Venezuela
-VNZ = {
-    color1= { 162 145 29  }
-    color2= { 66 66 121  }
-    color3= { 197 92 106  }
-}	
 	
 # Ecuador
 ECU = {
@@ -236,37 +207,9 @@ MEW = {
     color3= { 69 157 208  }
 }
 
-# Peru
-PEU = {
-    color1= { 124 140 162  }
-    color2= { 144 52 53  }
-    color3= { 184 193 89  }
-}
-
-# Quebec
-QUE = {
-    color1= { 194 140 86  }
-    color2= { 219 124 139  }
-    color3= { 17 16 203  }
-}
-
-# USA
-USA = {
-    color1= { 69 157 208  }
-    color2= { 124 140 162  }
-    color3= { 137 183 124  }
-}
-
 # Lithuania
 LIT = {
     color1= { 154 69 116  }
-    color2= { 255 255 255  }
-    color3= { 210 106 47  }
-}
-
-# Liberia
-LIB = {
-    color1= { 36 84 245  }
     color2= { 255 255 255  }
     color3= { 210 106 47  }
 }
@@ -376,20 +319,6 @@ HEK = {
     color3= { 195 149 155  }
 }
 
-# Mecklenburg FIXED
-MEC = {
-    color1= { 248 199 67  }
-    color2= { 244 56 49  }
-    color3= { 112 150 105  }
-}
-
-# Saxe-Meiningen FIXED
-MEI = {
-    color1= { 134 224 126  }
-    color2= { 255 255 255  }
-    color3= { 112 150 105  }
-}
-
 # Oldenburg FIXED
 OLD = {
     color1= { 244 56 49  }
@@ -401,20 +330,6 @@ OLD = {
 SAX = {
     color1= { 255 255 255  }
     color2= { 134 224 126  }
-    color3= { 117 127 174  }
-}
-
-# Saxe-Weimar FIXED
-WEI = {
-    color1= { 134 224 126  }
-    color2= { 100 100 100  }
-    color3= { 117 127 174  }
-}
-
-# Saxe-Coburg-Gotha FIXED
-COB = {
-    color1= { 134 224 126  }
-    color2= { 248 199 67  }
     color3= { 117 127 174  }
 }
 
@@ -629,13 +544,6 @@ KRA = {
     color1= { 255 255 255  }
     color2= { 128 146 202  }
     color3= { 255 255 255  }
-}
-
-# Trieste
-TRE = {
-    color1= { 40 164 157  }
-    color2= { 161 126 128  }
-    color3= { 80 79 88  }
 }
 
 # Burma FIXED

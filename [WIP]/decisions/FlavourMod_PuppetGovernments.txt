@@ -136,13 +136,11 @@ political_decisions = {
 					owner = {
 						OR = {
 							tag = NOR 
-							tag = NEW
 							tag = RHO
 							tag = SAF
 							tag = CAN
 							tag = NZL
 							tag = AST
-							tag = COL
 						}
 					} 	
 				}

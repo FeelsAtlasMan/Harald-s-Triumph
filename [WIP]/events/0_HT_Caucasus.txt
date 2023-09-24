@@ -43,6 +43,7 @@ country_event = {
 		1117 = { state_scope = { change_region_name = "Pahlawestan-ce Arevmutk" } }
 		PER_1127 = { add_core = THIS }
 		1127 = { state_scope = { change_region_name = "Mad-ce Spahan" } }
+		PER_1119 = { add_core = THIS }
 		set_country_flag = parthian_larp_media
 	}
 }
@@ -142,6 +143,7 @@ country_event = {
 		686 = { owned_by = THIS }
 		1204 = { owned_by = THIS }
 		3284 = { owned_by = THIS }
+		4097 = { owned_by = THIS }
 	}
 	
 	fire_only_once = yes
@@ -158,6 +160,7 @@ country_event = {
 		686 = { add_core = THIS }
 		1204 = { add_core = THIS }
 		3284 = { add_core = THIS }
+		4097 = { add_core = THIS }
 		set_country_flag = parthian_larp_parthava
 	}
 }
@@ -343,20 +346,21 @@ country_event = {
 		all_core = {
 			    owned_by = THIS
 		}
-		TUR_860 = { owned_by = THIS }
+		TUR_828 = { owned_by = THIS }
 		TUR_809 = { owned_by = THIS }
-		TUR_823 = { owned_by = THIS }
+		TUR_818 = { owned_by = THIS }
 	}
 	
 	fire_only_once = yes
 
     option = {
 		name = "EVT778809A"  #Greek Larp
-		TUR_860 = { add_core = THIS }
+		TUR_828 = { add_core = THIS }
 		TUR_809 = { add_core = THIS }
-		TUR_823 = { add_core = THIS }
+		TUR_818 = { add_core = THIS }
 		add_accepted_culture = greek
 		add_accepted_culture = bulgarian
+		add_accepted_culture = thracian
 		set_country_flag = greek_larp_thrace
 	}
 }
@@ -378,7 +382,7 @@ country_event = {
 			    owned_by = THIS
 		}
 		TUR_805 = { owned_by = THIS }
-		TUR_806 = { owned_by = THIS }
+		BUL_1780 = { owned_by = THIS }
 	}
 	
 	fire_only_once = yes
@@ -386,7 +390,8 @@ country_event = {
     option = {
 		name = "EVT778810A"  #Greek Larp
 		TUR_805 = { add_core = THIS }
-		TUR_806 = { add_core = THIS }
+		BUL_1780 = { add_core = THIS }
+		add_accepted_culture = makedonian
 		set_country_flag = greek_larp_makedonia
 	}
 }

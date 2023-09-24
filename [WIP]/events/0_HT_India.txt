@@ -1,18 +1,17 @@
 #Incan Introduction Event
-country_event = {
-        id = 691000
-        title = "EVTNAME691000"
-        desc = "EVTDESC691000"
-		picture = "banquet"
-        
-        is_triggered_only = yes
-	
-        option = {
-		    name = "Interesting."
-			set_country_flag = incan_reform_process
-			country_event = {
-			    id = 691001
-				days = 180
-			}
-	    }
-}
+#country_event = {
+#        id = 691000
+#        title = "EVTNAME691000"
+#        desc = "EVTDESC691000"
+#		picture = "banquet"
+#        
+#        is_triggered_only = yes
+#	
+#        option = {
+#		    name = "Interesting."
+#			set_country_flag = incan_reform_process
+#			country_event = {
+#				days = 180
+#			}
+#	    }
+#}
