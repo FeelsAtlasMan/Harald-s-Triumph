@@ -72,13 +72,13 @@ interchangeable_parts = 1
 set_country_flag = catholic_country
 
 oob = "HUN_oob.txt"
-ruling_party = HUN_conservative
+ruling_party = "Királyemberek Pártja - Constitutionalists"
 upper_house = {
 	fascist = 0
-	liberal = 25
-	conservative = 48
-	reactionary = 17
-	anarcho_liberal = 10
+	liberal = 13
+	conservative = 55
+	reactionary = 27
+	anarcho_liberal = 5
 	socialist = 0
 	communist = 0
 }

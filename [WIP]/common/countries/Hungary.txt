@@ -5,54 +5,133 @@ democracy = { 138  163  117 }
 proletarian_dictatorship = { 249  126  98 } 
 graphical_culture = AustriaHungaryGC
 
+#Left Opposition to KP
 party = {
-	name = "HUN_liberal"
+	name = "Baloldali Ellenzék - Lovász Faction" #Liberal Republicans - controlled opposition
 	start_date = 1830.1.1
-	end_date = 1875.1.1
+	end_date = 1850.1.1
 
 	ideology = liberal
 
-	social_policy = no_position_set
+	social_policy = no_state_interference
 	economic_policy = laissez_faire
+	trade_policy = free_trade
+	religious_policy = pluralism
+	citizenship_policy = full_citizenship
+	war_policy = pacifism
+}
+
+party = {
+	name = "Baloldali Ellenzék - Szarka Faction" #Radical Republicans "Heckerists"
+	start_date = 1830.1.1
+	end_date = 1850.1.1
+
+	ideology = anarcho_liberal
+
+	social_policy = populist_welfare
+	economic_policy = laissez_faire
+	trade_policy = free_trade
+	religious_policy = secularized
+	citizenship_policy = full_citizenship
+	war_policy = pro_military
+}
+
+#KP Big Tent - Ruling Party 1836-1850
+party = {
+	name = "Királyemberek Pártja - Left Faction" #Liberal Republicans
+	start_date = 1830.1.1
+	end_date = 1850.1.1
+
+	ideology = conservative
+
+	social_policy = no_state_interference
+	economic_policy = laissez_faire
+	trade_policy = free_trade
+	religious_policy = moralism
+	citizenship_policy = limited_citizenship
+	war_policy = pacifism
+}
+
+party = {
+	name = "Királyemberek Pártja - Centrist Faction" #Centrists
+	start_date = 1830.1.1
+	end_date = 1850.1.1
+
+	ideology = conservative
+
+	social_policy = no_state_interference
+	economic_policy = interventionism
 	trade_policy = protectionism
 	religious_policy = moralism
 	citizenship_policy = limited_citizenship
+	war_policy = anti_military
+}
+
+party = {
+	name = "Királyemberek Pártja - Constitutionalists" #Liberal Monarchists
+	start_date = 1830.1.1
+	end_date = 1850.1.1
+
+	ideology = conservative
+
+	social_policy = no_state_interference
+	economic_policy = state_capitalism
+	trade_policy = protectionism
+	religious_policy = moralism
+	citizenship_policy = residency
 	war_policy = pro_military
 }
 
 party = {
-	name = "HUN_anarcho_liberal"
+	name = "Királyemberek Pártja - Restorationists" #Old Nobility
 	start_date = 1830.1.1
+	end_date = 1850.1.1
+
+	ideology = reactionary
+
+	social_policy = no_state_interference
+	economic_policy = agrarianism
+	trade_policy = protectionism
+	religious_policy = moralism
+	citizenship_policy = residency
+	war_policy = jingoism
+}
+
+#Post-KP Libs+Radicals
+party = {
+	name = "Liberal Party" #Liberals
+	start_date = 1850.1.1
+	end_date = 2000.1.1
+
+	ideology = liberal
+
+	social_policy = no_state_interference
+	economic_policy = laissez_faire
+	trade_policy = free_trade
+	religious_policy = pluralism
+	citizenship_policy = full_citizenship
+	war_policy = pacifism
+}
+
+party = {
+	name = "Szarkai Pártja" #Radicals
+	start_date = 1850.1.1
 	end_date = 2000.1.1
 
 	ideology = anarcho_liberal
 
-	social_policy = no_state_interference
+	social_policy = populist_welfare
 	economic_policy = laissez_faire
-	trade_policy = protectionism
-	religious_policy = moralism
-	citizenship_policy = residency
+	trade_policy = free_trade
+	religious_policy = secularized
+	citizenship_policy = full_citizenship
 	war_policy = pro_military
 }
 
-party = {
-	name = "HUN_liberal_2"
-	start_date = 1875.1.1
-	end_date = 2000.1.1
-
-	ideology = liberal
-
-	social_policy = no_position_set
-	economic_policy = laissez_faire
-	trade_policy = protectionism
-	religious_policy = moralism
-	citizenship_policy = residency
-	war_policy = pro_military
-}
-
+#Post-KP Conservatives+Reactionaries
 party = {
 	name = "HUN_conservative"
-	start_date = 1830.1.1
+	start_date = 1850.1.1
 	end_date = 2000.1.1
 
 	ideology = conservative
@@ -67,8 +146,8 @@ party = {
 
 party = {
 	name = "HUN_reactionary"
-	start_date = 1830.1.1
-	end_date = 1881.1.1
+	start_date = 1850.1.1
+	end_date = 2000.1.1
 
 	ideology = reactionary
 
@@ -80,24 +159,10 @@ party = {
 	war_policy = anti_military
 }
 
+#Post-Revolutionary Factions
 party = {
 	name = "HUN_socialist"
 	start_date = 1848.1.1
-	end_date = 1890.1.1
-
-	ideology = socialist
-
-	social_policy = welfare_state
-	economic_policy = state_capitalism
-	trade_policy = protectionism
-	religious_policy = secularized
-	citizenship_policy = limited_citizenship
-	war_policy = anti_military
-}
-
-party = {
-	name = "HUN_socialist_2"
-	start_date = 1890.1.1
 	end_date = 2000.1.1
 
 	ideology = socialist
@@ -108,51 +173,6 @@ party = {
 	religious_policy = secularized
 	citizenship_policy = limited_citizenship
 	war_policy = anti_military
-}
-
-party = {
-	name = "HUN_socialist_3"
-	start_date = 1900.1.1
-	end_date = 2000.1.1
-
-	ideology = socialist
-
-	social_policy = welfare_state
-	economic_policy = state_capitalism
-	trade_policy = protectionism
-	religious_policy = secularized
-	citizenship_policy = full_citizenship
-	war_policy = anti_military
-}
-
-party = {
-	name = "HUN_socialist_4"
-	start_date = 1909.1.1
-	end_date = 2000.1.1
-
-	ideology = socialist
-
-	social_policy = welfare_state
-	economic_policy = interventionism
-	trade_policy = protectionism
-	religious_policy = secularized
-	citizenship_policy = limited_citizenship
-	war_policy = pro_military
-}
-
-party = {
-	name = "HUN_liberal_3"
-	start_date = 1914.1.1
-	end_date = 2000.1.1
-
-	ideology = liberal
-
-	social_policy = no_position_set
-	economic_policy = interventionism
-	trade_policy = protectionism
-	religious_policy = secularized
-	citizenship_policy = limited_citizenship
-	war_policy = pacifism
 }
 
 party = {
@@ -170,66 +190,7 @@ party = {
 	war_policy = jingoism
 }
 
-party = {
-	name = "HUN_conservative_2"
-	start_date = 1895.1.1
-	end_date = 2000.1.1
-
-	ideology = conservative
-
-	social_policy = no_position_set
-	economic_policy = interventionism
-	trade_policy = protectionism
-	religious_policy = moralism
-	citizenship_policy = limited_citizenship
-	war_policy = pro_military
-}
-
-party = {
-	name = "HUN_conservative_3"
-	start_date = 1881.1.1
-	end_date = 2000.1.1
-
-	ideology = conservative
-
-	social_policy = no_position_set
-	economic_policy = interventionism
-	trade_policy = protectionism
-	religious_policy = moralism
-	citizenship_policy = full_citizenship
-	war_policy = anti_military
-}
-
-party = {
-	name = "HUN_conservative_4"
-	start_date = 1881.1.1
-	end_date = 2000.1.1
-
-	ideology = conservative
-
-	social_policy = no_position_set
-	economic_policy = interventionism
-	trade_policy = protectionism
-	religious_policy = pluralism
-	citizenship_policy = full_citizenship
-	war_policy = anti_military
-}
-
-party = {
-	name = "HUN_reactionary_2"
-	start_date = 1881.1.1
-	end_date = 2000.1.1
-
-	ideology = reactionary
-
-	social_policy = no_position_set
-	economic_policy = laissez_faire
-	trade_policy = protectionism
-	religious_policy = pluralism
-	citizenship_policy = residency
-	war_policy = anti_military
-}
-
+#Fascoids
 party = {
 	name = "HUN_fascist"
 	start_date = 1900.1.1
