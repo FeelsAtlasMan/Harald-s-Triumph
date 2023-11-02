@@ -2852,109 +2852,490 @@
 #Okinawa (192000/48000 POPS)  #ryukyuan represented by japanese 
 1678 = {
 	aristocrats = {
+		culture = okinawan
+		religion = animist
+		size = 600
+	}
+
+	bureaucrats = {
+		culture = okinawan
+		religion = animist
+		size = 30
+	}
+
+	officers = {
+		culture = okinawan
+		religion = animist
+		size = 50
+	}
+
+	clergymen = {
+		culture = okinawan
+		religion = animist
+		size = 300
+	}
+
+	artisans = {
+		culture = okinawan
+		religion = animist
+		size = 1800
+	}
+
+	soldiers = {
+		culture = okinawan
+		religion = animist
+		size = 1450
+	}
+
+	farmers = {
+		culture = okinawan
+		religion = animist
+		size = 14000
+	}
+	
+	aristocrats = {
+		culture = kunigami
+		religion = animist
+		size = 250
+	}
+
+	bureaucrats = {
+		culture = kunigami
+		religion = animist
+		size = 15
+	}
+
+	officers = {
+		culture = kunigami
+		religion = animist
+		size = 25
+	}
+
+	clergymen = {
+		culture = kunigami
+		religion = animist
+		size = 150
+	}
+
+	artisans = {
+		culture = kunigami
+		religion = animist
+		size = 400
+	}
+
+	soldiers = {
+		culture = kunigami
+		religion = animist
+		size = 1050
+	}
+
+	farmers = {
+		culture = kunigami
+		religion = animist
+		size = 9930
+	}
+    
+	aristocrats = {
 		culture = japanese
 		religion = shinto
-		size = 850
+		size = 100
 	}
 
 	bureaucrats = {
 		culture = japanese
 		religion = shinto
-		size = 45
-	}
-
-	officers = {
-		culture = japanese
-		religion = shinto
-		size = 75
+		size = 30
 	}
 
 	clergymen = {
 		culture = japanese
 		religion = shinto
-		size = 450
+		size = 30
 	}
 
 	artisans = {
 		culture = japanese
 		religion = shinto
-		size = 2200
+		size = 100
 	}
 
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size = 450
+		size = 150
 	}
 
 	farmers = {
 		culture = japanese
 		religion = shinto
-		size = 59930
+		size = 1000
 	}
-
-	bureaucrats = {
-		culture = nanfaren
-		religion = shinto
-		size = 5
-	}
-
+	
 	clergymen = {
-		culture = nanfaren
-		religion = shinto
+		culture = beifaren
+		religion = mahayana
 		size = 75
 	}
 
 	artisans = {
-		culture = nanfaren
-		religion = shinto
+		culture = beifaren
+		religion = mahayana
 		size = 200
 	}
 
 	soldiers = {
-		culture = nanfaren
-		religion = shinto
-		size = 2050
+		culture = beifaren
+		religion = mahayana
+		size = 250
 	}
 
 	farmers = {
-		culture = nanfaren
-		religion = shinto
-		size = 3670
+		culture = beifaren
+		religion = mahayana
+		size = 670
 	}
 }
+
+#Miyako
+4164 = {
+	aristocrats = {
+		culture = miyako
+		religion = animist
+		size = 400
+	}
+
+	clergymen = {
+		culture = miyako
+		religion = animist
+		size = 150
+	}
+
+	artisans = {
+		culture = miyako
+		religion = animist
+		size = 800
+	}
+
+	soldiers = {
+		culture = miyako
+		religion = animist
+		size = 450
+	}
+
+	farmers = {
+		culture = miyako
+		religion = animist
+		size = 10000
+	}
+}
+
+#Yaeyama
+4165 = {
+	aristocrats = {
+		culture = yaeyama
+		religion = animist
+		size = 300
+	}
+
+	clergymen = {
+		culture = yaeyama
+		religion = animist
+		size = 120
+	}
+
+	artisans = {
+		culture = yaeyama
+		religion = animist
+		size = 600
+	}
+
+	soldiers = {
+		culture = yaeyama
+		religion = animist
+		size = 350
+	}
+
+	farmers = {
+		culture = yaeyama
+		religion = animist
+		size = 6800
+	}
+	
+	aristocrats = {
+		culture = yonaguni
+		religion = animist
+		size = 10
+	}
+
+	clergymen = {
+		culture = yonaguni
+		religion = animist
+		size = 10
+	}
+
+	artisans = {
+		culture = yonaguni
+		religion = animist
+		size = 20
+	}
+
+	farmers = {
+		culture = yonaguni
+		religion = animist
+		size = 200
+	}
+}
+
+#Pinnacle Islands
+4166 = {
+	aristocrats = {
+		culture = french
+		religion = gallican
+		size = 2
+	}
+
+	clergymen = {
+		culture = french
+		religion = gallican
+		size = 2
+	}
+
+	artisans = {
+		culture = french
+		religion = gallican
+		size = 5
+	}
+
+	farmers = {
+		culture = french
+		religion = gallican
+		size = 30
+	}
+	
+	aristocrats = {
+		culture = japanese
+		religion = mahayana
+		size = 1
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = mahayana
+		size = 1
+	}
+
+	artisans = {
+		culture = japanese
+		religion = mahayana
+		size = 2
+	}
+
+	farmers = {
+		culture = japanese
+		religion = mahayana
+		size = 10
+	}
+}
+
+#Tokara Islands
+4167 = {
+	aristocrats = {
+		culture = kagoshima
+		religion = mahayana
+		size = 10
+	}
+
+	clergymen = {
+		culture = kagoshima
+		religion = mahayana
+		size = 10
+	}
+
+	artisans = {
+		culture = kagoshima
+		religion = mahayana
+		size = 20
+	}
+
+	farmers = {
+		culture = kagoshima
+		religion = mahayana
+		size = 200
+	}
+}
+
+#Osumi Islands
+4168 = {
+	aristocrats = {
+		culture = kagoshima
+		religion = mahayana
+		size = 70
+	}
+
+	clergymen = {
+		culture = kagoshima
+		religion = mahayana
+		size = 50
+	}
+
+	artisans = {
+		culture = kagoshima
+		religion = mahayana
+		size = 300
+	}
+	
+	soldiers = {
+		culture = kagoshima
+		religion = mahayana
+		size = 300
+	}
+
+	farmers = {
+		culture = kagoshima
+		religion = mahayana
+		size = 3000
+	}
+}
+
 #Amari (80000/20000 POPS)
 1679 = {
 	aristocrats = {
-		culture = japanese
-		religion = shinto
+		culture = amami
+		religion = animist
 		size = 375
 	}
 
 	clergymen = {
-		culture = japanese
-		religion = shinto
+		culture = amami
+		religion = animist
 		size = 200
 	}
 
 	artisans = {
-		culture = japanese
-		religion = shinto
+		culture = amami
+		religion = animist
 		size = 1100
 	}
 
 	soldiers = {
-		culture = japanese
-		religion = shinto
+		culture = amami
+		religion = animist
 		size = 200
 	}
 
 	farmers = {
-		culture = japanese
-		religion = shinto
-		size = 18225
+		culture = amami
+		religion = animist
+		size = 14000
+	}
+    
+	aristocrats = {
+		culture = kikai
+		religion = animist
+		size = 30
 	}
 
+	clergymen = {
+		culture = kikai
+		religion = animist
+		size = 30
+	}
+
+	artisans = {
+		culture = kikai
+		religion = animist
+		size = 200
+	}
+
+	soldiers = {
+		culture = kikai
+		religion = animist
+		size = 70
+	}
+
+	farmers = {
+		culture = kikai
+		religion = animist
+		size = 2000
+	}
+	
+	aristocrats = {
+		culture = tokunoshima
+		religion = animist
+		size = 20
+	}
+
+	clergymen = {
+		culture = tokunoshima
+		religion = animist
+		size = 20
+	}
+
+	artisans = {
+		culture = tokunoshima
+		religion = animist
+		size = 100
+	}
+
+	soldiers = {
+		culture = tokunoshima
+		religion = animist
+		size = 30
+	}
+
+	farmers = {
+		culture = tokunoshima
+		religion = animist
+		size = 1125
+	}
+	
+	aristocrats = {
+		culture = okinoerabu
+		religion = animist
+		size = 20
+	}
+
+	clergymen = {
+		culture = okinoerabu
+		religion = animist
+		size = 20
+	}
+
+	artisans = {
+		culture = okinoerabu
+		religion = animist
+		size = 100
+	}
+
+	farmers = {
+		culture = okinoerabu
+		religion = animist
+		size = 600
+	}
+	
+	aristocrats = {
+		culture = yoron
+		religion = animist
+		size = 10
+	}
+
+	clergymen = {
+		culture = yoron
+		religion = animist
+		size = 10
+	}
+
+	artisans = {
+		culture = yoron
+		religion = animist
+		size = 30
+	}
+
+	farmers = {
+		culture = yoron
+		religion = animist
+		size = 110
+	}
 }
 
 #Sado (2000/500 POPS)
