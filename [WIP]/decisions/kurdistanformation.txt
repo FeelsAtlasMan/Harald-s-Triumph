@@ -1,0 +1,35 @@
+become_kurdistan = {
+        picture = old_kurdistan_map
+        potential = {
+            primary_culture = kurdish
+            NOT = { tag = KDS }
+            KDS = { exists = no }
+            NOT = { has_country_flag = became_kurdistan }
+        }
+
+        allow = {
+			OR =  { 
+				AND = {
+					nationalism_n_imperialism = 1
+					civilized = yes
+				}
+			}
+            is_vassal = no
+            war = no
+        }
+
+        effect = {
+            set_country_flag = became_kurdistan
+            prestige = 5
+            change_tag = KDS
+            any_country = {
+                limit = {
+                    primary_culture = kurdish
+                    OR = {
+                        vassal_of = THIS
+                        in_sphere = THIS
+                    }
+                }
+                annex_to = THIS
+            }
+        }

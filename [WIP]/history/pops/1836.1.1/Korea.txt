@@ -47,13 +47,13 @@
 	farmers = {
 		culture = korean
 		religion = mahayana
-		size = 232125
+		size = 24900
 	}
-
-	slaves = {
+	
+	serfs = {
 		culture = korean
 		religion = mahayana
-		size = 24900
+		size = 232125
 	}
 }
 #Chonchon (796000/190000 POPS)
@@ -657,61 +657,187 @@
 	aristocrats = {
 		culture = korean
 		religion = mahayana
-		size = 7400
+		size = 2400
 	}
 
 	bureaucrats = {
 		culture = korean
 		religion = mahayana
-		size = 375
+		size = 100
 	}
 
 	officers = {
 		culture = korean
 		religion = mahayana
-		size = 425
+		size = 125
 	}
 
 	clergymen = {
 		culture = korean
 		religion = mahayana
-		size = 2800
+		size = 1000
 	}
 
 	artisans = {
 		culture = korean
 		religion = mahayana
-		size = 8750
-	}
-	
-	artisans = {
-		culture = korean
-		religion = mahayana
-		size = 10000
-	}
-	
-	artisans = {
-		culture = korean
-		religion = mahayana
-		size = 10000
+		size = 7750
 	}
 
 	soldiers = {
 		culture = korean
 		religion = mahayana
-		size = 8000
+		size = 3000
 	}
 
 	farmers = {
 		culture = korean
 		religion = mahayana
-		size = 188150
+		size = 17000
 	}
 
-	slaves = {
+	serfs = {
 		culture = korean
 		religion = mahayana
-		size = 47000
+		size = 78000
+	}
+	
+	aristocrats = {
+		culture = manchu
+		religion = mahayana
+		size = 300
+	}
+
+	clergymen = {
+		culture = manchu
+		religion = mahayana
+		size = 100
+	}
+
+	artisans = {
+		culture = manchu
+		religion = mahayana
+		size = 150
+	}
+
+	farmers = {
+		culture = manchu
+		religion = mahayana
+		size = 2600
+	}
+	
+	aristocrats = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+
+	artisans = {
+		culture = japanese
+		religion = shinto
+		size = 350
+	}
+
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 300
+	}
+
+	serfs = {
+		culture = japanese
+		religion = shinto
+		size = 1150
+	}
+	
+	aristocrats = {
+		culture = beifaren
+		religion = mahayana
+		size = 300
+	}
+
+	clergymen = {
+		culture = beifaren
+		religion = mahayana
+		size = 200
+	}
+
+	artisans = {
+		culture = beifaren
+		religion = mahayana
+		size = 1350
+	}
+
+	farmers = {
+		culture = beifaren
+		religion = mahayana
+		size = 1300
+	}
+
+	serfs = {
+		culture = beifaren
+		religion = mahayana
+		size = 2550
+	}
+	
+	aristocrats = {
+		culture = kara
+		religion = mahayana
+		size = 5000
+	}
+
+	bureaucrats = {
+		culture = kara
+		religion = mahayana
+		size = 275
+	}
+
+	officers = {
+		culture = kara
+		religion = mahayana
+		size = 300
+	}
+
+	clergymen = {
+		culture = kara
+		religion = mahayana
+		size = 1800
+	}
+	
+	artisans = {
+		culture = kara
+		religion = mahayana
+		size = 10000
+	}
+	
+	artisans = {
+		culture = kara
+		religion = mahayana
+		size = 10000
+	}
+
+	soldiers = {
+		culture = kara
+		religion = mahayana
+		size = 5000
+	}
+
+	farmers = {
+		culture = kara
+		religion = mahayana
+		size = 20000
+	}
+
+	serfs = {
+		culture = kara
+		religion = mahayana
+		size = 100000
 	}
 }
 #Taejon (420000/105000 POPS)

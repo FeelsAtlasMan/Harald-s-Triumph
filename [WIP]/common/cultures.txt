@@ -6664,6 +6664,14 @@ tungusic = {
 		}
 	} 
 	
+	sibe = {
+		color = {95 175 100}
+		first_names = { Ma Deng Zhao Tong Guan Oboi Sonin Songgotu Suksaha Mingzhu Nalan Fu Hesehn Changlin
+		}
+		last_names = { Zhanshan Tiemei Shangzhi Linge Xiangying Xingde Kang'an
+		}
+	} 
+	
 	nanai = {
 		color = {115 165 150}
 		first_names = { Ma Deng Zhao Tong Guan Oboi Sonin Songgotu Suksaha Mingzhu Nalan Fu Hesehn Changlin
@@ -11625,17 +11633,46 @@ east_asian = {
 far_east_asian = {
 	leader = asian
 	unit = ChineseGC
+	ainu = {
+		color = {80 110 60}
+		first_names = { Seimei Resaak Akihi Petennouk Unayanke Shiratekka Apniainu Pasekur Munkeke Shitekka Shinriki Shiromainu Menkakush }
+		last_names = { Aterui Shakushine Koshamine Harukor Turushno Isonash Keutoranke }
+	}
+}
+
+koreanic = {
+	leader = asian
+	unit = ChineseGC
 	korean = {
-		color = {87 89 25}
+		color = {90 90 25}
 		first_names = { Hwan Chung Hyong Shinjong Haung Ch'ok Taek Seon Si Jip Guk Mok Bo Yong Sun Gyu Hu Kim Rhee Bahk Choi Jung Yie Ee Gahn Kahn Gahl Kahl Gahm Kahng Kangjun Kae Kyun Kyong Kye Ko Kok Khong Kwak Kyo Ku Kuk Kun Kung Kwog Kwon Keun Kuem Ki Kil Pak Chae Nahn Namgung Nahng Lang Nae Noh Roi Than Tam Tang Tae Toh Tokko Ton Tong Tubongbanua Ryu Mangjul Maing Myong Myo Muk Pang Min Pyun Peom Paek Pin Pi Pok Sa Sagong Sam Sang Somoon Seonwoo Seul Song Sobong Sin Sim Yang Lyang Yu Chang Changgok Jei Chong Chegal Chin P'aeng P'an Ch'ang Pyong Hyung Hyun Huhng Hyeong Hwangbo Lee Ch'oe Cho Kang Yun Han
 		}
 		last_names = { Yi Jo Bak Hong Seo Jeong Jang Shin Lim Song Jin Jun Hwang Jeon Min Yoon Ahn Ko Joon Bae Nam An "Dong Hyun" Sung Ha Baek MinSu Cha Im Won Jihun Seong "Sang Min" Minwoo Minho "Ji Hoon" Joo Woo Woojin Donghyun Jongmin Jaehyun Ji "Seung Hyun" "Sung Min" Seungmin Jihoon "Jong-un" "Jong-il" "Pong-ju" "Yong-rim" "Yong-nam" "Ryong-hae" "Yong-ho"
 		}
 	}
-	ainu = {
-		color = {130 130 130}
-		first_names = { Seimei Resaak Akihi Petennouk Unayanke Shiratekka Apniainu Pasekur Munkeke Shitekka Shinriki Shiromainu Menkakush }
-		last_names = { Aterui Shakushine Koshamine Harukor Turushno Isonash Keutoranke }
+	
+	bukjoseon = {
+		color = {110 140 55}
+		first_names = { Hwan Chung Hyong Shinjong Haung Ch'ok Taek Seon Si Jip Guk Mok Bo Yong Sun Gyu Hu Kim Rhee Bahk Choi Jung Yie Ee Gahn Kahn Gahl Kahl Gahm Kahng Kangjun Kae Kyun Kyong Kye Ko Kok Khong Kwak Kyo Ku Kuk Kun Kung Kwog Kwon Keun Kuem Ki Kil Pak Chae Nahn Namgung Nahng Lang Nae Noh Roi Than Tam Tang Tae Toh Tokko Ton Tong Tubongbanua Ryu Mangjul Maing Myong Myo Muk Pang Min Pyun Peom Paek Pin Pi Pok Sa Sagong Sam Sang Somoon Seonwoo Seul Song Sobong Sin Sim Yang Lyang Yu Chang Changgok Jei Chong Chegal Chin P'aeng P'an Ch'ang Pyong Hyung Hyun Huhng Hyeong Hwangbo Lee Ch'oe Cho Kang Yun Han
+		}
+		last_names = { Yi Jo Bak Hong Seo Jeong Jang Shin Lim Song Jin Jun Hwang Jeon Min Yoon Ahn Ko Joon Bae Nam An "Dong Hyun" Sung Ha Baek MinSu Cha Im Won Jihun Seong "Sang Min" Minwoo Minho "Ji Hoon" Joo Woo Woojin Donghyun Jongmin Jaehyun Ji "Seung Hyun" "Sung Min" Seungmin Jihoon "Jong-un" "Jong-il" "Pong-ju" "Yong-rim" "Yong-nam" "Ryong-hae" "Yong-ho"
+		}
+	}
+	
+	namjoseon = {
+		color = {140 110 55}
+		first_names = { Hwan Chung Hyong Shinjong Haung Ch'ok Taek Seon Si Jip Guk Mok Bo Yong Sun Gyu Hu Kim Rhee Bahk Choi Jung Yie Ee Gahn Kahn Gahl Kahl Gahm Kahng Kangjun Kae Kyun Kyong Kye Ko Kok Khong Kwak Kyo Ku Kuk Kun Kung Kwog Kwon Keun Kuem Ki Kil Pak Chae Nahn Namgung Nahng Lang Nae Noh Roi Than Tam Tang Tae Toh Tokko Ton Tong Tubongbanua Ryu Mangjul Maing Myong Myo Muk Pang Min Pyun Peom Paek Pin Pi Pok Sa Sagong Sam Sang Somoon Seonwoo Seul Song Sobong Sin Sim Yang Lyang Yu Chang Changgok Jei Chong Chegal Chin P'aeng P'an Ch'ang Pyong Hyung Hyun Huhng Hyeong Hwangbo Lee Ch'oe Cho Kang Yun Han
+		}
+		last_names = { Yi Jo Bak Hong Seo Jeong Jang Shin Lim Song Jin Jun Hwang Jeon Min Yoon Ahn Ko Joon Bae Nam An "Dong Hyun" Sung Ha Baek MinSu Cha Im Won Jihun Seong "Sang Min" Minwoo Minho "Ji Hoon" Joo Woo Woojin Donghyun Jongmin Jaehyun Ji "Seung Hyun" "Sung Min" Seungmin Jihoon "Jong-un" "Jong-il" "Pong-ju" "Yong-rim" "Yong-nam" "Ryong-hae" "Yong-ho"
+		}
+	}
+	
+	okjeo = {
+		color = {90 140 25} 
+		first_names = { Hwan Chung Hyong Shinjong Haung Ch'ok Taek Seon Si Jip Guk Mok Bo Yong Sun Gyu Hu Kim Rhee Bahk Choi Jung Yie Ee Gahn Kahn Gahl Kahl Gahm Kahng Kangjun Kae Kyun Kyong Kye Ko Kok Khong Kwak Kyo Ku Kuk Kun Kung Kwog Kwon Keun Kuem Ki Kil Pak Chae Nahn Namgung Nahng Lang Nae Noh Roi Than Tam Tang Tae Toh Tokko Ton Tong Tubongbanua Ryu Mangjul Maing Myong Myo Muk Pang Min Pyun Peom Paek Pin Pi Pok Sa Sagong Sam Sang Somoon Seonwoo Seul Song Sobong Sin Sim Yang Lyang Yu Chang Changgok Jei Chong Chegal Chin P'aeng P'an Ch'ang Pyong Hyung Hyun Huhng Hyeong Hwangbo Lee Ch'oe Cho Kang Yun Han
+		}
+		last_names = { Yi Jo Bak Hong Seo Jeong Jang Shin Lim Song Jin Jun Hwang Jeon Min Yoon Ahn Ko Joon Bae Nam An "Dong Hyun" Sung Ha Baek MinSu Cha Im Won Jihun Seong "Sang Min" Minwoo Minho "Ji Hoon" Joo Woo Woojin Donghyun Jongmin Jaehyun Ji "Seung Hyun" "Sung Min" Seungmin Jihoon "Jong-un" "Jong-il" "Pong-ju" "Yong-rim" "Yong-nam" "Ryong-hae" "Yong-ho"
+		}
 	}
 }
 
@@ -11655,6 +11692,16 @@ japonic = {
 	
 	kagoshima = {
 		color = {190 190 190}
+		first_names = { Arisugawa Arichi Akiyama Araki Dewa Enomoto Hasegawa Honjo Ito Inoue Ichinohe Itagaki Kido Kuroda Katsura Kodama Kabayama Kawamura Kuroki Kawakami Kamimura Kataoka Kamio Kato Kanin Katsu Makino Muto Minami Masaki Matsudaira Nakamuta Nogi Nire Nozu Okubo Oyama Omura Oku Okada Osumi
+		Saigo Suzuki Sato Sakura Shibayama Shimamura Shirakawa Togo Takashima Tsuboi Tachibana Terauchi Tamon Takasugi Tokugawa Uehara Uryu Ugaki Ueda Yamagata Yamamoto Yamakawa Yashiro Yui Yamashita Yamaya Uesugi Takeda Abe Usami Watanabe Honda Hosokawa Asai	Askikaga Chosokabe Date Fukushima Genji Hachisuka Hattori Heike Hojo Ishida Kaga Kuki Maeda Miyamoto Mori Murakami Oda Okamoto Ooka Saito Shibata Shimazu Suwa Takigawa Tanuma Ukita Konoe Takashi Kujo Ichijo Gojo Aburakoji Anenokoji Asukai Daigo Hirohata Imaidegawa Inokuma Jimyoin Kajuji Kaoin Karasuma Kawashi Konjo Kuga Masachika	Matsuki	Minase	Nakayama Nanba Nomiya Oimikado Rakujochigusa Reizei Saioji Sanjo Shigenoi Shijo Shimizudani Tokudaiji Washio Yamashina	 
+		} 
+		
+		last_names = { Aritomo Goro Gentaro Gonnohyoe Heihachiro Hiroshi Hikonojo Hyoe Hayao Iwao Jiro Jinzaburo Kiyotaka Kuranosuke Kozo Kantaro Koichiro Kagenori Kageaki Kotohito Keisuke Kazushige Kenkichi Maresuke Masujiro Michisura Masatake Mitsuomi Mitsue Mineo Nariaki Nobuyoshi Rokuro Sukeyuki Sukenori Shoin Sumiyoshi Samata Soroku Shichiro Shigeto Sotokichi Shigeru Sadao Shinsaku Takayoshi Takamori Toshimichi Tsugumichi Tadakuni Tomonosuke Taro Toshiyoshi Tetsutaro Taruhito Takeaki Tamemoto Tomasaburo Yoshika Yoshinobu Yoshimichi Yoshida Yasukata Yahachi Yusaku Yoshifuru Yoshinori Yasuyoshi Ieyasu
+		}
+	}
+	
+	hachijo = {
+		color = {150 150 150}
 		first_names = { Arisugawa Arichi Akiyama Araki Dewa Enomoto Hasegawa Honjo Ito Inoue Ichinohe Itagaki Kido Kuroda Katsura Kodama Kabayama Kawamura Kuroki Kawakami Kamimura Kataoka Kamio Kato Kanin Katsu Makino Muto Minami Masaki Matsudaira Nakamuta Nogi Nire Nozu Okubo Oyama Omura Oku Okada Osumi
 		Saigo Suzuki Sato Sakura Shibayama Shimamura Shirakawa Togo Takashima Tsuboi Tachibana Terauchi Tamon Takasugi Tokugawa Uehara Uryu Ugaki Ueda Yamagata Yamamoto Yamakawa Yashiro Yui Yamashita Yamaya Uesugi Takeda Abe Usami Watanabe Honda Hosokawa Asai	Askikaga Chosokabe Date Fukushima Genji Hachisuka Hattori Heike Hojo Ishida Kaga Kuki Maeda Miyamoto Mori Murakami Oda Okamoto Ooka Saito Shibata Shimazu Suwa Takigawa Tanuma Ukita Konoe Takashi Kujo Ichijo Gojo Aburakoji Anenokoji Asukai Daigo Hirohata Imaidegawa Inokuma Jimyoin Kajuji Kaoin Karasuma Kawashi Konjo Kuga Masachika	Matsuki	Minase	Nakayama Nanba Nomiya Oimikado Rakujochigusa Reizei Saioji Sanjo Shigenoi Shijo Shimizudani Tokudaiji Washio Yamashina	 
 		} 
@@ -11758,6 +11805,27 @@ japonic = {
 	
 	miyako = {
 		color = {180 190 140}
+		first_names = { Arisugawa Arichi Akiyama Araki Dewa Enomoto Hasegawa Honjo Ito Inoue Ichinohe Itagaki Kido Kuroda Katsura Kodama Kabayama Kawamura Kuroki Kawakami Kamimura Kataoka Kamio Kato Kanin Katsu Makino Muto Minami Masaki Matsudaira Nakamuta Nogi Nire Nozu Okubo Oyama Omura Oku Okada Osumi
+		Saigo Suzuki Sato Sakura Shibayama Shimamura Shirakawa Togo Takashima Tsuboi Tachibana Terauchi Tamon Takasugi Tokugawa Uehara Uryu Ugaki Ueda Yamagata Yamamoto Yamakawa Yashiro Yui Yamashita Yamaya Uesugi Takeda Abe Usami Watanabe Honda Hosokawa Asai	Askikaga Chosokabe Date Fukushima Genji Hachisuka Hattori Heike Hojo Ishida Kaga Kuki Maeda Miyamoto Mori Murakami Oda Okamoto Ooka Saito Shibata Shimazu Suwa Takigawa Tanuma Ukita Konoe Takashi Kujo Ichijo Gojo Aburakoji Anenokoji Asukai Daigo Hirohata Imaidegawa Inokuma Jimyoin Kajuji Kaoin Karasuma Kawashi Konjo Kuga Masachika	Matsuki	Minase	Nakayama Nanba Nomiya Oimikado Rakujochigusa Reizei Saioji Sanjo Shigenoi Shijo Shimizudani Tokudaiji Washio Yamashina	 
+		} 
+		
+		last_names = { Aritomo Goro Gentaro Gonnohyoe Heihachiro Hiroshi Hikonojo Hyoe Hayao Iwao Jiro Jinzaburo Kiyotaka Kuranosuke Kozo Kantaro Koichiro Kagenori Kageaki Kotohito Keisuke Kazushige Kenkichi Maresuke Masujiro Michisura Masatake Mitsuomi Mitsue Mineo Nariaki Nobuyoshi Rokuro Sukeyuki Sukenori Shoin Sumiyoshi Samata Soroku Shichiro Shigeto Sotokichi Shigeru Sadao Shinsaku Takayoshi Takamori Toshimichi Tsugumichi Tadakuni Tomonosuke Taro Toshiyoshi Tetsutaro Taruhito Takeaki Tamemoto Tomasaburo Yoshika Yoshinobu Yoshimichi Yoshida Yasukata Yahachi Yusaku Yoshifuru Yoshinori Yasuyoshi Ieyasu
+		}
+	}
+	
+	#Peninsular Japonic
+	tanmu = {
+		color = {190 140 180}
+		first_names = { Arisugawa Arichi Akiyama Araki Dewa Enomoto Hasegawa Honjo Ito Inoue Ichinohe Itagaki Kido Kuroda Katsura Kodama Kabayama Kawamura Kuroki Kawakami Kamimura Kataoka Kamio Kato Kanin Katsu Makino Muto Minami Masaki Matsudaira Nakamuta Nogi Nire Nozu Okubo Oyama Omura Oku Okada Osumi
+		Saigo Suzuki Sato Sakura Shibayama Shimamura Shirakawa Togo Takashima Tsuboi Tachibana Terauchi Tamon Takasugi Tokugawa Uehara Uryu Ugaki Ueda Yamagata Yamamoto Yamakawa Yashiro Yui Yamashita Yamaya Uesugi Takeda Abe Usami Watanabe Honda Hosokawa Asai	Askikaga Chosokabe Date Fukushima Genji Hachisuka Hattori Heike Hojo Ishida Kaga Kuki Maeda Miyamoto Mori Murakami Oda Okamoto Ooka Saito Shibata Shimazu Suwa Takigawa Tanuma Ukita Konoe Takashi Kujo Ichijo Gojo Aburakoji Anenokoji Asukai Daigo Hirohata Imaidegawa Inokuma Jimyoin Kajuji Kaoin Karasuma Kawashi Konjo Kuga Masachika	Matsuki	Minase	Nakayama Nanba Nomiya Oimikado Rakujochigusa Reizei Saioji Sanjo Shigenoi Shijo Shimizudani Tokudaiji Washio Yamashina	 
+		} 
+		
+		last_names = { Aritomo Goro Gentaro Gonnohyoe Heihachiro Hiroshi Hikonojo Hyoe Hayao Iwao Jiro Jinzaburo Kiyotaka Kuranosuke Kozo Kantaro Koichiro Kagenori Kageaki Kotohito Keisuke Kazushige Kenkichi Maresuke Masujiro Michisura Masatake Mitsuomi Mitsue Mineo Nariaki Nobuyoshi Rokuro Sukeyuki Sukenori Shoin Sumiyoshi Samata Soroku Shichiro Shigeto Sotokichi Shigeru Sadao Shinsaku Takayoshi Takamori Toshimichi Tsugumichi Tadakuni Tomonosuke Taro Toshiyoshi Tetsutaro Taruhito Takeaki Tamemoto Tomasaburo Yoshika Yoshinobu Yoshimichi Yoshida Yasukata Yahachi Yusaku Yoshifuru Yoshinori Yasuyoshi Ieyasu
+		}
+	}
+	
+	shiuzahi = {
+		color = {190 140 160}
 		first_names = { Arisugawa Arichi Akiyama Araki Dewa Enomoto Hasegawa Honjo Ito Inoue Ichinohe Itagaki Kido Kuroda Katsura Kodama Kabayama Kawamura Kuroki Kawakami Kamimura Kataoka Kamio Kato Kanin Katsu Makino Muto Minami Masaki Matsudaira Nakamuta Nogi Nire Nozu Okubo Oyama Omura Oku Okada Osumi
 		Saigo Suzuki Sato Sakura Shibayama Shimamura Shirakawa Togo Takashima Tsuboi Tachibana Terauchi Tamon Takasugi Tokugawa Uehara Uryu Ugaki Ueda Yamagata Yamamoto Yamakawa Yashiro Yui Yamashita Yamaya Uesugi Takeda Abe Usami Watanabe Honda Hosokawa Asai	Askikaga Chosokabe Date Fukushima Genji Hachisuka Hattori Heike Hojo Ishida Kaga Kuki Maeda Miyamoto Mori Murakami Oda Okamoto Ooka Saito Shibata Shimazu Suwa Takigawa Tanuma Ukita Konoe Takashi Kujo Ichijo Gojo Aburakoji Anenokoji Asukai Daigo Hirohata Imaidegawa Inokuma Jimyoin Kajuji Kaoin Karasuma Kawashi Konjo Kuga Masachika	Matsuki	Minase	Nakayama Nanba Nomiya Oimikado Rakujochigusa Reizei Saioji Sanjo Shigenoi Shijo Shimizudani Tokudaiji Washio Yamashina	 
 		} 

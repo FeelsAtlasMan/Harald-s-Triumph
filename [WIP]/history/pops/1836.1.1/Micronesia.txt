@@ -176,16 +176,26 @@
 		size = 600
 	}
 }
+
 #Northern Micronesia (180)
-#uncolonized in 1836
-#Bonin (60/15 POPS)
+#Bonin 
 1654 = {
 	farmers = {
-		culture = micronesian
-		religion = animist
+		culture = french
+		religion = gallician
 		size = 7
 	}
 }
+
+#Suplhur Islands/Iwojimo
+4163 = {
+	farmers = {
+		culture = french
+		religion = gallician
+		size = 3
+	}
+}
+
 #Marcus (60/15 POPS)
 2525 = {
 	farmers = {

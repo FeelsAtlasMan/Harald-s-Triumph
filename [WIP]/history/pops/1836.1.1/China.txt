@@ -827,36 +827,301 @@
 		size = 2225
 	}
 }
+
 #Jinzhou (680000/170000 POPS)
 1480 = {
 	aristocrats = {
 		culture = manchu
-		religion = mahayana
-		size = 1800
+		religion = samungyo
+		size = 800
 	}
 
 	clergymen = {
 		culture = manchu
-		religion = mahayana
-		size = 300
+		religion = samungyo
+		size = 90
 	}
 
 	artisans = {
 		culture = manchu
-		religion = mahayana
+		religion = samungyo
 		size = 600
 	}
 
 	soldiers = {
 		culture = manchu
-		religion = mahayana
-		size = 11225
+		religion = samungyo
+		size = 1225
 	}
 
 	farmers = {
 		culture = manchu
+		religion = samungyo
+		size = 10000
+	}
+	
+	serfs = {
+		culture = manchu
+		religion = samungyo
+		size = 2275
+	}
+
+	clergymen = {
+		culture = beifaren
 		religion = mahayana
-		size = 19275
+		size = 150
+	}
+
+	artisans = {
+		culture = beifaren
+		religion = mahayana
+		size = 6200
+	}
+
+	soldiers = {
+		culture = beifaren
+		religion = mahayana
+		size = 150
+	}
+	
+	farmers = {
+		culture = beifaren
+		religion = mahayana
+		size = 1050
+	}
+	
+	serfs = {
+		culture = beifaren
+		religion = mahayana
+		size = 8700
+	}
+	
+	clergymen = {
+		culture = bukjoseon
+		religion = samungyo
+		size = 50
+	}
+
+	artisans = {
+		culture = bukjoseon
+		religion = samungyo
+		size = 200
+	}
+
+	soldiers = {
+		culture = bukjoseon
+		religion = samungyo
+		size = 100
+	}
+	
+	farmers = {
+		culture = bukjoseon
+		religion = samungyo
+		size = 500
+	}
+	
+	serfs = {
+		culture = bukjoseon
+		religion = samungyo
+		size = 2800
+	}
+	
+	clergymen = {
+		culture = okjeo
+		religion = samungyo
+		size = 20
+	}
+
+	artisans = {
+		culture = okjeo
+		religion = samungyo
+		size = 20
+	}
+
+	soldiers = {
+		culture = okjeo
+		religion = samungyo
+		size = 200
+	}
+	
+	farmers = {
+		culture = okjeo
+		religion = samungyo
+		size = 50
+	}
+	
+	serfs = {
+		culture = okjeo
+		religion = samungyo
+		size = 200
+	}
+}
+
+#Panjin/Basan
+4203 = {
+	aristocrats = {
+		culture = manchu
+		religion = samungyo
+		size = 1200
+	}
+
+	clergymen = {
+		culture = manchu
+		religion = samungyo
+		size = 200
+	}
+
+	artisans = {
+		culture = manchu
+		religion = samungyo
+		size = 500
+	}
+
+	soldiers = {
+		culture = manchu
+		religion = samungyo
+		size = 3700
+	}
+
+	farmers = {
+		culture = manchu
+		religion = samungyo
+		size = 19000
+	}
+	
+	serfs = {
+		culture = manchu
+		religion = samungyo
+		size = 8275
+	}
+	
+	aristocrats = {
+		culture = sibe
+		religion = animist
+		size = 50
+	}
+
+	clergymen = {
+		culture = sibe
+		religion = animist
+		size = 20
+	}
+
+	artisans = {
+		culture = sibe
+		religion = animist
+		size = 50
+	}
+
+	soldiers = {
+		culture = sibe
+		religion = animist
+		size = 525
+	}
+
+	farmers = {
+		culture = sibe
+		religion = animist
+		size = 1275
+	}
+
+	clergymen = {
+		culture = beifaren
+		religion = mahayana
+		size = 250
+	}
+
+	artisans = {
+		culture = beifaren
+		religion = mahayana
+		size = 700
+	}
+
+	soldiers = {
+		culture = beifaren
+		religion = mahayana
+		size = 150
+	}
+	
+	farmers = {
+		culture = beifaren
+		religion = mahayana
+		size = 6000
+	}
+	
+	serfs = {
+		culture = beifaren
+		religion = mahayana
+		size = 28000
+	}
+	
+	clergymen = {
+		culture = bukjoseon
+		religion = samungyo
+		size = 100
+	}
+
+	artisans = {
+		culture = bukjoseon
+		religion = samungyo
+		size = 400
+	}
+
+	soldiers = {
+		culture = bukjoseon
+		religion = samungyo
+		size = 150
+	}
+	
+	farmers = {
+		culture = bukjoseon
+		religion = samungyo
+		size = 1750
+	}
+	
+	serfs = {
+		culture = bukjoseon
+		religion = samungyo
+		size = 18750
+	}
+}
+
+#Jinxi/Heungseong
+4202 = {
+	aristocrats = {
+		culture = manchu
+		religion = samungyo
+		size = 400
+	}
+
+	clergymen = {
+		culture = manchu
+		religion = samungyo
+		size = 40
+	}
+
+	artisans = {
+		culture = manchu
+		religion = samungyo
+		size = 200
+	}
+
+	soldiers = {
+		culture = manchu
+		religion = samungyo
+		size = 3225
+	}
+
+	farmers = {
+		culture = manchu
+		religion = samungyo
+		size = 11000
+	}
+	
+	serfs = {
+		culture = manchu
+		religion = samungyo
+		size = 3275
 	}
 
 	clergymen = {
@@ -880,45 +1145,781 @@
 	farmers = {
 		culture = beifaren
 		religion = mahayana
-		size = 122750
+		size = 4750
+	}
+	
+	serfs = {
+		culture = beifaren
+		religion = mahayana
+		size = 15750
+	}
+	
+	clergymen = {
+		culture = bukjoseon
+		religion = samungyo
+		size = 50
 	}
 
-	slaves = {
-		culture = mongol
-		religion = gelugpa
-		size = 10720
+	artisans = {
+		culture = bukjoseon
+		religion = samungyo
+		size = 300
+	}
+
+	soldiers = {
+		culture = bukjoseon
+		religion = samungyo
+		size = 100
+	}
+	
+	farmers = {
+		culture = bukjoseon
+		religion = samungyo
+		size = 800
+	}
+	
+	serfs = {
+		culture = bukjoseon
+		religion = samungyo
+		size = 8750
 	}
 }
-#Port Arthur (80000/15000 POPS)
-1481 = {
+
+#Ulanhad
+4201 = {
+	aristocrats = {
+		culture = mongol
+		religion = gelugpa
+		size = 500
+	}
+
+	clergymen = {
+		culture = mongol
+		religion = gelugpa
+		size = 100
+	}
+
+	artisans = {
+		culture = mongol
+		religion = gelugpa
+		size = 200
+	}
+
+	soldiers = {
+		culture = mongol
+		religion = gelugpa
+		size = 4225
+	}
+
+	farmers = {
+		culture = mongol
+		religion = gelugpa
+		size = 25275
+	}
+	
+	serfs = {
+		culture = mongol
+		religion = gelugpa
+		size = 2275
+	}
+	
 	aristocrats = {
 		culture = manchu
+		religion = samungyo
+		size = 100
+	}
+
+	clergymen = {
+		culture = manchu
+		religion = samungyo
+		size = 40
+	}
+
+	artisans = {
+		culture = manchu
+		religion = samungyo
+		size = 50
+	}
+
+	soldiers = {
+		culture = manchu
+		religion = samungyo
+		size = 225
+	}
+
+	farmers = {
+		culture = manchu
+		religion = samungyo
+		size = 5275
+	}
+	
+	serfs = {
+		culture = manchu
+		religion = samungyo
+		size = 275
+	}
+
+	clergymen = {
+		culture = beifaren
 		religion = mahayana
+		size = 100
+	}
+
+	artisans = {
+		culture = beifaren
+		religion = mahayana
+		size = 400
+	}
+
+	soldiers = {
+		culture = beifaren
+		religion = mahayana
+		size = 150
+	}
+	
+	farmers = {
+		culture = beifaren
+		religion = mahayana
+		size = 1750
+	}
+	
+	serfs = {
+		culture = beifaren
+		religion = mahayana
+		size = 12750
+	}
+}
+
+#Ryoyang
+4208 = {
+	aristocrats = {
+		culture = manchu
+		religion = samungyo
+		size = 2250
+	}
+	
+	bureaucrats = {
+		culture = manchu
+		religion = samungyo
+		size = 250
+	}
+	
+	officers = {
+		culture = manchu
+		religion = samungyo
 		size = 250
 	}
 
 	clergymen = {
 		culture = manchu
+		religion = samungyo
+		size = 550
+	}
+
+	artisans = {
+		culture = manchu
+		religion = samungyo
+		size = 3750
+	}
+
+	soldiers = {
+		culture = manchu
+		religion = samungyo
+		size = 3150
+	}
+
+	farmers = {
+		culture = manchu
+		religion = samungyo
+		size = 22000
+	}
+	
+	serfs = {
+		culture = manchu
+		religion = samungyo
+		size = 9000
+	}
+	
+	aristocrats = {
+		culture = sibe
+		religion = animist
+		size = 150
+	}
+
+	clergymen = {
+		culture = sibe
+		religion = animist
+		size = 50
+	}
+
+	artisans = {
+		culture = sibe
+		religion = animist
+		size = 150
+	}
+
+	soldiers = {
+		culture = sibe
+		religion = animist
+		size = 1000
+	}
+
+	farmers = {
+		culture = sibe
+		religion = animist
+		size = 1500
+	}
+	
+	aristocrats = {
+		culture = bukjoseon
+		religion = samungyo
+		size = 400
+	}
+	
+	bureaucrats = {
+		culture = bukjoseon
+		religion = samungyo
+		size = 350
+	}
+    
+	officers = {
+		culture = bukjoseon
+		religion = samungyo
+		size = 150
+	}
+	
+	clergymen = {
+		culture = bukjoseon
+		religion = samungyo
+		size = 350
+	}
+
+	artisans = {
+		culture = bukjoseon
+		religion = samungyo
+		size = 2250
+	}
+
+	soldiers = {
+		culture = bukjoseon
+		religion = samungyo
+		size = 350
+	}
+
+	farmers = {
+		culture = bukjoseon
+		religion = samungyo
+		size = 3550
+	}
+	
+	serfs = {
+		culture = bukjoseon
+		religion = samungyo
+		size = 25000
+	}
+
+	aristocrats = {
+		culture = beifaren
 		religion = mahayana
+		size = 300
+	}
+
+	clergymen = {
+		culture = beifaren
+		religion = mahayana
+		size = 100
+	}
+
+	artisans = {
+		culture = beifaren
+		religion = mahayana
+		size = 1250
+	}
+
+	soldiers = {
+		culture = beifaren
+		religion = mahayana
+		size = 50
+	}
+
+	farmers = {
+		culture = beifaren
+		religion = mahayana
+		size = 3050
+	}
+	
+	serfs = {
+		culture = beifaren
+		religion = mahayana
+		size = 16000
+	}
+}
+
+#Ansan
+4206 = {
+	aristocrats = {
+		culture = manchu
+		religion = samungyo
+		size = 850
+	}
+	
+	clergymen = {
+		culture = manchu
+		religion = samungyo
+		size = 250
+	}
+
+	artisans = {
+		culture = manchu
+		religion = samungyo
+		size = 1750
+	}
+
+	soldiers = {
+		culture = manchu
+		religion = samungyo
+		size = 2150
+	}
+
+	farmers = {
+		culture = manchu
+		religion = samungyo
+		size = 12000
+	}
+	
+	serfs = {
+		culture = manchu
+		religion = samungyo
+		size = 1500
+	}
+	
+	aristocrats = {
+		culture = sibe
+		religion = animist
+		size = 100
+	}
+	
+	clergymen = {
+		culture = sibe
+		religion = animist
+		size = 50
+	}
+
+	artisans = {
+		culture = sibe
+		religion = animist
+		size = 150
+	}
+
+	soldiers = {
+		culture = sibe
+		religion = animist
+		size = 850
+	}
+
+	farmers = {
+		culture = sibe
+		religion = animist
+		size = 2000
+	}
+	
+	aristocrats = {
+		culture = bukjoseon
+		religion = samungyo
+		size = 600
+	}
+	
+	clergymen = {
+		culture = bukjoseon
+		religion = samungyo
+		size = 450
+	}
+
+	artisans = {
+		culture = bukjoseon
+		religion = samungyo
+		size = 3250
+	}
+
+	soldiers = {
+		culture = bukjoseon
+		religion = samungyo
+		size = 350
+	}
+
+	farmers = {
+		culture = bukjoseon
+		religion = samungyo
+		size = 3550
+	}
+	
+	serfs = {
+		culture = bukjoseon
+		religion = samungyo
+		size = 17000
+	}
+
+	aristocrats = {
+		culture = beifaren
+		religion = mahayana
+		size = 300
+	}
+
+	clergymen = {
+		culture = beifaren
+		religion = mahayana
+		size = 100
+	}
+
+	artisans = {
+		culture = beifaren
+		religion = mahayana
+		size = 850
+	}
+
+	soldiers = {
+		culture = beifaren
+		religion = mahayana
+		size = 50
+	}
+
+	farmers = {
+		culture = beifaren
+		religion = mahayana
+		size = 1050
+	}
+	
+	serfs = {
+		culture = beifaren
+		religion = mahayana
+		size = 10000
+	}
+}
+
+#Yeonggu
+4205 = {
+	aristocrats = {
+		culture = manchu
+		religion = samungyo
+		size = 650
+	}
+	
+	clergymen = {
+		culture = manchu
+		religion = samungyo
 		size = 150
 	}
 
 	artisans = {
 		culture = manchu
-		religion = mahayana
+		religion = samungyo
 		size = 750
 	}
 
 	soldiers = {
 		culture = manchu
+		religion = samungyo
+		size = 2150
+	}
+
+	farmers = {
+		culture = manchu
+		religion = samungyo
+		size = 9000
+	}
+	
+	serfs = {
+		culture = manchu
+		religion = samungyo
+		size = 500
+	}
+	
+	aristocrats = {
+		culture = sibe
+		religion = animist
+		size = 100
+	}
+	
+	clergymen = {
+		culture = sibe
+		religion = animist
+		size = 50
+	}
+
+	artisans = {
+		culture = sibe
+		religion = animist
+		size = 50
+	}
+
+	soldiers = {
+		culture = sibe
+		religion = animist
+		size = 450
+	}
+
+	farmers = {
+		culture = sibe
+		religion = animist
+		size = 1000
+	}
+	
+	aristocrats = {
+		culture = bukjoseon
+		religion = samungyo
+		size = 600
+	}
+	
+	clergymen = {
+		culture = bukjoseon
+		religion = samungyo
+		size = 450
+	}
+
+	artisans = {
+		culture = bukjoseon
+		religion = samungyo
+		size = 2250
+	}
+
+	soldiers = {
+		culture = bukjoseon
+		religion = samungyo
+		size = 350
+	}
+
+	farmers = {
+		culture = bukjoseon
+		religion = samungyo
+		size = 3000
+	}
+	
+	serfs = {
+		culture = bukjoseon
+		religion = samungyo
+		size = 15000
+	}
+
+	aristocrats = {
+		culture = beifaren
 		religion = mahayana
+		size = 300
+	}
+
+	clergymen = {
+		culture = beifaren
+		religion = mahayana
+		size = 100
+	}
+
+	artisans = {
+		culture = beifaren
+		religion = mahayana
+		size = 1850
+	}
+
+	soldiers = {
+		culture = beifaren
+		religion = mahayana
+		size = 50
+	}
+
+	farmers = {
+		culture = beifaren
+		religion = mahayana
+		size = 2050
+	}
+	
+	serfs = {
+		culture = beifaren
+		religion = mahayana
+		size = 16000
+	}
+}
+
+#Bokju
+4204 = {
+	aristocrats = {
+		culture = manchu
+		religion = samungyo
+		size = 450
+	}
+	
+	clergymen = {
+		culture = manchu
+		religion = samungyo
+		size = 150
+	}
+
+	artisans = {
+		culture = manchu
+		religion = samungyo
+		size = 750
+	}
+
+	soldiers = {
+		culture = manchu
+		religion = samungyo
+		size = 2150
+	}
+
+	farmers = {
+		culture = manchu
+		religion = samungyo
+		size = 14000
+	}
+	
+	serfs = {
+		culture = manchu
+		religion = samungyo
+		size = 3000
+	}
+	
+	aristocrats = {
+		culture = bukjoseon
+		religion = samungyo
+		size = 800
+	}
+	
+	clergymen = {
+		culture = bukjoseon
+		religion = samungyo
+		size = 450
+	}
+
+	artisans = {
+		culture = bukjoseon
+		religion = samungyo
+		size = 3250
+	}
+
+	soldiers = {
+		culture = bukjoseon
+		religion = samungyo
+		size = 350
+	}
+
+	farmers = {
+		culture = bukjoseon
+		religion = samungyo
+		size = 6000
+	}
+	
+	serfs = {
+		culture = bukjoseon
+		religion = samungyo
+		size = 20000
+	}
+
+	aristocrats = {
+		culture = beifaren
+		religion = mahayana
+		size = 300
+	}
+
+	clergymen = {
+		culture = beifaren
+		religion = mahayana
+		size = 100
+	}
+
+	artisans = {
+		culture = beifaren
+		religion = mahayana
+		size = 1250
+	}
+
+	soldiers = {
+		culture = beifaren
+		religion = mahayana
+		size = 50
+	}
+
+	farmers = {
+		culture = beifaren
+		religion = mahayana
+		size = 2050
+	}
+	
+	serfs = {
+		culture = beifaren
+		religion = mahayana
+		size = 14000
+	}
+}
+
+#Port Arthur (80000/15000 POPS)
+1481 = {
+	aristocrats = {
+		culture = manchu
+		religion = samungyo
+		size = 100
+	}
+
+	clergymen = {
+		culture = manchu
+		religion = samungyo
+		size = 50
+	}
+
+	artisans = {
+		culture = manchu
+		religion = samungyo
+		size = 250
+	}
+
+	soldiers = {
+		culture = manchu
+		religion = samungyo
 		size = 150
 	}
 
 	farmers = {
 		culture = manchu
-		religion = mahayana
-		size = 13700
+		religion = samungyo
+		size = 5000
+	}
+	
+	serfs = {
+		culture = manchu
+		religion = samungyo
+		size = 1000
+	}
+	
+	aristocrats = {
+		culture = bukjoseon
+		religion = samungyo
+		size = 150
+	}
+
+	clergymen = {
+		culture = bukjoseon
+		religion = samungyo
+		size = 100
+	}
+
+	artisans = {
+		culture = bukjoseon
+		religion = samungyo
+		size = 500
+	}
+
+	soldiers = {
+		culture = bukjoseon
+		religion = samungyo
+		size = 150
+	}
+
+	farmers = {
+		culture = bukjoseon
+		religion = samungyo
+		size = 1000
+	}
+	
+	serfs = {
+		culture = bukjoseon
+		religion = samungyo
+		size = 9000
 	}
 
 	aristocrats = {
@@ -948,7 +1949,13 @@
 	farmers = {
 		culture = beifaren
 		religion = mahayana
-		size = 8550
+		size = 550
+	}
+	
+	serfs = {
+		culture = beifaren
+		religion = mahayana
+		size = 4000
 	}
 }
 #Fujian Region (20728000)
@@ -13770,164 +14777,556 @@
 		size = 15000
 	}
 }
-#Chengde (6420000/1605000 POPS)
+
+#Chengde/Wihae
 1613 = {
 	aristocrats = {
 		culture = beifaren
 		religion = mahayana
-		size = 21750
+		size = 4000
 	}
 
 	clergymen = {
 		culture = beifaren
 		religion = mahayana
-		size = 13000
+		size = 2000
 	}
 
 	artisans = {
 		culture = beifaren
 		religion = mahayana
-		size = 11000
-	}
-	
-	artisans = {
-		culture = beifaren
-		religion = mahayana
-		size = 11000
-	}
-	
-	artisans = {
-		culture = beifaren
-		religion = mahayana
-		size = 11000
-	}
-	
-	artisans = {
-		culture = beifaren
-		religion = mahayana
-		size = 11000
-	}
-	
-	artisans = {
-		culture = beifaren
-		religion = mahayana
-		size = 11000
-	}
-	
-	artisans = {
-		culture = beifaren
-		religion = mahayana
-		size = 9550
+		size = 18000
 	}
 
 	farmers = {
 		culture = beifaren
 		religion = mahayana
-		size = 1400800
+		size = 15000
 	}
-
-	aristocrats = {
-		culture = hanhui
-		religion = sunni
-		size = 250
-	}
-
-	clergymen = {
-		culture = hanhui
-		religion = sunni
-		size = 150
-	}
-
-	artisans = {
-		culture = hanhui
-		religion = sunni
-		size = 700
-	}
-
-	soldiers = {
-		culture = hanhui
-		religion = sunni
-		size = 150
-	}
-
-	farmers = {
-		culture = hanhui
-		religion = sunni
-		size = 12750
+	
+	serfs = {
+		culture = beifaren
+		religion = mahayana
+		size = 125000
 	}
 	
 	aristocrats = {
-		culture = mongol
-		religion = gelugpa
-		size = 11000
+		culture = manchu
+		religion = samungyo
+		size = 1750
 	}
-
+	
 	bureaucrats = {
-		culture = mongol
-		religion = gelugpa
-		size = 550
+		culture = manchu
+		religion = samungyo
+		size = 150
 	}
-
-	clergymen = {
-		culture = mongol
-		religion = gelugpa
-		size = 3000
-	}
-
-	artisans = {
-		culture = mongol
-		religion = gelugpa
-		size = 11000
+    
+	officers = {
+		culture = manchu
+		religion = samungyo
+		size = 450
 	}
 	
+	clergymen = {
+		culture = manchu
+		religion = samungyo
+		size = 500
+	}
+
 	artisans = {
-		culture = mongol
-		religion = gelugpa
-		size = 11000
+		culture = manchu
+		religion = samungyo
+		size = 1000
+	}
+	
+	soldiers = {
+		culture = manchu
+		religion = samungyo
+		size = 4800
 	}
 
-	soldiers = {
-		culture = mongol
-		religion = gelugpa
-		size = 3000
-	}
-
-	soldiers = {
-		culture = mongol
-		religion = gelugpa
-		size = 3000
-	}
-
-	soldiers = {
-		culture = mongol
-		religion = gelugpa
-		size = 3000
-	}
-
-	soldiers = {
-		culture = mongol
-		religion = gelugpa
-		size = 3000
-	}
-
-	soldiers = {
-		culture = mongol
-		religion = gelugpa
-		size = 3000
-	}
-
-	soldiers = {
-		culture = mongol
-		religion = gelugpa
+	farmers = {
+		culture = manchu
+		religion = samungyo
 		size = 30000
 	}
+	
+	serfs = {
+		culture = manchu
+		religion = samungyo
+		size = 5800
+	}
+	
+	aristocrats = {
+		culture = bukjoseon
+		religion = samungyo
+		size = 750
+	}
+
+	clergymen = {
+		culture = bukjoseon
+		religion = samungyo
+		size = 500
+	}
+
+	artisans = {
+		culture = bukjoseon
+		religion = samungyo
+		size = 2800
+	}
+
+    soldiers = {
+		culture = bukjoseon
+		religion = samungyo
+		size = 500
+	}
+     
+	farmers = {
+		culture = bukjoseon
+		religion = samungyo
+		size = 1800
+	}
+	
+	serfs = {
+		culture = bukjoseon
+		religion = samungyo
+		size = 17000
+	}
+	
+	aristocrats = {
+		culture = okjeo
+		religion = samungyo
+		size = 50
+	}
+
+	clergymen = {
+		culture = okjeo
+		religion = samungyo
+		size = 50
+	}
+
+	artisans = {
+		culture = okjeo
+		religion = samungyo
+		size = 200
+	}
+
+    soldiers = {
+		culture = okjeo
+		religion = samungyo
+		size = 1000
+	}
+     
+	farmers = {
+		culture = okjeo
+		religion = samungyo
+		size = 200
+	}
+	
+	serfs = {
+		culture = okjeo
+		religion = samungyo
+		size = 500
+	}
+
+	aristocrats = {
+		culture = hanhui
+		religion = sunni
+		size = 50
+	}
+
+	clergymen = {
+		culture = hanhui
+		religion = sunni
+		size = 50
+	}
+
+	artisans = {
+		culture = hanhui
+		religion = sunni
+		size = 200
+	}
+
+	soldiers = {
+		culture = hanhui
+		religion = sunni
+		size = 50
+	}
+
+	farmers = {
+		culture = hanhui
+		religion = sunni
+		size = 150
+	}
+	
+	serfs = {
+		culture = hanhui
+		religion = sunni
+		size = 600
+	}
+	
+	aristocrats = {
+		culture = mongol
+		religion = gelugpa
+		size = 3000
+	}
+
+	clergymen = {
+		culture = mongol
+		religion = gelugpa
+		size = 900
+	}
+	
+	artisans = {
+		culture = mongol
+		religion = gelugpa
+		size = 4000
+	}
+
+	soldiers = {
+		culture = mongol
+		religion = gelugpa
+		size = 3000
+	}
+
+	soldiers = {
+		culture = mongol
+		religion = gelugpa
+		size = 3000
+	}
+
+	soldiers = {
+		culture = mongol
+		religion = gelugpa
+		size = 3000
+	}
 
 	farmers = {
 		culture = mongol
 		religion = gelugpa
-		size = 47000
+		size = 25000
+	}
+	
+	serfs = {
+		culture = mongol
+		religion = gelugpa
+		size = 2000
 	}
 }
+
+#Harchin
+4199 = {
+	aristocrats = {
+		culture = beifaren
+		religion = mahayana
+		size = 450
+	}
+
+	clergymen = {
+		culture = beifaren
+		religion = mahayana
+		size = 300
+	}
+
+	artisans = {
+		culture = beifaren
+		religion = mahayana
+		size = 2000
+	}
+
+	farmers = {
+		culture = beifaren
+		religion = mahayana
+		size = 2000
+	}
+	
+	serfs = {
+		culture = beifaren
+		religion = mahayana
+		size = 15000
+	}
+	
+	aristocrats = {
+		culture = manchu
+		religion = samungyo
+		size = 250
+	}
+	
+	clergymen = {
+		culture = manchu
+		religion = samungyo
+		size = 100
+	}
+
+	artisans = {
+		culture = manchu
+		religion = samungyo
+		size = 400
+	}
+	
+	soldiers = {
+		culture = manchu
+		religion = samungyo
+		size = 800
+	}
+
+	farmers = {
+		culture = manchu
+		religion = samungyo
+		size = 3000
+	}
+	
+	serfs = {
+		culture = manchu
+		religion = samungyo
+		size = 500
+	}
+	
+	aristocrats = {
+		culture = mongol
+		religion = gelugpa
+		size = 900
+	}
+
+	clergymen = {
+		culture = mongol
+		religion = gelugpa
+		size = 400
+	}
+	
+	artisans = {
+		culture = mongol
+		religion = gelugpa
+		size = 1000
+	}
+
+	soldiers = {
+		culture = mongol
+		religion = gelugpa
+		size = 3000
+	}
+
+	farmers = {
+		culture = mongol
+		religion = gelugpa
+		size = 27000
+	}
+	
+	serfs = {
+		culture = mongol
+		religion = gelugpa
+		size = 3000
+	}
+	
+	aristocrats = {
+		culture = bukjoseon
+		religion = samungyo
+		size = 60
+	}
+
+	clergymen = {
+		culture = bukjoseon
+		religion = samungyo
+		size = 40
+	}
+	
+	artisans = {
+		culture = bukjoseon
+		religion = samungyo
+		size = 100
+	}
+
+	soldiers = {
+		culture = bukjoseon
+		religion = samungyo
+		size = 30
+	}
+
+	farmers = {
+		culture = bukjoseon
+		religion = samungyo
+		size = 200
+	}
+	
+	serfs = {
+		culture = bukjoseon
+		religion = samungyo
+		size = 800
+	}
+	
+	aristocrats = {
+		culture = okjeo
+		religion = samungyo
+		size = 10
+	}
+
+	clergymen = {
+		culture = bukjoseon
+		religion = samungyo
+		size = 10
+	}
+	
+	artisans = {
+		culture = bukjoseon
+		religion = samungyo
+		size = 10
+	}
+
+	soldiers = {
+		culture = bukjoseon
+		religion = samungyo
+		size = 200
+	}
+
+	farmers = {
+		culture = bukjoseon
+		religion = samungyo
+		size = 20
+	}
+	
+	serfs = {
+		culture = bukjoseon
+		religion = samungyo
+		size = 100
+	}
+}
+
+#Qinhuandong/Tangha
+4200 = {
+	aristocrats = {
+		culture = beifaren
+		religion = mahayana
+		size = 350
+	}
+
+	clergymen = {
+		culture = beifaren
+		religion = mahayana
+		size = 400
+	}
+
+	artisans = {
+		culture = beifaren
+		religion = mahayana
+		size = 9000
+	}
+
+	farmers = {
+		culture = beifaren
+		religion = mahayana
+		size = 5000
+	}
+	
+	serfs = {
+		culture = beifaren
+		religion = mahayana
+		size = 35000
+	}
+	
+	aristocrats = {
+		culture = manchu
+		religion = samungyo
+		size = 250
+	}
+	
+	clergymen = {
+		culture = manchu
+		religion = samungyo
+		size = 100
+	}
+
+	artisans = {
+		culture = manchu
+		religion = samungyo
+		size = 200
+	}
+	
+	soldiers = {
+		culture = manchu
+		religion = samungyo
+		size = 1000
+	}
+
+	farmers = {
+		culture = manchu
+		religion = samungyo
+		size = 22200
+	}
+	
+	serfs = {
+		culture = manchu
+		religion = samungyo
+		size = 4000
+	}
+	
+	aristocrats = {
+		culture = bukjoseon
+		religion = samungyo
+		size = 100
+	}
+
+	clergymen = {
+		culture = bukjoseon
+		religion = samungyo
+		size = 100
+	}
+
+	artisans = {
+		culture = bukjoseon
+		religion = samungyo
+		size = 1000
+	}
+
+	farmers = {
+		culture = bukjoseon
+		religion = samungyo
+		size = 1000
+	}
+	
+	serfs = {
+		culture = bukjoseon
+		religion = samungyo
+		size = 7000
+	}
+	
+	aristocrats = {
+		culture = okjeo
+		religion = samungyo
+		size = 40
+	}
+
+	clergymen = {
+		culture = okjeo
+		religion = samungyo
+		size = 40
+	}
+
+	artisans = {
+		culture = okjeo
+		religion = samungyo
+		size = 100
+	}
+	
+	soldiers = {
+		culture = okjeo
+		religion = samungyo
+		size = 600
+	}
+
+	farmers = {
+		culture = okjeo
+		religion = samungyo
+		size = 100
+	}
+	
+	serfs = {
+		culture = okjeo
+		religion = samungyo
+		size = 500
+	}
+}
+
 #Daming (3364000/841000 POPS)
 1614 = {
 	aristocrats = {

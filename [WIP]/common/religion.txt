@@ -128,7 +128,7 @@ eastern = { #Darmic
 		icon = 11
 	}
 
-	shinto = {
+	shinto = { #Japanese Folk Religion
 		color = { 0.8 0 0 }
 		icon = 12
 	}
@@ -147,6 +147,11 @@ eastern = { #Darmic
 		color = { 0 0.4 0.2 }
 		icon = 	29
 	}	
+	
+	samungyo = {
+		color = { 0.8 0.1 0.2 }
+		icon = 32
+	}
 }
 
 pagan = {
