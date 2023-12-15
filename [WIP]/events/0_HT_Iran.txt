@@ -658,23 +658,26 @@ country_event = {
 	picture = "khorasan_trolled"
 
     trigger = {
-        is_core = FRS
-        OR = {
-			is_core = MSM #Mishmast
-            is_core = BYT #Nishapur
-            is_core = QRI #Qara'i
-			is_core = KST #Khozeimi
-			is_core = AFS #Afsharids
-			is_core = MHL #Moghols
-            is_core = JYL #Jayalerids
-            AND = {
-                OR = {
-					province_id = 3612 #Turkmensahra
-					province_id = 1150 #Bojnurd
-					province_id = 1204 #Ashqabad
-				}
-                is_core = TKM #Yomuds
-            }
+		any_owned_province = {
+			   limit = {
+			     OR = {
+				      is_core = MSM #Mishmast
+                      is_core = BYT #Nishapur
+                      is_core = QRI #Qara'i
+			          is_core = KST #Khozeimi
+			          is_core = AFS #Afsharids
+			          is_core = MHL #Moghols
+                      is_core = JYL #Jayalerids
+					  AND = {
+                              OR = {
+					                 province_id = 3612 #Turkmensahra
+					                 province_id = 1150 #Bojnurd
+					                 province_id = 1204 #Ashqabad
+				                   }
+                              is_core = TKM #Yomuds
+                      }
+                   } 				 
+			}
         }
 		has_country_flag = subjegated_khorasan
         owned_by = PER

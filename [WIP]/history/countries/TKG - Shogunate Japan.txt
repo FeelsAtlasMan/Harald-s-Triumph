@@ -1,10 +1,10 @@
 capital = 1649
 primary_culture = japanese
-religion = mahayana
+religion = shinto
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_tradition
-literacy = 0.40
+literacy = 0.30
 non_state_culture_literacy = 0.04
 prestige = 2
 
@@ -38,7 +38,7 @@ child_labor = child_labor_legal
 citizens_rights = primary_culture_only
 border_policy = open_borders
 
-set_country_flag = mahayana_country
+set_country_flag = shinto_country
 
 ruling_party = NIP_reactionary
 upper_house = {
