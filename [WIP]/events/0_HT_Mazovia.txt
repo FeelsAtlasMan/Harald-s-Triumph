@@ -100,7 +100,7 @@ country_event = {
 			}
 			secede_province = GLM
 		}
-		GLM = { country_event = 102506 days = 16 }
+		GLM = { country_event = { id = 102506 days = 16 } }
 		set_country_flag = seizure_of_chelm
     }
 }

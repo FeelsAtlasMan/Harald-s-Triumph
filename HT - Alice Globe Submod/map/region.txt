@@ -1019,7 +1019,7 @@ CHI_4208 = { 4208 1481 4204 4205 4206 4207 }  #Donjing
 
 CHI_1555 = { 1555 3724 4245 4246 }  #Jilin
 
-CHI_1479 = { 1479 4209 1620 4211 4247 }  #Mukden
+CHI_1479 = { 1479 4209 1620 4211 4247 4248 }  #Mukden
 
 MCK_1555 = { 1554 4212 4241 4244 4196 }  #Ninguta
 
@@ -1507,9 +1507,9 @@ DGT_2373 = { 2373 2375 2385 2388 } #Lower Diaguita
 
 INC_3520 = { 3520 3521 2300 2321 } #Tik'su Pampa
 
-PEU_2289 = { 2286 2288 2284 3529 2263 } #Pastaza - now Ikitusuyu
+PEU_2289 = { 2286 2288 2284 3529 4251 4252 4253 4255 4256 } #Pastaza - now Ikitusuyu
 
-PEU_2297 = { 2301 2278 2319 2320 2407 2401 } #Ica - now Sach'aqsuyu
+PEU_2297 = { 2301 2278 2319 2320 2407 4254 4258 4260 } #Ica - now Sach'aqsuyu
 
 
 ENG_1979 = { 2239 2240 2241 2245 2246 } #Guyana - now Quyana
@@ -1518,13 +1518,13 @@ VNZ_2234 = { 2268 2270 2272 2273 } #Zulia
 
 VNZ_2265 = { 2264 2265 2266 2267 2274 } #Miranda - now Fran�iana
 
-VNZ_2278 = { 2275 2277 2403 } #Bolivar - now Terre de Sauvage
+VNZ_2278 = { 2275 2277 2403 2401 4257 } #Bolivar - now Terre de Sauvage
 
-CLM_2276 = { 2276 2269 2243 } #Warao - now Sanha de Warao
+CLM_2276 = { 2276 2269 2243 } #Warao - now Sanha de Warao 
 
 CLM_2251 = { 2255 2252 2253 2254 2285 } #Antioquia - now Nou Gasconha 
 
-CLM_2262 = { 2262 2261 2260 2242 } #Guaviare - Terre de Aro�agues
+CLM_2262 = { 2262 2261 2260 2242 2263 } #Guaviare - Terre de Aro�agues 
  
 CLM_2247 = { 2247 2249 2251 2271 } #Cundinamarca - now Muiscas de Nord
 
@@ -1536,6 +1536,8 @@ BOL_2317 = { 2317 2316 2318 } #Santa Cruz - now Tarapacusi Pampaniku
 ### al-Humr, al-Tufunawa, Amazon Basin
 
 BRZ_2402 = { 2402 2532 2408 1979 2412 } #Manaus
+
+BRZ_4263 = { 4263 4264 4265 4266 4267 4268 4269 4270 4271 4272 4273 4274 4275 4276 4277 4278 4279 4280 4281 } #Manaus
 
 GUY_2410 = { 2410 2415 3466 } #Tufinawa
 
@@ -1583,11 +1585,13 @@ ARG_2360 = { 2357 2358 2554 2356 2466 2467 } #Entre Rios - now Taragui
 
 ARG_2387 = { 2373 2376 2377 2378 2365 2362 2364 } #Tucum�n - now Apipon Chaquniku
 
-PRG_2338 = { 2338 2337 2416 2343 2372 2366 2367 } #Alto Paraguay - now Mpaya Chaquniku
+PRG_2338 = { 2338 2337 2416 2343 2372 2366 2367 4249 4250 } #Alto Paraguay - now Mpaya Chaquniku
 
 CCH_2379 = { 2379 2380 2361 2374 2386 2381 } #Kamichingan Chaquniku
 
 CCH_2387 = { 2387 2383 2390 2384 2389 } #Warpe
+
+BRZ_4251 = { 4257 4259 4261 4262 } #gaming
 
 PRG_2343 = { 2339 2341 2342 2340 } #Bajo Parguay - now Paraguai
 

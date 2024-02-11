@@ -530,10 +530,10 @@ alfred_adler  = {
 	news = no
 	chance = {
 		base = 2
-		modifier = {
-			factor = 2
-			invention = sigmund_freud
-		}
+		#modifier = {
+		#	factor = 2
+		#	invention = sigmund_freud
+		#}
 	}
 	effect = {
 		shared_prestige = 2.5		
@@ -566,10 +566,10 @@ karen_horney  = {
 	news = no
 	chance = {
 		base = 0
-		modifier = {
-			factor = 1
-			invention = sigmund_freud
-		}
+		#modifier = {
+		#	factor = 1
+		#	invention = sigmund_freud
+		#}
 		modifier = {
 			factor = 3
 			year = 1920
@@ -653,10 +653,10 @@ emile_coue = {
 	news = no
 	chance = {
 		base = 2
-		modifier = {
-			factor = 2
-			invention = the_nancy_school
-		}
+		#modifier = {
+		#	factor = 2
+		#	invention = the_nancy_school
+		#}
 	}
 	effect = {
 		shared_prestige = 7.5

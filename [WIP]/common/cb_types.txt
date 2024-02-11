@@ -3105,7 +3105,7 @@ demand_concession_casus_belli = {
 			}
 			AND = { war_with = THIS ai = no }
 			neighbour = THIS
-			AND = { any_neighbor_country = { vassal_of = THIS } THIS = { tag = ENG } }
+			AND = { any_neighbor_country = { vassal_of = THIS }
 		}
 		THIS = {
 			civilized = yes

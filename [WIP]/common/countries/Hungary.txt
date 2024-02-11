@@ -7,7 +7,7 @@ graphical_culture = AustriaHungaryGC
 
 #Left Opposition to KP
 party = {
-	name = "Baloldali Ellenzék - Lovász Faction" #Liberal Republicans - controlled opposition
+	name = "HUN_liberal_1" #Liberal Republicans - controlled opposition Baloldali Ellenzék - Lovász Faction
 	start_date = 1830.1.1
 	end_date = 1850.1.1
 
@@ -22,7 +22,7 @@ party = {
 }
 
 party = {
-	name = "Baloldali Ellenzék - Szarka Faction" #Radical Republicans "Heckerists"
+	name = "HUN_anarcho_liberal_1" #Radical Republicans "Heckerists" Baloldali Ellenzék - Szarka Faction
 	start_date = 1830.1.1
 	end_date = 1850.1.1
 
@@ -38,7 +38,7 @@ party = {
 
 #KP Big Tent - Ruling Party 1836-1850
 party = {
-	name = "Királyemberek Pártja - Left Faction" #Liberal Republicans
+	name = "HUN_conservative_1" #Liberal Republicans Királyemberek Pártja - Left Faction
 	start_date = 1830.1.1
 	end_date = 1850.1.1
 
@@ -53,7 +53,7 @@ party = {
 }
 
 party = {
-	name = "Királyemberek Pártja - Centrist Faction" #Centrists
+	name = "HUN_conservative_2" #Centrists Királyemberek Pártja - Centrist Faction
 	start_date = 1830.1.1
 	end_date = 1850.1.1
 
@@ -68,7 +68,7 @@ party = {
 }
 
 party = {
-	name = "Királyemberek Pártja - Constitutionalists" #Liberal Monarchists
+	name = "HUN_conservative_3" #Liberal Monarchists Királyemberek Pártja - Constitutionalists
 	start_date = 1830.1.1
 	end_date = 1850.1.1
 
@@ -83,7 +83,7 @@ party = {
 }
 
 party = {
-	name = "Királyemberek Pártja - Restorationists" #Old Nobility
+	name = "HUN_reactionary_1" #Old Nobility Királyemberek Pártja - Restorationists
 	start_date = 1830.1.1
 	end_date = 1850.1.1
 

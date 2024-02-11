@@ -119,7 +119,8 @@ ideologies = {
 	}
 }
 	
-	liberal = { factor = 1 
+liberal = { 
+    factor = 1 
 	modifier = {
 		factor = 1.2
 		literacy = 0.6
