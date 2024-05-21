@@ -14191,7 +14191,7 @@ cholon_group  = {
 	}
 }
 
-#Barbacoan (+includes Esmeraldeno, Manta and Paez; all unclassified/isolates)
+#Barbacoan (+includes Esmeraldeno, Manta; all unclassified/isolates)
 barbacoan  = {
 	leader = nativeamerican
 	is_overseas = no
@@ -14208,17 +14208,6 @@ barbacoan  = {
 	
 	manta = {
 		color = {120 135 80}
-		first_names = { Aniceto Antonio Bartolomé Camilo Carlos Claudio David Emiliano Eugenio Felipe
-		Félix Fernando Gregorio Jacinto Jesús José Juan Julio Luis Manuel
-		Marcos Máximo Narciso Pablo Pedro Rodrigo Roque Simón Teodoro Víctor }
-
-		last_names = { Abjaisu Álvarez Ayegua Camba Chuaie Correa Cunhagatú Díaz Fernández Galeano 
-		Gómez González Guaracay Guaraní Guerrero Jopara López Mongelós Morla Ortíz
-		Paravé Picagua Riquelme Rivarola "Santa Cruz" Tarayú Torga Velázquez Yaguarete Yrahi }
-	}
-	
-	paez = {
-		color = {140 125 100}
 		first_names = { Aniceto Antonio Bartolomé Camilo Carlos Claudio David Emiliano Eugenio Felipe
 		Félix Fernando Gregorio Jacinto Jesús José Juan Julio Luis Manuel
 		Marcos Máximo Narciso Pablo Pedro Rodrigo Roque Simón Teodoro Víctor }
@@ -14263,6 +14252,33 @@ barbacoan  = {
 	
 	cara = {
 		color = {220 85 180}
+		first_names = { Aniceto Antonio Bartolomé Camilo Carlos Claudio David Emiliano Eugenio Felipe
+		Félix Fernando Gregorio Jacinto Jesús José Juan Julio Luis Manuel
+		Marcos Máximo Narciso Pablo Pedro Rodrigo Roque Simón Teodoro Víctor }
+
+		last_names = { Abjaisu Álvarez Ayegua Camba Chuaie Correa Cunhagatú Díaz Fernández Galeano 
+		Gómez González Guaracay Guaraní Guerrero Jopara López Mongelós Morla Ortíz
+		Paravé Picagua Riquelme Rivarola "Santa Cruz" Tarayú Torga Velázquez Yaguarete Yrahi }
+	}
+}
+
+#Paez Group
+paez_group  = {
+	leader = nativeamerican
+	is_overseas = no
+	paez = {
+		color = {140 125 100}
+		first_names = { Aniceto Antonio Bartolomé Camilo Carlos Claudio David Emiliano Eugenio Felipe
+		Félix Fernando Gregorio Jacinto Jesús José Juan Julio Luis Manuel
+		Marcos Máximo Narciso Pablo Pedro Rodrigo Roque Simón Teodoro Víctor }
+
+		last_names = { Abjaisu Álvarez Ayegua Camba Chuaie Correa Cunhagatú Díaz Fernández Galeano 
+		Gómez González Guaracay Guaraní Guerrero Jopara López Mongelós Morla Ortíz
+		Paravé Picagua Riquelme Rivarola "Santa Cruz" Tarayú Torga Velázquez Yaguarete Yrahi }
+	}
+	
+	andaki = {
+		color = {120 85 70}
 		first_names = { Aniceto Antonio Bartolomé Camilo Carlos Claudio David Emiliano Eugenio Felipe
 		Félix Fernando Gregorio Jacinto Jesús José Juan Julio Luis Manuel
 		Marcos Máximo Narciso Pablo Pedro Rodrigo Roque Simón Teodoro Víctor }
@@ -14494,8 +14510,352 @@ mura_group  = {
 tukano_group  = {
 	leader = nativeamerican
 	is_overseas = no
+	#Tukano Group
 	tukano = {
 		color = {255 225 190}
+		first_names = { Agustín Alejandro Antonio Bartolomé Carlos David Eduardo Enrique Evo Facundo
+		Felipe Francisco Gregorio Hugo José Juan "Juan José" Manuel Marcos Mario
+		Máximo Nicolás Osvaldo Ramón Roberto Santiago Túpac Vicente Víctor "Víctor Hugo" }
+
+		last_names = { Apaza Ayme Calisaya Cardenas Castilla Chino Choquehuanca Condori Corahua Cusicanqui
+		Hoffmann Huachua Huallpa Katari Larico Machaca Mamani Morales Paredes Peñaranda
+		Puma Quilca Quispe Rivera Sisa Tamayo Taquiri Torres Yllanes Yucra }
+	}
+	
+	tuyuca = { #
+		color = {255 195 150}
+		first_names = { Agustín Alejandro Antonio Bartolomé Carlos David Eduardo Enrique Evo Facundo
+		Felipe Francisco Gregorio Hugo José Juan "Juan José" Manuel Marcos Mario
+		Máximo Nicolás Osvaldo Ramón Roberto Santiago Túpac Vicente Víctor "Víctor Hugo" }
+
+		last_names = { Apaza Ayme Calisaya Cardenas Castilla Chino Choquehuanca Condori Corahua Cusicanqui
+		Hoffmann Huachua Huallpa Katari Larico Machaca Mamani Morales Paredes Peñaranda
+		Puma Quilca Quispe Rivera Sisa Tamayo Taquiri Torres Yllanes Yucra }
+	}
+	
+	carapana = { #Möxdöa/Carapana #
+		color = {215 155 110}
+		first_names = { Agustín Alejandro Antonio Bartolomé Carlos David Eduardo Enrique Evo Facundo
+		Felipe Francisco Gregorio Hugo José Juan "Juan José" Manuel Marcos Mario
+		Máximo Nicolás Osvaldo Ramón Roberto Santiago Túpac Vicente Víctor "Víctor Hugo" }
+
+		last_names = { Apaza Ayme Calisaya Cardenas Castilla Chino Choquehuanca Condori Corahua Cusicanqui
+		Hoffmann Huachua Huallpa Katari Larico Machaca Mamani Morales Paredes Peñaranda
+		Puma Quilca Quispe Rivera Sisa Tamayo Taquiri Torres Yllanes Yucra }
+	}
+	
+	uanana = { #
+		color = {255 215 150}
+		first_names = { Agustín Alejandro Antonio Bartolomé Carlos David Eduardo Enrique Evo Facundo
+		Felipe Francisco Gregorio Hugo José Juan "Juan José" Manuel Marcos Mario
+		Máximo Nicolás Osvaldo Ramón Roberto Santiago Túpac Vicente Víctor "Víctor Hugo" }
+
+		last_names = { Apaza Ayme Calisaya Cardenas Castilla Chino Choquehuanca Condori Corahua Cusicanqui
+		Hoffmann Huachua Huallpa Katari Larico Machaca Mamani Morales Paredes Peñaranda
+		Puma Quilca Quispe Rivera Sisa Tamayo Taquiri Torres Yllanes Yucra }
+	}
+	
+	uasona = { #
+		color = {205 195 150}
+		first_names = { Agustín Alejandro Antonio Bartolomé Carlos David Eduardo Enrique Evo Facundo
+		Felipe Francisco Gregorio Hugo José Juan "Juan José" Manuel Marcos Mario
+		Máximo Nicolás Osvaldo Ramón Roberto Santiago Túpac Vicente Víctor "Víctor Hugo" }
+
+		last_names = { Apaza Ayme Calisaya Cardenas Castilla Chino Choquehuanca Condori Corahua Cusicanqui
+		Hoffmann Huachua Huallpa Katari Larico Machaca Mamani Morales Paredes Peñaranda
+		Puma Quilca Quispe Rivera Sisa Tamayo Taquiri Torres Yllanes Yucra }
+	}
+	
+	patsoca = { #
+		color = {205 195 200}
+		first_names = { Agustín Alejandro Antonio Bartolomé Carlos David Eduardo Enrique Evo Facundo
+		Felipe Francisco Gregorio Hugo José Juan "Juan José" Manuel Marcos Mario
+		Máximo Nicolás Osvaldo Ramón Roberto Santiago Túpac Vicente Víctor "Víctor Hugo" }
+
+		last_names = { Apaza Ayme Calisaya Cardenas Castilla Chino Choquehuanca Condori Corahua Cusicanqui
+		Hoffmann Huachua Huallpa Katari Larico Machaca Mamani Morales Paredes Peñaranda
+		Puma Quilca Quispe Rivera Sisa Tamayo Taquiri Torres Yllanes Yucra }
+	}
+	
+	uiquina = { #
+		color = {185 155 170}
+		first_names = { Agustín Alejandro Antonio Bartolomé Carlos David Eduardo Enrique Evo Facundo
+		Felipe Francisco Gregorio Hugo José Juan "Juan José" Manuel Marcos Mario
+		Máximo Nicolás Osvaldo Ramón Roberto Santiago Túpac Vicente Víctor "Víctor Hugo" }
+
+		last_names = { Apaza Ayme Calisaya Cardenas Castilla Chino Choquehuanca Condori Corahua Cusicanqui
+		Hoffmann Huachua Huallpa Katari Larico Machaca Mamani Morales Paredes Peñaranda
+		Puma Quilca Quispe Rivera Sisa Tamayo Taquiri Torres Yllanes Yucra }
+	}
+	
+	arapaso = { #
+		color = {220 155 170}
+		first_names = { Agustín Alejandro Antonio Bartolomé Carlos David Eduardo Enrique Evo Facundo
+		Felipe Francisco Gregorio Hugo José Juan "Juan José" Manuel Marcos Mario
+		Máximo Nicolás Osvaldo Ramón Roberto Santiago Túpac Vicente Víctor "Víctor Hugo" }
+
+		last_names = { Apaza Ayme Calisaya Cardenas Castilla Chino Choquehuanca Condori Corahua Cusicanqui
+		Hoffmann Huachua Huallpa Katari Larico Machaca Mamani Morales Paredes Peñaranda
+		Puma Quilca Quispe Rivera Sisa Tamayo Taquiri Torres Yllanes Yucra }
+	}
+	
+	tsola = { #Tsöla #
+		color = {235 185 170}
+		first_names = { Agustín Alejandro Antonio Bartolomé Carlos David Eduardo Enrique Evo Facundo
+		Felipe Francisco Gregorio Hugo José Juan "Juan José" Manuel Marcos Mario
+		Máximo Nicolás Osvaldo Ramón Roberto Santiago Túpac Vicente Víctor "Víctor Hugo" }
+
+		last_names = { Apaza Ayme Calisaya Cardenas Castilla Chino Choquehuanca Condori Corahua Cusicanqui
+		Hoffmann Huachua Huallpa Katari Larico Machaca Mamani Morales Paredes Peñaranda
+		Puma Quilca Quispe Rivera Sisa Tamayo Taquiri Torres Yllanes Yucra }
+	}
+	
+	#Coretu
+	coretu = { #
+		color = {235 225 160}
+		first_names = { Agustín Alejandro Antonio Bartolomé Carlos David Eduardo Enrique Evo Facundo
+		Felipe Francisco Gregorio Hugo José Juan "Juan José" Manuel Marcos Mario
+		Máximo Nicolás Osvaldo Ramón Roberto Santiago Túpac Vicente Víctor "Víctor Hugo" }
+
+		last_names = { Apaza Ayme Calisaya Cardenas Castilla Chino Choquehuanca Condori Corahua Cusicanqui
+		Hoffmann Huachua Huallpa Katari Larico Machaca Mamani Morales Paredes Peñaranda
+		Puma Quilca Quispe Rivera Sisa Tamayo Taquiri Torres Yllanes Yucra }
+	}
+	
+	#Erulia
+	erulia = { #
+		color = {235 205 210}
+		first_names = { Agustín Alejandro Antonio Bartolomé Carlos David Eduardo Enrique Evo Facundo
+		Felipe Francisco Gregorio Hugo José Juan "Juan José" Manuel Marcos Mario
+		Máximo Nicolás Osvaldo Ramón Roberto Santiago Túpac Vicente Víctor "Víctor Hugo" }
+
+		last_names = { Apaza Ayme Calisaya Cardenas Castilla Chino Choquehuanca Condori Corahua Cusicanqui
+		Hoffmann Huachua Huallpa Katari Larico Machaca Mamani Morales Paredes Peñaranda
+		Puma Quilca Quispe Rivera Sisa Tamayo Taquiri Torres Yllanes Yucra }
+	}
+	
+	tsoloa = { #Tsölöa #
+		color = {235 145 210}
+		first_names = { Agustín Alejandro Antonio Bartolomé Carlos David Eduardo Enrique Evo Facundo
+		Felipe Francisco Gregorio Hugo José Juan "Juan José" Manuel Marcos Mario
+		Máximo Nicolás Osvaldo Ramón Roberto Santiago Túpac Vicente Víctor "Víctor Hugo" }
+
+		last_names = { Apaza Ayme Calisaya Cardenas Castilla Chino Choquehuanca Condori Corahua Cusicanqui
+		Hoffmann Huachua Huallpa Katari Larico Machaca Mamani Morales Paredes Peñaranda
+		Puma Quilca Quispe Rivera Sisa Tamayo Taquiri Torres Yllanes Yucra }
+	}
+	
+	palanoa = { #Palänoa #
+		color = {185 155 160}
+		first_names = { Agustín Alejandro Antonio Bartolomé Carlos David Eduardo Enrique Evo Facundo
+		Felipe Francisco Gregorio Hugo José Juan "Juan José" Manuel Marcos Mario
+		Máximo Nicolás Osvaldo Ramón Roberto Santiago Túpac Vicente Víctor "Víctor Hugo" }
+
+		last_names = { Apaza Ayme Calisaya Cardenas Castilla Chino Choquehuanca Condori Corahua Cusicanqui
+		Hoffmann Huachua Huallpa Katari Larico Machaca Mamani Morales Paredes Peñaranda
+		Puma Quilca Quispe Rivera Sisa Tamayo Taquiri Torres Yllanes Yucra }
+	}
+	
+	#Särä Group
+	sara_clm = { #Särä #
+		color = {235 245 200}
+		first_names = { Agustín Alejandro Antonio Bartolomé Carlos David Eduardo Enrique Evo Facundo
+		Felipe Francisco Gregorio Hugo José Juan "Juan José" Manuel Marcos Mario
+		Máximo Nicolás Osvaldo Ramón Roberto Santiago Túpac Vicente Víctor "Víctor Hugo" }
+
+		last_names = { Apaza Ayme Calisaya Cardenas Castilla Chino Choquehuanca Condori Corahua Cusicanqui
+		Hoffmann Huachua Huallpa Katari Larico Machaca Mamani Morales Paredes Peñaranda
+		Puma Quilca Quispe Rivera Sisa Tamayo Taquiri Torres Yllanes Yucra }
+	}
+	
+	macuna = { #
+		color = {235 225 200}
+		first_names = { Agustín Alejandro Antonio Bartolomé Carlos David Eduardo Enrique Evo Facundo
+		Felipe Francisco Gregorio Hugo José Juan "Juan José" Manuel Marcos Mario
+		Máximo Nicolás Osvaldo Ramón Roberto Santiago Túpac Vicente Víctor "Víctor Hugo" }
+
+		last_names = { Apaza Ayme Calisaya Cardenas Castilla Chino Choquehuanca Condori Corahua Cusicanqui
+		Hoffmann Huachua Huallpa Katari Larico Machaca Mamani Morales Paredes Peñaranda
+		Puma Quilca Quispe Rivera Sisa Tamayo Taquiri Torres Yllanes Yucra }
+	}
+	
+	buhagana = { #
+		color = {255 245 210}
+		first_names = { Agustín Alejandro Antonio Bartolomé Carlos David Eduardo Enrique Evo Facundo
+		Felipe Francisco Gregorio Hugo José Juan "Juan José" Manuel Marcos Mario
+		Máximo Nicolás Osvaldo Ramón Roberto Santiago Túpac Vicente Víctor "Víctor Hugo" }
+
+		last_names = { Apaza Ayme Calisaya Cardenas Castilla Chino Choquehuanca Condori Corahua Cusicanqui
+		Hoffmann Huachua Huallpa Katari Larico Machaca Mamani Morales Paredes Peñaranda
+		Puma Quilca Quispe Rivera Sisa Tamayo Taquiri Torres Yllanes Yucra }
+	}
+	
+	omoa = { #Ömöa #
+		color = {215 205 170}
+		first_names = { Agustín Alejandro Antonio Bartolomé Carlos David Eduardo Enrique Evo Facundo
+		Felipe Francisco Gregorio Hugo José Juan "Juan José" Manuel Marcos Mario
+		Máximo Nicolás Osvaldo Ramón Roberto Santiago Túpac Vicente Víctor "Víctor Hugo" }
+
+		last_names = { Apaza Ayme Calisaya Cardenas Castilla Chino Choquehuanca Condori Corahua Cusicanqui
+		Hoffmann Huachua Huallpa Katari Larico Machaca Mamani Morales Paredes Peñaranda
+		Puma Quilca Quispe Rivera Sisa Tamayo Taquiri Torres Yllanes Yucra }
+	}
+	
+	#Yahuana Group
+	yahuana = { #
+		color = {235 235 110}
+		first_names = { Agustín Alejandro Antonio Bartolomé Carlos David Eduardo Enrique Evo Facundo
+		Felipe Francisco Gregorio Hugo José Juan "Juan José" Manuel Marcos Mario
+		Máximo Nicolás Osvaldo Ramón Roberto Santiago Túpac Vicente Víctor "Víctor Hugo" }
+
+		last_names = { Apaza Ayme Calisaya Cardenas Castilla Chino Choquehuanca Condori Corahua Cusicanqui
+		Hoffmann Huachua Huallpa Katari Larico Machaca Mamani Morales Paredes Peñaranda
+		Puma Quilca Quispe Rivera Sisa Tamayo Taquiri Torres Yllanes Yucra }
+	}
+	
+	datuna = { #Dätuna #
+		color = {175 185 110}
+		first_names = { Agustín Alejandro Antonio Bartolomé Carlos David Eduardo Enrique Evo Facundo
+		Felipe Francisco Gregorio Hugo José Juan "Juan José" Manuel Marcos Mario
+		Máximo Nicolás Osvaldo Ramón Roberto Santiago Túpac Vicente Víctor "Víctor Hugo" }
+
+		last_names = { Apaza Ayme Calisaya Cardenas Castilla Chino Choquehuanca Condori Corahua Cusicanqui
+		Hoffmann Huachua Huallpa Katari Larico Machaca Mamani Morales Paredes Peñaranda
+		Puma Quilca Quispe Rivera Sisa Tamayo Taquiri Torres Yllanes Yucra }
+	}
+	
+	tanimuca = { #
+		color = {145 155 110}
+		first_names = { Agustín Alejandro Antonio Bartolomé Carlos David Eduardo Enrique Evo Facundo
+		Felipe Francisco Gregorio Hugo José Juan "Juan José" Manuel Marcos Mario
+		Máximo Nicolás Osvaldo Ramón Roberto Santiago Túpac Vicente Víctor "Víctor Hugo" }
+
+		last_names = { Apaza Ayme Calisaya Cardenas Castilla Chino Choquehuanca Condori Corahua Cusicanqui
+		Hoffmann Huachua Huallpa Katari Larico Machaca Mamani Morales Paredes Peñaranda
+		Puma Quilca Quispe Rivera Sisa Tamayo Taquiri Torres Yllanes Yucra }
+	}
+	
+	#Yupua Group
+	yupua = { #
+		color = {205 175 110}
+		first_names = { Agustín Alejandro Antonio Bartolomé Carlos David Eduardo Enrique Evo Facundo
+		Felipe Francisco Gregorio Hugo José Juan "Juan José" Manuel Marcos Mario
+		Máximo Nicolás Osvaldo Ramón Roberto Santiago Túpac Vicente Víctor "Víctor Hugo" }
+
+		last_names = { Apaza Ayme Calisaya Cardenas Castilla Chino Choquehuanca Condori Corahua Cusicanqui
+		Hoffmann Huachua Huallpa Katari Larico Machaca Mamani Morales Paredes Peñaranda
+		Puma Quilca Quispe Rivera Sisa Tamayo Taquiri Torres Yllanes Yucra }
+	}
+	
+	#Desana Group
+	desana = { #
+		color = {165 175 110}
+		first_names = { Agustín Alejandro Antonio Bartolomé Carlos David Eduardo Enrique Evo Facundo
+		Felipe Francisco Gregorio Hugo José Juan "Juan José" Manuel Marcos Mario
+		Máximo Nicolás Osvaldo Ramón Roberto Santiago Túpac Vicente Víctor "Víctor Hugo" }
+
+		last_names = { Apaza Ayme Calisaya Cardenas Castilla Chino Choquehuanca Condori Corahua Cusicanqui
+		Hoffmann Huachua Huallpa Katari Larico Machaca Mamani Morales Paredes Peñaranda
+		Puma Quilca Quispe Rivera Sisa Tamayo Taquiri Torres Yllanes Yucra }
+	}
+	
+	#Kubeo Group
+	cubeo = { 
+		color = {215 215 110}
+		first_names = { Agustín Alejandro Antonio Bartolomé Carlos David Eduardo Enrique Evo Facundo
+		Felipe Francisco Gregorio Hugo José Juan "Juan José" Manuel Marcos Mario
+		Máximo Nicolás Osvaldo Ramón Roberto Santiago Túpac Vicente Víctor "Víctor Hugo" }
+
+		last_names = { Apaza Ayme Calisaya Cardenas Castilla Chino Choquehuanca Condori Corahua Cusicanqui
+		Hoffmann Huachua Huallpa Katari Larico Machaca Mamani Morales Paredes Peñaranda
+		Puma Quilca Quispe Rivera Sisa Tamayo Taquiri Torres Yllanes Yucra }
+	}
+	
+	#Western Group
+	tama_clm = {
+		color = {225 205 160}
+		first_names = { Agustín Alejandro Antonio Bartolomé Carlos David Eduardo Enrique Evo Facundo
+		Felipe Francisco Gregorio Hugo José Juan "Juan José" Manuel Marcos Mario
+		Máximo Nicolás Osvaldo Ramón Roberto Santiago Túpac Vicente Víctor "Víctor Hugo" }
+
+		last_names = { Apaza Ayme Calisaya Cardenas Castilla Chino Choquehuanca Condori Corahua Cusicanqui
+		Hoffmann Huachua Huallpa Katari Larico Machaca Mamani Morales Paredes Peñaranda
+		Puma Quilca Quispe Rivera Sisa Tamayo Taquiri Torres Yllanes Yucra }
+	}
+	
+	coreguaje = {
+		color = {205 195 140}
+		first_names = { Agustín Alejandro Antonio Bartolomé Carlos David Eduardo Enrique Evo Facundo
+		Felipe Francisco Gregorio Hugo José Juan "Juan José" Manuel Marcos Mario
+		Máximo Nicolás Osvaldo Ramón Roberto Santiago Túpac Vicente Víctor "Víctor Hugo" }
+
+		last_names = { Apaza Ayme Calisaya Cardenas Castilla Chino Choquehuanca Condori Corahua Cusicanqui
+		Hoffmann Huachua Huallpa Katari Larico Machaca Mamani Morales Paredes Peñaranda
+		Puma Quilca Quispe Rivera Sisa Tamayo Taquiri Torres Yllanes Yucra }
+	}
+	
+	macaguaje = {
+		color = {155 145 90}
+		first_names = { Agustín Alejandro Antonio Bartolomé Carlos David Eduardo Enrique Evo Facundo
+		Felipe Francisco Gregorio Hugo José Juan "Juan José" Manuel Marcos Mario
+		Máximo Nicolás Osvaldo Ramón Roberto Santiago Túpac Vicente Víctor "Víctor Hugo" }
+
+		last_names = { Apaza Ayme Calisaya Cardenas Castilla Chino Choquehuanca Condori Corahua Cusicanqui
+		Hoffmann Huachua Huallpa Katari Larico Machaca Mamani Morales Paredes Peñaranda
+		Puma Quilca Quispe Rivera Sisa Tamayo Taquiri Torres Yllanes Yucra }
+	}
+	
+	icaguate = {
+		color = {185 175 90}
+		first_names = { Agustín Alejandro Antonio Bartolomé Carlos David Eduardo Enrique Evo Facundo
+		Felipe Francisco Gregorio Hugo José Juan "Juan José" Manuel Marcos Mario
+		Máximo Nicolás Osvaldo Ramón Roberto Santiago Túpac Vicente Víctor "Víctor Hugo" }
+
+		last_names = { Apaza Ayme Calisaya Cardenas Castilla Chino Choquehuanca Condori Corahua Cusicanqui
+		Hoffmann Huachua Huallpa Katari Larico Machaca Mamani Morales Paredes Peñaranda
+		Puma Quilca Quispe Rivera Sisa Tamayo Taquiri Torres Yllanes Yucra }
+	}
+	
+	siona = {
+		color = {185 175 130}
+		first_names = { Agustín Alejandro Antonio Bartolomé Carlos David Eduardo Enrique Evo Facundo
+		Felipe Francisco Gregorio Hugo José Juan "Juan José" Manuel Marcos Mario
+		Máximo Nicolás Osvaldo Ramón Roberto Santiago Túpac Vicente Víctor "Víctor Hugo" }
+
+		last_names = { Apaza Ayme Calisaya Cardenas Castilla Chino Choquehuanca Condori Corahua Cusicanqui
+		Hoffmann Huachua Huallpa Katari Larico Machaca Mamani Morales Paredes Peñaranda
+		Puma Quilca Quispe Rivera Sisa Tamayo Taquiri Torres Yllanes Yucra }
+	}
+	
+	eno_clm = {
+		color = {185 135 120}
+		first_names = { Agustín Alejandro Antonio Bartolomé Carlos David Eduardo Enrique Evo Facundo
+		Felipe Francisco Gregorio Hugo José Juan "Juan José" Manuel Marcos Mario
+		Máximo Nicolás Osvaldo Ramón Roberto Santiago Túpac Vicente Víctor "Víctor Hugo" }
+
+		last_names = { Apaza Ayme Calisaya Cardenas Castilla Chino Choquehuanca Condori Corahua Cusicanqui
+		Hoffmann Huachua Huallpa Katari Larico Machaca Mamani Morales Paredes Peñaranda
+		Puma Quilca Quispe Rivera Sisa Tamayo Taquiri Torres Yllanes Yucra }
+	}
+}
+
+#Andoque–Urequena 
+andoque_urequena = {
+	leader = nativeamerican
+	is_overseas = no
+	andoque = {
+		color = {200 200 50}
+		first_names = { Agustín Alejandro Antonio Bartolomé Carlos David Eduardo Enrique Evo Facundo
+		Felipe Francisco Gregorio Hugo José Juan "Juan José" Manuel Marcos Mario
+		Máximo Nicolás Osvaldo Ramón Roberto Santiago Túpac Vicente Víctor "Víctor Hugo" }
+
+		last_names = { Apaza Ayme Calisaya Cardenas Castilla Chino Choquehuanca Condori Corahua Cusicanqui
+		Hoffmann Huachua Huallpa Katari Larico Machaca Mamani Morales Paredes Peñaranda
+		Puma Quilca Quispe Rivera Sisa Tamayo Taquiri Torres Yllanes Yucra }
+	}
+	
+	urequena = {
+		color = {170 170 30}
 		first_names = { Agustín Alejandro Antonio Bartolomé Carlos David Eduardo Enrique Evo Facundo
 		Felipe Francisco Gregorio Hugo José Juan "Juan José" Manuel Marcos Mario
 		Máximo Nicolás Osvaldo Ramón Roberto Santiago Túpac Vicente Víctor "Víctor Hugo" }
@@ -14512,6 +14872,28 @@ witoto_group  = {
 	is_overseas = no
 	witoto = {
 		color = {60 50 50}
+		first_names = { Agustín Alejandro Antonio Bartolomé Carlos David Eduardo Enrique Evo Facundo
+		Felipe Francisco Gregorio Hugo José Juan "Juan José" Manuel Marcos Mario
+		Máximo Nicolás Osvaldo Ramón Roberto Santiago Túpac Vicente Víctor "Víctor Hugo" }
+
+		last_names = { Apaza Ayme Calisaya Cardenas Castilla Chino Choquehuanca Condori Corahua Cusicanqui
+		Hoffmann Huachua Huallpa Katari Larico Machaca Mamani Morales Paredes Peñaranda
+		Puma Quilca Quispe Rivera Sisa Tamayo Taquiri Torres Yllanes Yucra }
+	}
+	
+	coeruna = {
+		color = {100 90 90}
+		first_names = { Agustín Alejandro Antonio Bartolomé Carlos David Eduardo Enrique Evo Facundo
+		Felipe Francisco Gregorio Hugo José Juan "Juan José" Manuel Marcos Mario
+		Máximo Nicolás Osvaldo Ramón Roberto Santiago Túpac Vicente Víctor "Víctor Hugo" }
+
+		last_names = { Apaza Ayme Calisaya Cardenas Castilla Chino Choquehuanca Condori Corahua Cusicanqui
+		Hoffmann Huachua Huallpa Katari Larico Machaca Mamani Morales Paredes Peñaranda
+		Puma Quilca Quispe Rivera Sisa Tamayo Taquiri Torres Yllanes Yucra }
+	}
+	
+	aifu = {
+		color = {70 30 30}
 		first_names = { Agustín Alejandro Antonio Bartolomé Carlos David Eduardo Enrique Evo Facundo
 		Felipe Francisco Gregorio Hugo José Juan "Juan José" Manuel Marcos Mario
 		Máximo Nicolás Osvaldo Ramón Roberto Santiago Túpac Vicente Víctor "Víctor Hugo" }
@@ -14569,8 +14951,53 @@ betoi_saliban_group  = {
 guahibo_group  = {
 	leader = nativeamerican
 	is_overseas = no
+	#Cuiloto/Hintu/Managuan
+	hitnu = { 
+		color = {50 160 170}
+		first_names = { Agustín Alejandro Antonio Bartolomé Carlos David Eduardo Enrique Evo Facundo
+		Felipe Francisco Gregorio Hugo José Juan "Juan José" Manuel Marcos Mario
+		Máximo Nicolás Osvaldo Ramón Roberto Santiago Túpac Vicente Víctor "Víctor Hugo" }
+
+		last_names = { Apaza Ayme Calisaya Cardenas Castilla Chino Choquehuanca Condori Corahua Cusicanqui
+		Hoffmann Huachua Huallpa Katari Larico Machaca Mamani Morales Paredes Peñaranda
+		Puma Quilca Quispe Rivera Sisa Tamayo Taquiri Torres Yllanes Yucra }
+	}
+	
 	guahibo = {
 		color = {50 120 130}
+		first_names = { Agustín Alejandro Antonio Bartolomé Carlos David Eduardo Enrique Evo Facundo
+		Felipe Francisco Gregorio Hugo José Juan "Juan José" Manuel Marcos Mario
+		Máximo Nicolás Osvaldo Ramón Roberto Santiago Túpac Vicente Víctor "Víctor Hugo" }
+
+		last_names = { Apaza Ayme Calisaya Cardenas Castilla Chino Choquehuanca Condori Corahua Cusicanqui
+		Hoffmann Huachua Huallpa Katari Larico Machaca Mamani Morales Paredes Peñaranda
+		Puma Quilca Quispe Rivera Sisa Tamayo Taquiri Torres Yllanes Yucra }
+	}
+	
+	guyaverun = {
+		color = {50 100 160}
+		first_names = { Agustín Alejandro Antonio Bartolomé Carlos David Eduardo Enrique Evo Facundo
+		Felipe Francisco Gregorio Hugo José Juan "Juan José" Manuel Marcos Mario
+		Máximo Nicolás Osvaldo Ramón Roberto Santiago Túpac Vicente Víctor "Víctor Hugo" }
+
+		last_names = { Apaza Ayme Calisaya Cardenas Castilla Chino Choquehuanca Condori Corahua Cusicanqui
+		Hoffmann Huachua Huallpa Katari Larico Machaca Mamani Morales Paredes Peñaranda
+		Puma Quilca Quispe Rivera Sisa Tamayo Taquiri Torres Yllanes Yucra }
+	}
+	
+	chiricoa = {
+		color = {50 60 100}
+		first_names = { Agustín Alejandro Antonio Bartolomé Carlos David Eduardo Enrique Evo Facundo
+		Felipe Francisco Gregorio Hugo José Juan "Juan José" Manuel Marcos Mario
+		Máximo Nicolás Osvaldo Ramón Roberto Santiago Túpac Vicente Víctor "Víctor Hugo" }
+
+		last_names = { Apaza Ayme Calisaya Cardenas Castilla Chino Choquehuanca Condori Corahua Cusicanqui
+		Hoffmann Huachua Huallpa Katari Larico Machaca Mamani Morales Paredes Peñaranda
+		Puma Quilca Quispe Rivera Sisa Tamayo Taquiri Torres Yllanes Yucra }
+	}
+	
+	churuya = {
+		color = {50 60 140}
 		first_names = { Agustín Alejandro Antonio Bartolomé Carlos David Eduardo Enrique Evo Facundo
 		Felipe Francisco Gregorio Hugo José Juan "Juan José" Manuel Marcos Mario
 		Máximo Nicolás Osvaldo Ramón Roberto Santiago Túpac Vicente Víctor "Víctor Hugo" }
@@ -14587,6 +15014,17 @@ maku_group  = {
 	is_overseas = no
 	maku = {
 		color = {60 10 50}
+		first_names = { Agustín Alejandro Antonio Bartolomé Carlos David Eduardo Enrique Evo Facundo
+		Felipe Francisco Gregorio Hugo José Juan "Juan José" Manuel Marcos Mario
+		Máximo Nicolás Osvaldo Ramón Roberto Santiago Túpac Vicente Víctor "Víctor Hugo" }
+
+		last_names = { Apaza Ayme Calisaya Cardenas Castilla Chino Choquehuanca Condori Corahua Cusicanqui
+		Hoffmann Huachua Huallpa Katari Larico Machaca Mamani Morales Paredes Peñaranda
+		Puma Quilca Quispe Rivera Sisa Tamayo Taquiri Torres Yllanes Yucra }
+	}
+	
+	hubde = {
+		color = {20 10 30}
 		first_names = { Agustín Alejandro Antonio Bartolomé Carlos David Eduardo Enrique Evo Facundo
 		Felipe Francisco Gregorio Hugo José Juan "Juan José" Manuel Marcos Mario
 		Máximo Nicolás Osvaldo Ramón Roberto Santiago Túpac Vicente Víctor "Víctor Hugo" }
@@ -14672,14 +15110,42 @@ malibu_group  = {
 		Hoffmann Huachua Huallpa Katari Larico Machaca Mamani Morales Paredes Peñaranda
 		Puma Quilca Quispe Rivera Sisa Tamayo Taquiri Torres Yllanes Yucra }
 	}
-}
+	
+	malibu = {
+		color = {85 40 50}
+		first_names = { Agustín Alejandro Antonio Bartolomé Carlos David Eduardo Enrique Evo Facundo
+		Felipe Francisco Gregorio Hugo José Juan "Juan José" Manuel Marcos Mario
+		Máximo Nicolás Osvaldo Ramón Roberto Santiago Túpac Vicente Víctor "Víctor Hugo" }
 
-#Choco
-choco_group  = {
-	leader = nativeamerican
-	is_overseas = no
-	choco = {
-		color = {15 10 40}
+		last_names = { Apaza Ayme Calisaya Cardenas Castilla Chino Choquehuanca Condori Corahua Cusicanqui
+		Hoffmann Huachua Huallpa Katari Larico Machaca Mamani Morales Paredes Peñaranda
+		Puma Quilca Quispe Rivera Sisa Tamayo Taquiri Torres Yllanes Yucra }
+	}
+	
+	papale = {
+		color = {135 70 40}
+		first_names = { Agustín Alejandro Antonio Bartolomé Carlos David Eduardo Enrique Evo Facundo
+		Felipe Francisco Gregorio Hugo José Juan "Juan José" Manuel Marcos Mario
+		Máximo Nicolás Osvaldo Ramón Roberto Santiago Túpac Vicente Víctor "Víctor Hugo" }
+
+		last_names = { Apaza Ayme Calisaya Cardenas Castilla Chino Choquehuanca Condori Corahua Cusicanqui
+		Hoffmann Huachua Huallpa Katari Larico Machaca Mamani Morales Paredes Peñaranda
+		Puma Quilca Quispe Rivera Sisa Tamayo Taquiri Torres Yllanes Yucra }
+	}
+	
+	zamirua = {
+		color = {145 20 20}
+		first_names = { Agustín Alejandro Antonio Bartolomé Carlos David Eduardo Enrique Evo Facundo
+		Felipe Francisco Gregorio Hugo José Juan "Juan José" Manuel Marcos Mario
+		Máximo Nicolás Osvaldo Ramón Roberto Santiago Túpac Vicente Víctor "Víctor Hugo" }
+
+		last_names = { Apaza Ayme Calisaya Cardenas Castilla Chino Choquehuanca Condori Corahua Cusicanqui
+		Hoffmann Huachua Huallpa Katari Larico Machaca Mamani Morales Paredes Peñaranda
+		Puma Quilca Quispe Rivera Sisa Tamayo Taquiri Torres Yllanes Yucra }
+	}
+	
+	pacabuey = {
+		color = {145 80 80}
 		first_names = { Agustín Alejandro Antonio Bartolomé Carlos David Eduardo Enrique Evo Facundo
 		Felipe Francisco Gregorio Hugo José Juan "Juan José" Manuel Marcos Mario
 		Máximo Nicolás Osvaldo Ramón Roberto Santiago Túpac Vicente Víctor "Víctor Hugo" }
@@ -14690,11 +15156,89 @@ choco_group  = {
 	}
 }
 
+#Choco
+choco_group  = {
+	leader = nativeamerican
+	is_overseas = no
+	quimbaya = {
+		color = {30 80 50}
+		first_names = { Agustín Alejandro Antonio Bartolomé Carlos David Eduardo Enrique Evo Facundo
+		Felipe Francisco Gregorio Hugo José Juan "Juan José" Manuel Marcos Mario
+		Máximo Nicolás Osvaldo Ramón Roberto Santiago Túpac Vicente Víctor "Víctor Hugo" }
+
+		last_names = { Apaza Ayme Calisaya Cardenas Castilla Chino Choquehuanca Condori Corahua Cusicanqui
+		Hoffmann Huachua Huallpa Katari Larico Machaca Mamani Morales Paredes Peñaranda
+		Puma Quilca Quispe Rivera Sisa Tamayo Taquiri Torres Yllanes Yucra }
+	}
+	
+	embera = {
+		color = {55 70 30}
+		first_names = { Agustín Alejandro Antonio Bartolomé Carlos David Eduardo Enrique Evo Facundo
+		Felipe Francisco Gregorio Hugo José Juan "Juan José" Manuel Marcos Mario
+		Máximo Nicolás Osvaldo Ramón Roberto Santiago Túpac Vicente Víctor "Víctor Hugo" }
+
+		last_names = { Apaza Ayme Calisaya Cardenas Castilla Chino Choquehuanca Condori Corahua Cusicanqui
+		Hoffmann Huachua Huallpa Katari Larico Machaca Mamani Morales Paredes Peñaranda
+		Puma Quilca Quispe Rivera Sisa Tamayo Taquiri Torres Yllanes Yucra }
+	}
+	
+	anserma = {
+		color = {55 70 60}
+		first_names = { Agustín Alejandro Antonio Bartolomé Carlos David Eduardo Enrique Evo Facundo
+		Felipe Francisco Gregorio Hugo José Juan "Juan José" Manuel Marcos Mario
+		Máximo Nicolás Osvaldo Ramón Roberto Santiago Túpac Vicente Víctor "Víctor Hugo" }
+
+		last_names = { Apaza Ayme Calisaya Cardenas Castilla Chino Choquehuanca Condori Corahua Cusicanqui
+		Hoffmann Huachua Huallpa Katari Larico Machaca Mamani Morales Paredes Peñaranda
+		Puma Quilca Quispe Rivera Sisa Tamayo Taquiri Torres Yllanes Yucra }
+	}
+	
+	sinu = {
+		color = {15 90 60}
+		first_names = { Agustín Alejandro Antonio Bartolomé Carlos David Eduardo Enrique Evo Facundo
+		Felipe Francisco Gregorio Hugo José Juan "Juan José" Manuel Marcos Mario
+		Máximo Nicolás Osvaldo Ramón Roberto Santiago Túpac Vicente Víctor "Víctor Hugo" }
+
+		last_names = { Apaza Ayme Calisaya Cardenas Castilla Chino Choquehuanca Condori Corahua Cusicanqui
+		Hoffmann Huachua Huallpa Katari Larico Machaca Mamani Morales Paredes Peñaranda
+		Puma Quilca Quispe Rivera Sisa Tamayo Taquiri Torres Yllanes Yucra }
+	}
+	
+	choco = { #Wounaan
+		color = {30 50 20}
+		first_names = { Agustín Alejandro Antonio Bartolomé Carlos David Eduardo Enrique Evo Facundo
+		Felipe Francisco Gregorio Hugo José Juan "Juan José" Manuel Marcos Mario
+		Máximo Nicolás Osvaldo Ramón Roberto Santiago Túpac Vicente Víctor "Víctor Hugo" }
+
+		last_names = { Apaza Ayme Calisaya Cardenas Castilla Chino Choquehuanca Condori Corahua Cusicanqui
+		Hoffmann Huachua Huallpa Katari Larico Machaca Mamani Morales Paredes Peñaranda
+		Puma Quilca Quispe Rivera Sisa Tamayo Taquiri Torres Yllanes Yucra }
+	}
+}
+
+#Idabaez Isolate?
+idabaez_group  = {
+	leader = nativeamerican
+	is_overseas = no
+	idabaez = {
+		color = {130 130 150}
+		first_names = { Agustín Alejandro Antonio Bartolomé Carlos David Eduardo Enrique Evo Facundo
+		Felipe Francisco Gregorio Hugo José Juan "Juan José" Manuel Marcos Mario
+		Máximo Nicolás Osvaldo Ramón Roberto Santiago Túpac Vicente Víctor "Víctor Hugo" }
+
+		last_names = { Apaza Ayme Calisaya Cardenas Castilla Chino Choquehuanca Condori Corahua Cusicanqui
+	    Huachua Huallpa Katari Larico Machaca Mamani Morales Paredes Peñaranda
+		Puma Quilca Quispe Rivera Sisa Tamayo Taquiri Torres Yllanes Yucra }
+	}
+}
+
 #Chibcha
 chibcha_group  = {
 	leader = nativeamerican
 	is_overseas = no
-	chibcha = { #Muisca -other groups in Colombia are extinct
+	#Magdalenic
+	#Muisca 
+	chibcha = { 
 		color = {120 150 5}
 		first_names = { Baltasar Bernardo Carlos Celestino Diego Emilio Felipe Fernando Fidel Francisco
 		Gaspar Gregorio Hugo Ignacio José Juan Manuel Marcos Mario Mateo
@@ -14704,6 +15248,122 @@ chibcha_group  = {
 		Uraliyyu Ulewana Walapuana Walepushana }
 	}
 	
+	#Tunebo
+	tunebo = {  
+		color = {100 180 25}
+		first_names = { Baltasar Bernardo Carlos Celestino Diego Emilio Felipe Fernando Fidel Francisco
+		Gaspar Gregorio Hugo Ignacio José Juan Manuel Marcos Mario Mateo
+		Melchor Narciso Pablo Pedro Ramón Roberto Santiago Sebastián Simón Tomás }
+	
+		last_names = { Atapashuna Epieyu Iguana Jayaliyuu Jusayuu Pausayuu Sapuana Tijuana Uliana Uliyuu
+		Uraliyyu Ulewana Walapuana Walepushana }
+	}
+	
+	#Motilone
+	bari = {
+		color = {100 160 60}
+		first_names = { Agustín Antonio Aquiles Arturo Aurelio Bernardo Carlos Claudio Diego Facundo
+		Félix Fernando Francisco Gerardo Gregorio Hugo Ignacio José Juan Luis
+		Manuel Marcos Martín Máximo Melchor Pedro Ramón Raúl Santiago Víctor }
+
+		last_names = { Aliwen Amuylifko Aukan Ayllapan Chiguay Cumin Curumilla Epulewfu Foyelkay Guaiquil
+		Huichaman Ilwen Kayupi Kumlafken Kvlapi Leviñanco Lincoman Marifil Melifilu Millakoyam
+		Millapani Nahuel Ñanku Paillacar Pillancar Quelin Remultray Unquen Waikimill Yankvleufu }
+	}
+	
+	#Mellionecan
+	mellionecan = {  
+		color = {80 140 15}
+		first_names = { Baltasar Bernardo Carlos Celestino Diego Emilio Felipe Fernando Fidel Francisco
+		Gaspar Gregorio Hugo Ignacio José Juan Manuel Marcos Mario Mateo
+		Melchor Narciso Pablo Pedro Ramón Roberto Santiago Sebastián Simón Tomás }
+	
+		last_names = { Atapashuna Epieyu Iguana Jayaliyuu Jusayuu Pausayuu Sapuana Tijuana Uliana Uliyuu
+		Uraliyyu Ulewana Walapuana Walepushana }
+	}
+	
+	#Tayrona-region Chibcha
+	kogi = {  
+		color = {140 210 65}
+		first_names = { Baltasar Bernardo Carlos Celestino Diego Emilio Felipe Fernando Fidel Francisco
+		Gaspar Gregorio Hugo Ignacio José Juan Manuel Marcos Mario Mateo
+		Melchor Narciso Pablo Pedro Ramón Roberto Santiago Sebastián Simón Tomás }
+	
+		last_names = { Atapashuna Epieyu Iguana Jayaliyuu Jusayuu Pausayuu Sapuana Tijuana Uliana Uliyuu
+		Uraliyyu Ulewana Walapuana Walepushana }
+	}
+	
+	arwako = {  
+		color = {110 180 95}
+		first_names = { Baltasar Bernardo Carlos Celestino Diego Emilio Felipe Fernando Fidel Francisco
+		Gaspar Gregorio Hugo Ignacio José Juan Manuel Marcos Mario Mateo
+		Melchor Narciso Pablo Pedro Ramón Roberto Santiago Sebastián Simón Tomás }
+	
+		last_names = { Atapashuna Epieyu Iguana Jayaliyuu Jusayuu Pausayuu Sapuana Tijuana Uliana Uliyuu
+		Uraliyyu Ulewana Walapuana Walepushana }
+	}
+	
+	kankwamo = {  
+		color = {150 210 125}
+		first_names = { Baltasar Bernardo Carlos Celestino Diego Emilio Felipe Fernando Fidel Francisco
+		Gaspar Gregorio Hugo Ignacio José Juan Manuel Marcos Mario Mateo
+		Melchor Narciso Pablo Pedro Ramón Roberto Santiago Sebastián Simón Tomás }
+	
+		last_names = { Atapashuna Epieyu Iguana Jayaliyuu Jusayuu Pausayuu Sapuana Tijuana Uliana Uliyuu
+		Uraliyyu Ulewana Walapuana Walepushana }
+	}
+	
+	chimila = {  
+		color = {120 170 55}
+		first_names = { Baltasar Bernardo Carlos Celestino Diego Emilio Felipe Fernando Fidel Francisco
+		Gaspar Gregorio Hugo Ignacio José Juan Manuel Marcos Mario Mateo
+		Melchor Narciso Pablo Pedro Ramón Roberto Santiago Sebastián Simón Tomás }
+	
+		last_names = { Atapashuna Epieyu Iguana Jayaliyuu Jusayuu Pausayuu Sapuana Tijuana Uliana Uliyuu
+		Uraliyyu Ulewana Walapuana Walepushana }
+	}
+	
+	ocanopan = {  
+		color = {100 130 15}
+		first_names = { Baltasar Bernardo Carlos Celestino Diego Emilio Felipe Fernando Fidel Francisco
+		Gaspar Gregorio Hugo Ignacio José Juan Manuel Marcos Mario Mateo
+		Melchor Narciso Pablo Pedro Ramón Roberto Santiago Sebastián Simón Tomás }
+	
+		last_names = { Atapashuna Epieyu Iguana Jayaliyuu Jusayuu Pausayuu Sapuana Tijuana Uliana Uliyuu
+		Uraliyyu Ulewana Walapuana Walepushana }
+	}
+	
+	coanao = {  
+		color = {100 170 15}
+		first_names = { Baltasar Bernardo Carlos Celestino Diego Emilio Felipe Fernando Fidel Francisco
+		Gaspar Gregorio Hugo Ignacio José Juan Manuel Marcos Mario Mateo
+		Melchor Narciso Pablo Pedro Ramón Roberto Santiago Sebastián Simón Tomás }
+	
+		last_names = { Atapashuna Epieyu Iguana Jayaliyuu Jusayuu Pausayuu Sapuana Tijuana Uliana Uliyuu
+		Uraliyyu Ulewana Walapuana Walepushana }
+	}
+	
+	guamaca = {  
+		color = {130 210 65}
+		first_names = { Baltasar Bernardo Carlos Celestino Diego Emilio Felipe Fernando Fidel Francisco
+		Gaspar Gregorio Hugo Ignacio José Juan Manuel Marcos Mario Mateo
+		Melchor Narciso Pablo Pedro Ramón Roberto Santiago Sebastián Simón Tomás }
+	
+		last_names = { Atapashuna Epieyu Iguana Jayaliyuu Jusayuu Pausayuu Sapuana Tijuana Uliana Uliyuu
+		Uraliyyu Ulewana Walapuana Walepushana }
+	}
+	
+	cariachil = {  
+		color = {100 150 65}
+		first_names = { Baltasar Bernardo Carlos Celestino Diego Emilio Felipe Fernando Fidel Francisco
+		Gaspar Gregorio Hugo Ignacio José Juan Manuel Marcos Mario Mateo
+		Melchor Narciso Pablo Pedro Ramón Roberto Santiago Sebastián Simón Tomás }
+	
+		last_names = { Atapashuna Epieyu Iguana Jayaliyuu Jusayuu Pausayuu Sapuana Tijuana Uliana Uliyuu
+		Uraliyyu Ulewana Walapuana Walepushana }
+	}
+	
+	#Other
 	cuna = { 
 		color = {100 150 25}
 		first_names = { Baltasar Bernardo Carlos Celestino Diego Emilio Felipe Fernando Fidel Francisco
@@ -15321,8 +15981,55 @@ arawak_group  = {
 		Huichaman Ilwen Kayupi Kumlafken Kvlapi Leviñanco Lincoman Marifil Melifilu Millakoyam
 		Millapani Nahuel Ñanku Paillacar Pillancar Quelin Remultray Unquen Waikimill Yankvleufu }
 	 }
-	 manao  = {
+	 
+	#Japura-Colombia
+	 cauyari = {
+		color = {65 25 200}
+		first_names = { Agustín Antonio Aquiles Arturo Aurelio Bernardo Carlos Claudio Diego Facundo
+		Félix Fernando Francisco Gerardo Gregorio Hugo Ignacio José Juan Luis
+		Manuel Marcos Martín Máximo Melchor Pedro Ramón Raúl Santiago Víctor }
+
+		last_names = { Aliwen Amuylifko Aukan Ayllapan Chiguay Cumin Curumilla Epulewfu Foyelkay Guaiquil
+		Huichaman Ilwen Kayupi Kumlafken Kvlapi Leviñanco Lincoman Marifil Melifilu Millakoyam
+		Millapani Nahuel Ñanku Paillacar Pillancar Quelin Remultray Unquen Waikimill Yankvleufu }
+	 }
+	 
+	 yucuna = {
+		color = {125 45 230}
+		first_names = { Agustín Antonio Aquiles Arturo Aurelio Bernardo Carlos Claudio Diego Facundo
+		Félix Fernando Francisco Gerardo Gregorio Hugo Ignacio José Juan Luis
+		Manuel Marcos Martín Máximo Melchor Pedro Ramón Raúl Santiago Víctor }
+
+		last_names = { Aliwen Amuylifko Aukan Ayllapan Chiguay Cumin Curumilla Epulewfu Foyelkay Guaiquil
+		Huichaman Ilwen Kayupi Kumlafken Kvlapi Leviñanco Lincoman Marifil Melifilu Millakoyam
+		Millapani Nahuel Ñanku Paillacar Pillancar Quelin Remultray Unquen Waikimill Yankvleufu }
+	 }
+	 
+	 guara = {
+		color = {105 65 180}
+		first_names = { Agustín Antonio Aquiles Arturo Aurelio Bernardo Carlos Claudio Diego Facundo
+		Félix Fernando Francisco Gerardo Gregorio Hugo Ignacio José Juan Luis
+		Manuel Marcos Martín Máximo Melchor Pedro Ramón Raúl Santiago Víctor }
+
+		last_names = { Aliwen Amuylifko Aukan Ayllapan Chiguay Cumin Curumilla Epulewfu Foyelkay Guaiquil
+		Huichaman Ilwen Kayupi Kumlafken Kvlapi Leviñanco Lincoman Marifil Melifilu Millakoyam
+		Millapani Nahuel Ñanku Paillacar Pillancar Quelin Remultray Unquen Waikimill Yankvleufu }
+	 }
+	 
+	 #Manao Group
+	  manao = {
 		color = {85 25 250}
+		first_names = { Agustín Antonio Aquiles Arturo Aurelio Bernardo Carlos Claudio Diego Facundo
+		Félix Fernando Francisco Gerardo Gregorio Hugo Ignacio José Juan Luis
+		Manuel Marcos Martín Máximo Melchor Pedro Ramón Raúl Santiago Víctor }
+
+		last_names = { Aliwen Amuylifko Aukan Ayllapan Chiguay Cumin Curumilla Epulewfu Foyelkay Guaiquil
+		Huichaman Ilwen Kayupi Kumlafken Kvlapi Leviñanco Lincoman Marifil Melifilu Millakoyam
+		Millapani Nahuel Ñanku Paillacar Pillancar Quelin Remultray Unquen Waikimill Yankvleufu }
+	 }
+	 
+	 cariay = {
+		color = {85 25 200}
 		first_names = { Agustín Antonio Aquiles Arturo Aurelio Bernardo Carlos Claudio Diego Facundo
 		Félix Fernando Francisco Gerardo Gregorio Hugo Ignacio José Juan Luis
 		Manuel Marcos Martín Máximo Melchor Pedro Ramón Raúl Santiago Víctor }
@@ -15354,9 +16061,10 @@ arawak_group  = {
 		Huichaman Ilwen Kayupi Kumlafken Kvlapi Leviñanco Lincoman Marifil Melifilu Millakoyam
 		Millapani Nahuel Ñanku Paillacar Pillancar Quelin Remultray Unquen Waikimill Yankvleufu }
 	 }
-	#Caribbean
-	 lokono = {
-		color = {45 45 250}
+	 
+	#Caquetio
+	 caquetio  = {
+		color = {65 65 250}
 		first_names = { Agustín Antonio Aquiles Arturo Aurelio Bernardo Carlos Claudio Diego Facundo
 		Félix Fernando Francisco Gerardo Gregorio Hugo Ignacio José Juan Luis
 		Manuel Marcos Martín Máximo Melchor Pedro Ramón Raúl Santiago Víctor }
@@ -15366,8 +16074,97 @@ arawak_group  = {
 		Millapani Nahuel Ñanku Paillacar Pillancar Quelin Remultray Unquen Waikimill Yankvleufu }
 	 }
 	 
-	 caquetio  = {
-		color = {65 65 250}
+	 guayupe = {
+		color = {85 65 250}
+		first_names = { Agustín Antonio Aquiles Arturo Aurelio Bernardo Carlos Claudio Diego Facundo
+		Félix Fernando Francisco Gerardo Gregorio Hugo Ignacio José Juan Luis
+		Manuel Marcos Martín Máximo Melchor Pedro Ramón Raúl Santiago Víctor }
+
+		last_names = { Aliwen Amuylifko Aukan Ayllapan Chiguay Cumin Curumilla Epulewfu Foyelkay Guaiquil
+		Huichaman Ilwen Kayupi Kumlafken Kvlapi Leviñanco Lincoman Marifil Melifilu Millakoyam
+		Millapani Nahuel Ñanku Paillacar Pillancar Quelin Remultray Unquen Waikimill Yankvleufu }
+	 }
+	 
+	 choque = {
+		color = {85 60 220}
+		first_names = { Agustín Antonio Aquiles Arturo Aurelio Bernardo Carlos Claudio Diego Facundo
+		Félix Fernando Francisco Gerardo Gregorio Hugo Ignacio José Juan Luis
+		Manuel Marcos Martín Máximo Melchor Pedro Ramón Raúl Santiago Víctor }
+
+		last_names = { Aliwen Amuylifko Aukan Ayllapan Chiguay Cumin Curumilla Epulewfu Foyelkay Guaiquil
+		Huichaman Ilwen Kayupi Kumlafken Kvlapi Leviñanco Lincoman Marifil Melifilu Millakoyam
+		Millapani Nahuel Ñanku Paillacar Pillancar Quelin Remultray Unquen Waikimill Yankvleufu }
+	 }
+	 
+	 tegua = {
+		color = {65 75 250}
+		first_names = { Agustín Antonio Aquiles Arturo Aurelio Bernardo Carlos Claudio Diego Facundo
+		Félix Fernando Francisco Gerardo Gregorio Hugo Ignacio José Juan Luis
+		Manuel Marcos Martín Máximo Melchor Pedro Ramón Raúl Santiago Víctor }
+
+		last_names = { Aliwen Amuylifko Aukan Ayllapan Chiguay Cumin Curumilla Epulewfu Foyelkay Guaiquil
+		Huichaman Ilwen Kayupi Kumlafken Kvlapi Leviñanco Lincoman Marifil Melifilu Millakoyam
+		Millapani Nahuel Ñanku Paillacar Pillancar Quelin Remultray Unquen Waikimill Yankvleufu }
+	 }
+	 
+	 achagua = {
+		color = {125 85 200}
+		first_names = { Agustín Antonio Aquiles Arturo Aurelio Bernardo Carlos Claudio Diego Facundo
+		Félix Fernando Francisco Gerardo Gregorio Hugo Ignacio José Juan Luis
+		Manuel Marcos Martín Máximo Melchor Pedro Ramón Raúl Santiago Víctor }
+
+		last_names = { Aliwen Amuylifko Aukan Ayllapan Chiguay Cumin Curumilla Epulewfu Foyelkay Guaiquil
+		Huichaman Ilwen Kayupi Kumlafken Kvlapi Leviñanco Lincoman Marifil Melifilu Millakoyam
+		Millapani Nahuel Ñanku Paillacar Pillancar Quelin Remultray Unquen Waikimill Yankvleufu }
+	 }
+	 
+	 chucuna = {
+		color = {95 65 210}
+		first_names = { Agustín Antonio Aquiles Arturo Aurelio Bernardo Carlos Claudio Diego Facundo
+		Félix Fernando Francisco Gerardo Gregorio Hugo Ignacio José Juan Luis
+		Manuel Marcos Martín Máximo Melchor Pedro Ramón Raúl Santiago Víctor }
+
+		last_names = { Aliwen Amuylifko Aukan Ayllapan Chiguay Cumin Curumilla Epulewfu Foyelkay Guaiquil
+		Huichaman Ilwen Kayupi Kumlafken Kvlapi Leviñanco Lincoman Marifil Melifilu Millakoyam
+		Millapani Nahuel Ñanku Paillacar Pillancar Quelin Remultray Unquen Waikimill Yankvleufu }
+	 }
+	 
+	 mitua = { #Mitu-Piopoco
+		color = {95 65 240}
+		first_names = { Agustín Antonio Aquiles Arturo Aurelio Bernardo Carlos Claudio Diego Facundo
+		Félix Fernando Francisco Gerardo Gregorio Hugo Ignacio José Juan Luis
+		Manuel Marcos Martín Máximo Melchor Pedro Ramón Raúl Santiago Víctor }
+
+		last_names = { Aliwen Amuylifko Aukan Ayllapan Chiguay Cumin Curumilla Epulewfu Foyelkay Guaiquil
+		Huichaman Ilwen Kayupi Kumlafken Kvlapi Leviñanco Lincoman Marifil Melifilu Millakoyam
+		Millapani Nahuel Ñanku Paillacar Pillancar Quelin Remultray Unquen Waikimill Yankvleufu }
+	 }
+	 
+	 cabre = {
+		color = {95 65 180}
+		first_names = { Agustín Antonio Aquiles Arturo Aurelio Bernardo Carlos Claudio Diego Facundo
+		Félix Fernando Francisco Gerardo Gregorio Hugo Ignacio José Juan Luis
+		Manuel Marcos Martín Máximo Melchor Pedro Ramón Raúl Santiago Víctor }
+
+		last_names = { Aliwen Amuylifko Aukan Ayllapan Chiguay Cumin Curumilla Epulewfu Foyelkay Guaiquil
+		Huichaman Ilwen Kayupi Kumlafken Kvlapi Leviñanco Lincoman Marifil Melifilu Millakoyam
+		Millapani Nahuel Ñanku Paillacar Pillancar Quelin Remultray Unquen Waikimill Yankvleufu }
+	 }
+	 
+	 amarizana = {
+		color = {135 95 180}
+		first_names = { Agustín Antonio Aquiles Arturo Aurelio Bernardo Carlos Claudio Diego Facundo
+		Félix Fernando Francisco Gerardo Gregorio Hugo Ignacio José Juan Luis
+		Manuel Marcos Martín Máximo Melchor Pedro Ramón Raúl Santiago Víctor }
+
+		last_names = { Aliwen Amuylifko Aukan Ayllapan Chiguay Cumin Curumilla Epulewfu Foyelkay Guaiquil
+		Huichaman Ilwen Kayupi Kumlafken Kvlapi Leviñanco Lincoman Marifil Melifilu Millakoyam
+		Millapani Nahuel Ñanku Paillacar Pillancar Quelin Remultray Unquen Waikimill Yankvleufu }
+	 }
+	 
+	#Caribbean
+	 lokono = {
+		color = {45 45 250}
 		first_names = { Agustín Antonio Aquiles Arturo Aurelio Bernardo Carlos Claudio Diego Facundo
 		Félix Fernando Francisco Gerardo Gregorio Hugo Ignacio José Juan Luis
 		Manuel Marcos Martín Máximo Melchor Pedro Ramón Raúl Santiago Víctor }
@@ -15398,6 +16195,26 @@ arawak_group  = {
 		Uraliyyu Ulewana Walapuana Walepushana }
 	 }
 	 
+	 parauhano = {
+		color = {145 145 220}
+		first_names = { Baltasar Bernardo Carlos Celestino Diego Emilio Felipe Fernando Fidel Francisco
+		Gaspar Gregorio Hugo Ignacio José Juan Manuel Marcos Mario Mateo
+		Melchor Narciso Pablo Pedro Ramón Roberto Santiago Sebastián Simón Tomás }
+	
+		last_names = { Atapashuna Epieyu Iguana Jayaliyuu Jusayuu Pausayuu Sapuana Tijuana Uliana Uliyuu
+		Uraliyyu Ulewana Walapuana Walepushana }
+	 }
+	 
+	 guanebucan = {
+		color = {95 95 180}
+		first_names = { Baltasar Bernardo Carlos Celestino Diego Emilio Felipe Fernando Fidel Francisco
+		Gaspar Gregorio Hugo Ignacio José Juan Manuel Marcos Mario Mateo
+		Melchor Narciso Pablo Pedro Ramón Roberto Santiago Sebastián Simón Tomás }
+	
+		last_names = { Atapashuna Epieyu Iguana Jayaliyuu Jusayuu Pausayuu Sapuana Tijuana Uliana Uliyuu
+		Uraliyyu Ulewana Walapuana Walepushana }
+	 }
+	 
 	 taino = {
 		color = {125 125 250}
 		first_names = { Baltasar Bernardo Carlos Celestino Diego Emilio Felipe Fernando Fidel Francisco
@@ -15417,6 +16234,44 @@ arawak_group  = {
 		last_names = { Atapashuna Epieyu Iguana Jayaliyuu Jusayuu Pausayuu Sapuana Tijuana Uliana Uliyuu
 		Uraliyyu Ulewana Walapuana Walepushana }
 	 }
+}
+
+#Tiniwan
+tiniwan  = {
+	leader = nativeamerican
+	is_overseas = no
+	tiniwa = {
+		color = {150 170 20}
+		first_names = { Agustín Antonio Aquiles Arturo Aurelio Bernardo Carlos Claudio Diego Facundo
+		Félix Fernando Francisco Gerardo Gregorio Hugo Ignacio José Juan Luis
+		Manuel Marcos Martín Máximo Melchor Pedro Ramón Raúl Santiago Víctor }
+
+		last_names = { Aliwen Amuylifko Aukan Ayllapan Chiguay Cumin Curumilla Epulewfu Foyelkay Guaiquil
+		Huichaman Ilwen Kayupi Kumlafken Kvlapi Leviñanco Lincoman Marifil Melifilu Millakoyam
+		Millapani Nahuel Ñanku Paillacar Pillancar Quelin Remultray Unquen Waikimill Yankvleufu }
+	}
+	
+	pamiwa = {
+		color = {130 150 30}
+		first_names = { Agustín Antonio Aquiles Arturo Aurelio Bernardo Carlos Claudio Diego Facundo
+		Félix Fernando Francisco Gerardo Gregorio Hugo Ignacio José Juan Luis
+		Manuel Marcos Martín Máximo Melchor Pedro Ramón Raúl Santiago Víctor }
+
+		last_names = { Aliwen Amuylifko Aukan Ayllapan Chiguay Cumin Curumilla Epulewfu Foyelkay Guaiquil
+		Huichaman Ilwen Kayupi Kumlafken Kvlapi Leviñanco Lincoman Marifil Melifilu Millakoyam
+		Millapani Nahuel Ñanku Paillacar Pillancar Quelin Remultray Unquen Waikimill Yankvleufu }
+	}
+	
+	majiwa = {
+		color = {130 150 30}
+		first_names = { Agustín Antonio Aquiles Arturo Aurelio Bernardo Carlos Claudio Diego Facundo
+		Félix Fernando Francisco Gerardo Gregorio Hugo Ignacio José Juan Luis
+		Manuel Marcos Martín Máximo Melchor Pedro Ramón Raúl Santiago Víctor }
+
+		last_names = { Aliwen Amuylifko Aukan Ayllapan Chiguay Cumin Curumilla Epulewfu Foyelkay Guaiquil
+		Huichaman Ilwen Kayupi Kumlafken Kvlapi Leviñanco Lincoman Marifil Melifilu Millakoyam
+		Millapani Nahuel Ñanku Paillacar Pillancar Quelin Remultray Unquen Waikimill Yankvleufu }
+	}
 }
 
 #Caribbean Isolates
@@ -15534,6 +16389,240 @@ cariban  = {
 	#Taranoan
 	taranoan  = {
 		color = {130 50 80}
+		first_names = { Agustín Antonio Aquiles Arturo Aurelio Bernardo Carlos Claudio Diego Facundo
+		Félix Fernando Francisco Gerardo Gregorio Hugo Ignacio José Juan Luis
+		Manuel Marcos Martín Máximo Melchor Pedro Ramón Raúl Santiago Víctor }
+
+		last_names = { Aliwen Amuylifko Aukan Ayllapan Chiguay Cumin Curumilla Epulewfu Foyelkay Guaiquil
+		Huichaman Ilwen Kayupi Kumlafken Kvlapi Leviñanco Lincoman Marifil Melifilu Millakoyam
+		Millapani Nahuel Ñanku Paillacar Pillancar Quelin Remultray Unquen Waikimill Yankvleufu }
+	}
+	
+	#Colombian unclassifiable
+	pantagora = {
+		color = {150 120 70}
+		first_names = { Agustín Antonio Aquiles Arturo Aurelio Bernardo Carlos Claudio Diego Facundo
+		Félix Fernando Francisco Gerardo Gregorio Hugo Ignacio José Juan Luis
+		Manuel Marcos Martín Máximo Melchor Pedro Ramón Raúl Santiago Víctor }
+
+		last_names = { Aliwen Amuylifko Aukan Ayllapan Chiguay Cumin Curumilla Epulewfu Foyelkay Guaiquil
+		Huichaman Ilwen Kayupi Kumlafken Kvlapi Leviñanco Lincoman Marifil Melifilu Millakoyam
+		Millapani Nahuel Ñanku Paillacar Pillancar Quelin Remultray Unquen Waikimill Yankvleufu }
+	}
+	
+	panche = {
+		color = {120 80 30}
+		first_names = { Agustín Antonio Aquiles Arturo Aurelio Bernardo Carlos Claudio Diego Facundo
+		Félix Fernando Francisco Gerardo Gregorio Hugo Ignacio José Juan Luis
+		Manuel Marcos Martín Máximo Melchor Pedro Ramón Raúl Santiago Víctor }
+
+		last_names = { Aliwen Amuylifko Aukan Ayllapan Chiguay Cumin Curumilla Epulewfu Foyelkay Guaiquil
+		Huichaman Ilwen Kayupi Kumlafken Kvlapi Leviñanco Lincoman Marifil Melifilu Millakoyam
+		Millapani Nahuel Ñanku Paillacar Pillancar Quelin Remultray Unquen Waikimill Yankvleufu }
+	}
+	
+	muzo = {
+		color = {160 140 70}
+		first_names = { Agustín Antonio Aquiles Arturo Aurelio Bernardo Carlos Claudio Diego Facundo
+		Félix Fernando Francisco Gerardo Gregorio Hugo Ignacio José Juan Luis
+		Manuel Marcos Martín Máximo Melchor Pedro Ramón Raúl Santiago Víctor }
+
+		last_names = { Aliwen Amuylifko Aukan Ayllapan Chiguay Cumin Curumilla Epulewfu Foyelkay Guaiquil
+		Huichaman Ilwen Kayupi Kumlafken Kvlapi Leviñanco Lincoman Marifil Melifilu Millakoyam
+		Millapani Nahuel Ñanku Paillacar Pillancar Quelin Remultray Unquen Waikimill Yankvleufu }
+	}
+	
+	naura = {
+		color = {150 120 20}
+		first_names = { Agustín Antonio Aquiles Arturo Aurelio Bernardo Carlos Claudio Diego Facundo
+		Félix Fernando Francisco Gerardo Gregorio Hugo Ignacio José Juan Luis
+		Manuel Marcos Martín Máximo Melchor Pedro Ramón Raúl Santiago Víctor }
+
+		last_names = { Aliwen Amuylifko Aukan Ayllapan Chiguay Cumin Curumilla Epulewfu Foyelkay Guaiquil
+		Huichaman Ilwen Kayupi Kumlafken Kvlapi Leviñanco Lincoman Marifil Melifilu Millakoyam
+		Millapani Nahuel Ñanku Paillacar Pillancar Quelin Remultray Unquen Waikimill Yankvleufu }
+	}
+	
+	kolima = {
+		color = {150 60 20}
+		first_names = { Agustín Antonio Aquiles Arturo Aurelio Bernardo Carlos Claudio Diego Facundo
+		Félix Fernando Francisco Gerardo Gregorio Hugo Ignacio José Juan Luis
+		Manuel Marcos Martín Máximo Melchor Pedro Ramón Raúl Santiago Víctor }
+
+		last_names = { Aliwen Amuylifko Aukan Ayllapan Chiguay Cumin Curumilla Epulewfu Foyelkay Guaiquil
+		Huichaman Ilwen Kayupi Kumlafken Kvlapi Leviñanco Lincoman Marifil Melifilu Millakoyam
+		Millapani Nahuel Ñanku Paillacar Pillancar Quelin Remultray Unquen Waikimill Yankvleufu }
+	}
+	
+	opon = {
+		color = {150 80 20}
+		first_names = { Agustín Antonio Aquiles Arturo Aurelio Bernardo Carlos Claudio Diego Facundo
+		Félix Fernando Francisco Gerardo Gregorio Hugo Ignacio José Juan Luis
+		Manuel Marcos Martín Máximo Melchor Pedro Ramón Raúl Santiago Víctor }
+
+		last_names = { Aliwen Amuylifko Aukan Ayllapan Chiguay Cumin Curumilla Epulewfu Foyelkay Guaiquil
+		Huichaman Ilwen Kayupi Kumlafken Kvlapi Leviñanco Lincoman Marifil Melifilu Millakoyam
+		Millapani Nahuel Ñanku Paillacar Pillancar Quelin Remultray Unquen Waikimill Yankvleufu }
+	}
+	
+	yarigui = {
+		color = {200 80 20}
+		first_names = { Agustín Antonio Aquiles Arturo Aurelio Bernardo Carlos Claudio Diego Facundo
+		Félix Fernando Francisco Gerardo Gregorio Hugo Ignacio José Juan Luis
+		Manuel Marcos Martín Máximo Melchor Pedro Ramón Raúl Santiago Víctor }
+
+		last_names = { Aliwen Amuylifko Aukan Ayllapan Chiguay Cumin Curumilla Epulewfu Foyelkay Guaiquil
+		Huichaman Ilwen Kayupi Kumlafken Kvlapi Leviñanco Lincoman Marifil Melifilu Millakoyam
+		Millapani Nahuel Ñanku Paillacar Pillancar Quelin Remultray Unquen Waikimill Yankvleufu }
+	}
+	
+	pijao = {
+		color = {210 120 90}
+		first_names = { Agustín Antonio Aquiles Arturo Aurelio Bernardo Carlos Claudio Diego Facundo
+		Félix Fernando Francisco Gerardo Gregorio Hugo Ignacio José Juan Luis
+		Manuel Marcos Martín Máximo Melchor Pedro Ramón Raúl Santiago Víctor }
+
+		last_names = { Aliwen Amuylifko Aukan Ayllapan Chiguay Cumin Curumilla Epulewfu Foyelkay Guaiquil
+		Huichaman Ilwen Kayupi Kumlafken Kvlapi Leviñanco Lincoman Marifil Melifilu Millakoyam
+		Millapani Nahuel Ñanku Paillacar Pillancar Quelin Remultray Unquen Waikimill Yankvleufu }
+	}
+	
+	#Carib Motilone
+	burede = {
+		color = {150 80 20}
+		first_names = { Agustín Antonio Aquiles Arturo Aurelio Bernardo Carlos Claudio Diego Facundo
+		Félix Fernando Francisco Gerardo Gregorio Hugo Ignacio José Juan Luis
+		Manuel Marcos Martín Máximo Melchor Pedro Ramón Raúl Santiago Víctor }
+
+		last_names = { Aliwen Amuylifko Aukan Ayllapan Chiguay Cumin Curumilla Epulewfu Foyelkay Guaiquil
+		Huichaman Ilwen Kayupi Kumlafken Kvlapi Leviñanco Lincoman Marifil Melifilu Millakoyam
+		Millapani Nahuel Ñanku Paillacar Pillancar Quelin Remultray Unquen Waikimill Yankvleufu }
+	}
+	
+	sabril = {
+		color = {180 120 60}
+		first_names = { Agustín Antonio Aquiles Arturo Aurelio Bernardo Carlos Claudio Diego Facundo
+		Félix Fernando Francisco Gerardo Gregorio Hugo Ignacio José Juan Luis
+		Manuel Marcos Martín Máximo Melchor Pedro Ramón Raúl Santiago Víctor }
+
+		last_names = { Aliwen Amuylifko Aukan Ayllapan Chiguay Cumin Curumilla Epulewfu Foyelkay Guaiquil
+		Huichaman Ilwen Kayupi Kumlafken Kvlapi Leviñanco Lincoman Marifil Melifilu Millakoyam
+		Millapani Nahuel Ñanku Paillacar Pillancar Quelin Remultray Unquen Waikimill Yankvleufu }
+	}
+	
+	yupa = {
+		color = {210 90 60}
+		first_names = { Agustín Antonio Aquiles Arturo Aurelio Bernardo Carlos Claudio Diego Facundo
+		Félix Fernando Francisco Gerardo Gregorio Hugo Ignacio José Juan Luis
+		Manuel Marcos Martín Máximo Melchor Pedro Ramón Raúl Santiago Víctor }
+
+		last_names = { Aliwen Amuylifko Aukan Ayllapan Chiguay Cumin Curumilla Epulewfu Foyelkay Guaiquil
+		Huichaman Ilwen Kayupi Kumlafken Kvlapi Leviñanco Lincoman Marifil Melifilu Millakoyam
+		Millapani Nahuel Ñanku Paillacar Pillancar Quelin Remultray Unquen Waikimill Yankvleufu }
+	}
+	
+	quenagua = {
+		color = {180 60 20}
+		first_names = { Agustín Antonio Aquiles Arturo Aurelio Bernardo Carlos Claudio Diego Facundo
+		Félix Fernando Francisco Gerardo Gregorio Hugo Ignacio José Juan Luis
+		Manuel Marcos Martín Máximo Melchor Pedro Ramón Raúl Santiago Víctor }
+
+		last_names = { Aliwen Amuylifko Aukan Ayllapan Chiguay Cumin Curumilla Epulewfu Foyelkay Guaiquil
+		Huichaman Ilwen Kayupi Kumlafken Kvlapi Leviñanco Lincoman Marifil Melifilu Millakoyam
+		Millapani Nahuel Ñanku Paillacar Pillancar Quelin Remultray Unquen Waikimill Yankvleufu }
+	}
+	
+	umaquena = {
+		color = {160 120 20}
+		first_names = { Agustín Antonio Aquiles Arturo Aurelio Bernardo Carlos Claudio Diego Facundo
+		Félix Fernando Francisco Gerardo Gregorio Hugo Ignacio José Juan Luis
+		Manuel Marcos Martín Máximo Melchor Pedro Ramón Raúl Santiago Víctor }
+
+		last_names = { Aliwen Amuylifko Aukan Ayllapan Chiguay Cumin Curumilla Epulewfu Foyelkay Guaiquil
+		Huichaman Ilwen Kayupi Kumlafken Kvlapi Leviñanco Lincoman Marifil Melifilu Millakoyam
+		Millapani Nahuel Ñanku Paillacar Pillancar Quelin Remultray Unquen Waikimill Yankvleufu }
+	}
+	
+	tachira = {
+		color = {160 60 40}
+		first_names = { Agustín Antonio Aquiles Arturo Aurelio Bernardo Carlos Claudio Diego Facundo
+		Félix Fernando Francisco Gerardo Gregorio Hugo Ignacio José Juan Luis
+		Manuel Marcos Martín Máximo Melchor Pedro Ramón Raúl Santiago Víctor }
+
+		last_names = { Aliwen Amuylifko Aukan Ayllapan Chiguay Cumin Curumilla Epulewfu Foyelkay Guaiquil
+		Huichaman Ilwen Kayupi Kumlafken Kvlapi Leviñanco Lincoman Marifil Melifilu Millakoyam
+		Millapani Nahuel Ñanku Paillacar Pillancar Quelin Remultray Unquen Waikimill Yankvleufu }
+	}
+	
+	#Carijona Group
+	guaque = {
+		color = {150 110 90}
+		first_names = { Agustín Antonio Aquiles Arturo Aurelio Bernardo Carlos Claudio Diego Facundo
+		Félix Fernando Francisco Gerardo Gregorio Hugo Ignacio José Juan Luis
+		Manuel Marcos Martín Máximo Melchor Pedro Ramón Raúl Santiago Víctor }
+
+		last_names = { Aliwen Amuylifko Aukan Ayllapan Chiguay Cumin Curumilla Epulewfu Foyelkay Guaiquil
+		Huichaman Ilwen Kayupi Kumlafken Kvlapi Leviñanco Lincoman Marifil Melifilu Millakoyam
+		Millapani Nahuel Ñanku Paillacar Pillancar Quelin Remultray Unquen Waikimill Yankvleufu }
+	}
+	
+	umaua = {
+		color = {130 110 90}
+		first_names = { Agustín Antonio Aquiles Arturo Aurelio Bernardo Carlos Claudio Diego Facundo
+		Félix Fernando Francisco Gerardo Gregorio Hugo Ignacio José Juan Luis
+		Manuel Marcos Martín Máximo Melchor Pedro Ramón Raúl Santiago Víctor }
+
+		last_names = { Aliwen Amuylifko Aukan Ayllapan Chiguay Cumin Curumilla Epulewfu Foyelkay Guaiquil
+		Huichaman Ilwen Kayupi Kumlafken Kvlapi Leviñanco Lincoman Marifil Melifilu Millakoyam
+		Millapani Nahuel Ñanku Paillacar Pillancar Quelin Remultray Unquen Waikimill Yankvleufu }
+	}
+	
+	carijona = {
+		color = {170 130 110}
+		first_names = { Agustín Antonio Aquiles Arturo Aurelio Bernardo Carlos Claudio Diego Facundo
+		Félix Fernando Francisco Gerardo Gregorio Hugo Ignacio José Juan Luis
+		Manuel Marcos Martín Máximo Melchor Pedro Ramón Raúl Santiago Víctor }
+
+		last_names = { Aliwen Amuylifko Aukan Ayllapan Chiguay Cumin Curumilla Epulewfu Foyelkay Guaiquil
+		Huichaman Ilwen Kayupi Kumlafken Kvlapi Leviñanco Lincoman Marifil Melifilu Millakoyam
+		Millapani Nahuel Ñanku Paillacar Pillancar Quelin Remultray Unquen Waikimill Yankvleufu }
+	}
+	
+	saha = {
+		color = {150 130 60}
+		first_names = { Agustín Antonio Aquiles Arturo Aurelio Bernardo Carlos Claudio Diego Facundo
+		Félix Fernando Francisco Gerardo Gregorio Hugo Ignacio José Juan Luis
+		Manuel Marcos Martín Máximo Melchor Pedro Ramón Raúl Santiago Víctor }
+
+		last_names = { Aliwen Amuylifko Aukan Ayllapan Chiguay Cumin Curumilla Epulewfu Foyelkay Guaiquil
+		Huichaman Ilwen Kayupi Kumlafken Kvlapi Leviñanco Lincoman Marifil Melifilu Millakoyam
+		Millapani Nahuel Ñanku Paillacar Pillancar Quelin Remultray Unquen Waikimill Yankvleufu }
+	}
+	
+	ajaju = {
+		color = {155 150 90}
+		first_names = { Agustín Antonio Aquiles Arturo Aurelio Bernardo Carlos Claudio Diego Facundo
+		Félix Fernando Francisco Gerardo Gregorio Hugo Ignacio José Juan Luis
+		Manuel Marcos Martín Máximo Melchor Pedro Ramón Raúl Santiago Víctor }
+
+		last_names = { Aliwen Amuylifko Aukan Ayllapan Chiguay Cumin Curumilla Epulewfu Foyelkay Guaiquil
+		Huichaman Ilwen Kayupi Kumlafken Kvlapi Leviñanco Lincoman Marifil Melifilu Millakoyam
+		Millapani Nahuel Ñanku Paillacar Pillancar Quelin Remultray Unquen Waikimill Yankvleufu }
+	}
+	
+	mahotoyana = {
+		color = {150 115 110}
+		first_names = { Agustín Antonio Aquiles Arturo Aurelio Bernardo Carlos Claudio Diego Facundo
+		Félix Fernando Francisco Gerardo Gregorio Hugo Ignacio José Juan Luis
+		Manuel Marcos Martín Máximo Melchor Pedro Ramón Raúl Santiago Víctor }
+
+		last_names = { Aliwen Amuylifko Aukan Ayllapan Chiguay Cumin Curumilla Epulewfu Foyelkay Guaiquil
+		Huichaman Ilwen Kayupi Kumlafken Kvlapi Leviñanco Lincoman Marifil Melifilu Millakoyam
+		Millapani Nahuel Ñanku Paillacar Pillancar Quelin Remultray Unquen Waikimill Yankvleufu }
+	}
+	
+	riama = {
+		color = {170 115 110}
 		first_names = { Agustín Antonio Aquiles Arturo Aurelio Bernardo Carlos Claudio Diego Facundo
 		Félix Fernando Francisco Gerardo Gregorio Hugo Ignacio José Juan Luis
 		Manuel Marcos Martín Máximo Melchor Pedro Ramón Raúl Santiago Víctor }
@@ -15818,6 +16907,21 @@ neo_european_cultures = {
 		Foch Forey "Franchet d'Espèrey" Gallieni Gouraud Guillaumat Hamelin Harispe Hoche Humbert
 		Jaurès Joffre Lebouef Lyautey Murat "Ney d'Elchingen" Nivelle Péllissier Petain Vaillant }
 	}
+	
+	aunisan = {
+		color = {104 117 169}
+		first_names = { Achille Adolphe Adrien Aimable Alphonse Amédée Antoine Armand August Augustin
+		Charles Daniel Denis Édouard Elie Éttiene Eugène Félicien Félix Fernand
+		François Frédéric Georges Guillaume Gustave Henri Hubert Hugo Jacques Jean
+		Joseph Jules Julien Lazare Léopold Leroy Louis Lucien Matthieu Michel
+		Napoléon Nicolas Patrice Paul Philippe Pierre Robert Thibaut Thierry Thomas }
+		
+		last_names = { Anthoine "Baraguey d'Hilliers" Bazaine Billot Bonaparte Bosquet "Boué de Lapeyrère" Bouët-Willaumez Boulanger Bourbaki
+		Bugeaud Caillard Canrobert Courbet Cousin-Mountauban Davout "de Bourbon" "de Castellane" "de Castelnau" "de Gaulle" 
+		"de Langle de Cary" "de MacMahon" "de Montaignac" "de Saint Arnaud" d'Orleans Dubail Dubois Duchêne Dupetit-Thouars Exelmans
+		Foch Forey "Franchet d'Espèrey" Gallieni Gouraud Guillaumat Hamelin Harispe Hoche Humbert
+		Jaurès Joffre Lebouef Lyautey Murat "Ney d'Elchingen" Nivelle Péllissier Petain Vaillant }
+	}
 }
 
 latin_american_cultures = {
@@ -16012,6 +17116,22 @@ african_diaspora_cultures = {
 			Madiou Péralte Pierrot Planchet Price Price-Mars Riché Rigaud Rivière-Hérard Roumain
 			Roy Saget Salnave Salomon Sam Simon Soulouque Théodore Vincent Zamor }
 	}
+	
+	aquitan_kreol = { 
+		color = { 63 122 230 }
+		first_names = { Alexis André Anténor Antoine Augustin Balthazar Beaubrun Céligny Charlemagne Charles
+			Cincinnatus Dantès Demesvar Denys Emmanuel Eugène Fabre Faustin Florvil François
+			Guillaume Hannibal Henri Jacques Jean Jean-Baptiste Jean-Louis Jean-Pierre Jonathas Joseph
+			Léon Louis Louis-Eugène Louis-Joseph Lysius Michel Monpoint Nissage Nord Oreste
+			Philippe Pierre Simon Sténio Sylvain Tandredè Thomas Timoleón Tirésias Vilbrum }
+		
+			last_names = { Alexis Ardouin Auguste Bellegarde Boisrond-Canal Bonnet Borno Boyer Brutus Christophe
+			Conzé Dartiguenave Delorme Dessalines Domingue Firmin Geffrad Granville Guerrier Hyppolite
+			Iginac Janvier Jeune Lafontant Laleau Leconte Légitime Legouaze Léon Lhérisson
+			Madiou Péralte Pierrot Planchet Price Price-Mars Riché Rigaud Rivière-Hérard Roumain
+			Roy Saget Salnave Salomon Sam Simon Soulouque Théodore Vincent Zamor }
+	}
+	
 	griqua = {
 		color = {165 105 0}
 		first_names = { Sarel Rudolf Andries Hendrik Piet Racheltjie Dirkie Siener Koos Danie Christiaan Louis Petrus Paul Eugene Joubert
