@@ -1,0 +1,78 @@
+AUS = {
+	value = 125
+}
+PRU = {
+	value = 125
+}
+MUS = {
+	value = -125
+}
+
+army = {
+	name = "Army of Ruthenia"
+	location = 958
+	regiment = {
+		name= "1. Infantry"
+		type = infantry
+		home = 958
+	}
+	regiment = {
+		name= "2. Infantry"
+		type = infantry
+		home = 937
+	}
+	regiment = {
+		name= "3. Infantry"
+		type = infantry
+		home = 937
+	}
+	regiment = {
+		name= "4. Infantry"
+		type = infantry
+		home = 940
+	}
+	regiment = {
+		name= "5. Infantry"
+		type = infantry
+		home = 955
+	}
+	regiment = {
+		name= "6. Infantry"
+		type = infantry
+		home = 3344
+	}
+	regiment = {
+		name= "1. Cavalry"
+		type = cavalry
+		home = 961
+	}
+	regiment = {
+		name= "2. Cavalry"
+		type = cavalry
+		home = 3325
+	}
+	regiment = {
+		name= "3. Cavalry"
+		type = cavalry 
+		home = 960
+	}
+	regiment = {
+		name= "1. Artillery"
+		type = artillery
+		home = 3322
+	}
+	regiment = {
+		name= "2. Artillery"
+		type = artillery
+		home = 963
+	}
+}
+
+leader = {
+	name = "Vladimir Chartoryysʹkyy"
+	date = 1829.1.1
+	type = land
+	personality = harsh
+	background = aristocrat
+	prestige = 0.8
+}

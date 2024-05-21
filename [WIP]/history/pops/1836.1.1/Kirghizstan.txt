@@ -1,0 +1,595 @@
+#Semireche Region (292000) #see Kazakhstan.txt for balance of region 
+#under the "rule" of Kokand in 1836  
+#Bishkek (236000/59000 POPS) #now part of Kirghizstan   
+1189 = {
+	aristocrats = {
+		culture = qara_kirgiz
+		religion = sunni
+		size = 800
+	}
+	
+	bureaucrats = {
+		culture = qara_kirgiz
+		religion = sunni
+		size = 45
+	}
+
+	clergymen = {
+		culture = qara_kirgiz
+		religion = sunni
+		size = 225
+	}
+
+	artisans = {
+		culture = qara_kirgiz
+		religion = sunni
+		size = 200
+	}
+
+	soldiers = {
+		culture = qara_kirgiz
+		religion = sunni
+		size = 7000
+	}
+
+	farmers = {
+		culture = qara_kirgiz
+		religion = sunni
+		size = 20000
+	}
+	
+	farmers = {
+		culture = qara_kirgiz
+		religion = animist
+		size = 3775
+	}
+
+	aristocrats = {
+		culture = kirgiz
+		religion = sunni
+		size = 100
+	}
+
+	clergymen = {
+		culture = kirgiz
+		religion = sunni
+		size = 75
+	}
+
+	artisans = {
+		culture = kirgiz
+		religion = sunni
+		size = 30
+	}
+
+	soldiers = {
+		culture = kirgiz
+		religion = sunni
+		size = 75
+	}
+
+	farmers = {
+		culture = kirgiz
+		religion = sunni
+		size = 6450
+	}
+}
+
+#Merke
+4086 = {
+	aristocrats = {
+		culture = qara_kirgiz
+		religion = sunni
+		size = 200
+	}
+
+	clergymen = {
+		culture = qara_kirgiz
+		religion = sunni
+		size = 125
+	}
+
+	artisans = {
+		culture = qara_kirgiz
+		religion = sunni
+		size = 200
+	}
+
+	soldiers = {
+		culture = qara_kirgiz
+		religion = sunni
+		size = 2000
+	}
+
+	farmers = {
+		culture = qara_kirgiz
+		religion = sunni
+		size = 9000
+	}
+	
+	farmers = {
+		culture = qara_kirgiz
+		religion = animist
+		size = 775
+	}
+
+	aristocrats = {
+		culture = kirgiz
+		religion = sunni
+		size = 100
+	}
+
+	clergymen = {
+		culture = kirgiz
+		religion = sunni
+		size = 75
+	}
+
+	artisans = {
+		culture = kirgiz
+		religion = sunni
+		size = 300
+	}
+
+	soldiers = {
+		culture = kirgiz
+		religion = sunni
+		size = 75
+	}
+
+	farmers = {
+		culture = kirgiz
+		religion = sunni
+		size = 6450
+	}
+}
+
+#Awliya-Ata
+4087 = {
+	aristocrats = {
+		culture = qara_kirgiz
+		religion = sunni
+		size = 150
+	}
+
+	clergymen = {
+		culture = qara_kirgiz
+		religion = sunni
+		size = 125
+	}
+
+	artisans = {
+		culture = qara_kirgiz
+		religion = sunni
+		size = 100
+	}
+
+	soldiers = {
+		culture = qara_kirgiz
+		religion = sunni
+		size = 1000
+	}
+
+	farmers = {
+		culture = qara_kirgiz
+		religion = sunni
+		size = 8000
+	}
+	
+	farmers = {
+		culture = qara_kirgiz
+		religion = animist
+		size = 175
+	}
+
+	aristocrats = {
+		culture = kirgiz
+		religion = sunni
+		size = 10
+	}
+
+	clergymen = {
+		culture = kirgiz
+		religion = sunni
+		size = 5
+	}
+
+	artisans = {
+		culture = kirgiz
+		religion = sunni
+		size = 10
+	}
+
+	soldiers = {
+		culture = kirgiz
+		religion = sunni
+		size = 75
+	}
+
+	farmers = {
+		culture = kirgiz
+		religion = sunni
+		size = 450
+	}
+}
+
+#Tarkand
+4060 = {
+	aristocrats = {
+		culture = qara_kirgiz
+		religion = sunni
+		size = 250
+	}
+
+	clergymen = {
+		culture = qara_kirgiz
+		religion = sunni
+		size = 225
+	}
+
+	artisans = {
+		culture = qara_kirgiz
+		religion = sunni
+		size = 400
+	}
+
+	soldiers = {
+		culture = qara_kirgiz
+		religion = sunni
+		size = 1000
+	}
+
+	farmers = {
+		culture = qara_kirgiz
+		religion = sunni
+		size = 13000
+	}
+	
+	farmers = {
+		culture = qara_kirgiz
+		religion = animist
+		size = 175
+	}
+	
+	aristocrats = {
+		culture = dehgani
+		religion = sunni
+		size = 12
+	}
+
+	clergymen = {
+		culture = dehgani
+		religion = sunni
+		size = 12
+	}
+
+	artisans = {
+		culture = dehgani
+		religion = sunni
+		size = 100
+	}
+
+	soldiers = {
+		culture = dehgani
+		religion = sunni
+		size = 25
+	}
+
+	farmers = {
+		culture = dehgani
+		religion = sunni
+		size = 150
+	}	
+
+	aristocrats = {
+		culture = chaghatay
+		religion = sunni
+		size = 10
+	}
+
+	clergymen = {
+		culture = chaghatay
+		religion = sunni
+		size = 5
+	}
+
+	artisans = {
+		culture = chaghatay
+		religion = sunni
+		size = 10
+	}
+
+	soldiers = {
+		culture = chaghatay
+		religion = sunni
+		size = 75
+	}
+
+	farmers = {
+		culture = chaghatay
+		religion = sunni
+		size = 450
+	}
+}
+
+#Naryn (56000/14000 POPS) #now part of Kirghizstan    
+1190 = {
+	aristocrats = {
+		culture = qara_kirgiz
+		religion = sunni
+		size = 100
+	}
+
+	clergymen = {
+		culture = qara_kirgiz
+		religion = sunni
+		size = 50
+	}
+
+	artisans = {
+		culture = qara_kirgiz
+		religion = sunni
+		size = 200
+	}
+
+	soldiers = {
+		culture = qara_kirgiz
+		religion = sunni
+		size = 3050
+	}
+
+	farmers = {
+		culture = qara_kirgiz
+		religion = sunni
+		size = 13600
+	}
+	
+	farmers = {
+		culture = qara_kirgiz
+		religion = animist
+		size = 5000
+	}
+}
+#Kyzylsu (56000/14000 POPS) 
+3664 = {
+	aristocrats = {
+		culture = uighur
+		religion = sunni
+		size = 5
+	}
+
+	clergymen = {
+		culture = uighur
+		religion = sunni
+		size = 5
+	}
+
+	artisans = {
+		culture = uighur
+		religion = sunni
+		size = 10
+	}
+
+	soldiers = {
+		culture = uighur
+		religion = sunni
+		size = 40
+	}
+
+	farmers = {
+		culture = uighur
+		religion = sunni
+		size = 775
+	}
+	
+	aristocrats = {
+		culture = oirat
+		religion = sunni
+		size = 5
+	}
+
+	clergymen = {
+		culture = oirat
+		religion = sunni
+		size = 5
+	}
+
+	artisans = {
+		culture = oirat
+		religion = sunni
+		size = 10
+	}
+
+	soldiers = {
+		culture = oirat
+		religion = sunni
+		size = 40
+	}
+
+	farmers = {
+		culture = oirat
+		religion = sunni
+		size = 275
+	}
+
+	aristocrats = {
+		culture = qara_kirgiz
+		religion = sunni
+		size = 100
+	}
+
+	clergymen = {
+		culture = qara_kirgiz
+		religion = sunni
+		size = 50
+	}
+
+	artisans = {
+		culture = qara_kirgiz
+		religion = sunni
+		size = 200
+	}
+
+	soldiers = {
+		culture = qara_kirgiz
+		religion = sunni
+		size = 1050
+	}
+
+	farmers = {
+		culture = qara_kirgiz
+		religion = sunni
+		size = 4000
+	}
+	
+	farmers = {
+		culture = qara_kirgiz
+		religion = animist
+		size = 6600
+	}
+}
+#Mawarannahr Region (112000) #see Kazakhstan.txt, Tajikistan.txt, Uzbekistan.txt for balance of region 
+#under the rule of Kokand in 1836  
+#Osh (112000/28000 POPS) #Now part of Kirghizstan   
+1203 = {
+	aristocrats = {
+		culture = chaghatay
+		religion = sunni
+		size = 175
+	}
+
+	clergymen = {
+		culture = chaghatay
+		religion = sunni
+		size = 75
+	}
+
+	soldiers = {
+		culture = chaghatay
+		religion = sunni
+		size = 100
+	}
+
+	farmers = {
+		culture = chaghatay
+		religion = sunni
+		size = 13200
+	}
+
+	aristocrats = {
+		culture = qara_kirgiz
+		religion = sunni
+		size = 75
+	}
+
+	clergymen = {
+		culture = qara_kirgiz
+		religion = sunni
+		size = 50
+	}
+
+	soldiers = {
+		culture = qara_kirgiz
+		religion = sunni
+		size = 2000
+	}
+
+	soldiers = {
+		culture = qara_kirgiz
+		religion = sunni
+		size = 1000
+	}
+
+	farmers = {
+		culture = qara_kirgiz
+		religion = sunni
+		size = 5000
+	}
+	
+	aristocrats = {
+		culture = dehgani
+		religion = sunni
+		size = 300
+	}
+
+	clergymen = {
+		culture = dehgani
+		religion = sunni
+		size = 125
+	}
+
+	artisans = {
+		culture = dehgani
+		religion = sunni
+		size = 1350
+	}
+
+	soldiers = {
+		culture = dehgani
+		religion = sunni
+		size = 1000
+	}
+
+	farmers = {
+		culture = dehgani
+		religion = sunni
+		size = 3550
+	}
+}
+
+#Qyzylsu  
+4063 = {
+	aristocrats = {
+		culture = qara_kirgiz
+		religion = sunni
+		size = 75
+	}
+
+	clergymen = {
+		culture = qara_kirgiz
+		religion = sunni
+		size = 50
+	}
+
+	soldiers = {
+		culture = qara_kirgiz
+		religion = sunni
+		size = 1000
+	}
+
+	farmers = {
+		culture = qara_kirgiz
+		religion = sunni
+		size = 7000
+	}
+	
+	aristocrats = {
+		culture = dehgani
+		religion = sunni
+		size = 20
+	}
+
+	clergymen = {
+		culture = dehgani
+		religion = sunni
+		size = 15
+	}
+
+	artisans = {
+		culture = dehgani
+		religion = sunni
+		size = 150
+	}
+
+	soldiers = {
+		culture = dehgani
+		religion = sunni
+		size = 100
+	}
+
+	farmers = {
+		culture = dehgani
+		religion = sunni
+		size = 550
+	}
+}

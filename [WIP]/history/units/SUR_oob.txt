@@ -1,0 +1,244 @@
+army = {
+	name = "1. Army"
+	location = 1240
+	
+	regiment = {
+		name = "Irregular"
+		type = irregular
+		home = 1240
+	}
+	
+	regiment = {
+		name = "Irregular"
+		type = irregular
+		home = 3875
+	}
+	
+	regiment = {
+		name = "Irregular"
+		type = irregular
+		home = 1243
+	}
+	
+	regiment = {
+		name = "Infantry"
+		type = infantry
+		home = 1241
+	}
+	
+	regiment = {
+		name = "Infantry"
+		type = infantry
+		home = 1242
+	}
+	
+	regiment = {
+		name = "Infantry"
+		type = infantry
+		home = 1240
+	}
+	
+	regiment = {
+		name = "Guards"
+		type = guard
+		home = 1240
+	}
+	
+	regiment = {
+		name = "Cavalry"
+		type = cavalry
+		home = 3876
+	}
+	
+	regiment = {
+		name = "Cavalry"
+		type = cavalry
+		home = 3877
+	}
+	
+	regiment = {
+		name = "Artillery"
+		type = artillery
+		home = 1240
+	}
+}
+
+army = {
+	name = "2. Army"
+	location = 3875
+	
+	regiment = {
+		name = "Irregular"
+		type = irregular
+		home = 3875
+	}
+	
+	regiment = {
+		name = "Irregular"
+		type = irregular
+		home = 1240
+	}
+	
+	regiment = {
+		name = "Irregular"
+		type = irregular
+		home = 1241
+	}
+	
+	regiment = {
+		name = "Irregular"
+		type = irregular
+		home = 1242
+	}
+	
+	regiment = {
+		name = "Infantry"
+		type = infantry
+		home = 1243
+	}
+	
+	regiment = {
+		name = "Infantry"
+		type = infantry
+		home = 1274
+	}
+	
+	regiment = {
+		name = "infantry"
+		type = infantry
+		home = 1244
+	}
+	
+	regiment = {
+		name = "Cavalry"
+		type = cavalry
+		home = 3876
+	}
+	
+	regiment = {
+		name = "Cavalry"
+		type = cavalry
+		home = 1246
+	}
+	
+	regiment = {
+		name = "Artillery"
+		type = artillery
+		home = 3851
+	}
+}
+
+army = {
+	name = "3. Army"
+	location = 1245
+	
+	regiment = {
+		name = "Irregular"
+		type = irregular
+		home = 1245
+	}
+	
+	regiment = {
+		name = "Irregular"
+		type = irregular
+		home = 1274
+	}
+	
+	regiment = {
+		name = "Infantry"
+		type = infantry
+		home = 1243
+	}
+	
+	regiment = {
+		name = "Cavalry"
+		type = cavalry
+		home = 1244
+	}
+	
+	regiment = {
+		name = "Artillery"
+		type = artillery
+		home = 1246
+	}
+}
+
+army = {
+	name = "4. Army"
+	location = 3746
+	
+	regiment = {
+		name = "Irregular"
+		type = irregular
+		home = 3746
+	}
+	
+	regiment = {
+		name = "Irregular"
+		type = irregular
+		home = 3828
+	}
+	
+	regiment = {
+		name = "Infantry"
+		type = infantry
+		home = 1250
+	}
+	
+	regiment = {
+		name = "Cavalry"
+		type = cavalry
+		home = 1255
+	}
+	
+	regiment = {
+		name = "Artillery"
+		type = artillery
+		home = 3850
+	}
+}
+
+army = {
+	name = "5. Army"
+	location = 1254
+	
+	regiment = {
+		name = "Irregular"
+		type = irregular
+		home = 1254
+	}
+	
+	regiment = {
+		name = "Infantry"
+		type = infantry
+		home = 1255
+	}
+	
+	regiment = {
+		name = "Infantry"
+		type = infantry
+		home = 3820
+	}
+	
+	regiment = {
+		name = "Cavalry"
+		type = cavalry
+		home = 1257
+	}
+	
+	regiment = {
+		name = "Artillery"
+		type = artillery
+		home = 3822
+	}
+}
+
+leader = {
+	name = "Bahadur Shah Suri"
+	#picture = european_general_36
+	date = 1830.1.1
+	type = land
+	personality = soldierly
+	background = aristocrat
+	prestige = 0.1
+}

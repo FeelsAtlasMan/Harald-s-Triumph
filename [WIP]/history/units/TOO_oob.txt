@@ -1,0 +1,83 @@
+MOR = {
+	value = -200
+}
+
+SEG = {
+	value = -200
+}
+
+WOL = {
+	value = 150
+}
+
+JAL = {
+	value = 200
+}
+
+army = {
+	name = "Army of the Sultan"
+	location = 1800
+	
+    regiment = {
+	  name= "Almaami's Guards"
+	  type = infantry
+	  home = 1789
+	}
+
+    regiment = {
+      name= "Fulbe Warriors"
+	  type = cavalry
+	  home = 1790
+	}
+	
+	regiment = {
+      name= "Fulbe Warriors"
+	  type = cavalry
+	  home = 1789
+	}
+	
+	regiment = {
+      name= "Fulbe Warriors"
+	  type = cavalry
+	  home = 1790
+	}
+}
+
+army = {
+	name = "Army of the Fulaar"
+	location = 1797
+	
+    regiment = {
+	  name= "Fulaar Warriors"
+	  type = cavalry
+	  home = 1797
+	}
+
+    regiment = {
+      name= "Fulaar Warriors"
+	  type = cavalry
+	  home = 1797
+	}
+	
+	regiment = {
+      name= "Fulaar Warriors"
+	  type = cavalry
+	  home = 1796
+	}
+	
+	regiment = {
+      name= "Fulaar Warriors"
+	  type = cavalry
+	  home = 1796
+	}
+}
+
+leader = {
+	name = "Muhammad ibn Abd"
+	type = land
+	date = 1820.1.1
+	background = natural_born_leader
+	personality = unflinching
+	prestige = 0.1
+	}
+

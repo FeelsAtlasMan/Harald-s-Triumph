@@ -1,0 +1,40 @@
+#Seychelles - 5000
+#ruled by Britain 1836
+#Seychelles (5000/1250 POPS)
+2127 = {
+	aristocrats = {
+		culture = misri
+		religion = sunni
+		size = 20
+	}
+
+	aristocrats = {
+		culture = kreol
+		religion = sunni
+		size = 30
+	}
+	
+	soldiers = {
+		culture = kreol
+		religion = sunni
+		size = 30
+	}
+	
+	clergymen = {
+		culture = kreol
+		religion = sunni
+		size = 30
+	}
+
+	artisans = {
+		culture = kreol
+		religion = sunni
+		size = 75
+	}
+
+	farmers = {
+		culture = kreol
+		religion = sunni
+		size = 1175
+	}
+}

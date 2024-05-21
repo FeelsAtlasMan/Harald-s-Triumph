@@ -1,0 +1,65 @@
+army = {
+	name = "Army"
+	location = 1228
+	regiment = {
+		name= "Inf"
+		type = irregular
+		home = 1227
+	}
+        regiment = {
+		name= "Inf"
+		type = irregular
+		home = 1227
+	}
+        regiment = {
+		name= "Inf"
+		type = irregular
+		home = 1227
+	}
+        regiment = {
+		name= "Cav"
+		type = cavalry
+		home = 1228
+	}
+        regiment = {
+		name= "Cav"
+		type = cavalry
+		home = 1228
+	}
+        regiment = {
+		name= "Art"
+		type = artillery
+		home = 1228
+	}
+}
+
+army = {
+	name = "Army"
+	location = 3841
+	regiment = {
+		name= "Inf"
+		type = irregular
+		home = 3841
+	}
+        regiment = {
+		name= "Inf"
+		type = irregular
+		home = 3841
+	}
+        regiment = {
+		name= "Cav"
+		type = cavalry
+		home = 3841
+	}
+        regiment = {
+		name= "Cav"
+		type = cavalry
+		home = 1232
+	}
+        regiment = {
+		name= "Art"
+		type = artillery
+		home = 1231
+	}
+}
+

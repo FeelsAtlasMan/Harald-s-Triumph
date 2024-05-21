@@ -1,0 +1,76 @@
+capital = 1258
+primary_culture = haka_chin
+culture = falam_chin
+culture = bawm_chin
+culture = bualkhaw_chin
+culture = lautu_chin
+culture = mara_chin
+culture = senthang_chin
+culture = zotung_chin
+culture = khumi_chin
+culture = mro_chin
+culture = ngawn_chin
+culture = sizang_chin
+culture = paite_chin
+culture = tedim_chin
+culture = thado_chin
+culture = asho_chin
+culture = sumtu_chin
+culture = chinbon_chin
+culture = daai_chin
+culture = kaang_chin
+culture = mun_chin
+culture = nga_la_chin
+culture = laitu_chin
+culture = songlai_chin
+culture = rungtu_chin
+culture = thaiphum_chin
+religion = animist
+government = absolute_monarchy
+plurality = 0.0
+nationalvalue = nv_tradition
+literacy = 0.01
+
+# Political reforms
+slavery = yes_slavery
+upper_house_composition = appointed
+vote_franschise = none_voting
+public_meetings = no_meeting
+press_rights = state_press
+trade_unions = no_trade_unions
+voting_system = first_past_the_post
+political_parties = underground_parties
+
+# Social Reforms
+wage_reform = no_minimum_wage
+work_hours = no_work_hour_limit
+safety_regulations = no_safety
+health_care = no_health_care
+unemployment_subsidies = no_subsidies
+pensions = no_pensions
+school_reforms = no_schools
+
+#New Reforms
+conscription = no_draft
+debt_law = serfdom
+penal_system = capital_punishment
+child_labor = child_labor_legal
+citizens_rights = primary_culture_only
+border_policy = open_borders
+centralization = confederalism
+colonial_policy = no_colonies 
+
+set_country_flag = animism_country
+
+ruling_party = ASM_conservative
+upper_house = {
+	fascist = 0
+	liberal = 12
+	conservative = 77
+	reactionary = 11
+	anarcho_liberal = 0
+	socialist = 0
+	communist = 0
+}
+
+oob = "BCH_oob.txt"

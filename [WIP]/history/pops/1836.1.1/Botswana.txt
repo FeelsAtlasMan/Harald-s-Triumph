@@ -1,0 +1,344 @@
+#Bechuanaland Region (76000) #see South Africa.txt for balance of region 
+#uncolonized in 1836/dominated by the Tswana in 1836
+#Gaborone (28000/7000 POPS) 
+2074 = {
+	aristocrats = {
+		culture = tswana
+		religion = animist
+		size = 125
+	}
+
+	clergymen = {
+		culture = tswana
+		religion = animist
+		size = 75
+	}
+
+	artisans = {
+		culture = tswana
+		religion = animist
+		size = 350
+	}
+
+	soldiers = {
+		culture = tswana
+		religion = animist
+		size = 1075
+	}
+
+	farmers = {
+		culture = tswana
+		religion = animist
+		size = 5375
+	}
+	
+	artisans = {
+		culture = kxa_khoi
+		religion = animist
+		size = 50
+	}
+
+	soldiers = {
+		culture = kxa_khoi
+		religion = animist
+		size = 375
+	}
+
+	farmers = {
+		culture = kxa_khoi
+		religion = animist
+		size = 2075
+	}
+	
+	farmers = {
+		culture = khoisan
+		religion = animist
+		size = 575
+	}
+}
+#Nokaneng (12000/3000 POPS) 
+2076 = {
+	aristocrats = {
+		culture = khoisan
+		religion = animist
+		size = 15
+	}
+
+	clergymen = {
+		culture = khoisan
+		religion = animist
+		size = 25
+	}
+
+	artisans = {
+		culture = khoisan
+		religion = animist
+		size = 50
+	}
+
+	soldiers = {
+		culture = khoisan
+		religion = animist
+		size = 10
+	}
+
+	farmers = {
+		culture = khoisan
+		religion = animist
+		size = 1000
+	}
+	
+	farmers = {
+		culture = kxa_khoi
+		religion = animist
+		size = 300
+	}
+	
+	farmers = {
+		culture = kavango
+		religion = animist
+		size = 600
+	}
+
+	aristocrats = {
+		culture = herero
+		religion = animist
+		size = 25
+	}
+
+	clergymen = {
+		culture = herero
+		religion = animist
+		size = 50
+	}
+
+	artisans = {
+		culture = herero
+		religion = animist
+		size = 100
+	}
+
+	soldiers = {
+		culture = herero
+		religion = animist
+		size = 25
+	}
+
+	farmers = {
+		culture = herero
+		religion = animist
+		size = 1000
+	}
+}
+#Tshabong (12000/3000 POPS) 
+2077 = {
+	aristocrats = {
+		culture = taa_khoi
+		religion = animist
+		size = 25
+	}
+
+	clergymen = {
+		culture = taa_khoi
+		religion = animist
+		size = 50
+	}
+
+	artisans = {
+		culture = taa_khoi
+		religion = animist
+		size = 100
+	}
+
+	soldiers = {
+		culture = taa_khoi
+		religion = animist
+		size = 25
+	}
+
+	farmers = {
+		culture = taa_khoi
+		religion = animist
+		size = 1200
+	}
+	
+	farmers = {
+		culture = kxa_khoi
+		religion = animist
+		size = 600
+	}
+	
+	farmers = {
+		culture = khoisan
+		religion = animist
+		size = 400
+	}
+
+	aristocrats = {
+		culture = tswana
+		religion = animist
+		size = 15
+	}
+
+	clergymen = {
+		culture = tswana
+		religion = animist
+		size = 25
+	}
+
+	artisans = {
+		culture = tswana
+		religion = animist
+		size = 50
+	}
+
+	soldiers = {
+		culture = tswana
+		religion = animist
+		size = 10
+	}
+
+	farmers = {
+		culture = tswana
+		religion = animist
+		size = 500
+	}
+}
+#Mochidi (16000/4000 POPS) 
+2574 = {
+	aristocrats = {
+		culture = tswana
+		religion = animist
+		size = 50
+	}
+
+	clergymen = {
+		culture = tswana
+		religion = animist
+		size = 50
+	}
+
+	artisans = {
+		culture = tswana
+		religion = animist
+		size = 500
+	}
+
+	soldiers = {
+		culture = tswana
+		religion = animist
+		size = 1050
+	}
+
+	farmers = {
+		culture = tswana
+		religion = animist
+		size = 20650
+	}
+	
+	farmers = {
+		culture = khoisan
+		religion = animist
+		size = 2650
+	}
+}
+#under the rule of Matabele in 1836
+#Serowe (16000/4000 POPS) 
+2075 = {
+	aristocrats = {
+		culture = shona
+		religion = animist
+		size = 30
+	}
+
+	clergymen = {
+		culture = shona
+		religion = animist
+		size = 30
+	}
+
+	artisans = {
+		culture = shona
+		religion = animist
+		size = 100
+	}
+
+	soldiers = {
+		culture = shona
+		religion = animist
+		size = 40
+	}
+
+	farmers = {
+		culture = shona
+		religion = animist
+		size = 1800
+	}
+	
+	aristocrats = {
+		culture = ndebele
+		religion = animist
+		size = 30
+	}
+
+	clergymen = {
+		culture = ndebele
+		religion = animist
+		size = 3
+	}
+
+	artisans = {
+		culture = ndebele
+		religion = animist
+		size = 10
+	}
+
+	soldiers = {
+		culture = ndebele
+		religion = animist
+		size = 40
+	}
+
+	farmers = {
+		culture = ndebele
+		religion = animist
+		size = 200
+	}
+
+	aristocrats = {
+		culture = sotho
+		religion = animist
+		size = 30
+	}
+
+	clergymen = {
+		culture = sotho
+		religion = animist
+		size = 50
+	}
+
+	artisans = {
+		culture = sotho
+		religion = animist
+		size = 100
+	}
+
+	soldiers = {
+		culture = sotho
+		religion = animist
+		size = 20
+	}
+
+	farmers = {
+		culture = sotho
+		religion = animist
+		size = 800
+	}
+	
+	farmers = {
+		culture = khoisan
+		religion = animist
+		size = 800
+	}
+
+}

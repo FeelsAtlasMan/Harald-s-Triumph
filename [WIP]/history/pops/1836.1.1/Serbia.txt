@@ -1,0 +1,2157 @@
+#Mitrovica
+791 = {
+    clergymen = {
+        culture = shtokavian
+        religion = orthodox
+        size = 500
+    }
+
+    artisans = {
+        culture = shtokavian
+        religion = orthodox
+        size = 7000
+    }
+
+    soldiers = {
+        culture = shtokavian
+        religion = orthodox
+        size = 2000
+    }
+
+    farmers = {
+        culture = shtokavian
+        religion = orthodox
+        size = 7000
+    }
+
+    clergymen = {
+        culture = shtokavian
+        religion = catholic
+        size = 200
+    }
+
+    artisans = {
+        culture = shtokavian
+        religion = catholic
+        size = 4600
+    }
+
+    soldiers = {
+        culture = shtokavian
+        religion = catholic
+        size = 1000
+    }
+
+    farmers = {
+        culture = shtokavian
+        religion = catholic
+        size = 7000
+    }
+
+    aristocrats = {
+        culture = hungarian
+        religion = catholic
+        size = 600
+    }
+
+    clergymen = {
+        culture = hungarian
+        religion = catholic
+        size = 50
+    }
+
+    artisans = {
+        culture = hungarian
+        religion = catholic
+        size = 1350
+    }
+
+    soldiers = {
+        culture = hungarian
+        religion = catholic
+        size = 75
+    }
+
+    farmers = {
+        culture = hungarian
+        religion = catholic
+        size = 2900
+    }
+
+    farmers = {
+        culture = gypsy
+        religion = catholic
+        size = 5500
+    }
+
+    artisans = {
+        culture = ashkenazi
+        religion = jewish
+        size = 550
+    }
+
+    serfs = {
+        culture = shtokavian
+        religion = catholic
+        size = 20000
+    }
+
+    serfs = {
+        culture = shtokavian
+        religion = orthodox
+        size = 50000
+    }
+
+}
+
+#Pancevo
+792 = {
+    clergymen = {
+        culture = shtokavian
+        religion = orthodox
+        size = 250
+    }
+
+    artisans = {
+        culture = shtokavian
+        religion = orthodox
+        size = 3600
+    }
+
+    soldiers = {
+        culture = shtokavian
+        religion = orthodox
+        size = 300
+    }
+
+    serfs = {
+        culture = shtokavian
+        religion = orthodox
+        size = 28000
+    }
+
+    farmers = {
+        culture = shtokavian
+        religion = catholic
+        size = 5000
+    }
+
+    farmers = {
+        culture = gypsy
+        religion = orthodox
+        size = 2900
+    }
+
+    aristocrats = {
+        culture = hungarian
+        religion = catholic
+        size = 600
+    }
+
+    clergymen = {
+        culture = hungarian
+        religion = catholic
+        size = 200
+    }
+
+    artisans = {
+        culture = hungarian
+        religion = catholic
+        size = 3600
+    }
+
+    soldiers = {
+        culture = hungarian
+        religion = catholic
+        size = 1100
+    }
+
+    farmers = {
+        culture = hungarian
+        religion = catholic
+        size = 4000
+    }
+
+    clergymen = {
+        culture = romanian
+        religion = orthodox
+        size = 100
+    }
+
+    artisans = {
+        culture = romanian
+        religion = orthodox
+        size = 800
+    }
+
+    soldiers = {
+        culture = romanian
+        religion = orthodox
+        size = 100
+    }
+
+    serfs = {
+        culture = romanian
+        religion = orthodox
+        size = 500
+    }
+
+    farmers = {
+        culture = ashkenazi
+        religion = jewish
+        size = 300
+    }
+
+    soldiers = {
+        culture = ashkenazi
+        religion = jewish
+        size = 100
+    }
+
+    artisans = {
+        culture = ashkenazi
+        religion = jewish
+        size = 600
+    }
+
+    clergymen = {
+        culture = ashkenazi
+        religion = jewish
+        size = 100
+    }
+
+    serfs = {
+        culture = hungarian
+        religion = catholic
+        size = 21000
+    }
+
+}
+
+#Novi Sad
+2538 = {
+    officers = {
+        culture = shtokavian
+        religion = orthodox
+        size = 100
+    }
+
+    clergymen = {
+        culture = shtokavian
+        religion = orthodox
+        size = 300
+    }
+
+    artisans = {
+        culture = shtokavian
+        religion = orthodox
+        size = 5200
+    }
+
+    soldiers = {
+        culture = shtokavian
+        religion = orthodox
+        size = 300
+    }
+
+    serfs = {
+        culture = shtokavian
+        religion = orthodox
+        size = 36000
+    }
+
+    farmers = {
+        culture = shtokavian
+        religion = catholic
+        size = 1000
+    }
+
+    aristocrats = {
+        culture = hungarian
+        religion = catholic
+        size = 1400
+    }
+
+    clergymen = {
+        culture = hungarian
+        religion = catholic
+        size = 300
+    }
+
+    artisans = {
+        culture = hungarian
+        religion = catholic
+        size = 3500
+    }
+
+    soldiers = {
+        culture = hungarian
+        religion = catholic
+        size = 300
+    }
+
+    farmers = {
+        culture = hungarian
+        religion = catholic
+        size = 10000
+    }
+
+    serfs = {
+        culture = gypsy
+        religion = catholic
+        size = 900
+    }
+
+    clergymen = {
+        culture = shtokavian
+        religion = catholic
+        size = 100
+    }
+
+    artisans = {
+        culture = shtokavian
+        religion = catholic
+        size = 250
+    }
+
+    soldiers = {
+        culture = shtokavian
+        religion = catholic
+        size = 50
+    }
+
+    serfs = {
+        culture = shtokavian
+        religion = catholic
+        size = 5200
+    }
+
+    artisans = {
+        culture = ashkenazi
+        religion = jewish
+        size = 425
+    }
+
+    serfs = {
+        culture = hungarian
+        religion = catholic
+        size = 20000
+    }
+
+}
+
+#Belgrade
+794 = {
+    aristocrats = {
+        culture = shtokavian
+        religion = orthodox
+        size = 2200
+    }
+
+    bureaucrats = {
+        culture = shtokavian
+        religion = orthodox
+        size = 100
+    }
+
+    officers = {
+        culture = shtokavian
+        religion = orthodox
+        size = 250
+    }
+
+    clergymen = {
+        culture = shtokavian
+        religion = orthodox
+        size = 900
+    }
+
+    artisans = {
+        culture = shtokavian
+        religion = orthodox
+        size = 5000
+    }
+
+    soldiers = {
+        culture = shtokavian
+        religion = orthodox
+        size = 225
+    }
+
+    farmers = {
+        culture = shtokavian
+        religion = orthodox
+        size = 2000
+    }
+
+    serfs = {
+        culture = shtokavian
+        religion = orthodox
+        size = 1000
+    }
+	
+	aristocrats = {
+        culture = hungarian
+        religion = catholic
+        size = 700
+    }
+
+    bureaucrats = {
+        culture = hungarian
+        religion = catholic
+        size = 50
+    }
+
+    officers = {
+        culture = hungarian
+        religion = catholic
+        size = 50
+    }
+
+    clergymen = {
+        culture = hungarian
+        religion = catholic
+        size = 200
+    }
+
+    artisans = {
+        culture = hungarian
+        religion = catholic
+        size = 3000
+    }
+
+    soldiers = {
+        culture = hungarian
+        religion = catholic
+        size = 125
+    }
+
+    farmers = {
+        culture = hungarian
+        religion = catholic
+        size = 2925
+    }
+
+    clergymen = {
+        culture = ashkenazi
+        religion = jewish
+        size = 50
+    }
+
+    artisans = {
+        culture = ashkenazi
+        religion = jewish
+        size = 1000
+    }
+    
+    serfs = {
+        culture = gypsy
+        religion = orthodox
+        size = 4500
+    }
+
+}
+
+#Valjevo
+3889 = {
+    aristocrats = {
+        culture = shtokavian
+        religion = orthodox
+        size = 1600
+    }
+
+    clergymen = {
+        culture = shtokavian
+        religion = orthodox
+        size = 1500
+    }
+
+    artisans = {
+        culture = shtokavian
+        religion = orthodox
+        size = 1200
+    }
+
+    soldiers = {
+        culture = shtokavian
+        religion = orthodox
+        size = 1225
+    }
+
+    farmers = {
+        culture = shtokavian
+        religion = orthodox
+        size = 16000
+    }
+
+    serfs = {
+        culture = shtokavian
+        religion = orthodox
+        size = 65000
+    }
+
+    farmers = {
+        culture = gypsy
+        religion = orthodox
+        size = 1500
+    }
+}
+
+#Krupanj
+4157 = {
+    aristocrats = {
+        culture = shtokavian
+        religion = orthodox
+        size = 500
+    }
+
+    clergymen = {
+        culture = shtokavian
+        religion = orthodox
+        size = 140
+    }
+
+    artisans = {
+        culture = shtokavian
+        religion = orthodox
+        size = 320
+    }
+
+    soldiers = {
+        culture = shtokavian
+        religion = orthodox
+        size = 525
+    }
+
+    farmers = {
+        culture = shtokavian
+        religion = orthodox
+        size = 3000
+    }
+
+    serfs = {
+        culture = shtokavian
+        religion = orthodox
+        size = 16000
+    }
+
+    farmers = {
+        culture = gypsy
+        religion = orthodox
+        size = 350
+    }
+}
+
+#Sabac
+4158 = {
+    bureaucrats = {
+        culture = shtokavian
+        religion = orthodox
+        size = 30
+    }
+	
+    aristocrats = {
+        culture = shtokavian
+        religion = orthodox
+        size = 100
+    }
+
+    clergymen = {
+        culture = shtokavian
+        religion = orthodox
+        size = 90
+    }
+
+    artisans = {
+        culture = shtokavian
+        religion = orthodox
+        size = 220
+    }
+
+    soldiers = {
+        culture = shtokavian
+        religion = orthodox
+        size = 125
+    }
+
+    farmers = {
+        culture = shtokavian
+        religion = orthodox
+        size = 1000
+    }
+
+    serfs = {
+        culture = shtokavian
+        religion = orthodox
+        size = 6000
+    }
+
+    farmers = {
+        culture = gypsy
+        religion = orthodox
+        size = 150
+    }
+}
+
+#Trgoviste
+4159 = {
+    aristocrats = {
+        culture = shtokavian
+        religion = orthodox
+        size = 400
+    }
+
+    clergymen = {
+        culture = shtokavian
+        religion = orthodox
+        size = 150
+    }
+
+    artisans = {
+        culture = shtokavian
+        religion = orthodox
+        size = 120
+    }
+
+    soldiers = {
+        culture = shtokavian
+        religion = orthodox
+        size = 125
+    }
+
+    farmers = {
+        culture = shtokavian
+        religion = orthodox
+        size = 1600
+    }
+
+    serfs = {
+        culture = shtokavian
+        religion = orthodox
+        size = 9000
+    }
+	
+	aristocrats = {
+        culture = albanian
+        religion = orthodox
+        size = 200
+    }
+
+    clergymen = {
+        culture = albanian
+        religion = orthodox
+        size = 110
+    }
+
+    artisans = {
+        culture = albanian
+        religion = orthodox
+        size = 110
+    }
+
+    soldiers = {
+        culture = albanian
+        religion = orthodox
+        size = 125
+    }
+
+    serfs = {
+        culture = albanian
+        religion = orthodox
+        size = 600
+    }
+
+    farmers = {
+        culture = albanian
+        religion = orthodox
+        size = 4000
+    }
+	
+	aristocrats = {
+        culture = ashkenazi
+        religion = jewish
+        size = 10
+    }
+
+    clergymen = {
+        culture = ashkenazi
+        religion = jewish
+        size = 50
+    }
+
+    artisans = {
+        culture = ashkenazi
+        religion = jewish
+        size = 120
+    }
+
+    serfs = {
+        culture = gypsy
+        religion = orthodox
+        size = 750
+    }
+}
+
+#Boljevac
+3304 = {
+    aristocrats = {
+        culture = shtokavian
+        religion = orthodox
+        size = 100
+    }
+
+    aristocrats = {
+        culture = shtokavian
+        religion = orthodox
+        size = 200
+    }
+
+    clergymen = {
+        culture = shtokavian
+        religion = orthodox
+        size = 85
+    }
+
+    artisans = {
+        culture = shtokavian
+        religion = orthodox
+        size = 1000
+    }
+
+    soldiers = {
+        culture = shtokavian
+        religion = orthodox
+        size = 900
+    }
+
+    farmers = {
+        culture = shtokavian
+        religion = orthodox
+        size = 2000
+    }
+	
+	serfs = {
+        culture = shtokavian
+        religion = orthodox
+        size = 8000
+    }
+
+    farmers = {
+        culture = torlakian
+        religion = orthodox
+        size = 360
+    }
+	
+	serfs = {
+        culture = torlakian
+        religion = orthodox
+        size = 1000
+    }
+
+    clergymen = {
+        culture = romanian
+        religion = orthodox
+        size = 10
+    }
+
+    artisans = {
+        culture = romanian
+        religion = orthodox
+        size = 50
+    }
+
+    soldiers = {
+        culture = romanian
+        religion = orthodox
+        size = 40
+    }
+	
+	farmers = {
+        culture = romanian
+        religion = orthodox
+        size = 500
+    }
+
+    serfs = {
+        culture = romanian
+        religion = orthodox
+        size = 1400
+    }
+
+    serfs = {
+        culture = gypsy
+        religion = orthodox
+        size = 900
+    }
+
+}
+
+#Bor
+795 = {
+    aristocrats = {
+        culture = shtokavian
+        religion = orthodox
+        size = 100
+    }
+
+    clergymen = {
+        culture = shtokavian
+        religion = orthodox
+        size = 50
+    }
+
+    artisans = {
+        culture = shtokavian
+        religion = orthodox
+        size = 100
+    }
+
+    soldiers = {
+        culture = shtokavian
+        religion = orthodox
+        size = 200
+    }
+
+    farmers = {
+        culture = shtokavian
+        religion = orthodox
+        size = 200
+    }
+	
+	serfs = {
+        culture = shtokavian
+        religion = orthodox
+        size = 800
+    }
+	
+	aristocrats = {
+        culture = bulgarian
+        religion = orthodox
+        size = 20
+    }
+
+    clergymen = {
+        culture = bulgarian
+        religion = orthodox
+        size = 10
+    }
+
+    artisans = {
+        culture = bulgarian
+        religion = orthodox
+        size = 40
+    }
+
+    soldiers = {
+        culture = bulgarian
+        religion = orthodox
+        size = 100
+    }
+
+    farmers = {
+        culture = bulgarian
+        religion = orthodox
+        size = 300
+    }
+
+    aristocrats = {
+        culture = torlakian
+        religion = orthodox
+        size = 20
+    }
+
+    clergymen = {
+        culture = torlakian
+        religion = orthodox
+        size = 10
+    }
+
+    artisans = {
+        culture = torlakian
+        religion = orthodox
+        size = 40
+    }
+
+    soldiers = {
+        culture = torlakian
+        religion = orthodox
+        size = 40
+    }
+
+    farmers = {
+        culture = torlakian
+        religion = orthodox
+        size = 200
+    }
+	
+    clergymen = {
+        culture = romanian
+        religion = orthodox
+        size = 100
+    }
+
+    artisans = {
+        culture = romanian
+        religion = orthodox
+        size = 500
+    }
+
+    soldiers = {
+        culture = romanian
+        religion = orthodox
+        size = 400
+    }
+
+    farmers = {
+        culture = romanian
+        religion = orthodox
+        size = 2000
+    }
+	
+	serfs = {
+        culture = romanian
+        religion = orthodox
+        size = 8000
+    }
+
+    serfs = {
+        culture = gypsy
+        religion = orthodox
+        size = 700
+    }
+
+}
+
+#Pozharevac
+4133 = {
+    aristocrats = {
+        culture = romanian
+        religion = orthodox
+        size = 150
+    }
+
+    clergymen = {
+        culture = romanian
+        religion = orthodox
+        size = 50
+    }
+
+    artisans = {
+        culture = romanian
+        religion = orthodox
+        size = 100
+    }
+
+    soldiers = {
+        culture = romanian
+        religion = orthodox
+        size = 600
+    }
+
+    farmers = {
+        culture = romanian
+        religion = orthodox
+        size = 200
+    }
+	
+	serfs = {
+        culture = romanian
+        religion = orthodox
+        size = 800
+    }
+
+    clergymen = {
+        culture = shtokavian
+        religion = orthodox
+        size = 100
+    }
+
+    artisans = {
+        culture = shtokavian
+        religion = orthodox
+        size = 500
+    }
+
+    soldiers = {
+        culture = shtokavian
+        religion = orthodox
+        size = 400
+    }
+
+    farmers = {
+        culture = shtokavian
+        religion = orthodox
+        size = 3000
+    }
+	
+	serfs = {
+        culture = shtokavian
+        religion = orthodox
+        size = 10000
+    }
+
+    serfs = {
+        culture = gypsy
+        religion = orthodox
+        size = 700
+    }
+
+}
+
+#Kragujevac
+796 = {
+    aristocrats = {
+        culture = shtokavian
+        religion = orthodox
+        size = 2000
+    }
+
+    clergymen = {
+        culture = shtokavian
+        religion = orthodox
+        size = 300
+    }
+
+    artisans = {
+        culture = shtokavian
+        religion = orthodox
+        size = 2400
+    }
+
+    soldiers = {
+        culture = shtokavian
+        religion = orthodox
+        size = 3000
+    }
+	
+	farmers = {
+        culture = shtokavian
+        religion = orthodox
+        size = 20000
+    }
+
+    serfs = {
+        culture = shtokavian
+        religion = orthodox
+        size = 64000
+    }
+
+    serfs = {
+        culture = gypsy
+        religion = orthodox
+        size = 1000
+    }
+
+}
+
+#Uzice
+797 = {
+    aristocrats = {
+        culture = shtokavian
+        religion = orthodox
+        size = 300
+    }
+
+    clergymen = {
+        culture = shtokavian
+        religion = orthodox
+        size = 300
+    }
+
+    artisans = {
+        culture = shtokavian
+        religion = orthodox
+        size = 800
+    }
+
+    soldiers = {
+        culture = shtokavian
+        religion = orthodox
+        size = 3000
+    }
+	
+	farmers = {
+        culture = shtokavian
+        religion = orthodox
+        size = 22000
+    }
+
+    serfs = {
+        culture = shtokavian
+        religion = orthodox
+        size = 40000
+    }
+
+    serfs = {
+        culture = gypsy
+        religion = orthodox
+        size = 1200
+    }
+}
+
+#Prishtina
+798 = {
+    soldiers = {
+        culture = albanian
+        religion = orthodox
+        size = 1350
+    }
+
+    clergymen = {
+        culture = albanian
+        religion = orthodox
+        size = 350
+    }
+
+    artisans = {
+        culture = albanian
+        religion = orthodox
+        size = 2000
+    }
+
+    farmers = {
+        culture = albanian
+        religion = orthodox
+        size = 16000
+    }
+	
+	serfs = {
+        culture = albanian
+        religion = orthodox
+        size = 5000
+    }
+	
+	soldiers = {
+        culture = aromanian
+        religion = orthodox
+        size = 150
+    }
+
+    clergymen = {
+        culture = aromanian
+        religion = orthodox
+        size = 30
+    }
+
+    artisans = {
+        culture = aromanian
+        religion = orthodox
+        size = 60
+    }
+
+    farmers = {
+        culture = aromanian
+        religion = orthodox
+        size = 300
+    }
+	
+	serfs = {
+        culture = aromanian
+        religion = orthodox
+        size = 1000
+    }
+    
+	aristocrats = {
+        culture = shtokavian
+        religion = orthodox
+        size = 450
+    }
+
+    bureaucrats = {
+        culture = shtokavian
+        religion = orthodox
+        size = 50
+    }
+
+    officers = {
+        culture = shtokavian
+        religion = orthodox
+        size = 50
+    }
+
+    clergymen = {
+        culture = shtokavian
+        religion = orthodox
+        size = 100
+    }
+
+    artisans = {
+        culture = shtokavian
+        religion = orthodox
+        size = 350
+    }
+
+    soldiers = {
+        culture = shtokavian
+        religion = orthodox
+        size = 700
+    }
+
+    farmers = {
+        culture = shtokavian
+        religion = orthodox
+        size = 2250
+    }
+	
+	serfs = {
+        culture = shtokavian
+        religion = orthodox
+        size = 6000
+    }
+    
+    aristocrats = {
+        culture = torlakian
+        religion = orthodox
+        size = 250
+    }
+
+    bureaucrats = {
+        culture = torlakian
+        religion = orthodox
+        size = 50
+    }
+
+    officers = {
+        culture = torlakian
+        religion = orthodox
+        size = 50
+    }
+
+    clergymen = {
+        culture = torlakian
+        religion = orthodox
+        size = 100
+    }
+
+    artisans = {
+        culture = torlakian
+        religion = orthodox
+        size = 250
+    }
+
+    soldiers = {
+        culture = torlakian
+        religion = orthodox
+        size = 400
+    }
+
+    farmers = {
+        culture = torlakian
+        religion = orthodox
+        size = 2250
+    }
+	
+	serfs = {
+        culture = torlakian
+        religion = orthodox
+        size = 4000
+    }
+
+    serfs = {
+        culture = gypsy
+        religion = orthodox
+        size = 4000
+    }
+}
+
+#Krushevac
+3885 = {
+    clergymen = {
+        culture = albanian
+        religion = orthodox
+        size = 100
+    }
+
+    soldiers = {
+        culture = albanian
+        religion = orthodox
+        size = 1000
+    }
+
+    farmers = {
+        culture = albanian
+        religion = orthodox
+        size = 4300
+    }
+	
+	serfs = {
+        culture = albanian
+        religion = orthodox
+        size = 1000
+    }
+
+    aristocrats = {
+        culture = torlakian
+        religion = orthodox
+        size = 150
+    }
+
+    clergymen = {
+        culture = torlakian
+        religion = orthodox
+        size = 150
+    }
+
+    artisans = {
+        culture = torlakian
+        religion = orthodox
+        size = 150
+    }
+
+    soldiers = {
+        culture = torlakian
+        religion = orthodox
+        size = 200
+    }
+
+    farmers = {
+        culture = torlakian
+        religion = orthodox
+        size = 2250
+    }
+	
+	serfs = {
+        culture = torlakian
+        religion = orthodox
+        size = 6000
+    }
+
+    serfs = {
+        culture = gypsy
+        religion = orthodox
+        size = 1000
+    }
+}
+
+#Medveda
+3886 = {
+    clergymen = {
+        culture = albanian
+        religion = orthodox
+        size = 20
+    }
+
+    soldiers = {
+        culture = albanian
+        religion = orthodox
+        size = 500
+    }
+
+    farmers = {
+        culture = albanian
+        religion = orthodox
+        size = 2000
+    }
+	
+	serfs = {
+        culture = albanian
+        religion = orthodox
+        size = 300
+    }
+	
+	clergymen = {
+        culture = shtokavian
+        religion = orthodox
+        size = 10
+    }
+
+    soldiers = {
+        culture = shtokavian
+        religion = orthodox
+        size = 100
+    }
+
+    farmers = {
+        culture = shtokavian
+        religion = orthodox
+        size = 200
+    }
+	
+	serfs = {
+        culture = shtokavian
+        religion = orthodox
+        size = 1800
+    }
+
+    aristocrats = {
+        culture = torlakian
+        religion = orthodox
+        size = 80
+    }
+
+    clergymen = {
+        culture = torlakian
+        religion = orthodox
+        size = 80
+    }
+
+    artisans = {
+        culture = torlakian
+        religion = orthodox
+        size = 100
+    }
+
+    soldiers = {
+        culture = torlakian
+        religion = orthodox
+        size = 500
+    }
+
+    farmers = {
+        culture = torlakian
+        religion = orthodox
+        size = 2250
+    }
+	
+	serfs = {
+        culture = torlakian
+        religion = orthodox
+        size = 6000
+    }
+
+    serfs = {
+        culture = gypsy
+        religion = orthodox
+        size = 600
+    }
+
+}
+
+#Kraljevo
+3887 = {
+    clergymen = {
+        culture = albanian
+        religion = orthodox
+        size = 5
+    }
+
+    soldiers = {
+        culture = albanian
+        religion = orthodox
+        size = 50
+    }
+
+    farmers = {
+        culture = albanian
+        religion = orthodox
+        size = 1200
+    }
+	
+	serfs = {
+        culture = albanian
+        religion = orthodox
+        size = 100
+    }
+
+    aristocrats = {
+        culture = shtokavian
+        religion = orthodox
+        size = 480
+    }
+
+    clergymen = {
+        culture = shtokavian
+        religion = orthodox
+        size = 280
+    }
+
+    artisans = {
+        culture = shtokavian
+        religion = orthodox
+        size = 3100
+    }
+
+    soldiers = {
+        culture = shtokavian
+        religion = orthodox
+        size = 2500
+    }
+
+    farmers = {
+        culture = shtokavian
+        religion = orthodox
+        size = 6250
+    }
+	
+	serfs = {
+        culture = shtokavian
+        religion = orthodox
+        size = 20000
+    }
+
+    aristocrats = {
+        culture = torlakian
+        religion = orthodox
+        size = 80
+    }
+
+    clergymen = {
+        culture = torlakian
+        religion = orthodox
+        size = 80
+    }
+
+    artisans = {
+        culture = torlakian
+        religion = orthodox
+        size = 100
+    }
+
+    soldiers = {
+        culture = torlakian
+        religion = orthodox
+        size = 500
+    }
+
+    farmers = {
+        culture = torlakian
+        religion = orthodox
+        size = 250
+    }
+	
+	serfs = {
+        culture = torlakian
+        religion = orthodox
+        size = 2000
+    }
+
+    serfs = {
+        culture = gypsy
+        religion = orthodox
+        size = 600
+    }
+
+}
+
+#Leskovac
+799 = {
+    soldiers = {
+        culture = bulgarian
+        religion = orthodox
+        size = 1100
+    }
+
+    clergymen = {
+        culture = bulgarian
+        religion = orthodox
+        size = 125
+    }
+
+    artisans = {
+        culture = bulgarian
+        religion = orthodox
+        size = 1500
+    }
+
+    farmers = {
+        culture = bulgarian
+        religion = orthodox
+        size = 5000
+    }
+	
+	serfs = {
+        culture = bulgarian
+        religion = orthodox
+        size = 15425
+    }
+
+    soldiers = {
+        culture = torlakian
+        religion = orthodox
+        size = 100
+    }
+
+    clergymen = {
+        culture = torlakian
+        religion = orthodox
+        size = 100
+    }
+
+    artisans = {
+        culture = torlakian
+        religion = orthodox
+        size = 250
+    }
+
+    farmers = {
+        culture = torlakian
+        religion = orthodox
+        size = 7950
+    }
+	
+	serfs = {
+        culture = torlakian
+        religion = orthodox
+        size = 30000
+    }
+
+    aristocrats = {
+        culture = makedonian
+        religion = orthodox
+        size = 450
+    }
+
+    clergymen = {
+        culture = makedonian
+        religion = orthodox
+        size = 100
+    }
+
+    farmers = {
+        culture = makedonian
+        religion = orthodox
+        size = 200
+    }
+	
+	serfs = {
+        culture = makedonian
+        religion = orthodox
+        size = 300
+    }
+
+    soldiers = {
+        culture = torlakian
+        religion = orthodox
+        size = 100
+    }
+
+    farmers = {
+        culture = torlakian
+        religion = orthodox
+        size = 575
+    }
+	
+	serfs = {
+        culture = torlakian
+        religion = orthodox
+        size = 3000
+    }
+
+    serfs = {
+        culture = gypsy
+        religion = orthodox
+        size = 5000
+    }
+
+}
+
+#Prizren
+803 = {
+    aristocrats = {
+        culture = shtokavian
+        religion = orthodox
+        size = 100
+    }
+
+    officers = {
+        culture = shtokavian
+        religion = orthodox
+        size = 100
+    }
+
+    soldiers = {
+        culture = shtokavian
+        religion = orthodox
+        size = 100
+    }
+
+    clergymen = {
+        culture = shtokavian
+        religion = orthodox
+        size = 100
+    }
+
+    artisans = {
+        culture = shtokavian
+        religion = orthodox
+        size = 100
+    }
+
+    farmers = {
+        culture = shtokavian
+        religion = orthodox
+        size = 3000
+    }
+
+    aristocrats = {
+        culture = shtokavian
+        religion = orthodox
+        size = 100
+    }
+
+    officers = {
+        culture = shtokavian
+        religion = orthodox
+        size = 100
+    }
+
+    soldiers = {
+        culture = shtokavian
+        religion = orthodox
+        size = 100
+    }
+
+    clergymen = {
+        culture = shtokavian
+        religion = orthodox
+        size = 100
+    }
+
+    artisans = {
+        culture = shtokavian
+        religion = orthodox
+        size = 100
+    }
+
+    farmers = {
+        culture = shtokavian
+        religion = orthodox
+        size = 2000
+    }
+
+    aristocrats = {
+        culture = torlakian
+        religion = orthodox
+        size = 100
+    }
+
+    officers = {
+        culture = torlakian
+        religion = orthodox
+        size = 100
+    }
+
+    soldiers = {
+        culture = torlakian
+        religion = orthodox
+        size = 1100
+    }
+
+    clergymen = {
+        culture = torlakian
+        religion = orthodox
+        size = 100
+    }
+
+    artisans = {
+        culture = torlakian
+        religion = orthodox
+        size = 200
+    }
+
+    farmers = {
+        culture = torlakian
+        religion = orthodox
+        size = 4000
+    }
+
+    farmers = {
+        culture = gypsy
+        religion = orthodox
+        size = 600
+    }
+
+    aristocrats = {
+        culture = torlakian
+        religion = orthodox
+        size = 750
+    }
+
+    clergymen = {
+        culture = torlakian
+        religion = orthodox
+        size = 100
+    }
+
+    artisans = {
+        culture = torlakian
+        religion = orthodox
+        size = 1750
+    }
+
+    soldiers = {
+        culture = torlakian
+        religion = orthodox
+        size = 100
+    }
+
+    farmers = {
+        culture = torlakian
+        religion = orthodox
+        size = 3150
+    }
+
+    aristocrats = {
+        culture = albanian
+        religion = orthodox
+        size = 100
+    }
+
+    officers = {
+        culture = albanian
+        religion = orthodox
+        size = 100
+    }
+
+    clergymen = {
+        culture = albanian
+        religion = orthodox
+        size = 100
+    }
+
+    artisans = {
+        culture = albanian
+        religion = orthodox
+        size = 900
+    }
+
+    soldiers = {
+        culture = albanian
+        religion = orthodox
+        size = 100
+    }
+
+    farmers = {
+        culture = albanian
+        religion = orthodox
+        size = 23550
+    }
+	
+	clergymen = {
+        culture = aromanian
+        religion = orthodox
+        size = 10
+    }
+
+    artisans = {
+        culture = aromanian
+        religion = orthodox
+        size = 90
+    }
+	
+    farmers = {
+        culture = aromanian
+        religion = orthodox
+        size = 950
+    }
+
+    farmers = {
+        culture = gypsy
+        religion = orthodox
+        size = 1425
+    }
+
+}
+
+#Novi Pazar - Medveda
+804 = {
+    aristocrats = {
+        culture = torlakian
+        religion = orthodox
+        size = 80
+    }
+
+    clergymen = {
+        culture = torlakian
+        religion = orthodox
+        size = 80
+    }
+
+    artisans = {
+        culture = torlakian
+        religion = orthodox
+        size = 100
+    }
+
+    soldiers = {
+        culture = torlakian
+        religion = orthodox
+        size = 200
+    }
+	
+    farmers = {
+        culture = torlakian
+        religion = orthodox
+        size = 4550
+    }
+	
+	aristocrats = {
+        culture = shtokavian
+        religion = orthodox
+        size = 10
+    }
+
+    clergymen = {
+        culture = shtokavian
+        religion = orthodox
+        size = 10
+    }
+
+    artisans = {
+        culture = shtokavian
+        religion = orthodox
+        size = 10
+    }
+
+    soldiers = {
+        culture = shtokavian
+        religion = orthodox
+        size = 20
+    }
+	
+    farmers = {
+        culture = shtokavian
+        religion = orthodox
+        size = 700
+    }
+	
+	aristocrats = {
+        culture = albanian
+        religion = orthodox
+        size = 80
+    }
+
+    clergymen = {
+        culture = albanian
+        religion = orthodox
+        size = 80
+    }
+
+    artisans = {
+        culture = albanian
+        religion = orthodox
+        size = 100
+    }
+
+    soldiers = {
+        culture = albanian
+        religion = orthodox
+        size = 200
+    }
+	
+    farmers = {
+        culture = albanian
+        religion = orthodox
+        size = 5150
+    }
+
+    farmers = {
+        culture = gypsy
+        religion = orthodox
+        size = 1000
+    }
+
+}
+
+#Nagykikinda
+3296 = {
+    clergymen = {
+        culture = shtokavian
+        religion = orthodox
+        size = 100
+    }
+
+    artisans = {
+        culture = shtokavian
+        religion = orthodox
+        size = 600
+    }
+
+    soldiers = {
+        culture = shtokavian
+        religion = orthodox
+        size = 200
+    }
+
+    serfs = {
+        culture = shtokavian
+        religion = orthodox
+        size = 12800
+    }
+
+    aristocrats = {
+        culture = hungarian
+        religion = catholic
+        size = 800
+    }
+
+    clergymen = {
+        culture = hungarian
+        religion = catholic
+        size = 100
+    }
+
+    artisans = {
+        culture = hungarian
+        religion = catholic
+        size = 5200
+    }
+
+    soldiers = {
+        culture = hungarian
+        religion = catholic
+        size = 1800
+    }
+
+    farmers = {
+        culture = hungarian
+        religion = catholic
+        size = 7900
+    }
+
+    aristocrats = {
+        culture = romanian
+        religion = orthodox
+        size = 100
+    }
+
+    clergymen = {
+        culture = romanian
+        religion = orthodox
+        size = 200
+    }
+
+    artisans = {
+        culture = romanian
+        religion = orthodox
+        size = 1200
+    }
+
+    soldiers = {
+        culture = romanian
+        religion = orthodox
+        size = 200
+    }
+
+    serfs = {
+        culture = romanian
+        religion = orthodox
+        size = 2000
+    }
+
+    serfs = {
+        culture = gypsy
+        religion = orthodox
+        size = 1800
+    }
+
+    artisans = {
+        culture = ashkenazi
+        religion = jewish
+        size = 300
+    }
+
+    serfs = {
+        culture = hungarian
+        religion = catholic
+        size = 27000
+    }
+
+}
+
+#Szabadka
+3295 = {
+    clergymen = {
+        culture = shtokavian
+        religion = orthodox
+        size = 25
+    }
+
+    artisans = {
+        culture = shtokavian
+        religion = orthodox
+        size = 1250
+    }
+
+    soldiers = {
+        culture = shtokavian
+        religion = orthodox
+        size = 25
+    }
+
+    serfs = {
+        culture = shtokavian
+        religion = orthodox
+        size = 8000
+    }
+
+    aristocrats = {
+        culture = hungarian
+        religion = catholic
+        size = 1200
+    }
+
+    clergymen = {
+        culture = hungarian
+        religion = catholic
+        size = 600
+    }
+
+    artisans = {
+        culture = hungarian
+        religion = catholic
+        size = 5000
+    }
+
+    soldiers = {
+        culture = hungarian
+        religion = catholic
+        size = 2500
+    }
+
+    farmers = {
+        culture = hungarian
+        religion = catholic
+        size = 11500
+    }
+
+    serfs = {
+        culture = gypsy
+        religion = catholic
+        size = 1300
+    }
+
+    clergymen = {
+        culture = shtokavian
+        religion = catholic
+        size = 65
+    }
+
+    artisans = {
+        culture = shtokavian
+        religion = catholic
+        size = 800
+    }
+
+    soldiers = {
+        culture = shtokavian
+        religion = catholic
+        size = 5
+    }
+
+    serfs = {
+        culture = shtokavian
+        religion = catholic
+        size = 2000
+    }
+
+    farmers = {
+        culture = shtokavian
+        religion = catholic
+        size = 1200
+    }
+
+    artisans = {
+        culture = ashkenazi
+        religion = jewish
+        size = 400
+    }
+
+    serfs = {
+        culture = hungarian
+        religion = catholic
+        size = 30000
+    }
+
+}
+

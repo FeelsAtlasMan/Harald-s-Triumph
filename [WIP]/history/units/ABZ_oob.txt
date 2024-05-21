@@ -1,0 +1,19 @@
+
+army = {
+	name = "Circassian Army"
+	location = 3349
+	
+	regiment = {
+		name= "Irregulars"
+		type = irregular
+		home = 3349
+	}
+
+	regiment = {
+		name= "Irregulars"
+		type = irregular
+		home = 3401
+	}
+
+}
+

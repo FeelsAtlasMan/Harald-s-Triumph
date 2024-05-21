@@ -1,0 +1,28 @@
+army = {
+	name = "Provincial Army of Bhutan"
+	location = 1329
+	regiment = {
+		name= "1.Tongsa Militia"
+		type = irregular
+		home = 1329
+	}
+
+        regiment = {
+		name= "1.Tongsa Militia"
+		type = irregular
+		home = 3867
+	}
+     
+        regiment = {
+		name= "Bodo Tribesmen"
+		type = irregular
+		home = 3743
+	}
+        
+        regiment = {
+		name= "Khas Mercenaries"
+		type = infantry
+		home = 1252
+	}
+}
+

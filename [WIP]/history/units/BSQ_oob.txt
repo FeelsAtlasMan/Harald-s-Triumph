@@ -1,0 +1,91 @@
+AGC = {
+	value = -400
+}
+OMA = {
+	value = 400
+}
+ASH = {
+	value = 50
+}
+BEN = {
+	value = 50
+}
+ZUL = {
+	value = 50
+}
+DAH = {
+	value = 40
+}
+OYO = {
+	value = 35
+}
+ARO = {
+	value = 50
+}
+CLA = {
+	value = 50
+}
+WRI = {
+	value = 40
+}
+KON = {
+	value = 25
+}
+LOA = {
+	value = 75
+}
+POR = {
+	value = -100
+}
+CAT = {
+	value = -235
+}
+ATR = {
+	value = -135
+}
+MOR = {
+	value = -200
+}
+CST = {
+	value = -120
+}
+
+
+army = {
+	name = "Army of Navarra"
+	location = 492
+	regiment = {
+		name= "1. Infantry"
+		type = infantry
+		home = 492
+	}
+	
+	regiment = {
+		name= "2. Infantry"
+		type = infantry
+		home = 493
+	}
+	
+	regiment = {
+		name= "3. Infantry"
+		type = infantry
+		home = 480
+	}
+	
+	regiment = {
+		name= "4. Infantry"
+		type = infantry
+		home = 478
+	}	
+	
+}
+
+leader = {
+	name = "Ander Jáuregui"
+	date = 1823.1.1
+	type = land
+	personality = relentless
+	background = natural_born_leader
+	prestige = 0.4
+}
+

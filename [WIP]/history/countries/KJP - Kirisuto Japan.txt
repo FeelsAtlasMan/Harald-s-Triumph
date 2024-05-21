@@ -1,0 +1,88 @@
+capital = 1662
+primary_culture = japanese
+religion = kirishitan
+government = absolute_monarchy
+plurality = 0.0
+nationalvalue = nv_tradition
+literacy = 0.40
+prestige = 3
+
+# Political reforms
+slavery = no_slavery
+upper_house_composition = appointed
+vote_franschise = none_voting
+public_meetings = no_meeting
+press_rights = state_press
+trade_unions = no_trade_unions
+voting_system = jefferson_method
+political_parties = underground_parties
+
+# Social Reforms
+wage_reform = no_minimum_wage
+work_hours = no_work_hour_limit
+safety_regulations = no_safety
+health_care = no_health_care
+unemployment_subsidies = no_subsidies
+pensions = no_pensions
+school_reforms = no_schools
+
+
+# New Reforms
+conscription = four_year_draft
+debt_law = peonage
+penal_system = capital_punishment
+child_labor = child_labor_legal
+citizens_rights = primary_culture_only
+border_policy = open_borders
+centralization = regionalism
+colonial_policy = no_colonies 
+
+admin_reform = yes_admin_reform
+land_reform = yes_land_reform
+#finance_reform = yes_finance_reform
+#finance_reform_two = yes_finance_reform_two
+#monetary_reform = yes_monetary_reform
+#monetary_reform_two = yes_monetary_reform_two
+#education_reform = yes_education_reform
+#research_reform = yes_research_reform
+#transport_improv = yes_transport_improv
+firearms_production = yes_firearms_production
+#pre_indust = yes_pre_indust
+#industrial_construction = yes_industrial_construction
+
+foreign_training = yes_foreign_training
+foreign_weapons = yes_foreign_weapons
+military_constructions = yes_military_constructions
+foreign_officers = yes_foreign_officers
+army_schools = yes_army_schools
+#foreign_naval_officers = yes_foreign_naval_officers
+#naval_schools = yes_naval_schools
+#foreign_navies = yes_foreign_navies
+western_shipyards = yes_western_shipyards
+foreign_artillery = yes_foreign_artillery
+
+set_country_flag = catholic_country
+
+ruling_party = JAP_liberal
+upper_house = {
+	fascist = 0
+	liberal = 17
+	conservative = 35
+	reactionary = 48
+	anarcho_liberal = 0
+	socialist = 0
+	communist = 0
+}
+
+# Technologies
+flintlock_rifles = 1
+
+# Inventions
+##bottling_process = yes
+modern_winemaking = yes
+
+# Starting Consciousness
+consciousness = 0
+nonstate_consciousness = 0
+
+oob = "KJP_oob.txt"

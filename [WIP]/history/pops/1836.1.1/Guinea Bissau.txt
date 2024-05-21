@@ -1,0 +1,195 @@
+#Casamance Region (108000) #see Senegal.txt and Guinea.txt for balance of region
+#Uncolonized in 1836/Portuguese trade post
+#Bissau (32000/8000 POPS)
+1877 = {
+	aristocrats = {
+		culture = jaad
+		religion = animist
+		size = 100
+	}
+	
+	officers = {
+		culture = jaad
+		religion = animist
+		size = 100
+	}
+	
+	clergymen = {
+		culture = jaad
+		religion = animist
+		size = 100
+	}
+
+	artisans = {
+		culture = jaad
+		religion = animist
+		size = 375
+	}
+
+	soldiers = {
+		culture = jaad
+		religion = animist
+		size = 100
+	}
+
+	farmers = {
+		culture = jaad
+		religion = animist
+		size = 5300
+	}
+
+	slaves = {
+		culture = bambara
+		religion = animist
+		size = 2000
+	}
+	
+	aristocrats = {
+		culture = bak_bidyogo
+		religion = animist
+		size = 300
+	}
+	
+	officers = {
+		culture = bak_bidyogo
+		religion = animist
+		size = 100
+	}
+	
+	clergymen = {
+		culture = bak_bidyogo
+		religion = animist
+		size = 100
+	}
+
+	artisans = {
+		culture = bak_bidyogo
+		religion = animist
+		size = 1000
+	}
+
+	soldiers = {
+		culture = bak_bidyogo
+		religion = animist
+		size = 1000
+	}
+
+	farmers = {
+		culture = bak_bidyogo
+		religion = animist
+		size = 10048
+	}
+	
+	aristocrats = {
+		culture = nalu
+		religion = animist
+		size = 30
+	}
+	
+	clergymen = {
+		culture = nalu
+		religion = animist
+		size = 10
+	}
+
+	artisans = {
+		culture = nalu
+		religion = animist
+		size = 100
+	}
+
+	soldiers = {
+		culture = nalu
+		religion = animist
+		size = 100
+	}
+
+	farmers = {
+		culture = nalu
+		religion = animist
+		size = 4000
+	}
+}
+#under the rule of Gabu in 1836
+#Gabu (152000/38000 POPS)
+1878 = {
+	aristocrats = {
+		culture = bambara
+		religion = sunni
+		size = 500
+	}
+	
+	bureaucrats = {
+		culture = bambara
+		religion = sunni
+		size = 100
+	}
+
+	clergymen = {
+		culture = bambara
+		religion = sunni
+		size = 100
+	}
+
+	artisans = {
+		culture = bambara
+		religion = sunni
+		size = 1000
+	}
+
+	soldiers = {
+		culture = bambara
+		religion = sunni
+		size = 1100
+	}
+
+	farmers = {
+		culture = bambara
+		religion = sunni
+		size = 3768
+	}
+	
+	
+	aristocrats = {
+		culture = fulbe
+		religion = sunni
+		size = 400
+	}
+	
+	bureaucrats = {
+		culture = fulbe
+		religion = sunni
+		size = 100
+	}
+
+	clergymen = {
+		culture = fulbe
+		religion = sunni
+		size = 100
+	}
+
+	artisans = {
+		culture = fulbe
+		religion = sunni
+		size = 1000
+	}
+
+	soldiers = {
+		culture = fulbe
+		religion = sunni
+		size = 1200
+	}
+
+	farmers = {
+		culture = fulbe
+		religion = sunni
+		size = 11129
+	}
+
+	slaves = {
+		culture = jaad
+		religion = animist
+		size = 2000
+	}
+
+}

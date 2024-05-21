@@ -1,0 +1,35 @@
+army = {
+	name = "Army"
+	location = 1189
+        regiment = {
+		name= "Inf"
+		type = irregular
+		home = 1189
+	}
+        regiment = {
+		name= "Cav"
+		type = cavalry
+		home = 1189
+	}
+        regiment = {
+		name= "Cav"
+		type = cavalry
+		home = 4086
+	}
+}
+
+army = {
+	name = "Army"
+	location = 3664
+        regiment = {
+		name= "Cav"
+		type = cavalry
+		home = 3664
+	}
+        regiment = {
+		name= "Cav"
+		type = cavalry
+		home = 1190
+	}
+}
+

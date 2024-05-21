@@ -1,0 +1,48 @@
+leader = {
+	name = "Duke Ludwig"
+	picture = pru_gen_prinzkarl
+	date = 1811.1.1
+	type = land
+	personality = soldierly
+	background = rising_star
+}
+
+army = {
+	name = "Thüringische Armee"
+	location = 562
+	regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 562
+	}
+
+	regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 561
+	}
+
+	regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 563
+	}
+
+	regiment = {
+		name= "Cuirassiers"
+		type = cuirassier
+		home = 3255
+	}
+
+	regiment = {
+		name= "Hussars"
+		type = hussar
+		home = 3256
+	}
+
+	regiment = {
+		name= "Artillery"
+		type = artillery
+		home = 556
+	}
+}

@@ -1,0 +1,23 @@
+army = {
+	name = "Dulkadir Ordusu"
+	location = 3417
+	regiment = {
+		name= "Adana Kabileleri"
+		type = cavalry
+		home = 3417
+	}
+	regiment = {
+		name= "Adana Kabileleri"
+		type = cavalry
+		home = 889
+	}
+	regiment = {
+		name= "Antep Kabileleri"
+		type = infantry
+		home = 878
+	}
+}
+
+
+
+

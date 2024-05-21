@@ -1,0 +1,150 @@
+army = {
+	name = "Army of Kazan"
+	location = 1030
+
+        regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 1030
+	}
+
+        regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 1032
+	}
+
+        regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 1034
+	}
+
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+		home = 1035
+	}
+
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+		home = 1043
+	}
+
+	regiment = {
+		name= "Artillery"
+		type = artillery
+		home = 1037
+	}
+}
+
+army = {
+	name = "Upper Volga Tribes"
+	location = 1037
+
+        regiment = {
+		name= "Irregulars"
+		type = irregular
+		home = 1035
+	}
+
+        regiment = {
+		name= "Irregulars"
+		type = irregular
+		home = 1037
+	}
+
+        regiment = {
+		name= "Irregulars"
+		type = irregular
+		home = 1038
+	}
+
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+		home = 1038
+	}
+
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+		home = 1043
+	}
+}
+
+army = {
+	name = "Lower Volga Tribes"
+	location = 1036
+
+        regiment = {
+		name= "Irregulars"
+		type = irregular
+		home = 1035
+	}
+
+        regiment = {
+		name= "Irregulars"
+		type = irregular
+		home = 1037
+	}
+
+        regiment = {
+		name= "Irregulars"
+		type = irregular
+		home = 1038
+	}
+
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+		home = 1038
+	}
+
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+		home = 1043
+	}
+}
+
+
+army = {
+	name = "Don Tribes"
+	location = 979
+
+        regiment = {
+		name= "Irregulars"
+		type = irregular
+		home = 1045
+	}
+
+        regiment = {
+		name= "Irregulars"
+		type = irregular
+		home = 3330
+	}
+
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+		home = 1047
+	}
+
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+		home = 3330
+	}
+}
+
+
+leader = {
+	name = "Kenesary Khan"
+	type = land
+	date = 1836.1.1
+	background = aristocrat
+	personality = mediocre
+	}
+	

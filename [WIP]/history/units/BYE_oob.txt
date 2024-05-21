@@ -1,0 +1,17 @@
+army = {
+	name = "Army of Vitebsk"
+	location = 945
+	
+	regiment = {
+		name = "Infantry"
+		type = infantry
+		home = 945
+	}
+	
+	regiment = {
+		name = "Infantry"
+		type = infantry
+		home = 946
+	}
+}
+

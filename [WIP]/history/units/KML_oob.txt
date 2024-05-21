@@ -1,0 +1,65 @@
+army = {
+	name = "Army"
+	location = 1186
+        regiment = {
+		name= "Inf"
+		type = irregular
+		home = 1186
+	}
+        regiment = {
+		name= "Cav"
+		type = cavalry
+		home = 1186
+	}
+        regiment = {
+		name= "Cav"
+		type = cavalry
+		home = 4015
+	}
+}
+
+army = {
+	name = "Army"
+	location = 4080
+        regiment = {
+		name= "Cav"
+		type = cavalry
+		home = 4078
+	}
+        regiment = {
+		name= "Cav"
+		type = cavalry
+		home = 4082
+	}
+}
+
+army = {
+	name = "Army"
+	location = 4014
+        regiment = {
+		name= "Cav"
+		type = cavalry
+		home = 1188
+	}
+        regiment = {
+		name= "Cav"
+		type = cavalry
+		home = 4079
+	}
+        regiment = {
+		name= "Cav"
+		type = cavalry
+		home = 4080
+	}
+}
+
+leader = {
+	name = "Bolat Khan"
+	#picture = european_general_36
+	date = 1830.1.1
+	type = land
+	personality = soldierly
+	background = aristocrat
+	prestige = 0.1
+}
+

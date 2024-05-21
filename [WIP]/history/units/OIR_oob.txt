@@ -1,0 +1,95 @@
+army = {
+	name = "Ili Army"
+	location = 1595
+	regiment = {
+		name= "Inf"
+		type = infantry
+		home = 1595
+	}
+        regiment = {
+		name= "Inf"
+		type = irregular
+		home = 4009
+	}
+        regiment = {
+		name= "Art"
+		type = artillery
+		home = 1595
+	}
+        regiment = {
+		name= "Cav"
+		type = cavalry
+		home = 1595
+	}
+        regiment = {
+		name= "Cav"
+		type = cavalry
+		home = 1595
+	}
+}
+
+army = {
+	name = "Kirghiz Tribes"
+	location = 4014
+        regiment = {
+		name= "Cav"
+		type = cavalry
+		home = 4014
+	}
+         regiment = {
+		name= "Cav"
+		type = cavalry
+		home = 4010
+	}
+}
+
+army = {
+	name = "Dzungaria Army"
+	location = 1600
+	regiment = {
+		name= "Inf"
+		type = irregular
+		home = 1600
+	}
+        regiment = {
+		name= "Cav"
+		type = cavalry
+		home = 4011
+	}
+        regiment = {
+		name= "Cav"
+		type = cavalry
+		home = 1596
+	}
+         regiment = {
+		name= "Cav"
+		type = cavalry
+		home = 4009
+	}
+}
+
+army = {
+	name = "Khvod Army"
+	location = 2679
+	regiment = {
+		name= "Inf"
+		type = irregular
+		home = 2679
+	}
+        regiment = {
+		name= "Cav"
+		type = cavalry
+		home = 4019
+	}
+        regiment = {
+		name= "Cav"
+		type = cavalry
+		home = 4020
+	}
+         regiment = {
+		name= "Cav"
+		type = cavalry
+		home = 1468
+	}
+}
+

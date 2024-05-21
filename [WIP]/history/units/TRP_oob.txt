@@ -1,0 +1,16 @@
+army = {
+	name = "Army of the Tripuri Raja"
+	location = 3744
+	regiment = {
+		name= "Irregulars"
+		type = irregular
+		home = 3744
+	}
+	regiment = {
+		name= "Irregulars"
+		type = irregular
+		home = 3812
+	}
+
+}
+	

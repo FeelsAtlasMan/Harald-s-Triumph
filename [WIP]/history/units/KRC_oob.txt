@@ -1,0 +1,67 @@
+#Relations
+MUS = { 
+	value = -150
+}
+
+RTH = { 
+	value = 100
+}
+
+DON = { 
+	value = 150
+}
+
+PEN = { 
+	value = 150
+}
+
+UMN = { 
+	value = 150
+}
+
+KZN = { 
+	value = -150
+}
+
+CRI = { 
+	value = -150
+}
+
+leader = {
+	name = "Hetman Kornilov"
+	date = 1820.1.1
+	type = land
+	personality = steadfast
+	background = adventurer
+	prestige = 0.2
+}
+
+army = {
+	name = "Army of Kursk"
+	location = 977
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+		home = 977
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+		home = 977
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+		home = 977
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+		home = 1018
+	}
+}
+
+
+
+
+

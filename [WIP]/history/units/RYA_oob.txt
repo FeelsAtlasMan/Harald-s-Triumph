@@ -1,0 +1,63 @@
+#Relations
+
+MUS = { 
+	value = 150
+}
+
+RTH = { 
+	value = 100
+}
+
+SMK = { 
+	value = 150
+}
+
+KZN = { 
+	value = -150
+}
+
+AKH = { 
+	value = -150
+}
+
+leader = {
+	name = "Dmitry Petliura"
+	date = 1820.1.1
+	type = land
+	personality = steadfast
+	background = aristocrat
+	prestige = 0.2
+}
+
+army = {
+	name = "Army of Ryazan"
+	location = 1012
+	regiment = {
+		name= "1. Hussars"
+		type = hussar
+		home = 1012
+	}
+	regiment = {
+		name= "2. Hussars"
+		type = hussar
+		home = 1012
+	}
+	regiment = {
+		name= "3. Hussars"
+		type = hussar
+		home = 1012
+	}
+	regiment = {
+		name= "4. Hussars"
+		type = hussar
+		home = 1012
+	}
+	regiment = {
+		name= "5. Hussars"
+		type = hussar
+		home = 1012
+	}
+}
+
+
+

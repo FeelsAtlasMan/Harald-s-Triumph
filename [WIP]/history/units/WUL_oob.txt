@@ -1,0 +1,24 @@
+army = {
+	name = "Fraenkische Armee"
+	location = 595
+	regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 595
+	}	
+
+	regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 595
+	}
+	
+	regiment = {
+		name= "II. Kavalleriebrigade"
+		type = cuirassier
+		home = 597
+	}
+
+}
+
+	

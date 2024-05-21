@@ -1,0 +1,37 @@
+army = {
+	name = "I. Armee-Korps"
+	location = 695
+	regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 695
+	}	
+
+	regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 696
+	}
+
+	regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 696
+	}
+
+	regiment = {
+		name= "I. Artilleriebrigade"
+		type = artillery
+		home = 362
+	}
+	
+	
+	regiment = {
+		name= "II. Kavalleriebrigade"
+		type = cuirassier
+		home = 697
+	}
+
+}
+
+	

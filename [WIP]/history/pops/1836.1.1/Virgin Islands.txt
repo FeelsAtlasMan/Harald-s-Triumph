@@ -1,0 +1,47 @@
+#french West Indies Region  #see Leeward Islands.txt for BVI
+#Ruled by Denmark 1836
+#Saint Thomas (44000/11000 POPS)
+2223 = {
+	aristocrats = {
+		culture = french
+		religion = catholic
+		size = 200
+	}
+
+	bureaucrats = {
+		culture = french
+		religion = catholic
+		size = 25
+	}
+
+	artisans = {
+		culture = french
+		religion = catholic
+		size = 175
+	}
+
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 200
+	}
+
+	artisans = {
+		culture = taino
+		religion = catholic
+		size = 150
+	}
+
+	farmers = {
+		culture = taino
+		religion = catholic
+		size = 350
+	}
+
+	slaves = {
+		culture = kreol
+		religion = catholic
+		size = 500
+	}
+
+}

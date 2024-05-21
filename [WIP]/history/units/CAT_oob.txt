@@ -1,0 +1,159 @@
+AGC = {
+	value = -400
+}
+OMA = {
+	value = 400
+}
+ASH = {
+	value = 50
+}
+BEN = {
+	value = 50
+}
+ZUL = {
+	value = 50
+}
+DAH = {
+	value = 40
+}
+OYO = {
+	value = 35
+}
+ARO = {
+	value = 50
+}
+CLA = {
+	value = 50
+}
+WRI = {
+	value = 40
+}
+KON = {
+	value = 25
+}
+LOA = {
+	value = 75
+}
+BSQ = {
+	value = -200
+}
+POR = {
+	value = -35
+}
+ATR = {
+	value = -135
+}
+MOR = {
+	value = -200
+}
+CST = {
+	value = 0
+}
+
+army = {
+	name = "Exèrcit de la Corona Aragonesa"
+	location = 498
+	regiment = {
+		name= "1. Brigada d'Infanteria"
+		type = infantry
+		home = 498
+	}
+
+	regiment = {
+		name= "2. Brigada d'Infanteria"
+		type = infantry
+		home = 503
+	}
+     }
+army = {
+        name = "Exèrcit de l'Ebre"
+	location = 495
+	regiment = {
+		name= "3. Brigada d'Infanteria"
+		type = infantry
+		home = 495
+	}
+
+	regiment = {
+		name= "4. Brigada d'Infanteria"
+		type = infantry
+		home = 497
+	}
+
+}
+
+navy = {
+	name = "Armada Reial"
+	location = 503
+	ship = {
+		name= "Comte d'Urgell"
+		type = manowar
+	}
+
+	ship = {
+		name= "Besós"
+		type = manowar
+	}
+
+	ship = {
+		name= "1a Flota de Transport"
+		type = clipper_transport
+	}
+	ship = {
+		name= "2a Flota de Transport"
+		type = clipper_transport
+	}
+	ship = {
+		name= "3a Flota de Transport"
+		type = clipper_transport
+	}
+
+}
+
+leader = {
+	name = "Infant Ramón de Barcelona"
+	picture = european_general_55
+	type = land
+	date = 1825.8.20
+	background = aristocrat
+	personality = soldierly
+	prestige = 0.1
+	}
+	
+leader = {
+	name = "Albert Verdaguer"
+	picture = european_admiral_5
+	type = sea
+	date = 1820.12.14
+	background = generals_aide
+	personality = stout
+	prestige = 0.05
+	}
+
+leader = {
+	name = "Miquel Montfort"
+	date = 1808.1.1
+	type = land
+	personality = aggressive
+	background = hated
+	prestige = 0.2
+}
+
+leader = {
+	name = "Adam Bertran"
+	date = 1824.1.1
+	type = land
+	personality = resolute
+	background = gifted_administrator
+	prestige = 0.2
+}
+
+leader = {
+	name = "Vicenç Aregall"
+	date = 1808.1.1
+	type = land
+	personality = dauntless
+	background = madman
+	prestige = 0.0
+}
+

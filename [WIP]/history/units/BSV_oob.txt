@@ -1,0 +1,26 @@
+leader = {
+	name = "Ban Valeriu"
+	type = land
+	date="1836.1.1"
+	personality = openminded
+	background = gifted_administrator
+}
+
+army = {
+	name = "Army of the Banate of Severin"
+	location = 666
+	regiment = {
+		name= "1st Severian Infantry"
+		type = infantry
+		home = 666
+	}
+
+	regiment = {
+		name= "2nd Severian Infantry"
+		type = infantry
+		home = 665
+	}
+
+
+}
+

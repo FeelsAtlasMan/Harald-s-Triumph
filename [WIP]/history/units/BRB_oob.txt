@@ -1,0 +1,47 @@
+army = {
+	name = "Armee van Brussel"
+	location = 387
+	regiment = {
+		name= "1. Infantrie van Brussel"
+		type = infantry
+		home = 387
+	}
+	regiment = {
+		name= "2. Infantrie van Brussel"
+		type = infantry
+		home = 387
+	}
+	regiment = {
+		name= "1. Kurassier van Antwerpen"
+		type = cuirassier
+		home = 390
+	}
+	regiment = {
+		name= "1. Hussaren van Aalst"
+		type = hussar
+		home = 3291
+	}
+	regiment = {
+		name= "1. Artillerie van Breda"
+		type = hussar
+		home = 380
+	}
+}
+
+leader = {
+	name = "Antoon Schmitt"
+	date = 1831.1.1
+	type = land
+	personality = cautious 
+	background = aristocrat
+	prestige = 0.5
+}
+
+leader = {
+	name = "Rutger Batenburg"
+	date = 1820.1.1
+	type = land
+	personality = diplomatic
+	background = politician
+	prestige = 0.2
+}

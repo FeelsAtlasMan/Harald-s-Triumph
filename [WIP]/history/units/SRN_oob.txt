@@ -1,0 +1,15 @@
+army = {
+	name = "Army of the Amir of Baban"
+	location = 928
+	regiment = {
+		name= "Kurdish Warriors"
+		type = infantry
+		home = 928
+	}
+        regiment = {
+		name= "Kurdish Warriors"
+		type = cavalry
+		home = 3630
+	}
+}
+

@@ -1,0 +1,11 @@
+army = {
+	name = "Army of Pskov"
+	location = 1006
+	
+	regiment = {
+		name = "Infantry"
+		type = infantry
+		home = 1006
+	}
+}
+

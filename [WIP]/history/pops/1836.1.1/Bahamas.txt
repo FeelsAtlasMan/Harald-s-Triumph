@@ -1,0 +1,177 @@
+#The Bahamas Region - 23000
+#Ruled by Britain 1836
+#The Bahamas (20000/5000 POPS)
+2219 = {
+	clergymen = {
+		culture = siboney
+		religion = catholic
+		size = 50
+	}
+
+	artisans = {
+	    culture = siboney
+		religion = catholic
+		size = 100
+	}
+
+	soldiers = {
+		culture = siboney
+		religion = catholic
+		size = 50
+	}
+	
+	farmers = {
+		culture = siboney
+		religion = catholic
+		size = 1050
+	}
+
+	slaves = {
+		culture = kreol
+		religion = catholic
+		size = 4050
+	}
+
+	aristocrats = {
+		culture = iberiano
+		religion = catholic
+		size = 15
+	}
+
+	bureaucrats = {
+		culture = iberiano
+		religion = catholic
+		size = 5
+	}
+
+	clergymen = {
+		culture = iberiano
+		religion = catholic
+		size = 15
+	}
+
+	artisans = {
+		culture = iberiano
+		religion = catholic
+		size = 150
+	}
+
+	soldiers = {
+		culture = iberiano
+		religion = catholic
+		size = 25
+	}
+
+	farmers = {
+		culture = iberiano
+		religion = catholic
+		size = 540
+	}
+}
+#Turks & Caicos Islands (3000/750 POPS) #still a British colony
+2220 = {
+
+    aristocrats = {
+		culture = north_german
+		religion = protestant
+		size = 550
+	}
+
+	clergymen = {
+		culture = north_german
+		religion = protestant
+		size = 850
+	}
+
+	artisans = {
+		culture = north_german
+		religion = protestant
+		size = 9100
+	}
+
+	soldiers = {
+		culture = north_german
+		religion = protestant
+		size = 1050
+	}
+
+	farmers = {
+		culture = north_german
+		religion = protestant
+		size = 30500
+	}
+	
+	artisans = {
+		culture = kreol
+		religion = protestant
+		size = 2100
+	}
+
+	farmers = {
+		culture = kreol
+		religion = protestant
+		size = 20500
+	}
+	
+	artisans = {
+		culture = french
+		religion = catholic
+		size = 1100
+	}
+
+	soldiers = {
+		culture = french
+		religion = catholic
+		size = 150
+	}
+
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 5500
+	}
+	
+	artisans = {
+		culture = maghrebi
+		religion = sunni
+		size = 1100
+	}
+
+	soldiers = {
+		culture = maghrebi
+		religion = sunni
+		size = 150
+	}
+
+	farmers = {
+		culture = maghrebi
+		religion = sunni
+		size = 5500
+	}
+	
+	clergymen = {
+		culture = macoris
+		religion = protestant
+		size = 150
+	}
+
+	artisans = {
+		culture = macoris
+		religion = protestant
+		size = 2100
+	}
+
+	soldiers = {
+		culture = macoris
+		religion = protestant
+		size = 150
+	}
+
+	farmers = {
+		culture = macoris
+		religion = protestant
+		size = 30500
+	}
+
+
+}

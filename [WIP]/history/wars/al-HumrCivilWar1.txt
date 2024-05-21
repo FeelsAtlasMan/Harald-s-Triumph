@@ -1,0 +1,24 @@
+name = "al-Humr Civil War"
+
+1836.1.1 = {
+	add_attacker = PNB
+	add_defender = BAH
+	
+	# actor
+	# receiver
+	# casus_belli - cb type
+	# country - 3rd party
+	# state_province_id - target state capital
+	war_goal = {
+		casus_belli = civil_war
+		actor = PNB
+		receiver = BAH
+	}
+	
+	war_goal = {
+		casus_belli = civil_war
+		actor = BAH
+		receiver = PNB
+	}
+
+}

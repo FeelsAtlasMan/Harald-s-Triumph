@@ -1,0 +1,43 @@
+#Relations
+
+BOH = { 
+	value = 175
+}
+
+HUN = { 
+	value = 150
+}
+
+RTH = { 
+	value = 150
+}
+
+army = {
+	name = "1. Army of Halytch"
+	location = 953
+	regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 952
+	}
+	regiment = {
+		name= "Infantery"
+		type = infantry
+		home = 702
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+		home = 951
+	}
+	regiment = {
+		name= "Artillery"
+		type = artillery
+		home = 3278
+	}
+}
+
+
+
+
+

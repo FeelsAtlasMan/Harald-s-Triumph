@@ -1,0 +1,15 @@
+army = {
+	name = "Bashkir Tribes"
+	location = 1042
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+		home = 1042
+	}
+
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+		home = 1059
+	}
+}

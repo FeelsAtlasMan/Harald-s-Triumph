@@ -1,0 +1,10 @@
+army = {
+	name = "Armee van Maastricht"
+	location = 381
+	regiment = {
+		name= "1. Infantrie van Venlo"
+		type = infantry
+		home = 381
+	}
+}
+

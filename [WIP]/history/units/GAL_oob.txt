@@ -1,0 +1,15 @@
+army = {
+	name = "Army of Galich"
+	location = 1024
+	regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 1024
+	}
+
+        regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 1024
+	}
+}
