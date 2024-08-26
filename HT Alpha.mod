@@ -1,0 +1,7 @@
+name = "Harald's Triumph - Alpha"
+path = "mod/HT Alpha"
+user_dir = "HT - Alpha"
+replace_path = "wars"
+replace_path = "decisions"
+replace_path = "events"
+replace_path = "history/provinces"

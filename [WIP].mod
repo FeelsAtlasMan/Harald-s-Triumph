@@ -1,7 +1,0 @@
-name = "[WIP]"
-path = "mod/[WIP]"
-user_dir = "[WIP]"
-replace_path = "wars"
-replace_path = "decisions"
-replace_path = "events"
-replace_path = "history/provinces"
