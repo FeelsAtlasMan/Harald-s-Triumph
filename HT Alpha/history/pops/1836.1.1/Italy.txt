@@ -3079,30 +3079,18 @@
 }
 #Sardinia Region (524000)
 #under the rule of Sardinia in 1836
-#Cagliari (336000/84000 POPS)
+#Cagliari/Caller/ak-Kastizziye (336000/84000 POPS)
 765 = {
 	aristocrats = {
 		culture = siqilli
 		religion = sunni
-		size = 1750
-	}
-
-	bureaucrats = {
-		culture = siqilli
-		religion = sunni
-		size = 175
-	}
-
-	officers = {
-		culture = siqilli
-		religion = sunni
-		size = 150
+		size = 350
 	}
 
 	clergymen = {
 		culture = siqilli
 		religion = sunni
-		size = 850
+		size = 150
 	}
 
 	artisans = {
@@ -3114,83 +3102,422 @@
 	soldiers = {
 		culture = siqilli
 		religion = sunni
-		size = 2000
+		size = 100
 	}
 
 	farmers = {
 		culture = siqilli
 		religion = sunni
-		size = 20000
+		size = 5000
+	}
+	
+	aristocrats = {
+		culture = aragonese
+		religion = catholic
+		size = 110
+	}
+
+	clergymen = {
+		culture = aragonese
+		religion = catholic
+		size = 60
+	}
+
+	artisans = {
+		culture = aragonese
+		religion = catholic
+		size = 800
+	}
+
+	soldiers = {
+		culture = aragonese
+		religion = catholic
+		size = 100
+	}
+	
+	farmers = {
+		culture = aragonese
+		religion = catholic
+		size = 295
+	}
+	
+	aristocrats = {
+		culture = sephardic
+		religion = jewish
+		size = 80
+	}
+
+	clergymen = {
+		culture = sephardic
+		religion = jewish
+		size = 20
+	}
+
+	artisans = {
+		culture = sephardic
+		religion = jewish
+		size = 300
+	}
+	
+	farmers = {
+		culture = sephardic
+		religion = jewish
+		size = 105
+	}
+	
+	aristocrats = {
+		culture = sardinian
+		religion = catholic
+		size = 120
+	}
+
+	clergymen = {
+		culture = sardinian
+		religion = catholic
+		size = 80
+	}
+
+	artisans = {
+		culture = sardinian
+		religion = catholic
+		size = 1500
+	}
+
+	soldiers = {
+		culture = sardinian
+		religion = catholic
+		size = 100
 	}
 	
 	farmers = {
 		culture = sardinian
 		religion = catholic
-		size = 50895
+		size = 4895
 	}
 }
+
+#Oristan
+4299 = {
+	aristocrats = {
+		culture = siqilli
+		religion = sunni
+		size = 250
+	}
+
+	clergymen = {
+		culture = siqilli
+		religion = sunni
+		size = 150
+	}
+
+	artisans = {
+		culture = siqilli
+		religion = sunni
+		size = 500
+	}
+
+	soldiers = {
+		culture = siqilli
+		religion = sunni
+		size = 100
+	}
+
+	farmers = {
+		culture = siqilli
+		religion = sunni
+		size = 18000
+	}
+	
+	aristocrats = {
+		culture = aragonese
+		religion = catholic
+		size = 110
+	}
+
+	clergymen = {
+		culture = aragonese
+		religion = catholic
+		size = 150
+	}
+
+	artisans = {
+		culture = aragonese
+		religion = catholic
+		size = 1000
+	}
+
+	soldiers = {
+		culture = aragonese
+		religion = catholic
+		size = 100
+	}
+	
+	farmers = {
+		culture = aragonese
+		religion = catholic
+		size = 7295
+	}
+	
+	aristocrats = {
+		culture = sardinian
+		religion = catholic
+		size = 50
+	}
+
+	clergymen = {
+		culture = sardinian
+		religion = catholic
+		size = 30
+	}
+
+	artisans = {
+		culture = sardinian
+		religion = catholic
+		size = 100
+	}
+
+	soldiers = {
+		culture = sardinian
+		religion = catholic
+		size = 10
+	}
+	
+	farmers = {
+		culture = sardinian
+		religion = catholic
+		size = 1895
+	}
+}
+
 #Sassari (188000/47000 POPS)
 766 = {
 	aristocrats = {
 		culture = tuscan
 		religion = catholic
-		size = 1100
+		size = 200
 	}
 
 	clergymen = {
 		culture = tuscan
 		religion = catholic
-		size = 475
+		size = 150
 	}
 
 	artisans = {
 		culture = tuscan
 		religion = catholic
-		size = 6500
+		size = 1800
 	}
 	
 	farmers = {
 		culture = tuscan
 		religion = catholic
-		size = 13211
+		size = 5200
+	}
+	
+	aristocrats = {
+		culture = sephardic
+		religion = jewish
+		size = 30
+	}
+
+	clergymen = {
+		culture = sephardic
+		religion = jewish
+		size = 30
+	}
+
+	artisans = {
+		culture = sephardic
+		religion = jewish
+		size = 300
+	}
+
+	farmers = {
+		culture = sephardic
+		religion = jewish
+		size = 200
+	}
+	
+	aristocrats = {
+		culture = aragonese
+		religion = catholic
+		size = 300
+	}
+
+	clergymen = {
+		culture = aragonese
+		religion = catholic
+		size = 230
+	}
+
+	artisans = {
+		culture = aragonese
+		religion = catholic
+		size = 2300
+	}
+
+	farmers = {
+		culture = aragonese
+		religion = catholic
+		size = 4400
+	}
+	
+	aristocrats = {
+		culture = sardinian
+		religion = catholic
+		size = 100
+	}
+
+	clergymen = {
+		culture = sardinian
+		religion = catholic
+		size = 75
+	}
+
+	artisans = {
+		culture = sardinian
+		religion = catholic
+		size = 300
 	}
 
 	farmers = {
 		culture = sardinian
 		religion = catholic
-		size = 23211
+		size = 3011
 	}
 	
 	aristocrats = {
 		culture = siqilli
-		religion = catholic
-		size = 1100
+		religion = sunni
+		size = 60
 	}
 
 	clergymen = {
 		culture = siqilli
-		religion = catholic
-		size = 475
+		religion = sunni
+		size = 35
 	}
 
 	artisans = {
 		culture = siqilli
-		religion = catholic
-		size = 6500
-	}
-	
-	soldiers = {
-		culture = siqilli
 		religion = sunni
-		size = 1100
+		size = 300
 	}
-	
+
 	farmers = {
 		culture = siqilli
 		religion = sunni
-		size = 14814
+		size = 1214
+	}
+}
+
+#Terranao
+4301 = {
+	aristocrats = {
+		culture = sardinian
+		religion = catholic
+		size = 200
 	}
 
+	clergymen = {
+		culture = sardinian
+		religion = catholic
+		size = 165
+	}
+
+	artisans = {
+		culture = sardinian
+		religion = catholic
+		size = 1700
+	}
+
+	farmers = {
+		culture = sardinian
+		religion = catholic
+		size = 4800
+	}
+	
+	aristocrats = {
+		culture = tuscan
+		religion = catholic
+		size = 200
+	}
+
+	clergymen = {
+		culture = tuscan
+		religion = catholic
+		size = 130
+	}
+
+	artisans = {
+		culture = tuscan
+		religion = catholic
+		size = 600
+	}
+
+	farmers = {
+		culture = tuscan
+		religion = catholic
+		size = 7400
+	}
+	
+	aristocrats = {
+		culture = siqilli
+		religion = sunni
+		size = 60
+	}
+
+	clergymen = {
+		culture = siqilli
+		religion = sunni
+		size = 35
+	}
+
+	artisans = {
+		culture = siqilli
+		religion = sunni
+		size = 300
+	}
+
+	farmers = {
+		culture = siqilli
+		religion = sunni
+		size = 1214
+	}
+}
+
+#Nugoro
+4300 = {
+	aristocrats = {
+		culture = sardinian
+		religion = catholic
+		size = 150
+	}
+
+	clergymen = {
+		culture = sardinian
+		religion = catholic
+		size = 115
+	}
+
+	artisans = {
+		culture = sardinian
+		religion = catholic
+		size = 300
+	}
+
+	farmers = {
+		culture = sardinian
+		religion = catholic
+		size = 8411
+	}
+
+	farmers = {
+		culture = siqilli
+		religion = sunni
+		size = 200
+	}
 }
 
 #Pescara - (4000/1000 POPS)

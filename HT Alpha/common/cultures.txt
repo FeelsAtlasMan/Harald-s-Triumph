@@ -688,6 +688,7 @@ iberian = {
 		Nunes Ortigão Pereira Pinheiro Pinto Pires Pomar Pulido Queiroz Quintanilha
 		Ribeiro Rodrigues Salazar Sampaio Sérgio Silveira Tavares Teixeira Vidigal Vieira }
 	}
+	
 	mozarabic = {
 		color = {26 168 38}
 		first_names = { Aljamí Alj Alejandro Alfonso Abdul Antonio "Antonio María" Arsenio Augusto Baldomero
@@ -2821,6 +2822,22 @@ arab = {
 	#	primary = MLT
 	#}
 	
+	morisco = {
+		color = {30 100 40}
+		first_names = { 
+			Abdullah Abdulhamid Abdulkerim Ahmet Ali Bekir Cemal Enver Fevzi Fuat Halil 
+			Hasan Ibrahim Iskender Ismet Izzet Kamil Kazim Kemal 
+			Mehmet Murat Musa Mustafa Nazim Nurettin Omar Osman 
+			Nuri Rauf Rifat Selim Shukru Suleyman Urabi Yusuf Yunus Ziya
+			}
+		
+		last_names = { 
+			Elsherbiny  Elshinnawy Abdel-Dayem Elhadidy Adib Bassili Aboul-Nour Elbassiouny Aoul-Enein Elsaeid Elhousseiny Khattab Gouda Elbordiny Arafa 
+			Elsafty Elshorbagy Hasheesh Halim Tawakol Elfar Elbadry Khalil Shahin Elserafie Hakim Kira Amer Bakhoum Elmanawy Deyab Derbala Elhadidi Elbenhawy 
+			Negm Nakhla Koura Elshazly Soliman Elkhashab Elkady Hindawy Zeitoun Elgammal 
+		}
+	}
+	
 	misri = {
 		color = {0 100 40}
 		first_names = { 
@@ -2836,6 +2853,7 @@ arab = {
 			Negm Nakhla Koura Elshazly Soliman Elkhashab Elkady Hindawy Zeitoun Elgammal 
 		}
 	}
+	
 	levantine = {
 		color = {10 120 60}
 		first_names = { 
