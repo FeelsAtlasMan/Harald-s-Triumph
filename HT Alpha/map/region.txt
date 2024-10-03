@@ -1146,33 +1146,35 @@ JAP_1646 = { 1645 1677 3260 4190 4191 } #Chubu - now Koshin'etsu
 
 ### North Africa
 
-MOR_1696 = { 1696 1773 1774 1775 1776 3408 } #Western Mauritania
+MOR_1696 = { 1696 1773 1774 1716 1717 4307 } #Western Mauritania
 
 MOR_1693 = { 1690 1693 1691 2563 1692 } #Morocco
 
-MOR_1686 = { 1685 1681 1682 1680 } #Fez
+MOR_1686 = { 1685 1682 1680 4304 } #Fez
 
-MOR_1688 = { 1686 1688 1687 2590 } #al Rif
+MOR_1688 = { 1686 1687 2590 1681 } #al Rif
 
-MOR_1683 = { 1683 1684 1697 } #Taza
+MOR_1683 = { 1683 1684 1688 } #Taza
 
-MOR_1694 = { 1694 1699 1698 1695 } #Agadir
+MOR_1694 = { 1694 1695 4306 } #Agadir
 
-FRA_1700 = { 1700 1701 1709 } #Algiers
+MOR_1698 = { 1698 1699 1697 4303 4305 } #Tafilfalt
+
+FRA_1700 = { 1700 1701 1703 1706 1702 } #Algiers
 
 ALD_1704 = { 1704 1707 1715 1705 } #Oran
 
-ALD_1708 = { 1708 1710 1702 } #Constantine
+ALD_1708 = { 1708 1710 1709 } #Constantine
 
-ALD_1711 = { 1711 1712 3410 } #M'zab
+ALD_1711 = { 1711 1712 1713 3410 } #M'zab
 
-ALD_1713 = { 1713 1703 1706 } #North Central Sahara
+#ALD_1713 = { 1703 1706 } #North Central Sahara
 
 #ALD_1714 = { 1714 1716 1720 } #West Sahara / Saoura
 
-ALD_1718 = { 1718 1721 1722 1807 1812 1813 } #Sahara
+ALD_1718 = { 1718 1721 1807 1812 1813 } #Sahara
 
-ALD_3409 = { 3409 1716 1717 1720 } #Twat
+ALD_3409 = { 3409 1720 3403 3407 } #Twat
 
 TUN_1726 = { 1725 1726 1727 1728 1729 1730 } #Tunisia
 
@@ -1248,19 +1250,19 @@ ENG_2044 = { 2044 2043 2046 3437 3440 3445 } #Tanganyika - now Inner Tanganyika
 
 ### West Africa
 
-MOR_1777 = { 1777 1778 1779 1782 3403 3404 } #Inner Mauritania
+MOR_1777 = { 1776 1777 1779 1782 1775 3408 } #Inner Mauritania
 
 FRA_1783 = { 1783 1784 1786 1787 2573 1788 } #Senegal - now Wolof
 
 TOO_1791 = { 1791 1789 1790 } #Wad al-Mal
 
-MOR_1802 = { 1802 1804 1803 1805  } #Eastern Mali - now Timbuktu
+MOR_1802 = { 1802 1804 1803 1805 2609 3406 1781 1722 } #Eastern Mali - now Timbuktu
 
 FRA_1798 = { 1798 1799 1800 1794 1906 } #Segu
 
-FRA_1801 = { 1795 1796 1797 1801 } #Western Mali - Sokkmasor
+FRA_1801 = { 1795 1796 1797 1801 1689 1778 3404 } #Western Mali - Sokkmasor
 
-FRA_1803 = { 2609 3406 3407 1781 1689 } #Timbuktu - now al-Hodh
+#FRA_1803 = { 2609 3406 1781 1689 } #Timbuktu - now al-Hodh
 
 FRA_1883 = { 1879 1880 } #Guinea - now Futa Jallon
 

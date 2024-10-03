@@ -215,8 +215,14 @@ country_event = {
 	option = {
 	    name = "We'll give up Timbuktu"
 		TOO = { inherit = TMB }
+		2609 = { secede_province = THIS }
+		1781 = { secede_province = THIS }
+		2609 = { secede_province = --- }
+		1781 = { secede_province = --- }
 		TMB = { all_core = { add_core = TOO } }
-		TMB = { all_core = { remove_core = MOR remove_core = TMB } }
+		TMB = { all_core = { remove_core = MOR } }
+		2609 = { remove_core = TMB }
+		1781 = { remove_core = TMB }
 		ai_chance = {
 			factor = 20
 		}
@@ -241,9 +247,14 @@ country_event = {
 	    name = "A sad day for our nation..."
 		release_vassal = TMB
 		TOO = { inherit = TMB }
+		2609 = { secede_province = THIS }
+		1781 = { secede_province = THIS }
+		2609 = { secede_province = --- }
+		1781 = { secede_province = --- }
 		TMB = { all_core = { add_core = TOO } }
 		TMB = { all_core = { remove_core = MOR } }
-		TMB = { all_core = { remove_core = TMB } }
+		2609 = { remove_core = TMB }
+		1781 = { remove_core = TMB }
 		clr_country_flag = got_cut_down
 		set_country_flag = lost_timbuktu
 	}
@@ -268,9 +279,14 @@ country_event = {
 	    name = "The Sahel is lost..."
 		end_war = TOO
 		TOO = { inherit = TMB }
+		2609 = { secede_province = THIS }
+		1781 = { secede_province = THIS }
+		2609 = { secede_province = --- }
+		1781 = { secede_province = --- }
 		TMB = { all_core = { remove_core = MOR } }
-		TMB = { all_core = { remove_core = TMB } }
 		TMB = { all_core = { add_core = TOO } }
+		2609 = { remove_core = TMB }
+		1781 = { remove_core = TMB }
 		prestige = -20
 		ai_chance = {
 			factor = 80

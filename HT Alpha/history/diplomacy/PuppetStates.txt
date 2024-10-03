@@ -1062,6 +1062,13 @@ substate = {
 
 substate = {
 	first = MOR
+	second = DZD
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+substate = {
+	first = MOR
 	second = ZYD
 	start_date = 1836.1.1
 	end_date = 1937.1.1
@@ -1070,6 +1077,20 @@ substate = {
 vassal = {
 	first = MOR
 	second = TRZ
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+vassal = {
+	first = MOR
+	second = CNR
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+vassal = {
+	first = MOR
+	second = WSA
 	start_date = 1836.1.1
 	end_date = 1937.1.1
 }
