@@ -570,11 +570,11 @@ raeto_romansh = {
 	}
 }
 
-iberian = {
-	leader = southamerican
+vasconian = {
+	leader = european
 	unit = SpanishGC
 	basque = {
-		color = {220 170 30}
+		color = {40 10 10}
 		first_names = { Agustín Aitor Alberto Ander Andoni Andrés Ángel Antonio Arturo Carlos
 		Ceferino Cosme Cristobal Damián Endika "Francisco Javier" Ignacio Imanol Iñaki Jesús
 		Jon "José Antonio" "José María" Joseba Josu Juan Julen Koldobika Luis Manuel
@@ -586,90 +586,72 @@ iberian = {
 		Nárdiz Olano Olave Oyarzábal Rotaeche Uzcudun Zamárraga Zárate Zavala Zumalacárregui }
 		radicalism = 15
 	}
-	spanish = {
-		color = {220 220 30}
-		first_names = { Agustín Alberto Alejandro Alfonso Álvaro Antonio "Antonio María" Arsenio Augusto Baldomero
-		Baltasar Benito Bernardino Bernardo Calixto Carlos Celestino Claudio Cristobal Dámaso
-		Diego Dionisio Eduardo Emilio Estanislao Federico Felipe Félix Fernando Francisco
-		"Francisco Javier" Gabino Gabriel Gaspar Genaro Gonzalo Ignacio Isidro Jacobo Jaime
-		Joaquín José "José Antonio" "José Manuel" "José María" Juan "Juan Bautista" Julio Leopoldo Lorenzo 
-		Luis Manuel Marcelo Mariano Mateo Melchor Miguel Nicolás Pablo Pascual
-		Pedro Rafael Raimundo Ramón Ricardo Santiago Sebastián Segismundo Valeriano Vicente }
-		
-	last_names = { Acuña Aguirre Alcalá-Zamora Allendesalazar Alonso Álvarez "Álvarez de Toledo" Aranda Argüelles-Meres Asensio
-		Aznar Barradas Bugallal Cabrera "Cagigal de la Vega" Cano Cervera "de Albornoz" "de Borbón"
-		"de Carvajal" "de la Fuente" "de Orleans" Díaz Espartero Fernández "Fernández de Córdoba" "Fitz-James Stuart" Franco 
-		García "García de la Noceda" González Heredia Hernández Herrera Hevia "Hidalgo de Cisneros" Linares López 
-		Maroto Márquez Martínez-Campos Maura Menéndez Miaja Millán-Astray Mina Mola Muñoz 
-		Narváez O'Donnell Ortega Pavía Pérez "Primo de Rivera" "Queipo de Llano" Rodríguez Rojo Ruiz 
-		Sanjurjo Serrano Silvestre Topete Valdés Varela Villapol Villar Weyler Yagüe }
-	}
-	asturleonese  = {
-		color = {150 190 30}
-		first_names = { Agustín Alberto Alejandro Alfonso Álvaro Antonio "Antonio María" Arsenio Augusto Baldomero
-		Baltasar Benito Bernardino Bernardo Calixto Carlos Celestino Claudio Cristobal Dámaso
-		Diego Dionisio Eduardo Emilio Estanislao Federico Felipe Félix Fernando Francisco
-		"Francisco Javier" Gabino Gabriel Gaspar Genaro Gonzalo Ignacio Isidro Jacobo Jaime
-		Joaquín José "José Antonio" "José Manuel" "José María" Juan "Juan Bautista" Julio Leopoldo Lorenzo 
-		Luis Manuel Marcelo Mariano Mateo Melchor Miguel Nicolás Pablo Pascual
-		Pedro Rafael Raimundo Ramón Ricardo Santiago Sebastián Segismundo Valeriano Vicente }
-		
-	last_names = { Acuña Aguirre Alcalá-Zamora Allendesalazar Alonso Álvarez "Álvarez de Toledo" Aranda Argüelles-Meres Asensio
-		Aznar Barradas Bugallal Cabrera "Cagigal de la Vega" Cano Cervera "de Albornoz" "de Borbón"
-		"de Carvajal" "de la Fuente" "de Orleans" Díaz Espartero Fernández "Fernández de Córdoba" "Fitz-James Stuart" Franco 
-		García "García de la Noceda" González Heredia Hernández Herrera Hevia "Hidalgo de Cisneros" Linares López 
-		Maroto Márquez Martínez-Campos Maura Menéndez Miaja Millán-Astray Mina Mola Muñoz 
-		Narváez O'Donnell Ortega Pavía Pérez "Primo de Rivera" "Queipo de Llano" Rodríguez Rojo Ruiz 
-		Sanjurjo Serrano Silvestre Topete Valdés Varela Villapol Villar Weyler Yagüe }
-	}
-	galician = {
-		color = {170 200 40}
-		first_names = { Agustín Alberto Alejandro Alfonso Álvaro Antonio "Antonio María" Arsenio Augusto Baldomero
-		Baltasar Benito Bernardino Bernardo Calixto Carlos Celestino Claudio Cristobal Dámaso
-		Diego Dionisio Eduardo Emilio Estanislao Federico Felipe Félix Fernando Francisco
-		"Francisco Javier" Gabino Gabriel Gaspar Genaro Gonzalo Ignacio Isidro Jacobo Jaime
-		Joaquín José "José Antonio" "José Manuel" "José María" Juan "Juan Bautista" Julio Leopoldo Lorenzo 
-		Luis Manuel Marcelo Mariano Mateo Melchor Miguel Nicolás Pablo Pascual
-		Pedro Rafael Raimundo Ramón Ricardo Santiago Sebastián Segismundo Valeriano Vicente }
-		
-	last_names = { Acuña Aguirre Alcalá-Zamora Allendesalazar Alonso Álvarez "Álvarez de Toledo" Aranda Argüelles-Meres Asensio
-		Aznar Barradas Bugallal Cabrera "Cagigal de la Vega" Cano Cervera "de Albornoz" "de Borbón"
-		"de Carvajal" "de la Fuente" "de Orleans" Díaz Espartero Fernández "Fernández de Córdoba" "Fitz-James Stuart" Franco 
-		García "García de la Noceda" González Heredia Hernández Herrera Hevia "Hidalgo de Cisneros" Linares López 
-		Maroto Márquez Martínez-Campos Maura Menéndez Miaja Millán-Astray Mina Mola Muñoz 
-		Narváez O'Donnell Ortega Pavía Pérez "Primo de Rivera" "Queipo de Llano" Rodríguez Rojo Ruiz 
-		Sanjurjo Serrano Silvestre Topete Valdés Varela Villapol Villar Weyler Yagüe }
-	}
-	catalan = {
-		color = {160 190 130}
-		first_names = { Albert Alexandre Alfons Alfonso Andrés Andreu Antoni Carles Cassià Dalmau 
-		David Eduard Enric Enrique Federico Felip Fernando Ferran Francesc Gaspar 
-		Gerard Isaac Jacint Jaume Joan Jordi José Josep Juan Llorenç
-		Lluis Manel Manuel Marc Miquel Narcís Pasqual Pau Pedro Pere
-		Pompeu Rafael Rafel Ramon Ricardo Salvador Sergi Valntí Victor Xavier }
-		
-		last_names = { Albéniz Almirall Bacardí Batet Berenguer Borrás Borrell Cadafall Carner Casals
-		Casanova Castelló Claramunt Cucala Cugat Despujol Domènech Escotet Fabra Fages 
-		"Folc de Cardona" Gumerà Irla Llauder Macià Maragall Margall "Milans del Bosch" Miró Mompou
-		Montaner Moragues Moret Nebot Nin Oller Prat Prim Puig Riba 
-		Roig Sala Saliquet Savalls Serra Sor Tristany Verdaguer Virigili Vives }
-	}
+}
 
-	aragonese = {
-		color = {253 224 108}
-		first_names = { Albert Alexandre Alfons Alfonso Andrés Andreu Antoni Bernat Carles Cassià Chulián Dalmau 
-		David Eduard Enric Enrique Federico Felip Fernando Ferran Francí Gaspar 
-		Gerard Isaac Jacint Jaume Joan Jordi Josep Juan Llorenç
-		Lluis Miguel Manuel Marc Miquel Narcís Oleguer Oliba Pasqual Pau Pedro Pere
-		Pompeu Rafael Rafel Ramon Ricardo Salvador Sergi Tomás Uloxio Valentí Victor Xavier Zequiel }
+iberian = {
+	leader = southamerican
+	unit = SpanishGC
+	#Toledocastilian
+	spanish = {
+		color = {200 160 30}
+		first_names = { Agustín Alberto Alejandro Alfonso Álvaro Antonio "Antonio María" Arsenio Augusto Baldomero
+		Baltasar Benito Bernardino Bernardo Calixto Carlos Celestino Claudio Cristobal Dámaso
+		Diego Dionisio Eduardo Emilio Estanislao Federico Felipe Félix Fernando Francisco
+		"Francisco Javier" Gabino Gabriel Gaspar Genaro Gonzalo Ignacio Isidro Jacobo Jaime
+		Joaquín José "José Antonio" "José Manuel" "José María" Juan "Juan Bautista" Julio Leopoldo Lorenzo 
+		Luis Manuel Marcelo Mariano Mateo Melchor Miguel Nicolás Pablo Pascual
+		Pedro Rafael Raimundo Ramón Ricardo Santiago Sebastián Segismundo Valeriano Vicente }
 		
-		last_names = { Albéniz Almirall Bacardí Batet Berenguer Borrás Borrell Cadafall Carner Casals
-		Casanova Castelló Claramunt Cucala Cugat Despujol Domènech Escotet Fabra Fages 
-		"Folc de Cardona" Gumerà Irla Llauder Macià Maragall Margall "Milans del Bosch" Miró Mompou
-		Montaner Moragues Moret Nebot Nin Oller Prat Prim Puig Riba 
-		Roig Sala Saliquet Savalls Serra Sor Tristany Verdaguer Virigili Vives }
+	last_names = { Acuña Aguirre Alcalá-Zamora Allendesalazar Alonso Álvarez "Álvarez de Toledo" Aranda Argüelles-Meres Asensio
+		Aznar Barradas Bugallal Cabrera "Cagigal de la Vega" Cano Cervera "de Albornoz" "de Borbón"
+		"de Carvajal" "de la Fuente" "de Orleans" Díaz Espartero Fernández "Fernández de Córdoba" "Fitz-James Stuart" Franco 
+		García "García de la Noceda" González Heredia Hernández Herrera Hevia "Hidalgo de Cisneros" Linares López 
+		Maroto Márquez Martínez-Campos Maura Menéndez Miaja Millán-Astray Mina Mola Muñoz 
+		Narváez O'Donnell Ortega Pavía Pérez "Primo de Rivera" "Queipo de Llano" Rodríguez Rojo Ruiz 
+		Sanjurjo Serrano Silvestre Topete Valdés Varela Villapol Villar Weyler Yagüe }
+	}
+	
+	#Asturleonese
+	asturleonese  = {
+		color = {180 190 30}
+		first_names = { Agustín Alberto Alejandro Alfonso Álvaro Antonio "Antonio María" Arsenio Augusto Baldomero
+		Baltasar Benito Bernardino Bernardo Calixto Carlos Celestino Claudio Cristobal Dámaso
+		Diego Dionisio Eduardo Emilio Estanislao Federico Felipe Félix Fernando Francisco
+		"Francisco Javier" Gabino Gabriel Gaspar Genaro Gonzalo Ignacio Isidro Jacobo Jaime
+		Joaquín José "José Antonio" "José Manuel" "José María" Juan "Juan Bautista" Julio Leopoldo Lorenzo 
+		Luis Manuel Marcelo Mariano Mateo Melchor Miguel Nicolás Pablo Pascual
+		Pedro Rafael Raimundo Ramón Ricardo Santiago Sebastián Segismundo Valeriano Vicente }
+		
+	last_names = { Acuña Aguirre Alcalá-Zamora Allendesalazar Alonso Álvarez "Álvarez de Toledo" Aranda Argüelles-Meres Asensio
+		Aznar Barradas Bugallal Cabrera "Cagigal de la Vega" Cano Cervera "de Albornoz" "de Borbón"
+		"de Carvajal" "de la Fuente" "de Orleans" Díaz Espartero Fernández "Fernández de Córdoba" "Fitz-James Stuart" Franco 
+		García "García de la Noceda" González Heredia Hernández Herrera Hevia "Hidalgo de Cisneros" Linares López 
+		Maroto Márquez Martínez-Campos Maura Menéndez Miaja Millán-Astray Mina Mola Muñoz 
+		Narváez O'Donnell Ortega Pavía Pérez "Primo de Rivera" "Queipo de Llano" Rodríguez Rojo Ruiz 
+		Sanjurjo Serrano Silvestre Topete Valdés Varela Villapol Villar Weyler Yagüe }
 	}	
 	
+	#Mozarabic
+	mozarabic = {
+		color = {130 140 40}
+		first_names = { Aljamí Alj Alejandro Alfonso Abdul Antonio "Antonio María" Arsenio Augusto Baldomero
+		Baltasar Benito Bernardino Bernardo Citi Carlos Celestino Claudio Cristobal Dámaso
+		Diego Dionisio Eduardo Emilio Estanislao Federico Felipe Félix Fernando Muahid
+		"Francisco Javier" Gabino Gabriel Gaspar Habdela Hilal Iben Ibn Jacobo Jaime
+		Joaquín José "José Antonio" "José Manuel" "José María" Juan "Juan Bautista" Julio Leopoldo Lorenzo 
+		Luis Manuel Marcelo Mariano Mateo Muza Miguel Nicolás Pablo Pascual
+		Pedro Rafael Raimundo Theodomiro Ricardo Santiago Umar Segismundo Zanom }
+		
+	last_names = { Abba Aguirre Aryent Alcañiz Alonso "ben Illan" "ben Sancho" Aranda Meres Buelo
+		Biklaris Barradas Bugallal Cabrera "Cagigal de la Vega" Cano Cervera "de Albornoz" "ben Juan"
+		"de Carvajal" "de la Fuente" "al Muqtadir" Daudi Kaiso Qorayonayra Ibenanunar Laytarola Huerva 
+		García "García de la Noceda" González Heredia Forqasa Herrera Hevia "Iben Froila" Linares Turtuja 
+		Maroto Márquez Nabiello Maura Menéndez Miaja Millán-Astray Mina Mola Muñoz 
+		Narváez O'Donnell Ortega Pavía Pérez Plantayn "Queipo de Llano" Ramellus Rojo Ruiz 
+		Sayyid Sid Salim Topete Valdés Varela Yarbo Waliyo Zanon Zaute }
+	}
+	
+	#Galician-Portuguese
 	portuguese = {
 		color = {160 220 30}
 		first_names = { Abel Adriano Afonso Alberto Alexandre Alfredo Álvaro André António Aquilino 
@@ -689,23 +671,23 @@ iberian = {
 		Ribeiro Rodrigues Salazar Sampaio Sérgio Silveira Tavares Teixeira Vidigal Vieira }
 	}
 	
-	mozarabic = {
-		color = {26 168 38}
-		first_names = { Aljamí Alj Alejandro Alfonso Abdul Antonio "Antonio María" Arsenio Augusto Baldomero
-		Baltasar Benito Bernardino Bernardo Citi Carlos Celestino Claudio Cristobal Dámaso
-		Diego Dionisio Eduardo Emilio Estanislao Federico Felipe Félix Fernando Muahid
-		"Francisco Javier" Gabino Gabriel Gaspar Habdela Hilal Iben Ibn Jacobo Jaime
+	galician = {
+		color = {170 200 40}
+		first_names = { Agustín Alberto Alejandro Alfonso Álvaro Antonio "Antonio María" Arsenio Augusto Baldomero
+		Baltasar Benito Bernardino Bernardo Calixto Carlos Celestino Claudio Cristobal Dámaso
+		Diego Dionisio Eduardo Emilio Estanislao Federico Felipe Félix Fernando Francisco
+		"Francisco Javier" Gabino Gabriel Gaspar Genaro Gonzalo Ignacio Isidro Jacobo Jaime
 		Joaquín José "José Antonio" "José Manuel" "José María" Juan "Juan Bautista" Julio Leopoldo Lorenzo 
-		Luis Manuel Marcelo Mariano Mateo Muza Miguel Nicolás Pablo Pascual
-		Pedro Rafael Raimundo Theodomiro Ricardo Santiago Umar Segismundo Zanom }
+		Luis Manuel Marcelo Mariano Mateo Melchor Miguel Nicolás Pablo Pascual
+		Pedro Rafael Raimundo Ramón Ricardo Santiago Sebastián Segismundo Valeriano Vicente }
 		
-	last_names = { Abba Aguirre Aryent Alcañiz Alonso "ben Illan" "ben Sancho" Aranda Meres Buelo
-		Biklaris Barradas Bugallal Cabrera "Cagigal de la Vega" Cano Cervera "de Albornoz" "ben Juan"
-		"de Carvajal" "de la Fuente" "al Muqtadir" Daudi Kaiso Qorayonayra Ibenanunar Laytarola Huerva 
-		García "García de la Noceda" González Heredia Forqasa Herrera Hevia "Iben Froila" Linares Turtuja 
-		Maroto Márquez Nabiello Maura Menéndez Miaja Millán-Astray Mina Mola Muñoz 
-		Narváez O'Donnell Ortega Pavía Pérez Plantayn "Queipo de Llano" Ramellus Rojo Ruiz 
-		Sayyid Sid Salim Topete Valdés Varela Yarbo Waliyo Zanon Zaute }
+	last_names = { Acuña Aguirre Alcalá-Zamora Allendesalazar Alonso Álvarez "Álvarez de Toledo" Aranda Argüelles-Meres Asensio
+		Aznar Barradas Bugallal Cabrera "Cagigal de la Vega" Cano Cervera "de Albornoz" "de Borbón"
+		"de Carvajal" "de la Fuente" "de Orleans" Díaz Espartero Fernández "Fernández de Córdoba" "Fitz-James Stuart" Franco 
+		García "García de la Noceda" González Heredia Hernández Herrera Hevia "Hidalgo de Cisneros" Linares López 
+		Maroto Márquez Martínez-Campos Maura Menéndez Miaja Millán-Astray Mina Mola Muñoz 
+		Narváez O'Donnell Ortega Pavía Pérez "Primo de Rivera" "Queipo de Llano" Rodríguez Rojo Ruiz 
+		Sanjurjo Serrano Silvestre Topete Valdés Varela Villapol Villar Weyler Yagüe }
 	}
 	
 	sephardic = {
@@ -717,6 +699,76 @@ iberian = {
 		last_names = { Banai Barak "Ben Ami" Benveniste Canetti Cantor Cardoso Cohen Disraeli Gaon Golan Halevi Levy Maimon Mizrachi Montefiore Peretz Rafaeli Saban 
 		Sassoon Sebag
 		}
+	}
+}
+
+occitoromance = {
+	leader = european
+	unit = SpanishGC
+	occitan = { 
+		color = { 150 25 120 }
+		first_names = { Alban Andieu Alòi Beròt Carles Estève Fidèl Frederic Girard Jan Jacin Laurenç Martin Nicolau Privat Roman Vincenç }
+		
+		last_names = { Amiel Benet Dardier Delpuech Ladivèze Gilbert Mistral Lacroux Laffont Maury Miquel Montagut Poujade Pujol Vidal Ros Tisseyre }
+	}
+	
+	gascon = { 
+		color = { 160 25 90 }
+		first_names = { Alban Andieu Alòi Beròt Carles Estève Fidèl Frederic Girard Jan Jacin Laurenç Martin Nicolau Privat Roman Vincenç }
+		
+		last_names = { Amiel Benet Dardier Delpuech Ladivèze Gilbert Mistral Lacroux Laffont Maury Miquel Montagut Poujade Pujol Vidal Ros Tisseyre }
+	}
+	
+	north_occitan = { 
+		color = { 90 25 125 }
+		first_names = { Alban Andieu Alòi Beròt Carles Estève Fidèl Frederic Girard Jan Jacin Laurenç Martin Nicolau Privat Roman Vincenç }
+		
+		last_names = { Amiel Benet Dardier Delpuech Ladivèze Gilbert Mistral Lacroux Laffont Maury Miquel Montagut Poujade Pujol Vidal Ros Tisseyre }
+	}
+	
+	catalan = {
+		color = {170 40 30}
+		first_names = { Albert Alexandre Alfons Alfonso Andrés Andreu Antoni Carles Cassià Dalmau 
+		David Eduard Enric Enrique Federico Felip Fernando Ferran Francesc Gaspar 
+		Gerard Isaac Jacint Jaume Joan Jordi José Josep Juan Llorenç
+		Lluis Manel Manuel Marc Miquel Narcís Pasqual Pau Pedro Pere
+		Pompeu Rafael Rafel Ramon Ricardo Salvador Sergi Valntí Victor Xavier }
+		
+		last_names = { Albéniz Almirall Bacardí Batet Berenguer Borrás Borrell Cadafall Carner Casals
+		Casanova Castelló Claramunt Cucala Cugat Despujol Domènech Escotet Fabra Fages 
+		"Folc de Cardona" Gumerà Irla Llauder Macià Maragall Margall "Milans del Bosch" Miró Mompou
+		Montaner Moragues Moret Nebot Nin Oller Prat Prim Puig Riba 
+		Roig Sala Saliquet Savalls Serra Sor Tristany Verdaguer Virigili Vives }
+	}
+
+	aragonese = {
+		color = {180 75 30}
+		first_names = { Albert Alexandre Alfons Alfonso Andrés Andreu Antoni Bernat Carles Cassià Chulián Dalmau 
+		David Eduard Enric Enrique Federico Felip Fernando Ferran Francí Gaspar 
+		Gerard Isaac Jacint Jaume Joan Jordi Josep Juan Llorenç
+		Lluis Miguel Manuel Marc Miquel Narcís Oleguer Oliba Pasqual Pau Pedro Pere
+		Pompeu Rafael Rafel Ramon Ricardo Salvador Sergi Tomás Uloxio Valentí Victor Xavier Zequiel }
+		
+		last_names = { Albéniz Almirall Bacardí Batet Berenguer Borrás Borrell Cadafall Carner Casals
+		Casanova Castelló Claramunt Cucala Cugat Despujol Domènech Escotet Fabra Fages 
+		"Folc de Cardona" Gumerà Irla Llauder Macià Maragall Margall "Milans del Bosch" Miró Mompou
+		Montaner Moragues Moret Nebot Nin Oller Prat Prim Puig Riba 
+		Roig Sala Saliquet Savalls Serra Sor Tristany Verdaguer Virigili Vives }
+	}
+	
+	navarromance = {
+		color = {190 115 30}
+		first_names = { Albert Alexandre Alfons Alfonso Andrés Andreu Antoni Bernat Carles Cassià Chulián Dalmau 
+		David Eduard Enric Enrique Federico Felip Fernando Ferran Francí Gaspar 
+		Gerard Isaac Jacint Jaume Joan Jordi Josep Juan Llorenç
+		Lluis Miguel Manuel Marc Miquel Narcís Oleguer Oliba Pasqual Pau Pedro Pere
+		Pompeu Rafael Rafel Ramon Ricardo Salvador Sergi Tomás Uloxio Valentí Victor Xavier Zequiel }
+		
+		last_names = { Albéniz Almirall Bacardí Batet Berenguer Borrás Borrell Cadafall Carner Casals
+		Casanova Castelló Claramunt Cucala Cugat Despujol Domènech Escotet Fabra Fages 
+		"Folc de Cardona" Gumerà Irla Llauder Macià Maragall Margall "Milans del Bosch" Miró Mompou
+		Montaner Moragues Moret Nebot Nin Oller Prat Prim Puig Riba 
+		Roig Sala Saliquet Savalls Serra Sor Tristany Verdaguer Virigili Vives }
 	}
 }
 
@@ -811,27 +863,6 @@ french = {
 		"de Langle de Cary" "de MacMahon" "de Montaignac" "de Saint Arnaud" d'Orleans Dubail Dubois Duchêne Dupetit-Thouars Exelmans
 		Foch Forey "Franchet d'Espèrey" Gallieni Gouraud Guillaumat Hamelin Harispe Hoche Humbert
 		Jaurès Joffre Lebouef Lyautey Murat "Ney d'Elchingen" Nivelle Péllissier Petain Vaillant }
-	}
-	
-	occitan = { 
-		color = {90 110 150}
-		first_names = { Alban Andieu Alòi Beròt Carles Estève Fidèl Frederic Girard Jan Jacin Laurenç Martin Nicolau Privat Roman Vincenç }
-		
-		last_names = { Amiel Benet Dardier Delpuech Ladivèze Gilbert Mistral Lacroux Laffont Maury Miquel Montagut Poujade Pujol Vidal Ros Tisseyre }
-	}
-	
-	gascon = { 
-		color = {70 90 140}
-		first_names = { Alban Andieu Alòi Beròt Carles Estève Fidèl Frederic Girard Jan Jacin Laurenç Martin Nicolau Privat Roman Vincenç }
-		
-		last_names = { Amiel Benet Dardier Delpuech Ladivèze Gilbert Mistral Lacroux Laffont Maury Miquel Montagut Poujade Pujol Vidal Ros Tisseyre }
-	}
-	
-	north_occitan = { 
-		color = {50 70 120}
-		first_names = { Alban Andieu Alòi Beròt Carles Estève Fidèl Frederic Girard Jan Jacin Laurenç Martin Nicolau Privat Roman Vincenç }
-		
-		last_names = { Amiel Benet Dardier Delpuech Ladivèze Gilbert Mistral Lacroux Laffont Maury Miquel Montagut Poujade Pujol Vidal Ros Tisseyre }
 	}
 	
 	norman = { 
@@ -3422,7 +3453,7 @@ amazigh = {
 			}
 		radicalism = 10
 	}
-	seghrusheni = {
+	seghrusheni = { #Zenati
 		color = {90 115 90}
 		first_names = {
 			Ahmed "Abd al-Karim" Khalid Muhammad Mustafa  
@@ -3445,7 +3476,7 @@ amazigh = {
 		radicalism = 10
 	}
 	#Atlas Berber
-	atlas_berber = {
+	atlas_berber = { #Tamazight
 		color = {100 75 50}
 		first_names = {
 			Ahmed "Abd al-Karim" Khalid Muhammad Mustafa  
@@ -3456,6 +3487,19 @@ amazigh = {
 			}
 		radicalism = 10
 	}
+	
+	tashalhit = { #Tashalhit
+		color = {140 85 50}
+		first_names = {
+			Ahmed "Abd al-Karim" Khalid Muhammad Mustafa  
+			}
+		
+		last_names = {
+			"al-Jazuli" Belkadi Mukrani "al-Rifi" "al-Sahrawi" "al-Shawiyyati" "al-Shiluhi" "al-Zanatawi"
+			}
+		radicalism = 10
+	}
+	
 	judeo_berber = {
 		color = {100 70 10}
 		first_names = { Abraham Amos Baruch Binyamin Daniel David Efraim Ehud Eli Eliezer Elijah Gavriel Hebel Immanuel Itzhak Levi Mattiyahu Mensahe Mikhael Moshe 
@@ -5189,6 +5233,22 @@ indo_aryan = {
 	#Dom-Rom-Lom 
 	gypsy = { #Romani
 	    color = {16 102 163}
+		first_names = { Amberline Belcher Baul Bavol Bersh Beval Bidshika Brishen Camlo Chik Cam Chaine Chal  Chavula Danior Dukker Durriken Durril Dangerfield Garridan Gillie Guibran Goliath Gilderoy Hezekiah Jal Javert Jibben Jivin Ker Lel Lennor Lendar Lensar Mander Merripen Mestipen  Major Nehemiah Pal Pattin Pias Pov Rye Stiggur Shadrack Silvanus Tas Tobar Tobbar Tawno Tem Terkari Vandlo Wen Wesh Yarb }
+		
+		last_names = { Petulengro Vardo-mescro Chumomisto Gry Balorengre Purrum Bedra-kero Camlo Mokkado Baremescre Baryor Beshaley Kaulo }
+		radicalism = 1
+	}
+	
+	calo = { #Ibero-Romance mixed language
+	    color = {160 150 160}
+		first_names = { Amberline Belcher Baul Bavol Bersh Beval Bidshika Brishen Camlo Chik Cam Chaine Chal  Chavula Danior Dukker Durriken Durril Dangerfield Garridan Gillie Guibran Goliath Gilderoy Hezekiah Jal Javert Jibben Jivin Ker Lel Lennor Lendar Lensar Mander Merripen Mestipen  Major Nehemiah Pal Pattin Pias Pov Rye Stiggur Shadrack Silvanus Tas Tobar Tobbar Tawno Tem Terkari Vandlo Wen Wesh Yarb }
+		
+		last_names = { Petulengro Vardo-mescro Chumomisto Gry Balorengre Purrum Bedra-kero Camlo Mokkado Baremescre Baryor Beshaley Kaulo }
+		radicalism = 1
+	}
+	
+	erromintxela  = { #Basque mixed language
+	    color = {185 90 210}
 		first_names = { Amberline Belcher Baul Bavol Bersh Beval Bidshika Brishen Camlo Chik Cam Chaine Chal  Chavula Danior Dukker Durriken Durril Dangerfield Garridan Gillie Guibran Goliath Gilderoy Hezekiah Jal Javert Jibben Jivin Ker Lel Lennor Lendar Lensar Mander Merripen Mestipen  Major Nehemiah Pal Pattin Pias Pov Rye Stiggur Shadrack Silvanus Tas Tobar Tobbar Tawno Tem Terkari Vandlo Wen Wesh Yarb }
 		
 		last_names = { Petulengro Vardo-mescro Chumomisto Gry Balorengre Purrum Bedra-kero Camlo Mokkado Baremescre Baryor Beshaley Kaulo }
