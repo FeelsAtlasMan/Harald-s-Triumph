@@ -1,10 +1,12 @@
-capital = 492
+capital = 493
 primary_culture = basque
-religion = catholic
+culture = navarromance
+culture = gascon
+religion = protestant
 government = absolute_monarchy
 plurality = 0.1
 nationalvalue = nv_order
-literacy = 0.48
+literacy = 0.38
 civilized = yes
 prestige = 5
 
@@ -64,15 +66,15 @@ mechanized_mining = 1
 basic_chemistry = 1 
 
 oob = "BSQ_oob.txt"
-set_country_flag = catholic_country
+set_country_flag = protestant_country
 
 ruling_party = BSQ_liberal
 upper_house = {
-	fascist = 1
-	liberal = 49
-	conservative = 39
-	reactionary = 12
-	anarcho_liberal = 0
+	fascist = 0
+	liberal = 25
+	conservative = 45
+	reactionary = 25
+	anarcho_liberal = 5
 	socialist = 0
 	communist = 0
 }

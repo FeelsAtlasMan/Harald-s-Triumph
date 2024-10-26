@@ -188,7 +188,7 @@ TUA_ADJ;Tuareg;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 KJP;Zion;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 KJP_ADJ;Zionite;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 ANU;Andalusia;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
-ANU_colonial_company;Wilaya of Al-Andalus;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+ANU_colonial_company;al-Andalus Wilaya;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 ANU_ADJ;Andalusian;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 KOK;Argyn Zhuz;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 KOK_absolute_monarchy;Argyn Zhuz;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
@@ -280,7 +280,7 @@ CAT;Catalonia;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 CAT_absolute_monarchy;Aragon;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 CAT_hms_government;Aragon;;;;;;;;;;;;x
 CAT_prussian_constitutionalism;Aragon;;;;;;;;;;;;x
-CAT_ADJ;Catalonian;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+CAT_ADJ;Aragonese;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 TRR;Trier;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 TRR_ADJ;Trierian;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 LIG;Liege;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
@@ -945,6 +945,7 @@ TRZ_ADJ;Mauretanian;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 BBB;Beni Abbas;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 BBB_ADJ;Abbasid;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 ZYD;Zayyanids;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+ZYD_colonial_company;Tilimsam Wilaya;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 ZYD_ADJ;Zayyanid;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 MZB;M'zab;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 MZB_ADJ;Mzabian;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
@@ -962,7 +963,7 @@ ALD_prussian_constitutionalism;Yifranids;;;;;;;;;;;;x
 ALD_republic;Orania;;;;;;;;;;;;x
 ALD_ADJ;Oranian;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 TMB;Timbuktu;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
-TMB_colonial_company;Wilaya of Timbuktu;;;;;;;;;;;;x
+TMB_colonial_company;Timbuktu Wilaya;;;;;;;;;;;;x
 TMB_ADJ;Timbuktan;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 TBT;Tibesti;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 TBT_ADJ;Tibestian;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
@@ -1022,7 +1023,7 @@ ANC_ADJ;Anconan;;;;;;;;;;;;x
 ANC_democracy;Republic of Ancona;;;;;;;;;;;;x
 SWI;Switzerland;;;;;;;;;;;;x
 SWI_democracy;Swiss Confederation;;;;;;;;;;;;x
-SWI_ADJ;Ambrosian;;;;;;;;;;;;x
+SWI_ADJ;Swiss;;;;;;;;;;;;x
 SNA;Siena;;;;;;;;;;;;x
 SNA_ADJ;Sienese;;;;;;;;;;;;x
 SNA_democracy;Republic of Siena;;;;;;;;;;;;x
@@ -2377,9 +2378,14 @@ DZD;Emirate of Sus;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 DZD_absolute_monarchy;Emirate of Sus;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 DZD_hms_government;Emirate of Sus;;;;;;;;;;;;x
 DZD_prussian_constitutionalism;Emirate of Sus;;;;;;;;;;;;x
+DZD_colonial_company;Agadir Wilaya;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 DZD_ADJ;Sus;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 CNR;Zenata Federation;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 CNR_absolute_monarchy;Zenata Federation;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 CNR_hms_government;Zenata Federation;;;;;;;;;;;;x
 CNR_prussian_constitutionalism;Zenata Federation;;;;;;;;;;;;x
-CNR_ADJ;Zenata;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+CNR_ADJ;Zenata;;;;;;;;;;;;;;x;;;;;;;;;;;;;; 
+POR_liberal;Dezassetismo;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+POR_anarcho_liberal;Ordem dos Livres e Iluminados;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+POR_conservative;União dos Barões;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+POR_reactionary;Restauracionistas;;;;;;;;;;;;;;x;;;;;;;;;;;;;;

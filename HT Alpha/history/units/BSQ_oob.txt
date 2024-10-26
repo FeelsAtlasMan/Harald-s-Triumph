@@ -1,50 +1,20 @@
-AGC = {
-	value = -400
+NRD = {
+	value = 175
 }
-OMA = {
-	value = 400
-}
-ASH = {
-	value = 50
-}
-BEN = {
-	value = 50
-}
-ZUL = {
-	value = 50
-}
-DAH = {
-	value = 40
-}
-OYO = {
-	value = 35
-}
-ARO = {
-	value = 50
-}
-CLA = {
-	value = 50
-}
-WRI = {
-	value = 40
-}
-KON = {
-	value = 25
-}
-LOA = {
-	value = 75
+FRA = {
+	value = -120
 }
 POR = {
 	value = -100
 }
 CAT = {
-	value = -235
+	value = -175
 }
 ATR = {
 	value = -135
 }
 MOR = {
-	value = -200
+	value = -70
 }
 CST = {
 	value = -120
@@ -53,7 +23,7 @@ CST = {
 
 army = {
 	name = "Army of Navarra"
-	location = 492
+	location = 493
 	regiment = {
 		name= "1. Infantry"
 		type = infantry
@@ -78,6 +48,45 @@ army = {
 		home = 478
 	}	
 	
+}
+
+navy = {
+	name = "Navarran Fleet"
+	location = 492
+	ship = {
+		name= "Manowar"
+		type = manowar
+	}
+
+	ship = {
+		name= "Frigate"
+		type = frigate
+	}
+
+	ship = {
+		name= "Frigate"
+		type = frigate
+	}
+
+	ship = {
+		name= "Frigate"
+		type = frigate
+	}
+	
+	ship = {
+		name= "Clipper"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "Clipper"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "Clipper"
+		type = clipper_transport
+	}
 }
 
 leader = {

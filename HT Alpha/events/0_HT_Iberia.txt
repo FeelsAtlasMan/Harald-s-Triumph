@@ -4,6 +4,8 @@
 #														#
 #########################################################
 
+#######Andalusia
+
 # Unrest in Andalusia, kicks off event chain
 country_event = { 
 	id = 410000
@@ -319,7 +321,6 @@ country_event = {
 }
 
 #Andalusian revolution ends - Iberian Congress begins
-
 country_event = { 
 	id = 410006
 	title = "EVTNAME410006"
@@ -491,6 +492,31 @@ country_event = { #Iberians sell breech loaded artillery to the Algaravians
 	option = {
 		name = "EVTOPTA410010"
 		activate_technology = iron_breech_loaded_artillery
+        ai_chance = {
+            factor = 100	
+        }
+	}	
+}
+
+
+#######Portugal
+
+#Introduction
+country_event = { 
+	id = 410011
+	title = "EVTNAME410011"
+	desc = "EVTDESC410011"
+	picture = "straits_of_gibraltar"
+    
+	 trigger = {
+	       tag = POR
+	}
+	
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPTA410011"
+		set_country_flag = por_setup_done
         ai_chance = {
             factor = 100	
         }

@@ -1,39 +1,3 @@
-AGC = {
-	value = -400
-}
-OMA = {
-	value = 400
-}
-ASH = {
-	value = 50
-}
-BEN = {
-	value = 50
-}
-ZUL = {
-	value = 50
-}
-DAH = {
-	value = 40
-}
-OYO = {
-	value = 35
-}
-ARO = {
-	value = 50
-}
-CLA = {
-	value = 50
-}
-WRI = {
-	value = 40
-}
-KON = {
-	value = 25
-}
-LOA = {
-	value = 75
-}
 BSQ = {
 	value = -200
 }
@@ -44,15 +8,15 @@ ATR = {
 	value = -135
 }
 MOR = {
-	value = -200
+	value = -180
 }
 CST = {
-	value = 0
+	value = 135
 }
 
 army = {
 	name = "Exèrcit de la Corona Aragonesa"
-	location = 498
+	location = 503
 	regiment = {
 		name= "1. Brigada d'Infanteria"
 		type = infantry
@@ -64,8 +28,21 @@ army = {
 		type = infantry
 		home = 503
 	}
-     }
-army = {
+	
+	regiment = {
+		name= "1. Dragones"
+		type = dragoon
+		home = 4295
+	}
+	
+	regiment = {
+		name= "1. Artillería"
+		type = artillery
+		home = 500
+	}
+}
+
+army = {   
         name = "Exèrcit de l'Ebre"
 	location = 495
 	regiment = {
@@ -79,7 +56,22 @@ army = {
 		type = infantry
 		home = 497
 	}
+}
 
+army = {   
+        name = "Exèrcit de la Cerdenya"
+	location = 765
+	regiment = {
+		name= "5. Brigada d'Infanteria"
+		type = infantry
+		home = 4299
+	}
+
+	regiment = {
+		name= "6. Brigada d'Infanteria"
+		type = infantry
+		home = 765
+	}
 }
 
 navy = {
@@ -93,6 +85,36 @@ navy = {
 	ship = {
 		name= "Besós"
 		type = manowar
+	}
+	
+	ship = {
+		name= "Frigate"
+		type = frigate
+	}
+
+	ship = {
+		name= "Frigate"
+		type = frigate
+	}
+	
+	ship = {
+		name= "Frigate"
+		type = frigate
+	}
+
+	ship = {
+		name= "Frigate"
+		type = frigate
+	}
+	
+	ship = {
+		name= "Frigate"
+		type = frigate
+	}
+
+	ship = {
+		name= "Frigate"
+		type = frigate
 	}
 
 	ship = {

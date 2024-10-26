@@ -1,44 +1,8 @@
-AGC = {
-	value = -400
-}
-OMA = {
-	value = 400
-}
-ASH = {
-	value = 50
-}
-BEN = {
-	value = 50
-}
-ZUL = {
-	value = 50
-}
-DAH = {
-	value = 40
-}
-OYO = {
-	value = 35
-}
-ARO = {
-	value = 50
-}
-CLA = {
-	value = 50
-}
-WRI = {
-	value = 40
-}
-KON = {
-	value = 25
-}
-LOA = {
-	value = 75
-}
 BSQ = {
 	value = -100
 }
 CAT = {
-	value = -35
+	value = 135
 }
 ATR = {
 	value = -135
@@ -46,14 +10,14 @@ ATR = {
 MOR = {
 	value = -200
 }
-CST = {
-	value = -120
+POR = {
+	value = 40
 }
 
 
 army = {
 	name = "Ejército Toledano"
-	location = 487
+	location = 489
 	regiment = {
 		name= "1o de Infantería"
 		type = infantry

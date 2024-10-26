@@ -5,19 +5,19 @@ government = absolute_monarchy
 plurality = 25.0
 nationalvalue = nv_order
 literacy = 0.13
-non_state_culture_literacy = 0.1
+non_state_culture_literacy = 0.01
 civilized = yes
 prestige = 8
 
 # Political reforms
-slavery = no_slavery
-upper_house_composition = state_equal_weight
-vote_franschise = wealth_voting
-public_meetings = yes_meeting
-press_rights = censored_press
+slavery = yes_slavery
+upper_house_composition = appointed
+vote_franschise = none_voting
+public_meetings = no_meeting
+press_rights = state_press
 trade_unions = no_trade_unions
 voting_system = jefferson_method
-political_parties = non_secret_ballots
+political_parties = underground_parties
 
 # Social Reforms
 wage_reform = no_minimum_wage
@@ -30,7 +30,7 @@ school_reforms = no_schools
 
 # New Reforms
 conscription = two_year_draft
-debt_law = debtors_prisons
+debt_law = serfdom
 penal_system = capital_punishment
 child_labor = child_labor_legal
 citizens_rights = culture_voting_only
@@ -40,21 +40,16 @@ colonial_policy = civilizing
 
 set_country_flag = catholic_country
 
-ruling_party = SPA_conservative
+ruling_party = SPA_reactionary
 last_election = 1834.1.1
 upper_house = {
 	fascist = 0
-	liberal = 35
-	conservative = 60
-	reactionary = 5
-	anarcho_liberal = 0
+	liberal = 15
+	conservative = 40
+	reactionary = 40
+	anarcho_liberal = 5
 	socialist = 0
 	communist = 0
-}
-
-govt_flag = {
-	government = presidential_dictatorship
-	flag = theocracy
 }
 
 # Technologies

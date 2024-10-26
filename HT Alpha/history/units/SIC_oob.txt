@@ -51,7 +51,7 @@ leader = {
 }
 
 army = {
-	name = "Esercito delle Sicilia"
+	name = "Esercito delle Napolia"
 	location = 754
 	regiment = {
 		name= "1. Fanteria di Linea - Re e Regina"
@@ -60,7 +60,7 @@ army = {
 	}
 
 	regiment = {
-		name= "2. Fanteria di Linea - Duca di Calabria"
+		name= "2. Fanteria di Linea - Duca di Lucania"
 		type = infantry
 		home = 757
 	}
@@ -122,7 +122,7 @@ army = {
 }
 
 navy = {
-	name = "Real Marina delle Due Sicilie"
+	name = "Real Marina delle Napolia"
 	location = 754
 	ship = {
 		name= "Ferdinando II"

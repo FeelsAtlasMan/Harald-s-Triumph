@@ -2,112 +2,618 @@
 #Oporto (768000/192000 POPS)
 518 = {
 	aristocrats = {
-		culture = galician
+		culture = portuguese
 		religion = catholic
-		size = 1500
+		size = 700
 	}
 
 	officers = {
-		culture = galician
+		culture = portuguese
+		religion = catholic
+		size = 100
+	}
+
+	bureaucrats = {
+		culture = portuguese
 		religion = catholic
 		size = 500
 	}
 
-	bureaucrats = {
-		culture = galician
-		religion = catholic
-		size = 800
-	}
-
 	clergymen = {
-		culture = galician
+		culture = portuguese
 		religion = catholic
-		size = 1100
+		size = 500
 	}
 
 	artisans = {
-		culture = galician
+		culture = portuguese
+		religion = catholic
+		size = 15500
+	}
+	
+	artisans = {
+		culture = portuguese
 		religion = catholic
 		size = 10000
 	}
 
 	soldiers = {
-		culture = galician
+		culture = portuguese
 		religion = catholic
-		size = 2500
+		size = 1000
 	}
 
 	farmers = {
-		culture = galician
+		culture = portuguese
 		religion = catholic
-		size = 150200
+		size = 25200
+	}
+	
+	serfs = {
+		culture = portuguese
+		religion = catholic
+		size = 38000
+	}
+	
+	aristocrats = {
+		culture = portuguese
+		religion = protestant
+		size = 500
+	}
+
+	officers = {
+		culture = portuguese
+		religion = protestant
+		size = 400
+	}
+
+	bureaucrats = {
+		culture = portuguese
+		religion = protestant
+		size = 300
+	}
+
+	clergymen = {
+		culture = portuguese
+		religion = protestant
+		size = 500
+	}
+
+	artisans = {
+		culture = portuguese
+		religion = protestant
+		size = 8000
+	}
+
+	soldiers = {
+		culture = portuguese
+		religion = protestant
+		size = 2000
+	}
+
+	farmers = {
+		culture = portuguese
+		religion = protestant
+		size = 20200
+	}
+	
+	serfs = {
+		culture = portuguese
+		religion = protestant
+		size = 35000
+	}
+	
+	aristocrats = {
+		culture = portuguese
+		religion = gallician
+		size = 300
+	}
+
+	officers = {
+		culture = portuguese
+		religion = gallician
+		size = 100
+	}
+
+	clergymen = {
+		culture = portuguese
+		religion = gallician
+		size = 100
+	}
+
+	artisans = {
+		culture = portuguese
+		religion = gallician
+		size = 1500
+	}
+
+	soldiers = {
+		culture = portuguese
+		religion = gallician
+		size = 500
+	}
+
+	farmers = {
+		culture = portuguese
+		religion = gallician
+		size = 5000
+	}
+	
+	serfs = {
+		culture = portuguese
+		religion = gallician
+		size = 2000
+	}
+	
+	farmers = {
+		culture = calo
+		religion = catholic
+		size = 200
+	}
+	
+	serfs = {
+		culture = calo
+		religion = catholic
+		size = 1400
 	}
 }
+
 #Vila Real (324000/81000) POPS
 519 = {
 	aristocrats = {
-		culture = galician
+		culture = portuguese
 		religion = catholic
-		size = 1850
+		size = 400
 	}
 
 	clergymen = {
-		culture = galician
+		culture = portuguese
 		religion = catholic
-		size = 625
+		size = 250
 	}
 
 	artisans = {
-		culture = galician
+		culture = portuguese
 		religion = catholic
-		size = 3250
+		size = 1300
 	}
 
 	soldiers = {
-		culture = galician
+		culture = portuguese
 		religion = catholic
-		size = 1100
+		size = 200
 	}
 
 	farmers = {
-		culture = galician
+		culture = portuguese
 		religion = catholic
-		size = 69275
+		size = 2275
+	}
+	
+	serfs = {
+		culture = portuguese
+		religion = catholic
+		size = 12000
+	}
+	
+	aristocrats = {
+		culture = portuguese
+		religion = protestant
+		size = 400
+	}
+
+	clergymen = {
+		culture = portuguese
+		religion = protestant
+		size = 200
+	}
+
+	artisans = {
+		culture = portuguese
+		religion = protestant
+		size = 1600
+	}
+
+	soldiers = {
+		culture = portuguese
+		religion = protestant
+		size = 900
+	}
+
+	farmers = {
+		culture = portuguese
+		religion = protestant
+		size = 5400
+	}
+	
+	serfs = {
+		culture = portuguese
+		religion = protestant
+		size = 23000
+	}
+	
+	aristocrats = {
+		culture = asturleonese
+		religion = protestant
+		size = 50
+	}
+
+	clergymen = {
+		culture = asturleonese
+		religion = protestant
+		size = 50
+	}
+
+	artisans = {
+		culture = asturleonese
+		religion = protestant
+		size = 100
+	}
+
+	farmers = {
+		culture = asturleonese
+		religion = protestant
+		size = 600
+	}
+	
+	serfs = {
+		culture = asturleonese
+		religion = protestant
+		size = 2000
+	}
+	
+	aristocrats = {
+		culture = portuguese
+		religion = gallician
+		size = 150
+	}
+
+	clergymen = {
+		culture = portuguese
+		religion = gallician
+		size = 125
+	}
+
+	artisans = {
+		culture = portuguese
+		religion = gallician
+		size = 250
+	}
+
+	soldiers = {
+		culture = portuguese
+		religion = gallician
+		size = 100
+	}
+
+	farmers = {
+		culture = portuguese
+		religion = gallician
+		size = 1000
+	}
+	
+	serfs = {
+		culture = portuguese
+		religion = gallician
+		size = 3000
 	}
 }
+
+#Braganca
+4318 = {
+	aristocrats = {
+		culture = asturleonese
+		religion = catholic
+		size = 100
+	}
+
+	clergymen = {
+		culture = asturleonese
+		religion = catholic
+		size = 100
+	}
+
+	artisans = {
+		culture = asturleonese
+		religion = catholic
+		size = 130
+	}
+
+	soldiers = {
+		culture = asturleonese
+		religion = catholic
+		size = 200
+	}
+
+	farmers = {
+		culture = asturleonese
+		religion = catholic
+		size = 2075
+	}
+	
+	serfs = {
+		culture = asturleonese
+		religion = catholic
+		size = 2000
+	}
+	
+	aristocrats = {
+		culture = asturleonese
+		religion = protestant
+		size = 40
+	}
+
+	clergymen = {
+		culture = asturleonese
+		religion = protestant
+		size = 20
+	}
+
+	artisans = {
+		culture = asturleonese
+		religion = protestant
+		size = 100
+	}
+
+	soldiers = {
+		culture = asturleonese
+		religion = protestant
+		size = 90
+	}
+
+	farmers = {
+		culture = asturleonese
+		religion = protestant
+		size = 400
+	}
+	
+	serfs = {
+		culture = asturleonese
+		religion = protestant
+		size = 1000
+	}
+	
+	aristocrats = {
+		culture = portuguese
+		religion = protestant
+		size = 5
+	}
+
+	clergymen = {
+		culture = portuguese
+		religion = protestant
+		size = 5
+	}
+
+	artisans = {
+		culture = portuguese
+		religion = protestant
+		size = 10
+	}
+
+	farmers = {
+		culture = portuguese
+		religion = protestant
+		size = 60
+	}
+	
+	serfs = {
+		culture = portuguese
+		religion = protestant
+		size = 200
+	}
+}
+
 #Covilha (568000/142000 POPS)
 520 = {
 	aristocrats = {
-		culture = galician
+		culture = portuguese
 		religion = catholic
-		size = 1250
+		size = 900
 	}
 
 	clergymen = {
-		culture = galician
+		culture = portuguese
 		religion = catholic
-		size = 1500
+		size = 700
 	}
 
 	artisans = {
-		culture = galician
+		culture = portuguese
 		religion = catholic
-		size = 7250
+		size = 5000
 	}
 
 	soldiers = {
-		culture = galician
+		culture = portuguese
 		religion = catholic
+		size = 500
+	}
+
+	farmers = {
+		culture = portuguese
+		religion = catholic
+		size = 2000
+	}
+	
+	serfs = {
+		culture = portuguese
+		religion = catholic
+		size = 24000
+	}
+    
+	aristocrats = {
+		culture = portuguese
+		religion = protestant
+		size = 200
+	}
+
+	clergymen = {
+		culture = portuguese
+		religion = protestant
+		size = 700
+	}
+
+	artisans = {
+		culture = portuguese
+		religion = protestant
+		size = 2000
+	}
+
+	soldiers = {
+		culture = portuguese
+		religion = protestant
 		size = 1500
 	}
 
 	farmers = {
-		culture = galician
-		religion = catholic
-		size = 86500
+		culture = portuguese
+		religion = protestant
+		size = 4000
+	}
+	
+	serfs = {
+		culture = portuguese
+		religion = protestant
+		size = 25000
+	}
+	
+	aristocrats = {
+		culture = portuguese
+		religion = gallician
+		size = 150
 	}
 
+	clergymen = {
+		culture = portuguese
+		religion = gallician
+		size = 100
+	}
+
+	artisans = {
+		culture = portuguese
+		religion = gallician
+		size = 250
+	}
+
+	soldiers = {
+		culture = portuguese
+		religion = gallician
+		size = 100
+	}
+
+	farmers = {
+		culture = portuguese
+		religion = gallician
+		size = 500
+	}
+	
+	serfs = {
+		culture = portuguese
+		religion = gallician
+		size = 1000
+	}
 }
+
+#Castelo Branco
+4317 = {
+	aristocrats = {
+		culture = portuguese
+		religion = catholic
+		size = 100
+	}
+
+	clergymen = {
+		culture = portuguese
+		religion = catholic
+		size = 100
+	}
+
+	artisans = {
+		culture = portuguese
+		religion = catholic
+		size = 200
+	}
+
+	soldiers = {
+		culture = portuguese
+		religion = catholic
+		size = 50
+	}
+
+	farmers = {
+		culture = portuguese
+		religion = catholic
+		size = 200
+	}
+	
+	serfs = {
+		culture = portuguese
+		religion = catholic
+		size = 1000
+	}
+    
+	aristocrats = {
+		culture = portuguese
+		religion = protestant
+		size = 100
+	}
+
+	clergymen = {
+		culture = portuguese
+		religion = protestant
+		size = 100
+	}
+
+	artisans = {
+		culture = portuguese
+		religion = protestant
+		size = 200
+	}
+
+	soldiers = {
+		culture = portuguese
+		religion = protestant
+		size = 100
+	}
+
+	farmers = {
+		culture = portuguese
+		religion = protestant
+		size = 400
+	}
+	
+	serfs = {
+		culture = portuguese
+		religion = protestant
+		size = 4000
+	}
+	
+	aristocrats = {
+		culture = algaravian
+		religion = sunni
+		size = 50
+	}
+
+	clergymen = {
+		culture = algaravian
+		religion = sunni
+		size = 30
+	}
+
+	artisans = {
+		culture = algaravian
+		religion = sunni
+		size = 50
+	}
+
+	soldiers = {
+		culture = algaravian
+		religion = sunni
+		size = 200
+	}
+}
+
 #Beira-Estremadura Region (1060000)
 #Lisbon (348000/87000 POPS)
 521 = {
@@ -138,19 +644,49 @@
 	artisans = {
 		culture = algaravian
 		religion = sunni
-		size = 8500
+		size = 16500
 	}
 
 	soldiers = {
 		culture = algaravian
 		religion = sunni
-		size = 3000
+		size = 1000
 	}
 
 	farmers = {
 		culture = algaravian
 		religion = sunni
-		size = 60000
+		size = 30000
+	}
+	
+	aristocrats = {
+		culture = tashalhit
+		religion = sunni
+		size = 200
+	}
+
+	clergymen = {
+		culture = tashalhit
+		religion = sunni
+		size = 100
+	}
+
+	artisans = {
+		culture = tashalhit
+		religion = sunni
+		size = 100
+	}
+
+	soldiers = {
+		culture = tashalhit
+		religion = sunni
+		size = 3000
+	}
+
+	farmers = {
+		culture = tashalhit
+		religion = sunni
+		size = 3000
 	}
 	
 	clergymen = {
@@ -162,66 +698,151 @@
 	artisans = {
 		culture = sephardic
 		religion = jewish
-		size = 750
+		size = 1250
 	}
 
 	farmers = {
 		culture = sephardic
 		religion = jewish
-		size = 8500
+		size = 500
 	}
 	
 	artisans = {
 		culture = mozarabic
 		religion = catholic
-		size = 50
+		size = 250
 	}
 	
 	farmers = {
 		culture = mozarabic
 		religion = catholic
+		size = 4750
+	}
+
+    farmers = {
+		culture = calo
+		religion = catholic
+		size = 200
+	}		
+	
+	farmers = {
+		culture = domari
+		religion = sunni
 		size = 750
 	}	
 	
+	slaves = {
+		culture = portuguese
+		religion = protestant
+		size = 1000
+	}
 }
+
 #Coimbra (460000/115000 POPS)
 522 = {
 	aristocrats = {
-		culture = galician
-		religion = catholic
-		size = 1200
-	}
-
-	clergymen = {
-		culture = galician
-		religion = catholic
-		size = 1200
-	}
-
-	artisans = {
-		culture = galician
-		religion = catholic
-		size = 10000
-	}
-
-	artisans = {
-		culture = galician
+		culture = portuguese
 		religion = catholic
 		size = 800
 	}
 
+	clergymen = {
+		culture = portuguese
+		religion = catholic
+		size = 550
+	}
+
+	artisans = {
+		culture = portuguese
+		religion = catholic
+		size = 6000
+	}
+
 	soldiers = {
-		culture = galician
+		culture = portuguese
 		religion = catholic
 		size = 2000
 	}
 
 	farmers = {
-		culture = galician
+		culture = portuguese
 		religion = catholic
-		size = 99800
+		size = 6000
+	}
+	
+	serfs = {
+		culture = portuguese
+		religion = catholic
+		size = 28000
+	}
+	
+	aristocrats = {
+		culture = portuguese
+		religion = protestant
+		size = 400
+	}
+
+	clergymen = {
+		culture = portuguese
+		religion = protestant
+		size = 550
+	}
+
+	artisans = {
+		culture = portuguese
+		religion = protestant
+		size = 4600
+	}
+
+	soldiers = {
+		culture = portuguese
+		religion = protestant
+		size = 2000
+	}
+
+	farmers = {
+		culture = portuguese
+		religion = protestant
+		size = 3000
+	}
+	
+	serfs = {
+		culture = portuguese
+		religion = protestant
+		size = 20000
+	}
+	
+	aristocrats = {
+		culture = portuguese
+		religion = gallician
+		size = 100
+	}
+
+	clergymen = {
+		culture = portuguese
+		religion = gallician
+		size = 100
+	}
+
+	artisans = {
+		culture = portuguese
+		religion = gallician
+		size = 200
+	}
+
+	farmers = {
+		culture = portuguese
+		religion = gallician
+		size = 800
+	}
+	
+	serfs = {
+		culture = portuguese
+		religion = gallician
+		size = 1000
 	}
 }
+
 #Abrantes (140000/35000 POPS)
 523 = {
 	aristocrats = {
@@ -251,22 +872,34 @@
 	farmers = {
 		culture = algaravian
 		religion = sunni
-		size = 41000
+		size = 30000
 	}
 	
 	artisans = {
 		culture = mozarabic
 		religion = catholic
-		size = 20
+		size = 520
 	}
 	
 	farmers = {
 		culture = mozarabic
 		religion = catholic
-		size = 550
+		size = 2050
 	}	
 	
-}
+	farmers = {
+		culture = domari
+		religion = sunni
+		size = 250
+	}	
+	
+	slaves = {
+		culture = portuguese
+		religion = protestant
+		size = 800
+	}
+} 
+
 #Setubal (112000/28000 POPS)
 524 = {
 	aristocrats = {
@@ -296,22 +929,34 @@
 	farmers = {
 		culture = algaravian
 		religion = sunni
-		size = 41600
+		size = 36600
 	}
 	
 	artisans = {
 		culture = mozarabic
 		religion = catholic
-		size = 75
+		size = 375
 	}
 	
 	farmers = {
 		culture = mozarabic
 		religion = catholic
-		size = 1200
+		size = 4900
 	}	
-
+	
+	farmers = {
+		culture = domari
+		religion = sunni
+		size = 200
+	}	
+    
+	slaves = {
+		culture = portuguese
+		religion = portuguese
+		size = 300
+	}
 }
+
 #Alentejo-Algarve Region (372000)
 #Evora (156000/39000 POPS)
 525 = {
@@ -319,18 +964,6 @@
 		culture = algaravian
 		religion = sunni
 		size = 850
-	}
-
-	officers = {
-		culture = algaravian
-		religion = sunni
-		size = 100
-	}
-
-	bureaucrats = {
-		culture = algaravian
-		religion = sunni
-		size = 150
 	}
 
 	clergymen = {
@@ -354,7 +987,7 @@
 	farmers = {
 		culture = algaravian
 		religion = sunni
-		size = 43050
+		size = 30050
 	}
 	
 	artisans = {
@@ -366,10 +999,10 @@
 	farmers = {
 		culture = mozarabic
 		religion = catholic
-		size = 1200
+		size = 3200
 	}	
-	
 }
+
 #Beja (96000/24000 POPS)
 526 = {
 	aristocrats = {
@@ -399,7 +1032,7 @@
 	farmers = {
 		culture = algaravian
 		religion = sunni
-		size = 41150
+		size = 34150
 	}
 	
 	artisans = {
@@ -411,10 +1044,11 @@
 	farmers = {
 		culture = mozarabic
 		religion = catholic
-		size = 1100
+		size = 2100
 	}	
 	
 }
+
 #Faro (120000/30000 POPS)
 527 = {
 	aristocrats = {
@@ -444,7 +1078,7 @@
 	farmers = {
 		culture = algaravian
 		religion = sunni
-		size = 40000
+		size = 35000
 	}
 	
 	artisans = {
@@ -456,17 +1090,17 @@
 	farmers = {
 		culture = mozarabic
 		religion = catholic
-		size = 1025
+		size = 1525
 	}	
-
 }
+
 #Azores & Madeira Region (308000)
 #Azores (204000/51000 POPS)
 2134 = {
 	aristocrats = {
 		culture = maghrebi
 		religion = sunni
-		size = 500
+		size = 400
 	}
 
 	officers = {
@@ -484,51 +1118,58 @@
 	clergymen = {
 		culture = maghrebi
 		religion = sunni
-		size = 375
+		size = 175
 	}
 
 	artisans = {
 		culture = maghrebi
 		religion = sunni
-		size = 3000
+		size = 1200
 	}
 
 	soldiers = {
 		culture = maghrebi
 		religion = sunni
-		size = 1100
+		size = 600
 	}
 
 	farmers = {
 		culture = maghrebi
 		religion = sunni
-		size = 25975
+		size = 5975
+	}
+
+	artisans = {
+		culture = judeo_arabic
+		religion = sunni
+		size = 380
 	}
 	
 	slaves = {
 		culture = wolof
 		religion = animist
-		size = 875
+		size = 500
 	}
 	
 	slaves = {
 		culture = fulbe
 		religion = animist
-		size = 875
+		size = 275
 	}
 	
 	slaves = {
-		culture = galician
+		culture = irish
 		religion = catholic
-		size = 875
+		size = 400
 	}
 	
 	slaves = {
 		culture = portuguese
 		religion = catholic
-		size = 875
+		size = 900
 	}
 }
+
 #Madeira (104000/26000 POPS)
 2135 = {
 	aristocrats = {
@@ -576,7 +1217,12 @@
 	slaves = {
 		culture = portuguese
 		religion = catholic
-		size = 1825
+		size = 825
 	}
-
+    
+	slaves = {
+		culture = tupinamba
+		religion = catholic
+		size = 700
+	}
 }

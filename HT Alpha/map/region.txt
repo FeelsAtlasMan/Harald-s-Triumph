@@ -234,17 +234,17 @@ FRA_438 = { 438 439 440 441 } #Region Centre
 
 FRA_442 = { 442 444 443 434 } #Poitou
 
-FRA_445 = { 445 446 447 } #Limousin
+FRA_445 = { 445 446 } #Limousin
 
 FRA_448 = { 448 430 } #Auvergne 
 
-FRA_451 = { 451 452 453 454 465 466 431 } #Rhone - Cisjurana
+FRA_451 = { 451 452 454 465 466 431 } #Rhone - Cisjurana
 
-FRA_455 = { 455 457 456 450 462 } #Le Midi
+FRA_455 = { 458 456 450 462 447 4314 } #Le Midi - Guyenne
 
-FRA_458 = { 458 459 460 } #Aquitaine
+FRA_458 = { 459 460 4313 } #Aquitaine
 
-FRA_461 = { 461 463 449 } #Languedoc
+FRA_461 = { 455 461 463 449 457 4315 453 } #Languedoc
 
 #SAR_466 = { } #Savoie
 
@@ -253,31 +253,36 @@ FRA_432 = { 432 433 } #Franche-Comte
 
 ### Spain & Portugal
 
-SPA_474 = { 474 476 } #Galicia
+SPA_474 = { 474 476 4312 } #Galicia
 
-SPA_477 = { 477 482 475 } #Le�n
+SPA_477 = { 477 482 475 483 4308 4311 } #Leon
 
-SPA_479 = { 479 480 481 483 478 } #Old Castilla
+SPA_479 = { 479 480 481 478 } #Castilla
 
-SPA_484 = { 484 485 486 } #Extremadura
+SPA_484 = { 484 485 486 525 4316 } #Extremadura
 
-SPA_487 = { 487 488 489 490 491 } #Castilla la Nueva
+SPA_487 = { 489 488 487 490 491 } #Toledo
 
 SPA_492 = { 495 496 497 3252 4297 } #Aragon
 
-SPA_493 = { 492 493 494 } #Tears of Navarre
+SPA_493 = { 492 493 494 4310 4319 } #Tears of Navarre
 
 SPA_498 = { 498 499 500 501 502 464 4293 4294 4295 4296 } #Catalonia
 
+SPA_513 = { 510 513 515 516 } #Granada - Qurtuba
+
 SPA_503 = { 503 504 505 506 507 508 4298 } #Valencia
 
-SPA_512 = { 512 509 510 511 517 516 } #Andalucia
+#SPA_512 = { 509 510 516 } #Andalucia
 
-SPA_513 = { 513 514 515 } #Granada
+SPA_512 = { 509 514 512 517 4309 } #Andalucia - Ishbiliya
 
-POR_518 = { 518 519 520 522 } #Douro
+SPA_511 = { 511 526 527 } #al-Gharb
 
-POR_525 = { 525 526 527 523 524 521 } #Alentejo - al-Gharb
+
+POR_518 = { 518 519 520 522 4317 4318 } #Douro 
+
+POR_525 = { 521 523 524 } #Alentejo - al-Ushbuna
 
 POR_2134 = { 2134 2135 2136 } #Macaronesia
 
@@ -417,7 +422,7 @@ AUS_2538 = { 2538 792 3295 3296 } #Vojvodina
 
 SAR_720 = { 720 721 722 723 3420 3421 3251 3890 3891 2568 } #Piemonte
 
-SAR_724 = { 724 725 472 } #Liguria
+SAR_724 = { 724 725 472 473 } #Liguria & Corsica
 
 #MOD_739 = { 739 738 740 } #Emilia
 
@@ -433,7 +438,7 @@ SIC_754 = { 754 755 759 760 761 2567 } #Campania
 
 SIC_763 = { 763 762 764 854 827 } #Sicily
 
-SAR_765 = { 765 766 473 4299 4300 4301 } #Sardinia & Corscia
+SAR_765 = { 765 766 4299 4300 4301 } #Sardinia/Cerdenya
 
 
 ### Balkans
@@ -1481,40 +1486,49 @@ CHM_3498 = { 3498 3497 3530 2298 } #Chimor
 
 CHM_2292 = { 2292 2291 3499 } #Tallan-Tumpis
 
-INC_3525 = { 3525 3526 2280 2281 2283 } #Tumipampa
+INC_3525 = { 3525 3526 2280 2281 2294 } #Tumipampa
 
 INC_2279 = { 2279 2258 2259 3523 3524 3527 3528 } #Kitu
 
-INC_2294 = { 2294 2287 3501 } #Muyupampa 
+#INC_2294 = { } #Muyupampa 
 
-INC_3500 = { 3500 3502 3503 2282 } #Qasamarka
+INC_3500 = { 3500 3502 3503 2282 2290 3501 2287 } #Qasamarka
 
-INC_3504 = { 3504 3510 2290 } #Cholon
+INC_3504 = { 3504 3510 4240 } #Cholon
 
 INC_3505 = { 3505 3506 3507 3508 2293 } #Wanuku 
 
-INC_3512 = { 3512 3509 3511 3515 2293 2296 } #Wankawillka 
+INC_3512 = { 3512 3509 3511 3515 2293 2296 4251 } #Wankawillka 
 
-INC_3517 = { 3517 3516 3518 3519 3522 2296 2302 } #Qusqu  
+INC_3517 = { 3517 3516 3519 3522 2302 } #Qusqu  
+
+INC_3518 = { 3518 4248 4249 4250 4255 4242 } #Lower Qusqu
 
 INC_3488 = { 3488 3487 3489 2303 2310 } #Titicaca 
 
 INC_2304 = { 2304 1714 2299 3490 3493 3513 3514 } #Ariqipa 
 
-QLS_3486 = { 3486 2311 2313 2315 } #Quchapampa
+QLS_3486 = { 3486 2311 2313 2315 2370 2371 } #Quchapampa
 
 QLS_2314 = { 2314 2312 2307 2369 3485 } #Poopo-Qullaw
 
-DGT_2370 = { 2370 2371 2368 } #Upper Diaguita
+#DGT_2370 = { 2370 2371 } #Upper Diaguita
 
-DGT_2373 = { 2373 2375 2385 2388 } #Lower Diaguita
+DGT_2373 = { 2368 2373 2375 2385 2388 2323 } #Diaguita
 
-INC_3520 = { 3520 3521 2300 2321 } #Tik'su Pampa
+INC_3520 = { 3520 2321 4241 } #Tik'su Pampa
 
-PEU_2289 = { 2286 2288 2284 3529 4226 4227 4228 4230 4231 } #Pastaza - now Ikitusuyu
+INC_2300 = { 2300 3521 4237 4238 4256 2278 4253 } #placeholder name/lowland state?
 
-PEU_2297 = { 2301 2278 2319 2320 2407 4229 4233 4235 } #Ica - now Sach'aqsuyu
+PEU_2289 = { 2286 2288 2284 3529 4226 4227 4228 4230 4231 4229 4234 4243 4244 2283 } #Pastaza - now Ikitusuyu
 
+PEU_2297 = { 2407 4233 4235 } #Ica - now Sach'aqsuyu
+
+BRZ_4263 = { 2319 4239 4245 4246 4247 4252 4254 2301 2320 } #Muhuspampa
+
+BOL_2317 = { 2317 2316 2318 } #Santa Cruz - now Tarapacusi Pampaniku
+
+###French SA
 
 ENG_1979 = { 2239 2240 2241 2245 2246 } #Guyana - now Quyana
 
@@ -1544,56 +1558,53 @@ CLM_2247 = { 2247 2249 2251 2248 } #Cundinamarca - now Muiscas de Nord
 
 CLM_4288 = { 4262 2256 2257 2250 } #Cauca - now Muiscas de Sud
 
-BOL_2317 = { 2317 2316 2318 } #Santa Cruz - now Tarapacusi Pampaniku
 
 
 ### al-Humr, al-Tufunawa, Amazon Basin
 
 BRZ_2402 = { 2402 2532 2408 1979 2412 } #Manaus
 
-BRZ_4263 = { 4238 4239 4240 4241 4242 4243 4244 4245 4246 4247 4248 4249 4250 4251 4252 4253 4254 4255 4256 } #Manaus
-
 GUY_2410 = { 2410 2415 3466 } #Tufinawa
 
-BRZ_2410 = { 2424 2426 3467 } #Tubajara
+BRZ_2410 = { 2424 2426 3467 3468 3470 3471 } #Tubajara
 
 BRZ_2418 = { 2418 3464 3465 } #Shingu
 
-BRZ_2421 = { 2421 2422 2423 } #Goi�s - now Qalwu
+BRZ_2421 = { 2422 2423 2425 3476 } #Goi�s - now Qalwu
 
-BRZ_2428 = { 2431 2428 2429 } #Butiwara
+BRZ_2428 = { 2431 2428 2429 2432 2434 2430 2433 } #Butiwara
 
-BRZ_2432 = { 2432 2435 2434 } #Nordeste - now Zayti
+#BRZ_2432 = { 2435 } #Nordeste - now Zayti
 
-BRZ_2430 = { 2430 2427 2433 3471 } #Kariri
+#BRZ_2430 = { 2430 2433 } #Kariri
 
-BRZ_3469 = { 3469 3468 3470 2425 } #Timbira
+#BRZ_3469 = { 2425 } #Timbira
 
-BRZ_3475 = { 3475 3476 3477 3479 2600 2413 2411 } #Kayabu al-Shamaliyya
+BRZ_3475 = { 3475 3477 2600 2413 2411 } #Kayabu al-Shamaliyya
 
-BRZ_2419 = { 2419 2417 2420 } #Kayabu al-Janubiyya
+BRZ_2419 = { 2419 2417 2420 2421 } #Kayabu al-Janubiyya
 
-BRZ_2404 = { 2404 2405 2235 2289 2549 } #Mura
+BRZ_2404 = { 2404 2405 2235 2289 2549 3480 } #Mura
 
-BRZ_3480 = { 3480 3478 2550 } #Kawahib
+BRZ_3480 = { 3478 2550 3479 } #Kawahib
 
-BRZ_3472 = { 3472 2437 2438 } #Tupina
+BRZ_3472 = { 3472 2437 2438 3469 } #Tupina
 
-BRZ_2444 = { 2444 2445 2453 2456 } #Tamu
+BRZ_2444 = { 2452 2445 2453 2456 } #Tamu
 
-BRZ_2408 = { 3473 2440 2443 } #Par� - now Kremak
+BRZ_2408 = { 2440 2443 2444 } #Par� - now Kremak
 
-BRZ_2439 = { 2436 2439 2449 } #Bahia - now Tufinawa al-Janubiyya
+BRZ_2439 = { 2436 2439 2435 3473 2427 } #Bahia - now Tufinawa al-Janubiyya
 
-BRZ_2446 = { 2442 2446 2441 2452 } #Minas Gerais - al-Buri
+BRZ_2446 = { 2442 2446 2441 } #Minas Gerais - al-Buri
 
-BRZ_2447 = { 2447 2448 2451 } #Rio de Janeiro - now al-Sahil al-Humr
+BRZ_2447 = { 2447 2448 2449 2451 } #Rio de Janeiro - now al-Sahil al-Humr
 
-BRZ_2462 = { 2458 2460 2462 2306 } #Paran� - now Barana
+BRZ_2462 = { 2458 2460 2462 2459 } #Paran� - now Barana
 
-BRZ_2306 = { 2450 2455 2457 2459 2461 } #S�o Paulo - now al-Tufiniqin
+BRZ_2306 = { 2450 2455 2457 2461 2306 } #S�o Paulo - now al-Tufiniqin
 
-BRZ_2467 = { 2463 2464 2465 2347 } #Rio Grande do Sul - now al-Shariji
+BRZ_2467 = { 2463 2464 2465 } #Rio Grande do Sul - now al-Shariji
 
 ARG_2360 = { 2357 2358 2554 2356 2466 2467 } #Entre Rios - now Taragui
 
@@ -1603,24 +1614,22 @@ PRG_2338 = { 2338 2337 2416 2343 2372 2366 2367 4224 4225 } #Alto Paraguay - now
 
 CCH_2379 = { 2379 2380 2361 2374 2386 2381 } #Kamichingan Chaquniku
 
-CCH_2387 = { 2387 2383 2390 2384 2389 } #Warpe
-
-BRZ_4251 = { 4257 4234 4237 } #gaming
+CCH_2387 = { 2387 2383 2389 } #Warpe
 
 PRG_2343 = { 2339 2341 2342 2340 } #Bajo Parguay - now Paraguai
 
-URU_2344 = { 2344 2345 2346 2359 2360 2349 } #Uruguay - now Bamba al-Shamaliyya
+URU_2344 = { 2344 2345 2346 2347 } #Uruguay - now Bamba al-Shamaliyya
 
-PNB_2348 = { 2348 2351 2352 } #Bamba al-Sahil
+PNB_2348 = { 2348 2351 2359 2360 2349 2363 } #Bamba al-Sahil
 
-PNB_2350 = { 2350 2353 2354 2393 2382 2363 } #Bamba al-Haribun
+PNB_2350 = { 2350 2353 2354 2393 2382 2352 } #Bamba al-Haribun
 
 
 ### Argentina & Chile
 
 ENG_2132 = { 2132 2129 2130 2133 } #South Atlantic Islands
 
-CHL_2322 = { 2324 2323 2326 2325 } #Santiago - Pikunche
+CHL_2322 = { 2324 2326 2325 } #Santiago - Pikunche
 
 CHL_2327 = { 2327 2330 2331 } #Los Rios - now Mapuche
 
@@ -1628,7 +1637,7 @@ CHL_2329 = { 2329 2328 2332 } #Williche
 
 CHL_2332 = { 2333 2334 2335 2336 } #Araucania - now Archipel du Chono
 
-ARG_2391 = { 2391 2392 2394 2396 2397 2395 2355 } #Patagonia Septentrional - now Imlagia du Nord
+ARG_2391 = { 2391 2392 2394 2396 2397 2395 2355 2390 2384 } #Patagonia Septentrional - now Imlagia du Nord
 
 ARG_2398 = { 2131 2398 2399 2400 } #Patagonia Meridional - now Imlagia du Sud
 

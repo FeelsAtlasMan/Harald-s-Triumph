@@ -1,67 +1,31 @@
-AGC = {
-	value = -400
-}
-OMA = {
-	value = 400
-}
-ASH = {
-	value = 50
-}
-BEN = {
-	value = 50
-}
-ZUL = {
-	value = 50
-}
-DAH = {
-	value = 40
-}
-OYO = {
-	value = 35
-}
-ARO = {
-	value = 50
-}
-CLA = {
-	value = 50
-}
-WRI = {
-	value = 40
-}
-KON = {
-	value = 25
-}
-LOA = {
-	value = 75
-}
 POR = {
 	value = -200
 }
 CAT = {
 	value = -35
 }
-ATR = {
-	value = -135
+BSQ = {
+	value = -15
 }
 MOR = {
-	value = -200
+	value = 200
 }
 CST = {
-	value = -120
+	value = -200
 }
 
 
 army = {
-	name = "ExÃ©rcitu de LliÃ³n"
-	location = 475
+	name = "Exércitu de Llión" 
+	location = 474
 	regiment = {
-		name= "1. InfanterÃ­a"
+		name= "1. Infantería"
 		type = infantry
 		home = 474
 	}
 	
 	regiment = {
-		name= "2. InfanterÃ­a"
+		name= "2. Infantería"
 		type = infantry
 		home = 474
 	}
@@ -73,14 +37,48 @@ army = {
 	}
 	
 	regiment = {
-		name= "1. ArtillerÃ­a"
+		name= "1. Artillería"
 		type = artillery
 		home = 475
 	}
 }
 
+navy = {
+	name = "Navarran Fleet"
+	location = 474
+	ship = {
+		name= "Manowar"
+		type = manowar
+	}
+
+	ship = {
+		name= "Frigate"
+		type = frigate
+	}
+
+	ship = {
+		name= "Frigate"
+		type = frigate
+	}
+	
+	ship = {
+		name= "Clipper"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "Clipper"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "Clipper"
+		type = clipper_transport
+	}
+}
+
 leader = {
-	name = "XosÃ© AntÃ³n d'Arriba"
+	name = "Xosé Antón d'Arriba"
 	picture = european_general_55
 	type = land
 	date = 1825.8.20
