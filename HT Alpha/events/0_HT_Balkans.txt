@@ -127,7 +127,7 @@ country_event = {
 		any_pop = { limit = { location = { OR = { is_core = MCD owned_by = THIS } } } reduce_pop = 0.96 }
 		any_owned = { limit = { is_core = MCD controlled_by = THIS } add_province_modifier = { name = highlander_raids duration = 36500 } }
 		any_owned = { limit = { is_core = MCD controlled_by = THIS } add_province_modifier = { name = war_torn duration = 365 } }
-		set_country_flag = defeated_macedonian_peasent_revolt
+		set_global_flag = reports_from_macedonia
 	}
 }
 
@@ -146,7 +146,7 @@ country_event = {
 	
 	trigger = {
 		tag = BYZ
-		has_country_flag = defeated_macedonian_peasent_revolt
+		has_global_flag = reports_from_macedonia
 	}
 	
 	option = {
@@ -164,7 +164,30 @@ country_event = {
 country_event = {
 	id = 1122115
 	title = "The Coronation of Alexander III"
-	desc = "EVTDESC1122114"
+	desc = "EVTDESC1122115"
+	fire_only_once = yes
+	
+	mean_time_to_happen =  {
+	    months = 3
+    }
+	
+	trigger = {
+		tag = BYZ
+		has_country_flag = assassination_of_the_czar
+	}
+	
+	option = {
+		name = "May he guide us through these turbulent times..."
+		prestige = 2
+		set_country_flag = alexander_third_coronated
+	}
+}
+
+#The League of Corinth - GRE event
+country_event = {
+	id = 1122116
+	title = "The League of Corinth"
+	desc = "EVTDESC1122116"
 	fire_only_once = yes
 	
 	major = yes
@@ -174,17 +197,64 @@ country_event = {
     }
 	
 	trigger = {
-		tag = BYZ
-		has_country_flag = defeated_macedonian_peasent_revolt
+	    OR = {
+		    AND = { tag = THY ai = yes }
+			AND = { primary_culture = greek ai = no } 	
+		}
+		has_global_flag = reports_from_macedonia
 	}
 	
 	option = {
-		name = "How could such a tragedy happen?"
-		prestige = -5
-		any_pop = {
-		    militancy = 2
-		    consciousness = 4
-		}
-		set_country_flag = assassination_of_the_czar
+		name = "placeholder"
+		prestige = 5
+		TUR_832 = { add_core = GRE }
+		GRE_837 = { add_core = GRE }
+		GRE_826 = { add_core = GRE }
+		824 = { add_core = GRE }
+		825 = { add_core = GRE }
+		837 = { add_core = GRE 
+		THIS = { change_tag = GRE }
+		inherit = THY
+		inherit = ATH
+		inherit = EPI
+		inherit = MRE
+		government = prov_gov_conservative
+		set_global_flag = league_of_cornith_created
+	}
+}
+
+#Czar demands control over military! - GRE event
+country_event = {
+	id = 1122117
+	title = "The Czar demands full control over our military!"
+	desc = "EVTDESC1122117"
+	is_triggered_only = yes
+	
+	option = {
+		name = "This is unacceptable!"
+		BYZ = { country_event = { id = 1122118 } }
+	}
+}
+
+#The Greek states refuse
+country_event = {
+	id = 1122118
+	title = "The Greek states have refused"
+	desc = "EVTDESC1122118"
+	is_triggered_only = yes
+	
+	option = {
+		name = "We need to put these traitors into their place!"
+		casus_belli = {
+	        target = GRE
+	        type = unification_annex_casus_belli
+	        months = 1
+        }
+		war = {
+	        target = GRE
+	        attacker_goal = unification_annex_casus_belli
+	        defender_goal = humiliate
+	        call_ally = no
+        }
 	}
 }

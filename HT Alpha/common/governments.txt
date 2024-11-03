@@ -57,6 +57,8 @@ bourgeois_dictatorship = { #Rev. republic
 	#which ideology of parties.
 	anarcho_liberal = yes
 	liberal = yes
+	socialist = yes
+	communist = yes
 	#conservative = yes
 	
 	election = yes
@@ -180,7 +182,7 @@ theocracy = {
 	election = no
 	appoint_ruling_party = yes
 }
- 
+
 french_bourbon = { #2nd monarchy
 	liberal = yes
 	socialist = yes
@@ -191,4 +193,38 @@ french_bourbon = { #2nd monarchy
 	
 	election = no
 	appoint_ruling_party = yes
+}
+
+#Prov. Govs
+prov_gov_conservative = {
+    #which ideology of parties.
+    reactionary = yes
+    conservative = yes
+    election = no
+    appoint_ruling_party = yes
+}
+
+prov_gov_liberal = {
+    #which ideology of parties.
+	liberal = yes
+	radical = yes
+    election = no
+    appoint_ruling_party = yes
+	flagType = republic
+}
+
+prov_gov_communist = {
+    #which ideology of parties.
+	communist = yes
+	socialist = yes
+    election = no
+    appoint_ruling_party = yes
+}
+
+prov_gov_fascist = {
+    #which ideology of parties.
+	fascist = yes
+	reactionary = yes
+    election = no
+    appoint_ruling_party = yes
 }

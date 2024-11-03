@@ -1,3 +1,18 @@
 political_decisions = {
-
+    crackdown_on_albanian_raids = {
+		picture = balkan_war
+		potential = {
+			tag = BYZ
+			GRE = { exists= yes }
+			has_country_flag = alexander_third_coronated
+			NOT = { has_country_flag = crackdown_on_albanian_raids }
+		}
+		allow = {
+			war = no
+		}
+		effect = {
+		    GRE = { country_event = { id = 1122117 days = 1 } }
+			set_country_flag = crackdown_on_albanian_raids
+		}
+	}
 }
