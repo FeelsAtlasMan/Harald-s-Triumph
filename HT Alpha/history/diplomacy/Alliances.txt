@@ -5,4 +5,30 @@ alliance = {
     start_date = 1686.9.5
     end_date = 1936.1.1
 }
-
+#anti-Zhao rebellions allied with Chu
+alliance = {
+    first = ZHE
+    second = LNG
+    start_date = 1835.1.1
+    end_date = 1936.1.1
+}
+alliance = {
+    first = ZHE
+    second = SDG
+    start_date = 1835.1.1
+    end_date = 1936.1.1
+}
+#Ryukyu allied with Chu
+alliance = {
+    first = ZHE
+    second = RYU
+    start_date = 1700.1.1
+    end_date = 1936.1.1
+}
+#Qian rebellion allied with Shan
+alliance = {
+    first = GZH
+    second = SHA
+    start_date = 1835.12.1
+    end_date = 1838.1.1
+}

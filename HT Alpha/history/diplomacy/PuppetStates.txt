@@ -895,13 +895,6 @@ vassal = {
 
 vassal = {
 	first = MGL
-	second = ORD
-	start_date = 1836.1.1
-	end_date = 1937.1.1
-}
-
-vassal = {
-	first = MGL
 	second = CHR
 	start_date = 1836.1.1
 	end_date = 1937.1.1
@@ -1494,7 +1487,6 @@ vassal = {
 	start_date = 1836.1.1
 	end_date = 1937.1.1
 }
-
 vassal = {
 	first = OIR
 	second = KHT
@@ -1508,8 +1500,59 @@ vassal = {
 	end_date = 1937.1.1
 }
 vassal = {
-	first = SHN
+	first = SZC
 	second = TIB
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+vassal = {
+	first = SZC
+	second = NSH
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+vassal = {
+	first = SZC
+	second = CKL
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+vassal = {
+	first = SZC
+	second = BTH
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+vassal = {
+	first = SZC
+	second = LTH
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+vassal = {
+	first = SZC
+	second = NSH
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+#Yongshun Tusi
+vassal = {
+	first = ZHE
+	second = SHN
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+#Sibsong Chu Tai
+vassal = {
+	first = ZHE
+	second = SCT
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+#Dadu Confederacy
+vassal = {
+	first = ZHE
+	second = TWN
 	start_date = 1836.1.1
 	end_date = 1937.1.1
 }
