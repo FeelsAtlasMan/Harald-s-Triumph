@@ -1,9 +1,9 @@
-color = { 141 72 201 }
-#color = { 255 69 0 }
+color = { 55  54  160 }
+colonial_company = { 72 157 207 }
 graphical_culture = ChineseGC
 
 party = {
-	name = "HUI_reactionary"
+	name = "MGL_reactionary"
 	start_date = 1830.1.1
 	end_date = 2000.1.1
 
@@ -18,7 +18,7 @@ party = {
 }
 
 party = {
-	name = "HUI_liberal"
+	name = "MGL_liberal"
 	start_date = 1830.1.1
 	end_date = 2000.1.1
 
@@ -33,7 +33,7 @@ party = {
 }
 
 party = {
-	name = "HUI_conservative"
+	name = "MGL_conservative"
 	start_date = 1830.1.1
 	end_date = 2000.1.1
 
@@ -48,7 +48,7 @@ party = {
 }
 
 party = {
-	name = "HUI_anarcho_liberal"
+	name = "MGL_anarcho_liberal"
 	start_date = 1830.1.1
 	end_date = 2000.1.1
 
@@ -63,7 +63,7 @@ party = {
 }
 
 party = {
-	name = "HUI_socialist"
+	name = "MGL_socialist"
 	start_date = 1848.1.1
 	end_date = 2000.1.1
 
@@ -78,7 +78,7 @@ party = {
 }
 
 party = {
-	name = "HUI_communist"
+	name = "MGL_communist"
 	start_date = 1848.1.1
 	end_date = 2000.1.1
 
@@ -93,7 +93,7 @@ party = {
 }
 
 party = {
-	name = "HUI_fascist"
+	name = "MGL_fascist"
 	start_date = 1830.1.1
 	end_date = 2000.1.1
 
@@ -109,24 +109,22 @@ party = {
 
 unit_names = {
 	dreadnought = {
-		"Nan'Shin" "Pao'Nim" "Ying'Ching" "Ton'Chi" "Hai'Yung" "Hai'Shew" "Hai'Shen" "Fei'Hung" "Chao'Ho" "Hai'Chi" "Ying'Swei" "Chao'Ho" "Ning'Hai" 
-		
-		
+		"Man'chu'kuo" "Ben'xi" "Shen'yang" "Feng'cheng" "Zhuang'he" "Fu'xian" "Yi'xian" "Gai'xian" "Aisin Gioro" 
 	}
 	ironclad = {
-		"Nan'Shin" "Pao'Nim" "Ying'Ching" "Ton'Chi" "Hai'Yung" "Hai'Shew" "Hai'Shen" "Fei'Hung" "Chao'Ho" "Hai'Chi" "Ying'Swei" "Chao'Ho" "Ning'Hai" 
+		"Man'chu'kuo" "Ben'xi" "Shen'yang" "Feng'cheng" "Zhuang'he" "Fu'xian" "Yi'xian" "Gai'xian" "Aisin Gioro" 
 	}
 	manowar = {
-		"Nan'Shin" "Pao'Nim" "Ying'Ching" "Ton'Chi" "Hai'Yung" "Hai'Shew" "Hai'Shen" "Fei'Hung" "Chao'Ho" "Hai'Chi" "Ying'Swei" "Chao'Ho" "Ning'Hai" 
+		"Man'chu'kuo" "Ben'xi" "Shen'yang" "Feng'cheng" "Zhuang'he" "Fu'xian" "Yi'xian" "Gai'xian" "Aisin Gioro" 
 	}
 	cruiser = {
-		"Nan'Shin" "Pao'Nim" "Ying'Ching" "Ton'Chi" "Hai'Yung" "Hai'Shew" "Hai'Shen" "Fei'Hung" "Chao'Ho" "Hai'Chi" "Ying'Swei" "Chao'Ho" "Ning'Hai" 
+		"Man'chu'kuo" "Ben'xi" "Shen'yang" "Feng'cheng" "Zhuang'he" "Fu'xian" "Yi'xian" "Gai'xian" "Aisin Gioro" 
 	}
 	frigate = {
-		"Nan'Shin" "Pao'Nim" "Ying'Ching" "Ton'Chi" "Hai'Yung" "Hai'Shew" "Hai'Shen" "Fei'Hung" "Chao'Ho" "Hai'Chi" "Ying'Swei" "Chao'Ho" "Ning'Hai" 
+		"Man'chu'kuo" "Ben'xi" "Shen'yang" "Feng'cheng" "Zhuang'he" "Fu'xian" "Yi'xian" "Gai'xian" "Aisin Gioro" 
 	}
 	monitor = {
-		"Nan'Shin" "Pao'Nim" "Ying'Ching" "Ton'Chi" "Hai'Yung" "Hai'Shew" "Hai'Shen" "Fei'Hung" "Chao'Ho" "Hai'Chi" "Ying'Swei" "Chao'Ho" "Ning'Hai" 
+		"Man'chu'kuo" "Ben'xi" "Shen'yang" "Feng'cheng" "Zhuang'he" "Fu'xian" "Yi'xian" "Gai'xian" "Aisin Gioro" 
 	}
 	clipper_transport = {
 		
@@ -135,6 +133,6 @@ unit_names = {
 		
 	}
 	commerce_raider = {
-		"Nan'Shin" "Pao'Nim" "Ying'Ching" "Ton'Chi" "Hai'Yung" "Hai'Shew" "Hai'Shen" "Fei'Hung" "Chao'Ho" "Hai'Chi" "Ying'Swei" "Chao'Ho" "Ning'Hai" 
+		"Man'chu'kuo" "Ben'xi" "Shen'yang" "Feng'cheng" "Zhuang'he" "Fu'xian" "Yi'xian" "Gai'xian" "Aisin Gioro" 
 	}
 }

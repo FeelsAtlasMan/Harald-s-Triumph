@@ -1,9 +1,10 @@
-color = { 141 72 201 }
-#color = { 255 69 0 }
-graphical_culture = ChineseGC
+color = { 215  227  86 }
+colonial_company = { 60 170 100 }
+graphical_culture = AsianGC
+
 
 party = {
-	name = "HUI_reactionary"
+	name = "CHI_reactionary"
 	start_date = 1830.1.1
 	end_date = 2000.1.1
 
@@ -16,9 +17,8 @@ party = {
 	citizenship_policy = limited_citizenship
 	war_policy = jingoism
 }
-
 party = {
-	name = "HUI_liberal"
+	name = "CHI_liberal"
 	start_date = 1830.1.1
 	end_date = 2000.1.1
 
@@ -31,9 +31,8 @@ party = {
 	citizenship_policy = limited_citizenship
 	war_policy = pro_military
 }
-
 party = {
-	name = "HUI_conservative"
+	name = "CHI_conservative"
 	start_date = 1830.1.1
 	end_date = 2000.1.1
 
@@ -46,9 +45,8 @@ party = {
 	citizenship_policy = limited_citizenship
 	war_policy = pro_military
 }
-
 party = {
-	name = "HUI_anarcho_liberal"
+	name = "CHI_anarcho_liberal"
 	start_date = 1830.1.1
 	end_date = 2000.1.1
 
@@ -63,7 +61,7 @@ party = {
 }
 
 party = {
-	name = "HUI_socialist"
+	name = "CHI_socialist"
 	start_date = 1848.1.1
 	end_date = 2000.1.1
 
@@ -78,7 +76,7 @@ party = {
 }
 
 party = {
-	name = "HUI_communist"
+	name = "CHI_communist"
 	start_date = 1848.1.1
 	end_date = 2000.1.1
 
@@ -93,7 +91,7 @@ party = {
 }
 
 party = {
-	name = "HUI_fascist"
+	name = "CHI_fascist"
 	start_date = 1830.1.1
 	end_date = 2000.1.1
 
