@@ -1,7 +1,7 @@
 capital = 1587
 primary_culture = kham 
 religion = gelugpa
-government = colonial_company
+government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_tradition
 literacy = 0.01
@@ -49,8 +49,6 @@ upper_house = {
 	socialist = 0
 	communist = 0
 }
-
-set_country_flag = theocratic_government
 
 # Starting Consciousness
 consciousness = 0

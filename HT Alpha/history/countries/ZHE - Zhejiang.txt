@@ -1,6 +1,7 @@
-capital = 1602
-primary_culture = yi
-culture = beifaren
+capital = 2221
+primary_culture = beifaren
+culture = min
+culture = yue
 religion = mahayana
 government = absolute_monarchy
 plurality = 0.0
@@ -36,14 +37,15 @@ border_policy = closed_borders
 centralization = unitary
 colonial_policy = no_colonies 
 
+
 set_country_flag = mahayana_country
 
-ruling_party = YNN_reactionary_2
+ruling_party = CHI_conservative
 upper_house = {
 	fascist = 0
 	liberal = 10
-	conservative = 0
-	reactionary = 100
+	conservative = 40
+	reactionary = 50
 	anarcho_liberal = 0
 	socialist = 0
 	communist = 0
@@ -53,6 +55,11 @@ upper_house = {
 consciousness = 0
 nonstate_consciousness = 0
 
+govt_flag = {
+	government = presidential_dictatorship
+	flag = theocracy
+}
+
 1861.1.1 = {
 
 foreign_weapons = yes_foreign_weapons
@@ -61,8 +68,6 @@ foreign_weapons = yes_foreign_weapons
 flintlock_rifles = 1
 
 # Inventions
-##bottling_process = yes
-modern_winemaking = yes
 
 }
 
