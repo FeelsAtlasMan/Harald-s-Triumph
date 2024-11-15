@@ -11798,7 +11798,7 @@ malay_polynesian = {
 east_asian = {
 	leader = asian
 	unit = ChineseGC
-	beifaren = { #Mandarin
+	n_mandarin = { #Mandarin
 		color = {145 30 30}
 		first_names = { Wang Li Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu
 		}
@@ -11833,7 +11833,7 @@ east_asian = {
 		last_names = { Zhao Wu Sun Ma Hu Peng Dong Ye L� Tian Jiang Wei Ting Shen Fang Jin Qiu
 		}
 	}
-	nanfaren = {
+	s_mandarin = {
 		color = {181 106 106}
 		first_names = { Wang Li Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu
 		}
