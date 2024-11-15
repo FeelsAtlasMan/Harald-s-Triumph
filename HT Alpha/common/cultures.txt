@@ -11854,7 +11854,70 @@ east_asian = {
 		last_names = { Xiuquan Yunshan Xiuqing Dakai Yucheng Rengan Zicai Yongfu Fengjia Yatsen
 		}
 	}
-	min = {
+	min = { #Eastern Min
+		color = {76 32 200}
+		first_names = { Lin Shen Chen Wong Yan Sa Hou Zheng Bing Wu Tan He Du Xue Xu Qin
+		}
+		last_names = { Zexu Baozhen Baochen Nai-siong Shu Fu Sen Debang Xin Nee Huiyin
+		}
+	}
+	puxian = { #Pu-Xian Min
+		color = {76 32 200}
+		first_names = { Lin Shen Chen Wong Yan Sa Hou Zheng Bing Wu Tan He Du Xue Xu Qin
+		}
+		last_names = { Zexu Baozhen Baochen Nai-siong Shu Fu Sen Debang Xin Nee Huiyin
+		}
+	}
+	quanzhang = { #Southern Min prestige dialect aka Hokkien(ese)
+		color = {76 32 200}
+		first_names = { Lin Shen Chen Wong Yan Sa Hou Zheng Bing Wu Tan He Du Xue Xu Qin
+		}
+		last_names = { Zexu Baozhen Baochen Nai-siong Shu Fu Sen Debang Xin Nee Huiyin
+		}
+	}
+	chaoshan = { #Teoswa/Chaoshan Min inc Teochew and Swatow
+		color = {76 32 200}
+		first_names = { Lin Shen Chen Wong Yan Sa Hou Zheng Bing Wu Tan He Du Xue Xu Qin
+		}
+		last_names = { Zexu Baozhen Baochen Nai-siong Shu Fu Sen Debang Xin Nee Huiyin
+		}
+	}
+	zhenan = { #Min dialect of southern Zhejiang more related to S Min
+		color = {76 32 200}
+		first_names = { Lin Shen Chen Wong Yan Sa Hou Zheng Bing Wu Tan He Du Xue Xu Qin
+		}
+		last_names = { Zexu Baozhen Baochen Nai-siong Shu Fu Sen Debang Xin Nee Huiyin
+		}
+	}
+	datian = { #Southern Min dialect
+		color = {76 32 200}
+		first_names = { Lin Shen Chen Wong Yan Sa Hou Zheng Bing Wu Tan He Du Xue Xu Qin
+		}
+		last_names = { Zexu Baozhen Baochen Nai-siong Shu Fu Sen Debang Xin Nee Huiyin
+		}
+	}
+	cunhua = { #Zhongshan Min
+		color = {76 32 200}
+		first_names = { Lin Shen Chen Wong Yan Sa Hou Zheng Bing Wu Tan He Du Xue Xu Qin
+		}
+		last_names = { Zexu Baozhen Baochen Nai-siong Shu Fu Sen Debang Xin Nee Huiyin
+		}
+	}
+	hainanese = { #Southern Min of Hainan island
+		color = {76 32 200}
+		first_names = { Lin Shen Chen Wong Yan Sa Hou Zheng Bing Wu Tan He Du Xue Xu Qin
+		}
+		last_names = { Zexu Baozhen Baochen Nai-siong Shu Fu Sen Debang Xin Nee Huiyin
+		}
+	}
+	haklau = { #Southern Min of Hailufeng, Guangdong
+		color = {76 32 200}
+		first_names = { Lin Shen Chen Wong Yan Sa Hou Zheng Bing Wu Tan He Du Xue Xu Qin
+		}
+		last_names = { Zexu Baozhen Baochen Nai-siong Shu Fu Sen Debang Xin Nee Huiyin
+		}
+	}
+	leizhou = { #Southern Min of Leizhou peninsula
 		color = {76 32 200}
 		first_names = { Lin Shen Chen Wong Yan Sa Hou Zheng Bing Wu Tan He Du Xue Xu Qin
 		}
