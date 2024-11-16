@@ -10141,6 +10141,61 @@ digarish = {
 	}
 }
 
+macro_bai = {
+	leader = asian
+	is_overseas = no
+	unit = ChineseGC
+
+	bai = { #Eastern Bai
+		color = {190 185 193}
+		first_names = {
+			Yang Zheng Gao Duan 
+		}
+		last_names = {
+			Wang Zou Sheng Jun Bu Yu Wu Qiu Shan Nuo Yi He Liang Cong Fu Ren Wen
+			Qing Zhi Tai Hui Zhu Shou Chang Ming Xin
+		}
+	}
+	
+	w_bai = { #Western Bai
+		color = {185 180 193}
+		first_names = {
+			Yang Zheng Gao Duan 
+		}
+		last_names = {
+			Wang Zou Sheng Jun Bu Yu Wu Qiu Shan Nuo Yi He Liang Cong Fu Ren Wen
+			Qing Zhi Tai Hui Zhu Shou Chang Ming Xin
+		}
+	}
+	
+	lama_bai = { #Lama
+		color = {170 180 170}
+		first_names = {
+			Yang Zheng Gao Duan 
+		}
+		last_names = {
+			Wang Zou Sheng Jun Bu Yu Wu Qiu Shan Nuo Yi He Liang Cong Fu Ren Wen
+			Qing Zhi Tai Hui Zhu Shou Chang Ming Xin
+		}
+	}
+	
+	caijia = {
+		color = {99 124 100}
+		first_names = { Wang Li Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu
+		}
+		last_names = { Zhao Wu Sun Ma Hu Peng Dong Ye L� Tian Jiang Wei Ting Shen Fang Jin Qiu
+		}
+	}
+	
+	longjia = {
+		color = {91 124 100}
+		first_names = { Wang Li Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu
+		}
+		last_names = { Zhao Wu Sun Ma Hu Peng Dong Ye L� Tian Jiang Wei Ting Shen Fang Jin Qiu
+		}
+	}
+}
+
 eastern_tibeto_burman = {
 	leader = asian
 	is_overseas = no
@@ -10213,30 +10268,10 @@ eastern_tibeto_burman = {
                
 		}
 	}
+	
+	#Loloish
 
-	bai = {
-		color = {190 185 193}
-		first_names = {
-			Yang Zheng Gao Duan 
-		}
-		last_names = {
-			Wang Zou Sheng Jun Bu Yu Wu Qiu Shan Nuo Yi He Liang Cong Fu Ren Wen
-			Qing Zhi Tai Hui Zhu Shou Chang Ming Xin
-		}
-	}
-
-	tujia = {
-		color = {145 25 80}
-		first_names = {
-			Zhou Zhang Huang Kuang Dai He Lan Xiang Qin Ren
-		}
-		last_names = {
-			Wang Zou Sheng Jun Bu Yu Wu Qiu Shan Nuo Yi He Liang Cong Fu Ren Wen
-			Qing Zhi Tai Hui Zhu Shou Chang Ming Xin
-		}
-	}
-
-	yi = {
+	yi = { #Northern Yi/Nuosu
 		color = {134 25 80}
 		first_names = {
 			He Long Haili Zhang Jike Yang
@@ -10244,6 +10279,68 @@ eastern_tibeto_burman = {
 		last_names = {
 			Wang Zou Sheng Jun Bu Yu Wu Qiu Shan Nuo Liang Fu Ren Wen
 			Yun Jiguang Junyi Amu Jimu Jiyi Jinguang Jinmu Jinyi
+		}
+	}
+	nasu = { #Eastern Yi
+		color = {134 25 80}
+		first_names = {
+			He Long Haili Zhang Jike Yang
+		}
+		last_names = {
+			Wang Zou Sheng Jun Bu Yu Wu Qiu Shan Nuo Liang Fu Ren Wen
+			Yun Jiguang Junyi Amu Jimu Jiyi Jinguang Jinmu Jinyi
+		}
+	}
+	nisu = { #Southern Yi
+		color = {134 25 80}
+		first_names = {
+			He Long Haili Zhang Jike Yang
+		}
+		last_names = {
+			Wang Zou Sheng Jun Bu Yu Wu Qiu Shan Nuo Liang Fu Ren Wen
+			Yun Jiguang Junyi Amu Jimu Jiyi Jinguang Jinmu Jinyi
+		}
+	}
+	sani = { #Southeastern Yi
+		color = {134 25 80}
+		first_names = {
+			He Long Haili Zhang Jike Yang
+		}
+		last_names = {
+			Wang Zou Sheng Jun Bu Yu Wu Qiu Shan Nuo Liang Fu Ren Wen
+			Yun Jiguang Junyi Amu Jimu Jiyi Jinguang Jinmu Jinyi
+		}
+	}
+	lalo = { #Western Yi
+		color = {134 25 80}
+		first_names = {
+			He Long Haili Zhang Jike Yang
+		}
+		last_names = {
+			Wang Zou Sheng Jun Bu Yu Wu Qiu Shan Nuo Liang Fu Ren Wen
+			Yun Jiguang Junyi Amu Jimu Jiyi Jinguang Jinmu Jinyi
+		}
+	}
+	lolopo = { #Central Yi
+		color = {134 25 80}
+		first_names = {
+			He Long Haili Zhang Jike Yang
+		}
+		last_names = {
+			Wang Zou Sheng Jun Bu Yu Wu Qiu Shan Nuo Liang Fu Ren Wen
+			Yun Jiguang Junyi Amu Jimu Jiyi Jinguang Jinmu Jinyi
+		}
+	}
+	
+	#Unclassified
+	tujia = { #divide into northern and southern dialects
+		color = {145 25 80}
+		first_names = {
+			Zhou Zhang Huang Kuang Dai He Lan Xiang Qin Ren
+		}
+		last_names = {
+			Wang Zou Sheng Jun Bu Yu Wu Qiu Shan Nuo Yi He Liang Cong Fu Ren Wen
+			Qing Zhi Tai Hui Zhu Shou Chang Ming Xin
 		}
 	}
 }
@@ -11154,7 +11251,9 @@ dravidian = {
 southeast_asian = {
 	leader = asian
 	unit = AsianGC
-	thai = {
+	
+	#Southwestern Tai
+	thai = { #Siamese
 		color = {75 100 150}
 		first_names = { Nangklao Mongkut Rama Chulalongkorn Chao Vajiravudh Prajadhipok Naritsaranuwatiwong Phya Plaek
 			
@@ -11164,9 +11263,8 @@ southeast_asian = {
                
 		}
 	}
-	
-	tai = {
-		color = {45 80 190}
+	south_thai = {
+		color = {75 100 150}
 		first_names = { Nangklao Mongkut Rama Chulalongkorn Chao Vajiravudh Prajadhipok Naritsaranuwatiwong Phya Plaek
 			
 		}
@@ -11175,17 +11273,17 @@ southeast_asian = {
                
 		}
 	}
-
-	zhuang = {
-		color = {200 75 134}
-		first_names = { Hoang Nong Le Be Van Quoc Quynh The Duc 
+	phu_tai = {
+		color = {75 100 150}
+		first_names = { Nangklao Mongkut Rama Chulalongkorn Chao Vajiravudh Prajadhipok Naritsaranuwatiwong Phya Plaek
+			
 		}
-		last_names = { Thu Manh Trieu Khanh Phung Hau Chan Den Phach Cao
+		last_names = { Suriyawongse Saovabha Chichalerm "Praya Siri" Nitithada Phonphayuhasena
+               
 		}
 	}
-	
-	khamti = { #
-		color = {45 100 190}
+	phuan = {
+		color = {75 100 150}
 		first_names = { Nangklao Mongkut Rama Chulalongkorn Chao Vajiravudh Prajadhipok Naritsaranuwatiwong Phya Plaek
 			
 		}
@@ -11194,9 +11292,8 @@ southeast_asian = {
                
 		}
 	}
-	
-	phake = { #
-		color = {65 100 190}
+	black_tai = {
+		color = {75 100 150}
 		first_names = { Nangklao Mongkut Rama Chulalongkorn Chao Vajiravudh Prajadhipok Naritsaranuwatiwong Phya Plaek
 			
 		}
@@ -11205,9 +11302,8 @@ southeast_asian = {
                
 		}
 	}
-	
-	ahom = { #
-		color = {85 100 170}
+	red_tai = {
+		color = {75 100 150}
 		first_names = { Nangklao Mongkut Rama Chulalongkorn Chao Vajiravudh Prajadhipok Naritsaranuwatiwong Phya Plaek
 			
 		}
@@ -11216,9 +11312,8 @@ southeast_asian = {
                
 		}
 	}
-	
-	aiton = { #
-		color = {65 80 190}
+	white_tai = {
+		color = {75 100 150}
 		first_names = { Nangklao Mongkut Rama Chulalongkorn Chao Vajiravudh Prajadhipok Naritsaranuwatiwong Phya Plaek
 			
 		}
@@ -11227,7 +11322,6 @@ southeast_asian = {
                
 		}
 	}
-	
 	lue = {
 		color = {95 80 190}
 		first_names = { Nangklao Mongkut Rama Chulalongkorn Chao Vajiravudh Prajadhipok Naritsaranuwatiwong Phya Plaek
@@ -11248,6 +11342,28 @@ southeast_asian = {
                
 		}
 	}
+	north_thai = {
+		color = {75 120 90}
+		first_names = { Hswe Hs� Naw Hkam Hkun Hseng Hpa Pyi Nga Hmu Natsu Pe Than Shwe Hpo Lun Sun
+			
+		}
+		
+		last_names = { Cheng Kaw M�ng Hkawt Pak Nan Lek Leng Hmu Letya Hung Thi Hpu Ya Min
+               
+		}
+	}
+	ahom = { #
+		color = {85 100 170}
+		first_names = { Nangklao Mongkut Rama Chulalongkorn Chao Vajiravudh Prajadhipok Naritsaranuwatiwong Phya Plaek
+			
+		}
+		
+		last_names = { Suriyawongse Saovabha Chichalerm "Praya Siri" Nitithada Phonphayuhasena
+               
+		}
+	}
+	
+	#Northwestern Tai
 	shan = {
 		color = {75 120 90}
 		first_names = { Hswe Hs� Naw Hkam Hkun Hseng Hpa Pyi Nga Hmu Natsu Pe Than Shwe Hpo Lun Sun
@@ -11258,14 +11374,371 @@ southeast_asian = {
                
 		}
 	}
-	asian_minor = {
-		color = {99 150 72}
-		first_names = { Abdul Vijaya Rajkumari Aurobindo Chandrashekhar Gopal Motilal Sardar Sarojini Subhas Srinivasa Mridula Gupinath Chittaranjan
+	khamti = { #
+		color = {45 100 190}
+		first_names = { Nangklao Mongkut Rama Chulalongkorn Chao Vajiravudh Prajadhipok Naritsaranuwatiwong Phya Plaek
 			
 		}
 		
-		last_names = { Singh Prasad Ambedkar Khan Pandit Besant Sarabhai Gaidinliu Iyengar Baharjee Naidu
+		last_names = { Suriyawongse Saovabha Chichalerm "Praya Siri" Nitithada Phonphayuhasena
                
+		}
+	}
+	phake = { #
+		color = {65 100 190}
+		first_names = { Nangklao Mongkut Rama Chulalongkorn Chao Vajiravudh Prajadhipok Naritsaranuwatiwong Phya Plaek
+			
+		}
+		
+		last_names = { Suriyawongse Saovabha Chichalerm "Praya Siri" Nitithada Phonphayuhasena
+               
+		}
+	}
+	aiton = { #
+		color = {65 80 190}
+		first_names = { Nangklao Mongkut Rama Chulalongkorn Chao Vajiravudh Prajadhipok Naritsaranuwatiwong Phya Plaek
+			
+		}
+		
+		last_names = { Suriyawongse Saovabha Chichalerm "Praya Siri" Nitithada Phonphayuhasena
+               
+		}
+	}
+	tai_nuea = {
+		color = {75 100 150}
+		first_names = { Nangklao Mongkut Rama Chulalongkorn Chao Vajiravudh Prajadhipok Naritsaranuwatiwong Phya Plaek
+			
+		}
+		
+		last_names = { Suriyawongse Saovabha Chichalerm "Praya Siri" Nitithada Phonphayuhasena
+               
+		}
+	}
+	
+	#Central Tai
+	tai = { #Tay
+		color = {45 80 190}
+		first_names = { Nangklao Mongkut Rama Chulalongkorn Chao Vajiravudh Prajadhipok Naritsaranuwatiwong Phya Plaek
+			
+		}
+		
+		last_names = { Suriyawongse Saovabha Chichalerm "Praya Siri" Nitithada Phonphayuhasena
+               
+		}
+	}
+	cao_lan = {
+		color = {45 80 190}
+		first_names = { Nangklao Mongkut Rama Chulalongkorn Chao Vajiravudh Prajadhipok Naritsaranuwatiwong Phya Plaek
+			
+		}
+		
+		last_names = { Suriyawongse Saovabha Chichalerm "Praya Siri" Nitithada Phonphayuhasena
+               
+		}
+	}
+	pingxiang = { #Southern Zhuang
+		color = {190 75 124}
+		first_names = { Hoang Nong Le Be Van Quoc Quynh The Duc 
+		}
+		last_names = { Thu Manh Trieu Khanh Phung Hau Chan Den Phach Cao
+		}
+	}
+	leiping = { #Southern Zhuang
+		color = {190 75 124}
+		first_names = { Hoang Nong Le Be Van Quoc Quynh The Duc 
+		}
+		last_names = { Thu Manh Trieu Khanh Phung Hau Chan Den Phach Cao
+		}
+	}
+	ningming = { #Southern Zhuang
+		color = {190 75 124}
+		first_names = { Hoang Nong Le Be Van Quoc Quynh The Duc 
+		}
+		last_names = { Thu Manh Trieu Khanh Phung Hau Chan Den Phach Cao
+		}
+	}
+	nong = { #Nung
+		color = {190 75 124}
+		first_names = { Hoang Nong Le Be Van Quoc Quynh The Duc 
+		}
+		last_names = { Thu Manh Trieu Khanh Phung Hau Chan Den Phach Cao
+		}
+	}
+	
+	#Northern Tai
+	saek = { 
+		color = {200 75 104}
+		first_names = { Hoang Nong Le Be Van Quoc Quynh The Duc 
+		}
+		last_names = { Thu Manh Trieu Khanh Phung Hau Chan Den Phach Cao
+		}
+	}
+	tai_maen = { 
+		color = {200 75 104}
+		first_names = { Hoang Nong Le Be Van Quoc Quynh The Duc 
+		}
+		last_names = { Thu Manh Trieu Khanh Phung Hau Chan Den Phach Cao
+		}
+	}
+	yoy = { 
+		color = {200 75 104}
+		first_names = { Hoang Nong Le Be Van Quoc Quynh The Duc 
+		}
+		last_names = { Thu Manh Trieu Khanh Phung Hau Chan Den Phach Cao
+		}
+	}
+	wusehua = { #aka E or Ei
+		color = {200 75 104}
+		first_names = { Hoang Nong Le Be Van Quoc Quynh The Duc 
+		}
+		last_names = { Thu Manh Trieu Khanh Phung Hau Chan Den Phach Cao
+		}
+	}
+	buyi = { #Bouyei including Giay
+		color = {200 75 104}
+		first_names = { Hoang Nong Le Be Van Quoc Quynh The Duc 
+		}
+		last_names = { Thu Manh Trieu Khanh Phung Hau Chan Den Phach Cao
+		}
+	}
+	zhuang = { #use for Yongbei, within Northern Zhuang
+		color = {200 75 134}
+		first_names = { Hoang Nong Le Be Van Quoc Quynh The Duc 
+		}
+		last_names = { Thu Manh Trieu Khanh Phung Hau Chan Den Phach Cao
+		}
+	}
+	guibei = { #Northern Zhuang
+		color = {200 75 134}
+		first_names = { Hoang Nong Le Be Van Quoc Quynh The Duc 
+		}
+		last_names = { Thu Manh Trieu Khanh Phung Hau Chan Den Phach Cao
+		}
+	}
+	liujiang = { #Northern Zhuang
+		color = {200 75 134}
+		first_names = { Hoang Nong Le Be Van Quoc Quynh The Duc 
+		}
+		last_names = { Thu Manh Trieu Khanh Phung Hau Chan Den Phach Cao
+		}
+	}
+	hongshuihe = { #Northern Zhuang
+		color = {200 75 134}
+		first_names = { Hoang Nong Le Be Van Quoc Quynh The Duc 
+		}
+		last_names = { Thu Manh Trieu Khanh Phung Hau Chan Den Phach Cao
+		}
+	}
+	youjiang = { #Northern Zhuang
+		color = {200 75 134}
+		first_names = { Hoang Nong Le Be Van Quoc Quynh The Duc 
+		}
+		last_names = { Thu Manh Trieu Khanh Phung Hau Chan Den Phach Cao
+		}
+	}
+	yei_zhuang = { #Northern Zhuang, Qiubei and Guibian dialects
+		color = {200 75 134}
+		first_names = { Hoang Nong Le Be Van Quoc Quynh The Duc 
+		}
+		last_names = { Thu Manh Trieu Khanh Phung Hau Chan Den Phach Cao
+		}
+	}
+	lianshan = { #Northern Zhuang
+		color = {200 75 134}
+		first_names = { Hoang Nong Le Be Van Quoc Quynh The Duc 
+		}
+		last_names = { Thu Manh Trieu Khanh Phung Hau Chan Den Phach Cao
+		}
+	}
+	guidong = { #Northern Zhuang, 6 dialect pockets in eastern Guangxi
+		color = {200 75 134}
+		first_names = { Hoang Nong Le Be Van Quoc Quynh The Duc 
+		}
+		last_names = { Thu Manh Trieu Khanh Phung Hau Chan Den Phach Cao
+		}
+	}
+	
+	#Kra
+	lachi = {
+		color = {100 75 94}
+		first_names = { Hoang Nong Le Be Van Quoc Quynh The Duc 
+		}
+		last_names = { Thu Manh Trieu Khanh Phung Hau Chan Den Phach Cao
+		}
+	}
+	gelao = {
+		color = {100 75 94}
+		first_names = { Hoang Nong Le Be Van Quoc Quynh The Duc 
+		}
+		last_names = { Thu Manh Trieu Khanh Phung Hau Chan Den Phach Cao
+		}
+	}
+	buyang = { #include Paha
+		color = {100 75 94}
+		first_names = { Hoang Nong Le Be Van Quoc Quynh The Duc 
+		}
+		last_names = { Thu Manh Trieu Khanh Phung Hau Chan Den Phach Cao
+		}
+	}
+	laha = {
+		color = {100 75 94}
+		first_names = { Hoang Nong Le Be Van Quoc Quynh The Duc 
+		}
+		last_names = { Thu Manh Trieu Khanh Phung Hau Chan Den Phach Cao
+		}
+	}
+	qabiao = {
+		color = {100 75 94}
+		first_names = { Hoang Nong Le Be Van Quoc Quynh The Duc 
+		}
+		last_names = { Thu Manh Trieu Khanh Phung Hau Chan Den Phach Cao
+		}
+	}
+	
+	#Kam-Sui
+	mulam = {
+		color = {90 55 154}
+		first_names = { Hoang Nong Le Be Van Quoc Quynh The Duc 
+		}
+		last_names = { Thu Manh Trieu Khanh Phung Hau Chan Den Phach Cao
+		}
+	}
+	kam = {
+		color = {90 55 154}
+		first_names = { Hoang Nong Le Be Van Quoc Quynh The Duc 
+		}
+		last_names = { Thu Manh Trieu Khanh Phung Hau Chan Den Phach Cao
+		}
+	}
+	then = { #T'en
+		color = {90 55 154}
+		first_names = { Hoang Nong Le Be Van Quoc Quynh The Duc 
+		}
+		last_names = { Thu Manh Trieu Khanh Phung Hau Chan Den Phach Cao
+		}
+	}
+	sui = {
+		color = {90 55 154}
+		first_names = { Hoang Nong Le Be Van Quoc Quynh The Duc 
+		}
+		last_names = { Thu Manh Trieu Khanh Phung Hau Chan Den Phach Cao
+		}
+	}
+	chadong = {
+		color = {90 55 154}
+		first_names = { Hoang Nong Le Be Van Quoc Quynh The Duc 
+		}
+		last_names = { Thu Manh Trieu Khanh Phung Hau Chan Den Phach Cao
+		}
+	}
+	maonan = {
+		color = {90 55 154}
+		first_names = { Hoang Nong Le Be Van Quoc Quynh The Duc 
+		}
+		last_names = { Thu Manh Trieu Khanh Phung Hau Chan Den Phach Cao
+		}
+	}
+	ai_cham = {
+		color = {90 55 154}
+		first_names = { Hoang Nong Le Be Van Quoc Quynh The Duc 
+		}
+		last_names = { Thu Manh Trieu Khanh Phung Hau Chan Den Phach Cao
+		}
+	}
+	mak = {
+		color = {90 55 154}
+		first_names = { Hoang Nong Le Be Van Quoc Quynh The Duc 
+		}
+		last_names = { Thu Manh Trieu Khanh Phung Hau Chan Den Phach Cao
+		}
+	}
+	
+	#Hlai
+	bouhin = {
+		color = {120 85 154}
+		first_names = { Hoang Nong Le Be Van Quoc Quynh The Duc 
+		}
+		last_names = { Thu Manh Trieu Khanh Phung Hau Chan Den Phach Cao
+		}
+	}
+	ha_em = {
+		color = {120 85 154}
+		first_names = { Hoang Nong Le Be Van Quoc Quynh The Duc 
+		}
+		last_names = { Thu Manh Trieu Khanh Phung Hau Chan Den Phach Cao
+		}
+	}
+	lauhut = { #East Central Hlai
+		color = {120 85 154}
+		first_names = { Hoang Nong Le Be Van Quoc Quynh The Duc 
+		}
+		last_names = { Thu Manh Trieu Khanh Phung Hau Chan Den Phach Cao
+		}
+	}
+	gelong = { #Northwest Central Hlai
+		color = {120 85 154}
+		first_names = { Hoang Nong Le Be Van Quoc Quynh The Duc 
+		}
+		last_names = { Thu Manh Trieu Khanh Phung Hau Chan Den Phach Cao
+		}
+	}
+	moifau = {
+		color = {120 85 154}
+		first_names = { Hoang Nong Le Be Van Quoc Quynh The Duc 
+		}
+		last_names = { Thu Manh Trieu Khanh Phung Hau Chan Den Phach Cao
+		}
+	}
+	zwn = {
+		color = {120 85 154}
+		first_names = { Hoang Nong Le Be Van Quoc Quynh The Duc 
+		}
+		last_names = { Thu Manh Trieu Khanh Phung Hau Chan Den Phach Cao
+		}
+	}
+	
+	#Unclassified Kra-Dai
+	lakkia = {
+		color = {90 95 154}
+		first_names = { Hoang Nong Le Be Van Quoc Quynh The Duc 
+		}
+		last_names = { Thu Manh Trieu Khanh Phung Hau Chan Den Phach Cao
+		}
+	}
+	kang_bau = {
+		color = {90 95 154}
+		first_names = { Hoang Nong Le Be Van Quoc Quynh The Duc 
+		}
+		last_names = { Thu Manh Trieu Khanh Phung Hau Chan Den Phach Cao
+		}
+	}
+	ong_be = {
+		color = {90 95 154}
+		first_names = { Hoang Nong Le Be Van Quoc Quynh The Duc 
+		}
+		last_names = { Thu Manh Trieu Khanh Phung Hau Chan Den Phach Cao
+		}
+	}
+	jizhao = {
+		color = {90 95 154}
+		first_names = { Hoang Nong Le Be Van Quoc Quynh The Duc 
+		}
+		last_names = { Thu Manh Trieu Khanh Phung Hau Chan Den Phach Cao
+		}
+	}
+	jiamao = {
+		color = {90 95 154}
+		first_names = { Hoang Nong Le Be Van Quoc Quynh The Duc 
+		}
+		last_names = { Thu Manh Trieu Khanh Phung Hau Chan Den Phach Cao
+		}
+	}
+	
+	asian_minor = {
+		color = {99 150 72}
+		first_names = { Abdul Vijaya Rajkumari Aurobindo Chandrashekhar Gopal Motilal Sardar Sarojini Subhas Srinivasa Mridula Gupinath Chittaranjan
+		}
+		last_names = { Singh Prasad Ambedkar Khan Pandit Besant Sarabhai Gaidinliu Iyengar Baharjee Naidu
 		}
 	}
 }
@@ -11798,63 +12271,122 @@ malay_polynesian = {
 east_asian = {
 	leader = asian
 	unit = ChineseGC
-	n_mandarin = { #Mandarin
+	
+	#Macro-Mandarin group
+	n_mandarin = { #yan-lu
 		color = {145 30 30}
-		first_names = { Wang Li Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu
+		first_names = { Wang Li Zhang Liu Chen Huang Liang Luo Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu
+		}
+		last_names = { Zhao Wu Sun Ma Hu Peng Dong Ye Tian Jiang Wei Ting Shen Fang Jin Qiu
+		}
+	}
+	zhongyuan = {
+		color = {95 30 45}
+		first_names = { Wang Li Zhang Liu Chen Huang Liang Luo Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu
+		}
+		last_names = { Zhao Wu Sun Ma Hu Peng Dong Ye Tian Jiang Wei Ting Shen Fang Jin Qiu
+		}
+	}
+	lanyin = {
+		color = {95 30 85}
+		first_names = { Wang Li Zhang Liu Chen Huang Liang Luo Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu
+		}
+		last_names = { Zhao Wu Sun Ma Hu Peng Dong Ye Tian Jiang Wei Ting Shen Fang Jin Qiu
+		}
+	}
+	jin = { #qin-jin
+		color = {45 45 30}
+		first_names = { Wang Li Zhang Liu Chen Huang Liang Luo Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu
 		}
 		last_names = { Zhao Wu Sun Ma Hu Peng Dong Ye L� Tian Jiang Wei Ting Shen Fang Jin Qiu
 		}
 	}
+	jianghuai = {
+		color = {150 106 95}
+		first_names = { Wang Li Zhang Liu Chen Huang Liang Luo Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu
+		}
+		last_names = { Zhao Wu Sun Ma Hu Peng Dong Ye Tian Jiang Wei Ting Shen Fang Jin Qiu
+		}
+	}
+	s_mandarin = { #southwest/shangjiang
+		color = {181 106 106}
+		first_names = { Wang Li Zhang Liu Chen Huang Liang Luo Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu
+		}
+		last_names = { Zhao Wu Sun Ma Hu Peng Dong Ye L� Tian Jiang Wei Ting Shen Fang Jin Qiu
+		}
+	}
+	hanhui = { #Huihuihua
+		color = {255 230 230}
+		first_names = { Wang Li Zhang Liu Chen Huang Liang Luo Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu
+		}
+		last_names = { Zhao Wu Sun Ma Hu Peng Dong Ye L� Tian Jiang Wei Ting Shen Fang Jin Qiu
+		}
+	}
+	
+	#Xiang
 	xiang = {
 		color = {65 180 30}
-		first_names = { Wang Li Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu
+		first_names = { Wang Li Zhang Liu Chen Huang Liang Luo Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu
 		}
 		last_names = { Zhao Wu Sun Ma Hu Peng Dong Ye L� Tian Jiang Wei Ting Shen Fang Jin Qiu
 		}
 	}
+	
+	#Gan
 	gan = {
 		color = {145 130 30}
-		first_names = { Wang Li Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu
+		first_names = { Wang Li Zhang Liu Chen Huang Liang Luo Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu
 		}
 		last_names = { Zhao Wu Sun Ma Hu Peng Dong Ye L� Tian Jiang Wei Ting Shen Fang Jin Qiu
 		}
 	}
-	wu = {
+	
+	#Wu
+	wu = { #taihu
+		color = {45 130 30}
+		first_names = { Wang Li Zhang Liu Chen Huang Liang Luo Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu
+		}
+		last_names = { Zhao Wu Sun Ma Hu Peng Dong Ye L� Tian Jiang Wei Ting Shen Fang Jin Qiu
+		}
+	}
+	taizhou_wu = {
 		color = {45 130 30}
 		first_names = { Wang Li Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu
 		}
 		last_names = { Zhao Wu Sun Ma Hu Peng Dong Ye L� Tian Jiang Wei Ting Shen Fang Jin Qiu
 		}
 	}
-	jin = {
-		color = {45 45 30}
+	oujiang_wu = {
+		color = {45 130 30}
 		first_names = { Wang Li Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu
 		}
 		last_names = { Zhao Wu Sun Ma Hu Peng Dong Ye L� Tian Jiang Wei Ting Shen Fang Jin Qiu
 		}
 	}
-	s_mandarin = {
-		color = {181 106 106}
+	shangli_wu = {
+		color = {45 130 30}
 		first_names = { Wang Li Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu
 		}
 		last_names = { Zhao Wu Sun Ma Hu Peng Dong Ye L� Tian Jiang Wei Ting Shen Fang Jin Qiu
 		}
 	}
-	hanhui = {
-		color = {255 230 230}
+	jinqu_wu = {
+		color = {45 130 30}
 		first_names = { Wang Li Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu
 		}
 		last_names = { Zhao Wu Sun Ma Hu Peng Dong Ye L� Tian Jiang Wei Ting Shen Fang Jin Qiu
 		}
 	}
-	hakka = {
-		color = {89 63 24}
-		first_names = { Hong Feng Shi Li Chen Liu Qiu Sun Soong Liao Xue Zhang Xie Wu Shu Tsai Deng Zhen Huang Ye Yang
+	xuanzhou_wu = { #spoken in Southern Anhui
+		color = {45 130 30}
+		first_names = { Wang Li Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu
 		}
-		last_names = { Xiuquan Yunshan Xiuqing Dakai Yucheng Rengan Zicai Yongfu Fengjia Yatsen
+		last_names = { Zhao Wu Sun Ma Hu Peng Dong Ye L� Tian Jiang Wei Ting Shen Fang Jin Qiu
 		}
 	}
-	min = { #Eastern Min
+	
+	#Min
+	min = { #Eastern
 		color = {76 32 200}
 		first_names = { Lin Shen Chen Wong Yan Sa Hou Zheng Bing Wu Tan He Du Xue Xu Qin
 		}
@@ -11903,7 +12435,7 @@ east_asian = {
 		last_names = { Zexu Baozhen Baochen Nai-siong Shu Fu Sen Debang Xin Nee Huiyin
 		}
 	}
-	hainanese = { #Southern Min of Hainan island
+	hainan_min = { #Southern Min
 		color = {76 32 200}
 		first_names = { Lin Shen Chen Wong Yan Sa Hou Zheng Bing Wu Tan He Du Xue Xu Qin
 		}
@@ -11924,13 +12456,62 @@ east_asian = {
 		last_names = { Zexu Baozhen Baochen Nai-siong Shu Fu Sen Debang Xin Nee Huiyin
 		}
 	}
-	yue = {
+	
+	#Yue
+	yue = { #Yuehai
 		color = {89 34 100}
 		first_names = { Wang Li Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu
 		}
 		last_names = { Zhao Wu Sun Ma Hu Peng Dong Ye L� Tian Jiang Wei Ting Shen Fang Jin Qiu
 		}
 	}
+	seiyap = {
+		color = {89 34 100}
+		first_names = { Wang Li Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu
+		}
+		last_names = { Zhao Wu Sun Ma Hu Peng Dong Ye L� Tian Jiang Wei Ting Shen Fang Jin Qiu
+		}
+	}
+	gaolei = {
+		color = {89 34 100}
+		first_names = { Wang Li Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu
+		}
+		last_names = { Zhao Wu Sun Ma Hu Peng Dong Ye L� Tian Jiang Wei Ting Shen Fang Jin Qiu
+		}
+	}
+	hamlim = {
+		color = {89 34 100}
+		first_names = { Wang Li Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu
+		}
+		last_names = { Zhao Wu Sun Ma Hu Peng Dong Ye L� Tian Jiang Wei Ting Shen Fang Jin Qiu
+		}
+	}
+	guinan = {
+		color = {89 34 100}
+		first_names = { Wang Li Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu
+		}
+		last_names = { Zhao Wu Sun Ma Hu Peng Dong Ye L� Tian Jiang Wei Ting Shen Fang Jin Qiu
+		}
+	}
+	
+	#Hakka
+	hakka = {
+		color = {89 63 24}
+		first_names = { Hong Feng Shi Li Chen Liu Qiu Sun Soong Liao Xue Zhang Xie Wu Shu Tsai Deng Zhen Huang Ye Yang
+		}
+		last_names = { Xiuquan Yunshan Xiuqing Dakai Yucheng Rengan Zicai Yongfu Fengjia Yatsen
+		}
+	}
+	
+	#Unclassified
+	waxiang = {
+		color = {89 134 100}
+		first_names = { Wang Li Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu
+		}
+		last_names = { Zhao Wu Sun Ma Hu Peng Dong Ye L� Tian Jiang Wei Ting Shen Fang Jin Qiu
+		}
+	}
+	
 	union = CHI
 }
 
