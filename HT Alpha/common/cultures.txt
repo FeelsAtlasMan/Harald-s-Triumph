@@ -12331,7 +12331,35 @@ east_asian = {
 	}
 	
 	#Xiang
-	xiang = {
+	xiang = { #old xiang
+		color = {65 180 30}
+		first_names = { Wang Li Zhang Liu Chen Huang Liang Luo Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu
+		}
+		last_names = { Zhao Wu Sun Ma Hu Peng Dong Ye L� Tian Jiang Wei Ting Shen Fang Jin Qiu
+		}
+	}
+	changyi_xiang = {
+		color = {65 180 30}
+		first_names = { Wang Li Zhang Liu Chen Huang Liang Luo Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu
+		}
+		last_names = { Zhao Wu Sun Ma Hu Peng Dong Ye L� Tian Jiang Wei Ting Shen Fang Jin Qiu
+		}
+	}
+	yongquan_xiang = {
+		color = {65 180 30}
+		first_names = { Wang Li Zhang Liu Chen Huang Liang Luo Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu
+		}
+		last_names = { Zhao Wu Sun Ma Hu Peng Dong Ye L� Tian Jiang Wei Ting Shen Fang Jin Qiu
+		}
+	}
+	chenxu_xiang = {
+		color = {65 180 30}
+		first_names = { Wang Li Zhang Liu Chen Huang Liang Luo Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu
+		}
+		last_names = { Zhao Wu Sun Ma Hu Peng Dong Ye L� Tian Jiang Wei Ting Shen Fang Jin Qiu
+		}
+	}
+	hengzhou_xiang = {
 		color = {65 180 30}
 		first_names = { Wang Li Zhang Liu Chen Huang Liang Luo Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu
 		}
@@ -12615,6 +12643,59 @@ east_asian = {
 		}
 	}
 	
+	#Ba-Shu
+	old_shu = {
+		color = {95 160 30}
+		first_names = { Wang Li Zhang Liu Chen Huang Liang Luo Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu
+		}
+		last_names = { Zhao Wu Sun Ma Hu Peng Dong Ye L� Tian Jiang Wei Ting Shen Fang Jin Qiu
+		}
+	}
+	old_ba = {
+		color = {95 180 35}
+		first_names = { Wang Li Zhang Liu Chen Huang Liang Luo Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu
+		}
+		last_names = { Zhao Wu Sun Ma Hu Peng Dong Ye L� Tian Jiang Wei Ting Shen Fang Jin Qiu
+		}
+	}
+	
+	#Huizhou
+	jishe = {
+		color = {75 150 35}
+		first_names = { Wang Li Zhang Liu Chen Huang Liang Luo Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu
+		}
+		last_names = { Zhao Wu Sun Ma Hu Peng Dong Ye L� Tian Jiang Wei Ting Shen Fang Jin Qiu
+		}
+	}
+	xiuyi = {
+		color = {75 150 35}
+		first_names = { Wang Li Zhang Liu Chen Huang Liang Luo Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu
+		}
+		last_names = { Zhao Wu Sun Ma Hu Peng Dong Ye L� Tian Jiang Wei Ting Shen Fang Jin Qiu
+		}
+	}
+	qide = {
+		color = {75 150 35}
+		first_names = { Wang Li Zhang Liu Chen Huang Liang Luo Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu
+		}
+		last_names = { Zhao Wu Sun Ma Hu Peng Dong Ye L� Tian Jiang Wei Ting Shen Fang Jin Qiu
+		}
+	}
+	yanzhou = {
+		color = {75 150 35}
+		first_names = { Wang Li Zhang Liu Chen Huang Liang Luo Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu
+		}
+		last_names = { Zhao Wu Sun Ma Hu Peng Dong Ye L� Tian Jiang Wei Ting Shen Fang Jin Qiu
+		}
+	}
+	jingzhan = {
+		color = {75 150 35}
+		first_names = { Wang Li Zhang Liu Chen Huang Liang Luo Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu
+		}
+		last_names = { Zhao Wu Sun Ma Hu Peng Dong Ye L� Tian Jiang Wei Ting Shen Fang Jin Qiu
+		}
+	}
+	
 	#Unclassified
 	waxiang = {
 		color = {89 134 100}
@@ -12629,6 +12710,14 @@ east_asian = {
 		first_names = { Hong Feng Shi Li Chen Liu Qiu Sun Soong Liao Xue Zhang Xie Wu Shu Tsai Deng Zhen Huang Ye Yang
 		}
 		last_names = { Xiuquan Yunshan Xiuqing Dakai Yucheng Rengan Zicai Yongfu Fengjia Yatsen
+		}
+	}
+	
+	xiangnan_tuhua = {
+		color = {45 104 30}
+		first_names = { Wang Li Zhang Liu Chen Huang Liang Luo Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu
+		}
+		last_names = { Zhao Wu Sun Ma Hu Peng Dong Ye L� Tian Jiang Wei Ting Shen Fang Jin Qiu
 		}
 	}
 	
