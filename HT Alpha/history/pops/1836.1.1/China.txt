@@ -14361,7 +14361,7 @@
 }
 #Sichuan Region (34604000)
 #under the rule of China in 1836
-#Chongqing (2575600/643900 POPS)
+#Chongqing (2757800/689450 POPS)
 1577 = {
 	aristocrats = {
 		culture = old_ba
@@ -14410,6 +14410,12 @@
 		religion = gelugpa
 		size = 50
 	}
+	
+	clergymen = {
+		culture = tujia
+		religion = animist
+		size = 250
+	}
 
 	artisans = {
 		culture = old_ba
@@ -14432,13 +14438,19 @@
 	artisans = {
 		culture = old_shu
 		religion = mahayana
-		size = 7950
+		size = 7850
 	}
 	
 	artisans = {
 		culture = hanhui
 		religion = jewish
-		size = 5025
+		size = 6025
+	}
+	
+	artisans = {
+		culture = tujia
+		religion = animist
+		size = 4000
 	}
 
 	soldiers = {
@@ -14456,7 +14468,7 @@
 	farmers = {
 		culture = old_ba
 		religion = mahayana
-		size = 391000
+		size = 381000
 	}
 	
 	farmers = {
@@ -14468,7 +14480,31 @@
 	farmers = {
 		culture = old_shu
 		religion = mahayana
-		size = 50100
+		size = 45100
+	}
+	
+	farmers = {
+		culture = old_ba
+		religion = animist
+		size = 5000
+	}
+	
+	farmers = {
+		culture = tujia
+		religion = animist
+		size = 31000
+	}
+	
+	farmers = {
+		culture = miao
+		religion = animist
+		size = 10000
+	}
+	
+	farmers = {
+		culture = hanhui
+		religion = jewish
+		size = 9000
 	}
 }
 #Chengdu (1882800/470700 POPS)
