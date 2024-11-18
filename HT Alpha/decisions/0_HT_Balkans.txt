@@ -15,4 +15,37 @@ political_decisions = {
 			set_country_flag = crackdown_on_albanian_raids
 		}
 	}
+	
+	#Player-Only Mount Athos revolt
+	mobilise_support_in_thessaloniki = {
+		picture = balkan_war
+		potential = {
+			tag = MTH
+			ai = no
+			GRE = { exists = yes }
+			NOT = { has_country_flag = mobilised_support_in_thessaloniki }
+		}
+		allow = {
+			war = no
+			GRE = { war_with = BYZ }
+		}
+		effect = {
+		    805 = { add_core = MTH }
+			822 = { add_core = MTH } 
+			805 = { secede_province = MTH }
+			822 = { secede_province = MTH } 
+			casus_belli = {
+	            target = BYZ
+	            type = humiliate
+	            months = 1
+            }
+		    war = {
+	            target = BYZ
+	            attacker_goal = humiliate
+	            defender_goal = unification_annex_casus_belli
+	            call_ally = no
+            }
+			set_country_flag = mobilised_support_in_thessaloniki
+		}
+	}
 }

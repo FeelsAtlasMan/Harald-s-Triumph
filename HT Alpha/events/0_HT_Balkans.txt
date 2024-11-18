@@ -212,7 +212,7 @@ country_event = {
 		GRE_826 = { add_core = GRE }
 		824 = { add_core = GRE }
 		825 = { add_core = GRE }
-		837 = { add_core = GRE 
+		837 = { add_core = GRE }
 		THIS = { change_tag = GRE }
 		inherit = THY
 		inherit = ATH
@@ -254,6 +254,90 @@ country_event = {
 	        target = GRE
 	        attacker_goal = unification_annex_casus_belli
 	        defender_goal = humiliate
+	        call_ally = no
+        }
+		set_global_flag = greek_revolution
+	}
+}
+
+#Pan-Hellenic Fervor 
+province_event = {
+	id = 1122119
+	title = "Pan-Hellenic Fervor"
+	desc = "EVTDESC1122119"
+	
+	mean_time_to_happen =  {
+	    months = 2
+    }
+	
+	trigger = {
+	    OR = {
+		    region = EGY_843 	
+			region = TUR_855
+            AND = { region = BUL_1780 culture = greek }			
+			AND = { region = TUR_805 culture = greek }	   
+			AND = { region = TUR_818 culture = greek }	 
+			AND = { region = TUR_828 culture = greek }	 
+		}
+		GRE = { war_with = BYZ }
+		has_global_flag = greek_revolution
+	}
+	
+	option = {
+		name = "We need to put these traitors into their place!"
+		add_province_modifier = {
+	        name = nationalist_agitation
+	        duration = 180
+        }
+		any_pop = { limit = { has_pop_culture = greek } militancy = 2 consciousness = 3 }
+	}
+}
+
+#The Greek Mutiny - Rebellions in Crete and Cyprus
+country_event = {
+	id = 1122120
+	title = "The Greek Mutiny"
+	desc = "EVTDESC1122119"
+	major = yes
+	
+	mean_time_to_happen =  {
+	    months = 1
+    }
+	
+	trigger = {
+	    tag = ABB
+		EGY_843 = { average_militancy = 8 }
+		TUR_855 = { average_militancy = 8 }
+		has_global_flag = greek_revolution
+	}
+	
+	option = {
+		name = "We need to put these traitors into their place!"
+		EGY_843 = { any_pop = { limited = { has_pop_religion = sunni } reduce_pop = 0.1 } }
+		TUR_855 = { any_pop = { limited = { has_pop_religion = sunni } reduce_pop = 0.1 } }
+		release = CYP
+		release = CRE
+		casus_belli = {
+	        target = CYP
+	        type = conquest
+	        months = 1
+        }
+		war = {
+	        target = CYP
+	        attacker_goal = conquest
+	        defender_goal = status_quo
+	        call_ally = no
+        }
+		
+		casus_belli = {
+	        target = CRE
+	        type = conquest
+	        months = 1
+        }
+		war = {
+	        target = CRE
+	        attacker_goal = conquest
+	        defender_goal = status_quo
 	        call_ally = no
         }
 	}
