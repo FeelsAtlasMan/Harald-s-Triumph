@@ -14396,13 +14396,19 @@
 	clergymen = {
 		culture = old_shu
 		religion = mahayana
-		size = 500
+		size = 415
 	}
 	
 	clergymen = {
 		culture = hanhui
 		religion = jewish
 		size = 75
+	}
+	
+	clergymen = {
+		culture = hanhui
+		religion = sunni
+		size = 85
 	}
 	
 	clergymen = {
@@ -14444,7 +14450,13 @@
 	artisans = {
 		culture = hanhui
 		religion = jewish
-		size = 6025
+		size = 4025
+	}
+	
+	artisans = {
+		culture = hanhui
+		religion = sunni
+		size = 2000
 	}
 	
 	artisans = {
@@ -14474,7 +14486,7 @@
 	farmers = {
 		culture = s_mandarin
 		religion = mahayana
-		size = 141600
+		size = 100600
 	}
 	
 	farmers = {
@@ -14505,6 +14517,12 @@
 		culture = hanhui
 		religion = jewish
 		size = 9000
+	}
+	
+	farmers = {
+		culture = hanhui
+		religion = sunni
+		size = 11000
 	}
 }
 #Chengdu (1882800/470700 POPS)
