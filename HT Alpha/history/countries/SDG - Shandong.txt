@@ -1,7 +1,8 @@
 capital = 1587
-primary_culture = miao
-religion = gelugpa
-government = colonial_company
+primary_culture = jiaoliao
+culture = n_mandarin
+religion = mahayana
+government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_tradition
 literacy = 0.01
@@ -37,9 +38,9 @@ border_policy = closed_borders
 centralization = unitary
 colonial_policy = no_colonies 
 
-set_country_flag = gelugpa_country
+set_country_flag = mahayana_country
 
-ruling_party = YNN_conservative
+ruling_party = CHI_conservative
 upper_house = {
 	fascist = 0
 	liberal = 9
