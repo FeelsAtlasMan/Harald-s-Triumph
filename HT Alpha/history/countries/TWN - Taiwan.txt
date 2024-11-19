@@ -1,6 +1,6 @@
 capital = 2406
-primary_culture = polynesian
-religion = animist
+primary_culture = malay_polynesian
+religion = mahayana
 government = colonial_company
 plurality = 0.0
 nationalvalue = nv_tradition
@@ -36,7 +36,7 @@ border_policy = closed_borders
 centralization = unitary
 colonial_policy = no_colonies 
 
-set_country_flag = animist_country
+set_country_flag = mahayana_country
 
 ruling_party = TAI_conservative
 upper_house = {
@@ -52,8 +52,3 @@ upper_house = {
 # Inventions
 #bottling_process = yes
 modern_winemaking = yes
-
-govt_flag = {
-	government = colonial_company
-	flag = democracy
-}
