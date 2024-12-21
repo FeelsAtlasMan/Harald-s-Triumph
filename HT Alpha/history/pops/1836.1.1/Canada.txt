@@ -801,9 +801,9 @@
 		size = 8950
 	}
 }
-#Vernon (8000/2000 POPS)
-21 = {
 
+#Vernon (8000/2000 POPS) - Hebina
+21 = {
 	clergymen = {
 		culture = nsilxcin
 		religion = animist
@@ -813,31 +813,49 @@
 	soldiers = {
 		culture = nsilxcin
 		religion = animist
-		size = 115
+		size = 15
 	}
 	
 	farmers = {
 		culture = nsilxcin
 		religion = animist
-		size = 1115
+		size = 315
+	}
+	
+	clergymen = {
+		culture = nakota
+		religion = animist
+		size = 55
+	}
+
+	soldiers = {
+		culture = nakota
+		religion = animist
+		size = 445
+	}
+
+	farmers = {
+		culture = nakota
+		religion = animist
+		size = 4050
 	}
 	
 	clergymen = {
 		culture = ktunaxa
 		religion = animist
-		size = 65
+		size = 15
 	}
 
 	soldiers = {
 		culture = ktunaxa
 		religion = animist
-		size = 905
+		size = 45
 	}
 
 	farmers = {
 		culture = ktunaxa
 		religion = animist
-		size = 11950
+		size = 1950
 	}
 
 }
@@ -881,30 +899,48 @@
 }
 #Alberta Region: 64000
 #uncolonized in 1836
-#Edmonton (16000/4000 POPS)
+#Edmonton (16000/4000 POPS) - Saahsi
 22 = {
 	clergymen = {
 		culture = cree
 		religion = animist
-		size = 105
+		size = 15
 	}
 
 	artisans = {
 		culture = cree
 		religion = animist
-		size = 45
+		size = 15
 	}
 
 	soldiers = {
 		culture = cree
 		religion = animist
-		size = 1500
+		size = 100
 	}
 	
 	farmers = {
 		culture = cree
 		religion = animist
-		size = 12000
+		size = 1800
+	}
+	
+	slaves = {
+		culture = cree
+		religion = animist
+		size = 200
+	}
+	
+	farmers = {
+		culture = nakota
+		religion = animist
+		size = 100
+	}
+	
+	slaves = {
+		culture = nakota
+		religion = animist
+		size = 400
 	}
 	
 	clergymen = {
@@ -914,24 +950,31 @@
 	}
 
 	artisans = {
-		culture = siksika
+		culture = tsuutina
 		religion = animist
 		size = 15
 	}
 
 	soldiers = {
-		culture = siksika
+		culture = tsuutina
 		religion = animist
 		size = 605
 	}
 	
 	farmers = {
+		culture = tsuutina
+		religion = animist
+		size = 2000
+	}
+	
+	farmers = {
 		culture = siksika
 		religion = animist
-		size = 3000
+		size = 1000
 	}
 }
-#Athabaska Landing (4800/1200 POPS)
+
+#Athabaska Landing - Methye
 23 = {
 	aristocrats = {
 		culture = cree
@@ -948,19 +991,19 @@
 	artisans = {
 		culture = cree
 		religion = animist
-		size = 60
+		size = 100
 	}
 
 	soldiers = {
 		culture = cree
 		religion = animist
-		size = 15
+		size = 515
 	}
 
 	farmers = {
 		culture = cree
 		religion = animist
-		size = 3000
+		size = 6000
 	}
 	
 	aristocrats = {
@@ -978,7 +1021,7 @@
 	artisans = {
 		culture = chipewyan
 		religion = animist
-		size = 60
+		size = 20
 	}
 
 	soldiers = {
@@ -990,22 +1033,22 @@
 	farmers = {
 		culture = chipewyan
 		religion = animist
-		size = 2080
+		size = 1580
 	}
 }
-#Jasper (4000/1000 POPS)
-24 = {
 
+#Jasper (4000/1000 POPS) - Piikáni
+24 = {
 	aristocrats = {
 		culture = siksika
 		religion = animist
-		size = 250
+		size = 100
 	}
 
 	clergymen = {
 		culture = siksika
 		religion = animist
-		size = 225
+		size = 25
 	}
 
 	soldiers = {
@@ -1017,21 +1060,40 @@
 	farmers = {
 		culture = siksika
 		religion = animist
-		size = 7445
+		size = 3800
+	}
+	
+	farmers = {
+		culture = tsuutina
+		religion = animist
+		size = 500
+	}
+	
+	slaves = {
+		culture = ktunaxa
+		religion = animist
+		size = 145
 	}
 
 	farmers = {
-		culture = arapahoan
+		culture = gros_ventre
 		religion = animist
-		size = 2615
+		size = 615
 	}
 }
-#Banff (4000/1000 POPS)
+
+#Banff (4000/1000 POPS) - Omahkoyis
 25 = {
 	farmers = {
 		culture = tsuutina
 		religion = animist
-		size = 1500
+		size = 2300
+	}
+	
+	aristocrats = {
+		culture = siksika
+		religion = animist
+		size = 100
 	}
 	
 	clergymen = {
@@ -1055,82 +1117,52 @@
 	farmers = {
 		culture = siksika
 		religion = animist
-		size = 6700
+		size = 8700
+	}
+	
+	slaves = {
+		culture = cree
+		religion = animist
+		size = 500
 	}
 }
-#Calgary (8000/2000 POPS)
-26 = {
 
+#Calgary (8000/2000 POPS) - Sahnish
+26 = {
 	clergymen = {
-		culture = siksika
+		culture = arikara
 		religion = animist
 		size = 5
 	}
 
 	artisans = {
-		culture = siksika
+		culture = arikara
 		religion = animist
 		size = 5
 	}
 
 	soldiers = {
-		culture = siksika
+		culture = arikara
 		religion = animist
 		size = 705
 	}
 	
 	farmers = {
-		culture = siksika
+		culture = arikara
 		religion = animist
-		size = 3015
-	}
-	
-	clergymen = {
-		culture = tsuutina
-		religion = animist
-		size = 5
-	}
-
-	artisans = {
-		culture = tsuutina
-		religion = animist
-		size = 5
+		size = 7015
 	}
 
 	soldiers = {
-		culture = tsuutina
+		culture = lakota
 		religion = animist
-		size = 5
-	}
-
-	farmers = {
-		culture = tsuutina
-		religion = animist
-		size = 580
-	}
-	
-	clergymen = {
-		culture = dakota
-		religion = animist
-		size = 5
-	}
-
-	artisans = {
-		culture = dakota
-		religion = animist
-		size = 5
-	}
-
-	soldiers = {
-		culture = dakota
-		religion = animist
-		size = 505
+		size = 205
 	}
 	
 	farmers = {
-		culture = dakota
+		culture = lakota
 		religion = animist
-		size = 2030
+		size = 430
 	}
 }
 #Edmonton - Denwood (8000/2000 POPS)
@@ -1183,29 +1215,29 @@
 		size = 7185
 	}
 }
-#Fort MacLeod (8000/2000 POPS)
-28 = {
 
+#Fort MacLeod (8000/2000 POPS) - Chan-Tonga
+28 = {
 	clergymen = {
-		culture = dakota
+		culture = nakota
 		religion = animist
 		size = 25
 	}
 
 	artisans = {
-		culture = dakota
+		culture = nakota
 		religion = animist
 		size = 25
 	}
 
 	soldiers = {
-		culture = dakota
+		culture = nakota
 		religion = animist
 		size = 405
 	}
 	
 	farmers = {
-		culture = dakota
+		culture = nakota
 		religion = animist
 		size = 4015
 	}
@@ -1231,35 +1263,11 @@
 	farmers = {
 		culture = tsuutina
 		religion = animist
-		size = 3000
-	}
-	
-	clergymen = {
-		culture = siksika
-		religion = animist
-		size = 5
-	}
-
-	artisans = {
-		culture = siksika
-		religion = animist
-		size = 5
-	}
-
-	soldiers = {
-		culture = siksika
-		religion = animist
-		size = 5
-	}
-
-	farmers = {
-		culture = siksika
-		religion = animist
-		size = 665
+		size = 400
 	}
 }
 
-#Fort Vermillion (3200/800 POPS)
+#Fort Vermillion - Nepegabeketik
 2597 = {
 	aristocrats = {
 		culture = cree
@@ -1282,25 +1290,31 @@
 	soldiers = {
 		culture = cree
 		religion = animist
-		size = 10
+		size = 310
 	}
 
 	farmers = {
 		culture = cree
 		religion = animist
-		size = 2000
+		size = 4400
 	}
 	
 	farmers = {
 		culture = cordillera
 		religion = animist
-		size = 800
+		size = 600
 	}
 	
 	farmers = {
 		culture = slavey
 		religion = animist
 		size = 600
+	}
+	
+	slaves = {
+		culture = slavey
+		religion = animist
+		size = 400
 	}
 	
 	farmers = {
@@ -1313,35 +1327,34 @@
 #uncolonized in 1836
 #Regina (12000/3000 POPS)
 30 = {
-
-	clergymen = {
-		culture = dakota
+    clergymen = {
+		culture = nakota
 		religion = animist
 		size = 5
 	}
 
 	artisans = {
-		culture = dakota
+		culture = nakota
 		religion = animist
 		size = 5
 	}
 
 	officers = {
-		culture = dakota
+		culture = nakota
 		religion = animist
 		size = 5
 	}
 	
 	soldiers = {
-		culture = dakota
+		culture = nakota
 		religion = animist
 		size = 1005
 	}
 
 	farmers = {
-		culture = dakota
+		culture = nakota
 		religion = animist
-		size = 11000
+		size = 7000
 	}
 }
 #Stanley (4000/1000 POPS)
@@ -1376,7 +1389,8 @@
 		size = 3600
 	}
 }
-#Prince Albert (8000/2000 POPS)
+
+#Prince Albert (8000/2000 POPS) - Mistahi-Sâkahikanihk
 32 = {
 	clergymen = {
 		culture = chipewyan
@@ -1399,7 +1413,7 @@
 	farmers = {
 		culture = chipewyan
 		religion = animist
-		size = 6700
+		size = 1200
 	}
 
 	aristocrats = {
@@ -1423,18 +1437,18 @@
 	soldiers = {
 		culture = cree
 		religion = animist
-		size = 15
+		size = 215
 	}
 
 	farmers = {
 		culture = cree
 		religion = animist
-		size = 2200
+		size = 3200
 	}
 }
-#Asquith (8000/2000 POPS)
-33 = {
 
+#Asquith (8000/2000 POPS) - Waskahikanwiyiniwak
+33 = {
 	clergymen = {
 		culture = cree
 		religion = animist
@@ -1450,57 +1464,76 @@
 	soldiers = {
 		culture = cree
 		religion = animist
-		size = 5
-	}
-	
-	farmers = {
-		culture = cree
-		religion = animist
-		size = 15
+		size = 1005
 	}
 
 	farmers = {
 		culture = cree
 		religion = animist
-		size = 8000
+		size = 5000
+	}
+	
+	clergymen = {
+		culture = nakota
+		religion = animist
+		size = 5
+	}
+
+	artisans = {
+		culture = nakota
+		religion = animist
+		size = 5
+	}
+
+	soldiers = {
+		culture = nakota
+		religion = animist
+		size = 105
+	}
+
+	farmers = {
+		culture = nakota
+		religion = animist
+		size = 2000
 	}
 }
-#Saskatoon (8000/2000 POPS)
+
+#Saskatoon (8000/2000 POPS) - Kâ-Têpwêt
 34 = {
 
 	clergymen = {
-		culture = arapahoan
+		culture = nakota
 		religion = animist
 		size = 5
 	}
 
 	artisans = {
-		culture = arapahoan
+		culture = nakota
 		religion = animist
 		size = 5
 	}
 
 	soldiers = {
-		culture = arapahoan
+		culture = nakota
 		religion = animist
-		size = 5
+		size = 405
 	}
 	
 	farmers = {
-		culture = arapahoan
+		culture = nakota
 		religion = animist
-		size = 800
+		size = 6400
 	}
 
 	farmers = {
 		culture = cree
 		religion = animist
-		size = 1800
+		size = 1000
 	}
 }
-#Maple Creek (4000/1000 POPS)
-35 = {
 
+#Maple Creek (4000/1000 POPS) - Siksiká
+35 = {
 	aristocrats = {
 		culture = siksika
 		religion = animist
@@ -1522,48 +1555,78 @@
 	farmers = {
 		culture = siksika
 		religion = animist
-		size = 4500
+		size = 4000
+	}
+	
+	slaves = {
+		culture = cree
+		religion = animist
+		size = 110
 	}
 
 	farmers = {
-		culture = arapahoan
+		culture = cree
 		religion = animist
-		size = 2010
+		size = 800
+	}
+	
+	slaves = {
+		culture = nakota
+		religion = animist
+		size = 510
+	}
+
+	farmers = {
+		culture = nakota
+		religion = animist
+		size = 1800
 	}
 }
+
 #Manitoba Region : 52000
 #uncolonized in 1836
 #Winnipeg (12000/3000 POPS)
 36 = {
-
 	clergymen = {
-		culture = cree
+		culture = saulteax
 		religion = animist
 		size = 65
 	}
 
 	artisans = {
-		culture = cree
+		culture = saulteax
 		religion = animist
 		size = 5
 	}
 
 	soldiers = {
-		culture = cree
+		culture = saulteax
 		religion = animist
-		size = 2005
+		size = 105
 	}
 	
 	aristocrats = {
-		culture = cree
+		culture = saulteax
 		religion = animist
 		size = 15
 	}
 
 	farmers = {
+		culture = saulteax
+		religion = animist
+		size = 1000
+	}
+	
+	farmers = {
+		culture = oji_cree
+		religion = animist
+		size = 500
+	}
+	
+	farmers = {
 		culture = cree
 		religion = animist
-		size = 12000
+		size = 500
 	}
 }
 #Churchill (4000/1000 POPS)
@@ -1681,62 +1744,68 @@
 		size = 8000
 	}
 }
-#Dauphin (8000/2000 POPS)
-40 = {
 
+#Dauphin (8000/2000 POPS) - Manidoobaa
+40 = {
 	clergymen = {
-		culture = cree
+		culture = saulteax
 		religion = animist
 		size = 5
 	}
 
 	artisans = {
-		culture = cree
+		culture = saulteax
 		religion = animist
 		size = 5
 	}
 
 	soldiers = {
-		culture = cree
+		culture = saulteax
 		religion = animist
-		size = 5
+		size = 305
+	}
+	
+	farmers = {
+		culture = saulteax
+		religion = animist
+		size = 6500
 	}
 	
 	farmers = {
 		culture = cree
 		religion = animist
-		size = 15
+		size = 1000
 	}
-
+	
 	farmers = {
-		culture = cree
+		culture = nakota
 		religion = animist
-		size = 8000
+		size = 200
 	}
 }
-#Brandon (8000/2000 POPS)
-41 = {
 
+#Brandon (8000/2000 POPS) - Witcl'abin
+41 = {
 	clergymen = {
-		culture = dakota
+		culture = nakota
 		religion = animist
 		size = 5
 	}
 
 	artisans = {
-		culture = dakota
+		culture = nakota
 		religion = animist
 		size = 5
 	}
 
 	soldiers = {
-		culture = dakota
+		culture = nakota
 		religion = animist
 		size = 1005
 	}
 
 	farmers = {
-		culture = dakota
+		culture = nakota
 		religion = animist
 		size = 7200
 	}
@@ -1747,37 +1816,49 @@
 		size = 800
 	}
 }
-#Pembina (8000/2000 POPS)
-42 = {
 
+#Pembina (8000/2000 POPS) - Wazhashk-Onigamiing
+42 = {
 	aristocrats = {
-		culture = ojibwe
+		culture = saulteax
 		religion = animist
 		size = 125
 	}
 
 	artisans = {
-		culture = ojibwe
+		culture = saulteax
 		religion = animist
 		size = 25
 	}
 	
 	officers = {
-		culture = ojibwe
+		culture = saulteax
 		religion = animist
 		size = 15
 	}
 
 	soldiers = {
-		culture = ojibwe
+		culture = saulteax
 		religion = animist
 		size = 805
 	}
 
 	farmers = {
-		culture = ojibwe
+		culture = saulteax
 		religion = animist
-		size = 8000
+		size = 7500
+	}
+	
+	farmers = {
+		culture = oji_cree
+		religion = animist
+		size = 200
+	}
+	
+	farmers = {
+		culture = nakota
+		religion = animist
+		size = 300
 	}
 }
 #Ontario Region : 448000
@@ -1823,41 +1904,22 @@
 }
 #Fort Albany (6400/1600 POPS)
 48 = {
-
-	clergymen = {
-		culture = vinlander
+	farmers = {
+		culture = oji_cree
 		religion = catholic
-		size = 3
-	}
-
-	artisans = {
-		culture = vinlander
-		religion = catholic
-		size = 3
-	}
-
-	soldiers = {
-		culture = vinlander
-		religion = catholic
-		size = 3
+		size = 600
 	}
 	
-	serfs = {
-		culture = vinlander
-		religion = catholic
-		size = 10
-	}
-	
-	serfs = {
-		culture = cree
-		religion = catholic
-		size = 1600
+	farmers = {
+		culture = ojibwe
+		religion = animist
+		size = 400
 	}
 
 	farmers = {
 		culture = cree
 		religion = animist
-		size = 4800
+		size = 2400
 	}
 }
 #Dryden (12000/3000 POPS)
@@ -1928,26 +1990,26 @@
 51 = {
 
 	clergymen = {
-		culture = vinlander
-		religion = catholic
+		culture = ojibwe
+		religion = animist
 		size = 5
 	}
 
 	artisans = {
-		culture = vinlander
-		religion = catholic
+		culture = ojibwe
+		religion = animist
 		size = 5
 	}
 
 	soldiers = {
-		culture = vinlander
-		religion = catholic
+		culture = ojibwe
+		religion = animist
 		size = 5
 	}
 	
 	farmers = {
-		culture = vinlander
-		religion = catholic
+		culture = ojibwe
+		religion = animist
 		size = 20
 	}
 
@@ -1957,12 +2019,13 @@
 		size = 4000
 	}
 
-	serfs = {
+	farmers = {
 		culture = ojibwe
-		religion = catholic
+		religion = animist
 		size = 4000
 	}
 }
+
 #Sudbury (8000/2000 POPS)
 52 = {
 
@@ -1990,16 +2053,22 @@
 		size = 1050
 	}
 	
-	serfs = {
-		culture = ojibwe
-		religion = catholic
-		size = 400
+	farmers = {
+		culture = odawa
+		religion = animist
+		size = 800
+	}
+	
+	farmers = {
+		culture = algonquin
+		religion = animist
+		size = 1800
 	}
 
 	farmers = {
 		culture = ojibwe
 		religion = animist
-		size = 4600
+		size = 2800
 	}
 }
 #Barrie (4000/1000 POPS)
@@ -2027,17 +2096,29 @@
 		religion = catholic
 		size = 15
 	}
-
+	
 	serfs = {
 		culture = ojibwe
 		religion = catholic
-		size = 4000
+		size = 1000
+	}
+
+	serfs = {
+		culture = odawa
+		religion = catholic
+		size = 3000
 	}
 	
 	farmers = {
 		culture = ojibwe
 		religion = animist
-		size = 14000
+		size = 4000
+	}
+	
+	farmers = {
+		culture = odawa
+		religion = animist
+		size = 10000
 	}
 	
 	serfs = {
@@ -2055,35 +2136,40 @@
 #Pickle Lake (1200/3000 POPS)
 2594 = {
     aristocrats = {
-		culture = cree
+		culture = oji_cree
 		religion = animist
 		size = 10
 	}
    
 	clergymen = {
-		culture = cree
+		culture = oji_cree
 		religion = animist
 		size = 15
 	}
 
 	artisans = {
-		culture = cree
+		culture = oji_cree
 		religion = animist
 		size = 5
 	}
 
 	soldiers = {
-		culture = cree
+		culture = oji_cree
 		religion = animist
 		size = 105
 	}
 
 	farmers = {
+		culture = oji_cree
+		religion = animist
+		size = 1800
+	}
+    
+	farmers = {
 		culture = cree
 		religion = animist
-		size = 2000
+		size = 200
 	}
-
 }
 
 #ruled by Britain in 1836
@@ -2311,6 +2397,7 @@
 		size = 16700
 	}
 }
+
 #Ottawa (44000/11000 POPS)
 57 = {
 	clergymen = {
@@ -2338,31 +2425,31 @@
 	}
 
 	clergymen = {
-		culture = ojibwe
+		culture = algonquin
 		religion = catholic
 		size = 50
 	}
 
 	artisans = {
-		culture = ojibwe
+		culture = algonquin
 		religion = catholic
 		size = 200
 	}
 
 	soldiers = {
-		culture = ojibwe
+		culture = algonquin
 		religion = catholic
 		size = 50
 	}
 	
 	serfs = {
-		culture = ojibwe
+		culture = algonquin
 		religion = catholic
 		size = 700
 	}
 	
 	farmers = {
-		culture = ojibwe
+		culture = algonquin
 		religion = animist
 		size = 6000
 	}
@@ -2765,54 +2852,55 @@
 		size = 915
 	}
 }
+
 #Temiscaming (16000/4000 POPS)
 63 = {
 	aristocrats = {
-		culture = ojibwe
+		culture = algonquin
 		religion = animist
 		size = 10
 	}
 
 	clergymen = {
-		culture = ojibwe
+		culture = algonquin
 		religion = animist
 		size = 25
 	}
 
 	artisans = {
-		culture = ojibwe
+		culture = algonquin
 		religion = animist
 		size = 50
 	}
 
 	soldiers = {
-		culture = ojibwe
+		culture = algonquin
 		religion = animist
 		size = 15
 	}
 
 	farmers = {
-		culture = ojibwe
+		culture = algonquin
 		religion = animist
 		size = 3000
 	}
 	
-	serfs = {
-		culture = ojibwe
-		religion = catholic
-		size = 600
+	farmers = {
+		culture = cree
+		religion = animist
+		size = 2000
 	}
 
 	clergymen = {
 		culture = vinlander
 		religion = catholic
-		size = 75
+		size = 15
 	}
 
 	artisans = {
 		culture = vinlander
 		religion = catholic
-		size = 150
+		size = 50
 	}
 
 	soldiers = {
@@ -2826,13 +2914,8 @@
 		religion = catholic
 		size = 250
 	}
-
-	serfs = {
-		culture = vinlander
-		religion = catholic
-		size = 2500
-	}
 }
+
 #Trois-Rivieres (68000/17000 POPS)
 64 = {
 	clergymen = {
@@ -2878,17 +2961,18 @@
 	}
 	
 	serfs = {
-		culture = ojibwe
+		culture = algonquin
 		religion = catholic
 		size = 675
 	}
 	
 	farmers = {
-		culture = ojibwe
+		culture = algonquin
 		religion = animist
 		size = 3675
 	}
 }
+
 #Quebec City (188000/47000 POPS)
 65 = {
 	clergymen = {
@@ -2922,7 +3006,7 @@
 	}
 	
 	serfs = {
-		culture = ojibwe
+		culture = algonquin
 		religion = catholic
 		size = 5000
 	}

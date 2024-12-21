@@ -2147,37 +2147,55 @@
 }
 #Montana Region (32000)
 #"ruled" by the USA/de facto under Native Control
-#Bozeman (8000/2000 POPS)
+#Bozeman (8000/2000 POPS) - Iichíilikaashaashe
 113 = {
 
 	aristocrats = {
-		culture = crow_hidatsa
+		culture = crow
 		religion = animist
 		size = 150
 	}
 	
 	clergymen = {
-		culture = crow_hidatsa
+		culture = crow
 		religion = animist
 		size = 150
 	}
 
 	soldiers = {
-		culture = crow_hidatsa
+		culture = crow
 		religion = animist
-		size = 1100
+		size = 300
 	}
 
 	farmers = {
-		culture = crow_hidatsa
+		culture = crow
 		religion = animist
-		size = 9000
+		size = 3000
 	}
 	
 	farmers = {
+		culture = shoshone
+		religion = animist
+		size = 800
+	}
+	
+	farmers = {
+		culture = lakota
+		religion = animist
+		size = 200
+	}
+	
+	farmers = {
+		culture = siksika
+		religion = animist
+		size = 200
+	}
+
+	farmers = {
 		culture = salish
 		religion = animist
-		size = 1800
+		size = 1000
 	}
 }
 #Missoula (4000/1000 POPS)
@@ -2230,18 +2248,19 @@
 		size = 2900
 	}
 }
-#Great Falls (8000/2000 POPS)
+
+#Great Falls (8000/2000 POPS) - Atsina
 115 = {
 	soldiers = {
-		culture = arapahoan
+		culture = gros_ventre
 		religion = animist
 		size = 500
 	}
 
 	farmers = {
-		culture = arapahoan
+		culture = gros_ventre
 		religion = animist
-		size = 2700
+		size = 5000
 	}
 
 	soldiers = {
@@ -2253,50 +2272,63 @@
 	farmers = {
 		culture = siksika
 		religion = animist
-		size = 900
+		size = 400
+	}
+	
+	farmers = {
+		culture = ojibwe
+		religion = animist
+		size = 500
 	}
 }
-#Billings (12000/3000 POPS)
+
+#Billings (12000/3000 POPS) - Basawaxaawúua
 116 = {
     aristocrats = {
-		culture = crow_hidatsa
+		culture = crow
 		religion = animist
 		size = 200
 	}
 	
     clergymen = {
-		culture = crow_hidatsa
+		culture = crow
 		religion = animist
 		size = 300
 	}
 
 	soldiers = {
-		culture = crow_hidatsa
+		culture = crow
 		religion = animist
 		size = 1300
 	}
 
 	farmers = {
-		culture = crow_hidatsa
+		culture = crow
 		religion = animist
 		size = 12300
 	}
 
 	soldiers = {
-		culture = kiowa
+		culture = nakota
 		religion = animist
 		size = 300
 	}
 
 	farmers = {
-		culture = kiowa
+		culture = nakota
 		religion = animist
-		size = 2700
+		size = 1700
+	}
+	
+	farmers = {
+		culture = lakota
+		religion = animist
+		size = 1000
 	}
 }
 #North Dakota Region (24000)
 #"ruled" by the USA/de facto under Native Control
-#Bismarck (8000/2000 POPS)
+#Bismarck (8000/2000 POPS) - Mniwak'anh
 117 = {
 	aristocrats = {
 		culture = dakota
@@ -2313,73 +2345,79 @@
 	soldiers = {
 		culture = dakota
 		religion = animist
-		size = 1000
+		size = 2000
 	}
 
 	farmers = {
 		culture = dakota
 		religion = animist
-		size = 10800
+		size = 11800
 	}
 	
 	soldiers = {
-		culture = pawnee
-		religion = animist
-		size = 1000
-	}
-
-	farmers = {
-		culture = pawnee
-		religion = animist
-		size = 3800
-	}
-}
-#Minot (8000/2000 POPS)
-118 = {
-
-	soldiers = {
-		culture = dakota
-		religion = animist
-		size = 1100
-	}
-
-	farmers = {
-		culture = dakota
-		religion = animist
-		size = 8900
-	}
-
-	soldiers = {
-		culture = cree
+		culture = nakota
 		religion = animist
 		size = 100
 	}
 
 	farmers = {
-		culture = cree
+		culture = nakota
 		religion = animist
-		size = 1000
+		size = 800
 	}
 }
-#Dickinson (8000/2000 POPS)
-119 = {
-	
+
+#Minot (8000/2000 POPS) - Mikinaakwajiw-ininiwag
+118 = {
 	soldiers = {
-		culture = dakota
+		culture = nakota
 		religion = animist
-		size = 1100
+		size = 100
 	}
 
 	farmers = {
+		culture = nakota
+		religion = animist
+		size = 1000
+	}
+	
+	farmers = {
 		culture = dakota
 		religion = animist
-		size = 7900
+		size = 2000
+	}
+
+	soldiers = {
+		culture = saulteax
+		religion = animist
+		size = 1000
+	}
+
+	farmers = {
+		culture = saulteax
+		religion = animist
+		size = 3500
+	}
+}
+
+#Dickinson (8000/2000 POPS) - Mih-tutta-hang-kusch
+119 = {	
+	soldiers = {
+		culture = lakota
+		religion = animist
+		size = 100
+	}
+
+	farmers = {
+		culture = lakota
+		religion = animist
+		size = 500
 	}
 
 	soldiers = {
 		culture = mandan
 		religion = animist
-		size = 1100
+		size = 200
 	}
 
 	farmers = {
@@ -2387,12 +2425,30 @@
 		religion = animist
 		size = 3600
 	}
+	
+	soldiers = {
+		culture = hidatsa
+		religion = animist
+		size = 200
+	}
+
+	farmers = {
+		culture = hidatsa
+		religion = animist
+		size = 3000
+	}
+	
+	farmers = {
+		culture = crow
+		religion = animist
+		size = 300
+	}
 }
+
 #South Dakota Region (24000)
 #"ruled" by the USA/de facto under Native Control
-#Sioux Falls (8000/2000 POPS)
+#Sioux Falls (8000/2000 POPS)- Mnihaha
 120 = {
-
 	aristocrats = {
 		culture = dakota
 		religion = animist
@@ -2408,28 +2464,29 @@
 	farmers = {
 		culture = dakota
 		religion = animist
-		size = 10900
+		size = 15900
 	}
 
 	aristocrats = {
-		culture = dhegihan
+		culture = omaha_ponca
 		religion = animist
 		size = 10
 	}
 
 	soldiers = {
-		culture = dhegihan
+		culture = omaha_ponca
 		religion = animist
 		size = 100
 	}
 
 	farmers = {
-		culture = dhegihan
+		culture = omaha_ponca
 		religion = animist
-		size = 3600
+		size = 600
 	}
 }
-#Dupree (8000/2000 POPS)
+
+#Dupree (8000/2000 POPS) - Matonakpa
 121 = {
 	soldiers = {
 		culture = dakota
@@ -2444,20 +2501,20 @@
 	}
 	
 	soldiers = {
-		culture = mandan
+		culture = lakota
 		religion = animist
 		size = 100
 	}
 
 	farmers = {
-		culture = mandan
+		culture = lakota
 		religion = animist
 		size = 1800
 	}
 }
-#Rapid City (8000/2000 POPS)
-122 = {
 
+#Rapid City (8000/2000 POPS) - Sihásapa 
+122 = {
 	soldiers = {
 		culture = arapahoan
 		religion = animist
@@ -2467,45 +2524,28 @@
 	farmers = {
 		culture = arapahoan
 		religion = animist
-		size = 2900
-	}
-	
-	soldiers = {
-		culture = kiowa
-		religion = animist
-		size = 110
+		size = 1500
 	}
 
-	farmers = {
-		culture = kiowa
-		religion = animist
-		size = 900
-	}
-	
-	soldiers = {
-		culture = mandan
+	slaves = {
+		culture = arikara
 		religion = animist
 		size = 300
 	}
 
-	farmers = {
-		culture = mandan
-		religion = animist
-		size = 3000
-	}
-
 	soldiers = {
-		culture = crow_hidatsa
+		culture = lakota
 		religion = animist
-		size = 1100
+		size = 2100
 	}
 
 	farmers = {
-		culture = crow_hidatsa
+		culture = lakota
 		religion = animist
-		size = 4000
+		size = 7500
 	}
 }
+
 #Nebraska Region (20000)
 #"ruled" by the USA/de facto under Native Control
 #Omaha (8000/2000 POPS)
@@ -2562,45 +2602,91 @@
 		size = 20900
 	}
 }
-#North Platte (8000/2000 POPS)
+
+#North Platte (8000/2000 POPS) - Mnikhówožu
 125 = {
-
 	soldiers = {
-		culture = dakota
+		culture = lakota
 		religion = animist
-		size = 200
+		size = 1200
 	}
 
 	farmers = {
-		culture = dakota
+		culture = lakota
 		religion = animist
-		size = 7800
+		size = 11800
 	}
 	
 	soldiers = {
-		culture = dhegihan
+		culture = omaha_ponca
 		religion = animist
 		size = 200
 	}
 
 	farmers = {
-		culture = dhegihan
+		culture = omaha_ponca
 		religion = animist
-		size = 3800
+		size = 1800
 	}
 	
 	soldiers = {
-		culture = pawnee
+		culture = arapahoan
 		religion = animist
 		size = 200
 	}
 
 	farmers = {
+		culture = arapahoan
+		religion = animist
+		size = 500
+	}
+	
+	farmers = {
 		culture = pawnee
 		religion = animist
-		size = 5000
+		size = 700
 	}
 }
+
+#Tonwantonga
+4354 = {
+	soldiers = {
+		culture = lakota
+		religion = animist
+		size = 200
+	}
+
+	farmers = {
+		culture = lakota
+		religion = animist
+		size = 1000
+	}
+	
+	soldiers = {
+		culture = omaha_ponca
+		religion = animist
+		size = 200
+	}
+
+	farmers = {
+		culture = omaha_ponca
+		religion = animist
+		size = 4800
+	}
+	
+	soldiers = {
+		culture = pawnee
+		religion = animist
+		size = 1000
+	}
+	
+	farmers = {
+		culture = pawnee
+		religion = animist
+		size = 3700
+	}
+}
+
 #Kansas Region (24000)
 #"ruled" by the USA/de facto under Native Control
 #Topeka (8000/2000 POPS)
@@ -4160,33 +4246,40 @@
 		size = 11800
 	}
 }
-#Moorhead (8000/2000 POPS)
+
+#Moorhead (8000/2000 POPS) - Misi-ziibi
 157 = {
+	soldiers = {
+		culture = saulteax
+		religion = animist
+		size = 1150
+	}
+
+	farmers = {
+		culture = saulteax
+		religion = animist
+		size = 7000
+	}
 
 	soldiers = {
-		culture = ojibwe
+		culture = nakota
 		religion = animist
 		size = 150
 	}
 
 	farmers = {
-		culture = ojibwe
-		religion = animist
-		size = 8000
-	}
-
-	soldiers = {
 		culture = dakota
 		religion = animist
-		size = 150
+		size = 500
 	}
-
+	
 	farmers = {
-		culture = dakota
+		culture = nakota
 		religion = animist
-		size = 1900
+		size = 1400
 	}
 }
+
 #Duluth (8000/2000 POPS)
 158 = {
     soldiers = {

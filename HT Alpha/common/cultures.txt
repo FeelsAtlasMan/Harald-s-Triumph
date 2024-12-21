@@ -14066,7 +14066,15 @@ algic = {
 	
 	#Plains Algonquian
 	siksika = { #blackfoot
-		color = {130 205 130}
+		color = { 105 180 30 }
+		first_names = { Louis Maskipitonew Alexis Samson Joe James Baptiste Felix Jacob
+		}
+		last_names = { Piche Kiskiyew Crane Saddleback Buffalo Rain
+		}
+	}
+	
+	gros_ventre = {
+		color = { 85 150 60 }
 		first_names = { Louis Maskipitonew Alexis Samson Joe James Baptiste Felix Jacob
 		}
 		last_names = { Piche Kiskiyew Crane Saddleback Buffalo Rain
@@ -14074,7 +14082,7 @@ algic = {
 	}
 	
 	arapahoan = {
-		color = {130 205 160}
+		color = { 90 145 50 }
 		first_names = { Louis Maskipitonew Alexis Samson Joe James Baptiste Felix Jacob
 		}
 		last_names = { Piche Kiskiyew Crane Saddleback Buffalo Rain
@@ -14082,7 +14090,7 @@ algic = {
 	}
 	
 	cheyenne = {
-		color = {130 205 190}
+		color = { 115 190 80 }
 		first_names = { Louis Maskipitonew Alexis Samson Joe James Baptiste Felix Jacob
 		}
 		last_names = { Piche Kiskiyew Crane Saddleback Buffalo Rain
@@ -14097,13 +14105,7 @@ algic = {
 		last_names = { Piche Kiskiyew Crane Saddleback Buffalo Rain
 		}
 	}
-	ojibwe = {
-		color = {100 225 70}
-		first_names = { Louis Maskipitonew Alexis Samson Joe James Baptiste Felix Jacob
-		}
-		last_names = { Piche Kiskiyew Crane Saddleback Buffalo Rain
-		}
-	}
+	
 	menominee = {
 		color = {80 225 50}
 		first_names = { Louis Maskipitonew Alexis Samson Joe James Baptiste Felix Jacob
@@ -14111,6 +14113,49 @@ algic = {
 		last_names = { Piche Kiskiyew Crane Saddleback Buffalo Rain
 		}
 	}
+	
+	
+	ojibwe = { #Ojibwa
+		color = {100 225 70}
+		first_names = { Louis Maskipitonew Alexis Samson Joe James Baptiste Felix Jacob
+		}
+		last_names = { Piche Kiskiyew Crane Saddleback Buffalo Rain
+		}
+	}
+	
+	saulteax = { 
+		color = {170 225 70}
+		first_names = { Louis Maskipitonew Alexis Samson Joe James Baptiste Felix Jacob
+		}
+		last_names = { Piche Kiskiyew Crane Saddleback Buffalo Rain
+		}
+	}
+	
+	oji_cree = { 
+		color = {130 235 70}
+		first_names = { Louis Maskipitonew Alexis Samson Joe James Baptiste Felix Jacob
+		}
+		last_names = { Piche Kiskiyew Crane Saddleback Buffalo Rain
+		}
+	}
+	
+	odawa = { 
+		color = {100 205 120}
+		first_names = { Louis Maskipitonew Alexis Samson Joe James Baptiste Felix Jacob
+		}
+		last_names = { Piche Kiskiyew Crane Saddleback Buffalo Rain
+		}
+	}
+	
+	algonquin = { 
+		color = {150 225 50}
+		first_names = { Louis Maskipitonew Alexis Samson Joe James Baptiste Felix Jacob
+		}
+		last_names = { Piche Kiskiyew Crane Saddleback Buffalo Rain
+		}
+	}
+	
+	
 	potawatomi = {
 		color = {80 225 50}
 		first_names = { Louis Maskipitonew Alexis Samson Joe James Baptiste Felix Jacob
@@ -14118,6 +14163,7 @@ algic = {
 		last_names = { Piche Kiskiyew Crane Saddleback Buffalo Rain
 		}
 	}
+	
 	shawnee = {
 		color = {70 205 40}
 		first_names = { Louis Maskipitonew Alexis Samson Joe James Baptiste Felix Jacob
@@ -14125,6 +14171,7 @@ algic = {
 		last_names = { Piche Kiskiyew Crane Saddleback Buffalo Rain
 		}
 	}
+	
 	meskwaki = { #fox
 		color = {40 185 10}
 		first_names = { Louis Maskipitonew Alexis Samson Joe James Baptiste Felix Jacob
@@ -14132,6 +14179,7 @@ algic = {
 		last_names = { Piche Kiskiyew Crane Saddleback Buffalo Rain
 		}
 	}
+	
 	illinois = {
 		color = {40 185 10}
 		first_names = { Louis Maskipitonew Alexis Samson Joe James Baptiste Felix Jacob
@@ -14246,20 +14294,33 @@ siouan = {
     leader = nativeamerican
 	is_overseas = no
 	#Siouan Proper
+	#Mandan
 	mandan = {
-		color = {210 165 75}
+		color = {110 65 25}
 		first_names = { Sint� Tha�yate Thathanka Thasunke Mahpiya Istahba Hehaka Thahca Ohiyes Wanbdi Tamaha Inkpaduta
 		}
 		last_names = { Glesk� Duta Iyotake Witko Luta Kohkophapi Sapa Huste Thankja
 		}
 	}
-	crow_hidatsa = {
-		color = {180 145 55}
+	
+	#Missouri Siouan
+	crow = {
+		color = {180 95 55}
 		first_names = { Sint� Tha�yate Thathanka Thasunke Mahpiya Istahba Hehaka Thahca Ohiyes Wanbdi Tamaha Inkpaduta
 		}
 		last_names = { Glesk� Duta Iyotake Witko Luta Kohkophapi Sapa Huste Thankja
 		}
 	}
+	
+	hidatsa = {
+		color = {140 65 55}
+		first_names = { Sint� Tha�yate Thathanka Thasunke Mahpiya Istahba Hehaka Thahca Ohiyes Wanbdi Tamaha Inkpaduta
+		}
+		last_names = { Glesk� Duta Iyotake Witko Luta Kohkophapi Sapa Huste Thankja
+		}
+	}
+	
+	#Mississippi Siouan
 	mitchigamea = {
 		color = {160 105 35}
 		first_names = { Sint� Tha�yate Thathanka Thasunke Mahpiya Istahba Hehaka Thahca Ohiyes Wanbdi Tamaha Inkpaduta
@@ -14267,6 +14328,7 @@ siouan = {
 		last_names = { Glesk� Duta Iyotake Witko Luta Kohkophapi Sapa Huste Thankja
 		}
 	}
+	
 	chiwere_winnebago = {
 		color = {140 105 25}
 		first_names = { Sint� Tha�yate Thathanka Thasunke Mahpiya Istahba Hehaka Thahca Ohiyes Wanbdi Tamaha Inkpaduta
@@ -14274,6 +14336,8 @@ siouan = {
 		last_names = { Glesk� Duta Iyotake Witko Luta Kohkophapi Sapa Huste Thankja
 		}
 	}
+	
+	#Sioux
 	dakota = {
 		color = {120 85 15}
 		first_names = { Sint� Tha�yate Thathanka Thasunke Mahpiya Istahba Hehaka Thahca Ohiyes Wanbdi Tamaha Inkpaduta
@@ -14281,13 +14345,57 @@ siouan = {
 		last_names = { Glesk� Duta Iyotake Witko Luta Kohkophapi Sapa Huste Thankja
 		}
 	}
-	dhegihan = {
-		color = {100 65 5}
+	
+	nakota = {
+		color = {160 85 15}
 		first_names = { Sint� Tha�yate Thathanka Thasunke Mahpiya Istahba Hehaka Thahca Ohiyes Wanbdi Tamaha Inkpaduta
 		}
 		last_names = { Glesk� Duta Iyotake Witko Luta Kohkophapi Sapa Huste Thankja
 		}
 	}
+	
+	lakota = {
+		color = {120 45 15}
+		first_names = { Sint� Tha�yate Thathanka Thasunke Mahpiya Istahba Hehaka Thahca Ohiyes Wanbdi Tamaha Inkpaduta
+		}
+		last_names = { Glesk� Duta Iyotake Witko Luta Kohkophapi Sapa Huste Thankja
+		}
+	}
+	
+	#Dhegihan
+	dhegihan = { #Osage
+		color = {100 65 55}
+		first_names = { Sint� Tha�yate Thathanka Thasunke Mahpiya Istahba Hehaka Thahca Ohiyes Wanbdi Tamaha Inkpaduta
+		}
+		last_names = { Glesk� Duta Iyotake Witko Luta Kohkophapi Sapa Huste Thankja
+		}
+	}
+	
+	kansa = { 
+		color = {100 85 35}
+		first_names = { Sint� Tha�yate Thathanka Thasunke Mahpiya Istahba Hehaka Thahca Ohiyes Wanbdi Tamaha Inkpaduta
+		}
+		last_names = { Glesk� Duta Iyotake Witko Luta Kohkophapi Sapa Huste Thankja
+		}
+	}
+	
+	quapaw = { 
+		color = {130 65 35}
+		first_names = { Sint� Tha�yate Thathanka Thasunke Mahpiya Istahba Hehaka Thahca Ohiyes Wanbdi Tamaha Inkpaduta
+		}
+		last_names = { Glesk� Duta Iyotake Witko Luta Kohkophapi Sapa Huste Thankja
+		}
+	}
+	
+	omaha_ponca = { 
+		color = {130 95 55}
+		first_names = { Sint� Tha�yate Thathanka Thasunke Mahpiya Istahba Hehaka Thahca Ohiyes Wanbdi Tamaha Inkpaduta
+		}
+		last_names = { Glesk� Duta Iyotake Witko Luta Kohkophapi Sapa Huste Thankja
+		}
+	}
+	
+	#Ohio Siouan
 	tutelo = {
 		color = {70 35 5}
 		first_names = { Sint� Tha�yate Thathanka Thasunke Mahpiya Istahba Hehaka Thahca Ohiyes Wanbdi Tamaha Inkpaduta
@@ -14295,6 +14403,7 @@ siouan = {
 		last_names = { Glesk� Duta Iyotake Witko Luta Kohkophapi Sapa Huste Thankja
 		}
 	}
+	
 	biloxi_ofo = {
 		color = {50 15 5}
 		first_names = { Sint� Tha�yate Thathanka Thasunke Mahpiya Istahba Hehaka Thahca Ohiyes Wanbdi Tamaha Inkpaduta
@@ -14302,6 +14411,7 @@ siouan = {
 		last_names = { Glesk� Duta Iyotake Witko Luta Kohkophapi Sapa Huste Thankja
 		}
 	}
+	
 	#Eastern Siouan
 	catawban  = {
 		color = {110 65 75}
@@ -14361,7 +14471,15 @@ caddoan_group = {
 	}
 	
 	pawnee = {
-		color = {30 95 30}
+		color = {60 105 60}
+		first_names = { John Tahlonteeskee Takatoka Charles William Lweis Dennis Joel Thomas Frank Andrew Edward
+		}
+		last_names = { Ross Downing Potter Thompson Wolf Mayes Buffington Harris Rogers Boudinot
+		}
+	}
+	
+	arikara = {
+		color = {80 125 80}
 		first_names = { John Tahlonteeskee Takatoka Charles William Lweis Dennis Joel Thomas Frank Andrew Edward
 		}
 		last_names = { Ross Downing Potter Thompson Wolf Mayes Buffington Harris Rogers Boudinot
