@@ -49,6 +49,10 @@ raw_material_goods = {
 		cost = 10.0
 		color = { 125 158 43 }
 	}
+	cacoa = { 
+		cost = 2.1
+		color = { 105 98 3 }
+	}
 	coal = { 
 		cost = 2.3
 		color = { 11 29 77 }
@@ -182,6 +186,10 @@ consumer_goods = {
 	coffee = { 
 		cost = 2.1
 		color = { 27 19 7 }
+	}
+	chocolate = { 
+		cost = 4.1
+		color = { 165 158 3 }
 	}
 	opium = { 
 		cost = 3.2

@@ -143,7 +143,7 @@ khanate = {
 	#flagType = monarchy
 }
 
-tribal_confederation = {
+tribal_confederation = { #Mieccotate
 	liberal = yes
 	#socialist = yes
 	conservative = yes
@@ -151,10 +151,9 @@ tribal_confederation = {
 	#anarcho_liberal = yes
 	
 	
-	election = yes
-	duration = 96
-	appoint_ruling_party = no
-	flagType = monarchy
+	election = no
+	appoint_ruling_party = yes
+	#flagType = monarchy
 }
 
 federal_democracy = {

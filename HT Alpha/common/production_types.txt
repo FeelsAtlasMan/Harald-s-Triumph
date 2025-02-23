@@ -611,6 +611,24 @@ liquor_distillery = {
 	}
 }
 
+chocolate_factory = {       
+	template = cheap_factory_template
+	input_goods = {  	
+		fruit = 1		
+		cacoa = 5		
+	}
+	output_goods = chocolate 
+	value = 7.5			#34
+	bonus = {
+		trigger = { trade_goods_in_state = cacoa }
+		value = 0.20
+	}
+	bonus = {
+		trigger = { trade_goods_in_state = fruit }
+		value = 0.05
+	}
+}
+
 winery = {       
 	template = cheap_factory_template
 	input_goods = {  	
@@ -897,6 +915,13 @@ tea_plantation = {
 	template = RGO_template_farmers
 	output_goods = tea 
 	value = 1.75	#1.75
+	farm = yes
+}
+
+cacoa_plantation = {
+	template = RGO_template_farmers
+	output_goods = cacoa 
+	value = 1.35	
 	farm = yes
 }
 
@@ -1346,6 +1371,24 @@ artisan_liquor = {
 	workforce = 10000
 }
 
+artisan_chocolate = {       
+
+	input_goods = {  	
+		cacoa = 10		
+	}
+	output_goods = chocolate 
+	value = 10			
+	
+	owner = {
+		poptype = artisans 
+		effect = output
+	}
+	
+	type = artisan
+	
+	workforce = 10000
+}
+
 artisan_winery = {       
 
 	input_goods = {  	
@@ -1452,6 +1495,7 @@ artisan_fertilizer = {
 	
 	workforce = 10000
 }
+
 
 artisan_fabric_wool = {
 	input_goods = {     

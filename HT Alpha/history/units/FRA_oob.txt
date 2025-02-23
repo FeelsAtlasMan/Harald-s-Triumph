@@ -10,39 +10,176 @@ LUX = {
 	level = 1		#3=cordial, 4 = friendly, 5 sphere
 	influence_value = 25
 }
+
 BRB = {
 	value = 50
 	level = 3
 }
+
 PAP = {
 	value = 125		#relation
 	level = 5		#3=cordial, 4 = friendly, 5 sphere
 	influence_value = 25
 }
+
 SIC = {
 	value = 125		#relation
 	level = 2		#3=cordial, 4 = friendly, 5 sphere
 	influence_value = 25
 }
+
 LOR = {
 	value = 175		#relation
 	level = 2		#3=cordial, 4 = friendly, 5 sphere
 	influence_value = 10
 }
+
 LIG = {
 	value = 175	#relation
 	level = 2		#3=cordial, 4 = friendly, 5 sphere
 	influence_value = 10
 }
+
 TRR = {
 	value = 175	
 	level = 2		
 	influence_value = 10
 }
 
+PRO = {
+	value = 175	
+	level = 5		
+	influence_value = 50
+}
+
+CAT = {
+	value = 175	
+	level = 4		
+	influence_value = 30
+}
+
+CLM = {
+	value = 200	
+	level = 5		
+	influence_value = 100
+}
+
+FDA = {
+	value = 200	
+	level = 5		
+	influence_value = 100
+}
+
+PHL = {
+	value = 200	
+	level = 5		
+	influence_value = 100
+}
+
+NIB = {
+	value = 200	
+	level = 5		
+	influence_value = 100
+}
+
+NCY = {
+	value = 200	
+	level = 5		
+	influence_value = 100
+}
+
+MTG = {
+	value = 200	
+	level = 5		
+	influence_value = 100
+}
+
+LNC = {
+	value = 200	
+	level = 5		
+	influence_value = 100
+}
+
+PPL = {
+	value = 200	
+	level = 5		
+	influence_value = 100
+}
+
+KQC = {
+	value = 200	
+	level = 5		
+	influence_value = 100
+}
+
+OTS = {
+	value = 200	
+	level = 5		
+	influence_value = 100
+}
+
+ATL = {
+	value = 200	
+	level = 5		
+	influence_value = 100
+}
+
+CDD = {
+	value = 100	
+	level = 5		
+	influence_value = 100
+}
+
+STE = {
+	value = 200	
+	level = 5		
+	influence_value = 100
+}
+
+TTP = {
+	value = 200	
+	level = 5		
+	influence_value = 100
+}
+
+TLP = {
+	value = 200	
+	level = 5		
+	influence_value = 100
+}
+
+PMO = {
+	value = 200	
+	level = 5		
+	influence_value = 100
+}
+
+MDC = {
+	value = 200	
+	level = 5		
+	influence_value = 100
+}
+
+ILL = {
+	value = 100	
+	level = 3		
+	influence_value = 40
+}
+
+CHP = {
+	value = -150	
+	level = 5		
+	influence_value = 100
+}
+
+YTZ = {
+	value = -150	
+	level = 5		
+	influence_value = 100
+}
+
 #GPs
 NRD = { value = -25 }
-FDA = { value = -200 }
 SAX = { value = -150 }
 BYZ = { value = 150 }
 SWE = { value = 200 }

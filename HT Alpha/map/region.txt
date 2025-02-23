@@ -4,19 +4,17 @@ USA_4 = { 4 5 2599 2630 2631 } #filler
 
 USA_1 = { 1 2 6 17 } #Alaska
 
-ENG_9 = { 10 11 12 2595 2596 2598 7 8 } #Northwest Territories
+ENG_9 = { 10 11 12 2598 7 8 23 18 2629 } #Northwest Territories
 
-CAN_13 = { 18 2629 23 2597 } #Columbia
-
-ENG_22 = { 22 24 25 28 35 115 } #Alberta
-
-#ENG_30 = { } #Saskatchewan
-
-ENG_36 = { 36 37 38 39 40 31 32 33 34 } #Manitoba
+ENG_22 = { 22 24 25 28 35 115 21 4379 2597 } #Gens-du-Sang
 
 CAN_46 = { 46 57 55 56 52 53 54 173 175 } #Southern Ontario
 
-CAN_50 = { 49 50 51 47 48 158 2594 } #Northern Ontario
+CAN_50 = { 50 51 48 158 } #Northern Ontario
+
+CAN_47 = { 47 49 36 37 39 42 2594 } #filler
+
+CAN_31 = { 31 38 2595 2596 } #filler
 
 CAN_58 = { 58 65 61 63 64 } #Southern Quebec
 
@@ -28,61 +26,67 @@ ENG_74 = { 74 75 76 77 2625 62 } #Newfoundland
 
 ### United States
 
-USA_78 = { 80 21 92 114 91 93 } #Washington/filler
+USA_78 = { 80 92 114 4376 4377 } #Sokemia
 
-USA_13 = { 13 14 15 16 19 20 } #filler
+USA_13 = { 13 14 15 16 19 20 4380 } #filler
 
 #USA_81 = { } #Oregon
 
-MEX_85 = { 83 3 86 99 108 3564 } #California/filler
+MEX_85 = { 83 3 86 99 108 4370 4371 } #California/filler
 
-MEX_104 = { 104 84 85 87 89 102 2662 3561 3562 } #filler
+MEX_3564 = { 3564 4372 4373 4375 81 82 } #South Astoria
 
-MEX_44 = { 44 90 2138 2139 3563 } #filler 
+MEX_104 = { 104 84 85 87 3561 3562 4383 } #filler
+
+MEX_89 = { 89 4384 102 4385 2662 } #filler
+
+MEX_44 = { 44 90 2139 3563 4381 4382 } #filler 
 
 #USA_91 = { } #Idaho
 
-MEX_94 = { 94 82 } #Nevada
+MEX_94 = { 93 91 94 4386 } #Nevada
 
-MEX_96 = { 96 27 78 79 81 } #filler
+MEX_96 = { 96 27 78 79 4374 4378 } #North Astoria
 
-MEX_97 = { 97 95 111 } #Utah
+MEX_97 = { 97 111 } #Utah
 
 MEX_98 = { 98 109 128 110 } #Ute/filler
 
-MEX_100 = { 100 101 88 } #Arizona
+MEX_100 = { 88 95 } #Arizona
 
 MEX_2148 = { 3597 3598 3602 3603 } #New Mexico - Pueblo
 
-MEX_3600 = { 3600 3599 3601 105 103 106 } #filler
+MEX_3600 = { 3600 3599 3601 106 } #filler
 
-USA_106 = { 129 135 } #Commanche
+USA_106 = { 4359 4360 129 135 103 } #Commanche
 
 #USA_111 = { } #Wyoming
 
 USA_116 = { 113 116 119 26 } #Montana
 
-USA_118 = { 118 157 30 41 42 } #North Dakota
+USA_118 = { 41 40 30 32 33 34 } #Manitoba
 
-USA_126 = { 126 127 112 124 4355 } #Kansas
+USA_126 = { 126 127 112 124 123 } #Kansas
 
 USA_129 = { 132 130 131 134 43 4357 } #Cadoche
 
-TEX_132 = { 133 136 2147 4356 } #Taïchen
+TEX_132 = { 133 136 2147 4356 105 } #Taïchen
 
 TEX_138 = { 138 2150 137 } #Miacanie
 
 USA_139 = { 139 141 142 144 140 193 } #Basse-Philippiane
 
-USA_148 = { 147 148 149  123 } #Ousage
+USA_148 = { 147 148 149 } #Ousage
 
 USA_4353 = { 4353 143 145 187 188 189 } #Acansas
 
 USA_151 = { 146 150 151 152 153 154 } #Pacoshe
 
-USA_156 = { 156 120 121 155 117 } #Dakota
+USA_156 = { 156 120 121 155 } #Dakota
 
-USA_122 = { 122 125 4354 } #Lakota
+USA_117 = { 117 118 157 } #filler
+
+USA_122 = { 122 125 4354 4355 } #Lakota
 
 USA_162 = { 159 161 162 163 171 174 } #Wisconsin
 
@@ -295,9 +299,11 @@ PRU_544 = { 544 545 550 551 547 548 3921 3922 3923 } #Mecklenburg
 
 PRU_546 = { 546 679 680 3945 } #Pomerania
 
-PRU_554 = { 554 561 562 563 3256 3881 } #Westthüringen
+PRU_554 = { 554 561 562 3256 3881 4387 } #Westthüringen
 
-THU_556 = { 556 555 559 3255 560 3878 3879 3880 } #Ostthüringen
+THU_4389 = { 4389 4388 555 3255 } #Harzerland
+
+THU_556 = { 556 559 560 3878 3879 3880 4390 } #Ostthüringen
 
 SAX_558 = { 558 687 552 549 } #Lusatia
 
@@ -315,7 +321,7 @@ WUR_589 = { 589 590 591 593 3708 3253 588 } #Schwaben
 
 WUR_592 = { 592 3706 614 3705 3707 } #Augsburg
 
-BAV_595 = { 595 597 598 3697 3698 3701 3703 } #Franconia
+BAV_595 = { 595 597 598 3697 3698 3701 3703 563 } #Franconia
 
 BAV_599 = { 599 600 601 602 3699 3700 3702 3704 3279 } #Bavaria
 
@@ -1400,27 +1406,31 @@ MAD_2121 = { 2115 2120 2119 } #North Madagascar
 
 ### Mesoamerica
 
-MEX_2142 = { 2144 2142 2145 2152 2137 2143 2148 } #Apache
+MEX_2142 = { 2144 2152 2143 2148 4368 } #Apache
 
 #MEX_2149 = { } #Cohauila
 
 #MEX_2151 = { 2153 2154 } #Durango
 
-MEX_2159 = { 2162 2163 2164 2175 3559 } #Veracruz
+MEX_2159 = { 2162 2163 2164 2175 3559 2151 } #Veracruz
 
 MEX_3538 = { 3538 2173 2159 } #Otomitie
 
 MEX_2158 = { 2158 2149 2155 } #Coichilie
 
-MEX_2156 = { 2156 2157 2141 2140 } #Mazatlan
+MEX_2156 = { 2156 2157 4364 4366 4367 2153 2138 } #Mazatlan
 
-MEX_3535 = { 3545 2153 2154 } #Zacatec
+MEX_4361 = { 4361 2140 4363 4362 100 101 } #Pimache
+
+MEX_2141 = { 2141 2142 2137 2145 } #filler
+
+MEX_3535 = { 3545 2154 4369 } #Zacatec
 
 MEX_2174 = { 2174 2160 2167 3544 } #Levant Mexicain
 
-MEX_2171 = { 2171 3543 } #Colemanie
+MEX_2171 = { 2171 3543 3539 } #Colemanie
 
-MEX_3542 = { 3542 3541 3540 3539 2170 } #Tarasquie
+MEX_3542 = { 3542 3541 3540 2170 } #Tarasquie
 
 MEX_3531 = { 3531 2179 2180 } #Sihoitlanie
 
@@ -1432,11 +1442,11 @@ MEX_3536 = { 3536 3537 3560 } #Coeulapanie
 
 MEX_2183 = { 2183 2185 3546 3547 3548 3549 3550 3558 } #Yucatan - Tequetenie
 
-MEX_2161 = { 2161 2168 2166 2169 } #Chalisquie
+MEX_2161 = { 2161 2168 2166 2169 4365 } #Chalisquie
 
 #MEX_2170 = { } #Guerrero
 
-MEX_2172 = { 2172 2176 3534 2151 } #Mexico
+MEX_2172 = { 2172 2176 3534 } #Mexico
 
 #MEX_2181 = { } #Oasaca
 

@@ -10,12 +10,9 @@ political_decisions = {
 		}
 		allow = {
             OR = {
-              any_neighbor_country = {
-				      NOT = { government = tribal_confederation }
-					  #NOT = { government = khanate }
-			  }
 			  part_of_sphere = yes
-		      land_reform = land_reform_two
+		      AND = { land_reform = land_reform_two admin_reform = admin_reform_l }
+			  civilized = yes
 			}
 		}
 		effect = {

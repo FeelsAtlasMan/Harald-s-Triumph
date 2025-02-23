@@ -4,3 +4,8 @@ add_core = FRA
 trade_goods = grain
 life_rating = 40
 terrain = toulouse
+state_building = {
+	level = 1
+	building = chocolate_factory
+	upgrade = yes
+}

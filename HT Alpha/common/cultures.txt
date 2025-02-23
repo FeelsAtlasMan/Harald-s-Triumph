@@ -13016,29 +13016,10 @@ oceanic = {
 uto_nahuatl = {
 	leader = nativeamerican
 	is_overseas = no
-	nahua = {
-		color = {90 175 160}
-		first_names = { Antonio Charles Diego Emiliano Emilio Felipe Fernando Francisco Gaspar Hernando
-		Hilario Ignacio Isaac Jacinto Jes�s Jos� Juan Julio Lorenzo Manuel
-		Marcial Mario Mart�n Natalio Oliverio Pedro Roberto Rodolfo Santiago V�ctor }
-
-		last_names = { Ahuactzin Altamirano Atlanteco Badiano Bernardino Coaguila Coyotl Cuautlaxahue Guti�rrez Hern�ndez
-		Huanitzin Itzel Ixtlilxochitl Jim�nez Matlacuahuac Mayahuel Moxo Mu�oz Nahui Ocelotl
-		Panecatl Tlaxca Tletla Tzehe Valeriano Xaxalpa Zicot�ncatl Xochitl Zapata Zapotitla }
-	}
-	
-	opata = {
-		color = {90 205 160}
-		first_names = { Antonio Charles Diego Emiliano Emilio Felipe Fernando Francisco Gaspar Hernando
-		Hilario Ignacio Isaac Jacinto Jes�s Jos� Juan Julio Lorenzo Manuel
-		Marcial Mario Mart�n Natalio Oliverio Pedro Roberto Rodolfo Santiago V�ctor }
-
-		last_names = { Ahuactzin Altamirano Atlanteco Badiano Bernardino Coaguila Coyotl Cuautlaxahue Guti�rrez Hern�ndez
-		Huanitzin Itzel Ixtlilxochitl Jim�nez Matlacuahuac Mayahuel Moxo Mu�oz Nahui Ocelotl
-		Panecatl Tlaxca Tletla Tzehe Valeriano Xaxalpa Zicot�ncatl Xochitl Zapata Zapotitla }
-	}
-	
-	piman = {
+	#Southern Group
+	#Tepiman
+	#Piman
+	piman = { #Piman proper, desert dialects and other 
 		color = {90 235 160}
 		first_names = { Antonio Charles Diego Emiliano Emilio Felipe Fernando Francisco Gaspar Hernando
 		Hilario Ignacio Isaac Jacinto Jes�s Jos� Juan Julio Lorenzo Manuel
@@ -13049,8 +13030,8 @@ uto_nahuatl = {
 		Panecatl Tlaxca Tletla Tzehe Valeriano Xaxalpa Zicot�ncatl Xochitl Zapata Zapotitla }
 	}
 	
-	shoshone  = {
-		color = {110 165 140}
+	oochkam = { #lower Piman
+		color = {120 215 160}
 		first_names = { Antonio Charles Diego Emiliano Emilio Felipe Fernando Francisco Gaspar Hernando
 		Hilario Ignacio Isaac Jacinto Jes�s Jos� Juan Julio Lorenzo Manuel
 		Marcial Mario Mart�n Natalio Oliverio Pedro Roberto Rodolfo Santiago V�ctor }
@@ -13060,8 +13041,9 @@ uto_nahuatl = {
 		Panecatl Tlaxca Tletla Tzehe Valeriano Xaxalpa Zicot�ncatl Xochitl Zapata Zapotitla }
 	}
 	
-	commanche  = {
-		color = {130 165 140}
+	#Tepehuanic
+	tepehuan = { #both northern and southern varieties
+		color = {90 235 190}
 		first_names = { Antonio Charles Diego Emiliano Emilio Felipe Fernando Francisco Gaspar Hernando
 		Hilario Ignacio Isaac Jacinto Jes�s Jos� Juan Julio Lorenzo Manuel
 		Marcial Mario Mart�n Natalio Oliverio Pedro Roberto Rodolfo Santiago V�ctor }
@@ -13071,8 +13053,8 @@ uto_nahuatl = {
 		Panecatl Tlaxca Tletla Tzehe Valeriano Xaxalpa Zicot�ncatl Xochitl Zapata Zapotitla }
 	}
 	
-	paiute  = {
-		color = {150 165 140}
+	tepecan = { #both northern and southern varieties
+		color = {90 205 190}
 		first_names = { Antonio Charles Diego Emiliano Emilio Felipe Fernando Francisco Gaspar Hernando
 		Hilario Ignacio Isaac Jacinto Jes�s Jos� Juan Julio Lorenzo Manuel
 		Marcial Mario Mart�n Natalio Oliverio Pedro Roberto Rodolfo Santiago V�ctor }
@@ -13082,8 +13064,9 @@ uto_nahuatl = {
 		Panecatl Tlaxca Tletla Tzehe Valeriano Xaxalpa Zicot�ncatl Xochitl Zapata Zapotitla }
 	}
 	
-	ute_lang  = {
-		color = {170 155 140}
+	#Tarahumaranic
+	tarahumara = {
+		color = {70 215 100}
 		first_names = { Antonio Charles Diego Emiliano Emilio Felipe Fernando Francisco Gaspar Hernando
 		Hilario Ignacio Isaac Jacinto Jes�s Jos� Juan Julio Lorenzo Manuel
 		Marcial Mario Mart�n Natalio Oliverio Pedro Roberto Rodolfo Santiago V�ctor }
@@ -13093,8 +13076,8 @@ uto_nahuatl = {
 		Panecatl Tlaxca Tletla Tzehe Valeriano Xaxalpa Zicot�ncatl Xochitl Zapata Zapotitla }
 	}
 	
-	hopian  = {
-		color = {90 145 130}
+	guarijio = {
+		color = {80 245 130}
 		first_names = { Antonio Charles Diego Emiliano Emilio Felipe Fernando Francisco Gaspar Hernando
 		Hilario Ignacio Isaac Jacinto Jes�s Jos� Juan Julio Lorenzo Manuel
 		Marcial Mario Mart�n Natalio Oliverio Pedro Roberto Rodolfo Santiago V�ctor }
@@ -13104,8 +13087,8 @@ uto_nahuatl = {
 		Panecatl Tlaxca Tletla Tzehe Valeriano Xaxalpa Zicot�ncatl Xochitl Zapata Zapotitla }
 	}
 	
-	tubatulabal   = {
-		color = {130 145 130}
+	tubar = {
+		color = {120 245 130}
 		first_names = { Antonio Charles Diego Emiliano Emilio Felipe Fernando Francisco Gaspar Hernando
 		Hilario Ignacio Isaac Jacinto Jes�s Jos� Juan Julio Lorenzo Manuel
 		Marcial Mario Mart�n Natalio Oliverio Pedro Roberto Rodolfo Santiago V�ctor }
@@ -13115,17 +13098,7 @@ uto_nahuatl = {
 		Panecatl Tlaxca Tletla Tzehe Valeriano Xaxalpa Zicot�ncatl Xochitl Zapata Zapotitla }
 	}
 	
-	corachol  = {
-		color = {70 165 150}
-		first_names = { Antonio Charles Diego Emiliano Emilio Felipe Fernando Francisco Gaspar Hernando
-		Hilario Ignacio Isaac Jacinto Jes�s Jos� Juan Julio Lorenzo Manuel
-		Marcial Mario Mart�n Natalio Oliverio Pedro Roberto Rodolfo Santiago V�ctor }
-
-		last_names = { Ahuactzin Altamirano Atlanteco Badiano Bernardino Coaguila Coyotl Cuautlaxahue Guti�rrez Hern�ndez
-		Huanitzin Itzel Ixtlilxochitl Jim�nez Matlacuahuac Mayahuel Moxo Mu�oz Nahui Ocelotl
-		Panecatl Tlaxca Tletla Tzehe Valeriano Xaxalpa Zicot�ncatl Xochitl Zapata Zapotitla }
-	}
-	
+	#Cahita
 	yaqui = {
 		color = {90 155 140}
 		first_names = { Antonio Charles Diego Emiliano Emilio Felipe Fernando Francisco Gaspar Hernando
@@ -13147,9 +13120,31 @@ uto_nahuatl = {
 		Huanitzin Itzel Ixtlilxochitl Jim�nez Matlacuahuac Mayahuel Moxo Mu�oz Nahui Ocelotl
 		Panecatl Tlaxca Tletla Tzehe Valeriano Xaxalpa Zicot�ncatl Xochitl Zapata Zapotitla }
 	}
+
+    ocoroni = {
+		color = {60 125 80}
+		first_names = { Antonio Charles Diego Emiliano Emilio Felipe Fernando Francisco Gaspar Hernando
+		Hilario Ignacio Isaac Jacinto Jes�s Jos� Juan Julio Lorenzo Manuel
+		Marcial Mario Mart�n Natalio Oliverio Pedro Roberto Rodolfo Santiago V�ctor }
+
+		last_names = { Ahuactzin Altamirano Atlanteco Badiano Bernardino Coaguila Coyotl Cuautlaxahue Guti�rrez Hern�ndez
+		Huanitzin Itzel Ixtlilxochitl Jim�nez Matlacuahuac Mayahuel Moxo Mu�oz Nahui Ocelotl
+		Panecatl Tlaxca Tletla Tzehe Valeriano Xaxalpa Zicot�ncatl Xochitl Zapata Zapotitla }
+	}	
 	
-	tarahumara = {
-		color = {70 115 100}
+	acaxee = {
+		color = {60 155 80}
+		first_names = { Antonio Charles Diego Emiliano Emilio Felipe Fernando Francisco Gaspar Hernando
+		Hilario Ignacio Isaac Jacinto Jes�s Jos� Juan Julio Lorenzo Manuel
+		Marcial Mario Mart�n Natalio Oliverio Pedro Roberto Rodolfo Santiago V�ctor }
+
+		last_names = { Ahuactzin Altamirano Atlanteco Badiano Bernardino Coaguila Coyotl Cuautlaxahue Guti�rrez Hern�ndez
+		Huanitzin Itzel Ixtlilxochitl Jim�nez Matlacuahuac Mayahuel Moxo Mu�oz Nahui Ocelotl
+		Panecatl Tlaxca Tletla Tzehe Valeriano Xaxalpa Zicot�ncatl Xochitl Zapata Zapotitla }
+	}	
+	
+	xixime = {
+		color = {70 165 100}
 		first_names = { Antonio Charles Diego Emiliano Emilio Felipe Fernando Francisco Gaspar Hernando
 		Hilario Ignacio Isaac Jacinto Jes�s Jos� Juan Julio Lorenzo Manuel
 		Marcial Mario Mart�n Natalio Oliverio Pedro Roberto Rodolfo Santiago V�ctor }
@@ -13159,8 +13154,338 @@ uto_nahuatl = {
 		Panecatl Tlaxca Tletla Tzehe Valeriano Xaxalpa Zicot�ncatl Xochitl Zapata Zapotitla }
 	}
 	
-	takic = {
+	#Opatan
+	opata = {
+		color = {90 205 130}
+		first_names = { Antonio Charles Diego Emiliano Emilio Felipe Fernando Francisco Gaspar Hernando
+		Hilario Ignacio Isaac Jacinto Jes�s Jos� Juan Julio Lorenzo Manuel
+		Marcial Mario Mart�n Natalio Oliverio Pedro Roberto Rodolfo Santiago V�ctor }
+
+		last_names = { Ahuactzin Altamirano Atlanteco Badiano Bernardino Coaguila Coyotl Cuautlaxahue Guti�rrez Hern�ndez
+		Huanitzin Itzel Ixtlilxochitl Jim�nez Matlacuahuac Mayahuel Moxo Mu�oz Nahui Ocelotl
+		Panecatl Tlaxca Tletla Tzehe Valeriano Xaxalpa Zicot�ncatl Xochitl Zapata Zapotitla }
+	}
+	
+	eudeve = {
+		color = {70 175 100}
+		first_names = { Antonio Charles Diego Emiliano Emilio Felipe Fernando Francisco Gaspar Hernando
+		Hilario Ignacio Isaac Jacinto Jes�s Jos� Juan Julio Lorenzo Manuel
+		Marcial Mario Mart�n Natalio Oliverio Pedro Roberto Rodolfo Santiago V�ctor }
+
+		last_names = { Ahuactzin Altamirano Atlanteco Badiano Bernardino Coaguila Coyotl Cuautlaxahue Guti�rrez Hern�ndez
+		Huanitzin Itzel Ixtlilxochitl Jim�nez Matlacuahuac Mayahuel Moxo Mu�oz Nahui Ocelotl
+		Panecatl Tlaxca Tletla Tzehe Valeriano Xaxalpa Zicot�ncatl Xochitl Zapata Zapotitla }
+	}
+	
+	#Corachol
+	cora = {
+		color = {140 215 150}
+		first_names = { Antonio Charles Diego Emiliano Emilio Felipe Fernando Francisco Gaspar Hernando
+		Hilario Ignacio Isaac Jacinto Jes�s Jos� Juan Julio Lorenzo Manuel
+		Marcial Mario Mart�n Natalio Oliverio Pedro Roberto Rodolfo Santiago V�ctor }
+
+		last_names = { Ahuactzin Altamirano Atlanteco Badiano Bernardino Coaguila Coyotl Cuautlaxahue Guti�rrez Hern�ndez
+		Huanitzin Itzel Ixtlilxochitl Jim�nez Matlacuahuac Mayahuel Moxo Mu�oz Nahui Ocelotl
+		Panecatl Tlaxca Tletla Tzehe Valeriano Xaxalpa Zicot�ncatl Xochitl Zapata Zapotitla }
+	}
+	
+	huichol = {
+		color = {160 205 170}
+		first_names = { Antonio Charles Diego Emiliano Emilio Felipe Fernando Francisco Gaspar Hernando
+		Hilario Ignacio Isaac Jacinto Jes�s Jos� Juan Julio Lorenzo Manuel
+		Marcial Mario Mart�n Natalio Oliverio Pedro Roberto Rodolfo Santiago V�ctor }
+
+		last_names = { Ahuactzin Altamirano Atlanteco Badiano Bernardino Coaguila Coyotl Cuautlaxahue Guti�rrez Hern�ndez
+		Huanitzin Itzel Ixtlilxochitl Jim�nez Matlacuahuac Mayahuel Moxo Mu�oz Nahui Ocelotl
+		Panecatl Tlaxca Tletla Tzehe Valeriano Xaxalpa Zicot�ncatl Xochitl Zapata Zapotitla }
+	}
+	
+	totorame = {
+		color = {140 205 150}
+		first_names = { Antonio Charles Diego Emiliano Emilio Felipe Fernando Francisco Gaspar Hernando
+		Hilario Ignacio Isaac Jacinto Jes�s Jos� Juan Julio Lorenzo Manuel
+		Marcial Mario Mart�n Natalio Oliverio Pedro Roberto Rodolfo Santiago V�ctor }
+
+		last_names = { Ahuactzin Altamirano Atlanteco Badiano Bernardino Coaguila Coyotl Cuautlaxahue Guti�rrez Hern�ndez
+		Huanitzin Itzel Ixtlilxochitl Jim�nez Matlacuahuac Mayahuel Moxo Mu�oz Nahui Ocelotl
+		Panecatl Tlaxca Tletla Tzehe Valeriano Xaxalpa Zicot�ncatl Xochitl Zapata Zapotitla }
+	}
+	
+	guachichil = {
+		color = {120 225 150}
+		first_names = { Antonio Charles Diego Emiliano Emilio Felipe Fernando Francisco Gaspar Hernando
+		Hilario Ignacio Isaac Jacinto Jes�s Jos� Juan Julio Lorenzo Manuel
+		Marcial Mario Mart�n Natalio Oliverio Pedro Roberto Rodolfo Santiago V�ctor }
+
+		last_names = { Ahuactzin Altamirano Atlanteco Badiano Bernardino Coaguila Coyotl Cuautlaxahue Guti�rrez Hern�ndez
+		Huanitzin Itzel Ixtlilxochitl Jim�nez Matlacuahuac Mayahuel Moxo Mu�oz Nahui Ocelotl
+		Panecatl Tlaxca Tletla Tzehe Valeriano Xaxalpa Zicot�ncatl Xochitl Zapata Zapotitla }
+	}
+	
+	zacatec = {
+		color = {110 225 180}
+		first_names = { Antonio Charles Diego Emiliano Emilio Felipe Fernando Francisco Gaspar Hernando
+		Hilario Ignacio Isaac Jacinto Jes�s Jos� Juan Julio Lorenzo Manuel
+		Marcial Mario Mart�n Natalio Oliverio Pedro Roberto Rodolfo Santiago V�ctor }
+
+		last_names = { Ahuactzin Altamirano Atlanteco Badiano Bernardino Coaguila Coyotl Cuautlaxahue Guti�rrez Hern�ndez
+		Huanitzin Itzel Ixtlilxochitl Jim�nez Matlacuahuac Mayahuel Moxo Mu�oz Nahui Ocelotl
+		Panecatl Tlaxca Tletla Tzehe Valeriano Xaxalpa Zicot�ncatl Xochitl Zapata Zapotitla }
+	}
+	
+	guamare = {
+		color = {110 235 160}
+		first_names = { Antonio Charles Diego Emiliano Emilio Felipe Fernando Francisco Gaspar Hernando
+		Hilario Ignacio Isaac Jacinto Jes�s Jos� Juan Julio Lorenzo Manuel
+		Marcial Mario Mart�n Natalio Oliverio Pedro Roberto Rodolfo Santiago V�ctor }
+
+		last_names = { Ahuactzin Altamirano Atlanteco Badiano Bernardino Coaguila Coyotl Cuautlaxahue Guti�rrez Hern�ndez
+		Huanitzin Itzel Ixtlilxochitl Jim�nez Matlacuahuac Mayahuel Moxo Mu�oz Nahui Ocelotl
+		Panecatl Tlaxca Tletla Tzehe Valeriano Xaxalpa Zicot�ncatl Xochitl Zapata Zapotitla }
+	}
+	
+	#Aztecan
+	nahua = {
+		color = {90 175 160}
+		first_names = { Antonio Charles Diego Emiliano Emilio Felipe Fernando Francisco Gaspar Hernando
+		Hilario Ignacio Isaac Jacinto Jes�s Jos� Juan Julio Lorenzo Manuel
+		Marcial Mario Mart�n Natalio Oliverio Pedro Roberto Rodolfo Santiago V�ctor }
+
+		last_names = { Ahuactzin Altamirano Atlanteco Badiano Bernardino Coaguila Coyotl Cuautlaxahue Guti�rrez Hern�ndez
+		Huanitzin Itzel Ixtlilxochitl Jim�nez Matlacuahuac Mayahuel Moxo Mu�oz Nahui Ocelotl
+		Panecatl Tlaxca Tletla Tzehe Valeriano Xaxalpa Zicot�ncatl Xochitl Zapata Zapotitla }
+	}
+	
+	irritila_nahua = {
+		color = {90 175 160}
+		first_names = { Antonio Charles Diego Emiliano Emilio Felipe Fernando Francisco Gaspar Hernando
+		Hilario Ignacio Isaac Jacinto Jes�s Jos� Juan Julio Lorenzo Manuel
+		Marcial Mario Mart�n Natalio Oliverio Pedro Roberto Rodolfo Santiago V�ctor }
+
+		last_names = { Ahuactzin Altamirano Atlanteco Badiano Bernardino Coaguila Coyotl Cuautlaxahue Guti�rrez Hern�ndez
+		Huanitzin Itzel Ixtlilxochitl Jim�nez Matlacuahuac Mayahuel Moxo Mu�oz Nahui Ocelotl
+		Panecatl Tlaxca Tletla Tzehe Valeriano Xaxalpa Zicot�ncatl Xochitl Zapata Zapotitla }
+	}
+	
+	cazcan = {
+		color = {120 195 150}
+		first_names = { Antonio Charles Diego Emiliano Emilio Felipe Fernando Francisco Gaspar Hernando
+		Hilario Ignacio Isaac Jacinto Jes�s Jos� Juan Julio Lorenzo Manuel
+		Marcial Mario Mart�n Natalio Oliverio Pedro Roberto Rodolfo Santiago V�ctor }
+
+		last_names = { Ahuactzin Altamirano Atlanteco Badiano Bernardino Coaguila Coyotl Cuautlaxahue Guti�rrez Hern�ndez
+		Huanitzin Itzel Ixtlilxochitl Jim�nez Matlacuahuac Mayahuel Moxo Mu�oz Nahui Ocelotl
+		Panecatl Tlaxca Tletla Tzehe Valeriano Xaxalpa Zicot�ncatl Xochitl Zapata Zapotitla }
+	}
+	
+	tecuexe = {
+		color = {120 175 160}
+		first_names = { Antonio Charles Diego Emiliano Emilio Felipe Fernando Francisco Gaspar Hernando
+		Hilario Ignacio Isaac Jacinto Jes�s Jos� Juan Julio Lorenzo Manuel
+		Marcial Mario Mart�n Natalio Oliverio Pedro Roberto Rodolfo Santiago V�ctor }
+
+		last_names = { Ahuactzin Altamirano Atlanteco Badiano Bernardino Coaguila Coyotl Cuautlaxahue Guti�rrez Hern�ndez
+		Huanitzin Itzel Ixtlilxochitl Jim�nez Matlacuahuac Mayahuel Moxo Mu�oz Nahui Ocelotl
+		Panecatl Tlaxca Tletla Tzehe Valeriano Xaxalpa Zicot�ncatl Xochitl Zapata Zapotitla }
+	}
+	
+	#Northern Group
+	#Numic
+	#Northern
+	paiute = { #Paviotso
+		color = {110 195 130}
+		first_names = { Antonio Charles Diego Emiliano Emilio Felipe Fernando Francisco Gaspar Hernando
+		Hilario Ignacio Isaac Jacinto Jes�s Jos� Juan Julio Lorenzo Manuel
+		Marcial Mario Mart�n Natalio Oliverio Pedro Roberto Rodolfo Santiago V�ctor }
+
+		last_names = { Ahuactzin Altamirano Atlanteco Badiano Bernardino Coaguila Coyotl Cuautlaxahue Guti�rrez Hern�ndez
+		Huanitzin Itzel Ixtlilxochitl Jim�nez Matlacuahuac Mayahuel Moxo Mu�oz Nahui Ocelotl
+		Panecatl Tlaxca Tletla Tzehe Valeriano Xaxalpa Zicot�ncatl Xochitl Zapata Zapotitla }
+	}
+	
+	mono = { 
+		color = {110 195 130}
+		first_names = { Antonio Charles Diego Emiliano Emilio Felipe Fernando Francisco Gaspar Hernando
+		Hilario Ignacio Isaac Jacinto Jes�s Jos� Juan Julio Lorenzo Manuel
+		Marcial Mario Mart�n Natalio Oliverio Pedro Roberto Rodolfo Santiago V�ctor }
+
+		last_names = { Ahuactzin Altamirano Atlanteco Badiano Bernardino Coaguila Coyotl Cuautlaxahue Guti�rrez Hern�ndez
+		Huanitzin Itzel Ixtlilxochitl Jim�nez Matlacuahuac Mayahuel Moxo Mu�oz Nahui Ocelotl
+		Panecatl Tlaxca Tletla Tzehe Valeriano Xaxalpa Zicot�ncatl Xochitl Zapata Zapotitla }
+	}
+	
+	#Central
+	shoshone = {
+		color = {100 195 150}
+		first_names = { Antonio Charles Diego Emiliano Emilio Felipe Fernando Francisco Gaspar Hernando
+		Hilario Ignacio Isaac Jacinto Jes�s Jos� Juan Julio Lorenzo Manuel
+		Marcial Mario Mart�n Natalio Oliverio Pedro Roberto Rodolfo Santiago V�ctor }
+
+		last_names = { Ahuactzin Altamirano Atlanteco Badiano Bernardino Coaguila Coyotl Cuautlaxahue Guti�rrez Hern�ndez
+		Huanitzin Itzel Ixtlilxochitl Jim�nez Matlacuahuac Mayahuel Moxo Mu�oz Nahui Ocelotl
+		Panecatl Tlaxca Tletla Tzehe Valeriano Xaxalpa Zicot�ncatl Xochitl Zapata Zapotitla }
+	}
+	
+	commanche = {
+		color = {120 195 160}
+		first_names = { Antonio Charles Diego Emiliano Emilio Felipe Fernando Francisco Gaspar Hernando
+		Hilario Ignacio Isaac Jacinto Jes�s Jos� Juan Julio Lorenzo Manuel
+		Marcial Mario Mart�n Natalio Oliverio Pedro Roberto Rodolfo Santiago V�ctor }
+
+		last_names = { Ahuactzin Altamirano Atlanteco Badiano Bernardino Coaguila Coyotl Cuautlaxahue Guti�rrez Hern�ndez
+		Huanitzin Itzel Ixtlilxochitl Jim�nez Matlacuahuac Mayahuel Moxo Mu�oz Nahui Ocelotl
+		Panecatl Tlaxca Tletla Tzehe Valeriano Xaxalpa Zicot�ncatl Xochitl Zapata Zapotitla }
+	}
+	
+	timbisha = {
+		color = {120 195 160}
+		first_names = { Antonio Charles Diego Emiliano Emilio Felipe Fernando Francisco Gaspar Hernando
+		Hilario Ignacio Isaac Jacinto Jes�s Jos� Juan Julio Lorenzo Manuel
+		Marcial Mario Mart�n Natalio Oliverio Pedro Roberto Rodolfo Santiago V�ctor }
+
+		last_names = { Ahuactzin Altamirano Atlanteco Badiano Bernardino Coaguila Coyotl Cuautlaxahue Guti�rrez Hern�ndez
+		Huanitzin Itzel Ixtlilxochitl Jim�nez Matlacuahuac Mayahuel Moxo Mu�oz Nahui Ocelotl
+		Panecatl Tlaxca Tletla Tzehe Valeriano Xaxalpa Zicot�ncatl Xochitl Zapata Zapotitla }
+	}
+	
+	#Southern
+	ute_lang = {
+		color = {140 195 170}
+		first_names = { Antonio Charles Diego Emiliano Emilio Felipe Fernando Francisco Gaspar Hernando
+		Hilario Ignacio Isaac Jacinto Jes�s Jos� Juan Julio Lorenzo Manuel
+		Marcial Mario Mart�n Natalio Oliverio Pedro Roberto Rodolfo Santiago V�ctor }
+
+		last_names = { Ahuactzin Altamirano Atlanteco Badiano Bernardino Coaguila Coyotl Cuautlaxahue Guti�rrez Hern�ndez
+		Huanitzin Itzel Ixtlilxochitl Jim�nez Matlacuahuac Mayahuel Moxo Mu�oz Nahui Ocelotl
+		Panecatl Tlaxca Tletla Tzehe Valeriano Xaxalpa Zicot�ncatl Xochitl Zapata Zapotitla }
+	}
+	
+	nuwuvi = {
+		color = {140 195 170}
+		first_names = { Antonio Charles Diego Emiliano Emilio Felipe Fernando Francisco Gaspar Hernando
+		Hilario Ignacio Isaac Jacinto Jes�s Jos� Juan Julio Lorenzo Manuel
+		Marcial Mario Mart�n Natalio Oliverio Pedro Roberto Rodolfo Santiago V�ctor }
+
+		last_names = { Ahuactzin Altamirano Atlanteco Badiano Bernardino Coaguila Coyotl Cuautlaxahue Guti�rrez Hern�ndez
+		Huanitzin Itzel Ixtlilxochitl Jim�nez Matlacuahuac Mayahuel Moxo Mu�oz Nahui Ocelotl
+		Panecatl Tlaxca Tletla Tzehe Valeriano Xaxalpa Zicot�ncatl Xochitl Zapata Zapotitla }
+	}
+	
+	kawaiisu = {
+		color = {140 195 170}
+		first_names = { Antonio Charles Diego Emiliano Emilio Felipe Fernando Francisco Gaspar Hernando
+		Hilario Ignacio Isaac Jacinto Jes�s Jos� Juan Julio Lorenzo Manuel
+		Marcial Mario Mart�n Natalio Oliverio Pedro Roberto Rodolfo Santiago V�ctor }
+
+		last_names = { Ahuactzin Altamirano Atlanteco Badiano Bernardino Coaguila Coyotl Cuautlaxahue Guti�rrez Hern�ndez
+		Huanitzin Itzel Ixtlilxochitl Jim�nez Matlacuahuac Mayahuel Moxo Mu�oz Nahui Ocelotl
+		Panecatl Tlaxca Tletla Tzehe Valeriano Xaxalpa Zicot�ncatl Xochitl Zapata Zapotitla }
+	}
+	
+	#California Group
+	#Takic
+	takic = { #Serrano
 		color = {50 95 80}
+		first_names = { Antonio Charles Diego Emiliano Emilio Felipe Fernando Francisco Gaspar Hernando
+		Hilario Ignacio Isaac Jacinto Jes�s Jos� Juan Julio Lorenzo Manuel
+		Marcial Mario Mart�n Natalio Oliverio Pedro Roberto Rodolfo Santiago V�ctor }
+
+		last_names = { Ahuactzin Altamirano Atlanteco Badiano Bernardino Coaguila Coyotl Cuautlaxahue Guti�rrez Hern�ndez
+		Huanitzin Itzel Ixtlilxochitl Jim�nez Matlacuahuac Mayahuel Moxo Mu�oz Nahui Ocelotl
+		Panecatl Tlaxca Tletla Tzehe Valeriano Xaxalpa Zicot�ncatl Xochitl Zapata Zapotitla }
+	}
+	
+	kitanemuk = { 
+		color = {50 95 80}
+		first_names = { Antonio Charles Diego Emiliano Emilio Felipe Fernando Francisco Gaspar Hernando
+		Hilario Ignacio Isaac Jacinto Jes�s Jos� Juan Julio Lorenzo Manuel
+		Marcial Mario Mart�n Natalio Oliverio Pedro Roberto Rodolfo Santiago V�ctor }
+
+		last_names = { Ahuactzin Altamirano Atlanteco Badiano Bernardino Coaguila Coyotl Cuautlaxahue Guti�rrez Hern�ndez
+		Huanitzin Itzel Ixtlilxochitl Jim�nez Matlacuahuac Mayahuel Moxo Mu�oz Nahui Ocelotl
+		Panecatl Tlaxca Tletla Tzehe Valeriano Xaxalpa Zicot�ncatl Xochitl Zapata Zapotitla }
+	}
+	
+	tataviam = { 
+		color = {50 95 80}
+		first_names = { Antonio Charles Diego Emiliano Emilio Felipe Fernando Francisco Gaspar Hernando
+		Hilario Ignacio Isaac Jacinto Jes�s Jos� Juan Julio Lorenzo Manuel
+		Marcial Mario Mart�n Natalio Oliverio Pedro Roberto Rodolfo Santiago V�ctor }
+
+		last_names = { Ahuactzin Altamirano Atlanteco Badiano Bernardino Coaguila Coyotl Cuautlaxahue Guti�rrez Hern�ndez
+		Huanitzin Itzel Ixtlilxochitl Jim�nez Matlacuahuac Mayahuel Moxo Mu�oz Nahui Ocelotl
+		Panecatl Tlaxca Tletla Tzehe Valeriano Xaxalpa Zicot�ncatl Xochitl Zapata Zapotitla }
+	}
+	
+	ivilyuat = { 
+		color = {50 95 80}
+		first_names = { Antonio Charles Diego Emiliano Emilio Felipe Fernando Francisco Gaspar Hernando
+		Hilario Ignacio Isaac Jacinto Jes�s Jos� Juan Julio Lorenzo Manuel
+		Marcial Mario Mart�n Natalio Oliverio Pedro Roberto Rodolfo Santiago V�ctor }
+
+		last_names = { Ahuactzin Altamirano Atlanteco Badiano Bernardino Coaguila Coyotl Cuautlaxahue Guti�rrez Hern�ndez
+		Huanitzin Itzel Ixtlilxochitl Jim�nez Matlacuahuac Mayahuel Moxo Mu�oz Nahui Ocelotl
+		Panecatl Tlaxca Tletla Tzehe Valeriano Xaxalpa Zicot�ncatl Xochitl Zapata Zapotitla }
+	}
+	
+	cupeno = { 
+		color = {50 95 80}
+		first_names = { Antonio Charles Diego Emiliano Emilio Felipe Fernando Francisco Gaspar Hernando
+		Hilario Ignacio Isaac Jacinto Jes�s Jos� Juan Julio Lorenzo Manuel
+		Marcial Mario Mart�n Natalio Oliverio Pedro Roberto Rodolfo Santiago V�ctor }
+
+		last_names = { Ahuactzin Altamirano Atlanteco Badiano Bernardino Coaguila Coyotl Cuautlaxahue Guti�rrez Hern�ndez
+		Huanitzin Itzel Ixtlilxochitl Jim�nez Matlacuahuac Mayahuel Moxo Mu�oz Nahui Ocelotl
+		Panecatl Tlaxca Tletla Tzehe Valeriano Xaxalpa Zicot�ncatl Xochitl Zapata Zapotitla }
+	} 
+	
+	luiseno = { 
+		color = {50 95 80}
+		first_names = { Antonio Charles Diego Emiliano Emilio Felipe Fernando Francisco Gaspar Hernando
+		Hilario Ignacio Isaac Jacinto Jes�s Jos� Juan Julio Lorenzo Manuel
+		Marcial Mario Mart�n Natalio Oliverio Pedro Roberto Rodolfo Santiago V�ctor }
+
+		last_names = { Ahuactzin Altamirano Atlanteco Badiano Bernardino Coaguila Coyotl Cuautlaxahue Guti�rrez Hern�ndez
+		Huanitzin Itzel Ixtlilxochitl Jim�nez Matlacuahuac Mayahuel Moxo Mu�oz Nahui Ocelotl
+		Panecatl Tlaxca Tletla Tzehe Valeriano Xaxalpa Zicot�ncatl Xochitl Zapata Zapotitla }
+	}
+	
+	tongva = { 
+		color = {50 95 80}
+		first_names = { Antonio Charles Diego Emiliano Emilio Felipe Fernando Francisco Gaspar Hernando
+		Hilario Ignacio Isaac Jacinto Jes�s Jos� Juan Julio Lorenzo Manuel
+		Marcial Mario Mart�n Natalio Oliverio Pedro Roberto Rodolfo Santiago V�ctor }
+
+		last_names = { Ahuactzin Altamirano Atlanteco Badiano Bernardino Coaguila Coyotl Cuautlaxahue Guti�rrez Hern�ndez
+		Huanitzin Itzel Ixtlilxochitl Jim�nez Matlacuahuac Mayahuel Moxo Mu�oz Nahui Ocelotl
+		Panecatl Tlaxca Tletla Tzehe Valeriano Xaxalpa Zicot�ncatl Xochitl Zapata Zapotitla }
+	}
+	
+	tubatulabal = {
+		color = {130 145 130}
+		first_names = { Antonio Charles Diego Emiliano Emilio Felipe Fernando Francisco Gaspar Hernando
+		Hilario Ignacio Isaac Jacinto Jes�s Jos� Juan Julio Lorenzo Manuel
+		Marcial Mario Mart�n Natalio Oliverio Pedro Roberto Rodolfo Santiago V�ctor }
+
+		last_names = { Ahuactzin Altamirano Atlanteco Badiano Bernardino Coaguila Coyotl Cuautlaxahue Guti�rrez Hern�ndez
+		Huanitzin Itzel Ixtlilxochitl Jim�nez Matlacuahuac Mayahuel Moxo Mu�oz Nahui Ocelotl
+		Panecatl Tlaxca Tletla Tzehe Valeriano Xaxalpa Zicot�ncatl Xochitl Zapata Zapotitla }
+	}
+	
+	hopian  = {
+		color = {90 145 130}
+		first_names = { Antonio Charles Diego Emiliano Emilio Felipe Fernando Francisco Gaspar Hernando
+		Hilario Ignacio Isaac Jacinto Jes�s Jos� Juan Julio Lorenzo Manuel
+		Marcial Mario Mart�n Natalio Oliverio Pedro Roberto Rodolfo Santiago V�ctor }
+
+		last_names = { Ahuactzin Altamirano Atlanteco Badiano Bernardino Coaguila Coyotl Cuautlaxahue Guti�rrez Hern�ndez
+		Huanitzin Itzel Ixtlilxochitl Jim�nez Matlacuahuac Mayahuel Moxo Mu�oz Nahui Ocelotl
+		Panecatl Tlaxca Tletla Tzehe Valeriano Xaxalpa Zicot�ncatl Xochitl Zapata Zapotitla }
+	}
+	
+	#unclassified, maybe Uto-Aztecan?
+	conchitec = { #Conchos
+		color = {70 115 100}
 		first_names = { Antonio Charles Diego Emiliano Emilio Felipe Fernando Francisco Gaspar Hernando
 		Hilario Ignacio Isaac Jacinto Jes�s Jos� Juan Julio Lorenzo Manuel
 		Marcial Mario Mart�n Natalio Oliverio Pedro Roberto Rodolfo Santiago V�ctor }
@@ -13264,7 +13589,75 @@ oto_manguean  = {
 	}
 }
 
-#Hokan
+#Coahuiltec, Comecrudo, Karankawa and Tamaulipec 
+coahuiltec_group = {
+	leader = nativeamerican
+	is_overseas = no
+    coahuiltec = {
+		color = {190 180 40}
+		first_names = { Agust�n Akbal Alejandro Andr�s An�bal Antonio Armando Bernardo Carlos Crescencio
+		Crist�bal Cuaut�hmoc Diego Felipe Gaspar Hernando Hilario Humberto Ignacio Jacinto 
+		Jes�s Luis Marcial Mart�n Miguel Ramiro Rodolfo Rolando Santiago Yumil }
+
+		last_names = { Ak'ab'al Cal Canek Canul Carrillo Ceh Chee Chi Choc Coc
+		Curruchic Ixquiac L�pez Manzanero Mas Mench� M�rida Mes Osorio Pek
+		Poot Pop Puk Shal Sho Tec� Teul Tuyuc Xicara Xiloj }
+	}
+	
+	tamaulipec = {
+		color = {140 130 60}
+		first_names = { Agust�n Akbal Alejandro Andr�s An�bal Antonio Armando Bernardo Carlos Crescencio
+		Crist�bal Cuaut�hmoc Diego Felipe Gaspar Hernando Hilario Humberto Ignacio Jacinto 
+		Jes�s Luis Marcial Mart�n Miguel Ramiro Rodolfo Rolando Santiago Yumil }
+
+		last_names = { Ak'ab'al Cal Canek Canul Carrillo Ceh Chee Chi Choc Coc
+		Curruchic Ixquiac L�pez Manzanero Mas Mench� M�rida Mes Osorio Pek
+		Poot Pop Puk Shal Sho Tec� Teul Tuyuc Xicara Xiloj }
+	}
+	
+	karankawa = {
+		color = {120 110 10}
+		first_names = { Agust�n Akbal Alejandro Andr�s An�bal Antonio Armando Bernardo Carlos Crescencio
+		Crist�bal Cuaut�hmoc Diego Felipe Gaspar Hernando Hilario Humberto Ignacio Jacinto 
+		Jes�s Luis Marcial Mart�n Miguel Ramiro Rodolfo Rolando Santiago Yumil }
+
+		last_names = { Ak'ab'al Cal Canek Canul Carrillo Ceh Chee Chi Choc Coc
+		Curruchic Ixquiac L�pez Manzanero Mas Mench� M�rida Mes Osorio Pek
+		Poot Pop Puk Shal Sho Tec� Teul Tuyuc Xicara Xiloj }
+	}
+}
+
+pisones_janambres_group = {
+	leader = nativeamerican
+	is_overseas = no
+    pisones_janambres = {
+		color = {10 50 140}
+		first_names = { Agust�n Akbal Alejandro Andr�s An�bal Antonio Armando Bernardo Carlos Crescencio
+		Crist�bal Cuaut�hmoc Diego Felipe Gaspar Hernando Hilario Humberto Ignacio Jacinto 
+		Jes�s Luis Marcial Mart�n Miguel Ramiro Rodolfo Rolando Santiago Yumil }
+
+		last_names = { Ak'ab'al Cal Canek Canul Carrillo Ceh Chee Chi Choc Coc
+		Curruchic Ixquiac L�pez Manzanero Mas Mench� M�rida Mes Osorio Pek
+		Poot Pop Puk Shal Sho Tec� Teul Tuyuc Xicara Xiloj }
+	}
+}
+
+tonkawa_group = {
+	leader = nativeamerican
+	is_overseas = no
+    tonkawa = {
+		color = {10 50 140}
+		first_names = { Agust�n Akbal Alejandro Andr�s An�bal Antonio Armando Bernardo Carlos Crescencio
+		Crist�bal Cuaut�hmoc Diego Felipe Gaspar Hernando Hilario Humberto Ignacio Jacinto 
+		Jes�s Luis Marcial Mart�n Miguel Ramiro Rodolfo Rolando Santiago Yumil }
+
+		last_names = { Ak'ab'al Cal Canek Canul Carrillo Ceh Chee Chi Choc Coc
+		Curruchic Ixquiac L�pez Manzanero Mas Mench� M�rida Mes Osorio Pek
+		Poot Pop Puk Shal Sho Tec� Teul Tuyuc Xicara Xiloj }
+	}
+}
+
+#Hokan - grouping of isolates?
 hokan = {
 	leader = nativeamerican
 	is_overseas = no
@@ -13290,41 +13683,25 @@ hokan = {
 		Poot Pop Puk Shal Sho Tec� Teul Tuyuc Xicara Xiloj }
 	}
 	
-	coahuiltec = {
-		color = {190 150 40}
-		first_names = { Agust�n Akbal Alejandro Andr�s An�bal Antonio Armando Bernardo Carlos Crescencio
-		Crist�bal Cuaut�hmoc Diego Felipe Gaspar Hernando Hilario Humberto Ignacio Jacinto 
-		Jes�s Luis Marcial Mart�n Miguel Ramiro Rodolfo Rolando Santiago Yumil }
-
-		last_names = { Ak'ab'al Cal Canek Canul Carrillo Ceh Chee Chi Choc Coc
-		Curruchic Ixquiac L�pez Manzanero Mas Mench� M�rida Mes Osorio Pek
-		Poot Pop Puk Shal Sho Tec� Teul Tuyuc Xicara Xiloj }
-	}
-	
-	yuman = {
-		color = {170 130 60}
-		first_names = { Agust�n Akbal Alejandro Andr�s An�bal Antonio Armando Bernardo Carlos Crescencio
-		Crist�bal Cuaut�hmoc Diego Felipe Gaspar Hernando Hilario Humberto Ignacio Jacinto 
-		Jes�s Luis Marcial Mart�n Miguel Ramiro Rodolfo Rolando Santiago Yumil }
-
-		last_names = { Ak'ab'al Cal Canek Canul Carrillo Ceh Chee Chi Choc Coc
-		Curruchic Ixquiac L�pez Manzanero Mas Mench� M�rida Mes Osorio Pek
-		Poot Pop Puk Shal Sho Tec� Teul Tuyuc Xicara Xiloj }
-	}
-	
-	cochimi = {
-		color = {150 110 80}
-		first_names = { Agust�n Akbal Alejandro Andr�s An�bal Antonio Armando Bernardo Carlos Crescencio
-		Crist�bal Cuaut�hmoc Diego Felipe Gaspar Hernando Hilario Humberto Ignacio Jacinto 
-		Jes�s Luis Marcial Mart�n Miguel Ramiro Rodolfo Rolando Santiago Yumil }
-
-		last_names = { Ak'ab'al Cal Canek Canul Carrillo Ceh Chee Chi Choc Coc
-		Curruchic Ixquiac L�pez Manzanero Mas Mench� M�rida Mes Osorio Pek
-		Poot Pop Puk Shal Sho Tec� Teul Tuyuc Xicara Xiloj }
-	}
-	
 	shashtan = {
 		color = {150 110 40}
+		first_names = { John Paul Jos� Louis Mariano James David Jack Joel Charles Henry Ganado Herandez
+		}
+		last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet
+		}
+	}
+	
+	#Seri+Guasave-Achire
+	seri = {
+		color = {130 90 40}
+		first_names = { John Paul Jos� Louis Mariano James David Jack Joel Charles Henry Ganado Herandez
+		}
+		last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet
+		}
+	}
+	
+	guasave_achire = {
+		color = {150 110 30}
 		first_names = { John Paul Jos� Louis Mariano James David Jack Joel Charles Henry Ganado Herandez
 		}
 		last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet
@@ -13339,6 +13716,144 @@ hokan = {
 		}
 	}
 	
+}
+
+yuman_cochimi = {
+	leader = nativeamerican
+	is_overseas = no
+	#Yuman Group
+	#Delta-Californian
+	kumeyaay = {
+		color = {180 170 10}
+		first_names = { Agust�n Akbal Alejandro Andr�s An�bal Antonio Armando Bernardo Carlos Crescencio
+		Crist�bal Cuaut�hmoc Diego Felipe Gaspar Hernando Hilario Humberto Ignacio Jacinto 
+		Jes�s Luis Marcial Mart�n Miguel Ramiro Rodolfo Rolando Santiago Yumil }
+
+		last_names = { Ak'ab'al Cal Canek Canul Carrillo Ceh Chee Chi Choc Coc
+		Curruchic Ixquiac L�pez Manzanero Mas Mench� M�rida Mes Osorio Pek
+		Poot Pop Puk Shal Sho Tec� Teul Tuyuc Xicara Xiloj }
+	}
+	
+	cocopah = {
+		color = {170 160 30}
+		first_names = { Agust�n Akbal Alejandro Andr�s An�bal Antonio Armando Bernardo Carlos Crescencio
+		Crist�bal Cuaut�hmoc Diego Felipe Gaspar Hernando Hilario Humberto Ignacio Jacinto 
+		Jes�s Luis Marcial Mart�n Miguel Ramiro Rodolfo Rolando Santiago Yumil }
+
+		last_names = { Ak'ab'al Cal Canek Canul Carrillo Ceh Chee Chi Choc Coc
+		Curruchic Ixquiac L�pez Manzanero Mas Mench� M�rida Mes Osorio Pek
+		Poot Pop Puk Shal Sho Tec� Teul Tuyuc Xicara Xiloj }
+	}
+	
+	#Pai
+	yuman = { #Quechan
+		color = {180 150 70}
+		first_names = { Agust�n Akbal Alejandro Andr�s An�bal Antonio Armando Bernardo Carlos Crescencio
+		Crist�bal Cuaut�hmoc Diego Felipe Gaspar Hernando Hilario Humberto Ignacio Jacinto 
+		Jes�s Luis Marcial Mart�n Miguel Ramiro Rodolfo Rolando Santiago Yumil }
+
+		last_names = { Ak'ab'al Cal Canek Canul Carrillo Ceh Chee Chi Choc Coc
+		Curruchic Ixquiac L�pez Manzanero Mas Mench� M�rida Mes Osorio Pek
+		Poot Pop Puk Shal Sho Tec� Teul Tuyuc Xicara Xiloj }
+	}
+	
+	maricopa = {
+		color = {170 130 40}
+		first_names = { Agust�n Akbal Alejandro Andr�s An�bal Antonio Armando Bernardo Carlos Crescencio
+		Crist�bal Cuaut�hmoc Diego Felipe Gaspar Hernando Hilario Humberto Ignacio Jacinto 
+		Jes�s Luis Marcial Mart�n Miguel Ramiro Rodolfo Rolando Santiago Yumil }
+
+		last_names = { Ak'ab'al Cal Canek Canul Carrillo Ceh Chee Chi Choc Coc
+		Curruchic Ixquiac L�pez Manzanero Mas Mench� M�rida Mes Osorio Pek
+		Poot Pop Puk Shal Sho Tec� Teul Tuyuc Xicara Xiloj }
+	}
+	
+	hamakhav = {
+		color = {200 170 60}
+		first_names = { Agust�n Akbal Alejandro Andr�s An�bal Antonio Armando Bernardo Carlos Crescencio
+		Crist�bal Cuaut�hmoc Diego Felipe Gaspar Hernando Hilario Humberto Ignacio Jacinto 
+		Jes�s Luis Marcial Mart�n Miguel Ramiro Rodolfo Rolando Santiago Yumil }
+
+		last_names = { Ak'ab'al Cal Canek Canul Carrillo Ceh Chee Chi Choc Coc
+		Curruchic Ixquiac L�pez Manzanero Mas Mench� M�rida Mes Osorio Pek
+		Poot Pop Puk Shal Sho Tec� Teul Tuyuc Xicara Xiloj }
+	}
+	
+	#River
+	paiic = {
+		color = {175 140 40}
+		first_names = { Agust�n Akbal Alejandro Andr�s An�bal Antonio Armando Bernardo Carlos Crescencio
+		Crist�bal Cuaut�hmoc Diego Felipe Gaspar Hernando Hilario Humberto Ignacio Jacinto 
+		Jes�s Luis Marcial Mart�n Miguel Ramiro Rodolfo Rolando Santiago Yumil }
+
+		last_names = { Ak'ab'al Cal Canek Canul Carrillo Ceh Chee Chi Choc Coc
+		Curruchic Ixquiac L�pez Manzanero Mas Mench� M�rida Mes Osorio Pek
+		Poot Pop Puk Shal Sho Tec� Teul Tuyuc Xicara Xiloj }
+	}
+	
+	paipai = {
+		color = {170 130 60}
+		first_names = { Agust�n Akbal Alejandro Andr�s An�bal Antonio Armando Bernardo Carlos Crescencio
+		Crist�bal Cuaut�hmoc Diego Felipe Gaspar Hernando Hilario Humberto Ignacio Jacinto 
+		Jes�s Luis Marcial Mart�n Miguel Ramiro Rodolfo Rolando Santiago Yumil }
+
+		last_names = { Ak'ab'al Cal Canek Canul Carrillo Ceh Chee Chi Choc Coc
+		Curruchic Ixquiac L�pez Manzanero Mas Mench� M�rida Mes Osorio Pek
+		Poot Pop Puk Shal Sho Tec� Teul Tuyuc Xicara Xiloj }
+	}
+	
+	#Kiliwa
+	kiliwa = {
+		color = {140 130 80}
+		first_names = { Agust�n Akbal Alejandro Andr�s An�bal Antonio Armando Bernardo Carlos Crescencio
+		Crist�bal Cuaut�hmoc Diego Felipe Gaspar Hernando Hilario Humberto Ignacio Jacinto 
+		Jes�s Luis Marcial Mart�n Miguel Ramiro Rodolfo Rolando Santiago Yumil }
+
+		last_names = { Ak'ab'al Cal Canek Canul Carrillo Ceh Chee Chi Choc Coc
+		Curruchic Ixquiac L�pez Manzanero Mas Mench� M�rida Mes Osorio Pek
+		Poot Pop Puk Shal Sho Tec� Teul Tuyuc Xicara Xiloj }
+	}
+	
+	#Cochimi Group
+	cochimi = {
+		color = {150 110 80}
+		first_names = { Agust�n Akbal Alejandro Andr�s An�bal Antonio Armando Bernardo Carlos Crescencio
+		Crist�bal Cuaut�hmoc Diego Felipe Gaspar Hernando Hilario Humberto Ignacio Jacinto 
+		Jes�s Luis Marcial Mart�n Miguel Ramiro Rodolfo Rolando Santiago Yumil }
+
+		last_names = { Ak'ab'al Cal Canek Canul Carrillo Ceh Chee Chi Choc Coc
+		Curruchic Ixquiac L�pez Manzanero Mas Mench� M�rida Mes Osorio Pek
+		Poot Pop Puk Shal Sho Tec� Teul Tuyuc Xicara Xiloj }
+	}	
+}
+
+#Southern Baja Californian languages
+southern_baja_californian = {
+	leader = nativeamerican
+	is_overseas = no
+	monqui = {
+		color = {100 10 20}
+		first_names = { John Paul Jos� Louis Mariano James David Jack Joel Charles Henry Ganado Herandez
+		}
+		last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet
+		}
+	}
+	
+	pericu = {
+		color = {90 30 40}
+		first_names = { John Paul Jos� Louis Mariano James David Jack Joel Charles Henry Ganado Herandez
+		}
+		last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet
+		}
+	}
+	
+	waikuri = {
+		color = {70 10 30}
+		first_names = { John Paul Jos� Louis Mariano James David Jack Joel Charles Henry Ganado Herandez
+		}
+		last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet
+		}
+	}
 }
 
 #Mayan
@@ -13567,7 +14082,31 @@ tanoan = {
 	leader = nativeamerican
 	is_overseas = no
 	kiowa = {
-		color = {120 100 180}
+		color = {180 100 120}
+		first_names = { John Paul Jos� Louis Mariano James David Jack Joel Charles Henry Ganado Herandez
+		}
+		last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet
+		}
+	}
+	
+	suma = { #Plains Jumano
+		color = {150 10 90}
+		first_names = { John Paul Jos� Louis Mariano James David Jack Joel Charles Henry Ganado Herandez
+		}
+		last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet
+		}
+	}
+	
+	tompiro = { #Pueblo Jumano
+		color = {140 50 70}
+		first_names = { John Paul Jos� Louis Mariano James David Jack Joel Charles Henry Ganado Herandez
+		}
+		last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet
+		}
+	}
+	
+	piro = { 
+		color = {110 40 50}
 		first_names = { John Paul Jos� Louis Mariano James David Jack Joel Charles Henry Ganado Herandez
 		}
 		last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet
@@ -13575,7 +14114,7 @@ tanoan = {
 	}
 	
 	towa = {
-		color = {80 50 150}
+		color = {150 50 100}
 		first_names = { John Paul Jos� Louis Mariano James David Jack Joel Charles Henry Ganado Herandez
 		}
 		last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet
@@ -13583,7 +14122,7 @@ tanoan = {
 	}
 	
 	tiwa = {
-		color = {60 30 130}
+		color = {130 30 60}
 		first_names = { John Paul Jos� Louis Mariano James David Jack Joel Charles Henry Ganado Herandez
 		}
 		last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet
@@ -13591,7 +14130,7 @@ tanoan = {
 	}
 	
 	tewa = {
-		color = {40 10 110}
+		color = {110 10 60}
 		first_names = { John Paul Jos� Louis Mariano James David Jack Joel Charles Henry Ganado Herandez
 		}
 		last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet
@@ -13894,19 +14433,60 @@ na_dene = {
 	leader = nativeamerican
 	is_overseas = no
 	#Southern Athabaskan
-	navajo = { #Apache
-		color = {80 110 190}
+	#Apache-Navajo
+	navajo = {
+		color = {110 80 150}
 		first_names = { Narbona Mariano Zarcillos Manuelito Herrero Barboncito Ganado "Henry Chee" "Digul Chee"
 		}
 		last_names = { Naat'aa Martinez Ch'ilhanjini Largos Delagado Grande Da'ghaaii To'tso'nii Dodge
 		}
 	}
 	
-	lipan = {
-		color = {80 80 160}
+	coyotero_apache = {
+		color = {90 60 150}
+		first_names = { Narbona Mariano Zarcillos Manuelito Herrero Barboncito Ganado "Henry Chee" "Digul Chee"
+		}
+		last_names = { Naat'aa Martinez Ch'ilhanjini Largos Delagado Grande Da'ghaaii To'tso'nii Dodge
+		}
+	}
+	
+	chiricahua_apache = {
+		color = {110 80 130}
+		first_names = { Narbona Mariano Zarcillos Manuelito Herrero Barboncito Ganado "Henry Chee" "Digul Chee"
+		}
+		last_names = { Naat'aa Martinez Ch'ilhanjini Largos Delagado Grande Da'ghaaii To'tso'nii Dodge
+		}
+	}
+	
+	mescalero_apache = {
+		color = {130 140 150}
+		first_names = { Narbona Mariano Zarcillos Manuelito Herrero Barboncito Ganado "Henry Chee" "Digul Chee"
+		}
+		last_names = { Naat'aa Martinez Ch'ilhanjini Largos Delagado Grande Da'ghaaii To'tso'nii Dodge
+		}
+	}
+	
+	hikariya_apache = {
+		color = {80 110 160}
 		first_names = { Narbona Mariano Zarcillos Manuelito Herrero Barboncito Ganado "Henry Chee" "Digul Chee"
 		}
 		last_names = { Naat'aa Martinez Ch'ilhanjini Largos Delagado Grande Da'ghaaii To'tso'nii Dodge 
+		}
+	}
+	
+	lipan = {
+		color = {80 100 130}
+		first_names = { Narbona Mariano Zarcillos Manuelito Herrero Barboncito Ganado "Henry Chee" "Digul Chee"
+		}
+		last_names = { Naat'aa Martinez Ch'ilhanjini Largos Delagado Grande Da'ghaaii To'tso'nii Dodge 
+		}
+	}
+	
+	kiowa_apache = {
+		color = {130 100 160}
+		first_names = { Narbona Mariano Zarcillos Manuelito Herrero Barboncito Ganado "Henry Chee" "Digul Chee"
+		}
+		last_names = { Naat'aa Martinez Ch'ilhanjini Largos Delagado Grande Da'ghaaii To'tso'nii Dodge
 		}
 	}
 	
@@ -14322,15 +14902,23 @@ siouan = {
 	
 	#Mississippi Siouan
 	mitchigamea = {
-		color = {160 105 35}
+		color = {160 105 55}
 		first_names = { Sint� Tha�yate Thathanka Thasunke Mahpiya Istahba Hehaka Thahca Ohiyes Wanbdi Tamaha Inkpaduta
 		}
 		last_names = { Glesk� Duta Iyotake Witko Luta Kohkophapi Sapa Huste Thankja
 		}
 	}
 	
-	chiwere_winnebago = {
-		color = {140 105 25}
+	chiwere = {
+		color = {110 75 75}
+		first_names = { Sint� Tha�yate Thathanka Thasunke Mahpiya Istahba Hehaka Thahca Ohiyes Wanbdi Tamaha Inkpaduta
+		}
+		last_names = { Glesk� Duta Iyotake Witko Luta Kohkophapi Sapa Huste Thankja
+		}
+	}
+	
+	winnebago = {
+		color = {140 105 105}
 		first_names = { Sint� Tha�yate Thathanka Thasunke Mahpiya Istahba Hehaka Thahca Ohiyes Wanbdi Tamaha Inkpaduta
 		}
 		last_names = { Glesk� Duta Iyotake Witko Luta Kohkophapi Sapa Huste Thankja
@@ -14544,7 +15132,24 @@ muskogean = {
 		}
 	}
 	
+	#Southern
 	choctaw = {
+		color = {180 40 15}
+		first_names = { John Tahlonteeskee Takatoka Charles William Lweis Dennis Joel Thomas Frank Andrew Edward
+		}
+		last_names = { Ross Downing Potter Thompson Wolf Mayes Buffington Harris Rogers Boudinot
+		}
+	}
+	
+	houma = {
+		color = {180 40 15}
+		first_names = { John Tahlonteeskee Takatoka Charles William Lweis Dennis Joel Thomas Frank Andrew Edward
+		}
+		last_names = { Ross Downing Potter Thompson Wolf Mayes Buffington Harris Rogers Boudinot
+		}
+	}
+	
+	bayoguala = {
 		color = {180 40 15}
 		first_names = { John Tahlonteeskee Takatoka Charles William Lweis Dennis Joel Thomas Frank Andrew Edward
 		}

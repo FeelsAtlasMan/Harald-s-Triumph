@@ -1,9 +1,6 @@
 capital = 2172
 primary_culture = cajun
-culture = mexican
-culture = central_american
-culture = aquitan
-religion = catholic
+religion = gallician
 government = colonial_company
 plurality = 0.2
 nationalvalue = nv_equality
@@ -13,7 +10,7 @@ prestige = 2
 
 
 # Political reforms
-slavery = no_slavery
+slavery = yes_slavery
 upper_house_composition = appointed
 vote_franschise = none_voting
 public_meetings = yes_meeting
@@ -40,7 +37,7 @@ child_labor = child_labor_legal
 citizens_rights = culture_voting_only
 border_policy = open_borders
 centralization = federalism
-colonial_policy = no_colonies 
+colonial_policy = settlement
 
 # Technologies
 post_napoleonic_thought = 1
