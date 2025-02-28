@@ -116,13 +116,13 @@ country_event = {
 	        call_ally = no
         }
 		set_country_flag = went_to_war_over_elsterberg
-		ai_chance = { factor = 55 }
+		ai_chance = { factor = 15 }
 	}
 	
 	option = {
 		name = "...try to bribe them?"
 		BOH = { country_event = 800011 }
-		ai_chance = { factor = 45 }
+		ai_chance = { factor = 85 }
 	}
 	
 	option = {
@@ -148,13 +148,13 @@ country_event = {
 	option = {
 		name = "Now we are talking!"
 		THU = { country_event = 800112 }
-		ai_chance = { factor = 15 }
+		ai_chance = { factor = 45 }
 	}
 	
 	option = {
 		name = "This is getting ridicolous."
 		THU = { country_event = 800113 }
-		ai_chance = { factor = 75 }
+		ai_chance = { factor = 45 }
 	}
 }
 
@@ -271,5 +271,21 @@ country_event = {
 		3879 = { remove_core = BOH }
 		THU = { clr_country_flag = humiliate_succ }
 		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 182107
+	title = "The Shadow County"
+	desc = "EVTDESC182107"
+	picture = "polish_uprising_aus"
+	
+	fire_only_once = yes
+	
+	trigger = {
+	    tag = BRB
+	}
+	option = {
+		name = "Freiheit, Gleichheit, Brüderlichkeit?"
 	}
 }

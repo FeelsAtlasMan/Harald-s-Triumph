@@ -2,25 +2,25 @@
 #Brussels (772000/193000 POPS)
 387 = {
 	clergymen = {
-		culture = ashkenazi
+		culture = dutch
 		religion = jewish
 		size = 25
 	}
 
 	clerks = {
-		culture = ashkenazi
+		culture = dutch
 		religion = jewish
 		size = 500
 	}
 
 	craftsmen = {
-		culture = ashkenazi
+		culture = dutch
 		religion = jewish
 		size = 1100
 	}
 
 	artisans = {
-		culture = ashkenazi
+		culture = dutch
 		religion = jewish
 		size = 1100
 	}
@@ -88,7 +88,13 @@
 	labourers = {
 		culture = dutch
 		religion = catholic
-		size = 50725
+		size = 47000
+	}
+	
+	labourers = {
+		culture = rhine_franconian
+		religion = catholic
+		size = 3725
 	}
 
 	aristocrats = {
@@ -532,34 +538,35 @@
 		size = 25
 	}
 }
+
 #Hasselt (272000/68000 POPS)
 391 = {
 	aristocrats = {
-		culture = central_franconian
+		culture = rhine_franconian
 		religion = catholic
 		size = 650
 	}
 
 	clergymen = {
-		culture = central_franconian
+		culture = rhine_franconian
 		religion = catholic
 		size = 475
 	}
 
 	artisans = {
-		culture = central_franconian
+		culture = rhine_franconian
 		religion = catholic
 		size = 3700
 	}
 
 	soldiers = {
-		culture = central_franconian
+		culture = rhine_franconian
 		religion = catholic
 		size = 1100
 	}
 
 	farmers = {
-		culture = central_franconian
+		culture = rhine_franconian
 		religion = catholic
 		size = 57000
 	}
@@ -569,8 +576,12 @@
 		religion = catholic
 		size = 5175
 	}
-
-
+    
+	artisans = {
+		culture = picard
+		religion = catholic
+		size = 700
+	}
 }
 #Wallonia Region (1432000)
 #Namur (388000/97000 POPS)
@@ -636,25 +647,25 @@
 	}
 
 	clergymen = {
-		culture = central_franconian
+		culture = rhine_franconian
 		religion = catholic
 		size = 150
 	}
 
 	artisans = {
-		culture = central_franconian
+		culture = rhine_franconian
 		religion = catholic
 		size = 1000
 	}
 
 	soldiers = {
-		culture = central_franconian
+		culture = rhine_franconian
 		religion = catholic
 		size = 125
 	}
 
 	labourers = {
-		culture = central_franconian
+		culture = rhine_franconian
 		religion = catholic
 		size = 7825
 	}
@@ -681,6 +692,12 @@
 		culture = dutch
 		religion = catholic
 		size = 35925
+	}
+	
+	farmers = {
+		culture = yenish
+		religion = catholic
+		size = 155
 	}
 }
 #Tournai (292000/73000 POPS)
@@ -831,6 +848,7 @@
 		size = 15000
 	}
 }
+
 #Boullion (212000/53000 POPS)
 3693 = {
 	aristocrats = {
@@ -870,31 +888,31 @@
 	}
 	
     aristocrats = {
-		culture = central_franconian
+		culture = rhine_franconian
 		religion = catholic
 		size = 30
 	}
 
 	clergymen = {
-		culture = central_franconian
+		culture = rhine_franconian
 		religion = catholic
 		size = 20
 	}
 
 	artisans = {
-		culture = central_franconian
+		culture = rhine_franconian
 		religion = catholic
 		size = 10
 	}
 
 	soldiers = {
-		culture = central_franconian
+		culture = rhine_franconian
 		religion = catholic
 		size = 10
 	}
 	
 	farmers = {
-		culture = central_franconian
+		culture = rhine_franconian
 		religion = catholic
 		size = 800
 	}
@@ -939,43 +957,43 @@
 	}
 	
     aristocrats = {
-		culture = central_franconian
+		culture = rhine_franconian
 		religion = catholic
 		size = 350
 	}
 
 	clergymen = {
-		culture = central_franconian
+		culture = rhine_franconian
 		religion = catholic
 		size = 200
 	}
 
 	clerks = {
-		culture = central_franconian
+		culture = rhine_franconian
 		religion = catholic
 		size = 100
 	}
 	
 	craftsmen = {
-		culture = central_franconian
+		culture = rhine_franconian
 		religion = catholic
 		size = 1000
 	}
 
 	artisans = {
-		culture = central_franconian
+		culture = rhine_franconian
 		religion = catholic
 		size = 1200
 	}
 
 	soldiers = {
-		culture = central_franconian
+		culture = rhine_franconian
 		religion = catholic
 		size = 1100
 	}
 
 	farmers = {
-		culture = central_franconian
+		culture = rhine_franconian
 		religion = catholic
 		size = 21000
 	}
@@ -985,66 +1003,72 @@
 		religion = catholic
 		size = 2800
 	}
+	
+	farmers = {
+		culture = yenish
+		religion = catholic
+		size = 120
+	}
 }
 
 #Spa - Eupen-Malmedy (144000/36000 POPS)
 396 = {
 	aristocrats = {
-		culture = central_franconian
+		culture = rhine_franconian
 		religion = protestant
 		size = 50
 	}
 
 	clergymen = {
-		culture = central_franconian
+		culture = rhine_franconian
 		religion = protestant
 		size = 200
 	}
 
 	artisans = {
-		culture = central_franconian
+		culture = rhine_franconian
 		religion = protestant
 		size = 450
 	}
 
 	soldiers = {
-		culture = central_franconian
+		culture = rhine_franconian
 		religion = protestant
 		size = 1200
 	}
 
 	farmers = {
-		culture = central_franconian
+		culture = rhine_franconian
 		religion = protestant
 		size = 10375
 	}
 	
 	aristocrats = {
-		culture = central_franconian
+		culture = rhine_franconian
 		religion = catholic
 		size = 5
 	}
 
 	clergymen = {
-		culture = central_franconian
+		culture = rhine_franconian
 		religion = catholic
 		size = 20
 	}
 
 	artisans = {
-		culture = central_franconian
+		culture = rhine_franconian
 		religion = catholic
 		size = 50
 	}
 
 	soldiers = {
-		culture = central_franconian
+		culture = rhine_franconian
 		religion = catholic
 		size = 200
 	}
 
 	farmers = {
-		culture = central_franconian
+		culture = rhine_franconian
 		religion = catholic
 		size = 3375
 	}
@@ -1062,49 +1086,56 @@
 	}
 
 }
+
 #Luxembourg Region (172000)
 #Arlon (172000/43000 POPS)
 398 = {
 	aristocrats = {
-		culture = central_franconian
+		culture = rhine_franconian
 		religion = protestant
 		size = 450
 	}
 
 	clergymen = {
-		culture = central_franconian
+		culture = rhine_franconian
 		religion = protestant
 		size = 225
 	}
 
 	artisans = {
-		culture = central_franconian
+		culture = rhine_franconian
 		religion = protestant
 		size = 1350
 	}
 
 	soldiers = {
-		culture = central_franconian
+		culture = rhine_franconian
 		religion = protestant
 		size = 1100
 	}
 	
 	farmers = {
-		culture = central_franconian
+		culture = rhine_franconian
 		religion = protestant
 		size = 19500
 	}
 	
 	artisans = {
-		culture = central_franconian
+		culture = rhine_franconian
 		religion = catholic
 		size = 250
 	}
 	
 	farmers = {
-		culture = central_franconian
+		culture = rhine_franconian
 		religion = catholic
 		size = 7200
+	}
+	
+	farmers = {
+		culture = yenish
+		religion = catholic
+		size = 110
 	}
 	
 	artisans = {

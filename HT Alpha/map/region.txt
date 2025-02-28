@@ -201,16 +201,16 @@ NET_385 = { 385 383 543 3259 } #Friesland
 
 BEL_387 = { 387 390 391 3291 379 380 } #Brabant
 
-BEL_394 = { 394 392 404 3693 } #Wallonia
+BEL_394 = { 394 392 404 } #Wallonia
 
-LUX_397 = { 397 396 398 3292 3293 395 } #Luxemburg
+LUX_397 = { 397 396 398 395 } #Luxemburg
 
 
 ### France
 
-FRA_403 = { 403 402 2570 401} #Picardie
+FRA_403 = { 402 401 4394 4395 4396 4397 2570 } #Picardie
 
-FRA_406 = { 406 405 408 407 } #Champagne
+FRA_406 = { 406 405 408 407 3693 } #Champagne
 
 FRA_400 = { 400 399 393 388 389 } #French Flanders
 
@@ -222,13 +222,13 @@ FRA_418 = { 418 415 416 417 } #Normandie
 
 FRA_420 = { 420 421 422 423 424 } #Bretagne 
 
-FRA_425 = { 425 426 427 } #Ile de France
+FRA_425 = { 425 427 403 } #Ile de France
 
 FRA_428 = { 428 429 } #Bourgogne 
 
 FRA_435 = { 435 437 436 } #Loire 
 
-FRA_438 = { 438 439 440 441 } #Region Centre
+FRA_438 = { 438 439 440 441 426 } #Region Centre
 
 FRA_442 = { 442 444 443 434 } #Poitou
 
@@ -236,7 +236,7 @@ FRA_445 = { 445 446 } #Limousin
 
 FRA_448 = { 448 430 } #Auvergne 
 
-FRA_451 = { 451 452 454 465 466 431 } #Rhone - Cisjurana
+FRA_451 = { 451 452 454 465 466 3292 } #Rhone - Cisjurana
 
 FRA_455 = { 458 456 450 462 447 4314 } #Le Midi - Guyenne
 
@@ -246,7 +246,7 @@ FRA_461 = { 455 461 463 449 457 4315 453 } #Languedoc
 
 #SAR_466 = { } #Savoie
 
-FRA_432 = { 432 433 } #Franche-Comte
+FRA_432 = { 432 433 3293 431 } #Franche-Comte
 
 
 ### Spain & Portugal
@@ -289,7 +289,7 @@ POR_2134 = { 2134 2135 2136 } #Macaronesia
 
 FRA_409 = { 409 410 3714 3715 3711 586 587 } #Alsace-Baden
 
-HAN_528 = { 532 553 557 } #Ostfalen
+HAN_528 = { 532 553 557 4391 4392 4393  } #Ostfalen
 
 HAN_534 = { 534 536 537 585 3267 } #Hannover
 
@@ -307,11 +307,11 @@ THU_556 = { 556 559 560 3878 3879 3880 4390 } #Ostthüringen
 
 SAX_558 = { 558 687 552 549 } #Lusatia
 
-PRU_570 = { 570 2560 564 565 3270 566 567 568 3257 596 } #Hessen
+PRU_570 = { 3270 566 567 568 3257 } #Hessen
 
-PRU_575 = { 576 575 3281 381 } #Rheinland
+PRU_575 = { 576 575 3281 381 4398 } #Rheinland
 
-PRU_572 = { 572 574 573 3694 3254 } #Southern Rhineland
+PRU_572 = { 572 574 573 3694 } #Southern Rhineland
 
 PRU_578 = { 578 579 2561 3265 } #Eastern Rheinland
 
@@ -325,7 +325,7 @@ BAV_595 = { 595 597 598 3697 3698 3701 3703 563 } #Franconia
 
 BAV_599 = { 599 600 601 602 3699 3700 3702 3704 3279 } #Bavaria
 
-BAD_571 = { 571 3695 3696 569 } #Speyer
+BAD_571 = { 570 571 3695 3696 569 3254 564 565 596 2560 } #Kurrhein
 
 BAV_613 = { 613 622 3298 } #Ostmark
 

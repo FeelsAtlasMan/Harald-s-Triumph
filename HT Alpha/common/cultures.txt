@@ -47,8 +47,33 @@ continental_west_germanic = {
 		"von Wrangel" "von Zieten" "zur Lippe" "von Roon" }
 	}
 	
-	rhine_meuse_franconian = { #Low Frankish
-		color = { 95 55 55 }
+	rhine_franconian = { #Ripuarian, Meuse-Rhenish, Luxemburgish, etc.
+		color = { 105 55 55 }
+		first_names = { 
+			Adolf Adriaan Alexander Andreas Antoon Andries Antonius Abraham Barthout Casimir Constantijn Cornelis Christiaan Christoffel 
+			Dani�l David Dominicus Daniel Dirk Elias Ernst Erwin Eise Frans Frederik Gijsbert Godfried Gustaaf Gaspar Gabriel Gerard Gerben
+			Hendrik Hans Hugo Isaac Johan Jurgen Jacob Jeroen Jan Joost Karel Kasper Luuk Lodewijk Laurens Marius Matthijs Maximiliaam Merkus Moritz Maurits
+			Nikolaas Pauwel Paul Pieter Quinten Rafa�l Ruben Rudolf Roeland Rogier Rutger Stefan Simon Thomas Victor Willem Vincent Zacharias }
+		
+		last_names = { 
+			"van der Aa" "van Assendelft" Boetge Boumeester "van Bronkhorst" Batenburg Bentinck Boreel Brandt "van Brederode" Brouwer Buyskes "van Braam Houckgeest"
+			"van der Capellen" Chass� Cochius Coops "de Casembroot" Cleerens Coehoorn Coen "de Constant Rebecque" Crijnssen "van Culemborg"
+			Duycker	"de Eerens" "de Kock" Deijkerhoff "den Beer Poortugael" Daendels "van Diemen" "van der Does" "van Duivenvoorde"
+			Ellis Engels Engelvaart "van Egmont" Evertzen Fabius Gregory "van Galen" "de Grouwe" "van Geen" 
+			"van Ham" "van Haren" "van Heemskerck" "van Heutsz" "Cort-Heyligers" "de Houtman" "van Huchtenbroek" "van Ilpendam" Janssens
+			K�hler Kool Kruys Kater "van Keppel" Kortenaer List Lucas Michiels "van Marnix" Martena "de Moor" "Melvill van Carnbee" 
+			Nepveu Nachtegaal "van Nieuwenaar" "van Noort" Ongerboer "van Pallandt"
+			Rijk R�ell "van Raephorst" "van Rechteren" Reijersen "van Renesse" "van Riebeeck" "de Rijk" "van Rossum"
+			Sabron "Schimmelpenninck van der Oye" "van Saksen-Weimar" "van Spilbergen" Staal Stokhuyzen Schouten Schenk Spiegel 	
+			Steltman Stuyvesant Tasman "van Troyen" Trip "van Dambenoy" "van den Bosch" "van der Heijden" "van Hoensbroeck" "van Oranje-Nassau" "van Swieten" 
+			"van Vredenburch" Verspijck Vetter Weitzel "Van Utenhove"
+			"van Walbeeck" "van Wassenaer" "van der Werff" "van Wesembeke" "van Wingle" "van der Wijck" "van Wijngaarden" "de Winter"
+			Wolterbeek
+		}
+	}
+	
+	common_german = { #Standard German, based on Rhine Franconian and West Saxon dialects
+		color = { 105 55 55 }
 		first_names = { 
 			Adolf Adriaan Alexander Andreas Antoon Andries Antonius Abraham Barthout Casimir Constantijn Cornelis Christiaan Christoffel 
 			Dani�l David Dominicus Daniel Dirk Elias Ernst Erwin Eise Frans Frederik Gijsbert Godfried Gustaaf Gaspar Gabriel Gerard Gerben
@@ -73,7 +98,7 @@ continental_west_germanic = {
 	}
 	
 	central_franconian = { 
-		color = { 105 70 70 }
+		color = { 125 75 75 }
 		first_names = { Adolf Albrecht Alexander Alfons Alois Anton Arthur Bernhard Christian
 		Edmund Eduard Engelbert Ernst Erwin Ferdinand Franz Friedrich Gebhard Gerhard Gottfried
 		G�nther Gustav Heinrich Hermann Horst Jakob Joachim Johann Joseph
@@ -88,7 +113,7 @@ continental_west_germanic = {
 	}
 	
 	thuringian = { 
-		color = { 115 85 85 }
+		color = { 115 65 65 }
 		first_names = { Adolf Albrecht Alexander Alfons Alois Anton Arthur Bernhard Christian
 		Edmund Eduard Engelbert Ernst Erwin Ferdinand Franz Friedrich Gebhard Gerhard Gottfried
 		G�nther Gustav Heinrich Hermann Horst Jakob Joachim Johann Joseph
@@ -149,6 +174,21 @@ continental_west_germanic = {
 	
 	south_german = { #Bavarian
 		color = { 135 115 115 }
+		first_names = { Adolf Albrecht Alexander Alfons Alois Anton Arthur Bernhard Christian
+		Edmund Eduard Engelbert Ernst Erwin Ferdinand Franz Friedrich Gebhard Gerhard Gottfried
+		G�nther Gustav Heinrich Hermann Horst Jakob Joachim Johann Joseph
+		Julius Karl Konrad Kurt Leonhard Leopold Lorenz Lothar Ludwig Maximilian
+		Michael Otto Reinhold Rudolf Stefan Theodor Viktor Walter Werner Wilhelm }
+		
+		last_names = { Beck-Rzikowsky Blos Dankl Eisner Geiss Goering Hainisch Haus Held Hellpach
+		Hoffmann Hummel K�hler Mergenthaler Miklas Remmele Schmitt Schobber Seitz Steeb
+		Stolzer Trunk "von Baden" "von Benedek" "von B�hm-Ermolli" "von Brudermann" "von Clam-Gallas" "von der Tann" "von Dietrich" "von Gablenz"
+		"von Gr�nne" "von Habsburg" "von Hartmann" "von Haynau" "von Hess" "von Hohenhausen" "d'Aspre von Hoobreuk" "von Hortstein" "von H�tzendorf" "von Kirbach"
+		"von Kobratin" "von Sch�nburg" "von Tegetthoff" "von Uchatius" "von Wittelsbach" "von W�rttemberg" "von Zahringen" Wagner Wittmann "zu Hohenlohe" }
+	}
+	
+	upper_common_german = { #standardized South German, based on Alemannic
+		color = { 165 145 145 }
 		first_names = { Adolf Albrecht Alexander Alfons Alois Anton Arthur Bernhard Christian
 		Edmund Eduard Engelbert Ernst Erwin Ferdinand Franz Friedrich Gebhard Gerhard Gottfried
 		G�nther Gustav Heinrich Hermann Horst Jakob Joachim Johann Joseph
@@ -233,6 +273,17 @@ continental_west_germanic = {
 		"von Reuter" "von Richthofen" "von Sachsen-Altenburg" "von Sachsen-Coburg-Gotha" "von Sachsen-Meiningen" 
 		"von Sachsen-Weimar-Eisenach" "von Schlieffen" "von Schwarzburg" "von Spee" "von Tirpitz" "von Waldeck und Pyrmont" "von Wettin" 
 		"von Wrangel" "von Zieten" "zur Lippe" "von Roon" }
+	}
+	
+	yenish = { 
+		color = { 140 65 65 }
+		first_names = { Adelbert Adolf Albrecht Alexander Alfred August Bernhard Burkhard Dieter
+		Eduard Edwin Erwin Erich Ernst Florian Franz Friedrich Fritz Georg G�nther
+		Gustav Hasso Heinrich Helmuth Hermann Hugo Joachim Johann J�rgen Karl
+		Konrad Leonhard Leopold Ludwig Lukas Manfred Maximilian Michael Nikolaus Otto
+		Pascal Paul Peter Reinhard Rudolf Ruprecht Stefan Theodor Wilhelm Wolfgang }
+		
+		last_names = { Behncke Brommy Cordemann Dreyer Droste Groener Heppendorf Hoffmann Krohn Ludendorff Schree }
 	}
 	
 	ashkenazi = { 
@@ -5299,6 +5350,14 @@ indo_aryan = {
 	#Dom-Rom-Lom 
 	gypsy = { #Romani
 	    color = {16 102 163}
+		first_names = { Amberline Belcher Baul Bavol Bersh Beval Bidshika Brishen Camlo Chik Cam Chaine Chal  Chavula Danior Dukker Durriken Durril Dangerfield Garridan Gillie Guibran Goliath Gilderoy Hezekiah Jal Javert Jibben Jivin Ker Lel Lennor Lendar Lensar Mander Merripen Mestipen  Major Nehemiah Pal Pattin Pias Pov Rye Stiggur Shadrack Silvanus Tas Tobar Tobbar Tawno Tem Terkari Vandlo Wen Wesh Yarb }
+		
+		last_names = { Petulengro Vardo-mescro Chumomisto Gry Balorengre Purrum Bedra-kero Camlo Mokkado Baremescre Baryor Beshaley Kaulo }
+		radicalism = 1
+	}
+	
+	sinti_manush = { #Sintitikes-Manush
+	    color = {146 102 133}
 		first_names = { Amberline Belcher Baul Bavol Bersh Beval Bidshika Brishen Camlo Chik Cam Chaine Chal  Chavula Danior Dukker Durriken Durril Dangerfield Garridan Gillie Guibran Goliath Gilderoy Hezekiah Jal Javert Jibben Jivin Ker Lel Lennor Lendar Lensar Mander Merripen Mestipen  Major Nehemiah Pal Pattin Pias Pov Rye Stiggur Shadrack Silvanus Tas Tobar Tobbar Tawno Tem Terkari Vandlo Wen Wesh Yarb }
 		
 		last_names = { Petulengro Vardo-mescro Chumomisto Gry Balorengre Purrum Bedra-kero Camlo Mokkado Baremescre Baryor Beshaley Kaulo }

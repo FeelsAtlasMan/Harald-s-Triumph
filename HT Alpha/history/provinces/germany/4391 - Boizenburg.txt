@@ -1,0 +1,13 @@
+owner = SCL
+controller = SCL
+add_core = SCL
+add_core = GER
+trade_goods = fruit
+terrain = forest
+life_rating = 35
+state_building = {
+	level = 1
+	building = liquor_distillery #Fruit Mills of Wittenberge
+	upgrade = yes
+}
+

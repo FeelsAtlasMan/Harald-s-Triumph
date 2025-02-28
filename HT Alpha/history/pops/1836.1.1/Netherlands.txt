@@ -157,15 +157,10 @@
 		size = 7182
 	}
 }
+
 #Limburg-Gelderland Region - 979400
 #Eindhoven (230000/57500 POPS)
-379 = {
-	artisans = {
-		culture = ashkenazi
-		religion = jewish
-		size = 235
-	}
-	
+379 = {	
 	aristocrats = {
 		culture = dutch
 		religion = catholic
@@ -193,37 +188,43 @@
 	farmers = {
 		culture = dutch
 		religion = catholic
-		size = 47000
+		size = 44000
+	}
+	
+	artisans = {
+		culture = dutch
+		religion = jewish
+		size = 235
 	}
 	
 	farmers = {
-		culture = ashkenazi
+		culture = dutch
 		religion = jewish
 		size = 470
 	}
 	
 	clergymen = {
-		culture = central_franconian
+		culture = rhine_franconian
 		religion = catholic
 		size = 752
 	}
 	
 	artisans = {
-		culture = central_franconian
+		culture = rhine_franconian
 		religion = catholic
 		size = 261
 	}
 	
 	soldiers = {
-		culture = central_franconian
+		culture = rhine_franconian
 		religion = catholic
 		size = 94
 	}
 	
 	farmers = {
-		culture = central_franconian
+		culture = rhine_franconian
 		religion = catholic
-		size = 2394
+		size = 5394
 	}
 }
 #Breda (173200/43300 POPS)
@@ -257,165 +258,166 @@
 #Maastricht/Limburg (164200/41050 POPS)
 381 = {
 	aristocrats = {
-		culture = central_franconian
+		culture = rhine_franconian
 		religion = catholic
 		size = 300
 	}
 
 	clergymen = {
-		culture = central_franconian
+		culture = rhine_franconian
 		religion = catholic
 		size = 400
 	}
 
 	artisans = {
-		culture = central_franconian
+		culture = rhine_franconian
 		religion = catholic
 		size = 4100
 	}
 	
 	soldiers = {
-		culture = central_franconian
+		culture = rhine_franconian
 		religion = catholic
 		size = 1100
 	}
 	
 	farmers = {
-		culture = central_franconian
+		culture = rhine_franconian
 		religion = catholic
 		size = 17850
 	}
 	
 	aristocrats = {
-		culture = central_franconian
+		culture = rhine_franconian
 		religion = catholic
 		size = 300
 	}
 
 	clergymen = {
-		culture = central_franconian
+		culture = rhine_franconian
 		religion = catholic
 		size = 200
 	}
 
 	artisans = {
-		culture = central_franconian
+		culture = rhine_franconian
 		religion = catholic
 		size = 1100
 	}
 
 	soldiers = {
-		culture = central_franconian
+		culture = rhine_franconian
 		religion = catholic
 		size = 1100
 	}
 	
 	artisans = {
-		culture = central_franconian
+		culture = rhine_franconian
 		religion = catholic
 		size = 900
 	}
 
 	farmers = {
-		culture = central_franconian
+		culture = rhine_franconian
 		religion = catholic
 		size = 29350
 	}
 	
 	aristocrats = {
-		culture = central_franconian
+		culture = rhine_franconian
 		religion = catholic
 		size = 300
 	}
 
 	clergymen = {
-		culture = central_franconian
+		culture = rhine_franconian
 		religion = catholic
 		size = 200
 	}
 
 	artisans = {
-		culture = central_franconian
+		culture = rhine_franconian
 		religion = catholic
 		size = 1100
 	}
 
 	soldiers = {
-		culture = central_franconian
+		culture = rhine_franconian
 		religion = catholic
 		size = 1100
 	}
 	
 	artisans = {
-		culture = central_franconian
+		culture = rhine_franconian
 		religion = catholic
 		size = 900
 	}
 
 	farmers = {
-		culture = central_franconian
+		culture = rhine_franconian
 		religion = catholic
 		size = 18100
 	}
 }
+
 #Arnhem (412000/103000 POPS)
 382 = {
 	artisans = {
-		culture = ashkenazi
+		culture = rhine_franconian
 		religion = jewish
 		size = 470
 	}
 	
 	aristocrats = {
-		culture = dutch
+		culture = rhine_franconian
 		religion = catholic
 		size = 799
 	}
 	
 	bureaucrats = {
-		culture = dutch
+		culture = rhine_franconian
 		religion = catholic
-		size = 564
+		size = 264
 	}
 	
 	clergymen = {
-		culture = dutch
+		culture = rhine_franconian
 		religion = catholic
-		size = 3640
+		size = 1640
 	}
 	
 	artisans = {
-		culture = dutch
+		culture = rhine_franconian
 		religion = catholic
 		size = 5481
 	}
 	
 	soldiers = {
-		culture = dutch
+		culture = rhine_franconian
 		religion = catholic
 		size = 1316
 	}
 	
 	farmers = {
-		culture = dutch
+		culture = rhine_franconian
 		religion = catholic
 		size = 80569
 	}
 	
 	clergymen = {
-		culture = central_franconian
+		culture = dutch
 		religion = catholic
-		size = 2047
+		size = 347
 	}
 	
 	artisans = {
-		culture = central_franconian
+		culture = dutch
 		religion = catholic
 		size = 5235
 	}
 	
 	farmers = {
-		culture = central_franconian
+		culture = dutch
 		religion = catholic
 		size = 13008
 	}
@@ -477,6 +479,7 @@
 		size = 33323
 	}
 }
+
 #Zwolle (238000/59500 POPS)
 384 = {
 	aristocrats = {
@@ -484,40 +487,41 @@
 		religion = catholic
 		size = 470
 	}
+	
 	clergymen = {
 		culture = north_german
 		religion = catholic
 		size = 470
 	}
+	
 	artisans = {
 		culture = north_german
 		religion = catholic
 		size = 3666
 	}
+	
 	soldiers = {
 		culture = north_german
 		religion = catholic
 		size = 2820
 	}
-	soldiers = {
-		culture = north_german
-		religion = catholic
-		size = 94
-	}
+	
 	farmers = {
 		culture = north_german
 		religion = catholic
-		size = 38352
+		size = 36352
 	}
+	
 	artisans = {
-		culture = north_german
+		culture = dutch
 		religion = catholic
 		size = 94
 	}
+	
 	farmers = {
-		culture = north_german
+		culture = dutch
 		religion = catholic
-		size = 846
+		size = 2846
 	}
 }
 #Leeuwarden (209200/52300 POPS)
