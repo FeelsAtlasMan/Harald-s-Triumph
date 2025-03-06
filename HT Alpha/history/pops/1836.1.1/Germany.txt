@@ -6089,7 +6089,7 @@
 	farmers = {
 		culture = rhine_franconian
 		religion = catholic
-		size = 77000
+		size = 57000
 	}
 	
 	aristocrats = {
@@ -6143,7 +6143,100 @@
 	farmers = {
 		culture = common_german
 		religion = catholic
-		size = 2400
+		size = 2000
+	}
+	
+	farmers = {
+		culture = sinti_manush
+		religion = catholic
+		size = 300
+	}
+	
+	farmers = {
+		culture = yenish
+		religion = catholic
+		size = 300
+	}
+}
+
+#Prüm
+4398 = {
+	aristocrats = {
+		culture = rhine_franconian
+		religion = catholic
+		size = 400 
+	}
+
+	clergymen = {
+		culture = rhine_franconian
+		religion = catholic
+		size = 400
+	}
+
+	craftsmen = {
+		culture = rhine_franconian
+		religion = catholic
+		size = 500
+	}
+
+	artisans = {
+		culture = rhine_franconian
+		religion = catholic
+		size = 625
+	}
+
+	soldiers = {
+		culture = rhine_franconian
+		religion = catholic
+		size = 1000
+	}
+
+	farmers = {
+		culture = rhine_franconian
+		religion = catholic
+		size = 20000
+	}
+	
+	aristocrats = {
+		culture = common_german
+		religion = catholic
+		size = 100 
+	}
+
+	clergymen = {
+		culture = common_german
+		religion = catholic
+		size = 100
+	}
+
+	clerks = {
+		culture = common_german
+		religion = catholic
+		size = 20
+	}
+
+	craftsmen = {
+		culture = common_german
+		religion = catholic
+		size = 100
+	}
+
+	artisans = {
+		culture = common_german
+		religion = catholic
+		size = 125
+	}
+
+	soldiers = {
+		culture = common_german
+		religion = catholic
+		size = 100
+	}
+	
+	farmers = {
+		culture = common_german
+		religion = catholic
+		size = 400
 	}
 	
 	farmers = {
