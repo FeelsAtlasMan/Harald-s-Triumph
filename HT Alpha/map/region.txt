@@ -199,7 +199,7 @@ NET_382 = { 382 384 386 577 } #Geldern
 
 NET_385 = { 385 383 543 3259 } #Friesland
 
-BEL_387 = { 387 390 391 3291 379 380 } #Brabant
+BEL_387 = { 387 390 391 379 380 } #Brabant
 
 BEL_394 = { 394 392 404 } #Wallonia
 
@@ -212,7 +212,7 @@ FRA_403 = { 402 401 4394 4395 4396 4397 2570 } #Picardie
 
 FRA_406 = { 406 405 408 407 3693 } #Champagne
 
-FRA_400 = { 400 399 393 388 389 } #French Flanders
+FRA_400 = { 400 399 393 388 389 3291 } #French Flanders
 
 FRA_411 = { 411 413 414 412 3710 3712 3713 } #Lorraine
 
@@ -236,7 +236,9 @@ FRA_445 = { 445 446 } #Limousin
 
 FRA_448 = { 448 430 } #Auvergne 
 
-FRA_451 = { 451 452 454 465 466 3292 } #Rhone - Cisjurana
+FRA_451 = { 465 466 4400 } #Rhone - Cisjurana
+
+FRA_452 = { 451 452 454 3292 } #Rhone
 
 FRA_455 = { 458 456 450 462 447 4314 } #Le Midi - Guyenne
 
@@ -287,7 +289,7 @@ POR_2134 = { 2134 2135 2136 } #Macaronesia
 
 ### Germany & Switzerland
 
-FRA_409 = { 409 410 3714 3715 3711 586 587 } #Alsace-Baden
+FRA_409 = { 409 410 3714 3715 3711 586 587 604 } #Alsace-Baden
 
 HAN_528 = { 532 553 557 4391 4392 4393  } #Ostfalen
 
@@ -319,7 +321,7 @@ PRU_578 = { 578 579 2561 3265 } #Eastern Rheinland
 
 PRU_580 = { 580 582 583 584 538 581 1743 542 } #Westfalen
 
-WUR_589 = { 589 590 591 593 3708 3253 588 } #Schwaben
+WUR_589 = { 589 590 591 593 3708 3253 588 4399 } #Schwaben
 
 WUR_592 = { 592 3706 614 3705 3707 } #Augsburg
 
@@ -331,11 +333,11 @@ BAD_571 = { 570 571 3695 3696 569 3254 564 565 596 2560 } #Kurrhein
 
 BAV_613 = { 613 622 3298 } #Ostmark
 
-SWI_606 = { 606 605 604 3272 603 } #Swiss Mittelland
+#SWI_606 = { } #Swiss Mittelland
 
-SWI_607 = { 607 608 609 3250 3271 } #R�gion L�manique
+SWI_607 = { 605 607 608 609 3250 3271 3272 } #R�gion L�manique
 
-SWI_603 = { 611 2669 } #Churrätien
+SWI_603 = { 611 606 603 2669 } #Churrätien
 
 PRU_695 = { 695 696 697 3431 3433 3938 } #Prusija
 
@@ -349,9 +351,9 @@ PRU_690 = { 690 691 693 3944 3946 } #Pomerelia
 
 POL_700 = { 700 694 3422 3943 } #Kujawy
 
-PRU_682 = { 682 683 3914 3915 3916 3917 3918 } #Lower Silesia
+PRU_682 = { 682 683 3914 3915 3916 3917 3918 3942 } #Lower Silesia
 
-BOH_684 = { 684 688 2584 685 689 3920 } #Upper Silesia
+BOH_684 = { 684 688 2584 685 689 3920 3359 } #Upper Silesia
 
 ### Austria
 
@@ -391,7 +393,7 @@ AUS_660 = { 660 663 2533 } #Szekelyland
 
 AUS_657 = { 657 659 655 656 3610 3908 3909 } #Southern Transylvania
 
-AUS_702 = { 703 704 3359 3948 3949 } #Galicia-Lodomeria
+AUS_702 = { 703 704 3948 3949 } #Galicia-Lodomeria
 
 AUS_662 = { 702 951 952 953 3278 3957 3958 3960 662 } #East Galicia
 
@@ -676,7 +678,7 @@ RUS_339 = { 339 984 995 988 2587 983 982 3361 } #Karelia
 
 RUS_706 = { 706 708 709 711 3950 } #Masovia
 
-RUS_712 = { 712 710 3942 3947 } #Sieradz
+RUS_712 = { 712 710 3947 } #Sieradz
 
 RUS_716 = { 716 713 714 } #Sandomer
 

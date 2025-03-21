@@ -1947,37 +1947,37 @@
 #Walcz
 692 = {
 	aristocrats = {
-		culture = kashubian
+		culture = polish
 		religion = catholic
 		size = 75
 	}
 
 	clergymen = {
-		culture = kashubian
+		culture = polish
 		religion = catholic
 		size = 75  
 	}
 
 	artisans = {
-		culture = kashubian
+		culture = polish
 		religion = catholic
 		size = 450
 	}
 
 	soldiers = {
-		culture = kashubian
+		culture = polish
 		religion = catholic
 		size = 1000
 	}
 
 	farmers = {
-		culture = kashubian
+		culture = polish
 		religion = catholic
 		size = 9950
 	}
 	
 	serfs = {
-		culture = kashubian
+		culture = polish
 		religion = catholic
 		size = 1200
 	}
@@ -3432,42 +3432,78 @@
 	}
 }
 
-#Wielun
+#Kepno
 3942 = {
+	aristocrats = {
+		culture = silesian
+		religion = catholic
+		size = 180 
+	}
+
+	soldiers = {
+		culture = silesian
+		religion = catholic
+		size = 500
+	}
+
+	clergymen = {
+		culture = silesian
+		religion = catholic
+		size = 150 
+	}
+
+	artisans = {
+		culture = silesian
+		religion = catholic
+		size = 2500
+	}
+
+	farmers = {
+		culture = silesian
+		religion = catholic
+		size = 14000
+	}
+	
+	serfs = {
+		culture = silesian
+		religion = catholic
+		size = 2500
+	}
+	
 	aristocrats = {
 		culture = polish
 		religion = catholic
-		size = 200 
+		size = 20 
 	}
 
 	soldiers = {
 		culture = polish
 		religion = catholic
-		size = 600
+		size = 100
 	}
 
 	clergymen = {
 		culture = polish
 		religion = catholic
-		size = 225 
+		size = 75 
 	}
 
 	artisans = {
 		culture = polish
 		religion = catholic
-		size = 3000
+		size = 500
 	}
 
 	farmers = {
 		culture = polish
 		religion = catholic
-		size = 27850
+		size = 13850
 	}
 	
 	serfs = {
 		culture = polish
 		religion = catholic
-		size = 3000
+		size = 500
 	}
 
 	clergymen = {
@@ -3660,25 +3696,25 @@
 	}
 
 	clergymen = {
-		culture = polish
+		culture = silesian
 		religion = catholic
 		size = 50
 	}
 	
 	soldiers = {
-		culture = polish
+		culture = silesian
 		religion = catholic
 		size = 50
 	}
 
 	artisans = {
-		culture = polish
+		culture = silesian
 		religion = catholic
 		size = 1150
 	}
 
 	farmers = {
-		culture = polish
+		culture = silesian
 		religion = catholic
 		size = 8800
 	}

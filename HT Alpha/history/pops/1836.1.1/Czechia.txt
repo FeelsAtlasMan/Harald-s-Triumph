@@ -1123,55 +1123,49 @@
 	aristocrats = {
 		culture = czech
 		religion = catholic
-		size = 1000 
+		size = 100 
 	}
 
 	clergymen = {
 		culture = czech
 		religion = catholic
-		size = 825 
+		size = 125 
 	}
 
 	artisans = {
 		culture = czech
 		religion = catholic
-		size = 7600
+		size = 700
 	}
 
 	soldiers = {
 		culture = czech
 		religion = catholic
-		size = 1100
+		size = 100
 	}
 
 	farmers = {
 		culture = czech
 		religion = catholic
-		size = 79015 
+		size = 5500 
+	}
+	
+	farmers = {
+		culture = south_german
+		religion = catholic
+		size = 1915 
 	}
 	
 	serfs = {
 		culture = czech
 		religion = catholic
-		size = 10100 
+		size = 1100 
 	}
 	
 	serfs = {
 		culture = gypsy
 		religion = catholic
-		size = 1200 
-	}
-
-	clergymen = {
-		culture = ashkenazi
-		religion = jewish
-		size = 100 
-	}
-
-	artisans = {
-		culture = ashkenazi
-		religion = jewish
-		size = 3000
+		size = 200 
 	}
 }
 

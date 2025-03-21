@@ -94,7 +94,19 @@
 	farmers = {
 		culture = alemannic
 		religion = catholic
-		size = 48520
+		size = 47520
+	}
+	
+	farmers = {
+		culture = yenish
+		religion = catholic
+		size = 600
+	}
+	
+	farmers = {
+		culture = sinti_manush
+		religion = catholic
+		size = 400
 	}
 	
 	aristocrats = {
@@ -119,6 +131,122 @@
 		culture = upper_common_german
 		religion = catholic
 		size = 200
+	}
+
+	artisans = {
+		culture = upper_common_german
+		religion = catholic
+		size = 150
+	}
+
+	soldiers = {
+		culture = upper_common_german
+		religion = catholic
+		size = 100
+	}
+
+	farmers = {
+		culture = upper_common_german
+		religion = catholic
+		size = 500
+	}
+}
+
+#St. Gallen
+4399 = {
+	aristocrats = {
+		culture = alemannic
+		religion = protestant
+		size = 150
+	}
+
+	clergymen = {
+		culture = alemannic
+		religion = protestant
+		size = 100
+	}
+	artisans = {
+		culture = alemannic
+		religion = protestant
+		size = 250
+	}
+
+	artisans = {
+		culture = upper_common_german
+		religion = jewish
+		size = 100
+	}
+
+	soldiers = {
+		culture = alemannic
+		religion = protestant
+		size = 200
+	}
+
+	farmers = {
+		culture = alemannic
+		religion = protestant
+		size = 7890
+	}
+
+	aristocrats = {
+		culture = alemannic
+		religion = catholic
+		size = 200
+	}
+
+	clergymen = {
+		culture = alemannic
+		religion = catholic
+		size = 450
+	}
+
+	clerks = {
+		culture = alemannic
+		religion = catholic
+		size = 270
+	}
+
+	artisans = {
+		culture = alemannic
+		religion = catholic
+		size = 1600
+	}
+
+	soldiers = {
+		culture = alemannic
+		religion = catholic
+		size = 1000
+	}
+
+	farmers = {
+		culture = alemannic
+		religion = catholic
+		size = 37820
+	}
+	
+	farmers = {
+		culture = yenish
+		religion = catholic
+		size = 500
+	}
+	
+	farmers = {
+		culture = sinti_manush
+		religion = catholic
+		size = 200
+	}
+	
+	aristocrats = {
+		culture = upper_common_german
+		religion = catholic
+		size = 50
+	}
+
+	clergymen = {
+		culture = upper_common_german
+		religion = catholic
+		size = 50
 	}
 
 	artisans = {
@@ -232,6 +360,18 @@
 		size = 4100
 	}
 	
+	farmers = {
+		culture = yenish
+		religion = catholic
+		size = 700
+	}
+	
+	farmers = {
+		culture = sinti_manush
+		religion = catholic
+		size = 200
+	}
+	
 	artisans = {
 		culture = upper_common_german
 		religion = catholic
@@ -310,7 +450,19 @@
 	farmers = {
 		culture = alemannic
 		religion = protestant
-		size = 78200
+		size = 77600
+	}
+	
+	farmers = {
+		culture = yenish
+		religion = protestant
+		size = 200
+	}
+	
+	farmers = {
+		culture = sinti_manush
+		religion = protestant
+		size = 400
 	}
 	
 	clergymen = {
@@ -590,6 +742,45 @@
 		culture = arpitan
 		religion = catholic
 		size = 1225
+	}
+}
+
+#Annis
+4400 = {
+	aristocrats = {
+		culture = burgundian
+		religion = protestant
+		size = 250
+	}
+
+	clergymen = {
+		culture = burgundian
+		religion = protestant
+		size = 525
+	}
+
+	artisans = {
+		culture = burgundian
+		religion = protestant
+		size = 6000
+	}
+
+	soldiers = {
+		culture = burgundian
+		religion = protestant
+		size = 750
+	}
+
+	farmers = {
+		culture = burgundian
+		religion = protestant
+		size = 23000
+	}
+	
+	farmers = {
+		culture = arpitan
+		religion = catholic
+		size = 12225
 	}
 }
 
