@@ -61,7 +61,7 @@ From;To;Type;Through;Data;Comment
 759;763;sea;2760;0;Strait of Messina
 759;763;sea;2757;0;Strait of Messina
 837;827;sea;2765;0;Ionian Islands Strait
-966;1049;sea;2776;0;Strait of Azov
+966;3348;sea;2776;0;Strait of Azov
 512;1686;sea;2746;0;Strait of Gibraltar - Cadiz to Tangiers
 331;332;sea;2710;0;Gotland Strait
 374;335;sea;2710;0;Bornholm Strait
@@ -73,8 +73,17 @@ From;To;Type;Through;Data;Comment
 995;1004;sea;3346;0;Swir River
 995;992;sea;3346;0;Swir River
 267;1724;sea;2735;0;Inverness - Orkney Strait
-780;782;land;2762;0;Mostar Bay
+#780;782;land;2762;0;Mostar Bay
 #301;388;sea;2724;0;Straits of Dover
+979;1047;sea;3373;0;Don Crossing
+4410;4409;sea;3373;0;Don Crossing
+4411;4408;sea;3373;0;Don Crossing
+4404;1140;sea;3372;0;Volga Crossing
+4405;1140;sea;3372;0;Volga Crossing
+4406;4402;sea;3372;0;Volga Crossing
+4407;4403;sea;3372;0;Volga Crossing
+4407;1036;sea;3372;0;Volga Crossing
+4403;1036;sea;3372;0;Volga Crossing
 
 #
 # Asian Straits
