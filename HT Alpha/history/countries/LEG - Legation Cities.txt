@@ -1,5 +1,7 @@
 capital = 1538
-primary_culture = raramuri
+primary_culture = tarahumara
+culture = guarijio
+culture = tubar
 religion = animist
 government = tribal_confederation
 plurality = 0.0
@@ -37,9 +39,11 @@ centralization = regionalism
 colonial_policy = no_colonies 
 
 
-set_country_flag = mahayana_country
+set_country_flag = animist_country
+set_country_flag = unciv
+set_country_flag = new_world_nation
 
-ruling_party = "Conservatives"
+ruling_party = "Tribal Council"
 upper_house = {
 	fascist = 0
 	liberal = 24

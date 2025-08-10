@@ -3,14 +3,14 @@ hussar = {
 	
 	type = land
 	sprite = Hussar
-	active = no
-	unit_type = cavalry
-	floating_flag = yes
-	#move_sound = cavalry_move
-	#select_sound = cavalry_selected
-	
-	#Avatar
-	sprite_override = Cavalry
+    active = no
+    unit_type = cavalry
+    floating_flag = yes
+    #move_sound = cavalry_move
+    #select_sound = cavalry_selected
+
+    #Avatar
+    sprite_override = Hussar
 	sprite_mount = GenericMount
 	sprite_mount_attach_node = Saddle_Node
 	

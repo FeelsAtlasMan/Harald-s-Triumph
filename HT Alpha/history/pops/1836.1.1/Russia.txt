@@ -4595,6 +4595,7 @@
 		size = 60000
 	}
 }
+
 #Nizhni Novgorod Region (4420000)
 #under the rule of Russia in 1836
 #Nizhni Novgorod (1068000/267000 POPS)
@@ -4602,13 +4603,13 @@
 	aristocrats = {
 		culture = russian
 		religion = orthodox
-		size = 200
+		size = 1200
 	}
 
 	bureaucrats = {
 		culture = russian
 		religion = orthodox
-		size = 875
+		size = 475
 	}
 
 	officers = {
@@ -4626,73 +4627,157 @@
 	artisans = {
 		culture = russian
 		religion = orthodox
-		size = 600
+		size = 3600
 	}
 
 	soldiers = {
 		culture = russian
 		religion = orthodox
-		size = 2650
+		size = 2050
 	}
 
 	farmers = {
 		culture = chuvashian
 		religion = orthodox
-		size = 5000
+		size = 500
 	}
 	
 	farmers = {
 		culture = mordvin
 		religion = orthodox
-		size = 20000
-	}
-	
-	farmers = {
-		culture = erzya
-		religion = sunni
-		size = 5975
+		size = 200
 	}
 	
 	farmers = {
 		culture = mari
 		religion = orthodox
-		size = 5000
+		size = 500
 	}
 	
 	farmers = {
 		culture = russian
 		religion = orthodox
-		size = 21775
+		size = 18775
 	}
 	
 	serfs = {
 		culture = russian
 		religion = orthodox
-		size = 17050
+		size = 40050
 	}
-
-	clergymen = {
-		culture = bulgar_tatar
-		religion = sunni
-		size = 500
-	}
-
-	artisans = {
-		culture = bulgar_tatar
-		religion = sunni
-		size = 1500
-	}
-
-	soldiers = {
-		culture = bulgar_tatar
-		religion = sunni
-		size = 2500
-	}
-
+	
 	farmers = {
 		culture = bulgar_tatar
 		religion = sunni
-		size = 10000
+		size = 2000
+	}
+	
+	artisans = {
+		culture = ashkenazi
+		religion = jewish
+		size = 300
+	}
+}
+
+#Brjachimow
+4441 = {
+	aristocrats = {
+		culture = russian
+		religion = orthodox
+		size = 400
+	}
+
+	clergymen = {
+		culture = russian
+		religion = orthodox
+		size = 150
+	}
+	
+	artisans = {
+		culture = russian
+		religion = orthodox
+		size = 200
+	}
+
+	soldiers = {
+		culture = russian
+		religion = orthodox
+		size = 1000
+	}
+	
+	farmers = {
+		culture = mari
+		religion = orthodox
+		size = 4500
+	}
+	
+	farmers = {
+		culture = chuvashian
+		religion = orthodox
+		size = 6000
+	}
+	
+	farmers = {
+		culture = bulgar_tatar
+		religion = orthodox
+		size = 2000
+	}
+	
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 2775
+	}
+	
+	serfs = {
+		culture = russian
+		religion = orthodox
+		size = 12050
+	}
+}
+
+#Uzhna
+4447 = {
+	aristocrats = {
+		culture = russian
+		religion = orthodox
+		size = 400
+	}
+
+	clergymen = {
+		culture = russian
+		religion = orthodox
+		size = 150
+	}
+	
+	artisans = {
+		culture = russian
+		religion = orthodox
+		size = 200
+	}
+
+	soldiers = {
+		culture = russian
+		religion = orthodox
+		size = 1050
+	}
+	
+	farmers = {
+		culture = mari
+		religion = orthodox
+		size = 1500
+	}
+	
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 4775
+	}
+	
+	serfs = {
+		culture = russian
+		religion = orthodox
+		size = 25050
 	}
 }
 
@@ -4733,23 +4818,11 @@
 		religion = orthodox
 		size = 1650
 	}
-
-	farmers = {
-		culture = bulgar_tatar
-		religion = sunni
-		size = 10000
-	}
-	
-	farmers = {
-		culture = chuvashian
-		religion = orthodox
-		size = 7975
-	}
 	
 	serfs = {
 		culture = russian
 		religion = orthodox
-		size = 23975
+		size = 13975
 	}
 
 	clergymen = {
@@ -4767,43 +4840,229 @@
 	soldiers = {
 		culture = mordvin
 		religion = orthodox
-		size = 2000
+		size = 1000
 	}
 
 	farmers = {
 		culture = mordvin
 		religion = orthodox
-		size = 30000
+		size = 15000
 	}
 	
 	serfs = {
 		culture = mordvin
 		religion = orthodox
-		size = 20000
+		size = 5000
 	}
 	
-	clergymen = {
-		culture = erzya
-		religion = sunni
-		size = 200
-	}
-
 	artisans = {
 		culture = erzya
 		religion = sunni
-		size = 300
+		size = 100
 	}
 
 	soldiers = {
 		culture = erzya
 		religion = sunni
-		size = 500
+		size = 100
 	}
 
 	farmers = {
 		culture = erzya
 		religion = sunni
-		size = 10000
+		size = 2000
+	}
+	
+	farmers = {
+		culture = bulgar_tatar
+		religion = sunni
+		size = 1000
+	}
+	
+	farmers = {
+		culture = chuvashian
+		religion = orthodox
+		size = 2975
+	}
+}
+
+#Ordatov
+4440 = {
+	aristocrats = {
+		culture = russian
+		religion = orthodox
+		size = 800
+	}
+
+	clergymen = {
+		culture = russian
+		religion = orthodox
+		size = 350
+	}
+
+	artisans = {
+		culture = russian
+		religion = orthodox
+		size = 2000
+	}
+	
+	soldiers = {
+		culture = russian
+		religion = orthodox
+		size = 1650
+	}
+	
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 3975
+	}
+	
+	serfs = {
+		culture = russian
+		religion = orthodox
+		size = 20000
+	}
+
+	clergymen = {
+		culture = mordvin
+		religion = orthodox
+		size = 100
+	}
+
+	artisans = {
+		culture = mordvin
+		religion = orthodox
+		size = 100
+	}
+
+	soldiers = {
+		culture = mordvin
+		religion = orthodox
+		size = 200
+	}
+
+	farmers = {
+		culture = mordvin
+		religion = orthodox
+		size = 1000
+	}
+	
+	serfs = {
+		culture = mordvin
+		religion = orthodox
+		size = 5000
+	}
+	
+	farmers = {
+		culture = bulgar_tatar
+		religion = sunni
+		size = 1000
+	}
+	
+	aristocrats = {
+		culture = mishar
+		religion = orthodox
+		size = 300
+	}
+
+	clergymen = {
+		culture = mishar
+		religion = orthodox
+		size = 150
+	}
+
+	artisans = {
+		culture = mishar
+		religion = orthodox
+		size = 1000
+	}
+	
+	soldiers = {
+		culture = mishar
+		religion = orthodox
+		size = 150
+	}
+	
+	farmers = {
+		culture = mishar
+		religion = orthodox
+		size = 4975
+	}
+}
+
+#Kechun
+4443 = {
+	aristocrats = {
+		culture = russian
+		religion = orthodox
+		size = 200
+	}
+
+	clergymen = {
+		culture = russian
+		religion = orthodox
+		size = 150
+	}
+
+	artisans = {
+		culture = russian
+		religion = orthodox
+		size = 200
+	}
+	
+	soldiers = {
+		culture = russian
+		religion = orthodox
+		size = 150
+	}
+	
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 8975
+	}
+	
+	serfs = {
+		culture = russian
+		religion = orthodox
+		size = 1000
+	}
+
+	clergymen = {
+		culture = mordvin
+		religion = orthodox
+		size = 200
+	}
+
+	artisans = {
+		culture = mordvin
+		religion = orthodox
+		size = 500
+	}
+
+	soldiers = {
+		culture = mordvin
+		religion = orthodox
+		size = 1400
+	}
+
+	farmers = {
+		culture = mordvin
+		religion = orthodox
+		size = 16000
+	}
+	
+	serfs = {
+		culture = mordvin
+		religion = orthodox
+		size = 2000
+	}
+	
+	farmers = {
+		culture = bulgar_tatar
+		religion = sunni
+		size = 7000
 	}
 }
 
@@ -4989,41 +5248,28 @@
 
 #Penza (952000/238000 POPS)
 1021 = {
-
 	aristocrats = {
 		culture = russian
 		religion = orthodox
-		size = 1575
-	}
-	
-	bureaucrats = {
-		culture = russian
-		religion = orthodox
-		size = 200
-	}
-	
-	officers = {
-		culture = russian
-		religion = orthodox
-		size = 100
+		size = 775
 	}
 
 	clergymen = {
 		culture = russian
 		religion = orthodox
-		size = 1100
+		size = 200
 	}
 
 	artisans = {
 	    culture = russian
 		religion = orthodox
-		size = 150
+		size = 450
 	}
 
 	soldiers = {
 		culture = russian
 		religion = orthodox
-		size = 3100
+		size = 1100
 	}
 
 	farmers = {
@@ -5033,23 +5279,171 @@
 	}
 	
 	farmers = {
-		culture = chuvashian
-		religion = orthodox
-		size = 4000
+		culture = bulgar_tatar
+		religion = sunni
+		size = 400
 	}
 	
 	farmers = {
 		culture = mordvin
 		religion = orthodox
-		size = 23775
+		size = 275
 	}
 	
 	farmers = {
 		culture = erzya
 		religion = sunni
-		size = 8000
+		size = 2000
 	}
 }
+
+#Insar
+4444 = {
+	aristocrats = {
+		culture = russian
+		religion = orthodox
+		size = 575
+	}
+
+	clergymen = {
+		culture = russian
+		religion = orthodox
+		size = 170
+	}
+
+	artisans = {
+	    culture = russian
+		religion = orthodox
+		size = 550
+	}
+
+	soldiers = {
+		culture = russian
+		religion = orthodox
+		size = 1400
+	}
+
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 20000
+	}
+	
+	farmers = {
+		culture = bulgar_tatar
+		religion = sunni
+		size = 5000
+	}
+	
+	farmers = {
+		culture = mordvin
+		religion = orthodox
+		size = 12775
+	}
+	
+	farmers = {
+		culture = erzya
+		religion = sunni
+		size = 1200
+	}
+}
+
+#Kerensk
+4445 = {
+	aristocrats = {
+		culture = russian
+		religion = orthodox
+		size = 375
+	}
+
+	clergymen = {
+		culture = russian
+		religion = orthodox
+		size = 100
+	}
+
+	artisans = {
+	    culture = russian
+		religion = orthodox
+		size = 350
+	}
+
+	soldiers = {
+		culture = russian
+		religion = orthodox
+		size = 1100
+	}
+
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 18000
+	}
+	
+	farmers = {
+		culture = bulgar_tatar
+		religion = sunni
+		size = 2000
+	}
+	
+	farmers = {
+		culture = mordvin
+		religion = orthodox
+		size = 13775
+	}
+}
+
+#Mokhshi
+4446 = {
+	aristocrats = {
+		culture = russian
+		religion = orthodox
+		size = 575
+	}
+
+	clergymen = {
+		culture = russian
+		religion = orthodox
+		size = 140
+	}
+
+	artisans = {
+	    culture = russian
+		religion = orthodox
+		size = 650
+	}
+
+	soldiers = {
+		culture = russian
+		religion = orthodox
+		size = 1100
+	}
+
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 18000
+	}
+	
+	farmers = {
+		culture = mishar
+		religion = orthodox
+		size = 2700
+	}
+	
+	farmers = {
+		culture = bulgar_tatar
+		religion = sunni
+		size = 700
+	}
+	
+	farmers = {
+		culture = mordvin
+		religion = orthodox
+		size = 15775
+	}
+}
+
 #Ivanovo (540000/135000 POPS)
 1022 = {
 	aristocrats = {
@@ -8147,7 +8541,13 @@
 	aristocrats = {
 		culture = erzya
 		religion = sunni
-		size = 350
+		size = 950
+	}
+	
+	bureaucrats = {
+		culture = erzya
+		religion = sunni
+		size = 150
 	}
 
 	clergymen = {
@@ -8159,7 +8559,7 @@
 	artisans = {
 		culture = erzya
 		religion = sunni
-		size = 2750
+		size = 750
 	}
 
 	soldiers = {
@@ -8171,31 +8571,31 @@
 	farmers = {
 		culture = erzya
 		religion = sunni
-		size = 40000
+		size = 30000
 	}
 	
 	clergymen = {
 		culture = mordvin
 		religion = orthodox
-		size = 150
+		size = 50
 	}
 
 	artisans = {
 		culture = mordvin
 		religion = orthodox
-		size = 750
+		size = 50
 	}
 
 	soldiers = {
 		culture = mordvin
 		religion = orthodox
-		size = 1350
+		size = 150
 	}
 
 	farmers = {
 		culture = mordvin
 		religion = orthodox
-		size = 20000
+		size = 2000
 	}
 	
 	aristocrats = {
@@ -8225,13 +8625,118 @@
 	farmers = {
 		culture = bulgar_tatar
 		religion = sunni
-		size = 8000
+		size = 6000
 	}
 	
 	farmers = {
 		culture = chuvashian
 		religion = sunni
-		size = 9000
+		size = 500
+	}
+	
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 8000
+	}
+}
+
+#Alatyr
+4442 = {
+	aristocrats = {
+		culture = erzya
+		religion = sunni
+		size = 1650
+	}
+
+	clergymen = {
+		culture = erzya
+		religion = sunni
+		size = 450
+	}
+
+	artisans = {
+		culture = erzya
+		religion = sunni
+		size = 2750
+	}
+
+	soldiers = {
+		culture = erzya
+		religion = sunni
+		size = 3350
+	}
+
+	farmers = {
+		culture = erzya
+		religion = sunni
+		size = 40000
+	}
+	
+	clergymen = {
+		culture = mordvin
+		religion = orthodox
+		size = 50
+	}
+
+	artisans = {
+		culture = mordvin
+		religion = orthodox
+		size = 50
+	}
+
+	soldiers = {
+		culture = mordvin
+		religion = orthodox
+		size = 150
+	}
+
+	farmers = {
+		culture = mordvin
+		religion = orthodox
+		size = 2000
+	}
+	
+	aristocrats = {
+		culture = bulgar_tatar
+		religion = sunni
+		size = 250
+	}
+
+	clergymen = {
+		culture = bulgar_tatar
+		religion = sunni
+		size = 150
+	}
+
+	artisans = {
+		culture = bulgar_tatar
+		religion = sunni
+		size = 550
+	}
+
+	soldiers = {
+		culture = bulgar_tatar
+		religion = sunni
+		size = 250
+	}
+
+	farmers = {
+		culture = bulgar_tatar
+		religion = sunni
+		size = 3000
+	}
+	
+	farmers = {
+		culture = chuvashian
+		religion = sunni
+		size = 4500
+	}
+	
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 8000
 	}
 }
 

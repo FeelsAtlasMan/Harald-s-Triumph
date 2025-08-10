@@ -156,22 +156,6 @@ tribal_confederation = { #Mieccotate
 	#flagType = monarchy
 }
 
-federal_democracy = {
-	liberal = yes
-	socialist = yes
-	conservative = yes
-	reactionary = yes
-	communist = yes
-	anarcho_liberal = yes
-	fascist = yes
-	religious_communist = yes
-	
-	election = yes
-	duration = 48
-	appoint_ruling_party = no
-	flagType = republic
-}
-
 theocracy = {
 	#which ideology of parties.
 	reactionary = yes

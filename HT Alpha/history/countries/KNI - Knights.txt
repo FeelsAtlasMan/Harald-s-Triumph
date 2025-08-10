@@ -2,6 +2,7 @@ capital = 846
 primary_culture = french
 culture = griko
 culture = siqilli
+culture = norman
 religion = catholic
 government = theocracy
 plurality = 15
@@ -21,7 +22,7 @@ school_reforms = no_schools
 
 # political reforms
 slavery=yes_slavery
-vote_franschise=landed_voting
+vote_franschise=no_voting
 upper_house_composition=appointed
 voting_system=jefferson_method
 public_meetings=no_meeting
@@ -39,7 +40,7 @@ border_policy = open_borders
 centralization = regionalism
 colonial_policy = exploitation
 
-ruling_party = GRE_reactionary
+ruling_party = KNI_reactionary
 upper_house = 
 {
 	fascist = 0

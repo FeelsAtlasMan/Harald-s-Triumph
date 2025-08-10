@@ -30,7 +30,6 @@ reactionary_rebels = {
 		french_bourbon = french_bourbon
 		dominion = presidential_dictatorship
 		democracy = presidential_dictatorship
-		federal_democracy = presidential_dictatorship
 		theocracy = theocracy
 		colonial_company = absolute_monarchy
 		khanate = khanate
@@ -316,7 +315,6 @@ fascist_rebels = {
 		democracy = fascist_dictatorship
 		theocracy = fascist_dictatorship
 		colonial_company = fascist_dictatorship
-		federal_democracy = fascist_dictatorship
 		khanate = fascist_dictatorship
 		tribal_confederation = fascist_dictatorship
 	}
@@ -608,7 +606,6 @@ communist_rebels = {
 		democracy = proletarian_dictatorship
 		theocracy = proletarian_dictatorship
 		colonial_company = proletarian_dictatorship
-		federal_democracy = proletarian_dictatorship
 		khanate = proletarian_dictatorship
 		tribal_confederation = proletarian_dictatorship
 	}
@@ -868,7 +865,6 @@ anarcho_liberal_rebels = {
 		democracy = bourgeois_dictatorship
 		theocracy = bourgeois_dictatorship
 		colonial_company = bourgeois_dictatorship
-		federal_democracy = bourgeois_dictatorship
 		khanate = bourgeois_dictatorship
 		tribal_confederation = bourgeois_dictatorship
 	}
@@ -1189,7 +1185,6 @@ nationalist_rebels = {
 		democracy = democracy
 		theocracy = theocracy
 		colonial_company = democracy
-		federal_democracy = federal_democracy
 		khanate = khanate
 		tribal_confederation = tribal_confederation
 	}
@@ -1451,7 +1446,6 @@ pan_nationalist_rebels = {
 		democracy = democracy
 		theocracy = theocracy
 		colonial_company = democracy
-		federal_democracy = democracy
 		khanate = absolute_monarchy
 		tribal_confederation = hms_government 
 	}
@@ -1798,7 +1792,6 @@ red_shirts = {
 		democracy = democracy
 		theocracy = democracy
 		colonial_company = hms_government
-		federal_democracy = hms_government
 		khanate = hms_government
 		tribal_confederation = hms_government
 	}
@@ -2040,7 +2033,6 @@ liberal_rebels = {
 		democracy = democracy
 		theocracy = democracy
 		colonial_company = democracy
-		federal_democracy = democracy
 		khanate = democracy
 		tribal_confederation = democracy
 	}
@@ -2453,7 +2445,6 @@ unciv_reactionary_rebels = {
 		democracy = democracy
 		theocracy = theocracy
 		colonial_company = colonial_company
-		federal_democracy = absolute_monarchy
 		khanate = khanate
 		tribal_confederation = tribal_confederation
 	}
@@ -2729,7 +2720,6 @@ separatist_rebels = {
 		democracy = democracy
 		theocracy = theocracy
 		colonial_company = democracy
-		federal_democracy = federal_democracy
 		khanate = khanate
 		tribal_confederation = tribal_confederation
 	}
@@ -2988,7 +2978,6 @@ socialist_rebels = {
 		democracy = democracy
 		theocracy = democracy
 		colonial_company = democracy
-		federal_democracy = democracy
 		khanate = democracy
 		tribal_confederation = democracy
 	}
@@ -3471,7 +3460,6 @@ independence_rebels = {
 		democracy = democracy
 		theocracy = theocracy
 		colonial_company = democracy
-		federal_democracy = federal_democracy
 		khanate = khanate
 		tribal_confederation = tribal_confederation
 	}

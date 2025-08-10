@@ -35,9 +35,10 @@ border_policy = open_borders
 centralization = confederalism
 colonial_policy = no_colonies 
 
-set_country_flag = animism_country
+set_country_flag = animist_country
+set_country_flag = unciv
 
-ruling_party = ASM_conservative
+ruling_party = "Tribal Council"
 upper_house = {
 	fascist = 0
 	liberal = 12
