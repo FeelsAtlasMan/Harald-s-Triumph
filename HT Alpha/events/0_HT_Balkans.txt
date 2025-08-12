@@ -20,7 +20,7 @@ country_event = {
 #Macedonian Uprising
 country_event = {
 	id = 1122111
-	title = "The Macedonian Peasent Uprising"
+	title = "The Macedonian Peasant Uprising"
 	desc = "EVTDESC1122111"
 	fire_only_once = yes
 	picture = "serbian_uprising"
@@ -213,12 +213,14 @@ country_event = {
 		824 = { add_core = GRE }
 		825 = { add_core = GRE }
 		837 = { add_core = GRE }
-		THIS = { change_tag = GRE }
-		inherit = THY
+		change_tag = GRE
 		inherit = ATH
 		inherit = EPI
 		inherit = MRE
-		government = prov_gov_conservative
+		inherit = THY
+		capital = 840
+		government = presidential_dictatorship
+		#government = prov_gov_conservative
 		set_global_flag = league_of_cornith_created
 	}
 }
@@ -245,6 +247,8 @@ country_event = {
 	
 	option = {
 		name = "We need to put these traitors into their place!"
+		release_vassal = GRE
+		diplomatic_influence = { value = -200 who = GRE }
 		casus_belli = {
 	        target = GRE
 	        type = unification_annex_casus_belli
@@ -252,8 +256,8 @@ country_event = {
         }
 		war = {
 	        target = GRE
-	        attacker_goal = unification_annex_casus_belli
-	        defender_goal = humiliate
+	        attacker_goal = { casus_belli = unification_annex_casus_belli }
+	        defender_goal = { casus_belli = humiliate }
 	        call_ally = no
         }
 		set_global_flag = greek_revolution
@@ -324,8 +328,8 @@ country_event = {
         }
 		war = {
 	        target = CYP
-	        attacker_goal = conquest
-	        defender_goal = status_quo
+	        attacker_goal = { casus_belli = conquest }
+	        defender_goal = { casus_belli = status_quo }
 	        call_ally = no
         }
 		
@@ -336,8 +340,8 @@ country_event = {
         }
 		war = {
 	        target = CRE
-	        attacker_goal = conquest
-	        defender_goal = status_quo
+	        attacker_goal = { casus_belli = conquest }
+	        defender_goal = { casus_belli = status_quo }
 	        call_ally = no
         }
 	}
