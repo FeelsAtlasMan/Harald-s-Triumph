@@ -22,15 +22,10 @@ political_decisions = {
 					add_core = THIS
 				}
 			}
-			add_core = 432
-			add_core = 433
-			add_core = 431
-			add_core = 452
+			FRA_432 = { add_core = THIS }
+			FRA_467 = { add_core = THIS }
 			add_core = 453
 			add_core = 472
-			FRA_467 = {
-				add_core = THIS
-			}
 		}
 	}
 	
