@@ -57,6 +57,7 @@ political_decisions = {
 			#		has_country_flag = liberal_revolution_in_progress
 			#		has_country_flag = liberal_revolution_fired
 			#}
+			NOT = { has_country_flag = dobrovka_reforms }
 		}
 		allow = {
 			is_greater_power = yes
@@ -81,6 +82,7 @@ political_decisions = {
 		    clr_country_flag = liberal_revolution_fired
 		    clr_country_flag = liberal_revolution_in_progress
 		    set_country_flag = had_liberal_revolution
+		    set_country_flag = dobrovka_reforms
 		}
 	}
 	
