@@ -98,7 +98,7 @@ USA_168 = { 168 167 166 165 164 169 170 } #Illinois
 
 USA_178 = { 178 217 218 227 } #Ohio
 
-USA_179 = { 179 180 183 182 181 227 172 } #filler
+USA_179 = { 179 180 183 182 181 172 } #filler
 
 USA_185 = { 184 185 186 } #Kentucky
 
@@ -367,7 +367,7 @@ AUS_623 = { 616 617 3294 3718 4141 } #Eastern Kunsag - now Gradec
 
 AUS_625 = { 625 3334 3926 3927 } #Central Bohemia
 
-AUS_626 = { 626 3926 3928 3919 } #Sudeten
+AUS_626 = { 626 3928 3919 } #Sudeten
 
 AUS_627 = { 627 628 3888 } #Southern Ore Mountains (Kursne Hore)
 
@@ -818,7 +818,7 @@ RUS_1184 = { 1184 1181 3666 3665 4071 4073 4074 4075 4076 4077 } #Akmolinsk - no
 
 RUS_1185 = { 1189 1190 3664 4086 } #Semireche - Qara-Kirghiz
 
-RUS_1204 = { 1204 686 3284 3285 3398 3399 3756 3758 4097 } #Kara Kum
+RUS_1204 = { 1204 686 3284 3285 3398 3399 3756 4097 } #Kara Kum
 
 RUS_1205 = { 1205 1194 3283 3757 } #Ust Yurt/Siahkuh
 
@@ -841,7 +841,7 @@ RUS_2668 = { 2668 2643 2665 2667 2672 2621 2619 2642 } #North Yakutsk
 
 ### India
 
-KAL_1221 = { 1221 1222 3626 4090 4098 4099 } #Baluchistan
+KAL_1221 = { 1221 1222 3626 4090 } #Baluchistan
 
 KAL_1219 = { 1219 3839 3840 3340 } #Quetta
 
@@ -1468,7 +1468,7 @@ MEX_2172 = { 2172 2176 3534 } #Mexico
 
 MEX_2181 = { 3552 2181 3553 2187 } #Chiapas - Chiapanequie
 
-UCA_2186 = { 2187 2189 2190 2165 2184 3557 3551 } #Guatemala - Petenitsie
+UCA_2186 = { 2189 2190 2165 2184 3557 3551 } #Guatemala - Petenitsie
 
 FDA_2182 = { 2182 2628 } #Chocnoquie
 
@@ -1528,7 +1528,7 @@ INC_3504 = { 3504 3510 4240 } #Cholon
 
 INC_3505 = { 3505 3506 3507 3508 2293 } #Wanuku 
 
-INC_3512 = { 3512 3509 3511 3515 2293 2296 4251 } #Wankawillka 
+INC_3512 = { 3512 3509 3511 3515 2296 4251 } #Wankawillka 
 
 INC_3517 = { 3517 3516 3519 3522 2302 } #Qusqu  
 
@@ -1574,7 +1574,7 @@ CLM_2276 = { 2276 2269 2243 2277 } #Warao - now Sanha de Warao
 
 CLM_2251 = { 2254 2285 4263 4264 } #Antioquia - now Nou Gasconha 
 
-CLM_2252 = { 2252 4265 2250 4267 4268 } #Mellionnec
+CLM_2252 = { 2252 4265 4267 4268 } #Mellionnec
 
 CLM_4292 = { 4266 4269 2253 } #Jokones
 

@@ -1,12 +1,10 @@
-capital = 1258
-primary_culture = miji
-culture = nyishi
-culture = adi
-religion = animist
-government = absolute_monarchy
+capital = 3590
+primary_culture = shan
+religion = theravada
+government = colonial_company
 plurality = 0.0
 nationalvalue = nv_tradition
-literacy = 0.01
+literacy = 0.02
 
 # Political reforms
 slavery = yes_slavery
@@ -27,19 +25,20 @@ unemployment_subsidies = no_subsidies
 pensions = no_pensions
 school_reforms = no_schools
 
-#New Reforms
+
+# New Reforms
 conscription = no_draft
-debt_law = serfdom
+debt_law = peonage
 penal_system = capital_punishment
 child_labor = child_labor_legal
 citizens_rights = primary_culture_only
 border_policy = open_borders
-centralization = confederalism
+centralization = unitary
 colonial_policy = no_colonies 
 
-set_country_flag = animism_country
+set_country_flag = theravada_country
 
-ruling_party = ASM_conservative
+ruling_party = SHA_conservative
 upper_house = {
 	fascist = 0
 	liberal = 12
@@ -50,4 +49,6 @@ upper_house = {
 	communist = 0
 }
 
-oob = "MSH_oob.txt"
+# Inventions
+#bottling_process = yes
+modern_winemaking = yes
