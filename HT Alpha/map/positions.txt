@@ -33613,11 +33613,6 @@
             y = 1480.107143
         }
 
-        naval_base = {
-            x = 3104.699951
-            y = 1469.699951
-        }
-
     }
 
     building_rotation = {
@@ -35605,14 +35600,6 @@
     building_construction = {
         x = 3125.000000
         y = 1472.900024
-    }
-
-    building_position = {
-        naval_base = {
-            x = 3109.399902
-            y = 1468.599976
-        }
-
     }
 
     building_rotation = {
@@ -132717,6 +132704,19 @@
     city = {
         x = 3111.527778
         y = 1471.083333
+    }
+
+    building_position = {
+        fort = {
+            x = 3110.650000
+            y = 1472.900000
+        }
+
+        naval_base = {
+            x = 3109.275000
+            y = 1468.925000
+        }
+
     }
 
 } # Sweibrucken
