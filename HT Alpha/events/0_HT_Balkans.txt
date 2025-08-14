@@ -346,3 +346,48 @@ country_event = {
         }
 	}
 }
+
+country_event = {
+	id = 1122121
+	title = "The Albanian Capital"
+	desc = "EVTDESC1122121"
+	major = yes
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = "Durres, a central port."
+		capital = 3678
+		3678 = { change_province_name = "Durrës" add_province_modifier = { name = recently_built_city duration = 1825 } add_province_modifier = { name = baby_boom duration = 2555 } }
+	}
+	option = {
+		name = "Vlore, a port with fertile hinterland."
+		capital = 852
+		852 = { add_province_modifier = { name = recently_built_city duration = 1825 } add_province_modifier = { name = small_baby_boom duration = 1460 } }
+	}
+	option = {
+		name = "Shkoder, a more defensible port."
+		capital = 3679
+		3679 = { change_province_name = "Shkodër" add_province_modifier = { name = recently_built_city duration = 1825 } add_province_modifier = { name = baby_boom duration = 1825 } }
+	}
+	option = {
+		name = "Kruje, a central city."
+		capital = 851
+		851 = { add_province_modifier = { name = recently_built_city duration = 1460 } }
+	}
+	option = {
+		name = "Gjirokaster, large and hilly."
+		capital = 853
+		853 = { add_province_modifier = { name = recently_built_city duration = 1825 } }
+	}
+	option = {
+		name = "Tirana, a new, secure capital."
+		capital = 849
+		849 = { change_province_name = "Tirana" add_province_modifier = { name = recently_built_city duration = 1825 } add_province_modifier = { name = baby_boom duration = 1825 } }
+	}
+	option = {
+		name = "What's wrong with my castle?"
+		prestige = 2
+	}
+}

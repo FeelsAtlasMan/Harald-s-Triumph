@@ -35,6 +35,7 @@ political_decisions = {
 				duration = 365
 			}
 			ZNB = { all_core = { remove_core = ZNB } }
+			country_event = { id = 1122121 days = 2 }
 		}
 	}
 	
@@ -55,12 +56,13 @@ political_decisions = {
 			political_reform = unitary
 			ALB = { any_owned_province = { limit = { is_core = ALB } add_province_modifier = { name = highlander_raids duration = 730 } } }
 			any_pop = {
-                limit = { type = aristocrats ideology = reactionary }
+                limit = { type = aristocrats pop_majority_ideology = reactionary }
+				reduce_pop = 0.85
                 consciousness = 10
                 militancy = 10
             }
 			any_pop = {
-                limit = { type = aristocrats ideology = conservative }
+                limit = { type = aristocrats pop_majority_ideology = conservative }
                 consciousness = 5
                 militancy = 3
             }
