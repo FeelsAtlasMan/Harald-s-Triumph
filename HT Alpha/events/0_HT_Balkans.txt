@@ -231,6 +231,7 @@ country_event = {
 	title = "The Czar demands full control over our military!"
 	desc = "EVTDESC1122117"
 	is_triggered_only = yes
+	fire_only_once = yes
 	
 	option = {
 		name = "This is unacceptable!"
@@ -244,6 +245,7 @@ country_event = {
 	title = "The Greek states have refused"
 	desc = "EVTDESC1122118"
 	is_triggered_only = yes
+	fire_only_once = yes
 	
 	option = {
 		name = "We need to put these traitors into their place!"
@@ -269,6 +271,8 @@ province_event = {
 	id = 1122119
 	title = "Pan-Hellenic Fervor"
 	desc = "EVTDESC1122119"
+	
+	fire_only_once = yes
 	
 	mean_time_to_happen =  {
 	    months = 2
@@ -303,6 +307,8 @@ country_event = {
 	title = "The Greek Mutiny"
 	desc = "EVTDESC1122119"
 	major = yes
+	
+	fire_only_once = yes
 	
 	mean_time_to_happen =  {
 	    months = 1
