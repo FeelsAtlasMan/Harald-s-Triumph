@@ -1,28 +1,149 @@
 political_decisions = {
-	
-	greater_albania = {
-		picture = greater_albania
+
+	gjirokaster_centralize = {
+		picture = claim_greater_albania
 		potential = {
-			is_culture_group = pan_albanian
-			OR = {
-			    tag = ALB
-				has_country_flag = leader_of_alb_league
+			NOT = { exists = ALB }
+			OR = { 
+				tag = ZNB
+				AND = {
+					NOT = { exists = ZNB }
+					is_culture_group = pan_albanian
+				}
 			}
-			NOT = { has_country_flag = claimed_greater_albania }
 		}
 		allow = {
-			war = no
-			nationalism_n_imperialism = 1
-			prestige = 20
+			civilized = yes
 		}
 		effect = {
-			803 = { add_core = THIS }
-			807 = { add_core = THIS }
-			819 = { add_core = THIS }
-			820 = { add_core = THIS }
-			825 = { add_core = THIS }
-			badboy = 5
-			set_country_flag = claimed_greater_albania
+			change_tag = ALB
+			add_accepted_culture = arvanitika
+			centralization = regionalism
+			any_country = { 
+				limit = { 
+					is_culture_group = pan_albanian
+					capital_scope = { continent = europe }
+					OR = { 
+						vassal_of = THIS
+						in_sphere = THIS
+					}
+				}
+				country_event = 11101
+			}
+			add_country_modifier = {
+				name = national_confusion
+				duration = 365
+			}
+			ZNB = { all_core = { remove_core = ZNB } }
+		}
+	}
+	
+	gjirokaster_rein_in_lords = {
+		picture = romanians_marching
+		potential = {
+			tag = ALB
+			centralization = regionalism
+		}
+		allow = {
+			civilized = yes
+			NOT = { debt_law = serfdom }
+			state_n_government = 1
+			invention = meritocracy_vs._aristocracy
+			invention = bureaucracy_vs._nepotism
+		}
+		effect = {
+			political_reform = unitary
+			ALB = { any_owned_province = { limit = { is_core = ALB } add_province_modifier = { name = highlander_raids duration = 730 } } }
+			any_pop = {
+                limit = { type = aristocrats ideology = reactionary }
+                consciousness = 10
+                militancy = 10
+            }
+			any_pop = {
+                limit = { type = aristocrats ideology = conservative }
+                consciousness = 5
+                militancy = 3
+            }
+			ZNB = { all_core = { remove_core = ZNB } }
+			THP = { all_core = { remove_core = THP } }
+			GRP = { all_core = { remove_core = GRP } }
+			MRD = { all_core = { remove_core = MRD } }
+			ZHR = { all_core = { remove_core = ZHR } }
+		}
+	}
+	
+	alb_secure_north = {
+	picture = italian_dalmatia
+		potential = {
+			tag = ALB
+			NOT = { has_country_flag = alb_claimed_north }
+		}
+
+		allow = {
+			war = no
+			is_vassal = no
+			war_policy = jingoism
+			signal_detachments = 1
+			has_country_flag = claim_greater_albania
+			owns = 3679
+			owns = 800
+			OR = {
+				AND = {
+					2582 = { owner = { NOT = { is_sphere_leader_of = ALB alliance_with = ALB relation = { who = ALB value = 0 } } } }
+					2583 = { owner = { NOT = { is_sphere_leader_of = ALB alliance_with = ALB relation = { who = ALB value = 0 } } } }
+				}
+				owns = 2582
+				owns = 2583
+			}
+		}
+
+		effect = {
+			set_country_flag = alb_claimed_north
+			2582 = { add_core = THIS }
+			2583 = { add_core = THIS }
+			badboy = 3
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	alb_arvanitika = {
+	picture = greek_map
+		potential = {
+			tag = ALB
+			NOT = { has_country_flag = alb_claimed_arvanitika }
+		}
+
+		allow = {
+			war = no
+			is_vassal = no
+			war_policy = jingoism
+			prestige = 30
+			nationalism_n_imperialism = 1
+			invention = national_fraternity
+			has_country_flag = claim_greater_albania
+			OR = {
+				AND = {
+					834 = { owner = { NOT = { is_sphere_leader_of = ALB alliance_with = ALB } } }
+					840 = { owner = { NOT = { is_sphere_leader_of = ALB alliance_with = ALB } } }
+				}
+				owns = 834
+				owns = 840
+			}
+		}
+
+		effect = {
+			set_country_flag = alb_claimed_arvanitika
+			ALB_824 = { add_core = THIS }
+			GRE_837 = { add_core = THIS }
+			GRE_826 = { add_core = THIS }
+			badboy = 10
+		}
+
+		ai_will_do = {
+			factor = 1
 		}
 	}
 }
