@@ -933,21 +933,15 @@ iberian = {
 	
 	espanesco = {
 		color = {170 130 30}
-		first_names = { Agustín Alberto Alejandro Alfonso Álvaro Antonio "Antonio María" Arsenio Augusto Baldomero
-        Baltasar Benito Bernardino Bernardo Calixto Carlos Celestino Claudio Cristobal Dámaso
-        Diego Dionisio Eduardo Emilio Estanislao Federico Felipe Félix Fernando Francisco
-        "Francisco Javier" Gabino Gabriel Gaspar Genaro Gonzalo Ignacio Isidro Jacobo Jaime
-        Joaquín José "José Antonio" "José Manuel" "José María" Juan "Juan Bautista" Julio Leopoldo Lorenzo
-        Luis Manuel Marcelo Mariano Mateo Melchor Miguel Nicolás Pablo Pascual
-        Pedro Rafael Raimundo Ramón Ricardo Santiago Sebastián Segismundo Valeriano Vicente }
+		first_names = { Agustín Alberto Alejandro Alfonso Álbaro Antonio "Antonio María" Arsenio Augusto Baldomero
+        Baltasar Baulo Benito Bernardino Bernardo Budro Calixto Claudio Cristobal Dámaso
+        Dionisio Emilio Fascual Federico Félix Fernando Gabino Gabriel Gaspar Genaro Gonzalo Ignacio Ildefonso Imbrán Isidro 
+        Leopoldo Laurenzo Luis Manuel Marcelo Mariano Mateo Melchor Miguel Nicolás
+        Pedro Rafael Raimundo Ramón Santiago Sebastián Segismundo Valeriano Vicente Xelestino
+		Yacobo Yusuf "Yusuf Antonio" "Yusuf Manuel" "Yusuf María" Yohaña "Yohaña Bautista" "Yohaña María" Yulio }
 
-        last_names = { Acuña Aguirre Alcalá-Zamora Allendesalazar Alonso Álvarez "Álvarez de Toledo" Aranda Argüelles-Meres Asensio
-        Aznar Barradas Bugallal Cabrera "Cagigal de la Vega" Cano Cervera "de Albornoz" "de Borbón"
-        "de Carvajal" "de la Fuente" "de Orleans" Díaz Espartero Fernández "Fernández de Córdoba" "Fitz-James Stuart" Franco
-        García "García de la Noceda" González Heredia Hernández Herrera Hevia "Hidalgo de Cisneros" Linares López
-        Maroto Márquez Martínez-Campos Maura Menéndez Miaja Millán-Astray Mina Mola Muñoz
-        Narváez O'Donnell Ortega Pavía Pérez "Primo de Rivera" "Queipo de Llano" Rodríguez Rojo Ruiz
-        Sanjurjo Serrano Silvestre Topete Valdés Varela Villapol Villar Weyler Yagüe }
+        last_names = { Abengoa Abenójar Abicarán Abolafia Acebrón Aceituno Acuña Agrela Aguirre Alamar Alamino Alanzor
+		Alcántara Almodóvar Bermejo Buendía Mola Molina Muñoz Rubio Ruiz Tarifa }
 	}
 	
 	#Asturleonese
@@ -986,7 +980,7 @@ iberian = {
 		"de Carvajal" "de la Fuente" "al Muqtadir" Daudi Kaiso Qorayonayra Ibenanunar Laytarola Huerva 
 		García "García de la Noceda" González Heredia Forqasa Herrera Hevia "Iben Froila" Linares Turtuja 
 		Maroto Márquez Nabiello Maura Menéndez Miaja Millán-Astray Mina Mola Muñoz 
-		Narváez O'Donnell Ortega Pavía Pérez Plantayn "Queipo de Llano" Ramellus Rojo Ruiz 
+		Narváez Ortega Pavía Pérez Plantayn "Queipo de Llano" Ramellus Rojo Ruiz 
 		Sayyid Sid Salim Topete Valdés Varela Yarbo Waliyo Zanon Zaute }
 	}
 	
@@ -994,19 +988,21 @@ iberian = {
 	portuguese = {
 		color = {160 230 30}
 		first_names = { Abel Adriano Afonso Alberto Alexandre Alfredo Álvaro André António Aquilino
-        Artur Augusto Bartolomeu Bernardo Bruno Caetano Cándido Carlos Christovão Cláudio
+        Artur Augusto Bartolomeu Bernardo Bruno Caetano Cándido Carlos Christóvão Cláudio
         Damião Daniel David Dinis Diogo Duarte Ernesto Estêvão Eugénio Fernando
-        Filipe Francisco "Francisco Xavier" Gastão Hermenegildo Ignácio Jerónimo João Joaquim Jorge
-        José Julio Leopoldo Luís Manuel Mário Miguel Nicolau Nuno Orlando
+        Filipe Francisco "Francisco Xavier" Gastão Henrique Hermenegildo Ignácio Jerónimo João Joaquim Jorge
+        José Julio Leopoldo Lucrécio Luiz "Luiz Ignácio" Manuel Mário Miguel Nicolau Nuno Orlando
         Oscar Pascoal Paulo Pedro Rafael Raul Roberto Rodrigo Rui Santiago
-        Sebastião Teodoro Teófilo Tiago Tomé Urbano Vasco Vicente Vitorino Vitório }
+        Sebastião Timoteo Teodoro Teófilo Tiago Tomé Urbano Vasco Vicente Vitorino Vitório }
 
-        last_names = { Amaral Barreto Bleck Braga Cabral Capelo Carmona Coelho Correia Coutinho
-        "da Costa" "da Cunha" "da Silva" "de Albuquerque" "de Almeida" "de Arriaga" "de Bragança" "de Bragança-Coburgo" "de Carvalho"
-        "de Castro" "de Gusmão" "de Lacerda" "de Mesquita" "de Moura" "de Noronha" "de Oliveira" "de Paiva" "de Sousa" "de Vasconcelos"
-        Dias "dos Reis" "dos Santos" Fernandes Ferreira Figueira "Freire de Andrade" Gago Gil Gomes
-        Herculano Ivens Keil Lopes Machado Magalhães Mendes Moniz Mouzinho Nogueira
-        Nunes Ortigão Pereira Pinheiro Pinto Pires Pomar Pulido Queiroz Quintanilha
+        last_names = { Acunha Amaral Alcântara Barreto Bechard Braga Brunel Cabral Calazans "Calazans de Balazar"
+		Calvet Calvos Capelo Carmo Carmona Carrel Chalamet Coelho Correia Coutinho "da Corunha"
+        "da Costa" "da Cunha" "da Silva" "de Almeida" "de Arriaga" "de Borgonha-Bragança" "de Carvalho"
+        "de Castro" "de Gusmão" "de Lacerda" "de Moura" "de Montemor" "de Noronha" "de Oliveira"
+		"de Paiva" "de Sousa" "de Vasconcelos" Diaz "Diaz Montel" "Diaz Calvet" "dos Reis" "dos Santos"
+		Fernandes Ferreira Figueira Gago Gil "Gil Ribeiro" "Gil Bechard" Gomes Henriques
+        Herculano Lopes Lula "Lula da Silva" Machado Magalhães Mendes Moniz Montel Mouzinho Nogueira
+        Nunes Ortigão Osorio Pereira Pinheiro Pinto Pires Pomar Pulido Queiroz Quintanilha
         Ribeiro Rodrigues Salazar Sampaio Sérgio Silveira Tavares Teixeira Vidigal Vieira }
 	}
 	
@@ -10842,7 +10838,7 @@ macro_bai = {
 	bai = { #Eastern Bai
 		color = {190 185 193}
 		first_names = {
-			Yang Zheng Gao Duan 
+			Yang Zheng Gao Duan Shen
 		}
 		last_names = {
 			Wang Zou Sheng Jun Bu Yu Wu Qiu Shan Nuo Yi He Liang Cong Fu Ren Wen
@@ -10853,7 +10849,7 @@ macro_bai = {
 	w_bai = { #Western Bai
 		color = {185 180 193}
 		first_names = {
-			Yang Zheng Gao Duan 
+			Yang Zheng Gao Duan Shen
 		}
 		last_names = {
 			Wang Zou Sheng Jun Bu Yu Wu Qiu Shan Nuo Yi He Liang Cong Fu Ren Wen
@@ -10864,7 +10860,7 @@ macro_bai = {
 	lama_bai = { #Lama
 		color = {170 180 170}
 		first_names = {
-			Yang Zheng Gao Duan 
+			Yang Zheng Gao Duan Shen
 		}
 		last_names = {
 			Wang Zou Sheng Jun Bu Yu Wu Qiu Shan Nuo Yi He Liang Cong Fu Ren Wen
@@ -10874,17 +10870,23 @@ macro_bai = {
 	
 	caijia = {
 		color = {99 124 100}
-		first_names = { Wang Li Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu
+		first_names = {
+			Yang Zheng Gao Duan Shen
 		}
-		last_names = { Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu
+		last_names = {
+			Wang Zou Sheng Jun Bu Yu Wu Qiu Shan Nuo Yi He Liang Cong Fu Ren Wen
+			Qing Zhi Tai Hui Zhu Shou Chang Ming Xin
 		}
 	}
 	
 	longjia = {
 		color = {91 124 100}
-		first_names = { Wang Li Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu
+		first_names = {
+			Yang Zheng Gao Duan Shen
 		}
-		last_names = { Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu
+		last_names = {
+			Wang Zou Sheng Jun Bu Yu Wu Qiu Shan Nuo Yi He Liang Cong Fu Ren Wen
+			Qing Zhi Tai Hui Zhu Shou Chang Ming Xin
 		}
 	}
 }
@@ -10937,19 +10939,6 @@ eastern_tibeto_burman = {
                
 		}
 	}
-	
-	#Qiangic
-	qiangic = {
-		color = {100 90 60}
-		first_names = { Thibaw Mindon Pagan Tharawadi Gabyidaw Bodawphaya Maung Singu Hsinbyushin Naungdawkyi Alaungphaya Maha Minkyaw Zeya
-			
-		}
-		
-		last_names = { Min Bagyidaw Bandula "Ne Myo" Myo Thura Dabayin
-               
-		}
-	}
-	
 	
     karen = {
 		color = {100 90 110}
@@ -11022,6 +11011,18 @@ eastern_tibeto_burman = {
 		last_names = {
 			Wang Zou Sheng Jun Bu Yu Wu Qiu Shan Nuo Liang Fu Ren Wen
 			Yun Jiguang Junyi Amu Jimu Jiyi Jinguang Jinmu Jinyi
+		}
+	}
+
+	#Qiangic inc rGyalrongic
+	qiangic = {
+		color = {100 90 60}
+		first_names = { Li Yao Yu Wang
+			
+		}
+		
+		last_names = { An Bing Cha Chang De Hong Hui Ke Lan Liang Ming Nang Ning Xiang Xiao Xing Yi Zhao Zhong
+               
 		}
 	}
 	
@@ -13417,7 +13418,7 @@ east_asian = {
 		}
 	}
 	
-	shanha = {
+	shanha = { #aka She
 		color = {119 69 25}
 		first_names = { Hong Feng Shi Li Chen Liu Qiu Sun Soong Liao Xue Zhang Xie Wu Shu Tsai Deng Zhen Huang Ye Yang
 		}
