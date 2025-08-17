@@ -3024,7 +3024,7 @@
 }
 #Fujian Region (20728000)
 #under the rule of Chu in 1836
-#Fuzhou (4179200/1044800 POPS)
+#Fuzhou (4160000/1040000 POPS) #prov includes Putian
 1482 = {
 	aristocrats = {
 		culture = min
@@ -3043,11 +3043,17 @@
 		religion = mahayana
 		size = 500
 	}
+
+	aristocrats = {
+		culture = puxian
+		religion = mahayana
+		size = 1525
+	}
 	
 	bureaucrats = {
-		culture = jianghuai
+		culture = puxian
 		religion = mahayana
-		size = 1400
+		size = 800
 	}
 
 	bureaucrats = {
@@ -3059,23 +3065,23 @@
 	bureaucrats = {
 		culture = wu
 		religion = mahayana
-		size = 1450
+		size = 850
 	}
 
 	officers = {
 		culture = wu
 		religion = mahayana
-		size = 2500
+		size = 1800
 	}
 	
 	officers = {
 		culture = min
 		religion = mahayana
-		size = 550
+		size = 950
 	}
 	
 	officers = {
-		culture = jianghuai
+		culture = puxian
 		religion = mahayana
 		size = 450
 	}
@@ -3084,6 +3090,12 @@
 		culture = min
 		religion = mahayana
 		size = 4375
+	}
+
+	clergymen = {
+		culture = puxian
+		religion = mahayana
+		size = 2000
 	}
 	
 	clergymen = {
@@ -3107,13 +3119,13 @@
 	artisans = {
 		culture = min
 		religion = mahayana
-		size = 29450
+		size = 24450
 	}
 
 	artisans = {
-		culture = jianghuai
+		culture = puxian
 		religion = mahayana
-		size = 4875
+		size = 11875
 	}
 	
 	artisans = {
@@ -3141,9 +3153,9 @@
 	}
 	
 	soldiers = {
-		culture = quanzhang
+		culture = puxian
 		religion = mahayana
-		size = 525
+		size = 1525
 	}
 
 	soldiers = {
@@ -3161,19 +3173,19 @@
 	farmers = {
 		culture = min
 		religion = mahayana
-		size = 697100
+		size = 447100
 	}
 	
 	farmers = {
-		culture = s_mandarin
+		culture = puxian
 		religion = mahayana
-		size = 8400
+		size = 308575
 	}
 	
 	farmers = {
 		culture = min_ke
 		religion = mahayana
-		size = 90300
+		size = 30300
 	}
 	
 	serfs = {
@@ -3212,12 +3224,12 @@
 		size = 27300
 	}
 }
-#Jianning (3400000/850000 POPS)
+#Jianning (2994000/748500 POPS)
 1483 = {
 	aristocrats = {
 		culture = wu
 		religion = mahayana
-		size = 3400
+		size = 1400
 	}
 	
 	aristocrats = {
@@ -3277,7 +3289,7 @@
 	farmers = {
 		culture = fuguang
 		religion = mahayana
-		size = 96800
+		size = 56800
 	}
 
 	aristocrats = {
@@ -3311,7 +3323,7 @@
 	}
 
 	aristocrats = {
-		culture = min_bei
+		culture = min_zhong
 		religion = mahayana
 		size = 6100
 	}
@@ -3335,7 +3347,7 @@
 	}
 
 	artisans = {
-		culture = min_bei
+		culture = min_zhong
 		religion = mahayana
 		size = 11500
 	}
@@ -3347,7 +3359,7 @@
 	}
 	
 	artisans = {
-		culture = min_zhong
+		culture = min_bei
 		religion = mahayana
 		size = 4500
 	}
@@ -3367,7 +3379,7 @@
 	farmers = {
 		culture = min_bei
 		religion = mahayana
-		size = 325025
+		size = 225025
 	}
 	
 	farmers = {
@@ -3412,18 +3424,30 @@
 		size = 200
 	}
 }
-#Quanzhou (3940000/985000 POPS)
+#Quanzhou (3548800/887200 POPS)
 1484 = {
 	aristocrats = {
 		culture = wu
 		religion = mahayana
-		size = 2100
+		size = 1100
 	}
-	
+
+	aristocrats = {
+		culture = quanzhang
+		religion = mahayana
+		size = 7000
+	}
+
 	aristocrats = {
 		culture = min
 		religion = mahayana
-		size = 1200
+		size = 500
+	}
+
+	aristocrats = {
+		culture = puxian
+		religion = mahayana
+		size = 2500
 	}
 	
 	aristocrats = {
@@ -3449,11 +3473,11 @@
 		religion = mahayana
 		size = 5200
 	}
-	
+
 	artisans = {
-		culture = jianghuai
-		religion = mahayana
-		size = 1900
+		culture = hanhui
+		religion = sunni
+		size = 11900
 	}
 	
 	artisans = {
@@ -3469,33 +3493,33 @@
 	}
 
 	farmers = {
-		culture = s_mandarin
-		religion = mahayana
-		size = 19625
+		culture = hanhui
+		religion = sunni
+		size = 39625
 	}
 	
 	farmers = {
 		culture = wu
 		religion = mahayana
-		size = 18000
+		size = 5000
 	}
 	
 	farmers = {
+		culture = puxian
+		religion = mahayana
+		size = 126050
+	}
+
+	farmers = {
 		culture = min
 		religion = mahayana
-		size = 51950
+		size = 20900
 	}
 	
 	farmers = {
 		culture = min_ke
 		religion = mahayana
 		size = 115000
-	}
-
-	aristocrats = {
-		culture = quanzhang
-		religion = mahayana
-		size = 7800
 	}
 
 	clergymen = {
@@ -3507,7 +3531,13 @@
 	artisans = {
 		culture = quanzhang
 		religion = mahayana
-		size = 48000
+		size = 38000
+	}
+
+	artisans = {
+		culture = puxian
+		religion = mahayana
+		size = 10000
 	}
 	
 	artisans = {
@@ -3521,12 +3551,6 @@
 		religion = mahayana
 		size = 8000
 	}
-	
-	artisans = {
-		culture = hanhui
-		religion = sunni
-		size = 10800
-	}
 
 	soldiers = {
 		culture = quanzhang
@@ -3537,33 +3561,45 @@
 	farmers = {
 		culture = quanzhang
 		religion = mahayana
-		size = 676725
+		size = 376725
 	}
 	
 	serfs = {
 		culture = quanzhang
 		religion = mahayana
-		size = 100000
+		size = 80000
+	}
+
+	serfs = {
+		culture = puxian
+		religion = mahayana
+		size = 20000
 	}
 }
-#Tingzhou (3732000/933000 POPS)
+#Tingzhou (3460000/865000 POPS)
 1486 = {
 	aristocrats = {
 		culture = min_ke
 		religion = mahayana
-		size = 9300
+		size = 8300
 	}
 	
 	aristocrats = {
-		culture = min
+		culture = wu
 		religion = mahayana
 		size = 3500
 	}
 
 	clergymen = {
-		culture = min_zhong
+		culture = quanzhang
 		religion = mahayana
-		size = 1975
+		size = 1075
+	}
+
+	clergymen = {
+		culture = datian
+		religion = mahayana
+		size = 900
 	}
 	
 	clergymen = {
@@ -3575,7 +3611,7 @@
 	clergymen = {
 		culture = hanhui
 		religion = sunni
-		size = 500
+		size = 725
 	}
 	
 	clergymen = {
@@ -3585,15 +3621,15 @@
 	}
 
 	artisans = {
-		culture = jianghuai
+		culture = wu
 		religion = mahayana
 		size = 5715
 	}
 	
 	artisans = {
-		culture = fuguang
+		culture = datian
 		religion = mahayana
-		size = 5000
+		size = 2000
 	}
 
 	soldiers = {
@@ -3609,56 +3645,49 @@
 	}
 	
 	soldiers = {
-		culture = fuguang
+		culture = datian
 		religion = mahayana
 		size = 1000
 	}
 
-
 	farmers = {
-		culture = min_zhong
+		culture = quanzhang
 		religion = mahayana
-		size = 98375
+		size = 118375
 	}
 	
 	farmers = {
 		culture = min_ke
 		religion = mahayana
-		size = 512600
+		size = 472600
 	}
 	
 	farmers = {
-		culture = s_mandarin
-		religion = mahayana
-		size = 35000
-	}
-	
-	farmers = {
-		culture = fuguang
+		culture = datian
 		religion = mahayana
 		size = 25500
 	}
 
 	aristocrats = {
-		culture = min_zhong
+		culture = quanzhang
 		religion = mahayana
-		size = 12000
+		size = 9000
+	}
+
+	aristocrats = {
+		culture = datian
+		religion = mahayana
+		size = 2000
 	}
 
 	clergymen = {
-		culture = min_zhong
+		culture = quanzhang
 		religion = mahayana
 		size = 5900
 	}
-	
-	clergymen = {
-		culture = hanhui
-		religion = sunni
-		size = 225
-	}
 
 	artisans = {
-		culture = min_zhong
+		culture = quanzhang
 		religion = mahayana
 		size = 10000
 	}
@@ -3670,9 +3699,9 @@
 	}
 	
 	artisans = {
-		culture = min
+		culture = datian
 		religion = mahayana
-		size = 8000
+		size = 7000
 	}
 	
 	artisans = {
@@ -3700,9 +3729,15 @@
 	}
 
 	farmers = {
-		culture = min_zhong
+		culture = quanzhang
 		religion = mahayana
-		size = 139175
+		size = 89175
+	}
+
+	farmers = {
+		culture = datian
+		religion = mahayana
+		size = 50000
 	}
 
 	clergymen = {
@@ -3718,9 +3753,9 @@
 	}
 	
 	artisans = {
-		culture = min_zhong
+		culture = puxian
 		religion = mahayana
-		size = 10000
+		size = 3000
 	}
 	
 	artisans = {
@@ -3732,16 +3767,22 @@
 	soldiers = {
 		culture = min_ke
 		religion = mahayana
-		size = 3000
+		size = 2000
 	}
 
 	soldiers = {
-		culture = min_ke
+		culture = datian
 		religion = mahayana
+		size = 1000
+	}
+
+	soldiers = {
+		culture = hanhui
+		religion = sunni
 		size = 100
 	}
 }
-#Zhangzhou (3796000/949000 POPS)
+#Zhangzhou (3217600/804400 POPS)
 1487 = {
 	aristocrats = {
 		culture = wu
@@ -3752,23 +3793,23 @@
 	aristocrats = {
 		culture = jianghuai
 		religion = mahayana
-		size = 1600
+		size = 1100
 	}
 	
 	aristocrats = {
-		culture = min
+		culture = quanzhang
 		religion = mahayana
 		size = 5000
 	}
 	
 	aristocrats = {
-		culture = datian
+		culture = min
 		religion = mahayana
 		size = 500
 	}
 
 	clergymen = {
-		culture = jianghuai
+		culture = quanzhang
 		religion = mahayana
 		size = 1900
 	}
@@ -3776,7 +3817,7 @@
 	clergymen = {
 		culture = wu
 		religion = mahayana
-		size = 1000
+		size = 900
 	}
 	
 	clergymen = {
@@ -3786,7 +3827,7 @@
 	}
 	
 	clergymen = {
-		culture = datian
+		culture = min
 		religion = mahayana
 		size = 500
 	}
@@ -3794,7 +3835,7 @@
 	clergymen = {
 		culture = hanhui
 		religion = sunni
-		size = 1850
+		size = 1750
 	}
 	
 	clergymen = {
@@ -3810,15 +3851,21 @@
 	}
 	
 	artisans = {
-		culture = datian
+		culture = quanzhang
+		religion = mahayana
+		size = 11000
+	}
+
+	artisans = {
+		culture = quanzhang
+		religion = mahayana
+		size = 11000
+	}
+
+	artisans = {
+		culture = min
 		religion = mahayana
 		size = 8000
-	}
-	
-	artisans = {
-		culture = min_bei
-		religion = mahayana
-		size = 3000
 	}
 	
 	artisans = {
@@ -3836,19 +3883,25 @@
 	artisans = {
 		culture = hanhui
 		religion = sunni
-		size = 12800
+		size = 10800
+	}
+
+	soldiers = {
+		culture = hanhui
+		religion = sunni
+		size = 1000
 	}
 	
 	artisans = {
 		culture = hanhui
 		religion = jewish
-		size = 7200
+		size = 5200
 	}
 
 	soldiers = {
-		culture = jianghuai
+		culture = gan
 		religion = mahayana
-		size = 1900
+		size = 1000
 	}
 	
 	soldiers = {
@@ -3858,7 +3911,7 @@
 	}
 	
 	soldiers = {
-		culture = gan
+		culture = jicha
 		religion = mahayana
 		size = 800
 	}
@@ -3876,9 +3929,9 @@
 	}
 
 	farmers = {
-		culture = jianghuai
+		culture = min
 		religion = mahayana
-		size = 56350
+		size = 26350
 	}
 	
 	farmers = {
@@ -3888,21 +3941,9 @@
 	}
 	
 	farmers = {
-		culture = min_zhong
-		religion = mahayana
-		size = 48000
-	}
-	
-	farmers = {
 		culture = min_ke
 		religion = mahayana
 		size = 82000
-	}
-	
-	farmers = {
-		culture = min
-		religion = mahayana
-		size = 110250
 	}
 	
 	farmers = {
@@ -3938,19 +3979,19 @@
 	farmers = {
 		culture = quanzhang
 		religion = mahayana
-		size = 441625
+		size = 471875
 	}
 	
 	farmers = {
 		culture = datian
 		religion = mahayana
-		size = 30000
+		size = 20000
 	}
 	
 	farmers = {
 		culture = hanhui
 		religion = sunni
-		size = 13000
+		size = 22000
 	}
 }
 #Gansu Region (16020000)
