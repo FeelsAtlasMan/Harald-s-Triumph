@@ -1,23 +1,150 @@
 #Taiwan Region
 
-#4325 = { #Tainan
+#1485 = { #Zhuqian (140000/35000POPS)
+	aristocrats = {
+		culture = babuza_taokas
+		religion = animist
+		size = 650
+	}
 
-#}
+	aristocrats = {
+		culture = pazeh
+		religion = animist
+		size = 720
+	}
 
-#1485 = { #Zhuqian
+	aristocrats = {
+		culture = papora_hoanya
+		religion = animist
+		size = 75
+	}
 
-#}
+	aristocrats = {
+		culture = saisiyat
+		religion = animist
+		size = 150
+	}
 
-4327 = { #French Tacaou (468000/117000 POPS) 
+	clergymen = {
+		culture = babuza_taokas
+		religion = animist
+		size = 280
+	}
+
+	clergymen = {
+		culture = pazeh
+		religion = animist
+		size = 300
+	}
+
+	clergymen = {
+		culture = saisiyat
+		religion = animist
+		size = 175
+	}
+
+	clergymen = {
+		culture = papora_hoanya
+		religion = animist
+		size = 85
+	}
+
+	artisans = {
+		culture = babuza_taokas
+		religion = animist
+		size = 2100
+	}
+
+	artisans = {
+		culture = pazeh
+		religion = animist
+		size = 2450
+	}
+
+	artisans = {
+		culture = saisiyat
+		religion = animist
+		size = 300
+	}
+
+	artisans = {
+		culture = papora_hoanya
+		religion = animist
+		size = 600
+	}
+
+	farmers = {
+		culture = babuza_taokas
+		religion = animist
+		size = 8450
+	}
+
+	farmers = {
+		culture = pazeh
+		religion = animist
+		size = 8600
+	}
+
+	farmers = {
+		culture = saisiyat
+		religion = animist
+		size = 2700
+	}
+
+	farmers = {
+		culture = papora_hoanya
+		religion = animist
+		size = 1265
+	}
+
+	farmers = {
+		culture = hakka
+		religion = mahayana
+		size = 3500
+	}
+
+	soldiers = {
+		culture = babuza_taokas
+		religion = animist
+		size = 500
+	}
+
+	soldiers = {
+		culture = pazeh
+		religion = animist
+		size = 1000
+	}
+
+	soldiers = {
+		culture = saisiyat
+		religion = animist
+		size = 400
+	}
+
+	soldiers = {
+		culture = papora_hoanya
+		religion = animist
+		size = 250
+	}
+
+	soldiers = {
+		culture = hakka
+		religion = mahayana
+		size = 450
+	}
+
+}
+
+4327 = { #French Tacaou (556000/139000 POPS) 
 	aristocrats = {
 		culture = french
-		religion = catholic
+		religion = gallician
 		size = 2125
 	}
 
 	clergymen = {
 		culture = french
-		religion = catholic
+		religion = gallician
 		size = 325
 	}
 
@@ -29,20 +156,20 @@
 
 	soldiers = {
 		culture = french
-		religion = catholic
+		religion = gallician
 		size = 1325
 	}
 
 	farmers = {
 		culture = french
-		religion = catholic
-		size = 22825
+		religion = gallician
+		size = 30825
 	}	
 
 	slaves = {
 		culture = paiwan
 		religion = animist
-		size = 11000
+		size = 10500
 	}
 
 	slaves = {
@@ -83,8 +210,14 @@
 
 	farmers = {
 		culture = paiwan
-		religion = catholic
+		religion = gallician
 		size = 3500
+	}
+
+	farmers = {
+		culture = rukai
+		religion = animist
+		size = 7500
 	}
 
 	farmers = {
@@ -96,52 +229,40 @@
 	farmers = {
 		culture = makatao
 		religion = animist
-		size = 5000
-	}
-
-	farmers = {
-		culture = makatao
-		religion = catholic
 		size = 2500
 	}
 
 	farmers = {
-		culture = siraya
-		religion = animist
-		size = 5800
-	}
-
-	farmers = {
-		culture = siraya
-		religion = catholic
-		size = 2225
+		culture = makatao
+		religion = gallician
+		size = 2525
 	}
 	
 	farmers = {
 		culture = hakka
 		religion = mahayana
-		size = 21775
+		size = 39775
 	}
 
 	farmers = {
 		culture = hakka
-		religion = catholic
-		size = 4000
+		religion = gallician
+		size = 3500
 	}
 }
-#Taitung (67k - 268k) 
-#288000/72000POPS
+#Taidong (67k - 268k) 
+#340000/85000POPS
 2562 = {
 	farmers = {
 		culture = amis
 		religion = animist
-		size = 21000
+		size = 20300
 	}
 
 	farmers = {
 		culture = bunun
 		religion = animist
-		size = 18925
+		size = 18625
 	}
 
 	farmers = {
@@ -151,9 +272,45 @@
 	}
 
 	farmers = {
+		culture = tsou
+		religion = animist
+		size = 2000
+	}
+
+	farmers = {
+		culture = saaroa
+		religion = animist
+		size = 3000
+	}
+
+	farmers = {
+		culture = kanakanavu
+		religion = animist
+		size = 2500
+	}
+
+	farmers = {
+		culture = rukai
+		religion = animist
+		size = 4500
+	}
+
+	farmers = {
+		culture = puyuma
+		religion = animist
+		size = 1500
+	}
+
+	farmers = {
 		culture = quanzhang
 		religion = mahayana
-		size = 800
+		size = 500
+	}
+
+	farmers = {
+		culture = hakka
+		religion = mahayana
+		size = 700
 	}
 	
 	slaves = {
@@ -177,7 +334,7 @@
 	soldiers = {
 		culture = bunun
 		religion = animist
-		size = 1000
+		size = 1025
 	}
 	
 	aristocrats = {
@@ -200,18 +357,365 @@
 	
 	clergymen = {
 		culture = french
-		religion = catholic
-		size = 100
+		religion = gallician
+		size = 175
 	}
 
 }
 
-#2406 = { #Dadu
+2406 = { #Dadu (350000/87500POPS)
+	aristocrats = {
+		culture = papora_hoanya
+		religion = animist
+		size = 1500
+	}
 
-#}
+	aristocrats = {
+		culture = papora_hoanya
+		religion = mahayana
+		size = 300
+	}
+
+	aristocrats = {
+		culture = babuza_taokas
+		religion = animist
+		size = 500
+	}
+
+	aristocrats = {
+		culture = pazeh
+		religion = animist
+		size = 600
+	}
+
+	aristocrats = {
+		culture = tsou
+		religion = animist
+		size = 400
+	}
+
+	clergymen = {
+		culture = papora_hoanya
+		religion = animist
+		size = 150
+	}
+
+	clergymen = {
+		culture = french
+		religion = gallician
+		size = 80
+	}
+
+	clergymen = {
+		culture = min
+		religion = mahayana
+		size = 25
+	}
+
+	clergymen = {
+		culture = papora_hoanya
+		religion = mahayana
+		size = 900
+	}
+
+	artisans = {
+		culture = papora_hoanya
+		religion = animist
+		size = 5020
+	}
+
+	artisans = {
+		culture = babuza_taokas
+		religion = animist
+		size = 3000
+	}
+
+	artisans = {
+		culture = babuza_taokas
+		religion = gallician
+		size = 450
+	}
+
+	aristocrats = {
+		culture = babuza_taokas
+		religion = gallician
+		size = 1100
+	}
+
+	officers = {
+		culture = papora_hoanya
+		religion = mahayana
+		size = 75
+	}
+
+	soldiers = {
+		culture = papora_hoanya
+		religion = animist
+		size = 3075
+	}
+
+	soldiers = {
+		culture = babuza_taokas
+		religion = animist
+		size = 2525
+	}
+
+	soldiers = {
+		culture = babuza_taokas
+		religion = gallician
+		size = 400
+	}
+
+	soldiers = {
+		culture = tsou
+		religion = animist
+		size = 350
+	}
+
+	soldiers = {
+		culture = pazeh
+		religion = animist
+		size = 250
+	}
+
+	soldiers = {
+		culture = thao
+		religion = animist
+		size = 200
+	}
+
+	farmers = {
+		culture = papora_hoanya
+		religion = animist
+		size = 20600
+	}
+
+	farmers = {
+		culture = babuza_taokas
+		religion = animist
+		size = 18500
+	}
+
+	farmers = {
+		culture = babuza_taokas
+		religion = gallician
+		size = 1200
+	}
+
+	farmers = {
+		culture = tsou
+		religion = animist
+		size = 4000
+	}
+
+	farmers = {
+		culture = pazeh
+		religion = animist
+		size = 7000
+	}
+
+	farmers = {
+		culture = thao
+		religion = animist
+		size = 4000
+	}
+
+	farmers = {
+		culture = min
+		religion = mahayana
+		size = 1300
+	}
+
+	slaves = {
+		culture = papora_hoanya
+		religion = animist
+		size = 2000
+	}
+
+	slaves = {
+		culture = babuza_taokas
+		religion = animist
+		size = 3500
+	}
+
+	slaves = {
+		culture = tsou
+		religion = animist
+		size = 2500
+	}
+
+	slaves = {
+		culture = pazeh
+		religion = animist
+		size = 1500
+	}
+
+	slaves = {
+		culture = thao
+		religion = animist
+		size = 500
+	}
+}
+
+4325 = { #Tainan under Dadu rule (244000/61000POPS)
+	aristocrats = {
+		culture = papora_hoanya
+		religion = animist
+		size = 1500
+	}
+
+	aristocrats = {
+		culture = papora_hoanya
+		religion = mahayana
+		size = 200
+	}
+
+	aristocrats = {
+		culture = siraya
+		religion = animist
+		size = 950
+	}
+
+	aristocrats = {
+		culture = siraya
+		religion = gallician
+		size = 75
+	}
+
+	aristocrats = {
+		culture = taivoan
+		religion = animist
+		size = 725
+	}
+
+	aristocrats = {
+		culture = babuza_taokas
+		religion = gallician
+		size = 50
+	}
+
+	clergymen = {
+		culture = papora_hoanya
+		religion = animist
+		size = 545
+	}
+
+	clergymen = {
+		culture = french
+		religion = gallician
+		size = 225
+	}
+
+	clergymen = {
+		culture = babuza_taokas
+		religion = gallician
+		size = 25
+	}
+
+	clergymen = {
+		culture = siraya
+		religion = gallician
+		size = 55
+	}
+
+	artisans = {
+		culture = papora_hoanya
+		religion = animist 
+		size = 7045
+	}
+
+	artisans = {
+		culture = siraya
+		religion = gallician
+		size = 1200
+	}
+
+	artisans = {
+		culture = siraya
+		religion = animist
+		size = 4500
+	}
+
+	farmers = {
+		culture = papora_hoanya
+		religion = animist
+		size = 8000
+	}
+
+	farmers = {
+		culture = makatao
+		religion = animist
+		size = 3500
+	}
+
+	farmers = {
+		culture = makatao
+		religion = gallician
+		size = 750
+	}
+
+	farmers = {
+		culture = siraya
+		religion = animist
+		size = 10825
+	}
+
+	farmers = {
+		culture = siraya
+		religion = gallician
+		size = 2225
+	}
+
+	farmers = {
+		culture = babuza_taokas
+		religion = gallician
+		size = 1500
+	}
+
+	farmers = {
+		culture = french
+		religion = gallician
+		size = 1000
+	}
+
+	farmers = {
+		culture = quanzhang
+		religion = mahayana
+		size = 7500
+	}
+
+	slaves = {
+		culture = makatao
+		religion = animist
+		size = 2250
+	}
+
+	slaves = {
+		culture = siraya
+		religion = animist
+		size = 2950
+	}
+
+	slaves = {
+		culture = taivoan
+		religion = animist
+		size = 2005
+	}
+
+	slaves = {
+		culture = paiwan
+		religion = animist
+		size = 850
+	}
+
+	slaves = {
+		culture = thao
+		religion = animist
+		size = 550
+	}
+}
 
 #Penghu (66000/16500 POPS)
-#THIS IS NOT PENGHU
 4326 = {
 	aristocrats = {
 		culture = min
@@ -258,7 +762,13 @@
 	farmers = {
 		culture = min
 		religion = mahayana
-		size = 7925
+		size = 6525
+	}
+
+	farmers = {
+		culture = min_ke
+		religion = mahayana
+		size = 1700
 	}
 
 	farmers = {
@@ -270,11 +780,11 @@
 	farmers = {
 		culture = papora_hoanya
 		religion = animist
-		size = 1500
+		size = 1200
 	}
 }
 
-#Taipei (808800/202200 POPS) formerly 2681 - Kikkiaki in Russia.txt
+#Ryukyuan Tainishi (688000/172000 POPS) formerly 2681 - Kikkiaki in Russia.txt
 2681 = {
 	aristocrats = {
 		culture = okinawan
@@ -285,13 +795,13 @@
 	bureaucrats = {
 		culture = okinawan
 		religion = mahayana
-		size = 300
+		size = 200
 	}
 
 	officers = {
 		culture = okinawan
 		religion = mahayana
-		size = 725
+		size = 625
 	}
 
 	clergymen = {
@@ -315,7 +825,7 @@
 	farmers = {
 		culture = okinawan
 		religion = mahayana
-		size = 80625
+		size = 58625
 	}
 
 	aristocrats = {
@@ -333,19 +843,13 @@
 	artisans = {
 		culture = yonaguni
 		religion = mahayana
-		size = 4000
-	}
-
-	artisans = {
-		culture = basai
-		religion = mahayana
-		size = 1500
+		size = 3500
 	}
 
 	clergymen = {
 		culture = basai
 		religion = mahayana
-		size = 500
+		size = 400
 	}
 
 	soldiers = {
@@ -357,19 +861,61 @@
 	farmers = {
 		culture = basai
 		religion = animist
-		size = 23200
+		size = 13200
+	}
+
+	artisans = {
+		culture = basai
+		religion = mahayana
+		size = 2300
+	}
+
+	farmers = {
+		culture = hakka
+		religion = mahayana
+		size = 6900
+	}
+
+	soldiers = {
+		culture = hakka
+		religion = mahayana
+		size = 1350
+	}
+
+	officers = {
+		culture = hakka
+		religion = mahayana
+		size = 50
+	}
+
+	serfs = {
+		culture = basai
+		religion = animist
+		size = 4500
 	}
 
 	farmers = {
 		culture = kavalan
 		religion = animist
-		size = 12000
+		size = 7500
+	}
+
+	serfs = {
+		culture = kavalan
+		religion = animist
+		size = 900
+	}
+
+	serfs = {
+		culture = luilang
+		religion = animist
+		size = 3400
 	}
 
 	farmers = {
 		culture = luilang
 		religion = animist
-		size = 12800
+		size = 6000
 	}
 
 	farmers = {
@@ -387,7 +933,7 @@
 	artisans = {
 		culture = basai
 		religion = animist
-		size = 2100
+		size = 3100
 	}
 
 	soldiers = {
@@ -399,25 +945,25 @@
 	farmers = {
 		culture = yonaguni
 		religion = mahayana
-		size = 19775
+		size = 17775
 	}
 
 	farmers = {
 		culture = yaeyama
 		religion = mahayana
-		size = 10000
+		size = 9500
 	}
 	
 	serfs = {
 		culture = okinawan
 		religion = mahayana
-		size = 5000
+		size = 3500
 	}
 
 	serfs = {
 		culture = yonaguni
 		religion = mahayana
-		size = 5000
+		size = 4000
 	}
 	
 }
