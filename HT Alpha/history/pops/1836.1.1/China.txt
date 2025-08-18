@@ -9920,7 +9920,7 @@ aristocrats = {
 	farmers = {
 		culture = hanhui
 		religion = sunni
-		size = 29800
+		size = 19800
 	}
 
 	farmers = {
@@ -9986,7 +9986,7 @@ aristocrats = {
 	farmers = {
 		culture = jianghuai
 		religion = mahayana
-		size = 281325
+		size = 181325
 	}
 	
 	slaves = {
@@ -10004,7 +10004,13 @@ aristocrats = {
 	serfs = {
 		culture = jianghuai
 		religion = mahayana
-		size = 181000
+		size = 281000
+	}
+
+	serfs = {
+		culture = hanhui
+		religion = sunni
+		size = 10000
 	}
 
 	serfs = {
@@ -10012,15 +10018,21 @@ aristocrats = {
 		religion = mahayana
 		size = 60000
 	}
+
+	serfs = {
+		culture = hakka
+		religion = mahayana
+		size = 1500
+	}
 	
 	farmers = {
 		culture = hakka
 		religion = mahayana
-		size = 9000
+		size = 7500
 	}
 
 }
-#Huaian (2962700/740675 POPS)
+#Huai'an (2962700/740675 POPS)
 1536 = {
 	aristocrats = {
 		culture = jianghuai
@@ -10097,7 +10109,13 @@ aristocrats = {
 	farmers = {
 		culture = jianghuai
 		religion = mahayana
-		size = 626150
+		size = 300150
+	}
+
+	serfs = {
+		culture = jianghuai
+		religion = mahayana
+		size = 326000
 	}
 }
 #Changzhou (5102000/1275500 POPS)
@@ -10189,19 +10207,7 @@ aristocrats = {
 	farmers = {
 		culture = wu
 		religion = mahayana
-		size = 461650
-	}
-
-	farmers = {
-		culture = wu
-		religion = mahayana
-		size = 125650
-	}
-	
-	serfs = {
-		culture = wu
-		religion = mahayana
-		size = 530000
+		size = 521650
 	}
 	
 	farmers = {
@@ -10245,6 +10251,12 @@ aristocrats = {
 		religion = animist
 		size = 200
 	}
+
+	serfs = {
+		culture = wu
+		religion = mahayana
+		size = 595650
+	}
 }
 #Shanghai (272800/68200 POPS)
 1538 = {
@@ -10281,7 +10293,7 @@ aristocrats = {
 	farmers = {
 		culture = wu
 		religion = mahayana
-		size = 54500
+		size = 42500
 	}
 	
 	farmers = {
@@ -10289,13 +10301,25 @@ aristocrats = {
 		religion = mahayana
 		size = 6500
 	}
+
+	serfs = {
+		culture = wu
+		religion = mahayana
+		size = 12000
+	}
 }
 #Suzhou (4968000/1242000 POPS)
 1539 = {
 	aristocrats = {
 		culture = wu
 		religion = mahayana
-		size = 19225
+		size = 18220
+	}
+
+	bureaucrats = {
+		culture = wu
+		religion = mahayana
+		size = 1005
 	}
 
 	clergymen = {
@@ -10373,7 +10397,7 @@ aristocrats = {
 	farmers = {
 		culture = jianghuai
 		religion = mahayana
-		size = 256400
+		size = 133000
 	}
 
 	farmers = {
@@ -10385,7 +10409,19 @@ aristocrats = {
 	farmers = {
 		culture = wu
 		religion = mahayana
-		size = 613825
+		size = 301120
+	}
+
+	serfs = {
+		culture = wu
+		religion = mahayana
+		size = 312705
+	}
+
+	serfs = {
+		culture = jianghuai
+		religion = mahayana
+		size = 123400
 	}
 
 }
@@ -10484,13 +10520,13 @@ aristocrats = {
 	farmers = {
 		culture = wu
 		religion = mahayana
-		size = 494300
+		size = 294300
 	}
 	
 	serfs = {
 		culture = wu
 		religion = mahayana
-		size = 70000
+		size = 270000
 	}
 
 	clergymen = {
@@ -10508,13 +10544,25 @@ aristocrats = {
 	farmers = {
 		culture = hanhui
 		religion = sunni
-		size = 13000
+		size = 5000
+	}
+
+	serfs = {
+		culture = hanhui
+		religion = sunni
+		size = 8000
 	}
 
 	farmers = {
 		culture = jianghuai
 		religion = mahayana
-		size = 39350
+		size = 15350
+	}
+
+	serfs = {
+		culture = jianghuai
+		religion = mahayana
+		size = 24000
 	}
 }
 #Tongzhou (4684000/1171000 POPS)
@@ -10606,7 +10654,7 @@ aristocrats = {
 	farmers = {
 		culture = jianghuai
 		religion = mahayana
-		size = 493925
+		size = 353425
 	}
 
 	farmers = {
@@ -10618,7 +10666,7 @@ aristocrats = {
 	serfs = {
 		culture = jianghuai
 		religion = mahayana
-		size = 300000
+		size = 440500
 	}
 
 	serfs = {
@@ -10666,7 +10714,13 @@ aristocrats = {
 	farmers = {
 		culture = hanhui
 		religion = sunni
-		size = 9425
+		size = 5020
+	}
+
+	serfs = {
+		culture = hanhui
+		religion = sunni
+		size = 4405
 	}
 
 	farmers = {
@@ -10752,7 +10806,13 @@ aristocrats = {
 	farmers = {
 		culture = zhongyuan
 		religion = mahayana
-		size = 452225
+		size = 180225
+	}
+
+	serfs = {
+		culture = zhongyuan
+		religion = mahayana
+		size = 272000
 	}
 }
 #Yangzhou (2476000/619000 POPS)
@@ -10799,12 +10859,6 @@ aristocrats = {
 		size = 3125
 	}
 
-	farmers = {
-		culture = jianghuai
-		religion = mahayana
-		size = 91950
-	}
-
 	soldiers = {
 		culture = wu
 		religion = mahayana
@@ -10826,7 +10880,13 @@ aristocrats = {
 	farmers = {
 		culture = jianghuai
 		religion = mahayana
-		size = 460000
+		size = 291950
+	}
+
+	serfs = {
+		culture = jianghuai
+		religion = mahayana
+		size = 260000
 	}
 }
 #Zhenjiang (2964000/741000 POPS)
@@ -10912,19 +10972,25 @@ aristocrats = {
 	farmers = {
 		culture = wu
 		religion = mahayana
-		size = 400375
+		size = 200305
 	}
-	
+
 	serfs = {
-		culture = jianghuai
+		culture = wu
 		religion = mahayana
-		size = 22000
+		size = 200070
 	}
 
 	farmers = {
 		culture = jianghuai
 		religion = mahayana
-		size = 236575
+		size = 136575
+	}
+	
+	serfs = {
+		culture = jianghuai
+		religion = mahayana
+		size = 122000
 	}
 
 }

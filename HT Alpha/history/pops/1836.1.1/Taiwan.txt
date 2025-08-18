@@ -1,10 +1,10 @@
 #Taiwan Region
-#Ryukyuan Tainishi/Katanggara (406000/101500 POPS) formerly 2681 - Kikkiaki in Russia.txt
+#Ryukyuan Tainishi/Katanggara (346000/86500 POPS) formerly 2681 - Kikkiaki in Russia.txt
 2681 = {
 	aristocrats = {
 		culture = okinawan
 		religion = mahayana
-		size = 1500
+		size = 1300
 	}
 
 	bureaucrats = {
@@ -22,25 +22,19 @@
 	clergymen = {
 		culture = okinawan
 		religion = mahayana
-		size = 1225
+		size = 725
 	}
 
 	artisans = {
 		culture = okinawan
 		religion = mahayana
-		size = 5150
+		size = 4950
 	}
 
 	soldiers = {
 		culture = okinawan
 		religion = mahayana
 		size = 1350
-	}
-
-	farmers = {
-		culture = okinawan
-		religion = mahayana
-		size = 23125
 	}
 
 	aristocrats = {
@@ -83,12 +77,6 @@
 		culture = basai
 		religion = mahayana
 		size = 800
-	}
-
-	farmers = {
-		culture = hakka
-		religion = mahayana
-		size = 6900
 	}
 
 	soldiers = {
@@ -160,13 +148,25 @@
 	farmers = {
 		culture = yonaguni
 		religion = mahayana
-		size = 7275
+		size = 5275
 	}
 
 	farmers = {
 		culture = yaeyama
 		religion = mahayana
-		size = 9500
+		size = 7500
+	}
+
+		farmers = {
+		culture = okinawan
+		religion = mahayana
+		size = 13125
+	}
+
+	farmers = {
+		culture = hakka
+		religion = mahayana
+		size = 6900
 	}
 	
 	serfs = {
