@@ -297,3 +297,17 @@ ALB_liberal;Partija Demokratike;;;;;;;;;;;;;x;;;;
 ALB_liberal_2;Kushtetutistët;;;;;;;;;;;;;x;;;;
 ALB_anarcho_liberal;Partia Republikane;;;;;;;;;;;;;x;;;;
 ALB_fascist;Partia Fashiste Shqiptare;;;;;;;;;;;;x
+LEDGER_PROVINCE_CULTURE;Language;Culture;Kultur;;Cultura;;;;;;;;;x;;;;
+POP_NON_CULTURE;Minority Language;Culture minoritaire;Minderheitenkultur;;Cultura minoritaria;;;;;;;;;x;;;;
+POP_CULTURE;Language;Culture;Kultur;;Cultura;;;;;;;;;x;;;;
+CULTURE_IS_NOT;Language is NOT;La culture n'est PAS;Kultur ist NICHT;;La cultura NO es;;;;;;;;x;;;
+CULTURE_IS;Language is;La culture est;Kultur ist;;La cultura es;;;;;;;;x;;;
+COUNTRY_IS_NOT_CULTURE;Primary Language is NOT;La culture principale n'est PAS;Primärkultur ist NICHT;;La cultura principal NO es;;;;;;;;;x;
+COUNTRY_IS_CULTURE;Primary Language is;La culture principale est;Primärkultur ist;;La cultura principal es;;;;;;;;;x;
+IS_NOT_CULTURE_GROUP;Language Group is not;Le groupe de cultures n'est pas;Kulturgruppe ist nicht;;El grupo cultural no es;;;;;;;;;x;;;;
+IS_CULTURE_GROUP;Language Group is;Le groupe de cultures est;Kulturgruppe ist;;El grupo cultural es;;;;;;;;;x;;;;
+ALREADY_ASSIMILATED;Primary or Accepted Language;Culture principale ou acceptée;Primärkultur oder akzeptierte Kultur;;Cultura principal o aceptada;;;;;;;;;x;;
+PW_COLONY_NO_STATE;At least §Y$NUM$§W% of the population need to be Bureaucrats speaking an accepted Language in order to convert this colonial possession into a full national state. Current ratio is §Y$CURR$§W%;Au moins §Y$NUM$%§W de la population d'une culture acceptée doit être composée de bureaucrates pour convertir cette possession coloniale en État national à part entière.\nLa proportion actuelle est de §Y$CURR$%§W.;Mindestens §Y$NUM$§W% der Bevölkerung müssen Bürokraten einer akzeptierten Kultur sein, damit wir diesen Kolonialbesitz zu einem vollwertigen Nationalstaat machen können. Aktuelle Rate ist §Y$CURR$§W%;;Al menos un §Y$NUM$§W% de la población debe estar formado por burócratas de una cultura aceptada para poder convertir esta posesión colonial en un estado nacional completo. La proporción actual es de un §Y$CURR$§W%;;;;;;;;;x;;
+REMOVE_PW_COLONY_NO_STATE;At least §Y$NUM$§W% of the population need to be Bureaucrats speaking an accepted Language. Current ratio is §Y$CURR$§W%;Au moins §Y$NUM$%§W de la population d'une culture acceptée doit être composée de bureaucrates. La proportion actuelle est de §Y$CURR$%§W.;Mindestens §Y$NUM$§W% der Bevölkerung müssen Bürokraten einer akzeptierten Kultur sein. Aktuelle Rate ist §Y$CURR$§W%;;Al menos un §Y$NUM$§W% de la población tienen que ser burócratas de una cultura aceptada. La proporción actual es de un §Y$CURR$§W%;;;;;;;;;x;;
+Culture;Language;;;;;;;;;;;;x
+Language;Language;;;;;;;;;;;;x
