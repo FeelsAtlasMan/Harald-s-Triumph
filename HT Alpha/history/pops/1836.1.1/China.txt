@@ -9231,12 +9231,12 @@ aristocrats = {
 		size = 49150
 	}
 }
-#Yongshun (882000/220510 POPS)
+#Yongshun (678000/169500 POPS)
 1529 = {
 	aristocrats = {
 		culture = tujia
 		religion = animist
-		size = 6265
+		size = 5255
 	}
 	
 	aristocrats = {
@@ -9272,7 +9272,7 @@ aristocrats = {
 	clergymen = {
 		culture = tujia
 		religion = animist
-		size = 2375
+		size = 1875
 	}
 	
 	clergymen = {
@@ -9296,13 +9296,13 @@ aristocrats = {
 	artisans = {
 		culture = tujia
 		religion = animist
-		size = 8925
+		size = 6925
 	}
 	
 	artisans = {
 		culture = tujia
 		religion = mahayana
-		size = 5075
+		size = 3575
 	}
 	
 	artisans = {
@@ -9314,19 +9314,19 @@ aristocrats = {
 	artisans = {
 		culture = chenxu_xiang
 		religion = mahayana
-		size = 15000
+		size = 7000
 	}
 	
 	artisans = {
 		culture = miao
 		religion = mahayana
-		size = 3750
+		size = 2750
 	}
 	
 	farmers = {
 		culture = chenxu_xiang
 		religion = mahayana
-		size = 59000
+		size = 43000
 	}
 	
 	farmers = {
@@ -9356,13 +9356,13 @@ aristocrats = {
 	farmers = {
 		culture = tujia
 		religion = animist
-		size = 48000
+		size = 34000
 	}
 	
 	farmers = {
 		culture = tujia
 		religion = mahayana
-		size = 23000
+		size = 19000
 	}
 	
 	farmers = {
@@ -9408,9 +9408,9 @@ aristocrats = {
 	}
 	
 	farmers = {
-		culture = gan
+		culture = dongsui
 		religion = mahayana
-		size = 12000
+		size = 9000
 	}
 }
 #Yongzhou (2980000/745000 POPS)
@@ -9678,7 +9678,7 @@ aristocrats = {
 		size = 815
 	}
 }
-4324 = { #Qingcheng/Hohhot (230400/57600POPS)
+4324 = { #Qingcheng/Hohhot (330400/82600POPS)
 	aristocrats = {
 		culture = ordos
 		religion = gelugpa
@@ -9689,6 +9689,12 @@ aristocrats = {
 		culture = jin
 		religion = mahayana
 		size = 350
+	}
+
+	aristocrats = {
+		culture = tumed
+		religion = gelugpa
+		size = 450
 	}
 
 	aristocrats = {
@@ -9707,6 +9713,12 @@ aristocrats = {
 		culture = ordos
 		religion = gelugpa
 		size = 1825
+	}
+
+	clergymen = {
+		culture = tumed
+		religion = gelugpa
+		size = 250
 	}
 
 	clergymen = {
@@ -9740,6 +9752,12 @@ aristocrats = {
 	}
 
 	artisans = {
+		culture = tumed
+		religion = mahayana
+		size = 800
+	}
+
+	artisans = {
 		culture = hanhui
 		religion = sunni
 		size = 1200
@@ -9751,10 +9769,22 @@ aristocrats = {
 		size = 950
 	}
 
+	officers = {
+		culture = tumed
+		religion = gelugpa
+		size = 100
+	}
+
 	soldiers = {
 		culture = ordos
 		religion = gelugpa
 		size = 5050
+	}
+
+	soldiers = {
+		culture = tumed
+		religion = gelugpa
+		size = 1400
 	}
 
 	soldiers = {
@@ -9772,13 +9802,25 @@ aristocrats = {
 	farmers = {
 		culture = ordos
 		religion = gelugpa
-		size = 10000
+		size = 20000
+	}
+
+	farmers = {
+		culture = tumed
+		religion = gelugpa
+		size = 8000
 	}
 
 	serfs = {
 		culture = ordos
 		religion = gelugpa
 		size = 7000
+	}
+
+	serfs = {
+		culture = tumed
+		religion = gelugpa
+		size = 4000
 	}
 
 	farmers = {
