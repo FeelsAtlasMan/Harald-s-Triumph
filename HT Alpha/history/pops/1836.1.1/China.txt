@@ -9506,51 +9506,337 @@ aristocrats = {
 	}
 }
 #Inner Mongolia Region (1176000)
-#under the rule of China in 1836
-#Guihua Tumed (436000/109000 POPS)
-1532 = {
+#Mostly under the rule of Zhao in 1836
+4320 = { #Alashan (24000/6000POPS)
+	aristocrats = {
+		culture = oirat
+		religion = gelugpa
+		size = 200
+	}
+
+	aristocrats = {
+		culture = ordos
+		religion = gelugpa
+		size = 100
+	}
+
+	clergymen = {
+		culture = oirat
+		religion = gelugpa
+		size = 75
+	}
+
+	clergymen = {
+		culture = ordos
+		religion = gelugpa
+		size = 25
+	}
+
+	artisans = {
+		culture = oirat
+		religion = gelugpa
+		size = 300
+	}
+
+	farmers = {
+		culture = oirat
+		religion = gelugpa
+		size = 3000
+	}
+
+	farmers = {
+		culture = ordos
+		religion = gelugpa
+		size = 1000
+	}
+
+	farmers = {
+		culture = jin
+		religion = mahayana
+		size = 200
+	}
+
+	soldiers = {
+		culture = oirat
+		religion = gelugpa
+		size = 1100
+	}
+}
+4322 = { #Dengkou (36200/9050POPS)
+	aristocrats = {
+		culture = ordos
+		religion = gelugpa
+		size = 300
+	}
+
+	aristocrats = {
+		culture = oirat
+		religion = gelugpa
+		size = 125
+	}
+
+	clergymen = {
+		culture = ordos
+		religion = gelugpa
+		size = 475
+	}
+
+	clergymen = {
+		culture = hanhui
+		religion = sunni
+		size = 25
+	}
+
+	artisans = {
+		culture = ordos
+		religion = gelugpa
+		size = 300
+	}
+
+	farmers = {
+		culture = ordos
+		religion = gelugpa
+		size = 5350
+	}
+
+	farmers = {
+		culture = oirat
+		religion = gelugpa
+		size = 650
+	}
+
+	farmers = {
+		culture = hanhui
+		religion = sunni
+		size = 350
+	}
+
+	farmers = {
+		culture = jin
+		religion = mahayana
+		size = 1475
+	}
+}
+4323 = { #Babaishi (55800/13950POPS)
+	aristocrats = {
+		culture = ordos
+		religion = gelugpa
+		size = 1005
+	}
+
+	aristocrats = {
+		culture = oirat
+		religion = gelugpa
+		size = 45
+	}
+
+	clergymen = {
+		culture = ordos
+		religion = gelugpa
+		size = 850
+	}
+
+	clergymen = {
+		culture = oirat
+		religion = gelugpa
+		size = 100
+	}
+
+	clergymen = {
+		culture = hanhui
+		religion = sunni
+		size = 35
+	}
+
+	officers = {
+		culture = ordos
+		religion = gelugpa
+		size = 100
+	}
+
+	soldiers = {
+		culture = ordos
+		religion = gelugpa
+		size = 4095
+	}
+
+	soldiers = {
+		culture = oirat
+		religion = gelugpa
+		size = 1005
+	}
+
+	farmers = {
+		culture = ordos
+		religion = gelugpa
+		size = 5900
+	}
+
+	farmers = {
+		culture = hanhui
+		religion = sunni
+		size = 815
+	}
+}
+4324 = { #Qingcheng/Hohhot (230400/57600POPS)
+	aristocrats = {
+		culture = ordos
+		religion = gelugpa
+		size = 2000
+	}
+
+	aristocrats = {
+		culture = jin
+		religion = mahayana
+		size = 350
+	}
+
 	aristocrats = {
 		culture = mongol
+		religion = gelugpa
+		size = 150
+	}
+
+	aristocrats = {
+		culture = hanhui
+		religion = sunni
+		size = 75
+	}
+
+	clergymen = {
+		culture = ordos
+		religion = gelugpa
+		size = 1825
+	}
+
+	clergymen = {
+		culture = jin
+		religion = mahayana
+		size = 500
+	}
+
+	clergymen = {
+		culture = hanhui
+		religion = sunni
+		size = 400
+	}
+
+	artisans = {
+		culture = ordos
+		religion = gelugpa
+		size = 11000
+	}
+
+	artisans = {
+		culture = ordos
+		religion = gelugpa
+		size = 4500
+	}
+
+	artisans = {
+		culture = jin
+		religion = mahayana
+		size = 1300
+	}
+
+	artisans = {
+		culture = hanhui
+		religion = sunni
+		size = 1200
+	}
+
+	officers = {
+		culture = ordos
+		religion = gelugpa
+		size = 950
+	}
+
+	soldiers = {
+		culture = ordos
+		religion = gelugpa
+		size = 5050
+	}
+
+	soldiers = {
+		culture = jin
+		religion = mahayana
+		size = 1100
+	}
+
+	soldiers = {
+		culture = hanhui
+		religion = sunni
+		size = 800
+	}
+
+	farmers = {
+		culture = ordos
+		religion = gelugpa
+		size = 10000
+	}
+
+	serfs = {
+		culture = ordos
+		religion = gelugpa
+		size = 7000
+	}
+
+	farmers = {
+		culture = jin
+		religion = mahayana
+		size = 5000
+	}
+
+	farmers = {
+		culture = hanhui
+		religion = sunni
+		size = 3000
+	}
+
+	serfs = {
+		culture = jin
+		religion = mahayana
+		size = 900
+	}
+
+	serfs = {
+		culture = hanhui
+		religion = sunni
+		size = 500
+	}
+}
+#Yanzhou (436000/109000 POPS)
+1532 = {
+	aristocrats = {
+		culture = ordos
 		religion = gelugpa
 		size = 2000
 	}
 
 	bureaucrats = {
-		culture = mongol
+		culture = ordos
 		religion = gelugpa
 		size = 225
 	}
 
 	officers = {
-		culture = mongol
+		culture = ordos
 		religion = gelugpa
 		size = 225
 	}
 
 	clergymen = {
-		culture = mongol
+		culture = ordos
 		religion = gelugpa
 		size = 1050
 	}
 
 	artisans = {
-		culture = mongol
+		culture = ordos
 		religion = gelugpa
 		size = 4200
 	}
 
-	soldiers = {
-		culture = mongol
-		religion = gelugpa
-		size = 6050
-	}
-
-	farmers = {
-		culture = mongol
-		religion = gelugpa
-		size = 60250
-	}	
-	
 	soldiers = {
 		culture = ordos
 		religion = gelugpa
@@ -9558,9 +9844,21 @@ aristocrats = {
 	}
 
 	farmers = {
+		culture = mongol
+		religion = gelugpa
+		size = 40250
+	}	
+	
+	soldiers = {
+		culture = jin
+		religion = gelugpa
+		size = 3050
+	}
+
+	farmers = {
 		culture = ordos
 		religion = gelugpa
-		size = 45000
+		size = 68000
 	}
 
 	serfs = {
@@ -9570,28 +9868,60 @@ aristocrats = {
 	}
 
 	clergymen = {
-		culture = n_mandarin
+		culture = jin
 		religion = mahayana
-		size = 75
+		size = 45
+	}
+
+	clergymen = {
+		culture = hanhui
+		religion = sunni
+		size = 30
 	}
 
 	artisans = {
-		culture = n_mandarin
+		culture = jin
 		religion = mahayana
 		size = 200
 	}
 
 	farmers = {
-		culture = n_mandarin
-		religion = mahayana
-		size = 10000
+		culture = hanhui
+		religion = sunni
+		size = 5000
 	}
 	
 	farmers = {
 		culture = jin
 		religion = mahayana
-		size = 43625
+		size = 48625
 	}
+}
+4321 = {
+}
+4335 = {
+}
+4333 = {
+}
+4332 = {
+}
+4331 = {
+}
+4343 = {
+}
+4344 = {
+}
+4337 = {
+}
+4341 = {
+}
+4340 = {
+}
+4334 = {
+}
+4336 = {
+}
+4338 = {
 }
 #Jirim Chuulghan (152000/38000 POPS)
 1533 = {
@@ -9675,7 +10005,7 @@ aristocrats = {
 	}
 
 }
-#Ulaan Chab Chuulghan (132000/33000 POPS)
+#Shilin Gol (132000/33000 POPS)
 1534 = {
 	aristocrats = {
 		culture = mongol
@@ -9812,8 +10142,8 @@ aristocrats = {
 	}
 }
 #Jiangsu Region (37612000)
-#under the rule of China in 1836
-#Nanjing (3411200/852800 POPS)
+#under the rule of Chu in 1836
+#Jiangjing (3411200/852800 POPS)
 2221 = {
 	aristocrats = {
 		culture = hakka
