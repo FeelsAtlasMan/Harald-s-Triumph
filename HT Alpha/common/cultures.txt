@@ -13644,6 +13644,13 @@ east_asian = {
 		last_names = { Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu
 		}
 	}
+	annam = { #Jiaozhi/Annamese
+		color = {127 38 30}
+		first_names = { Wang Li Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu
+		}
+		last_names = { Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu
+		}
+	}
 	
 	#Hakka
 	hakka = { #Yuetai
@@ -13734,14 +13741,14 @@ east_asian = {
 		last_names = { Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu
 		}
 	}
-	qide = {
+	qide = { #most Gan influenced
 		color = {75 151 32}
 		first_names = { Wang Li Zhang Liu Chen Huang Liang Luo Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu
 		}
 		last_names = { Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu
 		}
 	}
-	yanzhou = {
+	yanzhou = { #most Wu influenced
 		color = {75 155 51}
 		first_names = { Wang Li Zhang Liu Chen Huang Liang Luo Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu
 		}

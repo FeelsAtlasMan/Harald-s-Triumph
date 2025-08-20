@@ -1,0 +1,24 @@
+name = "Lu Rebellion"
+
+1836.1.1 = {
+	add_attacker = SDG
+	add_defender = ORD
+	
+	# actor
+	# receiver
+	# casus_belli - cb type
+	# country - 3rd party
+	# state_province_id - target state capital
+	war_goal = {
+		casus_belli = civil_war
+		actor = SDG
+		receiver = ORD
+	}
+	
+	war_goal = {
+		casus_belli = civil_war
+		actor = ORD
+		receiver = SDG
+	}
+
+}

@@ -1,0 +1,24 @@
+name = "Liang Rebellion"
+
+1836.1.1 = {
+	add_attacker = LNG
+	add_defender = JNG
+	
+	# actor
+	# receiver
+	# casus_belli - cb type
+	# country - 3rd party
+	# state_province_id - target state capital
+	war_goal = {
+		casus_belli = civil_war
+		actor = LNG
+		receiver = JNG
+	}
+	
+	war_goal = {
+		casus_belli = civil_war
+		actor = JNG
+		receiver = LNG
+	}
+
+}

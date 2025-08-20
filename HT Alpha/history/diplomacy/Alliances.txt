@@ -5,13 +5,14 @@ alliance = {
     start_date = 1686.9.5
     end_date = 1936.1.1
 }
-#anti-Zhao rebellions allied with Chu
+#anti-Chu rebellion allied with Zhao
 alliance = {
-    first = JNG
+    first = ORD
     second = LNG
     start_date = 1835.1.1
     end_date = 1936.1.1
 }
+#anti-Zhao rebellion allied with Chu
 alliance = {
     first = JNG
     second = SDG
