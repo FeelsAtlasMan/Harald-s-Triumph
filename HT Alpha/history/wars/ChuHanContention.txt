@@ -1,0 +1,32 @@
+name = "Chu-Han Contention"
+
+1836.1.1 = {
+	add_attacker = JNG
+	add_attacker = SHN
+	add_attacker = SCT
+	add_defender = SZC
+	add_defender = TIB
+	add_defender = NSH
+	add_defender = BTH 
+	add_defender = LTH
+	add_defender = CKL
+	
+	# actor
+	# receiver
+	# casus_belli - cb type
+	# country - 3rd party
+	# state_province_id - target state capital
+
+	war_goal = {
+		casus_belli = civil_war
+		actor = JNG
+		receiver = SZC
+	}
+	
+	war_goal = {
+		casus_belli = civil_war
+		actor = SZC
+		receiver = JNG
+	}
+
+}

@@ -3,6 +3,7 @@ name = "Qian Rebellion"
 1836.1.1 = {
 	add_attacker = GZH
 	add_defender = JNG
+	add_defender = SHN
 	
 	# actor
 	# receiver
@@ -10,7 +11,7 @@ name = "Qian Rebellion"
 	# country - 3rd party
 	# state_province_id - target state capital
 	war_goal = {
-		casus_belli = become_independent
+		casus_belli = status_quo
 		actor = GZH
 		receiver = JNG
 	}

@@ -10,13 +10,13 @@ name = "Liang Rebellion"
 	# country - 3rd party
 	# state_province_id - target state capital
 	war_goal = {
-		casus_belli = civil_war
+		casus_belli = status_quo
 		actor = LNG
 		receiver = JNG
 	}
 	
 	war_goal = {
-		casus_belli = civil_war
+		casus_belli = annex_core_country
 		actor = JNG
 		receiver = LNG
 	}

@@ -1,5 +1,6 @@
 capital = 1578
-primary_culture = old_ba
+primary_culture = classical_chinese
+culture = old_ba
 culture = old_shu
 culture = s_mandarin
 religion = mahayana
@@ -8,6 +9,7 @@ plurality = 0.0
 nationalvalue = nv_tradition
 literacy = 0.01
 non_state_culture_literacy = 0.01
+prestige = 9
 
 # Political reforms
 slavery = yes_slavery
@@ -41,15 +43,15 @@ colonial_policy = no_colonies
 
 set_country_flag = mahayana_country
 
-ruling_party = SZC_conservative
+ruling_party = SZC_reactionary
 upper_house = {
 	fascist = 0
-	liberal = 10
-	conservative = 30
-	reactionary = 30
+	liberal = 20
+	conservative = 25
+	reactionary = 55
 	anarcho_liberal = 0
-	socialist = 10
-	communist = 20
+	socialist = 0
+	communist = 0
 }
 
 
@@ -61,16 +63,3 @@ flintlock_rifles = 1
 # Starting Consciousness
 consciousness = 0
 nonstate_consciousness = 0
-
-1861.1.1 = {
-
-foreign_weapons = yes_foreign_weapons
-
-# Technologies
-flintlock_rifles = 1
-
-# Inventions
-#bottling_process = yes
-modern_winemaking = yes
-
-}

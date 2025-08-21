@@ -1551,12 +1551,6 @@ vassal = {
 	start_date = 1836.1.1
 	end_date = 1937.1.1
 }
-vassal = {
-	first = SZC
-	second = NSH
-	start_date = 1836.1.1
-	end_date = 1937.1.1
-}
 #Yongshun Tusi
 vassal = {
 	first = JNG
@@ -1663,7 +1657,13 @@ vassal = {
 }
 
 #Tusi States
-
+#Lingtsang puppet of Derge
+vassal = {
+	first = DRG
+	second = LGT
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
 
 #Bulgaria
 vassal = {

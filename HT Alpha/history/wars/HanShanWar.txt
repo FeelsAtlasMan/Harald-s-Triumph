@@ -1,0 +1,32 @@
+name = "Han-Shan War"
+
+1836.1.1 = {
+	add_attacker = SHA
+	add_attacker = GZH
+	add_defender = SZC
+	add_defender = NZH
+	add_defender = TIB
+	add_defender = NSH
+	add_defender = BTH 
+	add_defender = LTH
+	add_defender = CKL
+	
+	# actor
+	# receiver
+	# casus_belli - cb type
+	# country - 3rd party
+	# state_province_id - target state capital
+
+	war_goal = {
+		casus_belli = conquest
+		actor = SHA
+		receiver = NZH
+	}
+	
+	war_goal = {
+		casus_belli = make_puppet
+		actor = SZC
+		receiver = GZH
+	}
+
+}

@@ -1,0 +1,37 @@
+name = "Kham War"
+
+1836.1.1 = {
+	add_attacker = DRG
+	add_attacker = LGT
+	add_defender = SZC
+	add_defender = TIB
+	add_defender = BTH 
+	add_defender = LTH
+	add_defender = CKL
+	
+	# actor
+	# receiver
+	# casus_belli - cb type
+	# country - 3rd party
+	# state_province_id - target state capital
+
+	war_goal = {
+		casus_belli = release_puppet
+		actor = DRG
+		receiver = SZC
+		country = TIB
+	}
+
+	war_goal = {
+		casus_belli = humiliate
+		actor = DRG
+		receiver = SZC
+	}
+	
+	war_goal = {
+		casus_belli = make_puppet
+		actor = SZC
+		receiver = DRG
+	}
+
+}
