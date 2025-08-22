@@ -1,8 +1,8 @@
-name = "Ludong Rebellion"
+name = "Gandong Rebellion"
 
 1836.1.1 = {
-	add_attacker = SDG
-	add_defender = ORD
+	add_attacker = JXI
+	add_defender = JNG
 	
 	# actor
 	# receiver
@@ -11,14 +11,14 @@ name = "Ludong Rebellion"
 	# state_province_id - target state capital
 	war_goal = {
 		casus_belli = acquire_all_cores
-		actor = SDG
-		receiver = ORD
+		actor = JXI
+		receiver = JNG
 	}
 	
 	war_goal = {
 		casus_belli = annex_core_country
-		actor = ORD
-		receiver = SDG
+		actor = JNG
+		receiver = JXI
 	}
 
 }

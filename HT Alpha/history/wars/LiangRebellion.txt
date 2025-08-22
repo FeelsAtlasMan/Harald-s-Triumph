@@ -10,7 +10,7 @@ name = "Liangzhou Rebellion"
 	# country - 3rd party
 	# state_province_id - target state capital
 	war_goal = {
-		casus_belli = status_quo
+		casus_belli = acquire_all_cores
 		actor = LNG
 		receiver = JNG
 	}
