@@ -100,7 +100,7 @@ army = {
 
 army = {
 	name = "Xuzhou Commandery Guard Corps"
-	location = 1542
+	location = 1509
 
 	regiment = {
 		name= "Jiaxu Zu"
@@ -165,7 +165,7 @@ army = {
 
 army = {
 	name = "Xiangyang Commandery Guard Corps"
-	location = 1523
+	location = 1562
 	regiment = {
 		name= "Jiashen Zu"
 		type = cavalry
@@ -229,7 +229,7 @@ army = {
 
 army = {
 	name = "Guilin Commandery Guard Corps"
-	location = 1503
+	location = 1505
 	regiment = {
 		name= "Jiawu Zu"
 		type = cavalry
@@ -331,23 +331,11 @@ navy = {
 		type = frigate
 	}
 	ship = {
-		name = "Dengyingzhou"
-		type = frigate
-	}
-	ship = {
-		name = "Yuankai"
-		type = frigate
-	}
-	ship = {
 		name = "Yuyuan"
 		type = frigate
 	}
 	ship = {
 		name = "Jingyuan"
-		type = frigate
-	}
-	ship = {
-		name = "Haian"
 		type = frigate
 	}
 	

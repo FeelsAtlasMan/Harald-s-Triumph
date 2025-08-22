@@ -1,14 +1,15 @@
-capital = 1524
-primary_culture = s_mandarin
+capital = 1530
+primary_culture = yongquan_xiang
+culture = xiangnan_tuhua
 religion = mahayana
-government = colonial_company
+government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_tradition
 literacy = 0.04
 non_state_culture_literacy = 0.01
 
 # Political reforms
-slavery = no_slavery
+slavery = yes_slavery
 upper_house_composition = appointed
 vote_franschise = none_voting
 public_meetings = no_meeting
@@ -38,11 +39,11 @@ colonial_policy = no_colonies
 
 set_country_flag = mahayana_country
 
-ruling_party = HNN_conservative
+ruling_party = HNN_liberal
 upper_house = {
 	fascist = 0
-	liberal = 20
-	conservative = 50
+	liberal = 50
+	conservative = 20
 	reactionary = 10
 	anarcho_liberal = 0
 	socialist = 0
