@@ -4,28 +4,28 @@ ECU = {
 }
 
 army = {
-	name = "Ejército de Colombia"
-	location = 2253
+	name = "Armée des Andes"
+	location = 2247
 	regiment = {
-		name= "1. Brigada de Infantería"
+		name= "1. Brigade d'Infanterie"
 		type = infantry
 		home = 2247
 	}
 
 	regiment = {
-		name= "2. Brigada de Infantería"
+		name= "2. Brigade d'Infanterie"
 		type = infantry
 		home = 2252
 	}
 
 	regiment = {
-		name= "3. Brigada de Infantería"
+		name= "3. Brigade d'Infanterie"
 		type = infantry
 		home = 2254
 	}
 
 	regiment = {
-		name= "1. Brigada de Caballería"
+		name= "1. Brigade de Cavallerie"
 		type = cuirassier
 		home = 2250
 	}
