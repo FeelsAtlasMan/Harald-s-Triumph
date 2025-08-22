@@ -1,0 +1,30 @@
+army = {
+
+	name = "Army of the White Tiger"
+	location = 1581
+	
+	regiment = {
+		name = "Jiazi Zu"
+		type = infantry
+		home = 1578
+	}
+
+	regiment = {
+		name = "Yichou Zu"
+		type = infantry
+		home = 1578
+	}
+
+	regiment = {
+		name = "Bingyin Zu"
+		type = infantry
+		home = 1577
+	}
+
+	regiment = {
+		name = "Dingmao Zu"
+		type = infantry
+		home = 1577
+	}
+	
+}

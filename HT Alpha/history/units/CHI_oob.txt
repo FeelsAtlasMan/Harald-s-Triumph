@@ -39,7 +39,7 @@ army = {
 	location = 2221
 	regiment = {
 		name= "Jiazi Zu"
-		type = cavalry
+		type = infantry
 		home = 2221
 	}
 
@@ -63,20 +63,24 @@ army = {
 
 	regiment = {
 		name= "Wuchen Zu"
-		type = infantry
-		home = 1544
-	}
-
-	regiment = {
-		name= "Jisi Zu"
 		type = cavalry
 		home = 1544
+	}
+}
+
+army = {
+	name = "Suzhou Commandery Guard Corps"
+	location = 1539
+	regiment = {
+		name= "Jisi Zu"
+		type = infantry
+		home = 1539
 	}
 
 	regiment = {
 		name= "Gengwu Zu"
 		type = infantry
-		home = 1537
+		home = 1538
 	}
 
 	regiment = {
@@ -93,8 +97,8 @@ army = {
 
 	regiment = {
 		name= "Guiyou Zu"
-		type = infantry
-		home = 1538
+		type = cavalry
+		home = 1539
 	}
 }
 

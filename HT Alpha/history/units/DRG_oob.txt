@@ -1,0 +1,31 @@
+SZC = {
+    value = -200 #relation
+}
+
+LGT = {
+    value = 35
+}
+
+TIB = {
+    value = 5
+}
+
+army = {
+    name = "Royal Army of Derge"
+    location = 1588
+    regiment = {
+        name = "First Company"
+        type = infantry
+        home = 3571
+    }
+    regiment = {
+        name = "Second Company"
+        type = infantry
+        home = 3571
+    }
+    regiment = {
+        name = "Third Company"
+        type = infantry
+        home = 3571
+    }
+}
