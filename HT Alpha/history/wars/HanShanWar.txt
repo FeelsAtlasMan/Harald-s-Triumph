@@ -29,4 +29,10 @@ name = "Han-Shan War"
 		receiver = GZH
 	}
 
+	war_goal = {
+		casus_belli = acquire_all_cores
+		actor = GZH
+		receiver = SZC
+	}
+
 }
