@@ -24,52 +24,52 @@ ORD = {
 
 army = {
 	name = "Left Army"
-	location = 1581
+	location = 1521
 	
 	regiment = {
-		name = "Jiazi Zu"
+		name = "Jiazi Brigade"
 		type = infantry
 		home = 1578
 	}
 
 	regiment = {
-		name = "Yichou Zu"
+		name = "Yichou Brigade"
 		type = infantry
 		home = 1578
 	}
 
 	regiment = {
-		name = "Bingyin Zu"
+		name = "Bingyin Brigade"
 		type = infantry
 		home = 1577
 	}
 
 	regiment = {
-		name = "Dingmao Zu"
+		name = "Dingmao Brigade"
 		type = infantry
 		home = 1577
 	}
 
 	regiment = {
-		name = "Wuchen Zu"
+		name = "Wuchen Brigade"
 		type = infantry
 		home = 1578
 	}
 
 	regiment = {
-		name = "Jisi Zu"
+		name = "Jisi Brigade"
 		type = infantry
 		home = 1578
 	}
 
 	regiment = {
-		name = "Gengwu Zu"
+		name = "Gengwu Brigade"
 		type = infantry
 		home = 1577
 	}
 
 	regiment = {
-		name = "Xinwei Zu"
+		name = "Xinwei Brigade"
 		type = infantry
 		home = 1577
 	}
@@ -81,49 +81,49 @@ army = {
 	location = 3894
 	
 	regiment = {
-		name= "Renshen Zu"
+		name= "Renshen Brigade"
 		type = infantry
 		home = 3588
 	}
 
 	regiment = {
-		name= "Guiyou Zu"
+		name= "Guiyou Brigade"
 		type = cavalry
 		home = 3588
 	}
 
 	regiment = {
-		name= "Jiaxu Zu"
+		name= "Jiaxu Brigade"
 		type = cavalry
 		home = 3576
 	}
 
 	regiment = {
-		name= "Yihai Zu"
+		name= "Yihai Brigade"
 		type = cavalry
 		home = 3570
 	}
 
 	regiment = {
-		name= "Bingzi Zu"
+		name= "Bingzi Brigade"
 		type = infantry
 		home = 3573
 	}
 
 	regiment = {
-		name= "Dingchou Zu"
+		name= "Dingchou Brigade"
 		type = infantry
 		home = 1577
 	}
 
 	regiment = {
-		name= "Wuyin Zu"
+		name= "Wuyin Brigade"
 		type = infantry
 		home = 1578
 	}
 
 	regiment = {
-		name= "Jimao Zu"
+		name= "Jimao Brigade"
 		type = infantry
 		home = 1580
 	}

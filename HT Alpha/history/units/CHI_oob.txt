@@ -38,31 +38,31 @@ army = {
 	name = "Capital Guard Corps"
 	location = 2221
 	regiment = {
-		name= "Jiazi Zu"
+		name= "Jiazi Brigade"
 		type = infantry
 		home = 2221
 	}
 
 	regiment = {
-		name= "Yichou Zu"
+		name= "Yichou Brigade"
 		type = infantry
 		home = 2221
 	}
 
 	regiment = {
-		name= "Bingyin Zu"
+		name= "Bingyin Brigade"
 		type = infantry
 		home = 2221
 	}
 
 	regiment = {
-		name= "Dingmao Zu"
+		name= "Dingmao Brigade"
 		type = infantry
 		home = 1544
 	}
 
 	regiment = {
-		name= "Wuchen Zu"
+		name= "Wuchen Brigade"
 		type = cavalry
 		home = 1544
 	}
@@ -72,225 +72,237 @@ army = {
 	name = "Suzhou Commandery Guard Corps"
 	location = 1539
 	regiment = {
-		name= "Jisi Zu"
+		name= "Jisi Brigade"
 		type = infantry
 		home = 1539
 	}
 
 	regiment = {
-		name= "Gengwu Zu"
+		name= "Gengwu Brigade"
 		type = infantry
 		home = 1538
 	}
 
 	regiment = {
-		name= "Xinwei Zu"
+		name= "Xinwei Brigade"
 		type = infantry
 		home = 1537
 	}
 
 	regiment = {
-		name= "Renshen Zu"
+		name= "Renshen Brigade"
 		type = infantry
 		home = 1605
 	}
 
 	regiment = {
-		name= "Guiyou Zu"
+		name= "Guiyou Brigade"
 		type = cavalry
 		home = 1539
 	}
 }
 
 army = {
-	name = "Xuzhou Commandery Guard Corps"
+	name = "Xuzhou Commandery First Guards"
 	location = 1509
 
 	regiment = {
-		name= "Jiaxu Zu"
-		type = cavalry
-		home = 1542
-	}
-
-	regiment = {
-		name= "Yihai Zu"
-		type = cavalry
-		home = 1542
-	}
-
-	regiment = {
-		name= "Bingzi Zu"
+		name= "Jiaxu Brigade"
 		type = infantry
 		home = 1542
 	}
 
 	regiment = {
-		name= "Dingchou Zu"
+		name= "Yihai Brigade"
+		type = infantry
+		home = 1542
+	}
+
+	regiment = {
+		name= "Bingzi Brigade"
+		type = infantry
+		home = 1542
+	}
+
+	regiment = {
+		name= "Dingchou Brigade"
 		type = infantry
 		home = 1541
 	}
 
 	regiment = {
-		name= "Wuyin Zu"
-		type = infantry
+		name= "Wuyin Brigade"
+		type = cavalry
 		home = 1541
 	}
+}
 
+army = {
+	name = "Xuzhou Commandery Second Guards"
+	location = 1514
 	regiment = {
-		name= "Jimao Zu"
+		name= "Jimao Brigade"
 		type = infantry
 		home = 1543
 	}
 
 	regiment = {
-		name= "Gengchen Zu"
+		name= "Gengchen Brigade"
 		type = infantry
 		home = 1543
 	}
 
 	regiment = {
-		name= "Xinsi Zu"
+		name= "Xinsi Brigade"
 		type = infantry
 		home = 1542
 	}
 
 	regiment = {
-		name= "Renwu Zu"
+		name= "Renwu Brigade"
 		type = infantry
 		home = 1542
 	}
 
 	regiment = {
-		name= "Guiwei Zu"
-		type = infantry
+		name= "Guiwei Brigade"
+		type = cavalry
 		home = 1542
 	}
 }
 
 army = {
-	name = "Xiangyang Commandery Guard Corps"
-	location = 1562
+	name = "Xiangyang Commandery First Guards"
+	location = 1523
 	regiment = {
-		name= "Jiashen Zu"
-		type = cavalry
-		home = 1523
-	}
-
-	regiment = {
-		name= "Yiyou Zu"
-		type = cavalry
-		home = 1523
-	}
-
-	regiment = {
-		name= "Bingxu Zu"
+		name= "Jiashen Brigade"
 		type = infantry
 		home = 1523
 	}
 
 	regiment = {
-		name= "Dinghai Zu"
+		name= "Yiyou Brigade"
+		type = infantry
+		home = 1523
+	}
+
+	regiment = {
+		name= "Bingxu Brigade"
+		type = infantry
+		home = 1523
+	}
+
+	regiment = {
+		name= "Dinghai Brigade"
 		type = infantry
 		home = 1520
 	}
 
 	regiment = {
-		name= "Wuzi Zu"
-		type = infantry
+		name= "Wuzi Brigade"
+		type = cavalry
 		home = 1520
 	}
+}
 
+army = {
+	name = "Xiangyang Commandery Second Guards"
+	location = 1520
 	regiment = {
-		name= "Jichou Zu"
+		name= "Jichou Brigade"
 		type = infantry
 		home = 1513
 	}
 
 	regiment = {
-		name= "Gengyin Zu"
+		name= "Gengyin Brigade"
 		type = infantry
 		home = 1513
 	}
 
 	regiment = {
-		name= "Xinmao Zu"
+		name= "Xinmao Brigade"
 		type = infantry
 		home = 1519
 	}
 
 	regiment = {
-		name= "Renchen Zu"
+		name= "Renchen Brigade"
 		type = infantry
 		home = 1519
 	}
 
 	regiment = {
-		name= "Guisi Zu"
-		type = infantry
+		name= "Guisi Brigade"
+		type = cavalry
 		home = 1521
 	}
 }
 
 army = {
-	name = "Guilin Commandery Guard Corps"
+	name = "Guilin Commandery First Guards"
 	location = 1505
 	regiment = {
-		name= "Jiawu Zu"
-		type = cavalry
+		name= "Jiawu Brigade"
+		type = infantry
 		home = 1542
 	}
 
 	regiment = {
-		name= "Yiwei Zu"
-		type = cavalry
+		name= "Yiwei Brigade"
+		type = infantry
 		home = 1542
 	}
 
 	regiment = {
-		name= "Bingshen Zu"
+		name= "Bingshen Brigade"
 		type = infantry
 		home = 1503
 	}
 
 	regiment = {
-		name= "Dingyou Zu"
+		name= "Dingyou Brigade"
 		type = infantry
 		home = 1503
 	}
 
 	regiment = {
-		name= "Wuxu Zu"
+		name= "Wuxu Brigade"
+		type = cavalry
+		home = 1502
+	}
+}
+
+army = {
+	name = "Guilin Commandery Second Guards"
+	location = 1507
+	regiment = {
+		name= "Jihai Brigade"
 		type = infantry
 		home = 1502
 	}
 
 	regiment = {
-		name= "Jihai Zu"
-		type = infantry
-		home = 1502
-	}
-
-	regiment = {
-		name= "Gengzi Zu"
+		name= "Gengzi Brigade"
 		type = infantry
 		home = 1504
 	}
 
 	regiment = {
-		name= "Xinchou Zu"
+		name= "Xinchou Brigade"
 		type = infantry
 		home = 1504
 	}
 
 	regiment = {
-		name= "Renyin Zu"
+		name= "Renyin Brigade"
 		type = infantry
 		home = 1542
 	}
 
 	regiment = {
-		name= "Guimao Zu"
-		type = infantry
+		name= "Guimao Brigade"
+		type = cavalry
 		home = 1543
 	}
 }
