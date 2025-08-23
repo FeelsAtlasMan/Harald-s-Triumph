@@ -1,6 +1,29 @@
-army = {
+NZH = {
+	value = 85 #relation
+}
 
-	name = "Army of the White Tiger"
+CKL = {
+	value = 115 #relation
+}
+
+TIB = {
+	value = 115 #relation
+}
+
+BTH = {
+	value = 115 #relation
+}
+
+LTH = {
+	value = 115 #relation
+}
+
+ORD = {
+	value = -145 #relation
+}
+
+army = {
+	name = "Left Army"
 	location = 1581
 	
 	regiment = {
@@ -26,5 +49,82 @@ army = {
 		type = infantry
 		home = 1577
 	}
+
+	regiment = {
+		name = "Wuchen Zu"
+		type = infantry
+		home = 1578
+	}
+
+	regiment = {
+		name = "Jisi Zu"
+		type = infantry
+		home = 1578
+	}
+
+	regiment = {
+		name = "Gengwu Zu"
+		type = infantry
+		home = 1577
+	}
+
+	regiment = {
+		name = "Xinwei Zu"
+		type = infantry
+		home = 1577
+	}
 	
+}
+
+army = {
+	name = "Right Army"
+	location = 3894
+	
+	regiment = {
+		name= "Renshen Zu"
+		type = infantry
+		home = 3588
+	}
+
+	regiment = {
+		name= "Guiyou Zu"
+		type = cavalry
+		home = 3588
+	}
+
+	regiment = {
+		name= "Jiaxu Zu"
+		type = cavalry
+		home = 3576
+	}
+
+	regiment = {
+		name= "Yihai Zu"
+		type = cavalry
+		home = 3570
+	}
+
+	regiment = {
+		name= "Bingzi Zu"
+		type = infantry
+		home = 3573
+	}
+
+	regiment = {
+		name= "Dingchou Zu"
+		type = infantry
+		home = 1577
+	}
+
+	regiment = {
+		name= "Wuyin Zu"
+		type = infantry
+		home = 1578
+	}
+
+	regiment = {
+		name= "Jimao Zu"
+		type = infantry
+		home = 1580
+	}
 }

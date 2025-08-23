@@ -1,12 +1,16 @@
-capital = 1587
-primary_culture = yi
-culture = nisu
-culture = lolopo
-religion = animist
-government = colonial_company
+capital = 1550
+primary_culture = jicha
+culture = yingyi
+culture = gan
+culture = datong_gan
+culture = fuguang
+culture = hakka
+culture = shangli_wu
+religion = mahayana
+government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_tradition
-literacy = 0.01
+literacy = 0.04
 non_state_culture_literacy = 0.01
 
 # Political reforms
@@ -28,10 +32,9 @@ unemployment_subsidies = no_subsidies
 pensions = no_pensions
 school_reforms = no_schools
 
-
 # New Reforms
 conscription = no_draft
-debt_law = serfdom
+debt_law = peonage
 penal_system = capital_punishment
 child_labor = child_labor_legal
 citizens_rights = primary_culture_only
@@ -39,27 +42,19 @@ border_policy = closed_borders
 centralization = unitary
 colonial_policy = no_colonies 
 
-set_country_flag = animist_country
+set_country_flag = mahayana_country
 
-ruling_party = YNN_conservative
+ruling_party = HNN_liberal
 upper_house = {
 	fascist = 0
-	liberal = 9
-	conservative = 75
-	reactionary = 16
+	liberal = 50
+	conservative = 20
+	reactionary = 10
 	anarcho_liberal = 0
 	socialist = 0
-	communist = 0
+	communist = 20
 }
-
-#set_country_flag = theocratic_government
-
-# Starting Consciousness
-consciousness = 0
-nonstate_consciousness = 0
 
 # Inventions
 ##bottling_process = yes
 modern_winemaking = yes
-
-#oob = "NSH_oob.txt"
