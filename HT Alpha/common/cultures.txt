@@ -12548,13 +12548,13 @@ austro_asiatic = {
 		}
 	}
 	
-	paulang_wa = {
+	paulang_wa = { #Palaung-Wa group, split
 		color = {150 50 20}
-		first_names = { Abdul Vijaya Rajkumari Aurobindo Chandrashekhar Gopal Motilal Sardar Sarojini Subhas Srinivasa Mridula Gupinath Chittaranjan
+		first_names = { "Ta'" Sao Naw Hsang Hsö
 			
 		}
 		
-		last_names = { Singh Prasad Ambedkar Khan Pandit Besant Sarabhai Gaidinliu Iyengar Baharjee Naidu
+		last_names = { "Log Pang" "Ngo' Khuat" Hkam "Hkun Sang" "Tun Sang" Hpa Maha "Man Laik" "Hka Nan" "Nap Lai" "Ya Ku"
                
 		}
 	}
@@ -13528,84 +13528,91 @@ east_asian = {
 		color = {166 32 91}
 		first_names = { Lin Shen Chen Wong Yan Sa Hou Zheng Bing Wu Tan He Du Xue Xu Qin
 		}
-		last_names = { Zexu Baozhen Baochen Nai-siong Shu Fu Sen Debang Xin Nee Huiyin
+		last_names = { Zexu Baozhen Baochen Shu Fu Sen Debang Xin Nee Huiyin
 		}
 	}
 	min_bei = { #
 		color = {166 35 99}
 		first_names = { Lin Shen Chen Wong Yan Sa Hou Zheng Bing Wu Tan He Du Xue Xu Qin
 		}
-		last_names = { Zexu Baozhen Baochen Nai-siong Shu Fu Sen Debang Xin Nee Huiyin
+		last_names = { Zexu Baozhen Baochen Shu Fu Sen Debang Xin Nee Huiyin
 		}
 	}
 	min_zhong = { # Sanming Min
 		color = {166 50 80}
 		first_names = { Lin Shen Chen Wong Yan Sa Hou Zheng Bing Wu Tan He Du Xue Xu Qin
 		}
-		last_names = { Zexu Baozhen Baochen Nai-siong Shu Fu Sen Debang Xin Nee Huiyin
+		last_names = { Zexu Baozhen Baochen Shu Fu Sen Debang Xin Nee Huiyin
 		}
 	}
 	puxian = { #Pu-Xian Min
 		color = {159 40 86}
-		first_names = { Lin Shen Chen Wong Yan Sa Hou Zheng Bing Wu Tan He Du Xue Xu Qin
+		first_names = { Lin Shen Chen Wong Yan Sa Hou Zheng Bing Wu Tan He Du Xue Xu Qin Yu
 		}
-		last_names = { Zexu Baozhen Baochen Nai-siong Shu Fu Sen Debang Xin Nee Huiyin
+		last_names = { Zexu Baozhen Baochen Shu Fu Sen Debang Xin Nee Huiyin
 		}
 	}
 	quanzhang = { #Southern Min prestige dialect aka Hokkien(ese)
 		color = {161 35 85}
 		first_names = { Lin Shen Chen Wong Yan Sa Hou Zheng Bing Wu Tan He Du Xue Xu Qin
 		}
-		last_names = { Zexu Baozhen Baochen Nai-siong Shu Fu Sen Debang Xin Nee Huiyin
+		last_names = { Zexu Baozhen Baochen Shu Fu Sen Debang Xin Nee Huiyin
 		}
 	}
 	chaoshan = { #Teoswa/Chaoshan Min inc Teochew and Swatow
 		color = {161 38 82}
 		first_names = { Lin Shen Chen Wong Yan Sa Hou Zheng Bing Wu Tan He Du Xue Xu Qin
 		}
-		last_names = { Zexu Baozhen Baochen Nai-siong Shu Fu Sen Debang Xin Nee Huiyin
+		last_names = { Zexu Baozhen Baochen Shu Fu Sen Debang Xin Nee Huiyin
 		}
 	}
 	zhenan = { #Min dialect of southern Zhejiang more related to S Min
 		color = {161 32 78}
 		first_names = { Lin Shen Chen Wong Yan Sa Hou Zheng Bing Wu Tan He Du Xue Xu Qin
 		}
-		last_names = { Zexu Baozhen Baochen Nai-siong Shu Fu Sen Debang Xin Nee Huiyin
+		last_names = { Zexu Baozhen Baochen Shu Fu Sen Debang Xin Nee Huiyin
 		}
 	}
 	datian = { #Southern Min dialect
 		color = {165 35 86}
 		first_names = { Lin Shen Chen Wong Yan Sa Hou Zheng Bing Wu Tan He Du Xue Xu Qin
 		}
-		last_names = { Zexu Baozhen Baochen Nai-siong Shu Fu Sen Debang Xin Nee Huiyin
+		last_names = { Zexu Baozhen Baochen Shu Fu Sen Debang Xin Nee Huiyin
 		}
 	}
 	cunhua = { #Zhongshan Min
 		color = {161 39 95}
 		first_names = { Lin Shen Chen Wong Yan Sa Hou Zheng Bing Wu Tan He Du Xue Xu Qin
 		}
-		last_names = { Zexu Baozhen Baochen Nai-siong Shu Fu Sen Debang Xin Nee Huiyin
+		last_names = { Zexu Baozhen Baochen Shu Fu Sen Debang Xin Nee Huiyin
 		}
 	}
 	hainan_min = { #Southern Min
 		color = {168 31 86}
 		first_names = { Lin Shen Chen Wong Yan Sa Hou Zheng Bing Wu Tan He Du Xue Xu Qin
 		}
-		last_names = { Zexu Baozhen Baochen Nai-siong Shu Fu Sen Debang Xin Nee Huiyin
+		last_names = { Zexu Baozhen Baochen Shu Fu Sen Debang Xin Nee Huiyin
 		}
 	}
 	haklau = { #Southern Min of Hailufeng, Guangdong
 		color = {166 28 81}
 		first_names = { Lin Shen Chen Wong Yan Sa Hou Zheng Bing Wu Tan He Du Xue Xu Qin
 		}
-		last_names = { Zexu Baozhen Baochen Nai-siong Shu Fu Sen Debang Xin Nee Huiyin
+		last_names = { Zexu Baozhen Baochen Shu Fu Sen Debang Xin Nee Huiyin
 		}
 	}
 	leizhou = { #Southern Min of Leizhou peninsula
 		color = {166 41 86}
 		first_names = { Lin Shen Chen Wong Yan Sa Hou Zheng Bing Wu Tan He Du Xue Xu Qin
 		}
-		last_names = { Zexu Baozhen Baochen Nai-siong Shu Fu Sen Debang Xin Nee Huiyin
+		last_names = { Zexu Baozhen Baochen Shu Fu Sen Debang Xin Nee Huiyin
+		}
+	}
+	annam = { #Jiaozhi/Annamese (Southern Min)
+		color = {157 38 90}
+		first_names = { Lin Shen Chen Wong Yan Sa Hou Zheng Bing Wu Tan He Du Xue Xu Qin
+		}
+		last_names = { Zexu Baozhen Baochen Shu Fu Sen Debang Xin Nee Huiyin
 		}
 	}
 	
@@ -13640,13 +13647,6 @@ east_asian = {
 	}
 	guinan = {
 		color = {127 38 70}
-		first_names = { Wang Li Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu
-		}
-		last_names = { Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu
-		}
-	}
-	annam = { #Jiaozhi/Annamese
-		color = {127 38 30}
 		first_names = { Wang Li Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu
 		}
 		last_names = { Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu

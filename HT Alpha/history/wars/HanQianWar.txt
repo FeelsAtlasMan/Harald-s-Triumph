@@ -1,8 +1,8 @@
-name = "Qiaozhou Rebellion"
+name = "Miao War"
 
 1836.1.1 = {
-	add_attacker = LNG
-	add_defender = JNG
+	add_attacker = SZC
+	add_defender = GZH
 	
 	# actor
 	# receiver
@@ -11,14 +11,14 @@ name = "Qiaozhou Rebellion"
 	# state_province_id - target state capital
 	war_goal = {
 		casus_belli = acquire_all_cores
-		actor = LNG
-		receiver = JNG
+		actor = GZH
+		receiver = SZC
 	}
 	
 	war_goal = {
-		casus_belli = annex_core_country
-		actor = JNG
-		receiver = LNG
+		casus_belli = conquest
+		actor = SZC
+		receiver = GZH
 	}
 
 }

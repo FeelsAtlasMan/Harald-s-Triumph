@@ -1521,6 +1521,7 @@ vassal = {
 	start_date = 1836.1.1
 	end_date = 1937.1.1
 }
+#Han tusi
 vassal = {
 	first = SZC
 	second = TIB
@@ -1551,10 +1552,18 @@ vassal = {
 	start_date = 1836.1.1
 	end_date = 1937.1.1
 }
-#Yongshun Tusi
+#Chu tusi
+#Yongshun
 vassal = {
 	first = JNG
 	second = SHN
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+#Puri
+vassal = {
+	first = JNG
+	second = PUR
 	start_date = 1836.1.1
 	end_date = 1937.1.1
 }

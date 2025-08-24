@@ -1,8 +1,19 @@
-name = "Han-Shan War"
+name = "Shan-Han War"
 
 1836.1.1 = {
 	add_attacker = SHA
-	add_attacker = GZH
+	add_attacker = KKG 
+	add_attacker = MKW 
+	add_attacker = KLY 
+	add_attacker = MGN 
+	add_attacker = MGP
+	add_attacker = KGT 
+	add_attacker = LWK 
+	add_attacker = HSW 
+	add_attacker = MGM 
+	add_attacker = HSN 
+	add_attacker = BUR 
+	add_attacker = KCH 
 	add_defender = SZC
 	add_defender = NZH
 	add_defender = TIB
@@ -21,18 +32,6 @@ name = "Han-Shan War"
 		casus_belli = conquest
 		actor = SHA
 		receiver = NZH
-	}
-	
-	war_goal = {
-		casus_belli = make_puppet
-		actor = SZC
-		receiver = GZH
-	}
-
-	war_goal = {
-		casus_belli = acquire_all_cores
-		actor = GZH
-		receiver = SZC
 	}
 
 }

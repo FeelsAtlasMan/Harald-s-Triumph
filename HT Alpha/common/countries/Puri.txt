@@ -1,9 +1,10 @@
-color = { 8 119 205 }
-colonial_company = { 110 80 150 }
-graphical_culture = ChineseGC
+color = { 155  227  86 }
+colonial_company = { 60 170 100 }
+graphical_culture = AsianGC
+
 
 party = {
-	name = "HNN_reactionary"
+	name = "CHI_reactionary"
 	start_date = 1830.1.1
 	end_date = 2000.1.1
 
@@ -16,9 +17,8 @@ party = {
 	citizenship_policy = limited_citizenship
 	war_policy = jingoism
 }
-
 party = {
-	name = "HNN_liberal"
+	name = "CHI_liberal"
 	start_date = 1830.1.1
 	end_date = 2000.1.1
 
@@ -31,9 +31,8 @@ party = {
 	citizenship_policy = limited_citizenship
 	war_policy = pro_military
 }
-
 party = {
-	name = "HNN_conservative"
+	name = "CHI_conservative"
 	start_date = 1830.1.1
 	end_date = 2000.1.1
 
@@ -46,9 +45,8 @@ party = {
 	citizenship_policy = limited_citizenship
 	war_policy = pro_military
 }
-
 party = {
-	name = "HNN_anarcho_liberal"
+	name = "CHI_anarcho_liberal"
 	start_date = 1830.1.1
 	end_date = 2000.1.1
 
@@ -63,7 +61,7 @@ party = {
 }
 
 party = {
-	name = "HNN_socialist"
+	name = "CHI_socialist"
 	start_date = 1848.1.1
 	end_date = 2000.1.1
 
@@ -78,7 +76,7 @@ party = {
 }
 
 party = {
-	name = "HNN_communist"
+	name = "CHI_communist"
 	start_date = 1848.1.1
 	end_date = 2000.1.1
 
@@ -93,7 +91,7 @@ party = {
 }
 
 party = {
-	name = "HNN_fascist"
+	name = "CHI_fascist"
 	start_date = 1830.1.1
 	end_date = 2000.1.1
 
@@ -105,4 +103,36 @@ party = {
 	religious_policy = moralism
 	citizenship_policy = residency
 	war_policy = jingoism
+}
+
+unit_names = {
+	dreadnought = {
+		"Nan'Shin" "Pao'Nim" "Ying'Ching" "Ton'Chi" "Hai'Yung" "Hai'Shew" "Hai'Shen" "Fei'Hung" "Chao'Ho" "Hai'Chi" "Ying'Swei" "Chao'Ho" "Ning'Hai" 
+		
+		
+	}
+	ironclad = {
+		"Nan'Shin" "Pao'Nim" "Ying'Ching" "Ton'Chi" "Hai'Yung" "Hai'Shew" "Hai'Shen" "Fei'Hung" "Chao'Ho" "Hai'Chi" "Ying'Swei" "Chao'Ho" "Ning'Hai" 
+	}
+	manowar = {
+		"Nan'Shin" "Pao'Nim" "Ying'Ching" "Ton'Chi" "Hai'Yung" "Hai'Shew" "Hai'Shen" "Fei'Hung" "Chao'Ho" "Hai'Chi" "Ying'Swei" "Chao'Ho" "Ning'Hai" 
+	}
+	cruiser = {
+		"Nan'Shin" "Pao'Nim" "Ying'Ching" "Ton'Chi" "Hai'Yung" "Hai'Shew" "Hai'Shen" "Fei'Hung" "Chao'Ho" "Hai'Chi" "Ying'Swei" "Chao'Ho" "Ning'Hai" 
+	}
+	frigate = {
+		"Nan'Shin" "Pao'Nim" "Ying'Ching" "Ton'Chi" "Hai'Yung" "Hai'Shew" "Hai'Shen" "Fei'Hung" "Chao'Ho" "Hai'Chi" "Ying'Swei" "Chao'Ho" "Ning'Hai" 
+	}
+	monitor = {
+		"Nan'Shin" "Pao'Nim" "Ying'Ching" "Ton'Chi" "Hai'Yung" "Hai'Shew" "Hai'Shen" "Fei'Hung" "Chao'Ho" "Hai'Chi" "Ying'Swei" "Chao'Ho" "Ning'Hai" 
+	}
+	clipper_transport = {
+		
+	}
+	steam_transport = {
+		
+	}
+	commerce_raider = {
+		"Nan'Shin" "Pao'Nim" "Ying'Ching" "Ton'Chi" "Hai'Yung" "Hai'Shew" "Hai'Shen" "Fei'Hung" "Chao'Ho" "Hai'Chi" "Ying'Swei" "Chao'Ho" "Ning'Hai" 
+	}
 }

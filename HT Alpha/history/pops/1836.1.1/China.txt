@@ -5625,7 +5625,7 @@ aristocrats = {
 	aristocrats = {
 		culture = ninglong_ke
 		religion = mahayana
-		size = 350
+		size = 550
 	}
 
 	clergymen = {
@@ -5649,35 +5649,59 @@ aristocrats = {
 	farmers = {
 		culture = ninglong_ke
 		religion = mahayana
-		size = 77425
+		size = 47025
+	}
+
+	aristocrats = {
+		culture = leizhou
+		religion = mahayana
+		size = 9800
+	}
+
+	farmers = {
+		culture = leizhou
+		religion = mahayana
+		size = 190400
+	}
+
+	artisans = {
+		culture = leizhou
+		religion = mahayana
+		size = 21000
 	}
 
 	aristocrats = {
 		culture = gaolei
 		religion = mahayana
-		size = 15000
+		size = 5000
+	}
+
+	clergymen = {
+		culture = leizhou
+		religion = mahayana
+		size = 5125
 	}
 
 	clergymen = {
 		culture = gaolei
 		religion = mahayana
-		size = 8125
+		size = 3000
 	}
 
 	artisans = {
 		culture = gaolei
 		religion = mahayana
-		size = 38000
+		size = 17000
 	}
 
 	soldiers = {
-		culture = gaolei
+		culture = leizhou
 		religion = mahayana
 		size = 2300
 	}
 
 	soldiers = {
-		culture = yue
+		culture = gaolei
 		religion = mahayana
 		size = 1000
 	}
@@ -5685,25 +5709,37 @@ aristocrats = {
 	farmers = {
 		culture = gaolei
 		religion = mahayana
-		size = 224950
+		size = 104950
 	}
 
 	farmers = {
 		culture = yue
 		religion = mahayana
-		size = 50000
+		size = 10000
 	}
 
 	serfs = {
 		culture = yue
 		religion = mahayana
+		size = 5000
+	}
+
+	serfs = {
+		culture = ninglong_ke
+		religion = mahayana
+		size = 50000
+	}
+
+	serfs = {
+		culture = gaolei
+		religion = mahayana
 		size = 40000
 	}
 	
 	serfs = {
-		culture = gaolei
+		culture = leizhou
 		religion = mahayana
-		size = 300000
+		size = 245000
 	}
 }
 
@@ -5712,13 +5748,13 @@ aristocrats = {
 	aristocrats = {
 		culture = gaolei
 		religion = mahayana
-		size = 325
+		size = 225
 	}
 
 	aristocrats = {
-		culture = haklau
+		culture = leizhou
 		religion = mahayana
-		size = 105
+		size = 205
 	}
 
 	aristocrats = {
@@ -5736,7 +5772,7 @@ aristocrats = {
 	artisans = {
 		culture = gaolei
 		religion = mahayana
-		size = 2500
+		size = 1500
 	}
 	
 	soldiers = {
@@ -5748,31 +5784,31 @@ aristocrats = {
 	farmers = {
 		culture = gaolei
 		religion = mahayana
-		size = 19000
+		size = 9000
 	}
 
 	clergymen = {
-		culture = haklau
+		culture = leizhou
 		religion = mahayana
 		size = 95
 	}
 
 	artisans = {
-		culture = haklau
+		culture = leizhou
 		religion = mahayana
-		size = 1700
+		size = 2700
 	}
 	
 	soldiers = {
-		culture = haklau
+		culture = leizhou
 		religion = mahayana
 		size = 800
 	}
 
 	farmers = {
-		culture = haklau
+		culture = leizhou
 		religion = mahayana
-		size = 12370
+		size = 24370
 	}
 
 	clergymen = {
@@ -5796,7 +5832,7 @@ aristocrats = {
 	farmers = {
 		culture = ninglong_ke
 		religion = mahayana
-		size = 9000
+		size = 7000
 	}
 
 }
