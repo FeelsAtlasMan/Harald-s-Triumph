@@ -1,0 +1,62 @@
+#########################################################
+#														#
+#      		  Chinese Events 188011+ 					#
+#														#
+#########################################################
+
+#Chu setup event
+country_event = {
+    id = 188011
+    title = "EVTNAME188011"
+    desc = "EVTDESC188011"
+	picture = "timurid_setup"
+        
+    trigger = {
+	       tag = JNG
+	}
+	
+	fire_only_once = yes
+
+    option = {
+	    name = "EVT188011OPTA"
+		
+	}
+}
+
+#Zhao setup event
+country_event = {
+    id = 188012
+    title = "EVTNAME188012"
+    desc = "EVTDESC188012"
+	picture = "timurid_setup"
+         
+    trigger = {
+	       tag = ORD
+	}
+	
+	fire_only_once = yes
+
+    option = {
+	    name = "EVT188012OPTA"
+		
+	}
+}
+
+#Han setup event
+country_event = {
+    id = 188013
+    title = "EVTNAME188013"
+    desc = "EVTDESC188013"
+	picture = "timurid_setup"
+         
+    trigger = {
+	       tag = SZC
+	}
+	
+	fire_only_once = yes
+
+    option = {
+	    name = "EVT188013OPTA"
+		
+	}
+}
