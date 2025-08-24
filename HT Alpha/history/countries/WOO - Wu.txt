@@ -1,22 +1,26 @@
-capital = 1474
-primary_culture = huizhouhua
+capital = 2221
+primary_culture = classical_chinese
+culture = wu
+culture = xuanzhou_wu
+culture = shangli_wu
+culture = taihu_wu
 culture = zhongyuan
 culture = jianghuai
-culture = xuanzhou_wu
 religion = mahayana
 government = absolute_monarchy
 plurality = 0.0
-nationalvalue = nv_order
+nationalvalue = nv_tradition
 literacy = 0.04
+non_state_culture_literacy = 0.01
 
 # Political reforms
-slavery = no_slavery
+slavery = yes_slavery
 upper_house_composition = appointed
 vote_franschise = none_voting
 public_meetings = no_meeting
 press_rights = state_press
 trade_unions = no_trade_unions
-voting_system = jefferson_method
+voting_system = first_past_the_post
 political_parties = underground_parties
 
 # Social Reforms
@@ -28,9 +32,8 @@ unemployment_subsidies = no_subsidies
 pensions = no_pensions
 school_reforms = no_schools
 
-
 # New Reforms
-conscription = two_year_draft
+conscription = no_draft
 debt_law = peonage
 penal_system = capital_punishment
 child_labor = child_labor_legal
@@ -41,22 +44,16 @@ colonial_policy = no_colonies
 
 set_country_flag = mahayana_country
 
-ruling_party = HUI_reactionary
+ruling_party = HNN_conservative
 upper_house = {
 	fascist = 0
-	liberal = 10
-	conservative = 30
-	reactionary = 60
+	liberal = 50
+	conservative = 20
+	reactionary = 10
 	anarcho_liberal = 0
 	socialist = 0
-	communist = 0
+	communist = 20
 }
-
-
-foreign_weapons = yes_foreign_weapons
-
-# Technologies
-flintlock_rifles = 1
 
 # Inventions
 ##bottling_process = yes

@@ -20475,45 +20475,39 @@ aristocrats = {
 		size = 23000
 	}
 }
-#Derge (5964000/1491000 POPS)
+#Derge (5964000/27965 POPS)
 3571 = {
 	aristocrats = {
 		culture = kham
 		religion = gelugpa
 		size = 200
 	}
-	
-	aristocrats = {
-		culture = n_mandarin
-		religion = mahayana
-		size = 15
-	}
 
 	clergymen = {
 		culture = kham
 		religion = gelugpa
-		size = 1225
+		size = 1025
 	}
 	
 	artisans = {
 		culture = kham
 		religion = gelugpa
-		size = 2000
+		size = 1800
 	}
 
 	soldiers = {
 		culture = kham
 		religion = gelugpa
-		size = 1525
+		size = 3040
 	}
 
 	farmers = {
 		culture = kham
 		religion = gelugpa
-		size = 23000
+		size = 21900
 	}
 }
-#Lingtsang (5964000/1491000 POPS)
+#Lingtsang (5964000/27865 POPS)
 3572 = {
 	aristocrats = {
 		culture = amdo
@@ -20522,21 +20516,21 @@ aristocrats = {
 	}
 	
 	aristocrats = {
-		culture = amdo
+		culture = kham
 		religion = mahayana
-		size = 15
+		size = 40
 	}
 
 	clergymen = {
 		culture = amdo
 		religion = gelugpa
-		size = 1225
+		size = 1100
 	}
 	
 	artisans = {
 		culture = amdo
 		religion = gelugpa
-		size = 2000
+		size = 1800
 	}
 
 	soldiers = {
@@ -20548,7 +20542,7 @@ aristocrats = {
 	farmers = {
 		culture = amdo
 		religion = gelugpa
-		size = 23000
+		size = 23200
 	}
 }
 #Drango (5964000/1491000 POPS)
