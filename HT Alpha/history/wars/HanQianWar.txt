@@ -16,7 +16,7 @@ name = "Miao War"
 	}
 	
 	war_goal = {
-		casus_belli = conquest
+		casus_belli = make_puppet
 		actor = SZC
 		receiver = GZH
 	}

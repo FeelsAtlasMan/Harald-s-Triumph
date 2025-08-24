@@ -3,7 +3,7 @@ political_decisions = {
 		picture = "reichstag"
 		potential = { 
 			ai = yes
-			tag = SHN
+			has_country_flag = chinese_dynasty_flag
 			civilized = no
 			NOT = { has_country_flag = unciv_balance_flag }
 		}

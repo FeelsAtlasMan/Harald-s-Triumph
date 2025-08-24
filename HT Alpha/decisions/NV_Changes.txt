@@ -25,7 +25,7 @@ political_decisions = {
 				factor = 0
 				OR = {
 					is_culture_group = east_asian
-					substate_of = SHN
+					overlord = { has_country_flag = chinese_dynasty_flag }
 				}
 			}
 		}

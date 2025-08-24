@@ -627,10 +627,10 @@ bashkortostan_joins_kipchaks = {
 		} 
 	allow = {
 				war = no
-			    NNI = { in_sphere = TAR }
+			    DAU = { in_sphere = TAR }
 			}
    	effect = {
-		inherit = NNI
+		inherit = DAU
         badboy = 3	
         set_country_flag = annexed_daur			
 	}
@@ -644,16 +644,14 @@ bashkortostan_joins_kipchaks = {
      picture = outer_manchuria_map
 	 potential = {
 				tag = TAR
-				NOT = { exists = NNI }
+				NOT = { exists = DAU }
 				has_country_flag = siberian_expansion_end	
 		} 
 	allow = {
 				war = no
-			    SHN = { is_our_vassal = MCK }
 			}
    	effect = {
-		SHN = { inherit = MCK }
-		SHN = { country_event = 656003 }
+		MCK = { country_event = 656003 }
         badboy = 3					
 	}
 	

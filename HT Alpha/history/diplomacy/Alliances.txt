@@ -8,7 +8,7 @@ alliance = {
 #anti-Chu rebellion allied with Zhao
 alliance = {
     first = ORD
-    second = LNG
+    second = SNG
     start_date = 1835.1.1
     end_date = 1936.1.1
 }
@@ -37,6 +37,13 @@ alliance = {
 alliance = {
     first = SZC
     second = NZH
+    start_date = 1835.12.1
+    end_date = 1936.1.1
+}
+#Zhao allied with Ngolok
+alliance = {
+    first = ORD
+    second = GLK
     start_date = 1835.12.1
     end_date = 1936.1.1
 }

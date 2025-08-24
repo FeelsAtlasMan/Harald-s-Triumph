@@ -10,6 +10,12 @@ political_decisions = {
 		
 		effect = {
 			set_country_flag = global_setup_done
+
+			CHI = {
+				all_core = {
+					remove_core = CHI
+				}
+			}
 			
 			ENG = {
 				any_pop = {
@@ -869,19 +875,12 @@ political_decisions = {
 			912 = { any_pop = { limit = { has_pop_religion = shiite } militancy = 5 } } #Baalbeck
 			915 = { any_pop = { limit = { has_pop_religion = shiite } militancy = 5 } } #Sidon
 			
-			SHN = {
+			MCK = {
 				add_country_modifier = {
 					name = the_eight_banners
 					duration = -1
 				}
 				treasury = 50000
-			}
-			
-			MCK = { 
-				add_country_modifier = {
-					name = the_eight_banners
-					duration = -1
-				}
 			}
 			
 			LAN = {
@@ -1106,18 +1105,18 @@ political_decisions = {
 			any_country = { limit = { OR = { is_secondary_power = yes tag = SPA tag = TUR } } treasury = 5000 }
 			any_country = { limit = { civilized = yes is_greater_power = no is_secondary_power = no number_of_states = 2 } treasury = 2000 }
 			any_country = { limit = { civilized = yes is_greater_power = no is_secondary_power = no NOT = { number_of_states = 2 } } treasury = 1000 }
-			any_country = { limit = { civilized = no NOT = { tag = SHN } } treasury = 500 }
-			SHN = {
-				set_variable = { which = china_destablization value = 0 }
-				any_pop = {
-					limit = {
-						location = { region = CHI_1485 }
-						NOT = { has_pop_culture = asian_minor }
-						NOT = { has_pop_culture = manchu }
-					}
-					reduce_pop = 0.75
-				}
-			}	
+			any_country = { limit = { civilized = no NOT = { has_country_flag = chinese_dynasty_flag } } treasury = 500 }
+			#JNG = {
+			#	set_variable = { which = china_destablization value = 0 }
+			#	any_pop = {
+			#		limit = {
+			#			location = { region = CHI_1485 }
+			#			NOT = { has_pop_culture = asian_minor }
+			#			NOT = { has_pop_culture = manchu }
+			#		}
+			#		reduce_pop = 0.75
+			#	}
+			#}	
 			#################Giving Starting Money to Pops and Countries######################
 			
 			#################Japan Setup######################
@@ -1175,7 +1174,7 @@ political_decisions = {
 					exists = yes
 					NOT = { tag = SIA }
 					NOT = { primary_culture = japanese }
-					NOT = { tag = SHN }
+					NOT = { has_country_flag = chinese_dynasty_flag }
 					OR = {
 						capital_scope = { continent = africa } 
 						capital_scope = { continent = oceania }
@@ -1264,7 +1263,8 @@ political_decisions = {
 			
 			#################Government Flags Setup######################
 						
-			SHN = { add_country_modifier = { name = corrupt_army duration = 10950 } }
+			JNG = { add_country_modifier = { name = corrupt_army duration = 10950 } }
+			ORD = { add_country_modifier = { name = corrupt_army duration = 10950 } }
 			HAI = { add_country_modifier = { name = divided_society duration = 10950 } }
 				
 			#any_greater_power = {
@@ -1288,20 +1288,20 @@ political_decisions = {
 					duration = -1
 				}
 			}
-			SHN = {
-				any_owned = {
-					limit = {
-						OR = { 
-							state_id = 1493
-							state_id = 1482
-						}
-					}
-					add_province_modifier = {
-						name = local_opium_habit
-						duration = -1
-					}
-				}
-			}
+			#JNG = {
+			#	any_owned = {
+			#		limit = {
+			#			OR = { 
+			#				state_id = 1493
+			#				state_id = 1482
+			#			}
+			#		}
+			#		add_province_modifier = {
+			#			name = local_opium_habit
+			#			duration = -1
+			#		}
+			#	}
+			#}
 			
 			country_event = 477877789
 		}
