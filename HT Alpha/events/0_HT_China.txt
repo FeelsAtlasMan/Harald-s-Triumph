@@ -60,3 +60,131 @@ country_event = {
 		
 	}
 }
+
+#Chu breakup - event for Chu
+country_event = {
+	id = 188014
+	title = "EVTNAME188014"
+	desc = "EVTDESC188014"
+	#picture = ""
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVT188014OPTA"
+		all_core = { limit = { is_core = JZH } remove_core = JNG }
+		release_vassal = JZH
+		all_core = { limit = { is_core = HNN } remove_core = JNG }
+		release_vassal = HNN
+		all_core = { limit = { is_core = EEE } remove_core = JNG }
+		release_vassal = EEE
+		all_core = { limit = { is_core = SNG } remove_core = JNG }
+		release_vassal = SNG
+		all_core = { limit = { is_core = JXI } remove_core = JNG }
+		release_vassal = JXI
+		all_core = { limit = { is_core = GNG } remove_core = JNG }
+		release_vassal = GNG
+		all_core = { limit = { is_core = GXI } remove_core = JNG }
+		release_vassal = GXI
+		all_core = { limit = { is_core = FJN } remove_core = JNG }
+		release_vassal = FJN
+		all_core = { limit = { is_core = GZH } remove_core = JNG }
+		release_vassal = GZH
+		country_event = {
+			id = 188015
+			days = 1
+		}
+	}
+
+}
+
+country_event = {
+	id = 188015
+	title = "EVTNAME188015"
+	desc = "EVTDESC188015"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVT188015OPTA" #Chu will live on - retreat to the loyal south
+		government = absolute_monarchy
+		release_vassal = JZH
+		JZH = { government = absolute_monarchy }
+		release_vassal = HNN
+		HNN = { government = absolute_monarchy }
+		release_vassal = EEE
+		EEE = { government = absolute_monarchy }
+		release_vassal = SNG
+		SNG = { government = absolute_monarchy }
+		release_vassal = JXI
+		JXI = { government = absolute_monarchy }
+		release_vassal = GNG
+		GNG = { government = absolute_monarchy }
+		release_vassal = GXI
+		GXI = { government = absolute_monarchy }
+		release_vassal = FJN
+		FJN = { government = absolute_monarchy }
+		release_vassal = GZH
+		GZH = { government = absolute_monarchy }
+		release_vassal = SHN
+		SHN = { government = absolute_monarchy }
+		change_tag_no_core_switch = JZH
+	}
+
+	option = {
+		name = "EVT188015OPTB" #Chu has fallen, become Later Wu dynasty
+		government = absolute_monarchy
+		release_vassal = JZH
+		JZH = { government = absolute_monarchy }
+		release_vassal = HNN
+		HNN = { government = absolute_monarchy }
+		release_vassal = EEE
+		EEE = { government = absolute_monarchy }
+		release_vassal = SNG
+		SNG = { government = absolute_monarchy }
+		release_vassal = JXI
+		JXI = { government = absolute_monarchy }
+		release_vassal = GNG
+		GNG = { government = absolute_monarchy }
+		release_vassal = GXI
+		GXI = { government = absolute_monarchy }
+		release_vassal = FJN
+		FJN = { government = absolute_monarchy }
+		release_vassal = GZH
+		GZH = { government = absolute_monarchy }
+		release_vassal = SHN
+		SHN = { government = absolute_monarchy }
+		release_vassal = SCT
+		SCT = { government = absolute_monarchy }
+		release_vassal = PUR
+		PUR = { government = absolute_monarchy }
+	}
+
+	option = {
+		name = "EVT188015OPTC" #become Xiang dynasty
+		government = absolute_monarchy
+		release_vassal = JZH
+		JZH = { government = absolute_monarchy }
+		release_vassal = HNN
+		HNN = { government = absolute_monarchy }
+		release_vassal = EEE
+		EEE = { government = absolute_monarchy }
+		release_vassal = SNG
+		SNG = { government = absolute_monarchy }
+		release_vassal = JXI
+		JXI = { government = absolute_monarchy }
+		release_vassal = GNG
+		GNG = { government = absolute_monarchy }
+		release_vassal = GXI
+		GXI = { government = absolute_monarchy }
+		release_vassal = FJN
+		FJN = { government = absolute_monarchy }
+		release_vassal = GZH
+		GZH = { government = absolute_monarchy }
+		release_vassal = SCT
+		SCT = { government = absolute_monarchy }
+		release_vassal = PUR
+		PUR = { government = absolute_monarchy }
+		change_tag_no_core_switch = HNN
+	}
+}
