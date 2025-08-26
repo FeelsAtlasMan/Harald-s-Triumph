@@ -149,24 +149,20 @@ country_event = {
 		release_vassal = JXI
 		JXI = { country_event = 188016 }
 		release_vassal = HUI
-		HUI = {
-			country_event = 188016
-			create_alliance = THIS #Wu
-		}
+		HUI = { country_event = 188016 }
 		release_vassal = FJN
-		FJN = {
-			country_event = 188016
-			create_alliance = THIS #Wu
-		}
+		FJN = { country_event = 188016 }
 		release_vassal = GNG
 		GNG = { country_event = 188016 }
 		release_vassal = EEE
 		EEE = { country_event = 188016 }
 		release_vassal = TWN
 		RYU = { create_vassal = TWN }
-		leave_alliance = MCK #Wu 
-		create_alliance = ORD #Wu 
-		government = absolute_monarchy #Wu
+		neutrality = yes
+		create_alliance = ORD 
+		create_alliance = FJN
+		#create_alliance = HUI
+		government = absolute_monarchy 
 		change_tag_no_core_switch = JZH
 	}
 
@@ -176,7 +172,7 @@ country_event = {
 		release_vassal = SCT 
 		JZH = {
 			country_event = 188016
-			government = absolute_monarchy
+			#government = absolute_monarchy
 			create_vassal = SCT
 		}
 		release_vassal = GXI
@@ -196,24 +192,20 @@ country_event = {
 		release_vassal = JXI
 		JXI = { country_event = 188016 }
 		release_vassal = HUI
-		HUI = {
-			country_event = 188016
-			create_alliance = THIS #Wu
-		}
+		HUI = { country_event = 188016 }
 		release_vassal = FJN
-		FJN = {
-			country_event = 188016
-			create_alliance = THIS #Wu
-		}
+		FJN = { country_event = 188016 }
 		release_vassal = GNG
 		GNG = { country_event = 188016 }
 		release_vassal = EEE
 		EEE = { country_event = 188016 }
 		release_vassal = TWN
 		RYU = { create_vassal = TWN }
-		leave_alliance = MCK #Wu 
-		create_alliance = ORD #Wu 
-		government = absolute_monarchy #Wu
+		neutrality = yes
+		create_alliance = ORD 
+		create_alliance = FJN
+		#create_alliance = HUI
+		government = absolute_monarchy 
 		change_tag_no_core_switch = HNN
 	}
 
