@@ -435,7 +435,7 @@ country_event = {
 
 	option = {
 		name = "EVT666444OPTA"
-	    create_alliance = SHN
+	    create_alliance = ORD
 		1554 = { secede_province = TAR }
 		1082 = { secede_province = TAR }
 		1083 = { secede_province = TAR }
@@ -450,7 +450,7 @@ country_event = {
     option = {
 		name = "EVT666444OPTB"
 	    war = {
-	             target = SHN
+	             target = ORD
 	             attacker_goal = { casus_belli = demand_concession_casus_belli state_province_id = 1082 }
 				 attacker_goal = { casus_belli = demand_concession_casus_belli state_province_id = 1086 }
 				 attacker_goal = { casus_belli = demand_concession_casus_belli state_province_id = 1479 }
@@ -475,7 +475,7 @@ country_event = {
 
 	option = {
 		name = "EVT666446OPTA"
-	    create_alliance = SHN
+	    create_alliance = ORD
 		2617 = { secede_province = TAR }
 		1084 = { secede_province = TAR }
 		1083 = { secede_province = TAR }
@@ -487,7 +487,7 @@ country_event = {
     option = {
 		name = "EVT666446OPTB"
 	    war = {
-	             target = SHN
+	             target = ORD
 	             attacker_goal = { casus_belli = demand_concession_casus_belli state_province_id = 1082 }
 				 attacker_goal = { casus_belli = demand_concession_casus_belli state_province_id = 1086 }
 				 attacker_goal = { casus_belli = demand_concession_casus_belli state_province_id = 1479 }
@@ -512,7 +512,7 @@ country_event = {
 
 	option = {
 		name = "EVT666447OPTA"
-	    create_alliance = SHN
+	    create_alliance = ORD
 		2617 = { secede_province = TAR }
 		1084 = { secede_province = TAR }
 		prestige = -20
@@ -522,7 +522,7 @@ country_event = {
     option = {
 		name = "EVT666447OPTB"
 	    war = {
-	             target = SHN
+	             target = ORD
 	             attacker_goal = { casus_belli = demand_concession_casus_belli state_province_id = 1082 }
 				 attacker_goal = { casus_belli = demand_concession_casus_belli state_province_id = 1086 }
 				 attacker_goal = { casus_belli = demand_concession_casus_belli state_province_id = 1479 }

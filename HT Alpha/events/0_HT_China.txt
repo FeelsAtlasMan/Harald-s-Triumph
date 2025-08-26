@@ -72,30 +72,48 @@ country_event = {
 
 	option = {
 		name = "EVT188014OPTA"
-		all_core = { limit = { is_core = JZH } remove_core = JNG }
-		release_vassal = JZH
-		all_core = { limit = { is_core = HNN } remove_core = JNG }
-		release_vassal = HNN
-		all_core = { limit = { is_core = EEE } remove_core = JNG }
-		release_vassal = EEE
-		all_core = { limit = { is_core = SNG } remove_core = JNG }
-		release_vassal = SNG
-		all_core = { limit = { is_core = JXI } remove_core = JNG }
-		release_vassal = JXI
-		all_core = { limit = { is_core = GNG } remove_core = JNG }
-		release_vassal = GNG
-		all_core = { limit = { is_core = GXI } remove_core = JNG }
-		release_vassal = GXI
-		all_core = { limit = { is_core = FJN } remove_core = JNG }
-		release_vassal = FJN
-		all_core = { limit = { is_core = GZH } remove_core = JNG }
-		release_vassal = GZH
+		any_country = { limit = { war_with = THIS } end_war = THIS }
+		any_owned = { 
+			limit = {
+				owned_by = THIS
+				NOT = { controlled_by = THIS }
+			}
+			change_controller = THIS
+		}
+		1495 = { add_core = JZH }
+		1499 = { add_core = JZH }
+		2632 = { add_core = JZH }
+		all_core = { limit = { is_core = JZH } remove_core = THIS }
+		1501 = { add_core = GXI }
+		all_core = { limit = { is_core = GZH } add_core = GXI }
+		all_core = { limit = { is_core = GXI } remove_core = THIS }
+		1494 = { add_core = FJN }
+		all_core = { limit = { is_core = FJN } remove_core = THIS }
+		all_core = { limit = { is_core = GNG } remove_core = THIS }
+		all_core = { limit = { is_core = HNN } remove_core = THIS }
+		all_core = { limit = { is_core = EEE } remove_core = THIS }
+		all_core = { limit = { is_core = JXI } remove_core = THIS }
+		#1542 = { add_core = XZH } #Xuzhou tag not yet added
+		#1536 = { add_core = XZH }
+		#1543 = { add_core = XZH }
+		#1476 = { add_core = XZH }
+		all_core = { 
+            limit = {
+                OR = {
+					region = CHI_1510 #return Henan holdings to Zhao
+					region = CHI_1508
+				}
+				owned_by = THIS
+                ORD = { exists = yes has_country_flag = chinese_dynasty_flag }
+            }
+            remove_core = THIS
+            add_core = ORD
+            ORD = { country_event = { id = 188016 } }
+        }
 		country_event = {
 			id = 188015
-			days = 1
 		}
 	}
-
 }
 
 country_event = {
@@ -107,84 +125,118 @@ country_event = {
 
 	option = {
 		name = "EVT188015OPTA" #Chu will live on - retreat to the loyal south
-		government = absolute_monarchy
 		release_vassal = JZH
-		JZH = { government = absolute_monarchy }
-		release_vassal = HNN
-		HNN = { government = absolute_monarchy }
-		release_vassal = EEE
-		EEE = { government = absolute_monarchy }
-		release_vassal = SNG
-		SNG = { government = absolute_monarchy }
-		release_vassal = JXI
-		JXI = { government = absolute_monarchy }
-		release_vassal = GNG
-		GNG = { government = absolute_monarchy }
+		release_vassal = SCT 
+		JZH = {
+			country_event = 188016
+			government = absolute_monarchy
+			create_vassal = SCT
+		}
 		release_vassal = GXI
-		GXI = { government = absolute_monarchy }
-		release_vassal = FJN
-		FJN = { government = absolute_monarchy }
-		release_vassal = GZH
-		GZH = { government = absolute_monarchy }
+		release_vassal = PUR
+		GXI = { 
+			country_event = 188016
+			government = absolute_monarchy
+			create_vassal = PUR
+		}
+		release_vassal = HNN
 		release_vassal = SHN
-		SHN = { government = absolute_monarchy }
+		HNN = {
+			country_event = 188016
+			government = french_bourbon
+			create_vassal = SHN
+		}
+		release_vassal = JXI
+		JXI = { country_event = 188016 }
+		release_vassal = HUI
+		HUI = {
+			country_event = 188016
+			create_alliance = THIS #Wu
+		}
+		release_vassal = FJN
+		FJN = {
+			country_event = 188016
+			create_alliance = THIS #Wu
+		}
+		release_vassal = GNG
+		GNG = { country_event = 188016 }
+		release_vassal = EEE
+		EEE = { country_event = 188016 }
+		release_vassal = TWN
+		RYU = { create_vassal = TWN }
+		leave_alliance = MCK #Wu 
+		create_alliance = ORD #Wu 
+		government = absolute_monarchy #Wu
 		change_tag_no_core_switch = JZH
 	}
 
 	option = {
-		name = "EVT188015OPTB" #Chu has fallen, become Later Wu dynasty
-		government = absolute_monarchy
+		name = "EVT188015OPTB" #Chu has fallen, become Changsha kingdom
 		release_vassal = JZH
-		JZH = { government = absolute_monarchy }
-		release_vassal = HNN
-		HNN = { government = absolute_monarchy }
-		release_vassal = EEE
-		EEE = { government = absolute_monarchy }
-		release_vassal = SNG
-		SNG = { government = absolute_monarchy }
-		release_vassal = JXI
-		JXI = { government = absolute_monarchy }
-		release_vassal = GNG
-		GNG = { government = absolute_monarchy }
+		release_vassal = SCT 
+		JZH = {
+			country_event = 188016
+			government = absolute_monarchy
+			create_vassal = SCT
+		}
 		release_vassal = GXI
-		GXI = { government = absolute_monarchy }
-		release_vassal = FJN
-		FJN = { government = absolute_monarchy }
-		release_vassal = GZH
-		GZH = { government = absolute_monarchy }
-		release_vassal = SHN
-		SHN = { government = absolute_monarchy }
-		release_vassal = SCT
-		SCT = { government = absolute_monarchy }
 		release_vassal = PUR
-		PUR = { government = absolute_monarchy }
+		GXI = { 
+			country_event = 188016
+			government = absolute_monarchy
+			create_vassal = PUR
+		}
+		release_vassal = HNN
+		release_vassal = SHN
+		HNN = {
+			country_event = 188016
+			government = french_bourbon
+			create_vassal = SHN
+		}
+		release_vassal = JXI
+		JXI = { country_event = 188016 }
+		release_vassal = HUI
+		HUI = {
+			country_event = 188016
+			create_alliance = THIS #Wu
+		}
+		release_vassal = FJN
+		FJN = {
+			country_event = 188016
+			create_alliance = THIS #Wu
+		}
+		release_vassal = GNG
+		GNG = { country_event = 188016 }
+		release_vassal = EEE
+		EEE = { country_event = 188016 }
+		release_vassal = TWN
+		RYU = { create_vassal = TWN }
+		leave_alliance = MCK #Wu 
+		create_alliance = ORD #Wu 
+		government = absolute_monarchy #Wu
+		change_tag_no_core_switch = HNN
 	}
 
+	#option = {
+	#	name = "EVT188015OPTC" #become Wuyue kingdom
+	#	government = absolute_monarchy
+	#}
+}
+
+country_event = {
+	id = 188016
+	title = "EVTNAME188016"
+	desc = "EVTDESC188016"
+
+	is_triggered_only = yes
+
 	option = {
-		name = "EVT188015OPTC" #become Xiang dynasty
-		government = absolute_monarchy
-		release_vassal = JZH
-		JZH = { government = absolute_monarchy }
-		release_vassal = HNN
-		HNN = { government = absolute_monarchy }
-		release_vassal = EEE
-		EEE = { government = absolute_monarchy }
-		release_vassal = SNG
-		SNG = { government = absolute_monarchy }
-		release_vassal = JXI
-		JXI = { government = absolute_monarchy }
-		release_vassal = GNG
-		GNG = { government = absolute_monarchy }
-		release_vassal = GXI
-		GXI = { government = absolute_monarchy }
-		release_vassal = FJN
-		FJN = { government = absolute_monarchy }
-		release_vassal = GZH
-		GZH = { government = absolute_monarchy }
-		release_vassal = SCT
-		SCT = { government = absolute_monarchy }
-		release_vassal = PUR
-		PUR = { government = absolute_monarchy }
-		change_tag_no_core_switch = HNN
+		name = "EVT188016OPTA" 
+		treasury = 5000
+		all_core = {
+			limit = { owned_by = JNG }
+			secede_province = THIS
+		}
+		overlord = { limit = { exists = yes } release_vassal = THIS }
 	}
 }

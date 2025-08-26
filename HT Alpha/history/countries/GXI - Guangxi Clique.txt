@@ -1,7 +1,9 @@
 capital = 1502
-primary_culture = zhuang
-culture = yue
-culture = n_mandarin
+primary_culture = guinan
+#culture = zhuang
+culture = s_mandarin
+#culture = miao
+#culture = yi
 religion = mahayana
 government = colonial_company
 plurality = 0.0
@@ -9,7 +11,7 @@ nationalvalue = nv_tradition
 literacy = 0.01
 non_state_culture_literacy = 0.01
 
-slavery = no_slavery
+slavery = yes_slavery
 upper_house_composition = appointed
 vote_franschise = none_voting
 public_meetings = no_meeting
@@ -63,22 +65,3 @@ flintlock_rifles = 1
 consciousness = 0
 nonstate_consciousness = 0
 
-
-
-1861.1.1 = {
-	
-	literacy = 0.07
-	non_state_culture_literacy = 0.04
-
-	foreign_weapons = yes_foreign_weapons
-	foreign_officers = yes_foreign_officers
-
-	# Technologies
-	flintlock_rifles = 1
-	military_staff_system = 1
-
-	# Inventions
-#bottling_process = yes
-modern_winemaking = yes
-
-}
