@@ -501,24 +501,3 @@ country_event = { #Iberians sell breech loaded artillery to the Algaravians
 
 #######Portugal
 
-#Introduction
-country_event = { 
-	id = 410011
-	title = "EVTNAME410011"
-	desc = "EVTDESC410011"
-	picture = "straits_of_gibraltar"
-    
-	 trigger = {
-	       tag = POR
-	}
-	
-	fire_only_once = yes
-	
-	option = {
-		name = "EVTOPTA410011"
-		set_country_flag = por_setup_done
-        ai_chance = {
-            factor = 100	
-        }
-	}	
-}
