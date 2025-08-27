@@ -332,10 +332,11 @@ political_decisions = {
 				}
 				YZD = { exists = yes }
 			}
+			war = no
 		}
 		
 		effect = {
-		    country_event = 88022
+		    FRS = { country_event = 88022 }
 		    set_country_flag = zoroastrian_matters
 		}
         ai_will_do = {

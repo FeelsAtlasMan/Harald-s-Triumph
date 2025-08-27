@@ -659,7 +659,6 @@ country_event = {
 
     trigger = {
 		any_owned_province = {
-			   limit = {
 			     OR = {
 				      is_core = MSM #Mishmast
                       is_core = BYT #Nishapur
@@ -677,7 +676,6 @@ country_event = {
                               is_core = TKM #Yomuds
                       }
                    } 				 
-			}
         }
 		has_country_flag = subjegated_khorasan
         owned_by = FRS
@@ -689,17 +687,15 @@ country_event = {
 
     option = {
         name = "Great!"	
-		state_scope = {
-            any_owned = {
-                remove_core = MSM
-                remove_core = BYT
-                remove_core = QRI
-                remove_core = KST
-                remove_core = AFS
-                remove_core = MHL
-				remove_core = JYL
-				remove_core = TKM
-            }
+        any_owned = {
+             remove_core = MSM
+             remove_core = BYT
+             remove_core = QRI
+             remove_core = KST
+             remove_core = AFS
+             remove_core = MHL
+		     remove_core = JYL
+			 remove_core = TKM
         }
         ai_chance = { factor = 100 }
     }
