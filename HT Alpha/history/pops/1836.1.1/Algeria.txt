@@ -3,114 +3,96 @@
 #Algiers (280000/70000 POPS)
 1700 = {
 	aristocrats = {
-		culture = kabyle
-		religion = sunni
-		size = 500
-	}
-	
-	officers = {
-		culture = kabyle
-		religion = sunni
-		size = 100
-	}
-
-	bureaucrats = {
-		culture = kabyle
-		religion = sunni
-		size = 250
-	}
-
-	clergymen = {
-		culture = kabyle
-		religion = sunni
-		size = 25
-	}
-
-	artisans = {
-		culture = kabyle
-		religion = sunni
-		size = 1500
-	}
-
-	soldiers = {
-		culture = kabyle
-		religion = sunni
-		size = 3500
-	}
-
-	farmers = {
-		culture = kabyle
-		religion = sunni
-		size = 12225
-	}
-	
-	farmers = {
-		culture = judeo_arabic
-		religion = jewish
-		size = 4400
-	}
-	
-	clergymen = {
-		culture = judeo_arabic
-		religion = jewish
-		size = 300
-	}
-
-	clergymen = {
-		culture = algerian_arabic
-		religion = sunni
-		size = 300
-	}
-
-	artisans = {
-		culture = algerian_arabic
-		religion = sunni
-		size = 4500
-	}
-
-	soldiers = {
-		culture = algerian_arabic
-		religion = sunni
-		size = 500
-	}
-
-	farmers = {
-		culture = algerian_arabic
-		religion = sunni
-		size = 46200
-	}
-
-	clergymen = {
-		culture = kabyle
-		religion = sunni
-		size = 25
-	}
-
-
-	soldiers = {
-		culture = kabyle
+		culture = haqbaylit
 		religion = sunni
 		size = 200
 	}
 
-	farmers = {
-		culture = kabyle
-		religion = sunni
-		size = 4675
-	}
-
 	clergymen = {
-		culture = judeo_arabic
-		religion = jewish
-		size = 25
+		culture = haqbaylit
+		religion = sunni
+		size = 125
 	}
 
 	artisans = {
+		culture = haqbaylit
+		religion = sunni
+		size = 400
+	}
+
+	soldiers = {
+		culture = haqbaylit
+		religion = sunni
+		size = 500
+	}
+
+	farmers = {
+		culture = haqbaylit
+		religion = sunni
+		size = 4225
+	}
+	
+	farmers = {
 		culture = judeo_arabic
 		religion = jewish
-		size = 1475
+		size = 1400
+	}
+	
+	clergymen = {
+		culture = judeo_arabic
+		religion = jewish
+		size = 100
+	}
+	
+	aristocrats = {
+		culture = urban_maghrebi
+		religion = sunni
+		size = 800
+	}
+
+	clergymen = {
+		culture = urban_maghrebi
+		religion = sunni
+		size = 600
+	}
+
+	artisans = {
+		culture = urban_maghrebi
+		religion = sunni
+		size = 7500
+	}
+
+	soldiers = {
+		culture = urban_maghrebi
+		religion = sunni
+		size = 500
+	}
+
+	farmers = {
+		culture = urban_maghrebi
+		religion = sunni
+		size = 13200
+	}
+
+	clergymen = {
+		culture = algerian_arabic
+		religion = sunni
+		size = 225
+	}
+
+	soldiers = {
+		culture = algerian_arabic
+		religion = sunni
+		size = 1000
+	}
+
+	farmers = {
+		culture = algerian_arabic
+		religion = sunni
+		size = 34675
 	}
 }
+
 #Ruled by Aljaziar 1836
 #Bougie (448000/112000 POPS)
 1701 = {
@@ -153,63 +135,76 @@
 	farmers = {
 		culture = kabyle
 		religion = sunni
-		size = 77375
+		size = 64375
 	}
-
+	
 	aristocrats = {
-		culture = algerian_arabic
+		culture = urban_maghrebi
 		religion = sunni
-		size = 300
+		size = 200
 	}
-
-	officers = {
-		culture = algerian_arabic
-		religion = sunni
-		size = 75
-	}
-
+	
 	clergymen = {
-		culture = algerian_arabic
+		culture = urban_maghrebi
 		religion = sunni
 		size = 250
 	}
 
 	artisans = {
-		culture = algerian_arabic
+		culture = urban_maghrebi
+		religion = sunni
+		size = 4350
+	}
+
+	aristocrats = {
+		culture = jejili
+		religion = sunni
+		size = 300
+	}
+
+	officers = {
+		culture = jejili
+		religion = sunni
+		size = 75
+	}
+
+	clergymen = {
+		culture = jejili
+		religion = sunni
+		size = 250
+	}
+
+	artisans = {
+		culture = jejili
 		religion = sunni
 		size = 2350
 	}
 
 	soldiers = {
-		culture = algerian_arabic
+		culture = jejili
 		religion = sunni
 		size = 350
 	}
 
 	farmers = {
-		culture = algerian_arabic
+		culture = jejili
 		religion = sunni
-		size = 20675
-	}
-
-	slaves = {
-		culture = forest_bantu
-		religion = animist
-		size = 5000
+		size = 22675
 	}
 	
 	farmers = {
 		culture = algerian_arabic
 		religion = sunni
-		size = 1225
+		size = 6000
 	}
-	
-	clergymen = {
-		culture = algerian_arabic
-		religion = sunni
-		size = 100
+
+	slaves = {
+		culture = forest_bantu
+		religion = animist
+		size = 2000
 	}
 }
+
 #Setif (240000/60000 POPS)
 1702 = {
 	aristocrats = {
@@ -227,7 +222,7 @@
 	artisans = {
 		culture = algerian_arabic
 		religion = sunni
-		size = 2400
+		size = 1000
 	}
 
 	soldiers = {
@@ -245,13 +240,43 @@
 	soldiers = {
 		culture = algerian_arabic
 		religion = sunni
-		size = 2000
+		size = 1800
 	}
 
 	farmers = {
 		culture = algerian_arabic
 		religion = sunni
-		size = 45500
+		size = 36000
+	}
+	
+	aristocrats = {
+		culture = jejili
+		religion = sunni
+		size = 300
+	}
+
+	clergymen = {
+		culture = jejili
+		religion = sunni
+		size = 300
+	}
+
+	artisans = {
+		culture = jejili
+		religion = sunni
+		size = 1400
+	}
+
+	soldiers = {
+		culture = jejili
+		religion = sunni
+		size = 200
+	}
+
+	farmers = {
+		culture = jejili
+		religion = sunni
+		size = 7500
 	}
 
 	aristocrats = {
@@ -269,39 +294,63 @@
 	soldiers = {
 		culture = kabyle
 		religion = sunni
-		size = 1600
+		size = 1000
 	}
 
 	farmers = {
 		culture = kabyle
 		religion = sunni
-		size = 47000
+		size = 17000
+	}
+	
+	farmers = {
+		culture = tacawit
+		religion = sunni
+		size = 7000
 	}
 
 	slaves = {
 		culture = forest_bantu
 		religion = animist
-		size = 6000
+		size = 2000
 	}
 }
 #Medea (168000/42000 POPS)
 1703 = {
+    aristocrats = {
+		culture = urban_maghrebi 
+		religion = sunni
+		size = 200
+	}
+
+	clergymen = {
+		culture = urban_maghrebi
+		religion = sunni
+		size = 200
+	}
+
+	artisans = {
+		culture = urban_maghrebi
+		religion = sunni
+		size = 2000
+	}
+    
 	aristocrats = {
 		culture = algerian_arabic 
 		religion = sunni
-		size = 400
+		size = 200
 	}
 
 	clergymen = {
 		culture = algerian_arabic
 		religion = sunni
-		size = 400
+		size = 200
 	}
 
 	artisans = {
 		culture = algerian_arabic
 		religion = sunni
-		size = 2500
+		size = 500
 	}
 
 	soldiers = {
@@ -313,7 +362,7 @@
 	farmers = {
 		culture = algerian_arabic
 		religion = sunni
-		size = 57500
+		size = 53500
 	}
 
 	aristocrats = {
@@ -343,7 +392,7 @@
 	farmers = {
 		culture = haqbaylit
 		religion = sunni
-		size = 8500
+		size = 12500
 	}
 
 }
@@ -432,7 +481,7 @@
 	farmers = {
 		culture = riffian
 		religion = sunni
-		size = 5600
+		size = 2600
 	}
 
 	clergymen = {
@@ -444,95 +493,95 @@
 	artisans = {
 		culture = judeo_arabic
 		religion = jewish
-		size = 3230
+		size = 1230
 	}
 }
+
 #Aljazair-ruled in 1836 :
 #Tilimsan - Tlemcen (221600/55400 POPS)
 1705 = {
 	aristocrats = {
-		culture = maghrebi
+		culture = algerian_arabic
 		religion = sunni
 		size = 500
 	}
 
 	officers = {
-		culture = maghrebi
+		culture = algerian_arabic
 		religion = sunni
 		size = 100
 	}
 
 	bureaucrats = {
-		culture = maghrebi
+		culture = algerian_arabic
 		religion = sunni
 		size = 100
 	}
 
 	clergymen = {
-		culture = maghrebi
+		culture = algerian_arabic
 		religion = sunni
 		size = 500
 	}
 
 	artisans = {
-		culture = maghrebi
+		culture = algerian_arabic
 		religion = sunni
 		size = 2250
 	}
 
 	soldiers = {
-		culture = maghrebi
+		culture = algerian_arabic
 		religion = sunni
 		size = 3000
 	}
 
 	soldiers = {
-		culture = maghrebi
+		culture = algerian_arabic
 		religion = sunni
 		size = 1000
 	}
 
 	farmers = {
-		culture = maghrebi
+		culture = algerian_arabic
 		religion = sunni
-		size = 45550
+		size = 25550
 	}
 
 	aristocrats = {
-		culture = algerian_arabic
+		culture = urban_maghrebi
 		religion = sunni
 		size = 200
 	}
 
 	officers = {
-		culture = algerian_arabic
+		culture = urban_maghrebi
 		religion = sunni
 		size = 100
 	}
 
 	clergymen = {
-		culture = algerian_arabic
+		culture = urban_maghrebi
 		religion = sunni
 		size = 200
 	}
 
-
 	soldiers = {
-		culture = algerian_arabic
+		culture = wahrani
 		religion = sunni
-		size = 1000
+		size = 400
 	}
 
 	farmers = {
-		culture = algerian_arabic
+		culture = wahrani
 		religion = sunni
-		size = 12500
+		size = 3500
 	}
 
-	farmers = {
+	artisans = {
 		culture = judeo_arabic
 		religion = jewish
-		size = 4000
+		size = 700
 	}
 	
 	clergymen = {
@@ -568,9 +617,10 @@
 	slaves = {
 		culture = forest_bantu
 		religion = animist
-		size = 8000
+		size = 1000
 	}
 }
+
 #Mustaghanim (188000/47000 POPS)
 1706 = {
 	aristocrats = {
@@ -600,7 +650,7 @@
 	farmers = {
 		culture = haqbaylit
 		religion = sunni
-		size = 24550
+		size = 20550
 	}
 
 	aristocrats = {
@@ -618,7 +668,7 @@
 	artisans = {
 		culture = algerian_arabic
 		religion = sunni
-		size = 850
+		size = 1850
 	}
 
 	soldiers = {
@@ -630,13 +680,13 @@
 	farmers = {
 		culture = algerian_arabic
 		religion = sunni
-		size = 15575
+		size = 20575
 	}
 	
-	farmers = {
+	artisans = {
 		culture = judeo_arabic
 		religion = jewish
-		size = 4000
+		size = 1000
 	}
 	
 	clergymen = {
@@ -646,33 +696,33 @@
 	}
 	
 	aristocrats = {
-		culture = algerian_arabic
-		religion = sunni
-		size = 25
-	}
-
-	bureaucrats = {
-		culture = algerian_arabic
-		religion = sunni
-		size = 25
-	}
-
-	clergymen = {
-		culture = algerian_arabic
+		culture = urban_maghrebi
 		religion = sunni
 		size = 125
 	}
 
-	farmers = {
-		culture = algerian_arabic
+	bureaucrats = {
+		culture = urban_maghrebi
+		religion = sunni
+		size = 125
+	}
+
+	clergymen = {
+		culture = urban_maghrebi
+		religion = sunni
+		size = 125
+	}
+
+	artisans = {
+		culture = urban_maghrebi
 		religion = sunni
 		size = 3200
 	}
 	
 	soldiers = {
-		culture = algerian_arabic
+		culture = urban_maghrebi
 		religion = sunni
-		size = 875
+		size = 175
 	}
 	
 	slaves = {
@@ -689,83 +739,71 @@
 }
 #Mascara (60000/15000 POPS)
 1707 = {
+    aristocrats = {
+		culture = urban_maghrebi
+		religion = sunni
+		size = 300
+	}
+
+	clergymen = {
+		culture = urban_maghrebi
+		religion = sunni
+		size = 275
+	}
+
+	artisans = {
+		culture = urban_maghrebi
+		religion = sunni
+		size = 1000
+	}
+	
 	aristocrats = {
 		culture = algerian_arabic
+		religion = sunni
+		size = 300
+	}
+
+	clergymen = {
+		culture = algerian_arabic
+		religion = sunni
+		size = 200
+	}
+
+	artisans = {
+		culture = algerian_arabic
+		religion = sunni
+		size = 2000
+	}
+
+	soldiers = {
+		culture = algerian_arabic
+		religion = sunni
+		size = 1800
+	}
+
+	farmers = {
+		culture = algerian_arabic
+		religion = sunni
+		size = 43425
+	}
+
+	soldiers = {
+		culture = riffian
 		religion = sunni
 		size = 100
 	}
 
-	clergymen = {
-		culture = algerian_arabic
-		religion = sunni
-		size = 75
-	}
-
-	soldiers = {
-		culture = algerian_arabic
-		religion = sunni
-		size = 3000
-	}
-
-	soldiers = {
-		culture = algerian_arabic
-		religion = sunni
-		size = 800
-	}
-
-	farmers = {
-		culture = algerian_arabic
-		religion = sunni
-		size = 13425
-	}
-
-	aristocrats = {
-		culture = riffian
-		religion = sunni
-		size = 75
-	}
-
-	clergymen = {
-		culture = riffian
-		religion = sunni
-		size = 75
-	}
-
-	soldiers = {
-		culture = riffian
-		religion = sunni
-		size = 1000
-	}
-
 	farmers = {
 		culture = riffian
 		religion = sunni
-		size = 3425
+		size = 1425
 	}
-
 }
+
 #Constantinois Region (344000)
 #Ruled by France 1836
-#Bone (68000/17000 POPS)
+#Annaba (68000/17000 POPS)
 1709 = {
-	aristocrats = {
-		culture = tacawit
-		religion = sunni
-		size = 25
-	}
-
-	bureaucrats = {
-		culture = tacawit
-		religion = sunni
-		size = 50
-	}
-
-	clergymen = {
-		culture = tacawit
-		religion = sunni
-		size = 625
-	}
-
 	soldiers = {
 		culture = tacawit
 		religion = sunni
@@ -777,33 +815,45 @@
 		religion = sunni
 		size = 3200
 	}
+	
+	aristocrats = {
+		culture = jejili
+		religion = sunni
+		size = 425
+	}
+
+	bureaucrats = {
+		culture = jejili
+		religion = sunni
+		size = 250
+	}
 
 	clergymen = {
-		culture = algerian_arabic
+		culture = jejili
 		religion = sunni
-		size = 50
+		size = 625
 	}
 
 	artisans = {
-		culture = algerian_arabic
+		culture = jejili
 		religion = sunni
-		size = 600
+		size = 3600
 	}
 
 	soldiers = {
-		culture = algerian_arabic
+		culture = jejili
 		religion = sunni
 		size = 150
 	}
 
 	farmers = {
-		culture = algerian_arabic
+		culture = jejili
 		religion = sunni
 		size = 14200
 	}
 	
 	farmers = {
-		culture = tunesian_arabic
+		culture = algerian_arabic
 		religion = sunni
 		size = 10000
 	}
@@ -813,7 +863,6 @@
 		religion = sunni
 		size = 10
 	}
-
 
 	soldiers = {
 		culture = kabyle
@@ -830,7 +879,7 @@
 	farmers = {
 		culture = judeo_arabic
 		religion = jewish
-		size = 2000
+		size = 1000
 	}
 	
 	clergymen = {
@@ -838,81 +887,69 @@
 		religion = jewish
 		size = 100
 	}
-	
 }
+
 #Ruled by Aljazair 1836
 #Constantine (176000/44000 POPS)
 1708 = {
 	aristocrats = {
-		culture = tacawit
+		culture = urban_maghrebi
 		religion = sunni
 		size = 250
 	}
 
-	farmers = {
-		culture = tacawit
-		religion = sunni
-		size = 5200
-	}
-	
-	aristocrats = {
-		culture = tacawit
-		religion = sunni
-		size = 25
-	}
-	
-	clergymen = {
-		culture = tacawit
-		religion = sunni
-		size = 10
-	}
-	
-	soldiers = {
-		culture = tacawit
+	artisans = {
+		culture = urban_maghrebi
 		religion = sunni
 		size = 1200
 	}
 	
 	aristocrats = {
-		culture = algerian_arabic
+		culture = jejili
 		religion = sunni
 		size = 250
 	}
 
 	officers = {
-		culture = algerian_arabic
+		culture = jejili
 		religion = sunni
 		size = 50
 	}
 
 	bureaucrats = {
-		culture = algerian_arabic
+		culture = jejili
 		religion = sunni
 		size = 75
 	}
 
 	clergymen = {
-		culture = algerian_arabic
+		culture = jejili
 		religion = sunni
 		size = 213
 	}
 
 	artisans = {
-		culture = algerian_arabic
+		culture = jejili
 		religion = sunni
 		size = 1100
 	}
 
 	soldiers = {
-		culture = algerian_arabic
+		culture = jejili
 		religion = sunni
 		size = 2200
 	}
 
 	farmers = {
+		culture = jejili
+		religion = sunni
+		size = 3312
+	}
+	
+	farmers = {
 		culture = algerian_arabic
 		religion = sunni
-		size = 10312
+		size = 7000
 	}
 
 	aristocrats = {
@@ -963,6 +1000,7 @@
 		size = 975
 	}
 }
+
 #Biskra (100000/25000 POPS)
 1710 = {
 	aristocrats = {
@@ -996,33 +1034,39 @@
 	}
 
 	aristocrats = {
-		culture = algerian_arabic
+		culture = jejili
 		religion = sunni
 		size = 100
 	}
 
 	clergymen = {
-		culture = algerian_arabic
+		culture = jejili
 		religion = sunni
 		size = 100
 	}
 
 	artisans = {
-		culture = algerian_arabic
+		culture = jejili
 		religion = sunni
 		size = 500
 	}
 
 	soldiers = {
-		culture = algerian_arabic
+		culture = jejili
 		religion = sunni
 		size = 100
 	}
 
 	farmers = {
+		culture = jejili
+		religion = sunni
+		size = 3200
+	}
+	
+	farmers = {
 		culture = algerian_arabic
 		religion = sunni
-		size = 13200
+		size = 10000
 	}
 
 }
@@ -1050,7 +1094,7 @@
 	farmers = {
 		culture = algerian_arabic
 		religion = sunni
-		size = 5460
+		size = 1460
 	}
 
 	aristocrats = {
@@ -1074,7 +1118,7 @@
 	farmers = {
 		culture = mzab_ourgla
 		religion = ibadi
-		size = 17000
+		size = 10000
 	}
 
 	aristocrats = {
@@ -1126,18 +1170,6 @@
 		religion = ibadi
 		size = 6000
 	}
-	
-	farmers = {
-		culture = mzab_ourgla
-		religion = sunni
-		size = 5700
-	}
-	
-	farmers = {
-		culture = seghrusheni
-		religion = sunni
-		size = 1500
-	}
 
 	aristocrats = {
 		culture = algerian_arabic
@@ -1160,9 +1192,10 @@
 	farmers = {
 		culture = algerian_arabic
 		religion = sunni
-		size = 5800
+		size = 2800
 	}
 }
+
 #Laghwat (104000/26000 POPS)
 1713 = {
 	aristocrats = {
@@ -1180,7 +1213,7 @@
 	artisans = {
 		culture = mzab_ourgla
 		religion = sunni
-		size = 1500
+		size = 100
 	}
 
 	soldiers = {
@@ -1192,7 +1225,7 @@
 	farmers = {
 		culture = mzab_ourgla
 		religion = sunni
-		size = 3000
+		size = 1000
 	}
 
 	aristocrats = {
@@ -1263,38 +1296,14 @@
 }
 #Naama (92000/23000 POPS)
 1715 = {
-	aristocrats = {
-		culture = mzab_ourgla
-		religion = sunni
-		size = 100
-	}
-
-	clergymen = {
-		culture = mzab_ourgla
-		religion = sunni
-		size = 100
-	}
-
-	artisans = {
-		culture = mzab_ourgla
-		religion = sunni
-		size = 600
-	}
-
-	soldiers = {
-		culture = mzab_ourgla
-		religion = sunni
-		size = 1100
-	}
-
 	farmers = {
 		culture = mzab_ourgla
 		religion = sunni
-		size = 6200
+		size = 700
 	}
 	
 	farmers = {
-		culture = seghrusheni
+		culture = saharan_arabic
 		religion = sunni
 		size = 1000
 	}
@@ -1329,6 +1338,7 @@
 		size = 14100
 	}
 }
+
 #Tindouf (8000/2000 POPS)
 1716 = {
 	aristocrats = {
@@ -1354,7 +1364,14 @@
 		religion = sunni
 		size = 1900
 	}
+	
+	farmers = {
+		culture = maures
+		religion = sunni
+		size = 3000
+	}
 }
+
 #Chenachene (8000/2000 POPS)
 1717 = {
 	aristocrats = {
@@ -1470,7 +1487,7 @@
 	}
 	
 	farmers = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
 		size = 1300
 	}
@@ -1480,13 +1497,8 @@
 		religion = sunni
 		size = 300
 	}
-	
-	farmers = {
-		culture = algerian_arabic
-		religion = sunni
-		size = 800
-	}
 }
+
 #Timimoun - now Bechar (16000/4000 POPS)
 1720 = {
 	aristocrats = {
@@ -1517,30 +1529,6 @@
 		culture = korandje
 		religion = sunni
 		size = 1700
-	}
-	
-	aristocrats = {
-		culture = seghrusheni
-		religion = sunni
-		size = 10
-	}
-
-	clergymen = {
-		culture = seghrusheni
-		religion = sunni
-		size = 15
-	}
-
-	soldiers = {
-		culture = seghrusheni
-		religion = sunni
-		size = 55
-	}
-
-	farmers = {
-		culture = seghrusheni
-		religion = sunni
-		size = 1020
 	}
 
 	aristocrats = {
@@ -1574,6 +1562,7 @@
 	}
 	
 }
+
 #Al-Qulai'a (16000/4000 POPS)
 3410 = {
 	aristocrats = {
@@ -1587,7 +1576,6 @@
 		religion = sunni
 		size = 45
 	}
-
 
 	soldiers = {
 		culture = saharan_arabic
@@ -1624,32 +1612,8 @@
 		religion = ibadi
 		size = 1320
 	}
-
-	aristocrats = {
-		culture = tuareg
-		religion = sunni
-		size = 20
-	}
-
-	clergymen = {
-		culture = tuareg
-		religion = sunni
-		size = 40
-	}
-
-	soldiers = {
-		culture = tuareg
-		religion = sunni
-		size = 130
-	}
-
-	farmers = {
-		culture = tuareg
-		religion = sunni
-		size = 1410
-	}
-
 }
+
 #Twat (16000/4000 POPS)
 3409 = {
     aristocrats = {
@@ -1724,6 +1688,7 @@
 		size = 2320
 	}
 }
+
 #Hoggar Region (40000)
 #uncolonized in 1836
 #In Guezzam (8000/2000 POPS)
@@ -1758,6 +1723,7 @@
 		size = 1900
 	}
 }
+
 #Tin Zawatene (16000/4000 POPS)
 1722 = {
 	aristocrats = {
@@ -1785,7 +1751,7 @@
 	}
 	
 	farmers = {
-		culture = tadaksahak
+		culture = maures
 		religion = sunni
 		size = 800
 	}

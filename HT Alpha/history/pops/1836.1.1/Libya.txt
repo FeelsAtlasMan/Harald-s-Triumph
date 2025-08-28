@@ -3,73 +3,49 @@
 #Tripoli (172000/43000 POPS) 
 1731 = {
 	aristocrats = {
-		culture = libi
+		culture = urban_maghrebi
 		religion = sunni
 		size = 550
 	}
 
 	bureaucrats = {
-		culture = libi
+		culture = urban_maghrebi
 		religion = sunni
 		size = 50
 	}
 
 	officers = {
-		culture = libi
+		culture = urban_maghrebi
 		religion = sunni
 		size = 75
-	}
-
-	clergymen = {
-		culture = jbali
-		religion = sunni
-		size = 75
-	}
-
-	artisans = {
-		culture = jbali
-		religion = sunni
-		size = 150
-	}
-
-	soldiers = {
-		culture = jbali
-		religion = sunni
-		size = 1100
-	}
-
-	farmers = {
-		culture = jbali
-		religion = sunni
-		size = 2900
 	}
 
 	aristocrats = {
-		culture = libi
+		culture = urban_maghrebi
 		religion = sunni
 		size = 125
 	}
 
 	clergymen = {
-		culture = libi
+		culture = urban_maghrebi
 		religion = sunni
 		size = 275
 	}
 
 	artisans = {
-		culture = libi
+		culture = urban_maghrebi
 		religion = sunni
 		size = 4250
 	}
 
 	soldiers = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
-		size = 75
+		size = 1075
 	}
 
 	farmers = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
 		size = 83075
 	}
@@ -92,36 +68,37 @@
 		size = 1475
 	}
 }
+
 #Gharyan (40000/10000 POPS)
 1732 = {
 	aristocrats = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
 		size = 50
 	}
 
 	clergymen = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
 		size = 75
 	}
 
 	artisans = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
 		size = 150
 	}
 
 	soldiers = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
 		size = 1100
 	}
 
 	farmers = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
-		size = 1725
+		size = 3725
 	}
 
 	aristocrats = {
@@ -151,7 +128,7 @@
 	farmers = {
 		culture = nafusi
 		religion = ibadi
-		size = 3550
+		size = 2550
 	}
 
 	slaves = {
@@ -163,57 +140,58 @@
 	slaves = {
 		culture = catalan
 		religion = catholic
-		size = 600
+		size = 200
 	}
 	
 	slaves = {
 		culture = bulgarian
 		religion = orthodox
-		size = 600
+		size = 200
 	}
 	
 	slaves = {
 		culture = fur
 		religion = animist
-		size = 900
+		size = 200
 	}
 	
 	slaves = {
 		culture = dinka
 		religion = animist
-		size = 900
+		size = 200
 	}
 }
+
 #Misratah (84000/21000 POPS)
 1733 = {
 	aristocrats = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
 		size = 175
 	}
 
 	clergymen = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
 		size = 100
 	}
 
 	artisans = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
 		size = 500
 	}
 
 	soldiers = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
 		size = 100
 	}
 
 	farmers = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
-		size = 10125
+		size = 12125
 	}
 
 	aristocrats = {
@@ -243,7 +221,7 @@
 	farmers = {
 		culture = jbali
 		religion = sunni
-		size = 4250
+		size = 2250
 	}
 
 	slaves = {
@@ -282,64 +260,65 @@
 		size = 490
 	}
 }
+
 #Sirt (100000/25000 POPS)
 1734 = {
 	aristocrats = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
 		size = 150
 	}
 
 	clergymen = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
 		size = 75
 	}
 
 	artisans = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
 		size = 400
 	}
 
 	soldiers = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
 		size = 75
 	}
 
 	farmers = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
 		size = 7300
 	}
 
 	aristocrats = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
 		size = 225
 	}
 
 	clergymen = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
 		size = 125
 	}
 
 	artisans = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
 		size = 650
 	}
 
 	soldiers = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
 		size = 1100
 	}
 
 	farmers = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
 		size = 10000
 	}
@@ -350,78 +329,79 @@
 		size = 4000
 	}
 }
+
 #Cyrenaica Region (232000)  
 #under the rule of Ottoman Empire in 1836  
 #Benghazi (124000/31000 POPS)
 1735 = {
 	aristocrats = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
 		size = 275
 	}
 
 	bureaucrats = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
 		size = 25
 	}
 
 	officers = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
 		size = 25
 	}
 
 	clergymen = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
 		size = 150
 	}
 
 	artisans = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
 		size = 735
 	}
 
 	soldiers = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
 		size = 1100
 	}
 
 	farmers = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
 		size = 14025
 	}
 
 	aristocrats = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
 		size = 175
 	}
 
 	clergymen = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
 		size = 75
 	}
 
 	artisans = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
 		size = 500
 	}
 
 	soldiers = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
 		size = 100
 	}
 
 	farmers = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
 		size = 9150
 	}
@@ -444,64 +424,65 @@
 		size = 245
 	}
 }
+
 #Darnah (60000/15000 POPS)
 1736 = {
 	aristocrats = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
 		size = 75
 	}
 
 	clergymen = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
 		size = 50
 	}
 
 	artisans = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
 		size = 250
 	}
 
 	soldiers = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
 		size = 50
 	}
 
 	farmers = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
 		size = 4575
 	}
 
 	aristocrats = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
 		size = 125
 	}
 
 	clergymen = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
 		size = 75
 	}
 
 	artisans = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
 		size = 400
 	}
 
 	soldiers = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
 		size = 75
 	}
 
 	farmers = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
 		size = 7325
 	}
@@ -512,64 +493,65 @@
 		size = 2000
 	}
 }
+
 #Tobruk (48000/12000 POPS)
 1737 = {
 	aristocrats = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
 		size = 25
 	}
 
 	clergymen = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
 		size = 50
 	}
 
 	artisans = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
 		size = 150
 	}
 
 	soldiers = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
 		size = 25
 	}
 
 	farmers = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
 		size = 2700
 	}
 
 	aristocrats = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
 		size = 100
 	}
 
 	clergymen = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
 		size = 50
 	}
 
 	artisans = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
 		size = 300
 	}
 
 	soldiers = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
 		size = 50
 	}
 
 	farmers = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
 		size = 5500
 	}
@@ -577,41 +559,42 @@
 	slaves = {
 		culture = forest_bantu
 		religion = animist
-		size = 3000
+		size = 300
 	}
 }
+
 #Kufrah Region (48000)  
 #uncolonized in 1836
 #Jaghbub (12000/3000 POPS)
 1738 = {
 	aristocrats = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
 		size = 25
 	}
 
 	clergymen = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
 		size = 50
 	}
 
 	artisans = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
 		size = 150
 	}
 
 	soldiers = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
 		size = 25
 	}
 
 	farmers = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
-		size = 1750
+		size = 2450
 	}
 	
 	clergymen = {
@@ -635,38 +618,38 @@
 	farmers = {
 		culture = tawjilit
 		religion = sunni
-		size = 1000
+		size = 300
 	}
 }
 
 #Waddan (16000/4000 POPS)
 1740 = {
 	aristocrats = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
 		size = 25
 	}
 
 	clergymen = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
 		size = 50
 	}
 
 	artisans = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
 		size = 150
 	}
 
 	soldiers = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
 		size = 25
 	}
 
 	farmers = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
 		size = 2750
 	}
@@ -701,29 +684,29 @@
 		size = 900
 	}
 }
+
 #Matan al Sarah (4000/1000 POPS)
 2585 = {
-
 	aristocrats = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
 		size = 25
 	}
 
 	clergymen = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
 		size = 50
 	}
 
 	artisans = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
 		size = 150
 	}
 	
 	soldiers = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
 		size = 1100
 	}
@@ -788,50 +771,51 @@
 		size = 1310
 	}
 }
+
 #Fezzan Region (70000)  
 #under the indirect rule of Ottoman Empire in 1836  
 #Murzuk (16000/4000 POPS)
 1741 = {
 	aristocrats = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
 		size = 15
 	}
 
 	bureaucrats = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
 		size = 20
 	}
 
 	officers = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
 		size = 15
 	}
 
 	clergymen = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
 		size = 25
 	}
 
 	artisans = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
 		size = 150
 	}
 
 	soldiers = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
 		size = 510
 	}
 
 	farmers = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
-		size = 3580
+		size = 5580
 	}
 
 	aristocrats = {
@@ -861,7 +845,7 @@
 	farmers = {
 		culture = tasuknit
 		religion = sunni
-		size = 6975
+		size = 4975
 	}
 
 	slaves = {
@@ -882,34 +866,35 @@
 		size = 350
 	}
 }
+
 #Sabha (14000/3500 POPS)
 1742 = {
 	aristocrats = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
 		size = 15
 	}
 
 	clergymen = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
 		size = 25
 	}
 
 	artisans = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
 		size = 50
 	}
 
 	soldiers = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
 		size = 10
 	}
 
 	farmers = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
 		size = 800
 	}
@@ -980,62 +965,62 @@
 	farmers = {
 		culture = tasuknit
 		religion = sunni
-		size = 1300
+		size = 300
 	}
 	
 	aristocrats = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
 		size = 15
 	}
 
 	clergymen = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
 		size = 25
 	}
 
 	artisans = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
 		size = 50
 	}
 
 	soldiers = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
 		size = 10
 	}
 
 	farmers = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
-		size = 300
+		size = 1300
 	}
 }
 
 #Sabha (14000/3500 POPS)
 3412 = {
 	aristocrats = {
-		culture = libi
+		culture = tuareg
 		religion = sunni
 		size = 15
 	}
 
 	clergymen = {
-		culture = libi
+		culture = tuareg
 		religion = sunni
 		size = 25
 	}
 	
 	soldiers = {
-		culture = libi
+		culture = tuareg
 		religion = sunni
 		size = 10
 	}
 
 	farmers = {
-		culture = libi
+		culture = tuareg
 		religion = sunni
 		size = 350
 	}
@@ -1068,31 +1053,31 @@
 #Ghadamis - Now Sabha (24000/6000 POPS)
 1744 = {
 	aristocrats = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
 		size = 65
 	}
 
 	clergymen = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
 		size = 75
 	}
 
 	artisans = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
 		size = 200
 	}
 
 	soldiers = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
 		size = 1000
 	}
 
 	farmers = {
-		culture = libi
+		culture = tunesian_arabic
 		religion = sunni
 		size = 1000
 	}

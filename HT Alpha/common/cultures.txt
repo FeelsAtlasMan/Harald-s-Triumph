@@ -3532,38 +3532,7 @@ arab = {
 	#	primary = MLT
 	#}
 	
-	morisco = {
-		color = {30 100 40}
-		first_names = { 
-			Abdullah Abdulhamid Abdulkerim Ahmet Ali Bekir Cemal Enver Fevzi Fuat Halil 
-			Hasan Ibrahim Iskender Ismet Izzet Kamil Kazim Kemal 
-			Mehmet Murat Musa Mustafa Nazim Nurettin Omar Osman 
-			Nuri Rauf Rifat Selim Shukru Suleyman Urabi Yusuf Yunus Ziya
-			}
-		
-		last_names = { 
-			Elsherbiny  Elshinnawy Abdel-Dayem Elhadidy Adib Bassili Aboul-Nour Elbassiouny Aoul-Enein Elsaeid Elhousseiny Khattab Gouda Elbordiny Arafa 
-			Elsafty Elshorbagy Hasheesh Halim Tawakol Elfar Elbadry Khalil Shahin Elserafie Hakim Kira Amer Bakhoum Elmanawy Deyab Derbala Elhadidi Elbenhawy 
-			Negm Nakhla Koura Elshazly Soliman Elkhashab Elkady Hindawy Zeitoun Elgammal 
-		}
-	}
-	
-	misri = {
-		color = {0 100 40}
-		first_names = { 
-			Abdullah Abdulhamid Abdulkerim Ahmet Ali Bekir Cemal Enver Fevzi Fuat Halil 
-			Hasan Ibrahim Iskender Ismet Izzet Kamil Kazim Kemal 
-			Mehmet Murat Musa Mustafa Nazim Nurettin Omar Osman 
-			Nuri Rauf Rifat Selim Shukru Suleyman Urabi Yusuf Yunus Ziya
-			}
-		
-		last_names = { 
-			Elsherbiny  Elshinnawy Abdel-Dayem Elhadidy Adib Bassili Aboul-Nour Elbassiouny Aoul-Enein Elsaeid Elhousseiny Khattab Gouda Elbordiny Arafa 
-			Elsafty Elshorbagy Hasheesh Halim Tawakol Elfar Elbadry Khalil Shahin Elserafie Hakim Kira Amer Bakhoum Elmanawy Deyab Derbala Elhadidi Elbenhawy 
-			Negm Nakhla Koura Elshazly Soliman Elkhashab Elkady Hindawy Zeitoun Elgammal 
-		}
-	}
-	
+	#Levantine Arabic
 	levantine = {
 		color = {10 120 60}
 		first_names = { 
@@ -3583,6 +3552,8 @@ arab = {
 		}
 		radicalism = 10
 	}
+	
+	#Mesopotamian Arabic
 	mashriqi = {
 		color = {20 140 80}
 		first_names = { 
@@ -3602,6 +3573,7 @@ arab = {
 		}
 		radicalism = 10
 	}
+	
 	khuzestani = {
 		color = {25 150 90}
 		first_names = { 
@@ -3621,6 +3593,8 @@ arab = {
 		}
 		radicalism = 10
 	}
+	
+	#Peninsular Arabic
 	gulf_arabic = {
 		color = {30 160 100}
 		first_names = { 
@@ -3640,6 +3614,7 @@ arab = {
 		}
 		radicalism = 10
 	}
+	
 	najdi_arabic = {
 		color = {40 180 120}
 		first_names = { 
@@ -3659,6 +3634,7 @@ arab = {
 		}
 		radicalism = 10
 	}
+	
 	hejazi_arabic = {
 		color = {5 115 55}
 		first_names = { 
@@ -3678,6 +3654,7 @@ arab = {
 		}
 		radicalism = 10
 	}
+	
 	yemeni_arabic = {
 		color = {15 125 75}
 		first_names = { 
@@ -3697,6 +3674,27 @@ arab = {
 		}
 		radicalism = 10
 	}
+	
+	bedouin = {
+		color = {30 140 40}
+		first_names = { 
+			"Abd Allah" "Abd al-Karim" "Abd al-Malik" "Abd al-Qadir" "Abd al-Rahman" "Abu Bakr" Ahmad Ali 
+			Fawzi Fuad Halil Hasan Hisham Ibrahim Ishaq Iskandar Ja'far Jamal Kamil Khalid 
+			Muhammad Mustafa "Nur al-Din" "Sa'd al-Din" Salim  Sa'ud Shukri
+			Tawfiq Umar Uthman Yahya Yusuf Zafir 		
+			}
+		
+		last_names = { 
+			"ibn Abd Allah" "ibn Abd al-Qadir" "ibn Abu Bakr" "ibn Ahmad" "ibn Ali"
+			"ibn Fuad" "ibn Halil" "ibn Hasan" "ibn Hisham" "ibn Ishaq" "ibn Ja'far" "ibm Kamil" "ibn Khalid" 
+			"ibn Muhammad" "ibn Mustafa" "ibn Salim"  
+			"ibn Umar" "ibn Uthman" "ibn Yusuf"
+			"al-Najdi" "al-Hijazi"   
+		}
+		radicalism = 10
+	}
+	
+	#Judeo Arabic dialects
 	judeo_arabic = {
 		color = {100 145 80}
 		first_names = { 
@@ -3716,28 +3714,10 @@ arab = {
 		}
 		radicalism = 10
 	}
-	libi = {
-		color = {0 95 50}
-		first_names = { 
-			"Abd Allah" "Abd al-Karim" "Abd al-Malik" "Abd al-Qadir" "Abd al-Rahman" Ahmad Ali 
-			Fawzi Fuad Halil Hasan Hisham Ibrahim Ishaq Iskandar Jamal Kamil Khalid Mahmud
-			Muhammad Mustafa "Nur al-Din" "Sa'd al-Din" Salim Shukri
-			Tawfiq Umar Uthman Yahya Yusuf Zafir 		
-			}
-		
-		last_names = { 
-			"al-Annabi" "al-Araishi" "al-Asfawi" "al-Binzarti" "al-Fasi" "al-Gharyani"
-			"al-Jaza'iri" "al-Miknasi" "al-Misurati" "al-Murrakushi" "al-Qabisi" "al-Qayrawani" "al-Ribati" "al-Safaqisi"
-			"al-Silawi" "al-Sirti" "al-Susawi" "al-Tilimsani" "al-Tanjawi" "al-Tatwani" "al-Trablusi" "al-Tunusi" 
-			"al-Wahrani" "al-Warqali" "al-Wujdi"
-			"ibn Abd Allah" "ibn Abd al-Qadir" "ibn Abu Bakr" "ibn Ahmad" "ibn Ali"
-			"ibn Fuad" "ibn Halil" "ibn Hasan" "ibn Hisham" "ibn Ishaq" "ibn Ja'far" "ibm Kamil" "ibn Khalid" 
-			"ibn Muhammad" "ibn Mustafa" "ibn Salim"   
-			"ibn Umar" "ibn Uthman" "ibn Yusuf"  
-			}
-		}
+	
+	#Maghrebi Arabic		
 	tunesian_arabic = {
-		color = {0 85 40}
+		color = {0 115 40}
 		first_names = { 
 			"Abd Allah" "Abd al-Karim" "Abd al-Malik" "Abd al-Qadir" "Abd al-Rahman" Ahmad Ali 
 			Fawzi Fuad Halil Hasan Hisham Ibrahim Ishaq Iskandar Jamal Kamil Khalid Mahmud
@@ -3756,8 +3736,9 @@ arab = {
 			"ibn Umar" "ibn Uthman" "ibn Yusuf"  
 			}
 		}
+		
 	algerian_arabic = {
-		color = {0 75 30}
+		color = {10 95 20}
 		first_names = { 
 			"Abd Allah" "Abd al-Karim" "Abd al-Malik" "Abd al-Qadir" "Abd al-Rahman" Ahmad Ali 
 			Fawzi Fuad Halil Hasan Hisham Ibrahim Ishaq Iskandar Jamal Kamil Khalid Mahmud
@@ -3776,6 +3757,7 @@ arab = {
 			"ibn Umar" "ibn Uthman" "ibn Yusuf"  
 			}
 		}
+		
 	maghrebi = {
 		color = {0 65 20}
 		first_names = { 
@@ -3796,8 +3778,9 @@ arab = {
 			"ibn Umar" "ibn Uthman" "ibn Yusuf"  
 			}
 		}
+		
 	saharan_arabic = {
-		color = {0 55 10}
+		color = {0 75 10}
 		first_names = { 
 			"Abd Allah" "Abd al-Karim" "Abd al-Malik" "Abd al-Qadir" "Abd al-Rahman" Ahmad Ali 
 			Fawzi Fuad Halil Hasan Hisham Ibrahim Ishaq Iskandar Jamal Kamil Khalid Mahmud
@@ -3824,6 +3807,162 @@ arab = {
 		last_names = { Ziyad al-Rahman Firnas al-Majriti al-Zahrawi al-Zarqali Bajjah Zuhr al-Idrisi Tufail Rushd al-Baitar Battuta Khaldon al-Qalasadi 
 		}
 	}
+	
+	#Pre-Hilalian Maghrebi
+	siqilli = {
+		color = {20 80 10}
+		first_names = { "Ibn Muhammad" Abdullah "Abbas said" Ismail Mansur Rahman Jawhar Abdallahi Hassan Malusi Tahir Wiraj Amsalu Nijam Bakri
+		}
+
+		last_names = { Ahmad Ali Zubayr Digna Azrak Hammuda al-Tasashi Nujumi "al-Siqilli"
+		}
+		radicalism = 10
+	}
+	
+	urban_maghrebi = {
+		color = {40 90 50}
+	    first_names = { 
+			"Abd Allah" "Abd al-Karim" "Abd al-Malik" "Abd al-Qadir" "Abd al-Rahman" Ahmad Ali 
+			Fawzi Fuad Halil Hasan Hisham Ibrahim Ishaq Iskandar Jamal Kamil Khalid Mahmud
+			Muhammad Mustafa "Nur al-Din" "Sa'd al-Din" Salim Shukri
+			Tawfiq Umar Uthman Yahya Yusuf Zafir 		
+			}
+		
+		last_names = { 
+			"al-Annabi" "al-Araishi" "al-Asfawi" "al-Binzarti" "al-Fasi" "al-Gharyani"
+			"al-Jaza'iri" "al-Miknasi" "al-Misurati" "al-Murrakushi" "al-Qabisi" "al-Qayrawani" "al-Ribati" "al-Safaqisi"
+			"al-Silawi" "al-Sirti" "al-Susawi" "al-Tilimsani" "al-Tanjawi" "al-Tatwani" "al-Trablusi" "al-Tunusi" 
+			"al-Wahrani" "al-Warqali" "al-Wujdi"
+			"ibn Abd Allah" "ibn Abd al-Qadir" "ibn Abu Bakr" "ibn Ahmad" "ibn Ali"
+			"ibn Fuad" "ibn Halil" "ibn Hasan" "ibn Hisham" "ibn Ishaq" "ibn Ja'far" "ibm Kamil" "ibn Khalid" 
+			"ibn Muhammad" "ibn Mustafa" "ibn Salim"   
+			"ibn Umar" "ibn Uthman" "ibn Yusuf"  
+			}
+	}
+	
+	sahili = {
+		color = {40 100 30}
+	    first_names = { 
+			"Abd Allah" "Abd al-Karim" "Abd al-Malik" "Abd al-Qadir" "Abd al-Rahman" Ahmad Ali 
+			Fawzi Fuad Halil Hasan Hisham Ibrahim Ishaq Iskandar Jamal Kamil Khalid Mahmud
+			Muhammad Mustafa "Nur al-Din" "Sa'd al-Din" Salim Shukri
+			Tawfiq Umar Uthman Yahya Yusuf Zafir 		
+			}
+		
+		last_names = { 
+			"al-Annabi" "al-Araishi" "al-Asfawi" "al-Binzarti" "al-Fasi" "al-Gharyani"
+			"al-Jaza'iri" "al-Miknasi" "al-Misurati" "al-Murrakushi" "al-Qabisi" "al-Qayrawani" "al-Ribati" "al-Safaqisi"
+			"al-Silawi" "al-Sirti" "al-Susawi" "al-Tilimsani" "al-Tanjawi" "al-Tatwani" "al-Trablusi" "al-Tunusi" 
+			"al-Wahrani" "al-Warqali" "al-Wujdi"
+			"ibn Abd Allah" "ibn Abd al-Qadir" "ibn Abu Bakr" "ibn Ahmad" "ibn Ali"
+			"ibn Fuad" "ibn Halil" "ibn Hasan" "ibn Hisham" "ibn Ishaq" "ibn Ja'far" "ibm Kamil" "ibn Khalid" 
+			"ibn Muhammad" "ibn Mustafa" "ibn Salim"   
+			"ibn Umar" "ibn Uthman" "ibn Yusuf"  
+			}
+	}
+	
+	jebli = {
+		color = {20 100 70}
+	    first_names = { 
+			"Abd Allah" "Abd al-Karim" "Abd al-Malik" "Abd al-Qadir" "Abd al-Rahman" Ahmad Ali 
+			Fawzi Fuad Halil Hasan Hisham Ibrahim Ishaq Iskandar Jamal Kamil Khalid Mahmud
+			Muhammad Mustafa "Nur al-Din" "Sa'd al-Din" Salim Shukri
+			Tawfiq Umar Uthman Yahya Yusuf Zafir 		
+			}
+		
+		last_names = { 
+			"al-Annabi" "al-Araishi" "al-Asfawi" "al-Binzarti" "al-Fasi" "al-Gharyani"
+			"al-Jaza'iri" "al-Miknasi" "al-Misurati" "al-Murrakushi" "al-Qabisi" "al-Qayrawani" "al-Ribati" "al-Safaqisi"
+			"al-Silawi" "al-Sirti" "al-Susawi" "al-Tilimsani" "al-Tanjawi" "al-Tatwani" "al-Trablusi" "al-Tunusi" 
+			"al-Wahrani" "al-Warqali" "al-Wujdi"
+			"ibn Abd Allah" "ibn Abd al-Qadir" "ibn Abu Bakr" "ibn Ahmad" "ibn Ali"
+			"ibn Fuad" "ibn Halil" "ibn Hasan" "ibn Hisham" "ibn Ishaq" "ibn Ja'far" "ibm Kamil" "ibn Khalid" 
+			"ibn Muhammad" "ibn Mustafa" "ibn Salim"   
+			"ibn Umar" "ibn Uthman" "ibn Yusuf"  
+			}
+	}
+	
+	jejili = {
+		color = {10 100 40}
+	    first_names = { 
+			"Abd Allah" "Abd al-Karim" "Abd al-Malik" "Abd al-Qadir" "Abd al-Rahman" Ahmad Ali 
+			Fawzi Fuad Halil Hasan Hisham Ibrahim Ishaq Iskandar Jamal Kamil Khalid Mahmud
+			Muhammad Mustafa "Nur al-Din" "Sa'd al-Din" Salim Shukri
+			Tawfiq Umar Uthman Yahya Yusuf Zafir 		
+			}
+		
+		last_names = { 
+			"al-Annabi" "al-Araishi" "al-Asfawi" "al-Binzarti" "al-Fasi" "al-Gharyani"
+			"al-Jaza'iri" "al-Miknasi" "al-Misurati" "al-Murrakushi" "al-Qabisi" "al-Qayrawani" "al-Ribati" "al-Safaqisi"
+			"al-Silawi" "al-Sirti" "al-Susawi" "al-Tilimsani" "al-Tanjawi" "al-Tatwani" "al-Trablusi" "al-Tunusi" 
+			"al-Wahrani" "al-Warqali" "al-Wujdi"
+			"ibn Abd Allah" "ibn Abd al-Qadir" "ibn Abu Bakr" "ibn Ahmad" "ibn Ali"
+			"ibn Fuad" "ibn Halil" "ibn Hasan" "ibn Hisham" "ibn Ishaq" "ibn Ja'far" "ibm Kamil" "ibn Khalid" 
+			"ibn Muhammad" "ibn Mustafa" "ibn Salim"   
+			"ibn Umar" "ibn Uthman" "ibn Yusuf"  
+			}
+	}
+	
+	wahrani = { #Trara-Arabic
+		color = {10 70 30}
+	    first_names = { 
+			"Abd Allah" "Abd al-Karim" "Abd al-Malik" "Abd al-Qadir" "Abd al-Rahman" Ahmad Ali 
+			Fawzi Fuad Halil Hasan Hisham Ibrahim Ishaq Iskandar Jamal Kamil Khalid Mahmud
+			Muhammad Mustafa "Nur al-Din" "Sa'd al-Din" Salim Shukri
+			Tawfiq Umar Uthman Yahya Yusuf Zafir 		
+			}
+		
+		last_names = { 
+			"al-Annabi" "al-Araishi" "al-Asfawi" "al-Binzarti" "al-Fasi" "al-Gharyani"
+			"al-Jaza'iri" "al-Miknasi" "al-Misurati" "al-Murrakushi" "al-Qabisi" "al-Qayrawani" "al-Ribati" "al-Safaqisi"
+			"al-Silawi" "al-Sirti" "al-Susawi" "al-Tilimsani" "al-Tanjawi" "al-Tatwani" "al-Trablusi" "al-Tunusi" 
+			"al-Wahrani" "al-Warqali" "al-Wujdi"
+			"ibn Abd Allah" "ibn Abd al-Qadir" "ibn Abu Bakr" "ibn Ahmad" "ibn Ali"
+			"ibn Fuad" "ibn Halil" "ibn Hasan" "ibn Hisham" "ibn Ishaq" "ibn Ja'far" "ibm Kamil" "ibn Khalid" 
+			"ibn Muhammad" "ibn Mustafa" "ibn Salim"   
+			"ibn Umar" "ibn Uthman" "ibn Yusuf"  
+			}
+	}
+	
+	#Andalusian Arabic
+	algaravian = {
+		color = {20 120 30}
+	    first_names = { 
+			"Abd Allah" "Abd al-Karim" "Abd al-Malik" "Abd al-Qadir" "Abd al-Rahman" Ahmad Ali 
+			Fawzi Fuad Halil Hasan Hisham Ibrahim Ishaq Iskandar Jamal Kamil Khalid Mahmud
+			Muhammad Mustafa "Nur al-Din" "Sa'd al-Din" Salim Shukri
+			Tawfiq Umar Uthman Yahya Yusuf Zafir 		
+			}
+		
+		last_names = { 
+			"al-Annabi" "al-Araishi" "al-Asfawi" "al-Binzarti" "al-Fasi" "al-Gharyani"
+			"al-Jaza'iri" "al-Miknasi" "al-Misurati" "al-Murrakushi" "al-Qabisi" "al-Qayrawani" "al-Ribati" "al-Safaqisi"
+			"al-Silawi" "al-Sirti" "al-Susawi" "al-Tilimsani" "al-Tanjawi" "al-Tatwani" "al-Trablusi" "al-Tunusi" 
+			"al-Wahrani" "al-Warqali" "al-Wujdi"
+			"ibn Abd Allah" "ibn Abd al-Qadir" "ibn Abu Bakr" "ibn Ahmad" "ibn Ali"
+			"ibn Fuad" "ibn Halil" "ibn Hasan" "ibn Hisham" "ibn Ishaq" "ibn Ja'far" "ibm Kamil" "ibn Khalid" 
+			"ibn Muhammad" "ibn Mustafa" "ibn Salim"   
+			"ibn Umar" "ibn Uthman" "ibn Yusuf"  
+			}
+	}
+	
+	morisco = {
+		color = {30 100 40}
+		first_names = { 
+			Abdullah Abdulhamid Abdulkerim Ahmet Ali Bekir Cemal Enver Fevzi Fuat Halil 
+			Hasan Ibrahim Iskender Ismet Izzet Kamil Kazim Kemal 
+			Mehmet Murat Musa Mustafa Nazim Nurettin Omar Osman 
+			Nuri Rauf Rifat Selim Shukru Suleyman Urabi Yusuf Yunus Ziya
+			}
+		
+		last_names = { 
+			Elsherbiny  Elshinnawy Abdel-Dayem Elhadidy Adib Bassili Aboul-Nour Elbassiouny Aoul-Enein Elsaeid Elhousseiny Khattab Gouda Elbordiny Arafa 
+			Elsafty Elshorbagy Hasheesh Halim Tawakol Elfar Elbadry Khalil Shahin Elserafie Hakim Kira Amer Bakhoum Elmanawy Deyab Derbala Elhadidi Elbenhawy 
+			Negm Nakhla Koura Elshazly Soliman Elkhashab Elkady Hindawy Zeitoun Elgammal 
+		}
+	}
+	
+	#Peripheral Arabic
 	arab_khorasani = {
 		color = {40 140 95}
 		first_names = { 
@@ -3860,6 +3999,24 @@ arab = {
 			"ibn Umar" "ibn Uthman" "ibn Yusuf"  
 		}
 	}
+	
+	#Egyptian Arabic
+	misri = {
+		color = {0 100 40}
+		first_names = { 
+			Abdullah Abdulhamid Abdulkerim Ahmet Ali Bekir Cemal Enver Fevzi Fuat Halil 
+			Hasan Ibrahim Iskender Ismet Izzet Kamil Kazim Kemal 
+			Mehmet Murat Musa Mustafa Nazim Nurettin Omar Osman 
+			Nuri Rauf Rifat Selim Shukru Suleyman Urabi Yusuf Yunus Ziya
+			}
+		
+		last_names = { 
+			Elsherbiny  Elshinnawy Abdel-Dayem Elhadidy Adib Bassili Aboul-Nour Elbassiouny Aoul-Enein Elsaeid Elhousseiny Khattab Gouda Elbordiny Arafa 
+			Elsafty Elshorbagy Hasheesh Halim Tawakol Elfar Elbadry Khalil Shahin Elserafie Hakim Kira Amer Bakhoum Elmanawy Deyab Derbala Elhadidi Elbenhawy 
+			Negm Nakhla Koura Elshazly Soliman Elkhashab Elkady Hindawy Zeitoun Elgammal 
+		}
+	}
+	
 	saidi_arabic = {
 		color = {0 120 40}
 		first_names = { 
@@ -3878,6 +4035,18 @@ arab = {
 		}
 		radicalism = 10
 	}
+	
+	yunani = {
+		color = {100 140 40}
+		first_names = { "Ibn Muhammad" Abdullah "Abbas said" Ismail Mansur Rahman Jawhar Abdallahi Hassan Malusi Tahir Wiraj Amsalu Nijam Bakri
+		}
+
+		last_names = { Ahmad Ali Zubayr Digna Azrak Hammuda al-Tasashi Nujumi "al-Siqilli"
+		}
+		radicalism = 10
+	}
+	
+	#Sudanese Arabic
 	sudanese = {
 		color = {20 140 40}
 		first_names = { "Ibn Muhammad" Abdullah "Abbas said" Ismail Mansur Rahman Abdallahi Hassan Malusi Tahir Wiraj Amsalu Nijam Bakri
@@ -3904,65 +4073,6 @@ arab = {
 		last_names = { Ahmad Ali Zubayr Digna Azrak Hammuda al-Tasashi Nujumi
 		}
 		radicalism = 10
-	}
-	bedouin = {
-		color = {30 140 40}
-		first_names = { 
-			"Abd Allah" "Abd al-Karim" "Abd al-Malik" "Abd al-Qadir" "Abd al-Rahman" "Abu Bakr" Ahmad Ali 
-			Fawzi Fuad Halil Hasan Hisham Ibrahim Ishaq Iskandar Ja'far Jamal Kamil Khalid 
-			Muhammad Mustafa "Nur al-Din" "Sa'd al-Din" Salim  Sa'ud Shukri
-			Tawfiq Umar Uthman Yahya Yusuf Zafir 		
-			}
-		
-		last_names = { 
-			"ibn Abd Allah" "ibn Abd al-Qadir" "ibn Abu Bakr" "ibn Ahmad" "ibn Ali"
-			"ibn Fuad" "ibn Halil" "ibn Hasan" "ibn Hisham" "ibn Ishaq" "ibn Ja'far" "ibm Kamil" "ibn Khalid" 
-			"ibn Muhammad" "ibn Mustafa" "ibn Salim"  
-			"ibn Umar" "ibn Uthman" "ibn Yusuf"
-			"al-Najdi" "al-Hijazi"   
-		}
-		radicalism = 10
-	}
-	
-	siqilli = {
-		color = {20 80 10}
-		first_names = { "Ibn Muhammad" Abdullah "Abbas said" Ismail Mansur Rahman Jawhar Abdallahi Hassan Malusi Tahir Wiraj Amsalu Nijam Bakri
-		}
-
-		last_names = { Ahmad Ali Zubayr Digna Azrak Hammuda al-Tasashi Nujumi "al-Siqilli"
-		}
-		radicalism = 10
-	}
-	
-	yunani = {
-		color = {100 140 40}
-		first_names = { "Ibn Muhammad" Abdullah "Abbas said" Ismail Mansur Rahman Jawhar Abdallahi Hassan Malusi Tahir Wiraj Amsalu Nijam Bakri
-		}
-
-		last_names = { Ahmad Ali Zubayr Digna Azrak Hammuda al-Tasashi Nujumi "al-Siqilli"
-		}
-		radicalism = 10
-	}
-	
-	algaravian = {
-		color = {20 120 30}
-	    first_names = { 
-			"Abd Allah" "Abd al-Karim" "Abd al-Malik" "Abd al-Qadir" "Abd al-Rahman" Ahmad Ali 
-			Fawzi Fuad Halil Hasan Hisham Ibrahim Ishaq Iskandar Jamal Kamil Khalid Mahmud
-			Muhammad Mustafa "Nur al-Din" "Sa'd al-Din" Salim Shukri
-			Tawfiq Umar Uthman Yahya Yusuf Zafir 		
-			}
-		
-		last_names = { 
-			"al-Annabi" "al-Araishi" "al-Asfawi" "al-Binzarti" "al-Fasi" "al-Gharyani"
-			"al-Jaza'iri" "al-Miknasi" "al-Misurati" "al-Murrakushi" "al-Qabisi" "al-Qayrawani" "al-Ribati" "al-Safaqisi"
-			"al-Silawi" "al-Sirti" "al-Susawi" "al-Tilimsani" "al-Tanjawi" "al-Tatwani" "al-Trablusi" "al-Tunusi" 
-			"al-Wahrani" "al-Warqali" "al-Wujdi"
-			"ibn Abd Allah" "ibn Abd al-Qadir" "ibn Abu Bakr" "ibn Ahmad" "ibn Ali"
-			"ibn Fuad" "ibn Halil" "ibn Hasan" "ibn Hisham" "ibn Ishaq" "ibn Ja'far" "ibm Kamil" "ibn Khalid" 
-			"ibn Muhammad" "ibn Mustafa" "ibn Salim"   
-			"ibn Umar" "ibn Uthman" "ibn Yusuf"  
-			}
 	}
 	
 	swahili_arabic = {
@@ -4148,9 +4258,11 @@ amazigh = {
 			}
 		radicalism = 10
 	}
-	#Northern Berber
-	jbali = {
-		color = {50 75 50}
+	
+	#Northern Berber  
+	#Kabyle
+	kabyle = {
+		color = {100 55 100}
 		first_names = {
 			Ahmed "Abd al-Karim" Khalid Muhammad Mustafa  
 			}
@@ -4160,29 +4272,9 @@ amazigh = {
 			}
 		radicalism = 10
 	}
-	mzab_ourgla = {
-		color = {60 85 60}
-		first_names = {
-			Ahmed "Abd al-Karim" Khalid Muhammad Mustafa  
-			}
-		
-		last_names = {
-			"al-Jazuli" Belkadi Mukrani "al-Rifi" "al-Sahrawi" "al-Shawiyyati" "al-Shiluhi" "al-Zanatawi"
-			}
-		radicalism = 10
-	}
-	tacawit = {
-		color = {70 95 70}
-		first_names = {
-			Ahmed "Abd al-Karim" Khalid Muhammad Mustafa  
-			}
-		
-		last_names = {
-			"al-Jazuli" Belkadi Mukrani "al-Rifi" "al-Sahrawi" "al-Shawiyyati" "al-Shiluhi" "al-Zanatawi"
-			}
-		radicalism = 10
-	}
-	haqbaylit = {
+	
+	#Zenati Berber
+	haqbaylit = { #Zenati Dialects of Western Algeria
 		color = {80 105 80}
 		first_names = {
 			Ahmed "Abd al-Karim" Khalid Muhammad Mustafa  
@@ -4193,18 +4285,9 @@ amazigh = {
 			}
 		radicalism = 10
 	}
-	seghrusheni = { #Zenati
-		color = {90 115 90}
-		first_names = {
-			Ahmed "Abd al-Karim" Khalid Muhammad Mustafa  
-			}
-		
-		last_names = {
-			"al-Jazuli" Belkadi Mukrani "al-Rifi" "al-Sahrawi" "al-Shawiyyati" "al-Shiluhi" "al-Zanatawi"
-			}
-		radicalism = 10
-	}
-	riffian = {
+	
+	
+	riffian = { #Zanati Berber dialects 
 		color = {100 125 100}
 		first_names = {
 			Ahmed "Abd al-Karim" Khalid Muhammad Mustafa  
@@ -4215,6 +4298,55 @@ amazigh = {
 			}
 		radicalism = 10
 	}
+	
+	seghrusheni = { #Central Atlas Zenati
+		color = {90 115 90}
+		first_names = {
+			Ahmed "Abd al-Karim" Khalid Muhammad Mustafa  
+			}
+		
+		last_names = {
+			"al-Jazuli" Belkadi Mukrani "al-Rifi" "al-Sahrawi" "al-Shawiyyati" "al-Shiluhi" "al-Zanatawi"
+			}
+		radicalism = 10
+	}
+	
+	tacawit = { #Algerian Shawiya
+		color = {100 125 100}
+		first_names = {
+			Ahmed "Abd al-Karim" Khalid Muhammad Mustafa  
+			}
+		
+		last_names = {
+			"al-Jazuli" Belkadi Mukrani "al-Rifi" "al-Sahrawi" "al-Shawiyyati" "al-Shiluhi" "al-Zanatawi"
+			}
+		radicalism = 10
+	}
+	
+	mzab_ourgla = { #Saharan Zenati
+		color = {60 85 60}
+		first_names = {
+			Ahmed "Abd al-Karim" Khalid Muhammad Mustafa  
+			}
+		
+		last_names = {
+			"al-Jazuli" Belkadi Mukrani "al-Rifi" "al-Sahrawi" "al-Shawiyyati" "al-Shiluhi" "al-Zanatawi"
+			}
+		radicalism = 10
+	}
+	
+	jbali = { #East Zenati
+		color = {50 75 50}
+		first_names = {
+			Ahmed "Abd al-Karim" Khalid Muhammad Mustafa  
+			}
+		
+		last_names = {
+			"al-Jazuli" Belkadi Mukrani "al-Rifi" "al-Sahrawi" "al-Shawiyyati" "al-Shiluhi" "al-Zanatawi"
+			}
+		radicalism = 10
+	}
+	
 	#Atlas Berber
 	atlas_berber = { #Tamazight
 		color = {100 75 50}
@@ -4240,6 +4372,30 @@ amazigh = {
 		radicalism = 10
 	}
 	
+	senhajiyya = { #Senhaja de Srair
+		color = {120 85 50}
+		first_names = {
+			Ahmed "Abd al-Karim" Khalid Muhammad Mustafa  
+			}
+		
+		last_names = {
+			"al-Jazuli" Belkadi Mukrani "al-Rifi" "al-Sahrawi" "al-Shawiyyati" "al-Shiluhi" "al-Zanatawi"
+			}
+		radicalism = 10
+	}
+	
+	ghomara = { #Ghomara
+		color = {100 85 50}
+		first_names = {
+			Ahmed "Abd al-Karim" Khalid Muhammad Mustafa  
+			}
+		
+		last_names = {
+			"al-Jazuli" Belkadi Mukrani "al-Rifi" "al-Sahrawi" "al-Shawiyyati" "al-Shiluhi" "al-Zanatawi"
+			}
+		radicalism = 10
+	}
+	
 	judeo_berber = {
 		color = {100 70 10}
 		first_names = { Abraham Amos Baruch Binyamin Daniel David Efraim Ehud Eli Eliezer Elijah Gavriel Hebel Immanuel Itzhak Levi Mattiyahu Mensahe Mikhael Moshe 
@@ -4250,18 +4406,7 @@ amazigh = {
 		Sassoon Sebag
 		}
 	}
-	#Kabyle
-	kabyle = {
-		color = {100 55 100}
-		first_names = {
-			Ahmed "Abd al-Karim" Khalid Muhammad Mustafa  
-			}
-		
-		last_names = {
-			"al-Jazuli" Belkadi Mukrani "al-Rifi" "al-Sahrawi" "al-Shawiyyati" "al-Shiluhi" "al-Zanatawi"
-			}
-		radicalism = 10
-	}
+	
 	#Tamasheq
 	tuareg = {
 		color = {80 125 180}
@@ -4271,6 +4416,8 @@ amazigh = {
 		last_names = { "ag Sidi" al-Hajj "ag Muhammad" "ag Amellal" "ag Amastan" 
 		}
 	}
+	
+	#Western
 	#Zenega
 	tuzzungiyya = {
 		color = {80 75 140}
@@ -4280,6 +4427,7 @@ amazigh = {
 		last_names = { "ag Sidi" al-Hajj "ag Muhammad" "ag Amellal" "ag Amastan" 
 		}
 	}
+	
 	#Guanche
 	guanche = {
 		color = {80 155 80}
