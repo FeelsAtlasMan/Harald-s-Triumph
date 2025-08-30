@@ -316,6 +316,8 @@ country_event = {
 	
 	trigger = {
 	    tag = ABB
+		owns = 848
+		owns = 855
 		EGY_843 = { average_militancy = 8 }
 		TUR_855 = { average_militancy = 8 }
 		has_global_flag = greek_revolution
@@ -323,8 +325,6 @@ country_event = {
 	
 	option = {
 		name = "We need to put these traitors into their place!"
-		EGY_843 = { any_pop = { limited = { has_pop_religion = sunni } reduce_pop = 0.1 } }
-		TUR_855 = { any_pop = { limited = { has_pop_religion = sunni } reduce_pop = 0.1 } }
 		release = CYP
 		release = CRE
 		casus_belli = {
