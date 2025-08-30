@@ -7,11 +7,11 @@ leader = {
 	type = land
 	personality = harsh
 	background = generals_aide
-	prestige = 0.2
+	prestige = 0.3
 }
 
 leader = {
-	name = "Rafaella de Cosa"
+	name = "Abart Sayd"
 	date = 1836.1.1
 	type = sea
 	personality = gallant
@@ -19,7 +19,7 @@ leader = {
 }
 
 leader = {
-	name = "Francesco Mendoza"
+	name = "Rafaell de Cosa"
 	date = 1830.1.1
 	type = land
 	personality = arrogant
@@ -28,7 +28,7 @@ leader = {
 }
 
 leader = {
-	name = "Leopoldo di Borbone"
+	name = "Leopoldu de la Torre"
 	date = 1809.1.1
 	type = land
 	personality = calm
@@ -37,7 +37,7 @@ leader = {
 }
 
 leader = {
-	name = "Paolo Ruffo"
+	name = "Petros Tsafakis"
 	date = 1836.1.1
 	type = land
 	personality = diplomatic
@@ -45,7 +45,7 @@ leader = {
 }
 
 leader = {
-	name = "Ferdinand II"
+	name = "Paulu Ruffo"
 	date = 1820.1.1
 	type = land
 	personality = bigoted
@@ -54,7 +54,7 @@ leader = {
 }
 
 army = {
-	name = "Garde Normande"
+	name = "Armée Hautevillienne"
 	location = 762
 	regiment = {
 		name= "1. Garde de Palerme"
@@ -81,7 +81,7 @@ army = {
 	}
 
 	regiment = {
-		name= "1.Cavalerie de Catane"
+		name= "1. Cavalerie de Catane"
 		type = cuirassier
 		home = 764
 	}
@@ -107,7 +107,7 @@ navy = {
 	name = "Marine de Sicile"
 	location = 762
 	ship = {
-		name= "Ferdinando II"
+		name= "Tancredu"
 		type = commerce_raider
 	}
 
@@ -117,37 +117,37 @@ navy = {
 	}
 
 	ship = {
-		name= "Regina Isabella"
+		name= "Isabella"
 		type = frigate
 	}
 
 	ship = {
-		name= "Principe Carlo"
+		name= "Guiscard"
 		type = frigate
 	}
 
 	ship = {
-		name= "Partenope"
+		name= "Trinacria"
 		type = frigate
 	}
 
 	ship = {
-		name= "Caracciolo"
+		name= "Caracqolu"
 		type = frigate
 	}
 
 	ship = {
-		name= "1a Squadrone Transporti"
+		name= "I. Esquadru de Transport"
 		type = clipper_transport
 	}
 
 	ship = {
-		name= "2a Squadrone Transporti"
+		name= "II. Esquadru de Transport"
 		type = clipper_transport
 	}
 
 	ship = {
-		name= "3a Squadrone Transporti"
+		name= "III. Esquadru de Transport"
 		type = clipper_transport
 	}
 
