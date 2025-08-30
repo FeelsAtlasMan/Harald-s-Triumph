@@ -9,23 +9,36 @@ political_decisions = {
 		allow = {
 			war_policy = jingoism
 			is_greater_power = yes
-			OR = {
-				nationalism_n_imperialism = 1
-				prestige = 150
-			}
+			nationalism_n_imperialism = 1
+			prestige = 150
+			military_score = 100
 			war = no
 		}
 		effect = {
+			badboy = 20
 			set_country_flag = greater_FRA
-			LOR = {
-				all_core = {
-					add_core = THIS
-				}
-			}
+			FRA_411 = { add_core = THIS }
 			FRA_432 = { add_core = THIS }
 			FRA_467 = { add_core = THIS }
+			FRA_451 = { add_core = THIS }
+			FRA_452 = { add_core = THIS }
+			FRA_409 = { add_core = THIS }
 			add_core = 453
 			add_core = 472
+			add_core = 3693
+			add_core = 404
+			#No cores on Baden over the Rhine
+			586 = { remove_core = THIS }
+			587 = { remove_core = THIS }
+			#Minus Basel too
+			604 = { remove_core = THIS }
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				badboy = 0.8
+			}
 		}
 	}
 	
