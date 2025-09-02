@@ -1,0 +1,107 @@
+capital = 488
+primary_culture = navarromance
+religion = catholic
+government = absolute_monarchy
+plurality = 25.0
+nationalvalue = nv_order
+literacy = 0.13
+non_state_culture_literacy = 0.01
+civilized = yes
+prestige = 3
+
+# Political reforms
+slavery = no_slavery
+upper_house_composition = appointed
+vote_franschise = none_voting
+public_meetings = no_meeting
+press_rights = state_press
+trade_unions = no_trade_unions
+voting_system = jefferson_method
+political_parties = underground_parties
+
+# Social Reforms
+wage_reform = no_minimum_wage
+work_hours = no_work_hour_limit
+safety_regulations = no_safety
+health_care = no_health_care
+unemployment_subsidies = no_subsidies
+pensions = no_pensions 
+school_reforms = no_schools
+
+# New Reforms
+conscription = two_year_draft
+debt_law = serfdom
+penal_system = capital_punishment
+child_labor = child_labor_legal
+citizens_rights = culture_voting_only
+border_policy = open_borders
+centralization = regionalism
+colonial_policy = civilizing
+
+set_country_flag = catholic_country
+
+ruling_party = SPA_conservative
+last_election = 1835.1.1
+upper_house = {
+	fascist = 0
+	liberal = 15
+	conservative = 40
+	reactionary = 40
+	anarcho_liberal = 5
+	socialist = 0
+	communist = 0
+}
+
+#Unciv Technologies
+early_classical_theory_and_critique = 1 #Currency
+late_classical_theory = 1
+#malthusian_thought = 1 #Universities
+#positivism = 1
+#enlightenment_thought = 1
+#piston_steam_engine = 1 #Steam Power
+#high_pressure_steam_engine = 1
+#mechanized_mining = 1 #Land
+#freedom_of_trade = 1
+no_standard = 1 #Legislative
+#ad_hoc_money_bill_printing = 1
+#private_banks = 1 #Finance 
+#stock_exchange = 1
+#late_enlightenment_philosophy = 1 #Basic Education
+#basic_chemistry = 1
+#experimental_railroad = 1 #Railroads
+#early_railroad = 1
+guild_based_production = 1 #Industrialisation
+#organized_factories = 1
+mechanical_production = 1 #Machinery
+#interchangeable_parts = 1
+
+flintlock_rifles = 1 #Foreign Weapons
+#muzzle_loaded_rifles = 1
+post_napoleonic_thought = 1 #Fortification
+#strategic_mobility = 1
+military_staff_system = 1 #Officier Training
+#military_plans = 1
+army_command_principle = 1 #Army Training
+#army_professionalism = 1
+#alphabetic_flag_signaling = 1 #Naval Officiers
+#naval_plans = 1 
+#naval_design_bureaus = 1
+#clipper_design = 1 #Foreign Ships
+#steamers = 1
+#the_command_principle = 1 #Naval Training
+#naval_professionalism = 1
+#post_nelsonian_thought = 1 #Shipyards
+#battleship_column_doctrine = 1
+bronze_muzzle_loaded_artillery = 1 #Artillery
+#iron_muzzle_loaded_artillery = 1
+
+#Inventions
+#corvettes = yes
+
+# Starting Consciousness
+consciousness = 3
+nonstate_consciousness = 1
+
+oob = "CST_oob.txt"
+
+
