@@ -1,5 +1,6 @@
 capital = 1602
 primary_culture = bai
+culture = lama_bai
 culture = s_mandarin
 religion = mahayana
 government = french_bourbon
@@ -49,20 +50,12 @@ upper_house = {
 	communist = 0
 }
 
+
+govt_flag = {
+	government = french_bourbon
+	flag = theocracy
+}
+
 # Starting Consciousness
 consciousness = 0
 nonstate_consciousness = 0
-
-1861.1.1 = {
-
-foreign_weapons = yes_foreign_weapons
-
-# Technologies
-flintlock_rifles = 1
-
-# Inventions
-##bottling_process = yes
-modern_winemaking = yes
-
-}
-
