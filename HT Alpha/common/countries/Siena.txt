@@ -1,4 +1,5 @@
-color = { 2 2 124 }
+color = { 2 79 190 }
+#color = { 2 2 124 }
 graphical_culture = ItalianGC
 
 party = {
@@ -98,8 +99,8 @@ party = {
 
 	ideology = anarcho_liberal
 
-	social_policy = no_state_interference
-	economic_policy = laissez_faire
+	social_policy = no_position_set
+	economic_policy = interventionism
 	trade_policy = free_trade
 	religious_policy = pro_atheism
 	citizenship_policy = full_citizenship
